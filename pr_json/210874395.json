@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-25T00:17:18Z",
-    "updated_at": "2018-08-25T00:17:22Z",
+    "updated_at": "2018-08-25T14:05:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1bf7c2c08e335f90de676a95a1061367ba0371c0",
+    "merge_commit_sha": "cb1f224cab45ebe8e39b1c1606619ba1b9455b3f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/esda-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/esda-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/esda-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/esda-feedstock/statuses/c6f3c8b8f8cbc669fd628943ef65340afd82ee17",
+    "statuses_url": "https://api.github.com/repos/conda-forge/esda-feedstock/statuses/f38d316a31f96ab97e7a2aa5e81c87e971cd35e5",
     "head": {
         "label": "regro-cf-autotick-bot:2.0.0",
         "ref": "2.0.0",
-        "sha": "c6f3c8b8f8cbc669fd628943ef65340afd82ee17",
+        "sha": "f38d316a31f96ab97e7a2aa5e81c87e971cd35e5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/esda-feedstock/deployments",
             "created_at": "2018-08-25T00:17:01Z",
             "updated_at": "2018-08-25T00:17:03Z",
-            "pushed_at": "2018-08-25T00:17:17Z",
+            "pushed_at": "2018-08-25T14:04:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/esda-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/esda-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/esda-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/esda-feedstock/deployments",
             "created_at": "2018-07-30T01:07:04Z",
             "updated_at": "2018-07-31T12:14:18Z",
-            "pushed_at": "2018-08-25T00:17:18Z",
+            "pushed_at": "2018-08-25T14:04:48Z",
             "git_url": "git://github.com/conda-forge/esda-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/esda-feedstock.git",
             "clone_url": "https://github.com/conda-forge/esda-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/esda-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/esda-feedstock/statuses/c6f3c8b8f8cbc669fd628943ef65340afd82ee17"
+            "href": "https://api.github.com/repos/conda-forge/esda-feedstock/statuses/f38d316a31f96ab97e7a2aa5e81c87e971cd35e5"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 41,
-    "deletions": 23,
+    "commits": 3,
+    "additions": 43,
+    "deletions": 25,
     "changed_files": 7,
-    "Last-Modified": "Sat, 25 Aug 2018 00:17:22 GMT",
-    "ETag": "W/\"63db927bdf86f9fdcf2cdf06e4ef224c\""
+    "Last-Modified": "Sat, 25 Aug 2018 14:05:01 GMT",
+    "ETag": "W/\"5bd5fcea76e539a433fb309e4d48e572\""
 }
