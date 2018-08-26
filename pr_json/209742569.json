@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T08:14:53Z",
-    "updated_at": "2018-08-21T08:14:57Z",
+    "updated_at": "2018-08-26T04:53:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "82147ce051bf44785ab6ad9b53e0bed9f618a763",
+    "merge_commit_sha": "3fca647b86e214dcae1f00534b2ab0aa83357aa9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cement-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cement-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cement-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cement-feedstock/statuses/e0794f31036e7a032a9a6cd74f9345c06ef4d4fb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cement-feedstock/statuses/ac13557c3b8adf676f103d5a20b3226c74a8afb9",
     "head": {
         "label": "regro-cf-autotick-bot:3.0.0",
         "ref": "3.0.0",
-        "sha": "e0794f31036e7a032a9a6cd74f9345c06ef4d4fb",
+        "sha": "ac13557c3b8adf676f103d5a20b3226c74a8afb9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cement-feedstock/deployments",
             "created_at": "2018-04-13T22:47:45Z",
             "updated_at": "2018-04-13T22:47:47Z",
-            "pushed_at": "2018-08-21T08:14:53Z",
+            "pushed_at": "2018-08-26T04:53:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cement-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cement-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cement-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cement-feedstock/deployments",
             "created_at": "2016-08-31T02:43:04Z",
             "updated_at": "2018-08-04T17:37:06Z",
-            "pushed_at": "2018-08-21T08:14:54Z",
+            "pushed_at": "2018-08-26T04:53:56Z",
             "git_url": "git://github.com/conda-forge/cement-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cement-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cement-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cement-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cement-feedstock/statuses/e0794f31036e7a032a9a6cd74f9345c06ef4d4fb"
+            "href": "https://api.github.com/repos/conda-forge/cement-feedstock/statuses/ac13557c3b8adf676f103d5a20b3226c74a8afb9"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 87,
-    "deletions": 61,
+    "commits": 3,
+    "additions": 88,
+    "deletions": 62,
     "changed_files": 7,
-    "Last-Modified": "Tue, 21 Aug 2018 08:14:57 GMT",
-    "ETag": "W/\"a3f093e278350f2ba54d5d089c6d9b9f\""
+    "Last-Modified": "Sun, 26 Aug 2018 04:53:55 GMT",
+    "ETag": "W/\"22e06cdb03f9684f2eca8a52835a8442\""
 }
