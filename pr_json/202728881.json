@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|pbr|4.1.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/pbr.svg)](https://anaconda.org/conda-forge/pbr)|\n",
     "created_at": "2018-07-20T02:12:58Z",
-    "updated_at": "2018-07-20T02:13:51Z",
+    "updated_at": "2018-08-26T17:46:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6749813003dda9da35b5a2712cc0b0e2ee9bc07a",
+    "merge_commit_sha": "91e040a642a181a60befa6db228083af776ec437",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/statuses/dc0e3e4ce15ecd31fd469d639a23ba6870a2d520",
+    "statuses_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/statuses/7dce8a904bf1be7a461cf99c3e0a3b38e715304e",
     "head": {
         "label": "regro-cf-autotick-bot:1.20.0",
         "ref": "1.20.0",
-        "sha": "dc0e3e4ce15ecd31fd469d639a23ba6870a2d520",
+        "sha": "7dce8a904bf1be7a461cf99c3e0a3b38e715304e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/debtcollector-feedstock/deployments",
             "created_at": "2018-07-20T02:12:30Z",
             "updated_at": "2018-07-20T02:12:32Z",
-            "pushed_at": "2018-07-20T02:12:58Z",
+            "pushed_at": "2018-08-26T17:46:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/debtcollector-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/debtcollector-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/debtcollector-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/deployments",
             "created_at": "2016-06-28T11:42:24Z",
             "updated_at": "2018-08-04T17:20:26Z",
-            "pushed_at": "2018-08-04T17:20:24Z",
+            "pushed_at": "2018-08-26T17:46:52Z",
             "git_url": "git://github.com/conda-forge/debtcollector-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/debtcollector-feedstock.git",
             "clone_url": "https://github.com/conda-forge/debtcollector-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/statuses/dc0e3e4ce15ecd31fd469d639a23ba6870a2d520"
+            "href": "https://api.github.com/repos/conda-forge/debtcollector-feedstock/statuses/7dce8a904bf1be7a461cf99c3e0a3b38e715304e"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 163,
-    "deletions": 83,
-    "changed_files": 15,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"409bfd0cc0951d59caa6d253e465cff0\""
+    "commits": 4,
+    "additions": 470,
+    "deletions": 95,
+    "changed_files": 25,
+    "Last-Modified": "Sun, 26 Aug 2018 17:46:51 GMT",
+    "ETag": "W/\"9cf9f9361d8bc37b6bab148c3a068f16\""
 }
