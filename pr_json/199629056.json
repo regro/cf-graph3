@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/dominate-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Suggestion: add noarch",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-06T02:18:34Z",
-    "updated_at": "2018-07-06T02:18:37Z",
-    "closed_at": null,
+    "updated_at": "2018-08-26T19:14:58Z",
+    "closed_at": "2018-08-26T19:14:58Z",
     "merged_at": null,
     "merge_commit_sha": "a0954a03a2df1af6930a89701de1de1269a689ee",
     "assignee": null,
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/statuses/ff94bc7fec5c943a75e597b40471e4c80456f251",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/statuses/d1fa604fa607cc1227221e66288b7e7383324da2",
     "head": {
         "label": "regro-cf-autotick-bot:noarch_migration",
         "ref": "noarch_migration",
-        "sha": "ff94bc7fec5c943a75e597b40471e4c80456f251",
+        "sha": "d1fa604fa607cc1227221e66288b7e7383324da2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dominate-feedstock/deployments",
             "created_at": "2018-07-06T02:18:19Z",
             "updated_at": "2018-07-06T02:18:21Z",
-            "pushed_at": "2018-07-06T02:18:33Z",
+            "pushed_at": "2018-08-26T19:14:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dominate-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dominate-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dominate-feedstock.git",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/dominate-feedstock/deployments",
             "created_at": "2016-09-21T02:10:59Z",
-            "updated_at": "2018-08-04T19:27:28Z",
-            "pushed_at": "2018-08-04T19:27:27Z",
+            "updated_at": "2018-08-26T19:20:55Z",
+            "pushed_at": "2018-08-26T19:20:53Z",
             "git_url": "git://github.com/conda-forge/dominate-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dominate-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dominate-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dominate-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dominate-feedstock/statuses/ff94bc7fec5c943a75e597b40471e4c80456f251"
+            "href": "https://api.github.com/repos/conda-forge/dominate-feedstock/statuses/d1fa604fa607cc1227221e66288b7e7383324da2"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 188,
-    "deletions": 242,
+    "maintainer_can_modify": false,
+    "commits": 4,
+    "additions": 217,
+    "deletions": 256,
     "changed_files": 19,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"b319f3ae589739390d85beb3279c36d1\""
+    "Last-Modified": "Sun, 26 Aug 2018 19:14:58 GMT",
+    "ETag": "W/\"234243ddfac169c9e74511facdaf7074\""
 }
