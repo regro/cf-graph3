@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/lftp-feedstock/pull/5.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/lftp-feedstock/issues/5",
     "number": 5,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nMoving posix from host to build\nMoving `python # [win]` which was used for vc matrix\nMoving m2-bison from host to build\nMoving m2-autoconf from host to build\nMoving m2-automake{{am_version}} from host to build\nMoving m2-libtool from host to build\nRemoving {{native}}toolchain in favour of compiler()\nNot sure how to remove pinnings for {{native}}xz\nRemoving pinnings for readline to use values from conda_build_config.yaml\nRemoving pinnings for ncurses to use values from conda_build_config.yaml\nRemoving pinnings for zlib to use values from conda_build_config.yaml\nMoving m2-libreadline from host to build\nMoving m2-ncurses from host to build\nAdding C compiler with mingw for windows\nAdding C++ compiler with mingw for windows\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-24T05:06:45Z",
-    "updated_at": "2018-07-29T04:03:20Z",
-    "closed_at": null,
+    "updated_at": "2018-08-27T19:12:09Z",
+    "closed_at": "2018-08-27T19:12:09Z",
     "merged_at": null,
     "merge_commit_sha": "6053caefa8b1350bdd360fa7fff97709503d40ad",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 5,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 249,
     "deletions": 114,
     "changed_files": 19,
-    "Last-Modified": "Sun, 29 Jul 2018 04:03:20 GMT",
-    "ETag": "W/\"4f3d6ee769dca396838858a53fb806fc\""
+    "Last-Modified": "Mon, 27 Aug 2018 19:12:09 GMT",
+    "ETag": "W/\"678a90bd4ad4bfe57da6727c3f7bedfe\""
 }
