@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/httplib2-feedstock/pull/7.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/httplib2-feedstock/issues/7",
     "number": 7,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Suggestion: add noarch",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-08T11:41:19Z",
-    "updated_at": "2018-07-08T11:41:22Z",
-    "closed_at": null,
+    "updated_at": "2018-08-28T22:58:10Z",
+    "closed_at": "2018-08-28T22:58:10Z",
     "merged_at": null,
     "merge_commit_sha": "4d2f542819ff6a262f72c96d1a1c711c820ee3f6",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/httplib2-feedstock/deployments",
             "created_at": "2016-04-13T22:12:11Z",
             "updated_at": "2018-08-04T17:07:43Z",
-            "pushed_at": "2018-08-04T17:07:41Z",
+            "pushed_at": "2018-08-28T22:56:46Z",
             "git_url": "git://github.com/conda-forge/httplib2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/httplib2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/httplib2-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 6,
+            "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 6,
-            "open_issues": 1,
+            "forks": 7,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 165,
     "deletions": 271,
     "changed_files": 17,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"20ec6b0588156da94e4a7ad9dadd219f\""
+    "Last-Modified": "Tue, 28 Aug 2018 22:58:10 GMT",
+    "ETag": "W/\"08a46b78c5320ad21ef81bfa25caf5a8\""
 }
