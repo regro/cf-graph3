@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\narrow-cpp\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-28T16:17:29Z",
-    "updated_at": "2018-08-28T16:17:38Z",
+    "updated_at": "2018-08-29T14:53:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3ca4a6cbe80b8f9650233ff6006ea91edeed2c59",
+    "merge_commit_sha": "ef53986012c0bc07bf7a2d0587a2199ede0b9a6a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/statuses/739f7be1624bee87385861bdb698c00bd5a066e9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/statuses/2c1fe0fe5ca848e0ce3f5db5dc53fc1e737a12e5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "739f7be1624bee87385861bdb698c00bd5a066e9",
+        "sha": "2c1fe0fe5ca848e0ce3f5db5dc53fc1e737a12e5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/jemalloc-feedstock/deployments",
             "created_at": "2018-02-23T23:31:34Z",
             "updated_at": "2018-02-23T23:31:35Z",
-            "pushed_at": "2018-08-28T16:28:31Z",
+            "pushed_at": "2018-08-29T14:53:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/jemalloc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/jemalloc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/jemalloc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/deployments",
             "created_at": "2017-01-04T21:13:03Z",
             "updated_at": "2018-08-04T18:21:21Z",
-            "pushed_at": "2018-08-28T16:17:31Z",
+            "pushed_at": "2018-08-29T14:53:46Z",
             "git_url": "git://github.com/conda-forge/jemalloc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/jemalloc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/jemalloc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/statuses/739f7be1624bee87385861bdb698c00bd5a066e9"
+            "href": "https://api.github.com/repos/conda-forge/jemalloc-feedstock/statuses/2c1fe0fe5ca848e0ce3f5db5dc53fc1e737a12e5"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 154,
-    "deletions": 52,
-    "changed_files": 15,
-    "Last-Modified": "Tue, 28 Aug 2018 16:17:38 GMT",
-    "ETag": "W/\"264eecb594819be0284d7bd3981bec47\""
+    "commits": 3,
+    "additions": 156,
+    "deletions": 53,
+    "changed_files": 16,
+    "Last-Modified": "Wed, 29 Aug 2018 14:53:46 GMT",
+    "ETag": "W/\"1d70a84a7bea7e9873b4ea14a1affb00\""
 }
