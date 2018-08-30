@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving cmake from host to build\nRemoving toolchain in favour of compiler()\nMoving `python # [win]` which was used for vc matrix\nRemoving pinnings for libgdal to use values from conda_build_config.yaml\nRemoving pinnings for cairo to use values from conda_build_config.yaml\nRemoving vc in favour of compiler()\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-06-30T04:26:15Z",
-    "updated_at": "2018-07-25T19:16:14Z",
+    "updated_at": "2018-08-30T01:26:38Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "960f1c6c9aaadb4435a88e94fbaa3d8c1466b950",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 4,
+            "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 4,
-            "open_issues": 1,
+            "forks": 5,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 223,
     "deletions": 107,
     "changed_files": 19,
-    "Last-Modified": "Wed, 25 Jul 2018 19:16:14 GMT",
-    "ETag": "W/\"c721239407e95d1120eef0819b4c30a1\""
+    "Last-Modified": "Thu, 30 Aug 2018 01:26:38 GMT",
+    "ETag": "W/\"2ffc719e232d43ea907e936d5070f35b\""
 }
