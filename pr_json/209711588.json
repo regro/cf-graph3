@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nparaview\nr-rgl\nwxpython\npivy\nnetgen\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T05:24:15Z",
-    "updated_at": "2018-08-22T03:31:34Z",
+    "updated_at": "2018-08-30T18:36:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7a2eb5900fd6b5035e68b6af8727285239fcd690",
+    "merge_commit_sha": "e5f766aa00fc921999c9c95a6389ee21f061e337",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/46ae9024456f49f1f1082577b4d83b8ff7d3df88",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/0cda99e7d6483309f339bd429a903de538b94f67",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "46ae9024456f49f1f1082577b4d83b8ff7d3df88",
+        "sha": "0cda99e7d6483309f339bd429a903de538b94f67",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libglu-feedstock/deployments",
             "created_at": "2018-06-24T05:11:00Z",
             "updated_at": "2018-06-24T05:11:02Z",
-            "pushed_at": "2018-08-21T13:31:51Z",
+            "pushed_at": "2018-08-30T18:34:37Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libglu-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libglu-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libglu-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/deployments",
             "created_at": "2016-11-19T22:38:20Z",
             "updated_at": "2018-08-04T17:41:17Z",
-            "pushed_at": "2018-08-21T13:31:52Z",
+            "pushed_at": "2018-08-30T18:34:38Z",
             "git_url": "git://github.com/conda-forge/libglu-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libglu-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libglu-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/46ae9024456f49f1f1082577b4d83b8ff7d3df88"
+            "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/0cda99e7d6483309f339bd429a903de538b94f67"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
+    "commits": 5,
     "additions": 266,
     "deletions": 103,
     "changed_files": 19,
-    "Last-Modified": "Wed, 22 Aug 2018 03:31:34 GMT",
-    "ETag": "W/\"63d7afc10faeb827256005e6d7d3c1fa\""
+    "Last-Modified": "Thu, 30 Aug 2018 18:36:21 GMT",
+    "ETag": "W/\"a8625c270f537907a6cdec8c46f992ba\""
 }
