@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-30T08:13:52Z",
-    "updated_at": "2018-08-30T08:13:56Z",
+    "updated_at": "2018-08-30T17:41:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2c93a7665476851180f3dfce0ef090deaf3d2250",
+    "merge_commit_sha": "dba5e3d0d47b1c60b48080f6834148e0cf937b0b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/5e487fca4efb2bd91c90289c29af9e854a0a80b3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/28ef70fd9ab7021fcebef91384c3a8861606a5bf",
     "head": {
         "label": "regro-cf-autotick-bot:4.3.0",
         "ref": "4.3.0",
-        "sha": "5e487fca4efb2bd91c90289c29af9e854a0a80b3",
+        "sha": "28ef70fd9ab7021fcebef91384c3a8861606a5bf",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/axelrod-feedstock/deployments",
             "created_at": "2018-03-15T16:47:16Z",
             "updated_at": "2018-03-15T16:47:17Z",
-            "pushed_at": "2018-08-30T08:13:51Z",
+            "pushed_at": "2018-08-30T17:41:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/axelrod-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/axelrod-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/axelrod-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/deployments",
             "created_at": "2017-05-02T14:18:39Z",
             "updated_at": "2018-08-04T19:17:22Z",
-            "pushed_at": "2018-08-30T08:13:53Z",
+            "pushed_at": "2018-08-30T17:41:49Z",
             "git_url": "git://github.com/conda-forge/axelrod-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/axelrod-feedstock.git",
             "clone_url": "https://github.com/conda-forge/axelrod-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/5e487fca4efb2bd91c90289c29af9e854a0a80b3"
+            "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/28ef70fd9ab7021fcebef91384c3a8861606a5bf"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 87,
-    "deletions": 33,
+    "commits": 3,
+    "additions": 90,
+    "deletions": 35,
     "changed_files": 14,
-    "Last-Modified": "Thu, 30 Aug 2018 08:13:56 GMT",
-    "ETag": "W/\"c88a193c110ff48a9974c8b2f4c7b74b\""
+    "Last-Modified": "Thu, 30 Aug 2018 17:41:49 GMT",
+    "ETag": "W/\"73489eb4561a336b9803d6ffcf075aa5\""
 }
