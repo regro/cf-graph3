@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-28T14:12:38Z",
-    "updated_at": "2018-08-28T14:12:47Z",
+    "updated_at": "2018-08-30T19:50:55Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "49e89e4148fc946f769e60202d0d8e50d86ef19c",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 937760899,
+            "node_id": "MDU6TGFiZWw5Mzc3NjA4OTk=",
+            "url": "https://api.github.com/repos/conda-forge/luajit-feedstock/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "008672",
+            "default": true
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/luajit-feedstock/pulls/1/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/luajit-feedstock/pulls/1/comments",
@@ -262,7 +271,7 @@
             "releases_url": "https://api.github.com/repos/conda-forge/luajit-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/luajit-feedstock/deployments",
             "created_at": "2018-05-18T21:26:57Z",
-            "updated_at": "2018-08-04T18:49:56Z",
+            "updated_at": "2018-08-30T20:00:55Z",
             "pushed_at": "2018-08-28T14:12:38Z",
             "git_url": "git://github.com/conda-forge/luajit-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/luajit-feedstock.git",
@@ -329,11 +338,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 143,
     "deletions": 49,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Thu, 30 Aug 2018 19:50:55 GMT",
+    "ETag": "W/\"db56a1aabc21e727d64584514ccff2b6\""
 }
