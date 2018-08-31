@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pywavelets-feedstock/pull/22.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pywavelets-feedstock/issues/22",
     "number": 22,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "pywavelets v1.0.0",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-31T18:10:11Z",
-    "updated_at": "2018-08-31T18:10:15Z",
-    "closed_at": null,
+    "updated_at": "2018-08-31T19:33:15Z",
+    "closed_at": "2018-08-31T19:33:14Z",
     "merged_at": null,
     "merge_commit_sha": "d550c5e59be818024ad98ea5e061f0b5898d3998",
     "assignee": null,
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/pywavelets-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pywavelets-feedstock",
             "homepage": null,
-            "size": 43,
+            "size": 47,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pywavelets-feedstock/deployments",
             "created_at": "2016-04-16T00:06:00Z",
             "updated_at": "2018-08-04T17:09:44Z",
-            "pushed_at": "2018-08-31T18:54:14Z",
+            "pushed_at": "2018-08-31T19:18:36Z",
             "git_url": "git://github.com/conda-forge/pywavelets-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pywavelets-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pywavelets-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 99,
     "deletions": 43,
     "changed_files": 17,
-    "Last-Modified": "Fri, 31 Aug 2018 18:10:15 GMT",
-    "ETag": "W/\"140b551a402a14351241a300cfc0c017\""
+    "Last-Modified": "Fri, 31 Aug 2018 19:33:15 GMT",
+    "ETag": "W/\"c2c6a41dfa48148ea69deaadc1a3d208\""
 }
