@@ -8,7 +8,7 @@
     "issue_url": "https://api.github.com/repos/conda-forge/dask-ndfourier-feedstock/issues/3",
     "number": 3,
     "state": "open",
-    "locked": false,
+    "locked": true,
     "title": "Suggestion: add noarch",
     "user": {
         "login": "regro-cf-autotick-bot",
@@ -302,7 +302,7 @@
             "releases_url": "https://api.github.com/repos/conda-forge/dask-ndfourier-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/dask-ndfourier-feedstock/deployments",
             "created_at": "2017-05-12T01:39:26Z",
-            "updated_at": "2018-08-04T18:24:13Z",
+            "updated_at": "2018-08-31T23:21:51Z",
             "pushed_at": "2018-08-04T18:24:11Z",
             "git_url": "git://github.com/conda-forge/dask-ndfourier-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dask-ndfourier-feedstock.git",
@@ -320,7 +320,7 @@
             "has_pages": false,
             "forks_count": 4,
             "mirror_url": null,
-            "archived": false,
+            "archived": true,
             "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
@@ -377,5 +377,5 @@
     "deletions": 251,
     "changed_files": 19,
     "Last-Modified": "Thu, 09 Aug 2018 23:29:15 GMT",
-    "ETag": "W/\"d6359f6611f1a04b2fe36683973dc5c8\""
+    "ETag": "W/\"df7788122153e10c98c78d69ce03ff92\""
 }
