@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nimagemagick\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-28T15:17:54Z",
-    "updated_at": "2018-08-28T17:08:07Z",
+    "updated_at": "2018-09-01T10:54:29Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "79b58aeb4cc9c1152fd899fee28934d99747d2a0",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 7,
+    "comments": 10,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 72,
     "deletions": 14,
     "changed_files": 7,
-    "Last-Modified": "Tue, 28 Aug 2018 17:08:07 GMT",
-    "ETag": "W/\"5478092b304b6a28d5f3d6047882d44e\""
+    "Last-Modified": "Sat, 01 Sep 2018 10:54:29 GMT",
+    "ETag": "W/\"5fd83a06ef7c2db651346d0772a47ac1\""
 }
