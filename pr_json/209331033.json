@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-18T21:18:48Z",
-    "updated_at": "2018-08-18T21:18:54Z",
+    "updated_at": "2018-09-02T21:12:41Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "02d18f710d8e2155d7ed91438810bb3915a18cbb",
+    "merge_commit_sha": "6125d2325f1920b39891a08f1fa62fc51741263d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/statuses/9871b633a816629970653d56920bb7c94adf6b90",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/statuses/29839fd44ff0d39bfeace2fd49b8a2fea72bc010",
     "head": {
         "label": "regro-cf-autotick-bot:0.4.1",
         "ref": "0.4.1",
-        "sha": "9871b633a816629970653d56920bb7c94adf6b90",
+        "sha": "29839fd44ff0d39bfeace2fd49b8a2fea72bc010",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-narray-feedstock/deployments",
             "created_at": "2018-08-18T21:18:31Z",
             "updated_at": "2018-08-18T21:18:33Z",
-            "pushed_at": "2018-08-18T21:18:48Z",
+            "pushed_at": "2018-09-02T21:12:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-narray-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-narray-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-narray-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-narray-feedstock/deployments",
             "created_at": "2018-06-28T03:24:06Z",
             "updated_at": "2018-08-04T18:50:57Z",
-            "pushed_at": "2018-08-18T21:18:49Z",
+            "pushed_at": "2018-09-02T21:12:37Z",
             "git_url": "git://github.com/conda-forge/r-narray-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-narray-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-narray-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-narray-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-narray-feedstock/statuses/9871b633a816629970653d56920bb7c94adf6b90"
+            "href": "https://api.github.com/repos/conda-forge/r-narray-feedstock/statuses/29839fd44ff0d39bfeace2fd49b8a2fea72bc010"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 9,
-    "deletions": 9,
-    "changed_files": 3,
-    "Last-Modified": "Sat, 18 Aug 2018 21:18:54 GMT",
-    "ETag": "W/\"5531f7c62869aeb22999e3b05e561261\""
+    "commits": 4,
+    "additions": 152,
+    "deletions": 43,
+    "changed_files": 15,
+    "Last-Modified": "Sun, 02 Sep 2018 21:12:41 GMT",
+    "ETag": "W/\"bd5a694bf88f9ce18221a10f48f19cb2\""
 }
