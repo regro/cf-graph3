@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/gtest-feedstock/pull/26.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/gtest-feedstock/issues/26",
     "number": 26,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "gtest v1.8.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-31T16:14:07Z",
-    "updated_at": "2018-08-31T16:50:46Z",
-    "closed_at": null,
+    "updated_at": "2018-09-03T09:01:48Z",
+    "closed_at": "2018-09-03T09:01:48Z",
     "merged_at": null,
     "merge_commit_sha": "481ed7a5da6e5c9546c24009f0a09854a77edafa",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 12,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 12,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 236,
     "deletions": 54,
     "changed_files": 22,
-    "Last-Modified": "Fri, 31 Aug 2018 16:50:46 GMT",
-    "ETag": "W/\"4e14e1aff00e13e9b8b6990869570409\""
+    "Last-Modified": "Mon, 03 Sep 2018 09:01:48 GMT",
+    "ETag": "W/\"69f744000759872ffd4cb060e59f3fb5\""
 }
