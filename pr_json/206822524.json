@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/check-feedstock/pull/9.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/check-feedstock/issues/9",
     "number": 9,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "Renamed build with host\nMoving automake from host to build\nMoving libtool from host to build\nMoving pkg-config from host to build\nAdding C compiler\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-07T20:49:18Z",
-    "updated_at": "2018-08-07T20:49:22Z",
-    "closed_at": null,
+    "updated_at": "2018-09-03T13:32:26Z",
+    "closed_at": "2018-09-03T13:32:26Z",
     "merged_at": null,
     "merge_commit_sha": "6bfc357658615a2df793a2af17acec0846e76656",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/check-feedstock/deployments",
             "created_at": "2016-03-29T09:01:11Z",
             "updated_at": "2018-08-04T17:03:05Z",
-            "pushed_at": "2018-08-07T20:49:19Z",
+            "pushed_at": "2018-09-03T13:41:18Z",
             "git_url": "git://github.com/conda-forge/check-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/check-feedstock.git",
             "clone_url": "https://github.com/conda-forge/check-feedstock.git",
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 176,
     "deletions": 88,
     "changed_files": 17,
-    "Last-Modified": "Tue, 07 Aug 2018 20:49:22 GMT",
-    "ETag": "W/\"382b1b8ed11bbc297e88af793170cf6d\""
+    "Last-Modified": "Mon, 03 Sep 2018 13:32:26 GMT",
+    "ETag": "W/\"125b7a3dd1688ac400ec9078994615a0\""
 }
