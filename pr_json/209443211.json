@@ -32,13 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-20T08:15:00Z",
-    "updated_at": "2018-08-31T05:02:19Z",
+    "updated_at": "2018-09-04T03:11:20Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3ef9e7c99801f008c023f16abc195cdadd9d3c97",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "conda-forge-admin",
+            "id": 16698198,
+            "node_id": "MDQ6VXNlcjE2Njk4MTk4",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/16698198?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/conda-forge-admin",
+            "html_url": "https://github.com/conda-forge-admin",
+            "followers_url": "https://api.github.com/users/conda-forge-admin/followers",
+            "following_url": "https://api.github.com/users/conda-forge-admin/following{/other_user}",
+            "gists_url": "https://api.github.com/users/conda-forge-admin/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/conda-forge-admin/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/conda-forge-admin/subscriptions",
+            "organizations_url": "https://api.github.com/users/conda-forge-admin/orgs",
+            "repos_url": "https://api.github.com/users/conda-forge-admin/repos",
+            "events_url": "https://api.github.com/users/conda-forge-admin/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/conda-forge-admin/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -336,6 +357,6 @@
     "additions": 291,
     "deletions": 137,
     "changed_files": 22,
-    "Last-Modified": "Fri, 31 Aug 2018 05:02:19 GMT",
-    "ETag": "W/\"1cf5e1a87620ca44b7327f4d6471a358\""
+    "Last-Modified": "Tue, 04 Sep 2018 03:11:20 GMT",
+    "ETag": "W/\"2471e608e04cba16d659d7f8a85295e1\""
 }
