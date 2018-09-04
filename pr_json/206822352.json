@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pixman-feedstock/pull/8.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/issues/8",
     "number": 8,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "Renamed build with host\nMoving `python # [win]` which was used for vc matrix\nMoving posix from host to build\nMoving pkg-config from host to build\nRemoving vc in favour of compiler()\nRemoved skip for one of py35 or py36 as it's used for vc skipping\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-07T20:48:32Z",
-    "updated_at": "2018-08-07T20:48:35Z",
-    "closed_at": null,
+    "updated_at": "2018-09-04T00:15:04Z",
+    "closed_at": "2018-09-04T00:15:04Z",
     "merged_at": null,
     "merge_commit_sha": "81ce6b35def6ce1c6acb9ed095146a1ecf4d5d69",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/deployments",
             "created_at": "2016-03-17T08:34:27Z",
             "updated_at": "2018-08-04T17:00:10Z",
-            "pushed_at": "2018-08-07T20:48:32Z",
+            "pushed_at": "2018-09-04T00:14:14Z",
             "git_url": "git://github.com/conda-forge/pixman-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pixman-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pixman-feedstock.git",
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 193,
     "deletions": 128,
     "changed_files": 20,
-    "Last-Modified": "Tue, 07 Aug 2018 20:48:35 GMT",
-    "ETag": "W/\"8b037b742b1350d6845e4a28323decc3\""
+    "Last-Modified": "Tue, 04 Sep 2018 00:15:04 GMT",
+    "ETag": "W/\"79e1385b262cf5d195fa185fd9cc9447\""
 }
