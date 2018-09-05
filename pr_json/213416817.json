@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-05T20:24:17Z",
-    "updated_at": "2018-09-05T20:24:21Z",
+    "updated_at": "2018-09-05T21:56:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "784ea36c3d4297ccd7910cc8335a91e4301063ba",
+    "merge_commit_sha": "aac13153e828ccfb14b7f79e177f4d226f609913",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/statuses/34e83fb64d5947ad89161086273e58468bbcae06",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/statuses/3a1e9909d573cb1690a3a14f9df2015cdeac4efc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "34e83fb64d5947ad89161086273e58468bbcae06",
+        "sha": "3a1e9909d573cb1690a3a14f9df2015cdeac4efc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pigz-feedstock/deployments",
             "created_at": "2018-07-05T21:14:45Z",
             "updated_at": "2018-07-05T21:14:47Z",
-            "pushed_at": "2018-09-05T20:24:17Z",
+            "pushed_at": "2018-09-05T21:27:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pigz-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pigz-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pigz-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pigz-feedstock",
             "homepage": null,
-            "size": 10,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pigz-feedstock/deployments",
             "created_at": "2017-07-12T09:32:01Z",
             "updated_at": "2018-08-04T19:16:25Z",
-            "pushed_at": "2018-09-05T20:24:18Z",
+            "pushed_at": "2018-09-05T21:27:03Z",
             "git_url": "git://github.com/conda-forge/pigz-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pigz-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pigz-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pigz-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pigz-feedstock/statuses/34e83fb64d5947ad89161086273e58468bbcae06"
+            "href": "https://api.github.com/repos/conda-forge/pigz-feedstock/statuses/3a1e9909d573cb1690a3a14f9df2015cdeac4efc"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 262,
-    "deletions": 149,
+    "commits": 4,
+    "additions": 268,
+    "deletions": 154,
     "changed_files": 22,
-    "Last-Modified": "Wed, 05 Sep 2018 20:24:21 GMT",
-    "ETag": "W/\"52b28c5fb7a4de171080edcbc3ad0faa\""
+    "Last-Modified": "Wed, 05 Sep 2018 21:56:14 GMT",
+    "ETag": "W/\"2a90c80a1aaac30b7a4a93d125257fce\""
 }
