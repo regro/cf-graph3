@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-17T21:14:07Z",
-    "updated_at": "2018-07-17T21:14:12Z",
+    "updated_at": "2018-09-06T18:39:33Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "405c788afeaedd5d4b0eca91cd8fecb0a7f43f71",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-evaluate-feedstock/deployments",
             "created_at": "2017-02-18T15:36:45Z",
             "updated_at": "2018-08-04T17:52:17Z",
-            "pushed_at": "2018-08-04T17:52:15Z",
+            "pushed_at": "2018-09-06T18:44:36Z",
             "git_url": "git://github.com/conda-forge/r-evaluate-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-evaluate-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-evaluate-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 4,
+            "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 4,
-            "open_issues": 1,
+            "forks": 5,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 196,
     "deletions": 138,
     "changed_files": 19,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"da7fbb86c0c41d3469b8fc6e78dca5d5\""
+    "Last-Modified": "Thu, 06 Sep 2018 18:39:33 GMT",
+    "ETag": "W/\"3f07af65aeb22d45743c2486741f8b31\""
 }
