@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncaffe\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-06T00:14:08Z",
-    "updated_at": "2018-09-07T14:15:59Z",
+    "updated_at": "2018-09-07T17:53:00Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "5ded0de08c3fe6e8fe8141744d70a0d0ee6ee1f3",
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lmdb-feedstock/deployments",
             "created_at": "2018-06-06T22:49:51Z",
             "updated_at": "2018-06-06T22:49:53Z",
-            "pushed_at": "2018-09-06T00:14:08Z",
+            "pushed_at": "2018-09-07T17:42:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lmdb-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lmdb-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lmdb-feedstock.git",
@@ -154,10 +154,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -165,8 +165,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 0,
-            "open_issues": 0,
+            "forks": 1,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 7,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 7,
+            "forks": 8,
             "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 141,
     "deletions": 47,
     "changed_files": 14,
-    "Last-Modified": "Fri, 07 Sep 2018 14:15:59 GMT",
-    "ETag": "W/\"692c8f683f242f8057b9a246daa458a2\""
+    "Last-Modified": "Fri, 07 Sep 2018 17:53:00 GMT",
+    "ETag": "W/\"5f870f111e62bd712b1b8e610a6cc5c4\""
 }
