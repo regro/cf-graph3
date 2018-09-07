@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nad3-cpp\nalmosthere\nampl-mp\narmadillo\narpack\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T18:12:09Z",
-    "updated_at": "2018-09-04T15:55:26Z",
+    "updated_at": "2018-09-07T04:42:49Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "fafeb0b5be1b10f30c3673200abaa0db0b52c431",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 2,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 196,
     "deletions": 40,
     "changed_files": 14,
-    "Last-Modified": "Tue, 04 Sep 2018 15:55:26 GMT",
-    "ETag": "W/\"6e630bb4450fc8ca7263d5469c2640aa\""
+    "Last-Modified": "Fri, 07 Sep 2018 04:42:49 GMT",
+    "ETag": "W/\"43cbe00c8fdc0a4207c36f5384b251ab\""
 }
