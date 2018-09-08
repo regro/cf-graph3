@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/librdkafka-feedstock/pull/22.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/librdkafka-feedstock/issues/22",
     "number": 22,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "librdkafka v0.11.6-RC2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-07T17:09:53Z",
-    "updated_at": "2018-09-07T17:09:58Z",
-    "closed_at": null,
+    "updated_at": "2018-09-08T00:36:21Z",
+    "closed_at": "2018-09-08T00:36:21Z",
     "merged_at": null,
     "merge_commit_sha": "606715838c8ab30b32dbbaabd266d7c856dad18c",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Fri, 07 Sep 2018 17:09:58 GMT",
-    "ETag": "W/\"789291be63074e26719a9ec24242546f\""
+    "Last-Modified": "Sat, 08 Sep 2018 00:36:21 GMT",
+    "ETag": "W/\"5cee6fc235c6564668653f3fa834c398\""
 }
