@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-07T07:10:49Z",
-    "updated_at": "2018-09-07T07:10:53Z",
+    "updated_at": "2018-09-08T13:39:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c2003413c0a0644d401c637d43caacab1f447b47",
+    "merge_commit_sha": "cea9d5b00b3181c8489415892b431d03821cb091",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/statuses/ce479d60983f2b3bb99f957b8e839a285c0f03fd",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/statuses/df52796f9ecc07c69ee2f2a6e28d4e619fb7b618",
     "head": {
         "label": "regro-cf-autotick-bot:0.11.1",
         "ref": "0.11.1",
-        "sha": "ce479d60983f2b3bb99f957b8e839a285c0f03fd",
+        "sha": "df52796f9ecc07c69ee2f2a6e28d4e619fb7b618",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tsfresh-feedstock/deployments",
             "created_at": "2018-03-06T03:51:45Z",
             "updated_at": "2018-03-06T03:51:46Z",
-            "pushed_at": "2018-09-07T07:10:48Z",
+            "pushed_at": "2018-09-08T13:39:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tsfresh-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tsfresh-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tsfresh-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/deployments",
             "created_at": "2017-11-05T12:39:15Z",
             "updated_at": "2018-08-04T19:02:55Z",
-            "pushed_at": "2018-09-07T07:10:50Z",
+            "pushed_at": "2018-09-08T13:39:36Z",
             "git_url": "git://github.com/conda-forge/tsfresh-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tsfresh-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tsfresh-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/statuses/ce479d60983f2b3bb99f957b8e839a285c0f03fd"
+            "href": "https://api.github.com/repos/conda-forge/tsfresh-feedstock/statuses/df52796f9ecc07c69ee2f2a6e28d4e619fb7b618"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 187,
-    "deletions": 89,
+    "commits": 3,
+    "additions": 190,
+    "deletions": 90,
     "changed_files": 15,
-    "Last-Modified": "Fri, 07 Sep 2018 07:10:53 GMT",
-    "ETag": "W/\"06b0a2a640579371195d05757e64c64e\""
+    "Last-Modified": "Sat, 08 Sep 2018 13:39:40 GMT",
+    "ETag": "W/\"62023ef2a4944b3e9982169274bd15d3\""
 }
