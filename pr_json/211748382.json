@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/opencv-feedstock/pull/123.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/issues/123",
     "number": 123,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "opencv v3.4.3",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T13:13:08Z",
-    "updated_at": "2018-08-29T13:13:12Z",
-    "closed_at": null,
+    "updated_at": "2018-09-08T23:31:00Z",
+    "closed_at": "2018-09-08T23:31:00Z",
     "merged_at": null,
     "merge_commit_sha": "7dbe354df77e152160d6589c1a53f493b61e7bad",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 43,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 13,
+            "open_issues_count": 12,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 43,
-            "open_issues": 13,
+            "open_issues": 12,
             "watchers": 25,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 85,
     "deletions": 33,
     "changed_files": 15,
-    "Last-Modified": "Wed, 29 Aug 2018 13:13:12 GMT",
-    "ETag": "W/\"ae8871b6ae76138c79fc87b24013c0e5\""
+    "Last-Modified": "Sat, 08 Sep 2018 23:31:00 GMT",
+    "ETag": "W/\"99437a60715d5a9c4b141b9006449a71\""
 }
