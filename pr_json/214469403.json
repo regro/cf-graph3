@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|botocore|1.12.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/botocore.svg)](https://anaconda.org/conda-forge/botocore)|\n",
     "created_at": "2018-09-10T23:09:34Z",
-    "updated_at": "2018-09-10T23:30:28Z",
+    "updated_at": "2018-09-11T00:29:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4e326bf6c66f53cda5fc4988c7b6abbb4d22ddfc",
+    "merge_commit_sha": "95586a3e93aec68a96bdca5d1d4eadccfff97038",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -336,6 +336,6 @@
     "additions": 3,
     "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Mon, 10 Sep 2018 23:30:28 GMT",
-    "ETag": "W/\"0cc6f5a2c49d8cb22fe84b4f818227c7\""
+    "Last-Modified": "Tue, 11 Sep 2018 00:29:16 GMT",
+    "ETag": "W/\"822df7d7ff68c9581808725688a140a9\""
 }
