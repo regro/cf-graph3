@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nesmf\nfenics\nhyperion-fortran\nhypre\nlibadjoint\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T19:20:27Z",
-    "updated_at": "2018-08-23T03:55:31Z",
+    "updated_at": "2018-09-12T11:10:18Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "f31dd9ce4f026cf1c64423595de31f728b030308",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 8,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 166,
     "deletions": 56,
     "changed_files": 15,
-    "Last-Modified": "Thu, 23 Aug 2018 03:55:31 GMT",
-    "ETag": "W/\"51fd95cc5df1c328544cb5bb00967853\""
+    "Last-Modified": "Wed, 12 Sep 2018 11:10:18 GMT",
+    "ETag": "W/\"d13f18e5fe7e4549895f89342b1daeb5\""
 }
