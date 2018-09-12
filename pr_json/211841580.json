@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncmake\nffmpeg\ngit\ngmt\njulia\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T18:11:55Z",
-    "updated_at": "2018-09-04T20:20:17Z",
+    "updated_at": "2018-09-12T00:35:24Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "0955ac4af589ba9959345e5d3f8b90ab117024e8",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1053718723,
+            "node_id": "MDU6TGFiZWwxMDUzNzE4NzIz",
+            "url": "https://api.github.com/repos/conda-forge/curl-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "fbca04",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/curl-feedstock/pulls/35/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/curl-feedstock/pulls/35/comments",
@@ -329,13 +338,11 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
     "additions": 132,
     "deletions": 17,
-    "changed_files": 11,
-    "Last-Modified": "Tue, 04 Sep 2018 20:20:17 GMT",
-    "ETag": "W/\"aaa98c9d6dc2b65ec1e9baf65540967d\""
+    "changed_files": 11
 }
