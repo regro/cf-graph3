@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-12T22:09:52Z",
-    "updated_at": "2018-09-12T22:09:55Z",
+    "updated_at": "2018-09-13T09:23:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e1e1e56c499439d32a9319983db31c434b96d78a",
+    "merge_commit_sha": "a84ba3c27d6da69ece6303e5c46b82053191994d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/37/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/issues/37/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/346f1e8ef194a977a3b0089b3360a74082fc6e71",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/62b5c042cec7c479bd7bd51a80c6a0316319dbb9",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.3",
         "ref": "0.9.3",
-        "sha": "346f1e8ef194a977a3b0089b3360a74082fc6e71",
+        "sha": "62b5c042cec7c479bd7bd51a80c6a0316319dbb9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sunpy-feedstock/deployments",
             "created_at": "2018-07-26T21:12:32Z",
             "updated_at": "2018-07-26T21:12:34Z",
-            "pushed_at": "2018-09-12T22:09:52Z",
+            "pushed_at": "2018-09-13T09:23:04Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sunpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/deployments",
             "created_at": "2016-05-17T13:47:50Z",
             "updated_at": "2018-08-04T17:13:23Z",
-            "pushed_at": "2018-09-12T22:09:53Z",
+            "pushed_at": "2018-09-13T09:23:05Z",
             "git_url": "git://github.com/conda-forge/sunpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sunpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sunpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/37/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/346f1e8ef194a977a3b0089b3360a74082fc6e71"
+            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/62b5c042cec7c479bd7bd51a80c6a0316319dbb9"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 116,
+    "commits": 4,
+    "additions": 117,
     "deletions": 42,
     "changed_files": 17,
-    "Last-Modified": "Wed, 12 Sep 2018 22:09:55 GMT",
-    "ETag": "W/\"15a6632cf4ba042c20a6700f747dec1b\""
+    "Last-Modified": "Thu, 13 Sep 2018 09:23:04 GMT",
+    "ETag": "W/\"e450af1f8e39b0fbd811ebed38358d36\""
 }
