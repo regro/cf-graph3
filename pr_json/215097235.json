@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-12T21:10:27Z",
-    "updated_at": "2018-09-12T21:10:30Z",
+    "updated_at": "2018-09-14T10:32:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0321209dfc77b9e3d5764dbc7a8176075c82d34d",
+    "merge_commit_sha": "25d9262b5834796ea4e083277b43a3d8b8da9acb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/statuses/7b037c9826831d7928c8a831ecadb40cbba40d7a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/statuses/05af2b26865002862b32bda29d291c75e0b2cc7c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7b037c9826831d7928c8a831ecadb40cbba40d7a",
+        "sha": "05af2b26865002862b32bda29d291c75e0b2cc7c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-fastly-feedstock/deployments",
             "created_at": "2018-06-05T11:13:05Z",
             "updated_at": "2018-06-05T11:13:07Z",
-            "pushed_at": "2018-09-12T21:10:27Z",
+            "pushed_at": "2018-09-14T10:16:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-fastly-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-fastly-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-fastly-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-fastly-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 27,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/deployments",
             "created_at": "2018-03-14T12:54:19Z",
             "updated_at": "2018-08-04T19:18:34Z",
-            "pushed_at": "2018-09-12T21:10:28Z",
+            "pushed_at": "2018-09-14T10:16:26Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-fastly-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-fastly-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-fastly-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/statuses/7b037c9826831d7928c8a831ecadb40cbba40d7a"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-fastly-feedstock/statuses/05af2b26865002862b32bda29d291c75e0b2cc7c"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 80,
-    "deletions": 38,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 81,
+    "deletions": 40,
+    "changed_files": 11,
+    "Last-Modified": "Fri, 14 Sep 2018 10:32:09 GMT",
+    "ETag": "W/\"cca4463d657db22683dbe031aea0528f\""
 }

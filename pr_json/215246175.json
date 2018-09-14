@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T11:11:25Z",
-    "updated_at": "2018-09-13T11:11:43Z",
+    "updated_at": "2018-09-14T08:26:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "d5b14959b2018d3056daa1ca691d533071e26190",
+    "merge_commit_sha": "35776fefef61668468f745a0a29ef8c8d9d68d78",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/statuses/aa829649cc16210a545347db5e2e88f01c97fad4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/statuses/803846302e92b002857f635e7390eabfc7e5255b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "aa829649cc16210a545347db5e2e88f01c97fad4",
+        "sha": "803846302e92b002857f635e7390eabfc7e5255b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-oneandone-feedstock/deployments",
             "created_at": "2018-05-17T23:17:11Z",
             "updated_at": "2018-05-17T23:17:13Z",
-            "pushed_at": "2018-09-13T11:11:25Z",
+            "pushed_at": "2018-09-14T07:26:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-oneandone-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-oneandone-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-oneandone-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-oneandone-feedstock",
             "homepage": null,
-            "size": 26,
+            "size": 28,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/deployments",
             "created_at": "2018-03-14T12:55:13Z",
             "updated_at": "2018-08-04T19:23:39Z",
-            "pushed_at": "2018-09-13T11:11:26Z",
+            "pushed_at": "2018-09-14T07:26:36Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-oneandone-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-oneandone-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-oneandone-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/statuses/aa829649cc16210a545347db5e2e88f01c97fad4"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-oneandone-feedstock/statuses/803846302e92b002857f635e7390eabfc7e5255b"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 82,
-    "deletions": 40,
-    "changed_files": 12
+    "commits": 3,
+    "additions": 83,
+    "deletions": 42,
+    "changed_files": 12,
+    "Last-Modified": "Fri, 14 Sep 2018 08:26:22 GMT",
+    "ETag": "W/\"0832da6ff9c20b3243aa56303f1f479f\""
 }

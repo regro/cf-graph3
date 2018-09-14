@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nfreetds\nr-rodbc\nturbodbc\npyodbc\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-14T08:13:11Z",
-    "updated_at": "2018-09-14T08:35:32Z",
+    "updated_at": "2018-09-14T22:18:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a153a503fbe6c5bfab24f9fd528f183551002b30",
+    "merge_commit_sha": "27b55d9ca252ccc5fc9695e971f5dc1222bb722d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/statuses/99f93c0d71566eaccc3f4a425db478236926bb18",
+    "statuses_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/statuses/74b7265027f87e4ef40bfb899b7b9e215db50da9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "99f93c0d71566eaccc3f4a425db478236926bb18",
+        "sha": "74b7265027f87e4ef40bfb899b7b9e215db50da9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/unixodbc-feedstock/deployments",
             "created_at": "2018-03-18T03:46:44Z",
             "updated_at": "2018-03-18T03:46:46Z",
-            "pushed_at": "2018-09-14T08:13:11Z",
+            "pushed_at": "2018-09-14T22:18:39Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/unixodbc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/unixodbc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/unixodbc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/deployments",
             "created_at": "2017-03-03T06:14:22Z",
             "updated_at": "2018-08-19T00:30:58Z",
-            "pushed_at": "2018-09-14T08:13:12Z",
+            "pushed_at": "2018-09-14T22:18:40Z",
             "git_url": "git://github.com/conda-forge/unixodbc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/unixodbc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/unixodbc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/statuses/99f93c0d71566eaccc3f4a425db478236926bb18"
+            "href": "https://api.github.com/repos/conda-forge/unixodbc-feedstock/statuses/74b7265027f87e4ef40bfb899b7b9e215db50da9"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 158,
-    "deletions": 46,
-    "changed_files": 13,
-    "Last-Modified": "Fri, 14 Sep 2018 08:35:32 GMT",
-    "ETag": "W/\"3f35188242960a0f7077e1cdb18c0728\""
+    "commits": 4,
+    "additions": 168,
+    "deletions": 47,
+    "changed_files": 14,
+    "Last-Modified": "Fri, 14 Sep 2018 22:18:39 GMT",
+    "ETag": "W/\"5057bfc87f54120a0384d966d9c83f2d\""
 }
