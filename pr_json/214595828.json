@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjg0NzgxMDg=",
             "name": "terraform-provider-cloudflare-feedstock",
             "full_name": "regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock",
             "description": "A conda-smithy repository for terraform-provider-cloudflare.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjUyMjg3MTk=",
             "name": "terraform-provider-cloudflare-feedstock",
             "full_name": "conda-forge/terraform-provider-cloudflare-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/terraform-provider-cloudflare-feedstock",
             "description": "A conda-smithy repository for terraform-provider-cloudflare.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 4,
     "deletions": 4,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Tue, 11 Sep 2018 11:09:18 GMT",
+    "ETag": "W/\"92f2a49c1f3b7a4b063948dab93f84a2\""
 }

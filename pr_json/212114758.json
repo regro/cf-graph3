@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzc0MTcxNDQ=",
             "name": "mapio-feedstock",
             "full_name": "regro-cf-autotick-bot/mapio-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/mapio-feedstock",
             "description": "A conda-smithy repository for mapio.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjU3NTc4NjY=",
             "name": "mapio-feedstock",
             "full_name": "conda-forge/mapio-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/mapio-feedstock",
             "description": "A conda-smithy repository for mapio.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Thu, 30 Aug 2018 15:11:30 GMT",
+    "ETag": "W/\"3ee63b78392c2abf8800052fdd169cef\""
 }

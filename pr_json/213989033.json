@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzMwOTY2NDU=",
             "name": "terraform-provider-github-feedstock",
             "full_name": "regro-cf-autotick-bot/terraform-provider-github-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-github-feedstock",
             "description": "A conda-smithy repository for terraform-provider-github.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjUyMzA1MTk=",
             "name": "terraform-provider-github-feedstock",
             "full_name": "conda-forge/terraform-provider-github-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/terraform-provider-github-feedstock",
             "description": "A conda-smithy repository for terraform-provider-github.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 68,
     "deletions": 36,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Fri, 07 Sep 2018 17:11:08 GMT",
+    "ETag": "W/\"036e6052ec5f4b167a08961fce4977e4\""
 }

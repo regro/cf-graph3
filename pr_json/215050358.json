@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjkyMzU1NDU=",
             "name": "cni-plugins-feedstock",
             "full_name": "regro-cf-autotick-bot/cni-plugins-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/cni-plugins-feedstock",
             "description": "A conda-smithy repository for cni-plugins.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjU4NTU1ODA=",
             "name": "cni-plugins-feedstock",
             "full_name": "conda-forge/cni-plugins-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/cni-plugins-feedstock",
             "description": "A conda-smithy repository for cni-plugins.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 48,
     "deletions": 24,
-    "changed_files": 7
+    "changed_files": 7,
+    "Last-Modified": "Wed, 12 Sep 2018 18:12:13 GMT",
+    "ETag": "W/\"e9211e9d6aad4c61f6cdddd6571b13de\""
 }

@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzgzMDgwMzM=",
             "name": "cfncluster-feedstock",
             "full_name": "regro-cf-autotick-bot/cfncluster-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/cfncluster-feedstock",
             "description": "A conda-smithy repository for cfncluster.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjU5NDM5NDM=",
             "name": "cfncluster-feedstock",
             "full_name": "conda-forge/cfncluster-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/cfncluster-feedstock",
             "description": "A conda-smithy repository for cfncluster.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 304,
     "deletions": 130,
-    "changed_files": 21
+    "changed_files": 21,
+    "Last-Modified": "Wed, 29 Aug 2018 23:14:53 GMT",
+    "ETag": "W/\"29cc73454975b97d699f4a501519a2a9\""
 }
