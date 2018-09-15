@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzY3NDU0Mjk=",
             "name": "lz4-feedstock",
             "full_name": "regro-cf-autotick-bot/lz4-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/lz4-feedstock",
             "description": "A conda-smithy repository for lz4.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzAwOTc0NjI=",
             "name": "lz4-feedstock",
             "full_name": "conda-forge/lz4-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/lz4-feedstock",
             "description": "A conda-smithy repository for lz4.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 12,
     "deletions": 12,
-    "changed_files": 10
+    "changed_files": 10,
+    "Last-Modified": "Tue, 31 Jul 2018 12:17:04 GMT",
+    "ETag": "W/\"511f561b6717908022f42595f06a38d0\""
 }

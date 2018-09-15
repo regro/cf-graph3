@@ -116,6 +116,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDAwMjEyMzY=",
             "name": "kubernetes-federation-feedstock",
             "full_name": "regro-cf-autotick-bot/kubernetes-federation-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -136,7 +137,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/kubernetes-federation-feedstock",
             "description": "A conda-smithy repository for kubernetes-federation.",
             "fork": true,
@@ -240,6 +240,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjg1MjM4NDk=",
             "name": "kubernetes-federation-feedstock",
             "full_name": "conda-forge/kubernetes-federation-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -260,7 +261,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/kubernetes-federation-feedstock",
             "description": "A conda-smithy repository for kubernetes-federation.",
             "fork": false,
@@ -375,5 +375,7 @@
     "commits": 3,
     "additions": 160,
     "deletions": 85,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"a0f52f4fe21539abeed3b8fc6c45a4e8\""
 }

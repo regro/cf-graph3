@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzA3OTQ2ODU=",
             "name": "numba-feedstock",
             "full_name": "regro-cf-autotick-bot/numba-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/numba-feedstock",
             "description": "A conda-smithy repository for numba.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzA1MDE3MjU=",
             "name": "numba-feedstock",
             "full_name": "conda-forge/numba-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/numba-feedstock",
             "description": "A conda-smithy repository for numba.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 10,
     "additions": 51,
     "deletions": 48,
-    "changed_files": 10
+    "changed_files": 10,
+    "Last-Modified": "Mon, 13 Aug 2018 10:46:37 GMT",
+    "ETag": "W/\"96719ebb1403c293e66c07b3141a9712\""
 }

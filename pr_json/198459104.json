@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzkyMTg5MTY=",
             "name": "hexer-feedstock",
             "full_name": "regro-cf-autotick-bot/hexer-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/hexer-feedstock",
             "description": "A conda-smithy repository for hexer.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjYwMjM1NDU=",
             "name": "hexer-feedstock",
             "full_name": "conda-forge/hexer-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/hexer-feedstock",
             "description": "A conda-smithy repository for hexer.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 223,
     "deletions": 107,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Thu, 30 Aug 2018 01:26:38 GMT",
+    "ETag": "W/\"0c78e9b416a9b2ca1df634515484fa6a\""
 }

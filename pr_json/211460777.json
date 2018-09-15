@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjg4NDMyMTg=",
             "name": "ocamlbuild-feedstock",
             "full_name": "regro-cf-autotick-bot/ocamlbuild-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/ocamlbuild-feedstock",
             "description": "A conda-smithy repository for ocamlbuild.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjg3NzQ0MjI=",
             "name": "ocamlbuild-feedstock",
             "full_name": "conda-forge/ocamlbuild-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/ocamlbuild-feedstock",
             "description": "A conda-smithy repository for ocamlbuild.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 142,
     "deletions": 48,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Tue, 28 Aug 2018 15:18:57 GMT",
+    "ETag": "W/\"f28608e8e1d923142990f39393bf71fb\""
 }

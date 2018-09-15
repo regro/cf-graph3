@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzU1NzI4MzY=",
             "name": "huey-feedstock",
             "full_name": "regro-cf-autotick-bot/huey-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/huey-feedstock",
             "description": "A conda-smithy repository for huey.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzA0MTcxOTY=",
             "name": "huey-feedstock",
             "full_name": "conda-forge/huey-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/huey-feedstock",
             "description": "A conda-smithy repository for huey.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 9,
     "deletions": 9,
-    "changed_files": 3
+    "changed_files": 3,
+    "Last-Modified": "Tue, 14 Aug 2018 23:18:14 GMT",
+    "ETag": "W/\"859f7bc95ce3428746255a47f3955e13\""
 }
