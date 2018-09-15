@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjc4MjQ4Njg=",
             "name": "sqlite-feedstock",
             "full_name": "regro-cf-autotick-bot/sqlite-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/sqlite-feedstock",
             "description": "A conda-smithy repository for sqlite.",
             "fork": true,
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/sqlite-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/sqlite-feedstock",
             "homepage": null,
-            "size": 52,
+            "size": 62,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnk1ODUyNTEzNw==",
             "name": "sqlite-feedstock",
             "full_name": "conda-forge/sqlite-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/sqlite-feedstock",
             "description": "A conda-smithy repository for sqlite.",
             "fork": false,
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 3,
     "changed_files": 1,
     "Last-Modified": "Sat, 15 Sep 2018 14:23:05 GMT",
-    "ETag": "W/\"c319054c936438829de2f7d0a815803b\""
+    "ETag": "W/\"6104b23a39c6374c4e5c4f5df5abb04a\""
 }

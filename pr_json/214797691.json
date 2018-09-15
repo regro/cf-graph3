@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjkwMzMwNzk=",
             "name": "terraform-provider-vsphere-feedstock",
             "full_name": "regro-cf-autotick-bot/terraform-provider-vsphere-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-vsphere-feedstock",
             "description": "A conda-smithy repository for terraform-provider-vsphere.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjUxMjI4ODA=",
             "name": "terraform-provider-vsphere-feedstock",
             "full_name": "conda-forge/terraform-provider-vsphere-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/terraform-provider-vsphere-feedstock",
             "description": "A conda-smithy repository for terraform-provider-vsphere.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 68,
     "deletions": 36,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Tue, 11 Sep 2018 23:45:15 GMT",
+    "ETag": "W/\"ffa5bf9c8a05e184490ed8cbc85ad3e4\""
 }

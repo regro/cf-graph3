@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzk5NDY5OTA=",
             "name": "xorg-imake-feedstock",
             "full_name": "regro-cf-autotick-bot/xorg-imake-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/xorg-imake-feedstock",
             "description": "A conda-smithy repository for xorg-imake.",
             "fork": true,
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-imake-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/xorg-imake-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnk4MTQzNzQ1Nw==",
             "name": "xorg-imake-feedstock",
             "full_name": "conda-forge/xorg-imake-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/xorg-imake-feedstock",
             "description": "A conda-smithy repository for xorg-imake.",
             "fork": false,
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 81,
     "changed_files": 19,
     "Last-Modified": "Sat, 15 Sep 2018 14:23:16 GMT",
-    "ETag": "W/\"7aee278fdf802200ee1bae3653791375\""
+    "ETag": "W/\"bba8e5ac5db3fd3767dc62b70e3db81c\""
 }
