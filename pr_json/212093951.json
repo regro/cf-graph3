@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzI1NTMyMjk=",
             "name": "gnupg-feedstock",
             "full_name": "regro-cf-autotick-bot/gnupg-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/gnupg-feedstock",
             "description": "A conda-smithy repository for gnupg.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzI0OTI4NjQ=",
             "name": "gnupg-feedstock",
             "full_name": "conda-forge/gnupg-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/gnupg-feedstock",
             "description": "A conda-smithy repository for gnupg.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 54,
     "deletions": 30,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Thu, 30 Aug 2018 14:11:56 GMT",
+    "ETag": "W/\"1400075372fb308b97de03aac15c49f9\""
 }

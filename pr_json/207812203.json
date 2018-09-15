@@ -116,6 +116,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDQ0NTI5NTQ=",
             "name": "pigar-feedstock",
             "full_name": "regro-cf-autotick-bot/pigar-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -136,7 +137,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/pigar-feedstock",
             "description": "A conda-smithy repository for pigar.",
             "fork": true,
@@ -240,6 +240,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzE4NzQxMDM=",
             "name": "pigar-feedstock",
             "full_name": "conda-forge/pigar-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -260,7 +261,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/pigar-feedstock",
             "description": "A conda-smithy repository for pigar.",
             "fork": false,
@@ -375,5 +375,7 @@
     "commits": 2,
     "additions": 76,
     "deletions": 68,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Mon, 13 Aug 2018 04:13:37 GMT",
+    "ETag": "W/\"f511d91e43ef71785dd2e6ed3bc3385d\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncairo\nncl\npyferret\ntexlive-core\ngtk2\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T16:17:56Z",
-    "updated_at": "2018-09-14T17:58:27Z",
+    "updated_at": "2018-09-15T23:04:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "52ccc51d73c8d9226b21bbff1a3fd9a351c086ca",
+    "merge_commit_sha": "4f9aa8f8a5df305f26ec725be90b91b9f236b203",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/18cf5e4a195bbe6dffe87dc1a801f7e9f2bc8588",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/3954c3bdff5ecc84e4bef3746370936aa326a0c0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "18cf5e4a195bbe6dffe87dc1a801f7e9f2bc8588",
+        "sha": "3954c3bdff5ecc84e4bef3746370936aa326a0c0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pixman-feedstock/deployments",
             "created_at": "2018-08-07T20:48:09Z",
             "updated_at": "2018-08-07T20:48:11Z",
-            "pushed_at": "2018-09-13T16:17:55Z",
+            "pushed_at": "2018-09-15T23:04:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pixman-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pixman-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pixman-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/deployments",
             "created_at": "2016-03-17T08:34:27Z",
             "updated_at": "2018-09-04T10:49:16Z",
-            "pushed_at": "2018-09-13T16:17:56Z",
+            "pushed_at": "2018-09-15T23:04:10Z",
             "git_url": "git://github.com/conda-forge/pixman-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pixman-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pixman-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/18cf5e4a195bbe6dffe87dc1a801f7e9f2bc8588"
+            "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/3954c3bdff5ecc84e4bef3746370936aa326a0c0"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 89,
-    "deletions": 24,
-    "changed_files": 11,
-    "Last-Modified": "Fri, 14 Sep 2018 17:58:27 GMT",
-    "ETag": "W/\"d8358747856fa845d0a72edacd8cbe40\""
+    "commits": 3,
+    "additions": 90,
+    "deletions": 25,
+    "changed_files": 12,
+    "Last-Modified": "Sat, 15 Sep 2018 23:04:10 GMT",
+    "ETag": "W/\"e337ac6cab6a7093c9cd31e440f6b474\""
 }

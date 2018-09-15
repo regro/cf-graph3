@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzIyMzkxOTY=",
             "name": "node2vec-feedstock",
             "full_name": "regro-cf-autotick-bot/node2vec-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/node2vec-feedstock",
             "description": "A conda-smithy repository for node2vec.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzE5MzI1NjY=",
             "name": "node2vec-feedstock",
             "full_name": "conda-forge/node2vec-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/node2vec-feedstock",
             "description": "A conda-smithy repository for node2vec.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 40,
     "deletions": 22,
-    "changed_files": 7
+    "changed_files": 7,
+    "Last-Modified": "Thu, 06 Sep 2018 17:23:49 GMT",
+    "ETag": "W/\"4e5f4f2e41f035a9dcb15ffd574377c1\""
 }

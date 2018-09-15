@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDIwNjk4NjU=",
             "name": "trio_asyncio-feedstock",
             "full_name": "regro-cf-autotick-bot/trio_asyncio-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/trio_asyncio-feedstock",
             "description": "A conda-smithy repository for trio_asyncio.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzEzMjE3NzA=",
             "name": "trio_asyncio-feedstock",
             "full_name": "conda-forge/trio_asyncio-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/trio_asyncio-feedstock",
             "description": "A conda-smithy repository for trio_asyncio.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 07 Sep 2018 07:10:40 GMT",
+    "ETag": "W/\"90ba90223848b3da874d153fdc5b22eb\""
 }
