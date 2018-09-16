@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDQ0MzY5NDQ=",
             "name": "apache-beam-feedstock",
             "full_name": "regro-cf-autotick-bot/apache-beam-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/apache-beam-feedstock",
             "description": "A conda-smithy repository for apache-beam.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDQ0MzU3NzU=",
             "name": "apache-beam-feedstock",
             "full_name": "conda-forge/apache-beam-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/apache-beam-feedstock",
             "description": "A conda-smithy repository for apache-beam.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Sun, 12 Aug 2018 04:13:25 GMT",
+    "ETag": "W/\"56cfa57cf2d611dfa51a4ff110e6f4cc\""
 }

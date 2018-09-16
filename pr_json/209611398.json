@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDU0NTgyNjU=",
             "name": "nlohmann_json-feedstock",
             "full_name": "regro-cf-autotick-bot/nlohmann_json-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/nlohmann_json-feedstock",
             "description": "A conda-smithy repository for nlohmann_json.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDQ0MjYwMzc=",
             "name": "nlohmann_json-feedstock",
             "full_name": "conda-forge/nlohmann_json-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/nlohmann_json-feedstock",
             "description": "A conda-smithy repository for nlohmann_json.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 54,
     "deletions": 26,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Tue, 21 Aug 2018 00:54:26 GMT",
+    "ETag": "W/\"a679b947b62573dae2f1c5de777360a9\""
 }
