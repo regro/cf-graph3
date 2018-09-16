@@ -32,10 +32,10 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nMoving `python # [win]` which was used for vc matrix\nMoving cmake from host to build\nRemoved skip for py2k and added skip for vc<14\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T02:17:18Z",
-    "updated_at": "2018-07-26T02:17:21Z",
+    "updated_at": "2018-09-15T23:52:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c1f7b8801ce4a8500e824f8e784aaea32cbbcea9",
+    "merge_commit_sha": "bddc38099741128da28e50e81a84cc81f879a63f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/statuses/bba508cbc885ca1ef0bcad55b2aab3e4744cb0f1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/statuses/3c7a76e0eef7bcca2f929d52eb005d377179caf5",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "bba508cbc885ca1ef0bcad55b2aab3e4744cb0f1",
+        "sha": "3c7a76e0eef7bcca2f929d52eb005d377179caf5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lzfse-feedstock/deployments",
             "created_at": "2018-06-25T03:59:36Z",
             "updated_at": "2018-06-25T03:59:37Z",
-            "pushed_at": "2018-07-26T02:17:18Z",
+            "pushed_at": "2018-09-15T23:52:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lzfse-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lzfse-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lzfse-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lzfse-feedstock/deployments",
             "created_at": "2017-05-08T02:39:22Z",
             "updated_at": "2018-08-04T18:48:22Z",
-            "pushed_at": "2018-08-04T18:48:20Z",
+            "pushed_at": "2018-09-15T23:52:31Z",
             "git_url": "git://github.com/conda-forge/lzfse-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lzfse-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lzfse-feedstock.git",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 4,
+            "forks_count": 5,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 4,
+            "forks": 5,
             "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lzfse-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lzfse-feedstock/statuses/bba508cbc885ca1ef0bcad55b2aab3e4744cb0f1"
+            "href": "https://api.github.com/repos/conda-forge/lzfse-feedstock/statuses/3c7a76e0eef7bcca2f929d52eb005d377179caf5"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 101,
-    "deletions": 97,
-    "changed_files": 14,
-    "Last-Modified": "Thu, 26 Jul 2018 02:17:21 GMT",
-    "ETag": "W/\"78e3cdf4e9246e89cddcfc085631a3c0\""
+    "commits": 5,
+    "additions": 132,
+    "deletions": 131,
+    "changed_files": 17,
+    "Last-Modified": "Sat, 15 Sep 2018 23:52:30 GMT",
+    "ETag": "W/\"19e84227c46fa8589b58305511a6d09b\""
 }
