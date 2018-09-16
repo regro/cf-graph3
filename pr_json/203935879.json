@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDIzNDMyMjQ=",
             "name": "python-pdal-feedstock",
             "full_name": "regro-cf-autotick-bot/python-pdal-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/python-pdal-feedstock",
             "description": "A conda-smithy repository for python-pdal.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzI1Mjk4MzY=",
             "name": "python-pdal-feedstock",
             "full_name": "conda-forge/python-pdal-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/python-pdal-feedstock",
             "description": "A conda-smithy repository for python-pdal.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 6,
     "deletions": 3,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 25 Jul 2018 19:16:20 GMT",
+    "ETag": "W/\"5a25cf0ad762742b4f6de6ac13d4d914\""
 }

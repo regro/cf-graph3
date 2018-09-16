@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDAwOTQ0MDk=",
             "name": "pyicu-feedstock",
             "full_name": "regro-cf-autotick-bot/pyicu-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/pyicu-feedstock",
             "description": "A conda-smithy repository for pyicu.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzM5NzY2MjY=",
             "name": "pyicu-feedstock",
             "full_name": "conda-forge/pyicu-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/pyicu-feedstock",
             "description": "A conda-smithy repository for pyicu.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 74,
     "deletions": 30,
-    "changed_files": 13
+    "changed_files": 13,
+    "Last-Modified": "Sat, 08 Sep 2018 18:12:51 GMT",
+    "ETag": "W/\"6146dd4f2ae90e844b269f65b5a78088\""
 }

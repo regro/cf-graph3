@@ -85,6 +85,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDU0NzU2MDg=",
             "name": "luajit-feedstock",
             "full_name": "regro-cf-autotick-bot/luajit-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -105,7 +106,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/luajit-feedstock",
             "description": "A conda-smithy repository for luajit.",
             "fork": true,
@@ -209,6 +209,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzQwMDU4MzA=",
             "name": "luajit-feedstock",
             "full_name": "conda-forge/luajit-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -229,7 +230,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/luajit-feedstock",
             "description": "A conda-smithy repository for luajit.",
             "fork": false,
@@ -344,5 +344,7 @@
     "commits": 2,
     "additions": 143,
     "deletions": 49,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Thu, 30 Aug 2018 19:50:55 GMT",
+    "ETag": "W/\"f7acd9c73f2cfbc084ddb616b801f8ba\""
 }

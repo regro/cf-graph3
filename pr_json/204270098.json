@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDIzNjczMDA=",
             "name": "ixmp-feedstock",
             "full_name": "regro-cf-autotick-bot/ixmp-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/ixmp-feedstock",
             "description": "A conda-smithy repository for ixmp.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzM2ODkxNzc=",
             "name": "ixmp-feedstock",
             "full_name": "conda-forge/ixmp-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/ixmp-feedstock",
             "description": "A conda-smithy repository for ixmp.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 145,
     "deletions": 8,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Thu, 26 Jul 2018 21:19:47 GMT",
+    "ETag": "W/\"7eccfe393b077084c1456ade4f8feb7e\""
 }

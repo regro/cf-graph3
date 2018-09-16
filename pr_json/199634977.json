@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzM1MTg2NDA=",
             "name": "sphinx-releases-feedstock",
             "full_name": "regro-cf-autotick-bot/sphinx-releases-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/sphinx-releases-feedstock",
             "description": "A conda-smithy repository for sphinx-releases.",
             "fork": true,
@@ -194,6 +194,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzMxMTI5MDg=",
             "name": "sphinx-releases-feedstock",
             "full_name": "conda-forge/sphinx-releases-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -214,7 +215,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/sphinx-releases-feedstock",
             "description": "A conda-smithy repository for sphinx-releases.",
             "fork": false,
@@ -323,5 +323,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"b93579bdef2b4d71e723dacf08f9ece0\""
 }
