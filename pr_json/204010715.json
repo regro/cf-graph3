@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nMoving `python # [win]` which was used for vc matrix\nMoving cmake from host to build\nRemoved skip for py2k and added skip for vc<14\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T02:17:18Z",
-    "updated_at": "2018-09-15T23:52:30Z",
+    "updated_at": "2018-09-16T19:42:15Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "bddc38099741128da28e50e81a84cc81f879a63f",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 132,
     "deletions": 131,
     "changed_files": 17,
-    "Last-Modified": "Sat, 15 Sep 2018 23:52:30 GMT",
-    "ETag": "W/\"43edf93fd3180d3d5d5e4fe2109656c0\""
+    "Last-Modified": "Sun, 16 Sep 2018 19:42:15 GMT",
+    "ETag": "W/\"bea938b95a4792d88aeadbb6c13a54dd\""
 }

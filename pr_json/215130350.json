@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncaffe\ncasacore\ncyclus\neccodes\necmwf_grib\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T00:11:32Z",
-    "updated_at": "2018-09-16T19:01:32Z",
+    "updated_at": "2018-09-16T19:36:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9f6ee47f5f12d217c5ac2ee4c666bc147aa33a18",
+    "merge_commit_sha": "3405897262574e32276b93eb52c64c756f3bd62e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/94/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/issues/94/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/20ca118f1ea44f08afbd41ee5747169f9c80e60e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/adc06c0110f1c52beea99c484d1f013bb783cc3f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "20ca118f1ea44f08afbd41ee5747169f9c80e60e",
+        "sha": "adc06c0110f1c52beea99c484d1f013bb783cc3f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hdf5-feedstock/deployments",
             "created_at": "2018-04-02T10:30:02Z",
             "updated_at": "2018-04-02T10:30:04Z",
-            "pushed_at": "2018-09-16T19:01:32Z",
+            "pushed_at": "2018-09-16T19:13:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hdf5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hdf5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hdf5-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/hdf5-feedstock",
             "homepage": null,
-            "size": 130,
+            "size": 133,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Fortran",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/deployments",
             "created_at": "2016-03-25T06:09:22Z",
             "updated_at": "2018-09-02T23:31:35Z",
-            "pushed_at": "2018-09-16T19:01:33Z",
+            "pushed_at": "2018-09-16T19:13:47Z",
             "git_url": "git://github.com/conda-forge/hdf5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hdf5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hdf5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/94/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/20ca118f1ea44f08afbd41ee5747169f9c80e60e"
+            "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/adc06c0110f1c52beea99c484d1f013bb783cc3f"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 11,
+    "commits": 12,
     "additions": 125,
-    "deletions": 34,
+    "deletions": 35,
     "changed_files": 11,
-    "Last-Modified": "Sun, 16 Sep 2018 19:01:32 GMT",
-    "ETag": "W/\"800f7747d591a11b46975d0f5b365157\""
+    "Last-Modified": "Sun, 16 Sep 2018 19:36:19 GMT",
+    "ETag": "W/\"da0aa7d64b5c507216eb4884fdabfd3a\""
 }
