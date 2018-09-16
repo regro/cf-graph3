@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T17:19:50Z",
-    "updated_at": "2018-08-29T17:19:54Z",
+    "updated_at": "2018-09-12T00:51:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "51f9eaa4a0462b61d6268bb58f4b70fb4e120571",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1053729785,
+            "node_id": "MDU6TGFiZWwxMDUzNzI5Nzg1",
+            "url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "006b75",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/pulls/1/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/pulls/1/comments",
@@ -76,6 +85,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDY2MzM5ODI=",
             "name": "perl-unix-processors-feedstock",
             "full_name": "regro-cf-autotick-bot/perl-unix-processors-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +106,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/perl-unix-processors-feedstock",
             "description": "A conda-smithy repository for perl-unix-processors.",
             "fork": true,
@@ -200,6 +209,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDU4MjkwMzQ=",
             "name": "perl-unix-processors-feedstock",
             "full_name": "conda-forge/perl-unix-processors-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +230,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/perl-unix-processors-feedstock",
             "description": "A conda-smithy repository for perl-unix-processors.",
             "fork": false,

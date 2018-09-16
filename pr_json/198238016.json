@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzgzMDg2ODQ=",
             "name": "container-diff-feedstock",
             "full_name": "regro-cf-autotick-bot/container-diff-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/container-diff-feedstock",
             "description": "A conda-smithy repository for container-diff.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzEwNTE0MzU=",
             "name": "container-diff-feedstock",
             "full_name": "conda-forge/container-diff-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/container-diff-feedstock",
             "description": "A conda-smithy repository for container-diff.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 60,
     "deletions": 52,
-    "changed_files": 3
+    "changed_files": 3,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"0b7e24066e614e947c8c7e67ef7ef9e1\""
 }

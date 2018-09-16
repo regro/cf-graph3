@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbackward-cpp\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T19:22:59Z",
-    "updated_at": "2018-09-13T20:38:42Z",
+    "updated_at": "2018-09-16T22:43:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6463e032900e663a3a9b2e67be604287ebafcdea",
+    "merge_commit_sha": "b59cb4efaca994d39661f93592639968c4250cce",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/statuses/1b9f24a99ebeb2daad48e3fef44f25716544d951",
+    "statuses_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/statuses/fd8af5606fa2fa21e2fb79e28dd6af053bd07409",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1b9f24a99ebeb2daad48e3fef44f25716544d951",
+        "sha": "fd8af5606fa2fa21e2fb79e28dd6af053bd07409",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/elfutils-feedstock/deployments",
             "created_at": "2018-03-16T18:09:10Z",
             "updated_at": "2018-03-16T18:09:11Z",
-            "pushed_at": "2018-09-14T12:09:42Z",
+            "pushed_at": "2018-09-16T22:43:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/elfutils-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/elfutils-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/elfutils-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/elfutils-feedstock/deployments",
             "created_at": "2016-10-15T11:21:04Z",
             "updated_at": "2018-08-04T17:43:56Z",
-            "pushed_at": "2018-09-14T12:09:43Z",
+            "pushed_at": "2018-09-16T22:43:18Z",
             "git_url": "git://github.com/conda-forge/elfutils-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/elfutils-feedstock.git",
             "clone_url": "https://github.com/conda-forge/elfutils-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/elfutils-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/elfutils-feedstock/statuses/1b9f24a99ebeb2daad48e3fef44f25716544d951"
+            "href": "https://api.github.com/repos/conda-forge/elfutils-feedstock/statuses/fd8af5606fa2fa21e2fb79e28dd6af053bd07409"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
+    "commits": 5,
     "additions": 106,
     "deletions": 112,
     "changed_files": 14,
-    "Last-Modified": "Thu, 13 Sep 2018 20:38:42 GMT",
-    "ETag": "W/\"fc40c14cb5a913c16d086531f941d648\""
+    "Last-Modified": "Sun, 16 Sep 2018 22:43:17 GMT",
+    "ETag": "W/\"5e57647a4c0b5d77c3ad8368abdd293f\""
 }

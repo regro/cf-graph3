@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzczMDY3Nzg=",
             "name": "nameparser-feedstock",
             "full_name": "regro-cf-autotick-bot/nameparser-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/nameparser-feedstock",
             "description": "A conda-smithy repository for nameparser.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzY0ODk2OTE=",
             "name": "nameparser-feedstock",
             "full_name": "conda-forge/nameparser-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/nameparser-feedstock",
             "description": "A conda-smithy repository for nameparser.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 31 Aug 2018 21:18:12 GMT",
+    "ETag": "W/\"e17aa8a695977c26e903f9d57cb3ce7a\""
 }

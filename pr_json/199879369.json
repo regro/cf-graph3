@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDAwNTE4MzE=",
             "name": "inline-html-feedstock",
             "full_name": "regro-cf-autotick-bot/inline-html-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/inline-html-feedstock",
             "description": "A conda-smithy repository for inline-html.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzY5MzQ0NTE=",
             "name": "inline-html-feedstock",
             "full_name": "conda-forge/inline-html-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/inline-html-feedstock",
             "description": "A conda-smithy repository for inline-html.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 8,
     "deletions": 230,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"664fee95e2e8f9c5bf66d39b26c125a2\""
 }

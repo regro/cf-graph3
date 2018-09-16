@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDY2NjUxNDI=",
             "name": "aws-xray-sdk-feedstock",
             "full_name": "regro-cf-autotick-bot/aws-xray-sdk-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/aws-xray-sdk-feedstock",
             "description": "A conda-smithy repository for aws-xray-sdk.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDY2NjIxOTQ=",
             "name": "aws-xray-sdk-feedstock",
             "full_name": "conda-forge/aws-xray-sdk-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/aws-xray-sdk-feedstock",
             "description": "A conda-smithy repository for aws-xray-sdk.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 29 Aug 2018 22:20:05 GMT",
+    "ETag": "W/\"0b294ce67dd63139d6434e0f28619ab7\""
 }

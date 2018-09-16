@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDY2MzM3NjU=",
             "name": "python-jose-feedstock",
             "full_name": "regro-cf-autotick-bot/python-jose-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/python-jose-feedstock",
             "description": "A conda-smithy repository for python-jose.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxNDY2MzE4NTI=",
             "name": "python-jose-feedstock",
             "full_name": "conda-forge/python-jose-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/python-jose-feedstock",
             "description": "A conda-smithy repository for python-jose.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 29 Aug 2018 17:18:06 GMT",
+    "ETag": "W/\"96acd4536c5893af5cb6e82f206fb5ba\""
 }

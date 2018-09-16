@@ -76,6 +76,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzk4OTU0MjQ=",
             "name": "gtk2-feedstock",
             "full_name": "regro-cf-autotick-bot/gtk2-feedstock",
+            "private": false,
             "owner": {
                 "login": "regro-cf-autotick-bot",
                 "id": 36490558,
@@ -96,7 +97,6 @@
                 "type": "User",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/regro-cf-autotick-bot/gtk2-feedstock",
             "description": "A conda-smithy repository for gtk2.",
             "fork": true,
@@ -200,6 +200,7 @@
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzgyNzYwODE=",
             "name": "gtk2-feedstock",
             "full_name": "conda-forge/gtk2-feedstock",
+            "private": false,
             "owner": {
                 "login": "conda-forge",
                 "id": 11897326,
@@ -220,7 +221,6 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "private": false,
             "html_url": "https://github.com/conda-forge/gtk2-feedstock",
             "description": "A conda-smithy repository for gtk2.",
             "fork": false,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 10,
     "deletions": 2,
-    "changed_files": 3
+    "changed_files": 3,
+    "Last-Modified": "Thu, 26 Jul 2018 14:21:52 GMT",
+    "ETag": "W/\"f18d82b1e333e2c15844c884ffffcf5e\""
 }
