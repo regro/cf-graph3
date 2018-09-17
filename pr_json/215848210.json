@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nxproperty\nxtensor\nxtensor-python\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-16T22:13:41Z",
-    "updated_at": "2018-09-16T22:13:46Z",
+    "updated_at": "2018-09-17T05:58:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "47d96c7ef9dd7dde294fb7baef4dc8eac92e82ba",
+    "merge_commit_sha": "343c1a1d94f0a43aa82339a22acdb9ec5f011ae8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/pulls/46/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/issues/46/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/statuses/7534c64705db246b67a7c2089f9cc4b613cf7d6e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/statuses/7ca9e5dd6ee263850779a83d6ed4695b6e4ea364",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7534c64705db246b67a7c2089f9cc4b613cf7d6e",
+        "sha": "7ca9e5dd6ee263850779a83d6ed4695b6e4ea364",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xtl-feedstock/deployments",
             "created_at": "2018-05-01T17:27:36Z",
             "updated_at": "2018-05-01T17:27:39Z",
-            "pushed_at": "2018-09-16T22:13:41Z",
+            "pushed_at": "2018-09-17T05:58:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xtl-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xtl-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xtl-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xtl-feedstock/deployments",
             "created_at": "2017-09-17T11:47:53Z",
             "updated_at": "2018-09-16T17:11:42Z",
-            "pushed_at": "2018-09-16T22:13:42Z",
+            "pushed_at": "2018-09-17T05:58:22Z",
             "git_url": "git://github.com/conda-forge/xtl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xtl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xtl-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xtl-feedstock/pulls/46/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xtl-feedstock/statuses/7534c64705db246b67a7c2089f9cc4b613cf7d6e"
+            "href": "https://api.github.com/repos/conda-forge/xtl-feedstock/statuses/7ca9e5dd6ee263850779a83d6ed4695b6e4ea364"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 80,
-    "deletions": 10,
+    "commits": 3,
+    "additions": 81,
+    "deletions": 11,
     "changed_files": 8,
-    "Last-Modified": "Sun, 16 Sep 2018 22:13:46 GMT",
-    "ETag": "W/\"06f8933c0b4ab0b196ae75d17edb7773\""
+    "Last-Modified": "Mon, 17 Sep 2018 05:58:27 GMT",
+    "ETag": "W/\"b4a7557ce164660443a83ad0ac3819b9\""
 }
