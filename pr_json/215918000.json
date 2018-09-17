@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-17T09:22:06Z",
-    "updated_at": "2018-09-17T15:07:55Z",
+    "updated_at": "2018-09-17T18:25:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "62ea77b1e8fa03f821e06f55463d506481681915",
+    "merge_commit_sha": "cdba0a20d7690bb07e622d39cf806bac7bc781d1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/statuses/3b25d5857a5ad771e9ed091b81175986a33c5a5a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/statuses/4e23742b068646021b94a90e6ee5b6fbef7acf80",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3b25d5857a5ad771e9ed091b81175986a33c5a5a",
+        "sha": "4e23742b068646021b94a90e6ee5b6fbef7acf80",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xtensor-fftw-feedstock/deployments",
             "created_at": "2018-03-27T22:52:53Z",
             "updated_at": "2018-03-27T22:52:55Z",
-            "pushed_at": "2018-09-17T14:55:19Z",
+            "pushed_at": "2018-09-17T18:11:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xtensor-fftw-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xtensor-fftw-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xtensor-fftw-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/xtensor-fftw-feedstock",
             "homepage": null,
-            "size": 36,
+            "size": 37,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/deployments",
             "created_at": "2017-11-14T03:38:07Z",
             "updated_at": "2018-08-04T19:03:59Z",
-            "pushed_at": "2018-09-17T14:55:19Z",
+            "pushed_at": "2018-09-17T18:11:20Z",
             "git_url": "git://github.com/conda-forge/xtensor-fftw-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xtensor-fftw-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xtensor-fftw-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/statuses/3b25d5857a5ad771e9ed091b81175986a33c5a5a"
+            "href": "https://api.github.com/repos/conda-forge/xtensor-fftw-feedstock/statuses/4e23742b068646021b94a90e6ee5b6fbef7acf80"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 165,
-    "deletions": 56,
-    "changed_files": 17
+    "commits": 5,
+    "additions": 167,
+    "deletions": 58,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 17 Sep 2018 18:25:49 GMT",
+    "ETag": "W/\"05f45f0cf1490b1616e72573843ceede\""
 }
