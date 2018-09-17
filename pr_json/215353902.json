@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nipopt\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T17:15:17Z",
-    "updated_at": "2018-09-14T22:00:38Z",
+    "updated_at": "2018-09-17T14:34:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "851f075ca74707b0051fd951e5903bcf48305e8e",
+    "merge_commit_sha": "953931d21b293b8502789a7f1ce99463948ebf8f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/statuses/c31a961db792e08a37ae17ebcceed03a1229bbf7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/statuses/d0d60bfc402f443c85606a94bcecfff5e6d6d7fc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c31a961db792e08a37ae17ebcceed03a1229bbf7",
+        "sha": "d0d60bfc402f443c85606a94bcecfff5e6d6d7fc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ampl-mp-feedstock/deployments",
             "created_at": "2018-02-24T00:11:29Z",
             "updated_at": "2018-02-24T00:11:31Z",
-            "pushed_at": "2018-09-14T19:29:08Z",
+            "pushed_at": "2018-09-17T14:34:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ampl-mp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ampl-mp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ampl-mp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/deployments",
             "created_at": "2016-11-12T04:43:39Z",
             "updated_at": "2018-08-04T17:40:23Z",
-            "pushed_at": "2018-09-14T19:29:09Z",
+            "pushed_at": "2018-09-17T14:34:58Z",
             "git_url": "git://github.com/conda-forge/ampl-mp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ampl-mp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ampl-mp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/statuses/c31a961db792e08a37ae17ebcceed03a1229bbf7"
+            "href": "https://api.github.com/repos/conda-forge/ampl-mp-feedstock/statuses/d0d60bfc402f443c85606a94bcecfff5e6d6d7fc"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 170,
-    "deletions": 58,
-    "changed_files": 17
+    "commits": 6,
+    "additions": 173,
+    "deletions": 59,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 17 Sep 2018 14:34:57 GMT",
+    "ETag": "W/\"b327af6e1b860023bb1f86e434c08fdb\""
 }
