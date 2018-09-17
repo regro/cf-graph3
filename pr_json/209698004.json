@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T03:20:44Z",
-    "updated_at": "2018-09-16T21:22:05Z",
+    "updated_at": "2018-09-17T01:30:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8719a473a9096b8b7e3d8b4bd77847fd477dfb14",
+    "merge_commit_sha": "7693d98da3a7284479d99e1b455592c8cbe5af78",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -95,11 +95,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/statuses/254469baefa0ba1cb85b99e4f619fb4763da9222",
+    "statuses_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/statuses/bec73247b681cced46bc1220ec3920866a5796cd",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "254469baefa0ba1cb85b99e4f619fb4763da9222",
+        "sha": "bec73247b681cced46bc1220ec3920866a5796cd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -188,7 +188,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/rpfits-feedstock/deployments",
             "created_at": "2018-06-29T23:46:30Z",
             "updated_at": "2018-06-29T23:46:32Z",
-            "pushed_at": "2018-08-21T03:20:43Z",
+            "pushed_at": "2018-09-17T01:30:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/rpfits-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/rpfits-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/rpfits-feedstock.git",
@@ -312,7 +312,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/rpfits-feedstock/deployments",
             "created_at": "2017-01-13T09:16:25Z",
             "updated_at": "2018-08-23T03:40:48Z",
-            "pushed_at": "2018-08-21T03:20:45Z",
+            "pushed_at": "2018-09-17T01:30:48Z",
             "git_url": "git://github.com/conda-forge/rpfits-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/rpfits-feedstock.git",
             "clone_url": "https://github.com/conda-forge/rpfits-feedstock.git",
@@ -367,7 +367,7 @@
             "href": "https://api.github.com/repos/conda-forge/rpfits-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/rpfits-feedstock/statuses/254469baefa0ba1cb85b99e4f619fb4763da9222"
+            "href": "https://api.github.com/repos/conda-forge/rpfits-feedstock/statuses/bec73247b681cced46bc1220ec3920866a5796cd"
         }
     },
     "author_association": "NONE",
@@ -381,10 +381,10 @@
     "comments": 10,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 154,
-    "deletions": 52,
-    "changed_files": 15,
-    "Last-Modified": "Sun, 16 Sep 2018 21:22:05 GMT",
-    "ETag": "W/\"7549d8a081dc569cbe0a5e67169c5501\""
+    "commits": 5,
+    "additions": 159,
+    "deletions": 68,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 17 Sep 2018 01:30:48 GMT",
+    "ETag": "W/\"e0f05a5fe9f3bbb0aaf6473a086b59f3\""
 }
