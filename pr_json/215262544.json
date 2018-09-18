@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nadept\narmadillo\nbob.math\ncaffe\ncasacore\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T12:17:30Z",
-    "updated_at": "2018-09-18T20:58:47Z",
+    "updated_at": "2018-09-18T23:05:23Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "aa7a58b362f4be5dc1e0a0ad531a44352aba722a",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openblas-feedstock/deployments",
             "created_at": "2016-04-28T16:56:19Z",
             "updated_at": "2018-08-31T05:40:35Z",
-            "pushed_at": "2018-09-18T19:32:50Z",
+            "pushed_at": "2018-09-18T22:59:41Z",
             "git_url": "git://github.com/conda-forge/openblas-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openblas-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openblas-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 15,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 5,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 15,
-            "open_issues": 4,
+            "open_issues": 5,
             "watchers": 4,
             "default_branch": "master"
         }
@@ -336,6 +336,6 @@
     "additions": 165,
     "deletions": 16,
     "changed_files": 9,
-    "Last-Modified": "Tue, 18 Sep 2018 20:58:47 GMT",
-    "ETag": "W/\"748acd2190d7b122be52993165dc46dc\""
+    "Last-Modified": "Tue, 18 Sep 2018 23:05:23 GMT",
+    "ETag": "W/\"68b4fe7867b6cdebd31f32b27416bfb1\""
 }
