@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-17T22:14:07Z",
-    "updated_at": "2018-09-17T22:14:12Z",
+    "updated_at": "2018-09-18T01:25:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c069a8f893cd0af5070903e60bc4076f797288f3",
+    "merge_commit_sha": "250f1bb8b89ef944f8b45deab88f10ece9ab752e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/statuses/97f01d73263582b65298378789c7bf4dc260ceda",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/statuses/fc2b2715b152f7dd013ac3f6907afe054ac59578",
     "head": {
         "label": "regro-cf-autotick-bot:1.18.0",
         "ref": "1.18.0",
-        "sha": "97f01d73263582b65298378789c7bf4dc260ceda",
+        "sha": "fc2b2715b152f7dd013ac3f6907afe054ac59578",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-google-feedstock/deployments",
             "created_at": "2018-03-14T00:30:19Z",
             "updated_at": "2018-03-14T00:30:21Z",
-            "pushed_at": "2018-09-17T22:14:07Z",
+            "pushed_at": "2018-09-18T01:25:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-google-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-google-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-google-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/deployments",
             "created_at": "2018-03-13T22:29:06Z",
             "updated_at": "2018-09-14T10:08:34Z",
-            "pushed_at": "2018-09-17T22:14:08Z",
+            "pushed_at": "2018-09-18T01:25:56Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-google-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-google-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-google-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/statuses/97f01d73263582b65298378789c7bf4dc260ceda"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-google-feedstock/statuses/fc2b2715b152f7dd013ac3f6907afe054ac59578"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 4,
+    "commits": 2,
+    "additions": 5,
     "deletions": 4,
-    "changed_files": 1,
-    "Last-Modified": "Mon, 17 Sep 2018 22:14:12 GMT",
-    "ETag": "W/\"db87476e54f1863e8ca242454124be75\""
+    "changed_files": 2,
+    "Last-Modified": "Tue, 18 Sep 2018 01:25:55 GMT",
+    "ETag": "W/\"87d173596d98e9ce879b1567939251f3\""
 }
