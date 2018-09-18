@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncurl\nssh2-python\nlibgit2\nr-git2r\nr-base\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T18:13:20Z",
-    "updated_at": "2018-09-16T19:07:15Z",
+    "updated_at": "2018-09-18T12:01:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "06d67dd05049c18f2c546f66fefa18be6a3564d3",
+    "merge_commit_sha": "1980dc17d76dcc76cd8310e906c6c3e419785321",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/statuses/d09772ae8eebfa43f291922870ef96e285753338",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/statuses/a6957ed7dfb7febf2519df8dfc918e8161643704",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d09772ae8eebfa43f291922870ef96e285753338",
+        "sha": "a6957ed7dfb7febf2519df8dfc918e8161643704",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libssh2-feedstock/deployments",
             "created_at": "2018-06-24T05:17:44Z",
             "updated_at": "2018-06-24T05:17:45Z",
-            "pushed_at": "2018-09-13T18:13:19Z",
+            "pushed_at": "2018-09-18T11:57:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libssh2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libssh2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libssh2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libssh2-feedstock/deployments",
             "created_at": "2016-10-19T02:56:41Z",
             "updated_at": "2018-08-04T17:36:08Z",
-            "pushed_at": "2018-09-13T18:13:21Z",
+            "pushed_at": "2018-09-18T11:57:21Z",
             "git_url": "git://github.com/conda-forge/libssh2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libssh2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libssh2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libssh2-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libssh2-feedstock/statuses/d09772ae8eebfa43f291922870ef96e285753338"
+            "href": "https://api.github.com/repos/conda-forge/libssh2-feedstock/statuses/a6957ed7dfb7febf2519df8dfc918e8161643704"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
-    "review_comments": 0,
+    "comments": 5,
+    "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 172,
+    "commits": 3,
+    "additions": 176,
     "deletions": 52,
-    "changed_files": 17,
-    "Last-Modified": "Sun, 16 Sep 2018 19:07:15 GMT",
-    "ETag": "W/\"01da47a2e20190b73c0d2339642acc33\""
+    "changed_files": 18,
+    "Last-Modified": "Tue, 18 Sep 2018 12:01:42 GMT",
+    "ETag": "W/\"d8d061742ba442bec195f8b0e33bdd5e\""
 }
