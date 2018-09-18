@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/xeus-feedstock/pull/13.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/xeus-feedstock/issues/13",
     "number": 13,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nMoving cmake from host to build\nMoving `python # [win]` which was used for vc matrix\nRemoving vc in favour of compiler()\nRemoved skip for py2k and added skip for vc<14\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-01T20:48:21Z",
-    "updated_at": "2018-07-01T20:48:24Z",
-    "closed_at": null,
+    "updated_at": "2018-09-17T23:44:33Z",
+    "closed_at": "2018-09-17T23:44:33Z",
     "merged_at": null,
     "merge_commit_sha": "75fc9889f8ec458d9fe3a38c8bd795c27158b4ec",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xeus-feedstock/deployments",
             "created_at": "2017-02-02T12:38:07Z",
             "updated_at": "2018-08-04T18:54:41Z",
-            "pushed_at": "2018-09-05T17:22:34Z",
+            "pushed_at": "2018-09-17T23:29:40Z",
             "git_url": "git://github.com/conda-forge/xeus-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xeus-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xeus-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 8,
-            "open_issues": 6,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 244,
     "deletions": 119,
     "changed_files": 21,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"abee6c4ca169ba959e877cca818fc4a1\""
+    "Last-Modified": "Mon, 17 Sep 2018 23:44:33 GMT",
+    "ETag": "W/\"91a083c6f32993cf6c43f4a75c5603c2\""
 }
