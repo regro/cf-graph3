@@ -32,7 +32,7 @@
     },
     "body": "I noticed that this recipe has version pinnings that may not be needed.\nI have removed the following pinnings:\nperl: 5.22.2.1\nNotes and instructions for merging this PR:\n1. Make sure that the removed pinnings are not needed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T09:14:50Z",
-    "updated_at": "2018-09-09T13:53:09Z",
+    "updated_at": "2018-09-20T12:12:19Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "4722fbae875a7d42bce785394c9af47f675fba8c",
@@ -335,5 +335,7 @@
     "commits": 3,
     "additions": 180,
     "deletions": 98,
-    "changed_files": 17
+    "changed_files": 17,
+    "Last-Modified": "Thu, 20 Sep 2018 12:12:19 GMT",
+    "ETag": "W/\"aa03a134a215e7bb10c259b6733379c9\""
 }
