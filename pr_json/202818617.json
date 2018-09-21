@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/r-ggstance-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/r-ggstance-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "r-ggstance v0.3.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-20T11:11:06Z",
-    "updated_at": "2018-07-20T11:18:56Z",
-    "closed_at": null,
+    "updated_at": "2018-09-21T14:57:55Z",
+    "closed_at": "2018-09-21T14:57:54Z",
     "merged_at": null,
     "merge_commit_sha": "af768fe5cb220e8d17316345c186ce896329186f",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-ggstance-feedstock/deployments",
             "created_at": "2018-02-28T22:18:19Z",
             "updated_at": "2018-08-04T19:25:57Z",
-            "pushed_at": "2018-08-04T19:25:56Z",
+            "pushed_at": "2018-09-21T14:57:37Z",
             "git_url": "git://github.com/conda-forge/r-ggstance-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-ggstance-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-ggstance-feedstock.git",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 1,
+            "forks": 2,
             "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 190,
     "deletions": 133,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Fri, 21 Sep 2018 14:57:55 GMT",
+    "ETag": "W/\"6b47ca8ec385caf202808fe73340a0de\""
 }
