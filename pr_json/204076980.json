@@ -32,10 +32,10 @@
     },
     "body": "I noticed that this recipe has version pinnings that may not be needed.\nI have removed the following pinnings:\nperl: 5.22.2.1\nNotes and instructions for merging this PR:\n1. Make sure that the removed pinnings are not needed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T09:14:50Z",
-    "updated_at": "2018-09-22T15:20:48Z",
+    "updated_at": "2018-09-22T19:59:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2af930d374ee69f322c8b045c20c806045da3e94",
+    "merge_commit_sha": "25bb81e5cf6fab1dfd1e9fc9ad4af8cf985d3364",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/statuses/f2e1792cb364b226c553b6a01aa351c3834f293c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/statuses/b2e5e89557d661b2489dd680d5d9205a1f1d9f24",
     "head": {
         "label": "regro-cf-autotick-bot:pinning",
         "ref": "pinning",
-        "sha": "f2e1792cb364b226c553b6a01aa351c3834f293c",
+        "sha": "b2e5e89557d661b2489dd680d5d9205a1f1d9f24",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mysql-feedstock/deployments",
             "created_at": "2018-06-26T01:17:53Z",
             "updated_at": "2018-06-26T01:17:55Z",
-            "pushed_at": "2018-09-22T15:20:48Z",
+            "pushed_at": "2018-09-22T19:59:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mysql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mysql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mysql-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mysql-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mysql-feedstock/deployments",
             "created_at": "2017-11-05T21:30:42Z",
             "updated_at": "2018-08-04T19:03:48Z",
-            "pushed_at": "2018-09-22T15:20:49Z",
+            "pushed_at": "2018-09-22T19:59:56Z",
             "git_url": "git://github.com/conda-forge/mysql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mysql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mysql-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mysql-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mysql-feedstock/statuses/f2e1792cb364b226c553b6a01aa351c3834f293c"
+            "href": "https://api.github.com/repos/conda-forge/mysql-feedstock/statuses/b2e5e89557d661b2489dd680d5d9205a1f1d9f24"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 9,
-    "additions": 187,
-    "deletions": 104,
-    "changed_files": 18
+    "commits": 14,
+    "additions": 191,
+    "deletions": 105,
+    "changed_files": 18,
+    "Last-Modified": "Sat, 22 Sep 2018 19:59:56 GMT",
+    "ETag": "W/\"3238d9eea5fa06ffbe8f2f9853c5709f\""
 }
