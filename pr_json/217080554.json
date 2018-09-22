@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-20T19:24:22Z",
-    "updated_at": "2018-09-21T16:28:47Z",
+    "updated_at": "2018-09-22T06:58:42Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "a40956274911c9dc496094e7863229f0d958652b",
@@ -350,13 +350,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 12,
+    "comments": 13,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 287,
     "deletions": 136,
     "changed_files": 21,
-    "Last-Modified": "Fri, 21 Sep 2018 16:28:47 GMT",
-    "ETag": "W/\"e96cd57c21eccaf44884bd671c484663\""
+    "Last-Modified": "Sat, 22 Sep 2018 06:58:42 GMT",
+    "ETag": "W/\"552abd0146b7fbfbcacf4a4129684783\""
 }
