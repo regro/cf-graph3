@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\natk\nautoconf\nautomake\nbison\ncurl\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T23:14:00Z",
-    "updated_at": "2018-09-22T14:40:21Z",
+    "updated_at": "2018-09-22T16:09:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1e8770f17d3fa8a72523bf036fca5867ea4faed7",
+    "merge_commit_sha": "2776c376fa28fda3252b4ce688a31b4190c071c8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/perl-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/perl-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/perl-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/perl-feedstock/statuses/cd403fe5f853b7401e177464ac7ba1129b4ca059",
+    "statuses_url": "https://api.github.com/repos/conda-forge/perl-feedstock/statuses/d9bff12855ebd2c5e8d2c313ac4fef9474f18673",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "cd403fe5f853b7401e177464ac7ba1129b4ca059",
+        "sha": "d9bff12855ebd2c5e8d2c313ac4fef9474f18673",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/perl-feedstock/deployments",
             "created_at": "2018-08-21T23:13:44Z",
             "updated_at": "2018-08-21T23:13:46Z",
-            "pushed_at": "2018-09-22T14:40:21Z",
+            "pushed_at": "2018-09-22T15:33:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/perl-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/perl-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/perl-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/perl-feedstock",
             "homepage": null,
-            "size": 63,
+            "size": 67,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/perl-feedstock/deployments",
             "created_at": "2016-03-16T20:52:47Z",
             "updated_at": "2018-08-04T17:00:24Z",
-            "pushed_at": "2018-09-22T14:40:22Z",
+            "pushed_at": "2018-09-22T15:33:19Z",
             "git_url": "git://github.com/conda-forge/perl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/perl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/perl-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/perl-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/perl-feedstock/statuses/cd403fe5f853b7401e177464ac7ba1129b4ca059"
+            "href": "https://api.github.com/repos/conda-forge/perl-feedstock/statuses/d9bff12855ebd2c5e8d2c313ac4fef9474f18673"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 15,
+    "comments": 17,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
+    "commits": 5,
     "additions": 166,
     "deletions": 72,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Sat, 22 Sep 2018 16:09:29 GMT",
+    "ETag": "W/\"05c5bed4bcf9fbfbb6f4c13b10078fef\""
 }
