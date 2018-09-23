@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/mypy_extensions-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/mypy_extensions-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "mypy_extensions v0.4.0",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-15T19:20:25Z",
-    "updated_at": "2018-08-15T19:20:29Z",
-    "closed_at": null,
+    "updated_at": "2018-09-23T14:08:38Z",
+    "closed_at": "2018-09-23T14:08:38Z",
     "merged_at": null,
     "merge_commit_sha": "c57b3a502f4be95a191e39b19c15ee163947a49a",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mypy_extensions-feedstock/deployments",
             "created_at": "2018-08-15T19:19:54Z",
             "updated_at": "2018-08-15T19:19:56Z",
-            "pushed_at": "2018-09-23T03:15:56Z",
+            "pushed_at": "2018-09-23T14:07:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mypy_extensions-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mypy_extensions-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mypy_extensions-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mypy_extensions-feedstock/deployments",
             "created_at": "2017-11-20T19:03:25Z",
             "updated_at": "2018-08-04T18:44:02Z",
-            "pushed_at": "2018-09-23T03:15:57Z",
+            "pushed_at": "2018-09-23T14:07:44Z",
             "git_url": "git://github.com/conda-forge/mypy_extensions-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mypy_extensions-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mypy_extensions-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 269,
     "deletions": 154,
     "changed_files": 25,
-    "Last-Modified": "Wed, 15 Aug 2018 19:20:29 GMT",
-    "ETag": "W/\"698730fac5fcc891d19942bf1295c3c8\""
+    "Last-Modified": "Sun, 23 Sep 2018 14:08:38 GMT",
+    "ETag": "W/\"ab6bbaa62cf0b36767835e4bdc000839\""
 }
