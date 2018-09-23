@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nkubernetes-helm\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T03:15:07Z",
-    "updated_at": "2018-09-23T03:15:12Z",
+    "updated_at": "2018-09-23T13:47:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4fc7f90793f975e75518da1c99a3100fdb20c2f4",
+    "merge_commit_sha": "e2698548db930929ae8f7d5142592a96a8aa1eef",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/pulls/22/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/issues/22/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/statuses/49fdac3a560ddef79e3b04bf971208c483004fbc",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/statuses/28bd9bf108868db15ac9006ffb12cd5e5ee80da0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "49fdac3a560ddef79e3b04bf971208c483004fbc",
+        "sha": "28bd9bf108868db15ac9006ffb12cd5e5ee80da0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mercurial-feedstock/deployments",
             "created_at": "2018-03-21T03:44:09Z",
             "updated_at": "2018-03-21T03:44:11Z",
-            "pushed_at": "2018-09-23T03:15:07Z",
+            "pushed_at": "2018-09-23T13:47:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mercurial-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mercurial-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mercurial-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mercurial-feedstock/deployments",
             "created_at": "2016-08-01T20:07:03Z",
             "updated_at": "2018-08-04T17:26:39Z",
-            "pushed_at": "2018-09-23T03:15:08Z",
+            "pushed_at": "2018-09-23T13:47:16Z",
             "git_url": "git://github.com/conda-forge/mercurial-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mercurial-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mercurial-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mercurial-feedstock/pulls/22/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mercurial-feedstock/statuses/49fdac3a560ddef79e3b04bf971208c483004fbc"
+            "href": "https://api.github.com/repos/conda-forge/mercurial-feedstock/statuses/28bd9bf108868db15ac9006ffb12cd5e5ee80da0"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 84,
-    "deletions": 40,
-    "changed_files": 12,
-    "Last-Modified": "Sun, 23 Sep 2018 03:15:12 GMT",
-    "ETag": "W/\"921982d2ee23c5bbd13b1add28fb82d7\""
+    "commits": 5,
+    "additions": 189,
+    "deletions": 68,
+    "changed_files": 18,
+    "Last-Modified": "Sun, 23 Sep 2018 13:47:16 GMT",
+    "ETag": "W/\"8b3492fee6e3e4cd5cb3de561c1e3c44\""
 }
