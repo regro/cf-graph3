@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncraftr\ngdcm\nlibitk\nonnx\nscikit-build\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T08:10:59Z",
-    "updated_at": "2018-09-23T08:11:05Z",
+    "updated_at": "2018-09-23T11:49:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "477e685b7f879c927a90a06bfb971260e56e7d3d",
+    "merge_commit_sha": "368f4f740f89cfb8554c75fb9709fde37433ba92",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/e95f4d7c76c9c5a9acfb7a987909b369b6c4259a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/a1a9875af70a2e5eab1e08f78ec4d9a8be569d73",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e95f4d7c76c9c5a9acfb7a987909b369b6c4259a",
+        "sha": "a1a9875af70a2e5eab1e08f78ec4d9a8be569d73",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ninja-feedstock/deployments",
             "created_at": "2018-09-23T08:10:43Z",
             "updated_at": "2018-09-23T08:10:45Z",
-            "pushed_at": "2018-09-23T08:10:59Z",
+            "pushed_at": "2018-09-23T11:49:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ninja-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ninja-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ninja-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/deployments",
             "created_at": "2016-04-09T15:08:15Z",
             "updated_at": "2018-08-04T17:07:36Z",
-            "pushed_at": "2018-09-23T08:11:00Z",
+            "pushed_at": "2018-09-23T11:49:23Z",
             "git_url": "git://github.com/conda-forge/ninja-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ninja-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ninja-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/e95f4d7c76c9c5a9acfb7a987909b369b6c4259a"
+            "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/a1a9875af70a2e5eab1e08f78ec4d9a8be569d73"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 7,
-    "deletions": 6,
-    "changed_files": 2,
-    "Last-Modified": "Sun, 23 Sep 2018 08:11:05 GMT",
-    "ETag": "W/\"ac341ad51e6693931103fca54a08f66d\""
+    "commits": 2,
+    "additions": 197,
+    "deletions": 91,
+    "changed_files": 17,
+    "Last-Modified": "Sun, 23 Sep 2018 11:49:22 GMT",
+    "ETag": "W/\"e6bcd39f9efa348aeee90ae987fecedf\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npyscss\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T05:11:18Z",
-    "updated_at": "2018-09-23T05:11:23Z",
+    "updated_at": "2018-09-23T11:54:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b22cd833d284bb5678b2920dbf9981064d487bfe",
+    "merge_commit_sha": "113ec7fa886a6d1714d603c0d37a7358e1a09680",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/statuses/93437820aef765cfc45400595af7d3a5610c09e3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/statuses/4bf02e22d7d84605230f55c813353a5e6fa17e8d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "93437820aef765cfc45400595af7d3a5610c09e3",
+        "sha": "4bf02e22d7d84605230f55c813353a5e6fa17e8d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/enum34-feedstock/deployments",
             "created_at": "2018-09-23T05:10:57Z",
             "updated_at": "2018-09-23T05:10:59Z",
-            "pushed_at": "2018-09-23T05:11:18Z",
+            "pushed_at": "2018-09-23T11:54:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/enum34-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/enum34-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/enum34-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/enum34-feedstock/deployments",
             "created_at": "2016-08-11T09:19:47Z",
             "updated_at": "2018-08-04T17:26:12Z",
-            "pushed_at": "2018-09-23T05:11:19Z",
+            "pushed_at": "2018-09-23T11:54:45Z",
             "git_url": "git://github.com/conda-forge/enum34-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/enum34-feedstock.git",
             "clone_url": "https://github.com/conda-forge/enum34-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/enum34-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/enum34-feedstock/statuses/93437820aef765cfc45400595af7d3a5610c09e3"
+            "href": "https://api.github.com/repos/conda-forge/enum34-feedstock/statuses/4bf02e22d7d84605230f55c813353a5e6fa17e8d"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 257,
-    "deletions": 128,
+    "commits": 3,
+    "additions": 260,
+    "deletions": 130,
     "changed_files": 20,
-    "Last-Modified": "Sun, 23 Sep 2018 05:11:23 GMT",
-    "ETag": "W/\"f110acc1eabfcf6d66e094e5a3d54a3b\""
+    "Last-Modified": "Sun, 23 Sep 2018 11:54:48 GMT",
+    "ETag": "W/\"eb551a24742cf1f4332db94c7ed07701\""
 }
