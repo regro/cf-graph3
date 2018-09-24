@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/nodejs-feedstock/pull/42.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/issues/42",
     "number": 42,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "nodejs v10.5.0",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-21T22:51:58Z",
-    "updated_at": "2018-06-21T22:52:01Z",
-    "closed_at": null,
+    "updated_at": "2018-09-24T10:36:15Z",
+    "closed_at": "2018-09-24T10:36:15Z",
     "merged_at": null,
     "merge_commit_sha": "fa6c1ba8bf90d7dfa9dc4377668c9efba89c17cb",
     "assignee": null,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/deployments",
             "created_at": "2016-04-07T14:30:21Z",
-            "updated_at": "2018-08-04T17:13:34Z",
-            "pushed_at": "2018-09-23T07:10:30Z",
+            "updated_at": "2018-09-24T10:29:25Z",
+            "pushed_at": "2018-09-24T10:38:37Z",
             "git_url": "git://github.com/conda-forge/nodejs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nodejs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nodejs-feedstock.git",
             "svn_url": "https://github.com/conda-forge/nodejs-feedstock",
             "homepage": null,
-            "size": 55,
+            "size": 57,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 14,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 8,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 14,
-            "open_issues": 8,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 177,
     "deletions": 108,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Mon, 24 Sep 2018 10:36:15 GMT",
+    "ETag": "W/\"b632c3231d14861683d0989fd0812f74\""
 }
