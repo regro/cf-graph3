@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T07:11:20Z",
-    "updated_at": "2018-09-24T07:13:16Z",
+    "updated_at": "2018-09-24T12:56:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3877b12e0c3e1fd627a02a4f4e291b13560aa5d1",
+    "merge_commit_sha": "9cb7ec7cff59755c831e9344b11bbf50b69bcfb1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/statuses/dcf80ddd34f246b13b5b47626e65e78da17018ed",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/statuses/54bc326cff8df30c1ee904c40365b71879a4279f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "dcf80ddd34f246b13b5b47626e65e78da17018ed",
+        "sha": "54bc326cff8df30c1ee904c40365b71879a4279f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mechanize-feedstock/deployments",
             "created_at": "2018-09-11T03:08:52Z",
             "updated_at": "2018-09-11T03:08:54Z",
-            "pushed_at": "2018-09-24T07:11:20Z",
+            "pushed_at": "2018-09-24T12:56:24Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mechanize-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mechanize-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mechanize-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mechanize-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 31,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mechanize-feedstock/deployments",
             "created_at": "2016-08-22T14:46:12Z",
             "updated_at": "2018-08-04T17:29:49Z",
-            "pushed_at": "2018-09-24T07:11:21Z",
+            "pushed_at": "2018-09-24T12:56:24Z",
             "git_url": "git://github.com/conda-forge/mechanize-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mechanize-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mechanize-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mechanize-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mechanize-feedstock/statuses/dcf80ddd34f246b13b5b47626e65e78da17018ed"
+            "href": "https://api.github.com/repos/conda-forge/mechanize-feedstock/statuses/54bc326cff8df30c1ee904c40365b71879a4279f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 252,
-    "deletions": 123,
-    "changed_files": 20
+    "commits": 3,
+    "additions": 256,
+    "deletions": 125,
+    "changed_files": 20,
+    "Last-Modified": "Mon, 24 Sep 2018 12:56:29 GMT",
+    "ETag": "W/\"41ec3a874c33417d20eae8b02bb564ba\""
 }
