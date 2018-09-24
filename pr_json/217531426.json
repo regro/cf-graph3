@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/inspyred-feedstock/pull/9.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/issues/9",
     "number": 9,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T21:10:22Z",
-    "updated_at": "2018-09-23T21:10:28Z",
-    "closed_at": null,
+    "updated_at": "2018-09-24T07:16:07Z",
+    "closed_at": "2018-09-24T07:16:07Z",
     "merged_at": null,
-    "merge_commit_sha": "b1b0095ba70b69f14c0e38d563b0789a8ba229ce",
+    "merge_commit_sha": "f5c1494883f9db2ea8c5d9db564753c5059b2c94",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/statuses/f20e6e51dd9d13a73e8abb166ad65237ee6f6385",
+    "statuses_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/statuses/91c2cb8625ed4b74b4e7a2de45237b668a6ef663",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f20e6e51dd9d13a73e8abb166ad65237ee6f6385",
+        "sha": "91c2cb8625ed4b74b4e7a2de45237b668a6ef663",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/inspyred-feedstock/deployments",
             "created_at": "2018-07-07T12:30:16Z",
             "updated_at": "2018-07-07T12:30:18Z",
-            "pushed_at": "2018-09-23T21:10:22Z",
+            "pushed_at": "2018-09-24T07:09:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/inspyred-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/inspyred-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/inspyred-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/inspyred-feedstock/deployments",
             "created_at": "2016-09-21T02:38:20Z",
             "updated_at": "2018-08-04T18:19:38Z",
-            "pushed_at": "2018-09-23T21:10:23Z",
+            "pushed_at": "2018-09-24T07:32:52Z",
             "git_url": "git://github.com/conda-forge/inspyred-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/inspyred-feedstock.git",
             "clone_url": "https://github.com/conda-forge/inspyred-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/inspyred-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/inspyred-feedstock/statuses/f20e6e51dd9d13a73e8abb166ad65237ee6f6385"
+            "href": "https://api.github.com/repos/conda-forge/inspyred-feedstock/statuses/91c2cb8625ed4b74b4e7a2de45237b668a6ef663"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 501,
-    "deletions": 165,
+    "maintainer_can_modify": false,
+    "commits": 4,
+    "additions": 508,
+    "deletions": 170,
     "changed_files": 31,
-    "Last-Modified": "Sun, 23 Sep 2018 21:10:28 GMT",
-    "ETag": "W/\"353d5bd735e479ea25d9ba0f0577b37b\""
+    "Last-Modified": "Mon, 24 Sep 2018 07:16:07 GMT",
+    "ETag": "W/\"04b2e2a154c9bc267498645bbf9b549f\""
 }
