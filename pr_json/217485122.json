@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naipy\nconvertdate\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T00:16:01Z",
-    "updated_at": "2018-09-23T00:16:07Z",
+    "updated_at": "2018-09-24T21:55:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "46b2bd56fae5b99b8ec5fe3c5b48216b9f41e16a",
+    "merge_commit_sha": "03f458b034a9558817ce09fae0f0a47fbcc38740",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/statuses/d95dc4d541720f5982147f24c4fb141ec88925c3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/statuses/6bc9a758706599fd620980a8b20f3af99c500012",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d95dc4d541720f5982147f24c4fb141ec88925c3",
+        "sha": "6bc9a758706599fd620980a8b20f3af99c500012",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ephem-feedstock/deployments",
             "created_at": "2018-09-23T00:15:44Z",
             "updated_at": "2018-09-23T00:15:46Z",
-            "pushed_at": "2018-09-23T00:16:00Z",
+            "pushed_at": "2018-09-24T21:55:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ephem-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ephem-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ephem-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ephem-feedstock/deployments",
             "created_at": "2017-01-16T19:50:34Z",
             "updated_at": "2018-08-04T18:54:18Z",
-            "pushed_at": "2018-09-23T00:16:01Z",
+            "pushed_at": "2018-09-24T21:55:22Z",
             "git_url": "git://github.com/conda-forge/ephem-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ephem-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ephem-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ephem-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ephem-feedstock/statuses/d95dc4d541720f5982147f24c4fb141ec88925c3"
+            "href": "https://api.github.com/repos/conda-forge/ephem-feedstock/statuses/6bc9a758706599fd620980a8b20f3af99c500012"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
-    "review_comments": 0,
+    "comments": 3,
+    "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 501,
-    "deletions": 165,
-    "changed_files": 31
+    "commits": 4,
+    "additions": 827,
+    "deletions": 177,
+    "changed_files": 39,
+    "Last-Modified": "Mon, 24 Sep 2018 21:55:54 GMT",
+    "ETag": "W/\"c7350b47cb78b7b019768f3f73107bdf\""
 }
