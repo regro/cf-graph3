@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndoit\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T23:11:24Z",
-    "updated_at": "2018-09-23T23:11:28Z",
+    "updated_at": "2018-09-24T21:06:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "10b52e49c2adfb3273d3ca93cd2dbd6f5127a785",
+    "merge_commit_sha": "18ab6822dc556fd377875f523b55c490054431e6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/statuses/d0c462e993b65af7f2bffa540cbf101c2f6e5130",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/statuses/03407b6242bc057b4246b87716f0386c69fa940b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d0c462e993b65af7f2bffa540cbf101c2f6e5130",
+        "sha": "03407b6242bc057b4246b87716f0386c69fa940b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyinotify-feedstock/deployments",
             "created_at": "2018-09-23T23:11:08Z",
             "updated_at": "2018-09-23T23:11:10Z",
-            "pushed_at": "2018-09-23T23:11:24Z",
+            "pushed_at": "2018-09-24T21:06:01Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyinotify-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyinotify-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyinotify-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/deployments",
             "created_at": "2016-03-11T14:18:36Z",
             "updated_at": "2018-08-04T16:59:37Z",
-            "pushed_at": "2018-09-23T23:11:25Z",
+            "pushed_at": "2018-09-24T21:06:02Z",
             "git_url": "git://github.com/conda-forge/pyinotify-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyinotify-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyinotify-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/statuses/d0c462e993b65af7f2bffa540cbf101c2f6e5130"
+            "href": "https://api.github.com/repos/conda-forge/pyinotify-feedstock/statuses/03407b6242bc057b4246b87716f0386c69fa940b"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 331,
-    "deletions": 110,
-    "changed_files": 21
+    "commits": 3,
+    "additions": 350,
+    "deletions": 129,
+    "changed_files": 21,
+    "Last-Modified": "Mon, 24 Sep 2018 21:06:07 GMT",
+    "ETag": "W/\"0ceb2b2a910643eda8ebc12e0d92fcf6\""
 }

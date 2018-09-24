@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T17:12:00Z",
-    "updated_at": "2018-09-23T17:12:08Z",
+    "updated_at": "2018-09-24T21:02:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1204f8016a790241e956c7caac4451bcbc1af334",
+    "merge_commit_sha": "5e64c0697b9f83048724bee6ac1c61102be39739",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/statuses/188ea325c5468a5e5d1f72af9dc20c00f54a5149",
+    "statuses_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/statuses/f732cf96e138b64de6e096a95e13615ccceed7ca",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "188ea325c5468a5e5d1f72af9dc20c00f54a5149",
+        "sha": "f732cf96e138b64de6e096a95e13615ccceed7ca",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/antlr-python-runtime-feedstock/deployments",
             "created_at": "2018-09-23T17:11:42Z",
             "updated_at": "2018-09-23T17:11:45Z",
-            "pushed_at": "2018-09-23T17:12:00Z",
+            "pushed_at": "2018-09-24T21:02:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/antlr-python-runtime-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/antlr-python-runtime-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/antlr-python-runtime-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/deployments",
             "created_at": "2017-12-11T03:22:44Z",
             "updated_at": "2018-08-04T18:30:46Z",
-            "pushed_at": "2018-09-23T17:12:01Z",
+            "pushed_at": "2018-09-24T21:02:19Z",
             "git_url": "git://github.com/conda-forge/antlr-python-runtime-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/antlr-python-runtime-feedstock.git",
             "clone_url": "https://github.com/conda-forge/antlr-python-runtime-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/statuses/188ea325c5468a5e5d1f72af9dc20c00f54a5149"
+            "href": "https://api.github.com/repos/conda-forge/antlr-python-runtime-feedstock/statuses/f732cf96e138b64de6e096a95e13615ccceed7ca"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 453,
-    "deletions": 161,
+    "commits": 3,
+    "additions": 455,
+    "deletions": 167,
     "changed_files": 29,
-    "Last-Modified": "Sun, 23 Sep 2018 17:12:08 GMT",
-    "ETag": "W/\"83abd00fd2a8baf522bf8272782ef958\""
+    "Last-Modified": "Mon, 24 Sep 2018 21:02:23 GMT",
+    "ETag": "W/\"20eae84afde5a60d1b07ee753728308b\""
 }
