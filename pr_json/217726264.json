@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/nipype-feedstock/pull/24.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/issues/24",
     "number": 24,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "nipype v1.1.3",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T17:10:06Z",
-    "updated_at": "2018-09-24T17:10:56Z",
-    "closed_at": null,
+    "updated_at": "2018-09-25T17:59:50Z",
+    "closed_at": "2018-09-25T17:59:50Z",
     "merged_at": null,
-    "merge_commit_sha": "e813d331b6721cae3f1d2c8b63b6e9c1d0b5e1ac",
+    "merge_commit_sha": "3e860fc9cca9828a976ba9469d8554d13420242d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/deployments",
             "created_at": "2016-07-16T21:41:35Z",
-            "updated_at": "2018-08-12T01:47:40Z",
-            "pushed_at": "2018-09-24T20:40:48Z",
+            "updated_at": "2018-09-25T17:59:44Z",
+            "pushed_at": "2018-09-25T17:59:42Z",
             "git_url": "git://github.com/conda-forge/nipype-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nipype-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nipype-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 14,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 14,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 100,
     "deletions": 26,
     "changed_files": 15,
-    "Last-Modified": "Mon, 24 Sep 2018 17:10:56 GMT",
-    "ETag": "W/\"7894ddf39c61128afddf307c2f649c52\""
+    "Last-Modified": "Tue, 25 Sep 2018 17:59:50 GMT",
+    "ETag": "W/\"f34b26648141bad42ee0e7157748c234\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T21:13:14Z",
-    "updated_at": "2018-09-24T21:14:10Z",
+    "updated_at": "2018-09-25T17:02:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "744524abb0bd8689b28eba6454b2f170c3d27a64",
+    "merge_commit_sha": "68dae76b3afeeccc07226988dc5d51c3bd9b5ee4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/statuses/1ea58c633ecdc777b84896a056c90b19cee2948d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/statuses/d936040d4eb751aaede3f31c34e7b40be7521b6b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1ea58c633ecdc777b84896a056c90b19cee2948d",
+        "sha": "d936040d4eb751aaede3f31c34e7b40be7521b6b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/google-cloud-sdk-feedstock/deployments",
             "created_at": "2018-04-18T17:16:14Z",
             "updated_at": "2018-04-18T17:16:16Z",
-            "pushed_at": "2018-09-24T21:13:14Z",
+            "pushed_at": "2018-09-25T17:02:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/google-cloud-sdk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/google-cloud-sdk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/google-cloud-sdk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/google-cloud-sdk-feedstock",
             "homepage": null,
-            "size": 39,
+            "size": 41,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "52d912dd38e4143438f7d33d2081927bdb7faf49",
+        "sha": "24a24330e575040afd4febeecc69c461fd102c15",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/deployments",
             "created_at": "2018-04-18T15:49:22Z",
-            "updated_at": "2018-09-18T16:55:52Z",
-            "pushed_at": "2018-09-24T21:13:16Z",
+            "updated_at": "2018-09-25T16:34:39Z",
+            "pushed_at": "2018-09-25T17:02:30Z",
             "git_url": "git://github.com/conda-forge/google-cloud-sdk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/google-cloud-sdk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/google-cloud-sdk-feedstock.git",
             "svn_url": "https://github.com/conda-forge/google-cloud-sdk-feedstock",
             "homepage": null,
-            "size": 36,
+            "size": 37,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/statuses/1ea58c633ecdc777b84896a056c90b19cee2948d"
+            "href": "https://api.github.com/repos/conda-forge/google-cloud-sdk-feedstock/statuses/d936040d4eb751aaede3f31c34e7b40be7521b6b"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 99,
     "deletions": 9,
     "changed_files": 12,
-    "Last-Modified": "Mon, 24 Sep 2018 21:14:10 GMT",
-    "ETag": "W/\"50461d8d47a35cbcb7d594eb39c2aeab\""
+    "Last-Modified": "Tue, 25 Sep 2018 17:02:29 GMT",
+    "ETag": "W/\"d62561f9d95e72c355dcf063e34bec2a\""
 }

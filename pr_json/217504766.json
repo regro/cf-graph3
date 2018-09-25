@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndatapackage-py\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T11:09:56Z",
-    "updated_at": "2018-09-23T11:09:59Z",
+    "updated_at": "2018-09-25T17:17:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "062250e7aef6b0f4e4147b192c2ae578289e541e",
+    "merge_commit_sha": "d31b7ba66261a68945f812d6cd8b6eb0554f3b63",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/statuses/5c65dff200f0e971b13f9423562f1959fbce2c8a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/statuses/64551ac7b89802961d58211aa2b39173e55628f5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5c65dff200f0e971b13f9423562f1959fbce2c8a",
+        "sha": "64551ac7b89802961d58211aa2b39173e55628f5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cchardet-feedstock/deployments",
             "created_at": "2018-06-18T14:15:15Z",
             "updated_at": "2018-06-18T14:15:17Z",
-            "pushed_at": "2018-09-23T11:09:55Z",
+            "pushed_at": "2018-09-25T17:17:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cchardet-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cchardet-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cchardet-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cchardet-feedstock/deployments",
             "created_at": "2017-06-03T16:30:51Z",
             "updated_at": "2018-08-04T18:48:49Z",
-            "pushed_at": "2018-09-23T11:09:57Z",
+            "pushed_at": "2018-09-25T17:17:36Z",
             "git_url": "git://github.com/conda-forge/cchardet-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cchardet-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cchardet-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cchardet-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cchardet-feedstock/statuses/5c65dff200f0e971b13f9423562f1959fbce2c8a"
+            "href": "https://api.github.com/repos/conda-forge/cchardet-feedstock/statuses/64551ac7b89802961d58211aa2b39173e55628f5"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 501,
-    "deletions": 165,
-    "changed_files": 31,
-    "Last-Modified": "Sun, 23 Sep 2018 11:09:59 GMT",
-    "ETag": "W/\"b8adb762f9cee7caf1c8024ecade9228\""
+    "commits": 4,
+    "additions": 872,
+    "deletions": 181,
+    "changed_files": 39,
+    "Last-Modified": "Tue, 25 Sep 2018 17:17:35 GMT",
+    "ETag": "W/\"f091dcceadc92f22a2a1221384729b3a\""
 }
