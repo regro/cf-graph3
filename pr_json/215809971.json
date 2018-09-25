@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-16T08:11:32Z",
-    "updated_at": "2018-09-16T13:02:46Z",
+    "updated_at": "2018-09-25T14:16:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fc58a5f56a0d6bb83253a5375710bab5196b9a61",
+    "merge_commit_sha": "50cebb821d44470c9a626c3b41f5509a8e9b1f3a",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/statuses/f2a8e569777f817a4a81fb0a5562638b2cc60c13",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/statuses/d23479d894d6397bb6e5e071229f8f81dbb4cd30",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f2a8e569777f817a4a81fb0a5562638b2cc60c13",
+        "sha": "d23479d894d6397bb6e5e071229f8f81dbb4cd30",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libsakura-feedstock/deployments",
             "created_at": "2018-06-24T05:15:48Z",
             "updated_at": "2018-06-24T05:15:50Z",
-            "pushed_at": "2018-09-16T08:11:31Z",
+            "pushed_at": "2018-09-25T14:16:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libsakura-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libsakura-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libsakura-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libsakura-feedstock/deployments",
             "created_at": "2017-02-28T07:22:26Z",
             "updated_at": "2018-08-04T19:06:46Z",
-            "pushed_at": "2018-09-16T08:11:33Z",
+            "pushed_at": "2018-09-25T14:16:58Z",
             "git_url": "git://github.com/conda-forge/libsakura-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libsakura-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libsakura-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/libsakura-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libsakura-feedstock/statuses/f2a8e569777f817a4a81fb0a5562638b2cc60c13"
+            "href": "https://api.github.com/repos/conda-forge/libsakura-feedstock/statuses/d23479d894d6397bb6e5e071229f8f81dbb4cd30"
         }
     },
     "author_association": "NONE",
@@ -367,15 +367,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 154,
-    "deletions": 52,
-    "changed_files": 15,
-    "Last-Modified": "Sun, 16 Sep 2018 13:02:46 GMT",
-    "ETag": "W/\"0fdd34469d7d04d0cd191d176fa332bf\""
+    "commits": 4,
+    "additions": 152,
+    "deletions": 59,
+    "changed_files": 16,
+    "Last-Modified": "Tue, 25 Sep 2018 14:16:58 GMT",
+    "ETag": "W/\"8ba49b6a8cbf3bac69a046610a151f91\""
 }
