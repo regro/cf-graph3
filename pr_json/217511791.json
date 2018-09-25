@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsunpy\nwofpy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T14:12:46Z",
-    "updated_at": "2018-09-23T14:12:49Z",
+    "updated_at": "2018-09-25T13:50:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b0f94122ab357241459b1aa6335550585499e120",
+    "merge_commit_sha": "f254415f071363e55a43bc60bc44f6f15cb74ef5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/statuses/36f9e9f5390b0d1d8f0447936998d48aaf133f7b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/statuses/3b468edd233d74347f40069c146291f20b8c5b3b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "36f9e9f5390b0d1d8f0447936998d48aaf133f7b",
+        "sha": "3b468edd233d74347f40069c146291f20b8c5b3b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/suds-jurko-feedstock/deployments",
             "created_at": "2018-07-03T16:50:04Z",
             "updated_at": "2018-07-03T16:50:06Z",
-            "pushed_at": "2018-09-23T14:12:46Z",
+            "pushed_at": "2018-09-25T13:50:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/suds-jurko-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/suds-jurko-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/suds-jurko-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/deployments",
             "created_at": "2016-03-20T09:35:37Z",
             "updated_at": "2018-08-04T17:01:32Z",
-            "pushed_at": "2018-09-23T14:12:47Z",
+            "pushed_at": "2018-09-25T13:50:53Z",
             "git_url": "git://github.com/conda-forge/suds-jurko-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/suds-jurko-feedstock.git",
             "clone_url": "https://github.com/conda-forge/suds-jurko-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/statuses/36f9e9f5390b0d1d8f0447936998d48aaf133f7b"
+            "href": "https://api.github.com/repos/conda-forge/suds-jurko-feedstock/statuses/3b468edd233d74347f40069c146291f20b8c5b3b"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 501,
-    "deletions": 165,
+    "commits": 3,
+    "additions": 503,
+    "deletions": 168,
     "changed_files": 31,
-    "Last-Modified": "Sun, 23 Sep 2018 14:12:49 GMT",
-    "ETag": "W/\"e709f8da6ddb54c4fabc5b523eea92b6\""
+    "Last-Modified": "Tue, 25 Sep 2018 13:50:58 GMT",
+    "ETag": "W/\"6b0290874c4ed8ba112554ab7ea86084\""
 }
