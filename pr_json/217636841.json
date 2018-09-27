@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T12:17:35Z",
-    "updated_at": "2018-09-24T12:17:38Z",
+    "updated_at": "2018-09-27T20:06:49Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "9bd7e3f981128b2c2d4af315e53c7530b7b75820",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 408826517,
+            "node_id": "MDU6TGFiZWw0MDg4MjY1MTc=",
+            "url": "https://api.github.com/repos/conda-forge/pyglet-feedstock/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "128A0C",
+            "default": true
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/pyglet-feedstock/pulls/5/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyglet-feedstock/pulls/5/comments",
@@ -262,7 +271,7 @@
             "releases_url": "https://api.github.com/repos/conda-forge/pyglet-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/pyglet-feedstock/deployments",
             "created_at": "2016-07-15T15:03:20Z",
-            "updated_at": "2018-08-04T17:29:51Z",
+            "updated_at": "2018-09-27T20:16:49Z",
             "pushed_at": "2018-09-24T12:17:35Z",
             "git_url": "git://github.com/conda-forge/pyglet-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyglet-feedstock.git",
@@ -329,13 +338,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 583,
     "deletions": 198,
     "changed_files": 32,
-    "Last-Modified": "Mon, 24 Sep 2018 12:17:38 GMT",
-    "ETag": "W/\"d824b29cbb6d5c5b338f27e7038c56ec\""
+    "Last-Modified": "Thu, 27 Sep 2018 20:06:49 GMT",
+    "ETag": "W/\"d62d4966d8f4dcfb53b22e9fa3b0996a\""
 }
