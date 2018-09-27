@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-22T06:11:34Z",
-    "updated_at": "2018-08-22T09:37:42Z",
+    "updated_at": "2018-09-27T08:37:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0510614df8617c56e0e3c8678f7fd1d286ae57bd",
+    "merge_commit_sha": "c07bd1a5dc4e95e722a2a9c331e2d586b4d88df8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/statuses/b536d591636b62a8aaa4eb7388e48a570601dca1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/statuses/e4b7f1164302a3a9efb3d2781888ceb4af6091ed",
     "head": {
         "label": "regro-cf-autotick-bot:2.9_1",
         "ref": "2.9_1",
-        "sha": "b536d591636b62a8aaa4eb7388e48a570601dca1",
+        "sha": "e4b7f1164302a3a9efb3d2781888ceb4af6091ed",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-mboost-feedstock/deployments",
             "created_at": "2018-06-13T23:31:37Z",
             "updated_at": "2018-06-13T23:31:39Z",
-            "pushed_at": "2018-08-22T09:37:36Z",
+            "pushed_at": "2018-09-27T08:37:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-mboost-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-mboost-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-mboost-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/deployments",
             "created_at": "2018-04-19T06:18:58Z",
             "updated_at": "2018-08-04T18:27:05Z",
-            "pushed_at": "2018-08-22T09:37:36Z",
+            "pushed_at": "2018-09-27T08:37:49Z",
             "git_url": "git://github.com/conda-forge/r-mboost-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-mboost-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-mboost-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/statuses/b536d591636b62a8aaa4eb7388e48a570601dca1"
+            "href": "https://api.github.com/repos/conda-forge/r-mboost-feedstock/statuses/e4b7f1164302a3a9efb3d2781888ceb4af6091ed"
         }
     },
     "author_association": "NONE",
@@ -335,5 +335,7 @@
     "commits": 4,
     "additions": 184,
     "deletions": 64,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Thu, 27 Sep 2018 08:37:48 GMT",
+    "ETag": "W/\"c283ff7b82e89afdf10dfb873617e65c\""
 }
