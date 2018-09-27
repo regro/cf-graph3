@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-26T20:13:07Z",
-    "updated_at": "2018-09-26T20:13:10Z",
+    "updated_at": "2018-09-27T12:59:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "14b13fc390de501e13583bee1d835d1460301f5c",
+    "merge_commit_sha": "7aca316d72f69570ea33f17e5066ea9cba10a146",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/pulls/84/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/issues/84/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/statuses/2fc1b342f32d26b5efcdee983bffe4f6ba03bb56",
+    "statuses_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/statuses/f823ad4b3044833f4f16697519106714235bb967",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.7",
         "ref": "1.0.7",
-        "sha": "2fc1b342f32d26b5efcdee983bffe4f6ba03bb56",
+        "sha": "f823ad4b3044833f4f16697519106714235bb967",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/rasterio-feedstock/deployments",
             "created_at": "2018-07-23T21:14:22Z",
             "updated_at": "2018-07-23T21:14:24Z",
-            "pushed_at": "2018-09-26T20:13:07Z",
+            "pushed_at": "2018-09-27T12:59:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/rasterio-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/rasterio-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/rasterio-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/rasterio-feedstock/deployments",
             "created_at": "2016-03-29T17:20:41Z",
             "updated_at": "2018-09-25T16:34:34Z",
-            "pushed_at": "2018-09-26T20:13:08Z",
+            "pushed_at": "2018-09-27T12:59:17Z",
             "git_url": "git://github.com/conda-forge/rasterio-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/rasterio-feedstock.git",
             "clone_url": "https://github.com/conda-forge/rasterio-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/rasterio-feedstock/pulls/84/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/rasterio-feedstock/statuses/2fc1b342f32d26b5efcdee983bffe4f6ba03bb56"
+            "href": "https://api.github.com/repos/conda-forge/rasterio-feedstock/statuses/f823ad4b3044833f4f16697519106714235bb967"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
+    "commits": 2,
+    "additions": 7,
+    "deletions": 6,
     "changed_files": 1,
-    "Last-Modified": "Wed, 26 Sep 2018 20:13:10 GMT",
-    "ETag": "W/\"cf4c7cbaa5dbcec699338690b5bac335\""
+    "Last-Modified": "Thu, 27 Sep 2018 12:59:16 GMT",
+    "ETag": "W/\"e09d9f462e3326d128e73daacd37da18\""
 }
