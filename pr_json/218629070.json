@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-27T12:12:51Z",
-    "updated_at": "2018-09-27T12:12:55Z",
+    "updated_at": "2018-09-28T07:38:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6f3b02e579bdfa06c0a59fdad73147b9513365a6",
+    "merge_commit_sha": "b35d41d58d045bbbe8344e6fca4754d4b7e55f26",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/statuses/e4f7f0ac0d9666849bcaaa45b312091a3b2b3774",
+    "statuses_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/statuses/6362c9346ab665324e3fe787e07d73e66ef1781c",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.1",
         "ref": "0.5.1",
-        "sha": "e4f7f0ac0d9666849bcaaa45b312091a3b2b3774",
+        "sha": "6362c9346ab665324e3fe787e07d73e66ef1781c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/orange3-text-feedstock/deployments",
             "created_at": "2018-07-23T08:09:04Z",
             "updated_at": "2018-07-23T08:09:06Z",
-            "pushed_at": "2018-09-27T12:12:51Z",
+            "pushed_at": "2018-09-28T07:38:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/orange3-text-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/orange3-text-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/orange3-text-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/deployments",
             "created_at": "2017-03-04T05:05:23Z",
             "updated_at": "2018-09-25T10:05:15Z",
-            "pushed_at": "2018-09-27T12:12:52Z",
+            "pushed_at": "2018-09-28T07:38:54Z",
             "git_url": "git://github.com/conda-forge/orange3-text-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/orange3-text-feedstock.git",
             "clone_url": "https://github.com/conda-forge/orange3-text-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/statuses/e4f7f0ac0d9666849bcaaa45b312091a3b2b3774"
+            "href": "https://api.github.com/repos/conda-forge/orange3-text-feedstock/statuses/6362c9346ab665324e3fe787e07d73e66ef1781c"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
+    "commits": 2,
+    "additions": 3,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Thu, 27 Sep 2018 12:12:55 GMT",
-    "ETag": "W/\"13bd4d1861aa3cf9976fca2c39146700\""
+    "Last-Modified": "Fri, 28 Sep 2018 07:38:53 GMT",
+    "ETag": "W/\"ef758ec1be0cc116d88f5896c52a5e94\""
 }
