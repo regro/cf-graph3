@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|basemap|1.2.0rel|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/basemap.svg)](https://anaconda.org/conda-forge/basemap)|\n",
     "created_at": "2018-09-26T02:13:38Z",
-    "updated_at": "2018-09-26T02:13:42Z",
+    "updated_at": "2018-09-28T14:27:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c43fae6b2feb6157337cba7412b4970c04926503",
+    "merge_commit_sha": "00ac96d6670a1917be5f3eae011af29f65f18f16",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/statuses/b73ae996b793190e1413650577216ee9b4b1288d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/statuses/a127c4b7fab986613fd4d79939d92f3be57e8d1f",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.0rel",
         "ref": "1.2.0rel",
-        "sha": "b73ae996b793190e1413650577216ee9b4b1288d",
+        "sha": "a127c4b7fab986613fd4d79939d92f3be57e8d1f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/basemap-data-hires-feedstock/deployments",
             "created_at": "2018-09-26T02:13:00Z",
             "updated_at": "2018-09-26T02:13:02Z",
-            "pushed_at": "2018-09-26T02:13:38Z",
+            "pushed_at": "2018-09-28T14:27:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/basemap-data-hires-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/basemap-data-hires-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/basemap-data-hires-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/deployments",
             "created_at": "2016-03-25T17:47:14Z",
             "updated_at": "2018-08-04T17:02:55Z",
-            "pushed_at": "2018-09-26T02:13:39Z",
+            "pushed_at": "2018-09-28T14:27:52Z",
             "git_url": "git://github.com/conda-forge/basemap-data-hires-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/basemap-data-hires-feedstock.git",
             "clone_url": "https://github.com/conda-forge/basemap-data-hires-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/statuses/b73ae996b793190e1413650577216ee9b4b1288d"
+            "href": "https://api.github.com/repos/conda-forge/basemap-data-hires-feedstock/statuses/a127c4b7fab986613fd4d79939d92f3be57e8d1f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 248,
-    "deletions": 129,
-    "changed_files": 21
+    "commits": 3,
+    "additions": 249,
+    "deletions": 130,
+    "changed_files": 21,
+    "Last-Modified": "Fri, 28 Sep 2018 14:27:52 GMT",
+    "ETag": "W/\"3242a25c9213621a7d2f6637978170a3\""
 }
