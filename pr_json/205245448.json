@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/r-slam-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving posix from host to build\nRemoving {{native}}toolchain in favour of compiler()\nRemoving gcc in favour of compiler()\nAdding C compiler with mingw for windows\nAdding merge_build_host: True  # [win]\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-31T21:19:04Z",
-    "updated_at": "2018-07-31T21:21:07Z",
-    "closed_at": null,
+    "updated_at": "2018-09-30T09:35:11Z",
+    "closed_at": "2018-09-30T09:35:11Z",
     "merged_at": null,
     "merge_commit_sha": "982955c50aff5daaa530133620451a5049437f94",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/deployments",
             "created_at": "2017-04-28T14:08:04Z",
-            "updated_at": "2018-08-04T18:47:21Z",
-            "pushed_at": "2018-09-30T07:41:10Z",
+            "updated_at": "2018-09-30T09:34:57Z",
+            "pushed_at": "2018-09-30T09:34:56Z",
             "git_url": "git://github.com/conda-forge/r-slam-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-slam-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-slam-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 207,
     "deletions": 141,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Sun, 30 Sep 2018 09:35:11 GMT",
+    "ETag": "W/\"8c479b6b0dcc9add40b79006ddb77a6a\""
 }
