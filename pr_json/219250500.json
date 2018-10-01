@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-01T03:19:18Z",
-    "updated_at": "2018-10-01T16:06:08Z",
+    "updated_at": "2018-10-01T18:50:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a61c5b855bec06c6271422f9f31f18b17ba13909",
+    "merge_commit_sha": "08c6d8126c671585b271fc69492672e378d34867",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/pulls/21/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/statuses/e184b6829aaecfa603d11da18b7ff6d2f04dad77",
+    "statuses_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/statuses/c0eb692a0dce94e0389efc64cf24008e08ed3757",
     "head": {
         "label": "regro-cf-autotick-bot:2018.9.30.23.2.27",
         "ref": "2018.9.30.23.2.27",
-        "sha": "e184b6829aaecfa603d11da18b7ff6d2f04dad77",
+        "sha": "c0eb692a0dce94e0389efc64cf24008e08ed3757",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/quaternion-feedstock/deployments",
             "created_at": "2018-04-18T23:02:53Z",
             "updated_at": "2018-04-18T23:02:55Z",
-            "pushed_at": "2018-10-01T16:06:08Z",
+            "pushed_at": "2018-10-01T18:50:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/quaternion-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/quaternion-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/quaternion-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/quaternion-feedstock",
             "homepage": null,
-            "size": 42,
+            "size": 45,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/deployments",
             "created_at": "2018-04-18T16:47:18Z",
             "updated_at": "2018-08-04T19:19:42Z",
-            "pushed_at": "2018-10-01T16:06:09Z",
+            "pushed_at": "2018-10-01T18:50:10Z",
             "git_url": "git://github.com/conda-forge/quaternion-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/quaternion-feedstock.git",
             "clone_url": "https://github.com/conda-forge/quaternion-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/quaternion-feedstock/pulls/21/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/quaternion-feedstock/statuses/e184b6829aaecfa603d11da18b7ff6d2f04dad77"
+            "href": "https://api.github.com/repos/conda-forge/quaternion-feedstock/statuses/c0eb692a0dce94e0389efc64cf24008e08ed3757"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 160,
-    "deletions": 33,
-    "changed_files": 22
+    "commits": 4,
+    "additions": 164,
+    "deletions": 36,
+    "changed_files": 23,
+    "Last-Modified": "Mon, 01 Oct 2018 18:50:09 GMT",
+    "ETag": "W/\"c726744d08fb422c61b73ea11aecd96b\""
 }
