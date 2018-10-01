@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibtool\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-27T20:12:19Z",
-    "updated_at": "2018-09-27T20:12:23Z",
+    "updated_at": "2018-10-01T21:34:43Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bc6c9de380bece176198d89d4142f2e3b3fc8c4b",
+    "merge_commit_sha": "98970411094926e49ca72c1e124663a7035ef95d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/statuses/1a20dd6fbfd30b12becb1f0f3c08bddd8b743e98",
+    "statuses_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/statuses/2420bd3e6a36bae1dc885c235a0f646b25826f0f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1a20dd6fbfd30b12becb1f0f3c08bddd8b743e98",
+        "sha": "2420bd3e6a36bae1dc885c235a0f646b25826f0f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/help2man-feedstock/deployments",
             "created_at": "2018-03-16T19:18:01Z",
             "updated_at": "2018-03-16T19:18:03Z",
-            "pushed_at": "2018-09-27T20:12:19Z",
+            "pushed_at": "2018-10-01T21:34:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/help2man-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/help2man-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/help2man-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/help2man-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/deployments",
             "created_at": "2016-12-07T00:53:12Z",
             "updated_at": "2018-08-04T18:14:02Z",
-            "pushed_at": "2018-09-27T20:12:20Z",
+            "pushed_at": "2018-10-01T21:34:44Z",
             "git_url": "git://github.com/conda-forge/help2man-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/help2man-feedstock.git",
             "clone_url": "https://github.com/conda-forge/help2man-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/help2man-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/help2man-feedstock/statuses/1a20dd6fbfd30b12becb1f0f3c08bddd8b743e98"
+            "href": "https://api.github.com/repos/conda-forge/help2man-feedstock/statuses/2420bd3e6a36bae1dc885c235a0f646b25826f0f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 279,
-    "deletions": 98,
-    "changed_files": 20
+    "commits": 4,
+    "additions": 349,
+    "deletions": 99,
+    "changed_files": 22,
+    "Last-Modified": "Mon, 01 Oct 2018 21:34:43 GMT",
+    "ETag": "W/\"f64f2e9bb63bbb76139f3fde3f8736b0\""
 }
