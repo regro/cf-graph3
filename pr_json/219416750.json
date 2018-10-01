@@ -32,15 +32,24 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-01T15:23:17Z",
-    "updated_at": "2018-10-01T15:23:33Z",
+    "updated_at": "2018-10-01T16:32:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fee738caddb1aa31e06885362bd237d1ef3be30d",
+    "merge_commit_sha": "8fa21a9a23d3cc25601b39edcc6bec7ad37ebd11",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1075500920,
+            "node_id": "MDU6TGFiZWwxMDc1NTAwOTIw",
+            "url": "https://api.github.com/repos/conda-forge/starry-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "f4e4b2",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/starry-feedstock/pulls/4/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/starry-feedstock/pulls/4/comments",
@@ -145,7 +154,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/starry-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/starry-feedstock",
             "homepage": null,
-            "size": 12,
+            "size": 13,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,8 +271,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/starry-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/starry-feedstock/deployments",
             "created_at": "2018-07-19T14:10:32Z",
-            "updated_at": "2018-10-01T14:26:50Z",
-            "pushed_at": "2018-10-01T15:23:18Z",
+            "updated_at": "2018-10-01T16:31:51Z",
+            "pushed_at": "2018-10-01T16:31:49Z",
             "git_url": "git://github.com/conda-forge/starry-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/starry-feedstock.git",
             "clone_url": "https://github.com/conda-forge/starry-feedstock.git",
@@ -281,7 +290,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -335,7 +344,5 @@
     "commits": 1,
     "additions": 3,
     "deletions": 3,
-    "changed_files": 1,
-    "Last-Modified": "Mon, 01 Oct 2018 15:23:33 GMT",
-    "ETag": "W/\"34eff45e86dffa041185e97c53fa2574\""
+    "changed_files": 1
 }
