@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T18:14:12Z",
-    "updated_at": "2018-09-24T18:14:16Z",
+    "updated_at": "2018-10-02T03:05:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "035d6a4e3b45024995eccd44eaa2f5dcf488b20c",
+    "merge_commit_sha": "7447af14b276266929a4e2bd45aad32767bc8537",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/statuses/79ac3a09bd7f101bd5977fc9173c38227a1ecc7a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/statuses/5a17eb0ea62977eb9e9d375e10471db065c4108a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "79ac3a09bd7f101bd5977fc9173c38227a1ecc7a",
+        "sha": "5a17eb0ea62977eb9e9d375e10471db065c4108a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sphinx-pypi-upload-feedstock/deployments",
             "created_at": "2018-09-24T18:13:53Z",
             "updated_at": "2018-09-24T18:13:55Z",
-            "pushed_at": "2018-09-24T18:14:11Z",
+            "pushed_at": "2018-10-02T03:05:04Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sphinx-pypi-upload-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sphinx-pypi-upload-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sphinx-pypi-upload-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/deployments",
             "created_at": "2016-09-14T01:52:26Z",
             "updated_at": "2018-08-04T17:33:59Z",
-            "pushed_at": "2018-09-24T18:14:12Z",
+            "pushed_at": "2018-10-02T03:05:05Z",
             "git_url": "git://github.com/conda-forge/sphinx-pypi-upload-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sphinx-pypi-upload-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sphinx-pypi-upload-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/statuses/79ac3a09bd7f101bd5977fc9173c38227a1ecc7a"
+            "href": "https://api.github.com/repos/conda-forge/sphinx-pypi-upload-feedstock/statuses/5a17eb0ea62977eb9e9d375e10471db065c4108a"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 278,
-    "deletions": 129,
-    "changed_files": 21,
-    "Last-Modified": "Mon, 24 Sep 2018 18:14:16 GMT",
-    "ETag": "W/\"f97a27ac30c9d2f7af25a5826c61c37f\""
+    "commits": 4,
+    "additions": 285,
+    "deletions": 140,
+    "changed_files": 22,
+    "Last-Modified": "Tue, 02 Oct 2018 03:05:37 GMT",
+    "ETag": "W/\"1226ff6112c3559fec1ecb2ef2ca9d87\""
 }
