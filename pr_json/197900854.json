@@ -32,7 +32,7 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-28T02:27:22Z",
-    "updated_at": "2018-07-27T10:17:51Z",
+    "updated_at": "2018-10-02T03:58:50Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "163c5bbb597868410f6f9529583609c39dc7dc63",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/progress-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/progress-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/progress-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/progress-feedstock/statuses/ed1b3ee6bcef08a9a440efbe345dbc0a315e9b2a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/progress-feedstock/statuses/8dbb34a02602c03b2ee5716ec7a6d0ef170c5d48",
     "head": {
         "label": "regro-cf-autotick-bot:1.4",
         "ref": "1.4",
-        "sha": "ed1b3ee6bcef08a9a440efbe345dbc0a315e9b2a",
+        "sha": "8dbb34a02602c03b2ee5716ec7a6d0ef170c5d48",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/progress-feedstock/deployments",
             "created_at": "2018-06-28T02:27:00Z",
             "updated_at": "2018-06-28T02:27:02Z",
-            "pushed_at": "2018-09-24T11:13:37Z",
+            "pushed_at": "2018-10-02T03:58:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/progress-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/progress-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/progress-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/progress-feedstock/deployments",
             "created_at": "2017-06-03T01:22:03Z",
             "updated_at": "2018-08-04T18:18:49Z",
-            "pushed_at": "2018-09-24T11:13:38Z",
+            "pushed_at": "2018-10-02T03:58:48Z",
             "git_url": "git://github.com/conda-forge/progress-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/progress-feedstock.git",
             "clone_url": "https://github.com/conda-forge/progress-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/progress-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/progress-feedstock/statuses/ed1b3ee6bcef08a9a440efbe345dbc0a315e9b2a"
+            "href": "https://api.github.com/repos/conda-forge/progress-feedstock/statuses/8dbb34a02602c03b2ee5716ec7a6d0ef170c5d48"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 314,
+    "commits": 4,
+    "additions": 315,
     "deletions": 155,
     "changed_files": 27,
-    "Last-Modified": "Fri, 27 Jul 2018 10:17:51 GMT",
-    "ETag": "W/\"a958a65d88ac7067ef2e9e18c6fec0d2\""
+    "Last-Modified": "Tue, 02 Oct 2018 03:58:50 GMT",
+    "ETag": "W/\"1dcca7f41e48426ba70a849b6671d362\""
 }
