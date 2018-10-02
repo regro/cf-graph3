@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T22:22:58Z",
-    "updated_at": "2018-09-25T17:50:28Z",
+    "updated_at": "2018-10-02T21:30:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6e31cf20f667361753f06ef1f43a9e42dcce7064",
+    "merge_commit_sha": "da06b5de168f159cf060fce1a358cc99a4744e25",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/statuses/3a6310b443875a11dd1862aa7d0938c12b417913",
+    "statuses_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/statuses/8224614a0519291c335b7f0568f0534b6e76aded",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3a6310b443875a11dd1862aa7d0938c12b417913",
+        "sha": "8224614a0519291c335b7f0568f0534b6e76aded",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/perl-unix-processors-feedstock/deployments",
             "created_at": "2018-08-29T17:19:33Z",
             "updated_at": "2018-08-29T17:19:36Z",
-            "pushed_at": "2018-09-24T22:22:58Z",
+            "pushed_at": "2018-10-02T21:30:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/perl-unix-processors-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/perl-unix-processors-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/perl-unix-processors-feedstock.git",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/deployments",
             "created_at": "2018-08-23T09:07:14Z",
-            "updated_at": "2018-08-23T09:08:24Z",
-            "pushed_at": "2018-09-24T22:22:59Z",
+            "updated_at": "2018-10-02T21:24:16Z",
+            "pushed_at": "2018-10-02T21:30:46Z",
             "git_url": "git://github.com/conda-forge/perl-unix-processors-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/perl-unix-processors-feedstock.git",
             "clone_url": "https://github.com/conda-forge/perl-unix-processors-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/statuses/3a6310b443875a11dd1862aa7d0938c12b417913"
+            "href": "https://api.github.com/repos/conda-forge/perl-unix-processors-feedstock/statuses/8224614a0519291c335b7f0568f0534b6e76aded"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 90,
-    "deletions": 10,
-    "changed_files": 8,
-    "Last-Modified": "Tue, 25 Sep 2018 17:50:28 GMT",
-    "ETag": "W/\"908770fbf24be5fcb41586c0649a0c7e\""
+    "commits": 3,
+    "additions": 91,
+    "deletions": 11,
+    "changed_files": 9,
+    "Last-Modified": "Tue, 02 Oct 2018 21:30:51 GMT",
+    "ETag": "W/\"d175e17c382a96b76216c8f099b697b3\""
 }
