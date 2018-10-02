@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndatreant.core\ndoconce\nmdbenchmark\npublish\ntextacy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T10:10:36Z",
-    "updated_at": "2018-09-23T10:12:32Z",
+    "updated_at": "2018-10-02T04:31:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "742e6fc2d50d638190947ea7f6f029ba9d63c082",
+    "merge_commit_sha": "e0768d47725e8caef8b3d0c549d2b27826c33828",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/statuses/584ae61f6b920115835498a773aeb5626fda0bcf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/statuses/0b6630b9b7df58db84b30cf26991b9606904334e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "584ae61f6b920115835498a773aeb5626fda0bcf",
+        "sha": "0b6630b9b7df58db84b30cf26991b9606904334e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-levenshtein-feedstock/deployments",
             "created_at": "2018-07-08T13:43:03Z",
             "updated_at": "2018-07-08T13:43:05Z",
-            "pushed_at": "2018-09-23T10:10:36Z",
+            "pushed_at": "2018-10-02T04:31:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-levenshtein-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-levenshtein-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-levenshtein-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/deployments",
             "created_at": "2016-07-09T19:13:20Z",
             "updated_at": "2018-08-04T17:21:08Z",
-            "pushed_at": "2018-09-23T10:10:37Z",
+            "pushed_at": "2018-10-02T04:31:31Z",
             "git_url": "git://github.com/conda-forge/python-levenshtein-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-levenshtein-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-levenshtein-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/statuses/584ae61f6b920115835498a773aeb5626fda0bcf"
+            "href": "https://api.github.com/repos/conda-forge/python-levenshtein-feedstock/statuses/0b6630b9b7df58db84b30cf26991b9606904334e"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 568,
-    "deletions": 197,
-    "changed_files": 32
+    "commits": 5,
+    "additions": 725,
+    "deletions": 203,
+    "changed_files": 35,
+    "Last-Modified": "Tue, 02 Oct 2018 04:31:30 GMT",
+    "ETag": "W/\"017481aee8e484ea953a54643afe3ad3\""
 }

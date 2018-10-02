@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbluesky\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T12:14:40Z",
-    "updated_at": "2018-09-23T12:14:44Z",
+    "updated_at": "2018-10-02T04:25:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7281086e29bb8a29366ca63d4191a2cb86fa3186",
+    "merge_commit_sha": "dec4fadde5f73fb904b181b37952cd2fafad0f2c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/cf88fa46128fcb8f7ce150a3a53128e1cfc24c63",
+    "statuses_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/a7d96d176d0c8d8a4e2e0b9a488c732d9aed5ed4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "cf88fa46128fcb8f7ce150a3a53128e1cfc24c63",
+        "sha": "a7d96d176d0c8d8a4e2e0b9a488c732d9aed5ed4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/event-model-feedstock/deployments",
             "created_at": "2018-05-15T17:32:17Z",
             "updated_at": "2018-05-15T17:32:19Z",
-            "pushed_at": "2018-09-23T12:14:40Z",
+            "pushed_at": "2018-10-02T04:25:17Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/event-model-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/event-model-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/event-model-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/deployments",
             "created_at": "2016-05-24T15:39:56Z",
             "updated_at": "2018-08-04T17:16:28Z",
-            "pushed_at": "2018-09-23T12:14:41Z",
+            "pushed_at": "2018-10-02T04:25:18Z",
             "git_url": "git://github.com/conda-forge/event-model-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/event-model-feedstock.git",
             "clone_url": "https://github.com/conda-forge/event-model-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/cf88fa46128fcb8f7ce150a3a53128e1cfc24c63"
+            "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/a7d96d176d0c8d8a4e2e0b9a488c732d9aed5ed4"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 215,
-    "deletions": 38,
+    "commits": 3,
+    "additions": 216,
+    "deletions": 39,
     "changed_files": 22,
-    "Last-Modified": "Sun, 23 Sep 2018 12:14:44 GMT",
-    "ETag": "W/\"67899ba962571200003bf4f6df9b4cc8\""
+    "Last-Modified": "Tue, 02 Oct 2018 04:25:17 GMT",
+    "ETag": "W/\"e25e2481a4e50a38a64dca9f85157e30\""
 }
