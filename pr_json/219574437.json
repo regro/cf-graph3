@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/quaternion-feedstock/pull/22.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/issues/22",
     "number": 22,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "quaternion v2018.10.1.22.5.32",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-02T03:18:17Z",
-    "updated_at": "2018-10-02T03:24:14Z",
-    "closed_at": null,
+    "updated_at": "2018-10-02T16:54:11Z",
+    "closed_at": "2018-10-02T16:54:11Z",
     "merged_at": null,
     "merge_commit_sha": "ba57263d5c51a6dd6cac5cb37716b2b54670f772",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/quaternion-feedstock/deployments",
             "created_at": "2018-04-18T23:02:53Z",
             "updated_at": "2018-04-18T23:02:55Z",
-            "pushed_at": "2018-10-02T03:18:16Z",
+            "pushed_at": "2018-10-02T16:53:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/quaternion-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/quaternion-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/quaternion-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/quaternion-feedstock/deployments",
             "created_at": "2018-04-18T16:47:18Z",
             "updated_at": "2018-08-04T19:19:42Z",
-            "pushed_at": "2018-10-02T03:18:17Z",
+            "pushed_at": "2018-10-02T16:53:52Z",
             "git_url": "git://github.com/conda-forge/quaternion-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/quaternion-feedstock.git",
             "clone_url": "https://github.com/conda-forge/quaternion-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 75,
     "deletions": 88,
     "changed_files": 18,
-    "Last-Modified": "Tue, 02 Oct 2018 03:24:14 GMT",
-    "ETag": "W/\"c74dad6f97872c01726dbd717a23d1c9\""
+    "Last-Modified": "Tue, 02 Oct 2018 16:54:11 GMT",
+    "ETag": "W/\"703feeb7a42fcc71dcea3f14c63e4a11\""
 }
