@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-02T07:19:44Z",
-    "updated_at": "2018-10-02T07:26:46Z",
+    "updated_at": "2018-10-02T11:42:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ff52cfb0028384098c519973ce72499b8f00d161",
+    "merge_commit_sha": "44894d880a6750232f3556aab8f2eaac011278ce",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/statuses/485e693762cbcfbbb1646695c6f9d9e464ea1368",
+    "statuses_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/statuses/ca33823c815cd2a89c7f010c091348cf469254bb",
     "head": {
         "label": "regro-cf-autotick-bot:0.4.2",
         "ref": "0.4.2",
-        "sha": "485e693762cbcfbbb1646695c6f9d9e464ea1368",
+        "sha": "ca33823c815cd2a89c7f010c091348cf469254bb",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/testpath-feedstock/deployments",
             "created_at": "2018-09-27T19:13:53Z",
             "updated_at": "2018-09-27T19:13:55Z",
-            "pushed_at": "2018-10-02T07:26:46Z",
+            "pushed_at": "2018-10-02T11:42:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/testpath-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/testpath-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/testpath-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/testpath-feedstock/deployments",
             "created_at": "2017-01-17T15:41:36Z",
             "updated_at": "2018-09-28T20:33:30Z",
-            "pushed_at": "2018-10-02T07:26:47Z",
+            "pushed_at": "2018-10-02T11:42:54Z",
             "git_url": "git://github.com/conda-forge/testpath-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/testpath-feedstock.git",
             "clone_url": "https://github.com/conda-forge/testpath-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/testpath-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/testpath-feedstock/statuses/485e693762cbcfbbb1646695c6f9d9e464ea1368"
+            "href": "https://api.github.com/repos/conda-forge/testpath-feedstock/statuses/ca33823c815cd2a89c7f010c091348cf469254bb"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 4,
-    "deletions": 70,
-    "changed_files": 7,
-    "Last-Modified": "Tue, 02 Oct 2018 07:26:46 GMT",
-    "ETag": "W/\"bcdb7659c80d6fc83ba1484d3c7fdaee\""
+    "commits": 5,
+    "additions": 15,
+    "deletions": 16,
+    "changed_files": 8,
+    "Last-Modified": "Tue, 02 Oct 2018 11:42:53 GMT",
+    "ETag": "W/\"97b455d6fc74910aecef81680a9cc007\""
 }
