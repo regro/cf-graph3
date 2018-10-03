@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-22T23:10:29Z",
-    "updated_at": "2018-09-22T23:10:33Z",
+    "updated_at": "2018-10-03T01:32:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5b4bf9cb9329afaa6c7653768eb7a3c5c1e72737",
+    "merge_commit_sha": "fe339f9853484776dadee13250d458e3bffba147",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/statuses/5484786fdf1fa56225282455e4e74a43100520be",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/statuses/3c1f60c73b316ce40ea68dd0cbefe4c44ad4c905",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5484786fdf1fa56225282455e4e74a43100520be",
+        "sha": "3c1f60c73b316ce40ea68dd0cbefe4c44ad4c905",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cdecimal-feedstock/deployments",
             "created_at": "2018-06-18T14:15:31Z",
             "updated_at": "2018-06-18T14:15:33Z",
-            "pushed_at": "2018-09-22T23:10:28Z",
+            "pushed_at": "2018-10-03T01:30:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cdecimal-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cdecimal-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cdecimal-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/deployments",
             "created_at": "2017-08-02T09:48:49Z",
             "updated_at": "2018-08-04T18:50:18Z",
-            "pushed_at": "2018-09-22T23:10:30Z",
+            "pushed_at": "2018-10-03T01:30:21Z",
             "git_url": "git://github.com/conda-forge/cdecimal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cdecimal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cdecimal-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/statuses/5484786fdf1fa56225282455e4e74a43100520be"
+            "href": "https://api.github.com/repos/conda-forge/cdecimal-feedstock/statuses/3c1f60c73b316ce40ea68dd0cbefe4c44ad4c905"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 159,
-    "deletions": 49,
+    "commits": 3,
+    "additions": 160,
+    "deletions": 50,
     "changed_files": 16,
-    "Last-Modified": "Sat, 22 Sep 2018 23:10:33 GMT",
-    "ETag": "W/\"23e0d07ed598bdfed798651f53fd9871\""
+    "Last-Modified": "Wed, 03 Oct 2018 01:32:03 GMT",
+    "ETag": "W/\"dc92397175f4a54125c4e9e812f7f66b\""
 }
