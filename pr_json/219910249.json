@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T04:14:00Z",
-    "updated_at": "2018-10-03T12:29:07Z",
+    "updated_at": "2018-10-03T15:12:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3d7a28185989f68499fe8087db7278bd3a751a10",
+    "merge_commit_sha": "dfbcf92fbbb5c479dfb0bb587c1df79d8a60dce9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/statuses/af143bc9dee5f32fbaafbf227ba1a581781a60b2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/statuses/e03a03429831cc2811a488b16ab029e92bd42e6b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "af143bc9dee5f32fbaafbf227ba1a581781a60b2",
+        "sha": "e03a03429831cc2811a488b16ab029e92bd42e6b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cyordereddict-feedstock/deployments",
             "created_at": "2018-07-26T00:39:13Z",
             "updated_at": "2018-07-26T00:39:15Z",
-            "pushed_at": "2018-10-03T12:29:06Z",
+            "pushed_at": "2018-10-03T15:12:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cyordereddict-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cyordereddict-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cyordereddict-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/deployments",
             "created_at": "2016-03-14T20:04:08Z",
             "updated_at": "2018-08-04T17:01:13Z",
-            "pushed_at": "2018-10-03T12:29:07Z",
+            "pushed_at": "2018-10-03T15:12:32Z",
             "git_url": "git://github.com/conda-forge/cyordereddict-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cyordereddict-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cyordereddict-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/statuses/af143bc9dee5f32fbaafbf227ba1a581781a60b2"
+            "href": "https://api.github.com/repos/conda-forge/cyordereddict-feedstock/statuses/e03a03429831cc2811a488b16ab029e92bd42e6b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 273,
-    "deletions": 122,
-    "changed_files": 26,
-    "Last-Modified": "Wed, 03 Oct 2018 12:29:07 GMT",
-    "ETag": "W/\"66ec097cdfee8145b3c0d432c534a9c4\""
+    "commits": 6,
+    "additions": 148,
+    "deletions": 147,
+    "changed_files": 22,
+    "Last-Modified": "Wed, 03 Oct 2018 15:12:32 GMT",
+    "ETag": "W/\"c6b835ebd01916ec7aafbf45ae321dec\""
 }
