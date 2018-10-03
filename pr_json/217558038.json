@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T05:12:34Z",
-    "updated_at": "2018-09-24T05:12:39Z",
+    "updated_at": "2018-10-03T17:45:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f01d349182803ddc32a24ba852af66910b09121a",
+    "merge_commit_sha": "3acd73ba94184976914a34711a1805a2f1900256",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/statuses/28647e5bc2094abf94912bf27c96b07a41cc804d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/statuses/b0c60989e4040efdd3105356627982eb401b26a2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "28647e5bc2094abf94912bf27c96b07a41cc804d",
+        "sha": "b0c60989e4040efdd3105356627982eb401b26a2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/flask-uploads-feedstock/deployments",
             "created_at": "2018-07-03T23:45:33Z",
             "updated_at": "2018-07-03T23:45:35Z",
-            "pushed_at": "2018-09-24T05:12:34Z",
+            "pushed_at": "2018-10-03T17:19:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/flask-uploads-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/flask-uploads-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/flask-uploads-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/deployments",
             "created_at": "2016-09-12T15:04:04Z",
             "updated_at": "2018-08-04T17:39:07Z",
-            "pushed_at": "2018-09-24T05:12:35Z",
+            "pushed_at": "2018-10-03T17:20:00Z",
             "git_url": "git://github.com/conda-forge/flask-uploads-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/flask-uploads-feedstock.git",
             "clone_url": "https://github.com/conda-forge/flask-uploads-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/statuses/28647e5bc2094abf94912bf27c96b07a41cc804d"
+            "href": "https://api.github.com/repos/conda-forge/flask-uploads-feedstock/statuses/b0c60989e4040efdd3105356627982eb401b26a2"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 500,
-    "deletions": 156,
-    "changed_files": 30,
-    "Last-Modified": "Mon, 24 Sep 2018 05:12:39 GMT",
-    "ETag": "W/\"847d1dcf68620748447fc4c0d4c80447\""
+    "commits": 3,
+    "additions": 509,
+    "deletions": 164,
+    "changed_files": 31,
+    "Last-Modified": "Wed, 03 Oct 2018 17:45:23 GMT",
+    "ETag": "W/\"9dbbf7424ff99d1264ae4511b13d374d\""
 }

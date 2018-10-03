@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ntrilinos\nasap3\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-28T14:13:05Z",
-    "updated_at": "2018-10-03T13:55:23Z",
+    "updated_at": "2018-10-03T17:07:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3b9832927bfdaffe80810a5a27b3e945d79d7645",
+    "merge_commit_sha": "9e9e7b364176caf7cec43f7cecf9c8c4075174bc",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/statuses/b9be963e9e88cd79d8947d129cbb3fdc08ce7563",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/statuses/1015075f4aa5995e836921db2aa62f249911ba8b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b9be963e9e88cd79d8947d129cbb3fdc08ce7563",
+        "sha": "1015075f4aa5995e836921db2aa62f249911ba8b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openmpi-feedstock/deployments",
             "created_at": "2018-03-29T22:52:10Z",
             "updated_at": "2018-03-29T22:52:12Z",
-            "pushed_at": "2018-10-03T13:55:23Z",
+            "pushed_at": "2018-10-03T17:07:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openmpi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openmpi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openmpi-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openmpi-feedstock/deployments",
             "created_at": "2016-09-09T19:49:36Z",
             "updated_at": "2018-09-04T08:16:33Z",
-            "pushed_at": "2018-10-03T13:55:24Z",
+            "pushed_at": "2018-10-03T17:07:51Z",
             "git_url": "git://github.com/conda-forge/openmpi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openmpi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openmpi-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/openmpi-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openmpi-feedstock/statuses/b9be963e9e88cd79d8947d129cbb3fdc08ce7563"
+            "href": "https://api.github.com/repos/conda-forge/openmpi-feedstock/statuses/1015075f4aa5995e836921db2aa62f249911ba8b"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 120,
+    "commits": 5,
+    "additions": 125,
     "deletions": 11,
     "changed_files": 8,
-    "Last-Modified": "Wed, 03 Oct 2018 13:55:23 GMT",
-    "ETag": "W/\"e763972b28945b06cb07e84cd575bf2f\""
+    "Last-Modified": "Wed, 03 Oct 2018 17:07:50 GMT",
+    "ETag": "W/\"0f2bcf3aa36bd64178f194e72f5e3880\""
 }

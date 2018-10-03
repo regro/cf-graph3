@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncdms2\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T13:17:48Z",
-    "updated_at": "2018-10-03T16:55:28Z",
+    "updated_at": "2018-10-03T17:44:18Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "c5f080a5e81e277da7093c3ee5874f415dfdde14",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/distarray-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/distarray-feedstock",
             "homepage": null,
-            "size": 19,
+            "size": 22,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -330,12 +330,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 3,
-    "review_comments": 1,
+    "review_comments": 3,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 202,
     "deletions": 218,
     "changed_files": 18,
-    "Last-Modified": "Wed, 03 Oct 2018 16:55:28 GMT",
-    "ETag": "W/\"3cb92e347227e013470e3d520e5b2229\""
+    "Last-Modified": "Wed, 03 Oct 2018 17:44:18 GMT",
+    "ETag": "W/\"d2eb3cbc16163480ee31ea691537dd54\""
 }
