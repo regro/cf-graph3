@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncreoleparser\ntvb-framework\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T11:17:41Z",
-    "updated_at": "2018-10-03T11:17:44Z",
+    "updated_at": "2018-10-03T20:23:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fa993fde2187d82a10614541a4dcfd148b8f6b6b",
+    "merge_commit_sha": "6eb1e46f1e892edf24a66878626e54fde3777dba",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/statuses/4f9c464a4e4397a8389a9cd30498434f7ddd3d68",
+    "statuses_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/statuses/34a433cc51332eaf9b9a03fadc144b0ac5762fde",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4f9c464a4e4397a8389a9cd30498434f7ddd3d68",
+        "sha": "34a433cc51332eaf9b9a03fadc144b0ac5762fde",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/genshi-feedstock/deployments",
             "created_at": "2018-07-08T14:43:15Z",
             "updated_at": "2018-07-08T14:43:17Z",
-            "pushed_at": "2018-10-03T11:17:40Z",
+            "pushed_at": "2018-10-03T20:23:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/genshi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/genshi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/genshi-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/genshi-feedstock/deployments",
             "created_at": "2016-04-13T22:12:03Z",
             "updated_at": "2018-09-01T20:37:07Z",
-            "pushed_at": "2018-10-03T11:17:42Z",
+            "pushed_at": "2018-10-03T20:23:37Z",
             "git_url": "git://github.com/conda-forge/genshi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/genshi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/genshi-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/genshi-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/genshi-feedstock/statuses/4f9c464a4e4397a8389a9cd30498434f7ddd3d68"
+            "href": "https://api.github.com/repos/conda-forge/genshi-feedstock/statuses/34a433cc51332eaf9b9a03fadc144b0ac5762fde"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 48,
-    "deletions": 20,
-    "changed_files": 12,
-    "Last-Modified": "Wed, 03 Oct 2018 11:17:44 GMT",
-    "ETag": "W/\"e040164cdce254b3ea6a004a6fcdd32d\""
+    "commits": 4,
+    "additions": 294,
+    "deletions": 38,
+    "changed_files": 20,
+    "Last-Modified": "Wed, 03 Oct 2018 20:23:37 GMT",
+    "ETag": "W/\"074515c232dc5dea6281624c3159e775\""
 }
