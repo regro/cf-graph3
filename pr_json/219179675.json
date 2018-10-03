@@ -35,7 +35,7 @@
     "updated_at": "2018-09-30T02:15:00Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "593c5b32f02c8312fe36dd24b9040979b2fda4de",
+    "merge_commit_sha": "04634e60f19dedc68ffafa6b0f5c125f68a73e98",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/maxima-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/maxima-feedstock/deployments",
             "created_at": "2017-03-20T17:12:28Z",
-            "updated_at": "2018-08-04T19:14:09Z",
-            "pushed_at": "2018-10-03T12:24:47Z",
+            "updated_at": "2018-10-03T22:17:51Z",
+            "pushed_at": "2018-10-03T22:17:49Z",
             "git_url": "git://github.com/conda-forge/maxima-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/maxima-feedstock.git",
             "clone_url": "https://github.com/conda-forge/maxima-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 54,
     "deletions": 30,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Sun, 30 Sep 2018 02:15:00 GMT",
+    "ETag": "W/\"462a5d75ce73f480b478e9d531fabec5\""
 }
