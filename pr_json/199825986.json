@@ -32,10 +32,10 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving make from host to build\nRemoving toolchain in favour of compiler()\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-06T19:08:10Z",
-    "updated_at": "2018-07-13T11:51:09Z",
+    "updated_at": "2018-10-03T21:48:43Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b0a201bdb6b7711e270e8df3be2e79835fcf1627",
+    "merge_commit_sha": "dbc04ab12571cb087f88c957a64500661c6a2dd4",
     "assignee": {
         "login": "sodre",
         "id": 1043285,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/statuses/7ee8a47b80f175f2726226a0972c62c62a669282",
+    "statuses_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/statuses/acd72586cdc7165a65c76b6e56b390d7676aecd2",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "7ee8a47b80f175f2726226a0972c62c62a669282",
+        "sha": "acd72586cdc7165a65c76b6e56b390d7676aecd2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/kubernetes-federation-feedstock/deployments",
             "created_at": "2018-07-06T19:07:42Z",
             "updated_at": "2018-07-06T19:07:44Z",
-            "pushed_at": "2018-09-29T17:11:09Z",
+            "pushed_at": "2018-10-03T21:48:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/kubernetes-federation-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/kubernetes-federation-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/kubernetes-federation-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/deployments",
             "created_at": "2018-04-07T11:53:44Z",
             "updated_at": "2018-08-04T19:19:31Z",
-            "pushed_at": "2018-09-29T17:11:10Z",
+            "pushed_at": "2018-10-03T21:48:39Z",
             "git_url": "git://github.com/conda-forge/kubernetes-federation-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/kubernetes-federation-feedstock.git",
             "clone_url": "https://github.com/conda-forge/kubernetes-federation-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/statuses/7ee8a47b80f175f2726226a0972c62c62a669282"
+            "href": "https://api.github.com/repos/conda-forge/kubernetes-federation-feedstock/statuses/acd72586cdc7165a65c76b6e56b390d7676aecd2"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 160,
-    "deletions": 85,
+    "commits": 5,
+    "additions": 161,
+    "deletions": 86,
     "changed_files": 15,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"0e687b4706e6a9774d083abfeeb75368\""
+    "Last-Modified": "Wed, 03 Oct 2018 21:48:43 GMT",
+    "ETag": "W/\"b450ccbabb55a81255fad93d1a0bb8ee\""
 }
