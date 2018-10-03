@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nesmf\nfenics\nhyperion-fortran\nhypre\nlibadjoint\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T19:20:27Z",
-    "updated_at": "2018-09-12T11:10:18Z",
+    "updated_at": "2018-10-03T10:02:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f31dd9ce4f026cf1c64423595de31f728b030308",
+    "merge_commit_sha": "08426ea7f7be921cd6555d15c5b1f27b8b08fb19",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/statuses/15477fa9d861ca5f0797519402709baa592dde19",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/statuses/3cc65e5a33595b989ee5f02cbe5ddd903a71be49",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "15477fa9d861ca5f0797519402709baa592dde19",
+        "sha": "3cc65e5a33595b989ee5f02cbe5ddd903a71be49",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mpich-feedstock/deployments",
             "created_at": "2018-06-26T01:15:27Z",
             "updated_at": "2018-06-26T01:15:29Z",
-            "pushed_at": "2018-08-22T03:35:36Z",
+            "pushed_at": "2018-10-03T10:02:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mpich-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mpich-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mpich-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mpich-feedstock/deployments",
             "created_at": "2016-07-12T13:44:08Z",
             "updated_at": "2018-08-04T17:20:45Z",
-            "pushed_at": "2018-08-22T03:35:37Z",
+            "pushed_at": "2018-10-03T10:02:50Z",
             "git_url": "git://github.com/conda-forge/mpich-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mpich-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mpich-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mpich-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mpich-feedstock/statuses/15477fa9d861ca5f0797519402709baa592dde19"
+            "href": "https://api.github.com/repos/conda-forge/mpich-feedstock/statuses/3cc65e5a33595b989ee5f02cbe5ddd903a71be49"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 4,
     "review_comments": 8,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 166,
+    "commits": 3,
+    "additions": 170,
     "deletions": 56,
-    "changed_files": 15,
-    "Last-Modified": "Wed, 12 Sep 2018 11:10:18 GMT",
-    "ETag": "W/\"3b11b7fafc853a6e2f1a2054e0436b0a\""
+    "changed_files": 16,
+    "Last-Modified": "Wed, 03 Oct 2018 10:02:49 GMT",
+    "ETag": "W/\"81fcd411579fd0018d677a7466c691fd\""
 }
