@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T01:15:37Z",
-    "updated_at": "2018-10-04T01:15:41Z",
+    "updated_at": "2018-10-04T18:56:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0607e678f56a77f5c93ca7a2abd2ecf8dadb94a6",
+    "merge_commit_sha": "aae1b1121a87a7467f044f4dbed458c48790c829",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/pulls/32/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/issues/32/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/statuses/e1d98160b1aaf9f70034764ef6f8b2d792aea6bf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/statuses/1c1743df6ac1e4e54132c43f6ad95d499d5f8406",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e1d98160b1aaf9f70034764ef6f8b2d792aea6bf",
+        "sha": "1c1743df6ac1e4e54132c43f6ad95d499d5f8406",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/luigi-feedstock/deployments",
             "created_at": "2018-03-14T00:04:52Z",
             "updated_at": "2018-03-14T00:04:54Z",
-            "pushed_at": "2018-10-04T01:15:37Z",
+            "pushed_at": "2018-10-04T18:55:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/luigi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/luigi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/luigi-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/luigi-feedstock/deployments",
             "created_at": "2016-03-31T23:19:21Z",
             "updated_at": "2018-09-28T17:14:10Z",
-            "pushed_at": "2018-10-04T01:15:38Z",
+            "pushed_at": "2018-10-04T18:55:06Z",
             "git_url": "git://github.com/conda-forge/luigi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/luigi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/luigi-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/luigi-feedstock/pulls/32/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/luigi-feedstock/statuses/e1d98160b1aaf9f70034764ef6f8b2d792aea6bf"
+            "href": "https://api.github.com/repos/conda-forge/luigi-feedstock/statuses/1c1743df6ac1e4e54132c43f6ad95d499d5f8406"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 48,
-    "deletions": 20,
+    "commits": 3,
+    "additions": 49,
+    "deletions": 21,
     "changed_files": 12,
-    "Last-Modified": "Thu, 04 Oct 2018 01:15:41 GMT",
-    "ETag": "W/\"85d70b1deaa8eac71dd6a80589992e98\""
+    "Last-Modified": "Thu, 04 Oct 2018 18:56:07 GMT",
+    "ETag": "W/\"fecf00a7ad12cf8882b40cb31abab9a5\""
 }
