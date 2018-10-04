@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving make from host to build\nRemoving toolchain in favour of compiler()\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T20:19:49Z",
-    "updated_at": "2018-07-26T20:19:52Z",
+    "updated_at": "2018-10-04T02:30:22Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "8ad54e1073f21a291423638e0af24b13f03cf179",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/vault-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/vault-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/vault-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/vault-feedstock/statuses/63d0fe7b76c0206fa04e551e191470f6a2b90e1e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/vault-feedstock/statuses/3404533ebbe18b6c77e0c7c13f14012c6eb14377",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "63d0fe7b76c0206fa04e551e191470f6a2b90e1e",
+        "sha": "3404533ebbe18b6c77e0c7c13f14012c6eb14377",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/vault-feedstock/deployments",
             "created_at": "2018-03-18T03:48:14Z",
             "updated_at": "2018-03-18T03:48:16Z",
-            "pushed_at": "2018-10-03T22:08:13Z",
+            "pushed_at": "2018-10-04T02:30:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/vault-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/vault-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/vault-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/vault-feedstock",
             "homepage": null,
-            "size": 49,
+            "size": 51,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vault-feedstock/deployments",
             "created_at": "2017-04-21T13:27:17Z",
             "updated_at": "2018-10-03T21:37:31Z",
-            "pushed_at": "2018-10-03T21:38:04Z",
+            "pushed_at": "2018-10-04T02:30:20Z",
             "git_url": "git://github.com/conda-forge/vault-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vault-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vault-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/vault-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/vault-feedstock/statuses/63d0fe7b76c0206fa04e551e191470f6a2b90e1e"
+            "href": "https://api.github.com/repos/conda-forge/vault-feedstock/statuses/3404533ebbe18b6c77e0c7c13f14012c6eb14377"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 16,
-    "deletions": 6,
-    "changed_files": 7
+    "commits": 3,
+    "additions": 79,
+    "deletions": 37,
+    "changed_files": 13,
+    "Last-Modified": "Thu, 04 Oct 2018 02:30:22 GMT",
+    "ETag": "W/\"a022bc7119e82c69f919a4b6f78368e2\""
 }
