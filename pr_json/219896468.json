@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncling\nhalide\nllvmlite\nmesalib\npocl\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T02:14:55Z",
-    "updated_at": "2018-10-04T08:56:24Z",
+    "updated_at": "2018-10-04T09:23:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a1f661e53989b7d9828e9a708cc0785d4f50b5f0",
+    "merge_commit_sha": "129a4bba84420290e93ee3f0a608c9d4ff272994",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/pulls/48/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/issues/48/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/statuses/f82e9a6e530442ef81b1765ab37af4dfbee75f38",
+    "statuses_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/statuses/6b6d6d90c781e93791cb4955f391ae3d858c9e3e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f82e9a6e530442ef81b1765ab37af4dfbee75f38",
+        "sha": "6b6d6d90c781e93791cb4955f391ae3d858c9e3e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/llvmdev-feedstock/deployments",
             "created_at": "2018-06-29T07:06:12Z",
             "updated_at": "2018-06-29T07:06:14Z",
-            "pushed_at": "2018-10-04T08:56:24Z",
+            "pushed_at": "2018-10-04T09:23:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/llvmdev-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/llvmdev-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/llvmdev-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/llvmdev-feedstock",
             "homepage": null,
-            "size": 127,
+            "size": 130,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/deployments",
             "created_at": "2016-10-08T01:13:55Z",
             "updated_at": "2018-10-02T15:08:10Z",
-            "pushed_at": "2018-10-04T08:56:25Z",
+            "pushed_at": "2018-10-04T09:44:46Z",
             "git_url": "git://github.com/conda-forge/llvmdev-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/llvmdev-feedstock.git",
             "clone_url": "https://github.com/conda-forge/llvmdev-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 15,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 5,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 15,
-            "open_issues": 4,
+            "open_issues": 5,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/pulls/48/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/statuses/f82e9a6e530442ef81b1765ab37af4dfbee75f38"
+            "href": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/statuses/6b6d6d90c781e93791cb4955f391ae3d858c9e3e"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 9,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 174,
-    "deletions": 72,
-    "changed_files": 16,
-    "Last-Modified": "Thu, 04 Oct 2018 08:56:24 GMT",
-    "ETag": "W/\"15e23a384cb2f132d57c0cece53d95c3\""
+    "commits": 4,
+    "additions": 166,
+    "deletions": 604,
+    "changed_files": 25,
+    "Last-Modified": "Thu, 04 Oct 2018 09:23:08 GMT",
+    "ETag": "W/\"fdcb56ce9e1dacaf997ac52589ad6654\""
 }

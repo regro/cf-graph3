@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nprobablepeople\nusaddress\nnewspaper3k\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T07:13:51Z",
-    "updated_at": "2018-10-03T07:13:55Z",
+    "updated_at": "2018-10-04T09:31:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8d5ff7f7beedc1502e3b51fd0b11dcc77ddc699c",
+    "merge_commit_sha": "b2a1058b5aa399927f792b2b390ec30177622fb6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/statuses/c127cc6928a7bdcfab883bd8bac285fd9d30ce7a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/statuses/fa7c65b9a4ab4eea52e1fbe547947833b15cfc55",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c127cc6928a7bdcfab883bd8bac285fd9d30ce7a",
+        "sha": "fa7c65b9a4ab4eea52e1fbe547947833b15cfc55",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-crfsuite-feedstock/deployments",
             "created_at": "2018-03-05T02:02:23Z",
             "updated_at": "2018-03-05T02:02:25Z",
-            "pushed_at": "2018-10-03T07:13:50Z",
+            "pushed_at": "2018-10-04T09:31:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-crfsuite-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-crfsuite-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-crfsuite-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/python-crfsuite-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/deployments",
             "created_at": "2016-07-19T15:37:30Z",
             "updated_at": "2018-08-04T17:23:16Z",
-            "pushed_at": "2018-10-03T07:13:51Z",
+            "pushed_at": "2018-10-04T09:31:50Z",
             "git_url": "git://github.com/conda-forge/python-crfsuite-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-crfsuite-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-crfsuite-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/statuses/c127cc6928a7bdcfab883bd8bac285fd9d30ce7a"
+            "href": "https://api.github.com/repos/conda-forge/python-crfsuite-feedstock/statuses/fa7c65b9a4ab4eea52e1fbe547947833b15cfc55"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 395,
-    "deletions": 95,
-    "changed_files": 29
+    "commits": 5,
+    "additions": 436,
+    "deletions": 136,
+    "changed_files": 32,
+    "Last-Modified": "Thu, 04 Oct 2018 09:31:49 GMT",
+    "ETag": "W/\"32e1be157edaa09231c175ea8a2617e5\""
 }
