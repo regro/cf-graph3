@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T10:23:26Z",
-    "updated_at": "2018-10-04T10:23:30Z",
+    "updated_at": "2018-10-04T12:57:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "eb7388b93e4b6327e81a1dc972443d03433542ea",
+    "merge_commit_sha": "46d8bd574ef8ad41ab3a4621a38cf64ad5dbb1d0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/statuses/7b8dd2eaa69744dc8ddf7624d7f9d9849d5dd133",
+    "statuses_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/statuses/97010174d174f8e18aa698ca4a058444aef3837e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7b8dd2eaa69744dc8ddf7624d7f9d9849d5dd133",
+        "sha": "97010174d174f8e18aa698ca4a058444aef3837e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/qcodes-feedstock/deployments",
             "created_at": "2018-03-05T02:54:40Z",
             "updated_at": "2017-03-21T14:39:59Z",
-            "pushed_at": "2018-10-04T10:23:26Z",
+            "pushed_at": "2018-10-04T12:57:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/qcodes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/qcodes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/qcodes-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/qcodes-feedstock",
             "homepage": null,
-            "size": 22,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/qcodes-feedstock/deployments",
             "created_at": "2017-01-18T07:29:04Z",
             "updated_at": "2018-08-04T18:13:37Z",
-            "pushed_at": "2018-10-04T10:23:27Z",
+            "pushed_at": "2018-10-04T12:57:12Z",
             "git_url": "git://github.com/conda-forge/qcodes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/qcodes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/qcodes-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/qcodes-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/qcodes-feedstock/statuses/7b8dd2eaa69744dc8ddf7624d7f9d9849d5dd133"
+            "href": "https://api.github.com/repos/conda-forge/qcodes-feedstock/statuses/97010174d174f8e18aa698ca4a058444aef3837e"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 105,
-    "deletions": 27,
-    "changed_files": 11
+    "commits": 4,
+    "additions": 481,
+    "deletions": 34,
+    "changed_files": 24,
+    "Last-Modified": "Thu, 04 Oct 2018 12:57:11 GMT",
+    "ETag": "W/\"55381a33d7f2c4caa2b02e6371822a3a\""
 }

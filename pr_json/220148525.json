@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndjango-libsass\nsignac-dashboard\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T19:13:56Z",
-    "updated_at": "2018-10-03T19:14:00Z",
+    "updated_at": "2018-10-04T13:09:50Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "e60f32d90b9e54b209ac4abc1727dec8b7652dd9",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1079295478,
+            "node_id": "MDU6TGFiZWwxMDc5Mjk1NDc4",
+            "url": "https://api.github.com/repos/conda-forge/libsass-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "dd91f7",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/libsass-feedstock/pulls/13/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/libsass-feedstock/pulls/13/comments",
@@ -139,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libsass-feedstock/deployments",
             "created_at": "2018-03-01T23:03:32Z",
             "updated_at": "2018-03-01T23:03:33Z",
-            "pushed_at": "2018-10-03T19:13:56Z",
+            "pushed_at": "2018-10-04T13:07:39Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libsass-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libsass-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libsass-feedstock.git",
@@ -329,13 +338,11 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 215,
     "deletions": 109,
-    "changed_files": 21,
-    "Last-Modified": "Wed, 03 Oct 2018 19:14:00 GMT",
-    "ETag": "W/\"eb0d62dea09cb38ff9b4b4558972cc34\""
+    "changed_files": 21
 }
