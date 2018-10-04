@@ -32,12 +32,52 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbetfairlightweight\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T04:14:26Z",
-    "updated_at": "2018-10-04T04:14:30Z",
+    "updated_at": "2018-10-04T15:08:58Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "a85fc5a3440c3f9dd727647b91a15856ea6ac37d",
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+        "login": "synapticarbors",
+        "id": 589279,
+        "node_id": "MDQ6VXNlcjU4OTI3OQ==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/589279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/synapticarbors",
+        "html_url": "https://github.com/synapticarbors",
+        "followers_url": "https://api.github.com/users/synapticarbors/followers",
+        "following_url": "https://api.github.com/users/synapticarbors/following{/other_user}",
+        "gists_url": "https://api.github.com/users/synapticarbors/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/synapticarbors/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/synapticarbors/subscriptions",
+        "organizations_url": "https://api.github.com/users/synapticarbors/orgs",
+        "repos_url": "https://api.github.com/users/synapticarbors/repos",
+        "events_url": "https://api.github.com/users/synapticarbors/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/synapticarbors/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "synapticarbors",
+            "id": 589279,
+            "node_id": "MDQ6VXNlcjU4OTI3OQ==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/589279?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/synapticarbors",
+            "html_url": "https://github.com/synapticarbors",
+            "followers_url": "https://api.github.com/users/synapticarbors/followers",
+            "following_url": "https://api.github.com/users/synapticarbors/following{/other_user}",
+            "gists_url": "https://api.github.com/users/synapticarbors/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/synapticarbors/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/synapticarbors/subscriptions",
+            "organizations_url": "https://api.github.com/users/synapticarbors/orgs",
+            "repos_url": "https://api.github.com/users/synapticarbors/repos",
+            "events_url": "https://api.github.com/users/synapticarbors/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/synapticarbors/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
@@ -281,7 +321,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -336,6 +376,6 @@
     "additions": 390,
     "deletions": 90,
     "changed_files": 29,
-    "Last-Modified": "Thu, 04 Oct 2018 04:14:30 GMT",
-    "ETag": "W/\"df05a6a9f9421fe83b2b8d768802001c\""
+    "Last-Modified": "Thu, 04 Oct 2018 15:08:58 GMT",
+    "ETag": "W/\"162c76a3346a11b12df471cbd62ff407\""
 }
