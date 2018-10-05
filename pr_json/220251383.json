@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T05:11:26Z",
-    "updated_at": "2018-10-04T15:12:10Z",
+    "updated_at": "2018-10-05T17:36:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9545d0e73e29b190fc5b331c26b3eae2f56ac0d1",
+    "merge_commit_sha": "7ac054a100bd3be3093d500f54259a96200c4439",
     "assignee": {
         "login": "synapticarbors",
         "id": 589279,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/statuses/b05842408f5e8a4e32cac105892b72c09bb8bb07",
+    "statuses_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/statuses/fea58739a9391b04e371e26cc712c59ff2bc9c7c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b05842408f5e8a4e32cac105892b72c09bb8bb07",
+        "sha": "fea58739a9391b04e371e26cc712c59ff2bc9c7c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/apscheduler-feedstock/deployments",
             "created_at": "2018-02-24T00:20:35Z",
             "updated_at": "2018-02-24T00:20:36Z",
-            "pushed_at": "2018-10-04T15:12:10Z",
+            "pushed_at": "2018-10-05T17:36:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/apscheduler-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/apscheduler-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/apscheduler-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/apscheduler-feedstock",
             "homepage": null,
-            "size": 39,
+            "size": 40,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/deployments",
             "created_at": "2016-07-16T19:08:27Z",
             "updated_at": "2018-08-15T12:26:58Z",
-            "pushed_at": "2018-10-04T15:12:10Z",
+            "pushed_at": "2018-10-05T17:36:13Z",
             "git_url": "git://github.com/conda-forge/apscheduler-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/apscheduler-feedstock.git",
             "clone_url": "https://github.com/conda-forge/apscheduler-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/statuses/b05842408f5e8a4e32cac105892b72c09bb8bb07"
+            "href": "https://api.github.com/repos/conda-forge/apscheduler-feedstock/statuses/fea58739a9391b04e371e26cc712c59ff2bc9c7c"
         }
     },
     "author_association": "NONE",
@@ -372,8 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 165,
-    "deletions": 63,
-    "changed_files": 20
+    "commits": 4,
+    "additions": 166,
+    "deletions": 64,
+    "changed_files": 20,
+    "Last-Modified": "Fri, 05 Oct 2018 17:36:13 GMT",
+    "ETag": "W/\"c6642324688870da9d7bd38aac77a250\""
 }
