@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T20:13:35Z",
-    "updated_at": "2018-10-05T08:03:17Z",
+    "updated_at": "2018-10-05T12:57:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "aaeacabc809aa570802b903124685cf57c8eb547",
+    "merge_commit_sha": "e578906a10acde548b8e72a79749207bb1d5a943",
     "assignee": {
         "login": "csachs",
         "id": 8251055,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/statuses/552b6d51450e96e510f05270a56f567eca97b91c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/statuses/974d8d47e12647f65265ac2a94a993c8dfc9dea8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "552b6d51450e96e510f05270a56f567eca97b91c",
+        "sha": "974d8d47e12647f65265ac2a94a993c8dfc9dea8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/purepng-feedstock/deployments",
             "created_at": "2018-06-29T07:45:59Z",
             "updated_at": "2018-06-29T07:46:00Z",
-            "pushed_at": "2018-10-04T20:13:35Z",
+            "pushed_at": "2018-10-05T12:57:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/purepng-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/purepng-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/purepng-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/purepng-feedstock/deployments",
             "created_at": "2017-07-23T01:58:54Z",
             "updated_at": "2018-08-04T18:47:47Z",
-            "pushed_at": "2018-10-04T20:13:36Z",
+            "pushed_at": "2018-10-05T12:57:16Z",
             "git_url": "git://github.com/conda-forge/purepng-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/purepng-feedstock.git",
             "clone_url": "https://github.com/conda-forge/purepng-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/purepng-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/purepng-feedstock/statuses/552b6d51450e96e510f05270a56f567eca97b91c"
+            "href": "https://api.github.com/repos/conda-forge/purepng-feedstock/statuses/974d8d47e12647f65265ac2a94a993c8dfc9dea8"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 390,
-    "deletions": 90,
+    "commits": 4,
+    "additions": 396,
+    "deletions": 96,
     "changed_files": 29,
-    "Last-Modified": "Fri, 05 Oct 2018 08:03:17 GMT",
-    "ETag": "W/\"fe431df278e7aaa7106eccb8680f0759\""
+    "Last-Modified": "Fri, 05 Oct 2018 12:57:15 GMT",
+    "ETag": "W/\"da833fb12c0211f2922dc0d86b1ded3f\""
 }
