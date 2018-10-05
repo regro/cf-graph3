@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nasyncpgsa\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T05:11:13Z",
-    "updated_at": "2018-10-04T13:03:32Z",
+    "updated_at": "2018-10-05T03:12:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "aabcce308df2689a92b87989b4cf787e40a90356",
+    "merge_commit_sha": "f85bcc38054e21a4f613378f145fdbbcc690f183",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/statuses/b741f16277d5d1923b7eb6adf08995226c365470",
+    "statuses_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/statuses/e0c27bed63af5301ec0884737d8b78539578fd10",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b741f16277d5d1923b7eb6adf08995226c365470",
+        "sha": "e0c27bed63af5301ec0884737d8b78539578fd10",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/asyncpg-feedstock/deployments",
             "created_at": "2018-02-24T00:56:16Z",
             "updated_at": "2018-02-24T00:56:18Z",
-            "pushed_at": "2018-10-04T13:03:32Z",
+            "pushed_at": "2018-10-05T03:11:58Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/asyncpg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/asyncpg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/asyncpg-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/asyncpg-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/deployments",
             "created_at": "2017-10-01T21:50:01Z",
             "updated_at": "2018-08-04T19:21:51Z",
-            "pushed_at": "2018-10-04T13:03:33Z",
+            "pushed_at": "2018-10-05T03:11:58Z",
             "git_url": "git://github.com/conda-forge/asyncpg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/asyncpg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/asyncpg-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/statuses/b741f16277d5d1923b7eb6adf08995226c365470"
+            "href": "https://api.github.com/repos/conda-forge/asyncpg-feedstock/statuses/e0c27bed63af5301ec0884737d8b78539578fd10"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 320,
-    "deletions": 96,
-    "changed_files": 26
+    "commits": 5,
+    "additions": 322,
+    "deletions": 98,
+    "changed_files": 26,
+    "Last-Modified": "Fri, 05 Oct 2018 03:12:28 GMT",
+    "ETag": "W/\"2baa14af2c820a6d5f72d43795ec8103\""
 }
