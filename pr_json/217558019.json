@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T05:12:20Z",
-    "updated_at": "2018-10-03T17:45:18Z",
+    "updated_at": "2018-10-05T03:49:00Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "180b58b2ca5e0e6a5c0c8a724345c236160b0c45",
+    "merge_commit_sha": "dffdc6baf6fd28611b4f24665a2a1e8f1b595ef4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/statuses/25fe9fdcad2dd89338344b2cc7fa985a5b07e0c4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/statuses/0593a8a54e00fcb50eeefcf9eb7a3da566105e37",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "25fe9fdcad2dd89338344b2cc7fa985a5b07e0c4",
+        "sha": "0593a8a54e00fcb50eeefcf9eb7a3da566105e37",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/flask-seasurf-feedstock/deployments",
             "created_at": "2018-07-07T06:12:34Z",
             "updated_at": "2018-07-07T06:12:36Z",
-            "pushed_at": "2018-10-03T17:19:02Z",
+            "pushed_at": "2018-10-05T03:49:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/flask-seasurf-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/flask-seasurf-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/flask-seasurf-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/flask-seasurf-feedstock",
             "homepage": null,
-            "size": 34,
+            "size": 35,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/deployments",
             "created_at": "2016-09-12T13:01:18Z",
             "updated_at": "2018-08-04T17:30:34Z",
-            "pushed_at": "2018-10-03T17:19:03Z",
+            "pushed_at": "2018-10-05T03:49:01Z",
             "git_url": "git://github.com/conda-forge/flask-seasurf-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/flask-seasurf-feedstock.git",
             "clone_url": "https://github.com/conda-forge/flask-seasurf-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/statuses/25fe9fdcad2dd89338344b2cc7fa985a5b07e0c4"
+            "href": "https://api.github.com/repos/conda-forge/flask-seasurf-feedstock/statuses/0593a8a54e00fcb50eeefcf9eb7a3da566105e37"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 509,
-    "deletions": 173,
-    "changed_files": 31
+    "commits": 5,
+    "additions": 227,
+    "deletions": 266,
+    "changed_files": 20,
+    "Last-Modified": "Fri, 05 Oct 2018 03:49:00 GMT",
+    "ETag": "W/\"9b8de56f1ba9190f60dada231808f8c5\""
 }
