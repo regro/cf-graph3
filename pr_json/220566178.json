@@ -32,12 +32,52 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T02:09:27Z",
-    "updated_at": "2018-10-05T02:09:30Z",
+    "updated_at": "2018-10-05T08:01:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bf0c3be70476e43bcf2f34da8cc108b40a4a7895",
-    "assignee": null,
-    "assignees": [],
+    "merge_commit_sha": "edd4e29befd24b217273409d7ca8f96344dae69f",
+    "assignee": {
+        "login": "carlodri",
+        "id": 5230366,
+        "node_id": "MDQ6VXNlcjUyMzAzNjY=",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/5230366?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/carlodri",
+        "html_url": "https://github.com/carlodri",
+        "followers_url": "https://api.github.com/users/carlodri/followers",
+        "following_url": "https://api.github.com/users/carlodri/following{/other_user}",
+        "gists_url": "https://api.github.com/users/carlodri/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/carlodri/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/carlodri/subscriptions",
+        "organizations_url": "https://api.github.com/users/carlodri/orgs",
+        "repos_url": "https://api.github.com/users/carlodri/repos",
+        "events_url": "https://api.github.com/users/carlodri/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/carlodri/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "carlodri",
+            "id": 5230366,
+            "node_id": "MDQ6VXNlcjUyMzAzNjY=",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/5230366?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/carlodri",
+            "html_url": "https://github.com/carlodri",
+            "followers_url": "https://api.github.com/users/carlodri/followers",
+            "following_url": "https://api.github.com/users/carlodri/following{/other_user}",
+            "gists_url": "https://api.github.com/users/carlodri/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/carlodri/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/carlodri/subscriptions",
+            "organizations_url": "https://api.github.com/users/carlodri/orgs",
+            "repos_url": "https://api.github.com/users/carlodri/repos",
+            "events_url": "https://api.github.com/users/carlodri/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/carlodri/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
@@ -46,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/statuses/ac775da8281937d16f50fc884b15628df0ed90f2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/statuses/b210afe6b4406a63280ac63f31a1b2a3517bc760",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ac775da8281937d16f50fc884b15628df0ed90f2",
+        "sha": "b210afe6b4406a63280ac63f31a1b2a3517bc760",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/logzero-feedstock/deployments",
             "created_at": "2018-03-02T21:59:56Z",
             "updated_at": "2018-03-02T21:59:58Z",
-            "pushed_at": "2018-10-05T02:09:26Z",
+            "pushed_at": "2018-10-05T08:01:17Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/logzero-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/logzero-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/logzero-feedstock.git",
@@ -263,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/logzero-feedstock/deployments",
             "created_at": "2017-12-19T11:42:24Z",
             "updated_at": "2018-08-04T19:23:32Z",
-            "pushed_at": "2018-10-05T02:09:28Z",
+            "pushed_at": "2018-10-05T08:01:18Z",
             "git_url": "git://github.com/conda-forge/logzero-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/logzero-feedstock.git",
             "clone_url": "https://github.com/conda-forge/logzero-feedstock.git",
@@ -318,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/logzero-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/logzero-feedstock/statuses/ac775da8281937d16f50fc884b15628df0ed90f2"
+            "href": "https://api.github.com/repos/conda-forge/logzero-feedstock/statuses/b210afe6b4406a63280ac63f31a1b2a3517bc760"
         }
     },
     "author_association": "NONE",
@@ -332,10 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 376,
-    "deletions": 159,
+    "commits": 3,
+    "additions": 378,
+    "deletions": 162,
     "changed_files": 26,
-    "Last-Modified": "Fri, 05 Oct 2018 02:09:30 GMT",
-    "ETag": "W/\"4cfac512311ad1db411c04b300d0b621\""
+    "Last-Modified": "Fri, 05 Oct 2018 08:01:30 GMT",
+    "ETag": "W/\"346b2497a12bb481c34111f5db3dd3e5\""
 }
