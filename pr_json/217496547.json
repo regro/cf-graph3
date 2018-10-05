@@ -9,7 +9,7 @@
     "number": 39,
     "state": "open",
     "locked": false,
-    "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
+    "title": "TBB 2019.1, rebuild for Python 3.7, GCC 7",
     "user": {
         "login": "regro-cf-autotick-bot",
         "id": 36490558,
@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nopenturns\nsuitesparse\nvtk\nocct\nfresnel\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T07:10:45Z",
-    "updated_at": "2018-10-04T15:55:32Z",
+    "updated_at": "2018-10-05T01:20:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b472f2d2d12feace5446ef340cc271ba1b25ef89",
+    "merge_commit_sha": "c0f677ea0e337298b70b67ed4d23cc23251b64cd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/pulls/39/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/issues/39/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/statuses/926ddd451d90d588073b4c816ef885b9ec3e5cd5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/statuses/98bd31b8cad5433b44471b08a810d07c07fa7e6f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "926ddd451d90d588073b4c816ef885b9ec3e5cd5",
+        "sha": "98bd31b8cad5433b44471b08a810d07c07fa7e6f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tbb-feedstock/deployments",
             "created_at": "2018-03-11T22:03:25Z",
             "updated_at": "2018-03-11T22:03:27Z",
-            "pushed_at": "2018-10-04T14:20:52Z",
+            "pushed_at": "2018-10-05T01:17:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tbb-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tbb-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tbb-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tbb-feedstock",
             "homepage": null,
-            "size": 102,
+            "size": 104,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "CMake",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tbb-feedstock/deployments",
             "created_at": "2016-05-17T16:46:27Z",
             "updated_at": "2018-09-20T18:37:08Z",
-            "pushed_at": "2018-10-04T14:20:52Z",
+            "pushed_at": "2018-10-05T01:17:55Z",
             "git_url": "git://github.com/conda-forge/tbb-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tbb-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tbb-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tbb-feedstock/pulls/39/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tbb-feedstock/statuses/926ddd451d90d588073b4c816ef885b9ec3e5cd5"
+            "href": "https://api.github.com/repos/conda-forge/tbb-feedstock/statuses/98bd31b8cad5433b44471b08a810d07c07fa7e6f"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 107,
-    "deletions": 17,
-    "changed_files": 9
+    "commits": 4,
+    "additions": 108,
+    "deletions": 18,
+    "changed_files": 9,
+    "Last-Modified": "Fri, 05 Oct 2018 01:20:14 GMT",
+    "ETag": "W/\"d67ee13f6eb3f3cc6a8a81dad951dbc2\""
 }
