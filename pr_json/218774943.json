@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbison\ndoxygen\ngobject-introspection\niverilog\nlibdap4\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-27T20:12:31Z",
-    "updated_at": "2018-10-03T02:37:05Z",
+    "updated_at": "2018-10-05T13:08:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5def8ca4f083794cdea5b50f9094b9eb164e7cdf",
+    "merge_commit_sha": "76e60c39411a7574b972e37f3ef0c0f1f6035f4b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/flex-feedstock/pulls/22/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/flex-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/flex-feedstock/issues/22/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/flex-feedstock/statuses/ba5ad4756b53f2848ff1725e86df087490d12aae",
+    "statuses_url": "https://api.github.com/repos/conda-forge/flex-feedstock/statuses/889c87e2e4b4f21134b9bb43e6b5f40ffb2c5a6c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ba5ad4756b53f2848ff1725e86df087490d12aae",
+        "sha": "889c87e2e4b4f21134b9bb43e6b5f40ffb2c5a6c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/flex-feedstock/deployments",
             "created_at": "2018-03-01T14:19:52Z",
             "updated_at": "2018-03-01T14:19:54Z",
-            "pushed_at": "2018-10-03T02:37:04Z",
+            "pushed_at": "2018-10-05T13:08:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/flex-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/flex-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/flex-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/flex-feedstock/deployments",
             "created_at": "2016-03-31T00:27:46Z",
             "updated_at": "2018-09-03T14:13:03Z",
-            "pushed_at": "2018-10-03T02:37:05Z",
+            "pushed_at": "2018-10-05T13:08:02Z",
             "git_url": "git://github.com/conda-forge/flex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/flex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/flex-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/flex-feedstock/pulls/22/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/flex-feedstock/statuses/ba5ad4756b53f2848ff1725e86df087490d12aae"
+            "href": "https://api.github.com/repos/conda-forge/flex-feedstock/statuses/889c87e2e4b4f21134b9bb43e6b5f40ffb2c5a6c"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 94,
-    "deletions": 24,
-    "changed_files": 10
+    "commits": 5,
+    "additions": 99,
+    "deletions": 32,
+    "changed_files": 11,
+    "Last-Modified": "Fri, 05 Oct 2018 13:08:01 GMT",
+    "ETag": "W/\"109fb4f6e54f8a3dd5dcfcdbd599e69a\""
 }
