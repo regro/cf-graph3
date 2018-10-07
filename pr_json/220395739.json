@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndjango-libsass\nsignac-dashboard\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T14:19:58Z",
-    "updated_at": "2018-10-05T03:04:34Z",
+    "updated_at": "2018-10-07T11:19:53Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "756e38e0d49ca798e2a7be0a00eb42f289ecd1f2",
@@ -154,7 +154,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 0,
@@ -165,7 +165,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libsass-feedstock/deployments",
             "created_at": "2017-09-12T20:55:37Z",
             "updated_at": "2018-10-04T13:07:22Z",
-            "pushed_at": "2018-10-05T03:04:35Z",
+            "pushed_at": "2018-10-07T18:15:46Z",
             "git_url": "git://github.com/conda-forge/libsass-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libsass-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libsass-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 2,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 2,
-            "open_issues": 2,
+            "forks": 3,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
-    "review_comments": 0,
+    "comments": 5,
+    "review_comments": 2,
     "maintainer_can_modify": true,
     "commits": 4,
     "additions": 287,
     "deletions": 38,
     "changed_files": 19,
-    "Last-Modified": "Fri, 05 Oct 2018 03:04:34 GMT",
-    "ETag": "W/\"042d4dbe3beae64604ed41c0dbec4803\""
+    "Last-Modified": "Sun, 07 Oct 2018 11:19:53 GMT",
+    "ETag": "W/\"6b534d7ca3e5768e063afde5be56a992\""
 }

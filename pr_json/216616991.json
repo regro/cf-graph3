@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|llvmdev|7.0.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/llvmdev.svg)](https://anaconda.org/conda-forge/llvmdev)|\n",
     "created_at": "2018-09-19T12:14:55Z",
-    "updated_at": "2018-09-19T12:14:58Z",
+    "updated_at": "2018-10-07T17:40:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "918ab919e92d5b3354f0159e3a31067db8246a0f",
+    "merge_commit_sha": "d5a5047af85f84dc691af37742185426b14804ea",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/pulls/37/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/issues/37/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/statuses/47d16bdf79da9f75418d5a365376a1aed87ebc65",
+    "statuses_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/statuses/5037629716324b7b595f6052cd05f694c84b370a",
     "head": {
         "label": "regro-cf-autotick-bot:7.0.0",
         "ref": "7.0.0",
-        "sha": "47d16bdf79da9f75418d5a365376a1aed87ebc65",
+        "sha": "5037629716324b7b595f6052cd05f694c84b370a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/clangdev-feedstock/deployments",
             "created_at": "2018-06-29T07:06:36Z",
             "updated_at": "2018-06-29T07:06:38Z",
-            "pushed_at": "2018-09-19T12:14:54Z",
+            "pushed_at": "2018-10-07T17:39:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/clangdev-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/clangdev-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/clangdev-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/clangdev-feedstock",
             "homepage": null,
-            "size": 125,
+            "size": 136,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/clangdev-feedstock/deployments",
             "created_at": "2017-01-19T07:41:45Z",
             "updated_at": "2018-08-12T06:51:20Z",
-            "pushed_at": "2018-09-19T12:14:56Z",
+            "pushed_at": "2018-10-07T17:39:20Z",
             "git_url": "git://github.com/conda-forge/clangdev-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/clangdev-feedstock.git",
             "clone_url": "https://github.com/conda-forge/clangdev-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/clangdev-feedstock/pulls/37/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/clangdev-feedstock/statuses/47d16bdf79da9f75418d5a365376a1aed87ebc65"
+            "href": "https://api.github.com/repos/conda-forge/clangdev-feedstock/statuses/5037629716324b7b595f6052cd05f694c84b370a"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 1,
-    "Last-Modified": "Wed, 19 Sep 2018 12:14:58 GMT",
-    "ETag": "W/\"4dfabd2fd81d8b5ef1157b80d1e38c85\""
+    "commits": 4,
+    "additions": 251,
+    "deletions": 4462,
+    "changed_files": 78,
+    "Last-Modified": "Sun, 07 Oct 2018 17:40:09 GMT",
+    "ETag": "W/\"04693f17704c3e37bfdc4cc2d19256fd\""
 }
