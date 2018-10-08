@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibgdal\nrsgislib\ngdal\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T20:56:42Z",
-    "updated_at": "2018-10-07T23:50:55Z",
+    "updated_at": "2018-10-08T00:39:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "302ec25e8220f4e7893834bbbd47b57cfa31be5d",
+    "merge_commit_sha": "fe322c167dad1ea97107171e675e24d00474c3c3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/statuses/e62746ba8f8163ae23f75eb3818f44b8552dece5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/statuses/283966f4aaf9f4b8c80c7d1275d1447f2e09d7be",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e62746ba8f8163ae23f75eb3818f44b8552dece5",
+        "sha": "283966f4aaf9f4b8c80c7d1275d1447f2e09d7be",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/kealib-feedstock/deployments",
             "created_at": "2018-10-07T20:56:28Z",
             "updated_at": "2018-10-07T20:56:30Z",
-            "pushed_at": "2018-10-07T22:49:25Z",
+            "pushed_at": "2018-10-08T00:39:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/kealib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/kealib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/kealib-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/kealib-feedstock/deployments",
             "created_at": "2016-04-26T10:06:13Z",
             "updated_at": "2018-09-29T00:32:30Z",
-            "pushed_at": "2018-10-07T22:49:27Z",
+            "pushed_at": "2018-10-08T00:39:32Z",
             "git_url": "git://github.com/conda-forge/kealib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/kealib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/kealib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/kealib-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/kealib-feedstock/statuses/e62746ba8f8163ae23f75eb3818f44b8552dece5"
+            "href": "https://api.github.com/repos/conda-forge/kealib-feedstock/statuses/283966f4aaf9f4b8c80c7d1275d1447f2e09d7be"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
-    "review_comments": 0,
+    "comments": 8,
+    "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 4,
+    "commits": 8,
     "additions": 103,
-    "deletions": 19,
-    "changed_files": 8,
-    "Last-Modified": "Sun, 07 Oct 2018 23:50:55 GMT",
-    "ETag": "W/\"4ec821593f7787ae8851e82856cc61c4\""
+    "deletions": 43,
+    "changed_files": 9,
+    "Last-Modified": "Mon, 08 Oct 2018 00:39:31 GMT",
+    "ETag": "W/\"ffaffc479d17709c3a8af72b8ea5d2f0\""
 }
