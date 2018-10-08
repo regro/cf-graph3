@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T21:15:26Z",
-    "updated_at": "2018-10-08T06:19:47Z",
+    "updated_at": "2018-10-08T10:45:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bccd218879b4a3ed0d8f01e07f7844dec1628e09",
+    "merge_commit_sha": "c573b511874b7aef16ccba09c3ccaa88605c470a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/statuses/a477e672fc75b728b7c1c3b3954668a9a14b2cf7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/statuses/b61fbee4e581bb93dc225e38ce8ac6061fd6b1f5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a477e672fc75b728b7c1c3b3954668a9a14b2cf7",
+        "sha": "b61fbee4e581bb93dc225e38ce8ac6061fd6b1f5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/miktex-feedstock/deployments",
             "created_at": "2018-08-20T22:12:12Z",
             "updated_at": "2018-08-20T22:12:14Z",
-            "pushed_at": "2018-08-21T21:15:25Z",
+            "pushed_at": "2018-10-08T10:45:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/miktex-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/miktex-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/miktex-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/miktex-feedstock/deployments",
             "created_at": "2016-05-02T15:24:37Z",
             "updated_at": "2018-08-04T17:11:04Z",
-            "pushed_at": "2018-08-21T21:15:27Z",
+            "pushed_at": "2018-10-08T10:45:49Z",
             "git_url": "git://github.com/conda-forge/miktex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/miktex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/miktex-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/miktex-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/miktex-feedstock/statuses/a477e672fc75b728b7c1c3b3954668a9a14b2cf7"
+            "href": "https://api.github.com/repos/conda-forge/miktex-feedstock/statuses/b61fbee4e581bb93dc225e38ce8ac6061fd6b1f5"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 21,
-    "deletions": 16,
-    "changed_files": 6
+    "commits": 3,
+    "additions": 23,
+    "deletions": 19,
+    "changed_files": 6,
+    "Last-Modified": "Mon, 08 Oct 2018 10:45:53 GMT",
+    "ETag": "W/\"699ab532c9fc7d437f9e2ab3d09f7a92\""
 }
