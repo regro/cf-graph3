@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibgdal\npostgis\npsycopg2\nqgis\nr-rpostgresql\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T22:06:29Z",
-    "updated_at": "2018-10-07T22:09:24Z",
+    "updated_at": "2018-10-09T04:07:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "09b914c9b8bf1bf34c1e05f7dd498a8813e50dfb",
+    "merge_commit_sha": "70d7d4423fffa85bb991dbe589c17f2e84a777c7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/31/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/issues/31/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/9641b6533e073900fea54ff0ac4eae0103855a53",
+    "statuses_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/628ee0ec209cdf9d83dc482206c1990766fb558e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9641b6533e073900fea54ff0ac4eae0103855a53",
+        "sha": "628ee0ec209cdf9d83dc482206c1990766fb558e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/postgresql-feedstock/deployments",
             "created_at": "2018-03-17T04:02:26Z",
             "updated_at": "2018-03-17T04:02:27Z",
-            "pushed_at": "2018-10-07T22:06:29Z",
+            "pushed_at": "2018-10-09T04:07:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/postgresql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/postgresql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/postgresql-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/deployments",
             "created_at": "2016-07-07T15:32:37Z",
             "updated_at": "2018-10-07T20:01:15Z",
-            "pushed_at": "2018-10-07T22:06:30Z",
+            "pushed_at": "2018-10-09T04:07:53Z",
             "git_url": "git://github.com/conda-forge/postgresql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/postgresql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/postgresql-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/31/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/9641b6533e073900fea54ff0ac4eae0103855a53"
+            "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/628ee0ec209cdf9d83dc482206c1990766fb558e"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 78,
-    "deletions": 27,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 83,
+    "deletions": 30,
+    "changed_files": 12,
+    "Last-Modified": "Tue, 09 Oct 2018 04:07:52 GMT",
+    "ETag": "W/\"6c0be1a6bee484a10d0cb8ba5a1630e1\""
 }
