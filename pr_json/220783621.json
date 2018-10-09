@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T18:16:00Z",
-    "updated_at": "2018-10-09T01:48:29Z",
+    "updated_at": "2018-10-09T02:40:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4c78dd92373ec2b2ab96682b94ef0c0f716ac8e2",
+    "merge_commit_sha": "ab0623b9d98efe68c08dcec85078b51f0d9b5ac7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/statuses/3ce27f54599a3f0c1429c8aeee7914c517ff6ec7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/statuses/69c0c1055d5447eaf97c672eff7679a89fdce93b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3ce27f54599a3f0c1429c8aeee7914c517ff6ec7",
+        "sha": "69c0c1055d5447eaf97c672eff7679a89fdce93b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/asciimatics-feedstock/deployments",
             "created_at": "2018-05-01T04:13:08Z",
             "updated_at": "2018-05-01T04:13:10Z",
-            "pushed_at": "2018-10-05T18:15:59Z",
+            "pushed_at": "2018-10-09T02:15:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/asciimatics-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/asciimatics-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/asciimatics-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/asciimatics-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/deployments",
             "created_at": "2018-04-30T22:45:13Z",
             "updated_at": "2018-09-18T22:48:01Z",
-            "pushed_at": "2018-10-05T18:16:00Z",
+            "pushed_at": "2018-10-09T02:15:51Z",
             "git_url": "git://github.com/conda-forge/asciimatics-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/asciimatics-feedstock.git",
             "clone_url": "https://github.com/conda-forge/asciimatics-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/statuses/3ce27f54599a3f0c1429c8aeee7914c517ff6ec7"
+            "href": "https://api.github.com/repos/conda-forge/asciimatics-feedstock/statuses/69c0c1055d5447eaf97c672eff7679a89fdce93b"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 48,
-    "deletions": 20,
-    "changed_files": 12
+    "commits": 3,
+    "additions": 51,
+    "deletions": 25,
+    "changed_files": 12,
+    "Last-Modified": "Tue, 09 Oct 2018 02:40:23 GMT",
+    "ETag": "W/\"1dfb9f5d5962d0e518b1ffbaca763d68\""
 }
