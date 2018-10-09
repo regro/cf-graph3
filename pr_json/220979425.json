@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npetsc\nsiesta\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T22:59:05Z",
-    "updated_at": "2018-10-07T23:07:27Z",
+    "updated_at": "2018-10-09T13:21:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a37bd923826f1235950b73fe7410a32ddb933e91",
+    "merge_commit_sha": "85872904bf2649995480d662eaad663f805753c6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/statuses/78df80797904550a1e6da921e92e6e19460911ac",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/statuses/a6b1399a4608dd5899a7e1436e5255c7349648b8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "78df80797904550a1e6da921e92e6e19460911ac",
+        "sha": "a6b1399a4608dd5899a7e1436e5255c7349648b8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scalapack-feedstock/deployments",
             "created_at": "2018-07-07T11:10:29Z",
             "updated_at": "2018-07-07T11:10:31Z",
-            "pushed_at": "2018-10-07T22:59:05Z",
+            "pushed_at": "2018-10-09T13:21:37Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scalapack-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scalapack-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scalapack-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scalapack-feedstock/deployments",
             "created_at": "2017-04-03T02:10:08Z",
             "updated_at": "2018-08-04T18:44:03Z",
-            "pushed_at": "2018-10-07T22:59:06Z",
+            "pushed_at": "2018-10-09T13:21:38Z",
             "git_url": "git://github.com/conda-forge/scalapack-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scalapack-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scalapack-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scalapack-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scalapack-feedstock/statuses/78df80797904550a1e6da921e92e6e19460911ac"
+            "href": "https://api.github.com/repos/conda-forge/scalapack-feedstock/statuses/a6b1399a4608dd5899a7e1436e5255c7349648b8"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 281,
+    "commits": 3,
+    "additions": 289,
     "deletions": 64,
-    "changed_files": 19,
-    "Last-Modified": "Sun, 07 Oct 2018 23:07:27 GMT",
-    "ETag": "W/\"a479129e433ad62474528ee8504cef7e\""
+    "changed_files": 20,
+    "Last-Modified": "Tue, 09 Oct 2018 13:21:38 GMT",
+    "ETag": "W/\"852b7c7b6c3ad3cf3d1d4a5e1160236a\""
 }
