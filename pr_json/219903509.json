@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T03:14:55Z",
-    "updated_at": "2018-10-03T03:15:01Z",
+    "updated_at": "2018-10-10T10:35:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a7a71d3099f045cfb6017d87a2a72c3edd8583e2",
+    "merge_commit_sha": "10c4935789f8a57f57713733007176c3ce57fcc5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/statuses/4819424f5098724c1fbbc8e28a9ab11b3654516f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/statuses/e8f89c981eb0838253a5f2074a3b0d039c38ac9c",
     "head": {
         "label": "regro-cf-autotick-bot:2.0.1",
         "ref": "2.0.1",
-        "sha": "4819424f5098724c1fbbc8e28a9ab11b3654516f",
+        "sha": "e8f89c981eb0838253a5f2074a3b0d039c38ac9c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ligo-gracedb-feedstock/deployments",
             "created_at": "2018-09-25T19:12:55Z",
             "updated_at": "2018-09-25T19:12:57Z",
-            "pushed_at": "2018-10-03T03:14:56Z",
+            "pushed_at": "2018-10-10T10:35:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ligo-gracedb-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ligo-gracedb-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ligo-gracedb-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/deployments",
             "created_at": "2018-08-02T08:16:22Z",
             "updated_at": "2018-08-02T08:17:46Z",
-            "pushed_at": "2018-10-03T03:14:57Z",
+            "pushed_at": "2018-10-10T10:35:14Z",
             "git_url": "git://github.com/conda-forge/ligo-gracedb-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ligo-gracedb-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ligo-gracedb-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/statuses/4819424f5098724c1fbbc8e28a9ab11b3654516f"
+            "href": "https://api.github.com/repos/conda-forge/ligo-gracedb-feedstock/statuses/e8f89c981eb0838253a5f2074a3b0d039c38ac9c"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 38,
-    "deletions": 20,
-    "changed_files": 6,
-    "Last-Modified": "Wed, 03 Oct 2018 03:15:01 GMT",
-    "ETag": "W/\"237c127cdb93051cc42762f2488ace1c\""
+    "deletions": 639,
+    "changed_files": 7,
+    "Last-Modified": "Wed, 10 Oct 2018 10:35:13 GMT",
+    "ETag": "W/\"cbb0b6c8aff645b482d0ef5d38e3834b\""
 }
