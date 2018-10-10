@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-14T00:19:30Z",
-    "updated_at": "2018-08-14T02:30:23Z",
+    "updated_at": "2018-10-10T00:17:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "048df827dfff8f7acb30817ab50e7c2d0568a5c3",
+    "merge_commit_sha": "21291475afc5df09d69e2f91b96651dc27f71cfd",
     "assignee": {
         "login": "sodre",
         "id": 1043285,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/statuses/e120728e9fef0bc55ae9c3c1e78077bbceb2f7e3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/statuses/1583d51d814282a5d9458a92566d79bae5303f24",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.0",
         "ref": "1.2.0",
-        "sha": "e120728e9fef0bc55ae9c3c1e78077bbceb2f7e3",
+        "sha": "1583d51d814282a5d9458a92566d79bae5303f24",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock/deployments",
             "created_at": "2018-04-06T22:56:23Z",
             "updated_at": "2018-04-06T22:56:25Z",
-            "pushed_at": "2018-10-05T17:10:46Z",
+            "pushed_at": "2018-10-10T00:17:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-cloudflare-feedstock",
             "homepage": null,
-            "size": 33,
+            "size": 34,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -214,7 +214,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "fb6294863080286371d6c715af9b39659602fefa",
+        "sha": "51784442b12129181d69b9bf263d7bfff6c53e0f",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/deployments",
             "created_at": "2018-03-14T14:50:15Z",
             "updated_at": "2018-09-21T20:57:27Z",
-            "pushed_at": "2018-10-05T17:10:47Z",
+            "pushed_at": "2018-10-10T00:17:53Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-cloudflare-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-cloudflare-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-cloudflare-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,22 +358,24 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/statuses/e120728e9fef0bc55ae9c3c1e78077bbceb2f7e3"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-cloudflare-feedstock/statuses/1583d51d814282a5d9458a92566d79bae5303f24"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 10,
-    "deletions": 10,
-    "changed_files": 3
+    "commits": 5,
+    "additions": 3,
+    "deletions": 3,
+    "changed_files": 1,
+    "Last-Modified": "Wed, 10 Oct 2018 00:17:52 GMT",
+    "ETag": "W/\"724bc6d1dee4e0d45d033fe1736eb96a\""
 }

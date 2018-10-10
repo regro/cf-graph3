@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T09:17:08Z",
-    "updated_at": "2018-10-07T17:06:59Z",
+    "updated_at": "2018-10-10T00:56:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "09d174bf3c507b0ab346057fadc7fe6f9f44c015",
+    "merge_commit_sha": "7d29210a87b7e5e8dfe384d5e023d9f23ec686d3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/statuses/0700fc1182f0146205fd2d9efc729942526f5e91",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/statuses/79ffa5b997f6a696e6ba46bf13ef7695b3c63c9a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "0700fc1182f0146205fd2d9efc729942526f5e91",
+        "sha": "79ffa5b997f6a696e6ba46bf13ef7695b3c63c9a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fastnumbers-feedstock/deployments",
             "created_at": "2018-05-15T10:56:56Z",
             "updated_at": "2018-05-15T10:56:58Z",
-            "pushed_at": "2018-10-05T09:17:07Z",
+            "pushed_at": "2018-10-10T00:55:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fastnumbers-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fastnumbers-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fastnumbers-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/deployments",
             "created_at": "2017-05-03T02:25:33Z",
             "updated_at": "2018-08-20T03:58:07Z",
-            "pushed_at": "2018-10-05T09:17:09Z",
+            "pushed_at": "2018-10-10T00:56:00Z",
             "git_url": "git://github.com/conda-forge/fastnumbers-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fastnumbers-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fastnumbers-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/statuses/0700fc1182f0146205fd2d9efc729942526f5e91"
+            "href": "https://api.github.com/repos/conda-forge/fastnumbers-feedstock/statuses/79ffa5b997f6a696e6ba46bf13ef7695b3c63c9a"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 383,
-    "deletions": 83,
+    "commits": 3,
+    "additions": 384,
+    "deletions": 87,
     "changed_files": 27,
-    "Last-Modified": "Sun, 07 Oct 2018 17:06:59 GMT",
-    "ETag": "W/\"ddd24fe61f3f89851c2c0a12f6d25ad2\""
+    "Last-Modified": "Wed, 10 Oct 2018 00:56:37 GMT",
+    "ETag": "W/\"15f4466919b6e3c170af9180e296b25a\""
 }
