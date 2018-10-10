@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-10T03:07:37Z",
-    "updated_at": "2018-10-10T03:07:46Z",
+    "updated_at": "2018-10-10T14:00:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "189d246fb750c27046c443469e58d4674923fb26",
+    "merge_commit_sha": "347b163097a396519bb130e65c7246ae4e828920",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/statuses/e00f7f5f0ea429d0de65ce255cd209b926f6bc3f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/statuses/6659c5eb969d8ec5413f0fb974bcc0f86f2c13cc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e00f7f5f0ea429d0de65ce255cd209b926f6bc3f",
+        "sha": "6659c5eb969d8ec5413f0fb974bcc0f86f2c13cc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-kubernetes-feedstock/deployments",
             "created_at": "2018-03-05T02:12:38Z",
             "updated_at": "2018-03-05T02:12:41Z",
-            "pushed_at": "2018-10-10T03:07:36Z",
+            "pushed_at": "2018-10-10T14:00:25Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-kubernetes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-kubernetes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-kubernetes-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/python-kubernetes-feedstock",
             "homepage": null,
-            "size": 33,
+            "size": 35,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/deployments",
             "created_at": "2017-07-04T11:01:02Z",
             "updated_at": "2018-08-16T11:45:32Z",
-            "pushed_at": "2018-10-10T03:07:37Z",
+            "pushed_at": "2018-10-10T14:00:25Z",
             "git_url": "git://github.com/conda-forge/python-kubernetes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-kubernetes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-kubernetes-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/statuses/e00f7f5f0ea429d0de65ce255cd209b926f6bc3f"
+            "href": "https://api.github.com/repos/conda-forge/python-kubernetes-feedstock/statuses/6659c5eb969d8ec5413f0fb974bcc0f86f2c13cc"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 164,
-    "deletions": 62,
-    "changed_files": 20
+    "commits": 3,
+    "additions": 165,
+    "deletions": 63,
+    "changed_files": 20,
+    "Last-Modified": "Wed, 10 Oct 2018 14:00:24 GMT",
+    "ETag": "W/\"3791847b6802bf6c2ee7ae4a2031d5da\""
 }
