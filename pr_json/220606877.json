@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\r\nNotes and instructions for merging this PR:\r\n1. Please merge the PR only after the tests have passed. \r\n2. Feel free to push to the bot's branch to update this PR if needed. \r\n\r\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\r\n\r\nThis package has the following downstream children:\r\nbluesky\r\ncaffe\r\nelektronn2\r\nglue-core\r\nhyperspy\r\nAnd potentially more.\r\n\r\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\r\n\r\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\r\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\r\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\r\n\r\ncloses #62",
     "created_at": "2018-10-05T07:17:16Z",
-    "updated_at": "2018-10-09T13:36:27Z",
+    "updated_at": "2018-10-10T00:39:12Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "7ac0536409abf93210b49353b6b4bb90778ab50f",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
     "additions": 40,
     "deletions": 21,
     "changed_files": 10,
-    "Last-Modified": "Tue, 09 Oct 2018 13:36:27 GMT",
-    "ETag": "W/\"b212745b2b182771b10b9ce77b5cd3d7\""
+    "Last-Modified": "Wed, 10 Oct 2018 00:39:12 GMT",
+    "ETag": "W/\"e4218584149b6ab52eb5e33f89f44439\""
 }
