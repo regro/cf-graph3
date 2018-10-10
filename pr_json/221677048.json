@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-10T06:56:38Z",
-    "updated_at": "2018-10-10T06:56:41Z",
+    "updated_at": "2018-10-10T09:29:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2d2f57f9c6f0db88cfb5c3fbeeae63e80f82e138",
+    "merge_commit_sha": "0110d8c556ca29c14a4025f87c67e7cd2ad464ba",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/statuses/56ff4504aeccf206a2bbba2e3eead30941a553cb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/statuses/c9c46ceffe276a18ede0c9239ac958d3ba7d5150",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "56ff4504aeccf206a2bbba2e3eead30941a553cb",
+        "sha": "c9c46ceffe276a18ede0c9239ac958d3ba7d5150",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pygit2-feedstock/deployments",
             "created_at": "2018-03-03T22:02:01Z",
             "updated_at": "2018-03-03T22:02:03Z",
-            "pushed_at": "2018-10-10T06:56:37Z",
+            "pushed_at": "2018-10-10T09:29:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pygit2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pygit2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pygit2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pygit2-feedstock/deployments",
             "created_at": "2017-01-04T10:00:45Z",
             "updated_at": "2018-08-04T18:13:20Z",
-            "pushed_at": "2018-10-10T06:56:38Z",
+            "pushed_at": "2018-10-10T09:29:57Z",
             "git_url": "git://github.com/conda-forge/pygit2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pygit2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pygit2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pygit2-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pygit2-feedstock/statuses/56ff4504aeccf206a2bbba2e3eead30941a553cb"
+            "href": "https://api.github.com/repos/conda-forge/pygit2-feedstock/statuses/c9c46ceffe276a18ede0c9239ac958d3ba7d5150"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 171,
-    "deletions": 69,
+    "commits": 3,
+    "additions": 174,
+    "deletions": 70,
     "changed_files": 22,
-    "Last-Modified": "Wed, 10 Oct 2018 06:56:41 GMT",
-    "ETag": "W/\"e274d1258e01ce52585b4b1df19de74b\""
+    "Last-Modified": "Wed, 10 Oct 2018 09:29:56 GMT",
+    "ETag": "W/\"5487e73e3f380045aacebad738033db9\""
 }

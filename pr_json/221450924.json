@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nampl-mp\nbob.ap\nbob.blitz\nbob.core\nbob.ip.base\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T13:59:53Z",
-    "updated_at": "2018-10-09T18:29:27Z",
+    "updated_at": "2018-10-10T09:39:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "98156ed6a8156e4f4437a5f2bf97c93f3a254be6",
+    "merge_commit_sha": "aba88796c40e0a73c0013e540171cd26cc42dad8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/pulls/72/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/issues/72/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/statuses/3db114580a0ae14f86ed46ab4dc14a1080f80c01",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/statuses/69b582eb5edf1bd5ca3d305f356767a84dc5f0b8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3db114580a0ae14f86ed46ab4dc14a1080f80c01",
+        "sha": "69b582eb5edf1bd5ca3d305f356767a84dc5f0b8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cmake-feedstock/deployments",
             "created_at": "2018-03-16T18:02:27Z",
             "updated_at": "2018-03-16T18:02:29Z",
-            "pushed_at": "2018-10-09T13:59:52Z",
+            "pushed_at": "2018-10-10T09:39:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cmake-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cmake-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cmake-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cmake-feedstock",
             "homepage": null,
-            "size": 120,
+            "size": 123,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cmake-feedstock/deployments",
             "created_at": "2016-03-16T17:54:37Z",
             "updated_at": "2018-10-07T00:24:13Z",
-            "pushed_at": "2018-10-09T13:59:53Z",
+            "pushed_at": "2018-10-10T09:39:16Z",
             "git_url": "git://github.com/conda-forge/cmake-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cmake-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cmake-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cmake-feedstock/pulls/72/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cmake-feedstock/statuses/3db114580a0ae14f86ed46ab4dc14a1080f80c01"
+            "href": "https://api.github.com/repos/conda-forge/cmake-feedstock/statuses/69b582eb5edf1bd5ca3d305f356767a84dc5f0b8"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 138,
-    "deletions": 10,
-    "changed_files": 8
+    "commits": 5,
+    "additions": 146,
+    "deletions": 14,
+    "changed_files": 9,
+    "Last-Modified": "Wed, 10 Oct 2018 09:39:15 GMT",
+    "ETag": "W/\"ebec2502ef37ffbf77255fe161cd2ab8\""
 }
