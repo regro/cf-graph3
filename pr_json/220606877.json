@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\r\nNotes and instructions for merging this PR:\r\n1. Please merge the PR only after the tests have passed. \r\n2. Feel free to push to the bot's branch to update this PR if needed. \r\n\r\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\r\n\r\nThis package has the following downstream children:\r\nbluesky\r\ncaffe\r\nelektronn2\r\nglue-core\r\nhyperspy\r\nAnd potentially more.\r\n\r\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\r\n\r\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\r\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\r\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\r\n\r\ncloses #62",
     "created_at": "2018-10-05T07:17:16Z",
-    "updated_at": "2018-10-10T01:01:08Z",
+    "updated_at": "2018-10-10T08:12:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7ac0536409abf93210b49353b6b4bb90778ab50f",
+    "merge_commit_sha": "a13c1fdf796c26a526c24f5ce4a7dd7e165479d1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/pulls/61/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/issues/61/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/statuses/6ab07c260114eea0d851e1349f3982677817deb0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/statuses/1eccba4887ad6301293e69402bff8b4e3ce47b2c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6ab07c260114eea0d851e1349f3982677817deb0",
+        "sha": "1eccba4887ad6301293e69402bff8b4e3ce47b2c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ipython-feedstock/deployments",
             "created_at": "2018-04-02T13:44:26Z",
             "updated_at": "2018-04-02T13:44:28Z",
-            "pushed_at": "2018-10-09T13:36:27Z",
+            "pushed_at": "2018-10-10T08:12:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ipython-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ipython-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ipython-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ipython-feedstock/deployments",
             "created_at": "2016-04-06T13:47:07Z",
             "updated_at": "2018-09-29T01:32:49Z",
-            "pushed_at": "2018-10-09T13:36:28Z",
+            "pushed_at": "2018-10-10T08:12:51Z",
             "git_url": "git://github.com/conda-forge/ipython-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ipython-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ipython-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ipython-feedstock/pulls/61/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ipython-feedstock/statuses/6ab07c260114eea0d851e1349f3982677817deb0"
+            "href": "https://api.github.com/repos/conda-forge/ipython-feedstock/statuses/1eccba4887ad6301293e69402bff8b4e3ce47b2c"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 40,
+    "commits": 5,
+    "additions": 41,
     "deletions": 21,
-    "changed_files": 10,
-    "Last-Modified": "Wed, 10 Oct 2018 01:01:08 GMT",
-    "ETag": "W/\"f6fc735b48684167bee9211b8e81318f\""
+    "changed_files": 11,
+    "Last-Modified": "Wed, 10 Oct 2018 08:12:51 GMT",
+    "ETag": "W/\"339f59032126ac182888a9a5fb7b9ca5\""
 }
