@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibgdal\ngdal\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T18:58:32Z",
-    "updated_at": "2018-10-10T18:35:53Z",
+    "updated_at": "2018-10-11T01:38:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f4a8a790f5097e52f552057063086870e1a796bd",
+    "merge_commit_sha": "2f6d34017bfba5747a7fd2cf4826b946e91d7b26",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/pulls/25/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/issues/25/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/statuses/23762782b32d0da1e5972e46312db6664a35e574",
+    "statuses_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/statuses/b5f78041ec43a47ffd8ca08685543564f5d50791",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "23762782b32d0da1e5972e46312db6664a35e574",
+        "sha": "b5f78041ec43a47ffd8ca08685543564f5d50791",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/poppler-feedstock/deployments",
             "created_at": "2018-03-17T04:00:59Z",
             "updated_at": "2018-03-17T04:01:00Z",
-            "pushed_at": "2018-10-09T20:33:50Z",
+            "pushed_at": "2018-10-11T01:38:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/poppler-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/poppler-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/poppler-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/poppler-feedstock/deployments",
             "created_at": "2017-03-05T16:21:27Z",
             "updated_at": "2018-08-14T14:44:47Z",
-            "pushed_at": "2018-10-09T20:33:51Z",
+            "pushed_at": "2018-10-11T01:38:12Z",
             "git_url": "git://github.com/conda-forge/poppler-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/poppler-feedstock.git",
             "clone_url": "https://github.com/conda-forge/poppler-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/poppler-feedstock/pulls/25/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/poppler-feedstock/statuses/23762782b32d0da1e5972e46312db6664a35e574"
+            "href": "https://api.github.com/repos/conda-forge/poppler-feedstock/statuses/b5f78041ec43a47ffd8ca08685543564f5d50791"
         }
     },
     "author_association": "NONE",
@@ -367,15 +367,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 11,
+    "comments": 12,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 221,
-    "deletions": 37,
-    "changed_files": 11,
-    "Last-Modified": "Wed, 10 Oct 2018 18:35:53 GMT",
-    "ETag": "W/\"46dbfa316150e2aa5fd1d7b0d86a887a\""
+    "commits": 8,
+    "additions": 166,
+    "deletions": 42,
+    "changed_files": 12,
+    "Last-Modified": "Thu, 11 Oct 2018 01:38:11 GMT",
+    "ETag": "W/\"12ae15f89ec315f9fed17b6db01025dd\""
 }
