@@ -32,25 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|mdanalysis|0.19.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/mdanalysis.svg)](https://anaconda.org/conda-forge/mdanalysis)|\n",
     "created_at": "2018-10-09T22:56:31Z",
-    "updated_at": "2018-10-09T23:22:49Z",
+    "updated_at": "2018-10-11T18:47:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6e325280a830356452089b9b5cf13cf7f37cda4a",
+    "merge_commit_sha": "4d19dff41ae9a4ce5ce82bbd40f7a2158a75eeac",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1087883608,
+            "node_id": "MDU6TGFiZWwxMDg3ODgzNjA4",
+            "url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "e22b93",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/pulls/9/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/statuses/ff950493353aa29c0a6627d9dc3c5a730a8b4373",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/statuses/57c38582cb76a79d33e5e746b2d356a374f67e87",
     "head": {
         "label": "regro-cf-autotick-bot:0.19.0",
         "ref": "0.19.0",
-        "sha": "ff950493353aa29c0a6627d9dc3c5a730a8b4373",
+        "sha": "57c38582cb76a79d33e5e746b2d356a374f67e87",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mdanalysistests-feedstock/deployments",
             "created_at": "2018-04-22T22:55:28Z",
             "updated_at": "2018-04-22T22:55:29Z",
-            "pushed_at": "2018-10-09T22:56:30Z",
+            "pushed_at": "2018-10-11T18:47:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mdanalysistests-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mdanalysistests-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mdanalysistests-feedstock.git",
@@ -263,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/deployments",
             "created_at": "2017-04-07T20:49:58Z",
             "updated_at": "2018-10-07T08:41:06Z",
-            "pushed_at": "2018-10-09T22:56:32Z",
+            "pushed_at": "2018-10-11T18:47:47Z",
             "git_url": "git://github.com/conda-forge/mdanalysistests-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mdanalysistests-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mdanalysistests-feedstock.git",
@@ -318,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/statuses/ff950493353aa29c0a6627d9dc3c5a730a8b4373"
+            "href": "https://api.github.com/repos/conda-forge/mdanalysistests-feedstock/statuses/57c38582cb76a79d33e5e746b2d356a374f67e87"
         }
     },
     "author_association": "NONE",
@@ -332,8 +341,8 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 125,
-    "deletions": 108,
+    "commits": 3,
+    "additions": 126,
+    "deletions": 109,
     "changed_files": 14
 }
