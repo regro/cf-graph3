@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-10T21:56:33Z",
-    "updated_at": "2018-10-10T21:56:37Z",
+    "updated_at": "2018-10-11T13:32:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "935c3341290164660ca67b3f4551472aa0580904",
+    "merge_commit_sha": "04c601b940064aca7bdc580ac1f53ed679f1795f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/statuses/b7f4db94941fd44721d2ce60373e92b2e93b3dde",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/statuses/460b04ff2cdfd585740b10530c670a3c008f2596",
     "head": {
         "label": "regro-cf-autotick-bot:1.4.4",
         "ref": "1.4.4",
-        "sha": "b7f4db94941fd44721d2ce60373e92b2e93b3dde",
+        "sha": "460b04ff2cdfd585740b10530c670a3c008f2596",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pocean-core-feedstock/deployments",
             "created_at": "2018-03-29T17:08:21Z",
             "updated_at": "2018-03-29T17:08:23Z",
-            "pushed_at": "2018-10-10T21:56:33Z",
+            "pushed_at": "2018-10-11T13:07:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pocean-core-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pocean-core-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pocean-core-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/deployments",
             "created_at": "2017-04-03T12:40:46Z",
             "updated_at": "2018-08-30T18:35:02Z",
-            "pushed_at": "2018-10-10T21:56:34Z",
+            "pushed_at": "2018-10-11T13:07:35Z",
             "git_url": "git://github.com/conda-forge/pocean-core-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pocean-core-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pocean-core-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/statuses/b7f4db94941fd44721d2ce60373e92b2e93b3dde"
+            "href": "https://api.github.com/repos/conda-forge/pocean-core-feedstock/statuses/460b04ff2cdfd585740b10530c670a3c008f2596"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
-    "review_comments": 0,
+    "comments": 3,
+    "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
+    "commits": 2,
+    "additions": 4,
+    "deletions": 4,
     "changed_files": 1,
-    "Last-Modified": "Wed, 10 Oct 2018 21:56:37 GMT",
-    "ETag": "W/\"a4a7f6d532441eefc88b0ac7e6316373\""
+    "Last-Modified": "Thu, 11 Oct 2018 13:32:07 GMT",
+    "ETag": "W/\"453f5c1209d0e94d168d9a6cab6f82fb\""
 }
