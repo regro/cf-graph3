@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T19:15:53Z",
-    "updated_at": "2018-10-10T21:39:05Z",
+    "updated_at": "2018-10-11T14:56:15Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "8772225534e1a47385ed249fa3774e0e4e3b99c3",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 3,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 3,
+            "forks": 4,
             "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 291,
     "deletions": 23,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Thu, 11 Oct 2018 14:56:15 GMT",
+    "ETag": "W/\"190da1238c4851ad33cccc28082f08a2\""
 }
