@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nz5py\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T04:58:33Z",
-    "updated_at": "2018-10-13T06:29:12Z",
+    "updated_at": "2018-10-13T22:56:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "71e4cb7498dbf5e9df11743eb07b4c1cb34f9da1",
+    "merge_commit_sha": "4105f7ccd3710157b942cac8b9c20d2ddb714e8b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/pulls/48/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/issues/48/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/statuses/ff3428c057aeb5ab4540f6bcfa3cfec2e79ff748",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/statuses/7d175710d0327ac1b7602a69c619dbb5bc4e9509",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ff3428c057aeb5ab4540f6bcfa3cfec2e79ff748",
+        "sha": "7d175710d0327ac1b7602a69c619dbb5bc4e9509",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xtensor-python-feedstock/deployments",
             "created_at": "2018-07-20T07:13:51Z",
             "updated_at": "2018-07-20T07:13:53Z",
-            "pushed_at": "2018-10-13T04:58:32Z",
+            "pushed_at": "2018-10-13T22:56:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xtensor-python-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xtensor-python-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xtensor-python-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/deployments",
             "created_at": "2016-11-15T15:09:41Z",
             "updated_at": "2018-09-20T10:56:42Z",
-            "pushed_at": "2018-10-13T04:58:33Z",
+            "pushed_at": "2018-10-13T22:56:46Z",
             "git_url": "git://github.com/conda-forge/xtensor-python-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xtensor-python-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xtensor-python-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/pulls/48/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/statuses/ff3428c057aeb5ab4540f6bcfa3cfec2e79ff748"
+            "href": "https://api.github.com/repos/conda-forge/xtensor-python-feedstock/statuses/7d175710d0327ac1b7602a69c619dbb5bc4e9509"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 21,
-    "deletions": 300,
-    "changed_files": 13,
-    "Last-Modified": "Sat, 13 Oct 2018 06:29:12 GMT",
-    "ETag": "W/\"90a3ceffe9e0e0c9336aa1e838cb3718\""
+    "commits": 3,
+    "additions": 85,
+    "deletions": 11,
+    "changed_files": 8,
+    "Last-Modified": "Sat, 13 Oct 2018 22:56:45 GMT",
+    "ETag": "W/\"58a950cb90ed6d33cdb31240697160a6\""
 }
