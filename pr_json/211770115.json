@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T14:16:54Z",
-    "updated_at": "2018-08-29T14:18:41Z",
+    "updated_at": "2018-10-13T11:09:24Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "0a59e4f4c1abdf0eb2cd2c2f4db30b2e74f608bc",
@@ -281,7 +281,7 @@
             "forks_count": 11,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 11,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 94,
     "deletions": 42,
     "changed_files": 16,
-    "Last-Modified": "Wed, 29 Aug 2018 14:18:41 GMT",
-    "ETag": "W/\"b6bb829144eba0dbd718953dd13f84e9\""
+    "Last-Modified": "Sat, 13 Oct 2018 11:09:24 GMT",
+    "ETag": "W/\"bdbc4ccf1e124febf17ff273af112d6e\""
 }

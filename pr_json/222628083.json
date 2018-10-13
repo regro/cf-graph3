@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ngala\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T04:58:56Z",
-    "updated_at": "2018-10-13T04:59:01Z",
+    "updated_at": "2018-10-13T11:04:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b57d03dc9180e24475b336b87e8005494d27b4c6",
+    "merge_commit_sha": "c73d5f8069d4943a5512c7e558fa08077dc24161",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/statuses/847d6ec3bc3ecb40c38d0e7b03f453423ce028c1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/statuses/5bda890f42e096271fa9fba4de2f6f17d525f6cf",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "847d6ec3bc3ecb40c38d0e7b03f453423ce028c1",
+        "sha": "5bda890f42e096271fa9fba4de2f6f17d525f6cf",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/viridis-feedstock/deployments",
             "created_at": "2018-10-13T04:58:33Z",
             "updated_at": "2018-10-13T04:58:35Z",
-            "pushed_at": "2018-10-13T04:58:55Z",
+            "pushed_at": "2018-10-13T11:04:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/viridis-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/viridis-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/viridis-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/viridis-feedstock/deployments",
             "created_at": "2016-09-21T05:32:25Z",
             "updated_at": "2018-08-04T17:41:02Z",
-            "pushed_at": "2018-10-13T04:58:56Z",
+            "pushed_at": "2018-10-13T11:04:20Z",
             "git_url": "git://github.com/conda-forge/viridis-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/viridis-feedstock.git",
             "clone_url": "https://github.com/conda-forge/viridis-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/viridis-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/viridis-feedstock/statuses/847d6ec3bc3ecb40c38d0e7b03f453423ce028c1"
+            "href": "https://api.github.com/repos/conda-forge/viridis-feedstock/statuses/5bda890f42e096271fa9fba4de2f6f17d525f6cf"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 314,
-    "deletions": 141,
-    "changed_files": 23,
-    "Last-Modified": "Sat, 13 Oct 2018 04:59:01 GMT",
-    "ETag": "W/\"c58f8526c6c39986daff32dda0979509\""
+    "commits": 4,
+    "additions": 201,
+    "deletions": 263,
+    "changed_files": 18,
+    "Last-Modified": "Sat, 13 Oct 2018 11:04:20 GMT",
+    "ETag": "W/\"445e79d94fdcfc7be2f650feb8c3a9aa\""
 }
