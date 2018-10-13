@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naipy\nastro-gala\nastroplan\nastropy-healpix\nastroquery\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-12T19:58:18Z",
-    "updated_at": "2018-10-12T19:58:27Z",
+    "updated_at": "2018-10-13T03:46:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9ba2dba32b68232cad7d722f4b48eac6e276cbe5",
+    "merge_commit_sha": "3026e08ef0f2f87f8dd910cb0f4fd2f8b7070793",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/pulls/39/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/issues/39/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/statuses/99d1861bfb0970058f131fc4200774ce58f0d0a0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/statuses/916bb852604e423e935a76d3daf8bcc0364a7c18",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "99d1861bfb0970058f131fc4200774ce58f0d0a0",
+        "sha": "916bb852604e423e935a76d3daf8bcc0364a7c18",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/astropy-feedstock/deployments",
             "created_at": "2018-04-23T22:58:35Z",
             "updated_at": "2018-04-23T22:58:37Z",
-            "pushed_at": "2018-10-12T19:58:18Z",
+            "pushed_at": "2018-10-13T03:46:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/astropy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/astropy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/astropy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/astropy-feedstock/deployments",
             "created_at": "2017-01-14T00:22:41Z",
             "updated_at": "2018-08-04T17:45:06Z",
-            "pushed_at": "2018-10-12T19:58:19Z",
+            "pushed_at": "2018-10-13T03:46:47Z",
             "git_url": "git://github.com/conda-forge/astropy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/astropy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/astropy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/astropy-feedstock/pulls/39/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/astropy-feedstock/statuses/99d1861bfb0970058f131fc4200774ce58f0d0a0"
+            "href": "https://api.github.com/repos/conda-forge/astropy-feedstock/statuses/916bb852604e423e935a76d3daf8bcc0364a7c18"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 214,
-    "deletions": 66,
-    "changed_files": 22,
-    "Last-Modified": "Fri, 12 Oct 2018 19:58:27 GMT",
-    "ETag": "W/\"9783faf9bf07965c02b3b155470d9b22\""
+    "commits": 4,
+    "additions": 472,
+    "deletions": 99,
+    "changed_files": 31,
+    "Last-Modified": "Sat, 13 Oct 2018 03:46:46 GMT",
+    "ETag": "W/\"a9891f78339b59b8e7a2c5f015ff0a1f\""
 }
