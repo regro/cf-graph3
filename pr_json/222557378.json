@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\navrocpp\nbob.blitz\nbob.core\nbob.io.audio\nbob.io.matlab\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-12T18:59:47Z",
-    "updated_at": "2018-10-12T19:18:00Z",
+    "updated_at": "2018-10-13T05:15:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b81441a96e601f9a9e83b891f768876014db1dd5",
+    "merge_commit_sha": "695f7737cde1e97e6662c96d1c8b81f721ad90c5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/boost-feedstock/pulls/64/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/boost-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/boost-feedstock/issues/64/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/boost-feedstock/statuses/4b6f224a74048a0539c7413770404594286a401e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/boost-feedstock/statuses/49de8e35cd3df1b2b52812518787d1b45972d97b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4b6f224a74048a0539c7413770404594286a401e",
+        "sha": "49de8e35cd3df1b2b52812518787d1b45972d97b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/boost-feedstock/deployments",
             "created_at": "2018-04-14T22:47:00Z",
             "updated_at": "2018-04-14T22:47:02Z",
-            "pushed_at": "2018-10-12T18:59:46Z",
+            "pushed_at": "2018-10-13T05:15:25Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/boost-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/boost-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/boost-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/boost-feedstock/deployments",
             "created_at": "2016-03-25T05:19:32Z",
             "updated_at": "2018-09-03T22:19:18Z",
-            "pushed_at": "2018-10-12T18:59:47Z",
+            "pushed_at": "2018-10-13T05:15:26Z",
             "git_url": "git://github.com/conda-forge/boost-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/boost-feedstock.git",
             "clone_url": "https://github.com/conda-forge/boost-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/boost-feedstock/pulls/64/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/boost-feedstock/statuses/4b6f224a74048a0539c7413770404594286a401e"
+            "href": "https://api.github.com/repos/conda-forge/boost-feedstock/statuses/49de8e35cd3df1b2b52812518787d1b45972d97b"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 394,
-    "deletions": 82,
-    "changed_files": 27,
-    "Last-Modified": "Fri, 12 Oct 2018 19:18:00 GMT",
-    "ETag": "W/\"4c63b507aaae943bd6924b2663c607d2\""
+    "commits": 4,
+    "additions": 407,
+    "deletions": 83,
+    "changed_files": 28,
+    "Last-Modified": "Sat, 13 Oct 2018 05:15:25 GMT",
+    "ETag": "W/\"e7dd7605d9cbb2d53aba3b92bf16f557\""
 }
