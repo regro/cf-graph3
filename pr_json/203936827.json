@@ -32,10 +32,10 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-25T19:18:53Z",
-    "updated_at": "2018-07-25T19:18:59Z",
+    "updated_at": "2018-10-13T04:36:59Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5dd3bce7364a6d383457907a0d5f7e9be32fa198",
+    "merge_commit_sha": "f82ac0f4e02c8232ebe9622f8aaf7912469cac20",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numcodecs-feedstock/deployments",
             "created_at": "2018-04-09T22:49:09Z",
             "updated_at": "2018-04-09T22:49:11Z",
-            "pushed_at": "2018-07-25T19:18:53Z",
+            "pushed_at": "2018-10-13T03:58:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numcodecs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numcodecs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numcodecs-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numcodecs-feedstock/deployments",
             "created_at": "2016-09-20T22:19:37Z",
             "updated_at": "2018-08-04T17:35:00Z",
-            "pushed_at": "2018-08-04T17:34:58Z",
+            "pushed_at": "2018-10-13T03:58:07Z",
             "git_url": "git://github.com/conda-forge/numcodecs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numcodecs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numcodecs-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 9,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 9,
-            "open_issues": 2,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 1,
     "additions": 4,
     "deletions": 1,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Sat, 13 Oct 2018 04:36:59 GMT",
+    "ETag": "W/\"77569e4ada9eeb50fe7a4828e32bc79e\""
 }
