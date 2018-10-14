@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nopenturns\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T22:58:55Z",
-    "updated_at": "2018-10-08T07:31:53Z",
+    "updated_at": "2018-10-14T06:59:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3ae6897cc3c90999427b61e54aa12731c88862c2",
+    "merge_commit_sha": "5a7b502521c55fea4b37e9c4ed1ee45bfda4f84d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/statuses/eef7ca6cbd2caa7661dfe1ac6a54bb205e172fc9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/statuses/e587d59d35951bb6c64cc3cd4de0a5e90f00de8a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "eef7ca6cbd2caa7661dfe1ac6a54bb205e172fc9",
+        "sha": "e587d59d35951bb6c64cc3cd4de0a5e90f00de8a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hmat-oss-feedstock/deployments",
             "created_at": "2018-06-24T01:26:18Z",
             "updated_at": "2018-06-24T01:26:20Z",
-            "pushed_at": "2018-10-08T07:31:52Z",
+            "pushed_at": "2018-10-14T06:59:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hmat-oss-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hmat-oss-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hmat-oss-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/deployments",
             "created_at": "2016-05-23T17:04:38Z",
             "updated_at": "2018-08-04T17:14:47Z",
-            "pushed_at": "2018-10-08T07:31:53Z",
+            "pushed_at": "2018-10-14T06:59:12Z",
             "git_url": "git://github.com/conda-forge/hmat-oss-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hmat-oss-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hmat-oss-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/statuses/eef7ca6cbd2caa7661dfe1ac6a54bb205e172fc9"
+            "href": "https://api.github.com/repos/conda-forge/hmat-oss-feedstock/statuses/e587d59d35951bb6c64cc3cd4de0a5e90f00de8a"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 179,
-    "deletions": 47,
-    "changed_files": 15,
-    "Last-Modified": "Mon, 08 Oct 2018 07:31:53 GMT",
-    "ETag": "W/\"a4e9438a836ce9dd116bc3bb9bb40304\""
+    "commits": 5,
+    "additions": 181,
+    "deletions": 48,
+    "changed_files": 16,
+    "Last-Modified": "Sun, 14 Oct 2018 06:59:11 GMT",
+    "ETag": "W/\"0b16f8fd1cfbcc9d4689eddb5c7ebb32\""
 }

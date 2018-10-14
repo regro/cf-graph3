@@ -32,7 +32,7 @@
     },
     "body": "Closes https://github.com/conda-forge/circleci-helpers-feedstock/pull/4\r\n\r\nI think this feedstock could be built with noarch.\r\nThis means that the package only needs to be built once, drastically reducing CI usage.\r\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\r\nBefore merging this PR make sure:\r\n- [x] No compiled extensions\r\n- [x] No post-link or pre-link or pre-unlink scripts\r\n- [x] No OS specific build scripts\r\n- [x] No python version specific requirements\r\n- [x] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\r\n- [x] 2to3 is not used\r\n- [x] Scripts argument in setup.py is not used\r\n- [x] If entrypoints are in setup.py, they are listed in meta.yaml\r\n- [x] No activate scripts\r\n- [x] Not a dependency of `conda`\r\nNotes and instructions for merging this PR:\r\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \r\n2. Please merge the PR only after the tests have passed. \r\n3. Feel free to push to the bot's branch to update this PR if needed. \r\n\r\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\r\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\r\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-08T23:41:40Z",
-    "updated_at": "2018-10-13T21:07:53Z",
+    "updated_at": "2018-10-14T05:58:55Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "9be1676f69d15cf353ba35e5fc6d95e75265374f",
@@ -369,11 +369,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 257,
     "deletions": 345,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Sun, 14 Oct 2018 05:58:55 GMT",
+    "ETag": "W/\"c48d9093adcd4de66274f93e69e98f17\""
 }
