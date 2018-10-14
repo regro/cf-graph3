@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pyspharm-feedstock/pull/11.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pyspharm-feedstock/issues/11",
     "number": 11,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nRemoving mingwpy in favour of compiler()\nRemoving gcc in favour of compiler()\nPinning numpy using pin_compatible\nRemoving libgcc in favour of compiler()\nRemoving libgfortran in favour of compiler()\nAdding Fortran compiler with mingw for windows\nAdding C compiler with mingw for windows\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-01T03:09:59Z",
-    "updated_at": "2018-07-01T03:10:03Z",
-    "closed_at": null,
+    "updated_at": "2018-10-14T12:33:18Z",
+    "closed_at": "2018-10-14T12:33:18Z",
     "merged_at": null,
     "merge_commit_sha": "a849ddd6b875e7e10ec947dfcf319cff69f83855",
     "assignee": null,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/pyspharm-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/pyspharm-feedstock/deployments",
             "created_at": "2016-04-12T12:27:27Z",
-            "updated_at": "2018-08-04T17:06:46Z",
-            "pushed_at": "2018-10-13T11:07:01Z",
+            "updated_at": "2018-10-14T12:43:27Z",
+            "pushed_at": "2018-10-14T12:43:25Z",
             "git_url": "git://github.com/conda-forge/pyspharm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyspharm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyspharm-feedstock.git",
             "svn_url": "https://github.com/conda-forge/pyspharm-feedstock",
             "homepage": null,
-            "size": 36,
+            "size": 47,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 322,
     "deletions": 183,
-    "changed_files": 24
+    "changed_files": 24,
+    "Last-Modified": "Sun, 14 Oct 2018 12:33:18 GMT",
+    "ETag": "W/\"cd8ece91f2d075c5496869f188fd0895\""
 }
