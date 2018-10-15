@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T13:29:05Z",
-    "updated_at": "2018-10-14T13:29:26Z",
+    "updated_at": "2018-10-15T01:41:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a957817bd623a0cb3db22f0dcb63474cd9848a34",
+    "merge_commit_sha": "6e170467b3e105ea5892367256363a94338f766c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/statuses/2a99ee5245ecc421210b582bb2fc7ca1f320d33b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/statuses/7cc44cb3c772d2bbe1e82cefbf189592119ef3bd",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2a99ee5245ecc421210b582bb2fc7ca1f320d33b",
+        "sha": "7cc44cb3c772d2bbe1e82cefbf189592119ef3bd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fortran-magic-feedstock/deployments",
             "created_at": "2018-07-15T14:17:33Z",
             "updated_at": "2018-07-15T14:17:35Z",
-            "pushed_at": "2018-10-14T13:29:05Z",
+            "pushed_at": "2018-10-15T01:41:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fortran-magic-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fortran-magic-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fortran-magic-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/deployments",
             "created_at": "2016-04-12T19:11:49Z",
             "updated_at": "2018-08-04T17:15:19Z",
-            "pushed_at": "2018-10-14T13:29:06Z",
+            "pushed_at": "2018-10-15T01:41:34Z",
             "git_url": "git://github.com/conda-forge/fortran-magic-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fortran-magic-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fortran-magic-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/statuses/2a99ee5245ecc421210b582bb2fc7ca1f320d33b"
+            "href": "https://api.github.com/repos/conda-forge/fortran-magic-feedstock/statuses/7cc44cb3c772d2bbe1e82cefbf189592119ef3bd"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 427,
-    "deletions": 158,
-    "changed_files": 28
+    "commits": 4,
+    "additions": 266,
+    "deletions": 270,
+    "changed_files": 21,
+    "Last-Modified": "Mon, 15 Oct 2018 01:41:38 GMT",
+    "ETag": "W/\"904c2bab6324790b78ec4cd521b084ed\""
 }
