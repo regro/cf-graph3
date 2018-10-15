@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T02:32:39Z",
-    "updated_at": "2018-10-14T12:01:27Z",
+    "updated_at": "2018-10-15T13:51:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2201b98403ea0ed39005453aaf87978814c9681d",
+    "merge_commit_sha": "8654f46d3a7219b7915077d88ba0942902881c62",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/statuses/d830f2c7610020031e32b4e054a4fad2760c6f68",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/statuses/f81d9d0a79c905b62c05060056850bb51f6b98c4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d830f2c7610020031e32b4e054a4fad2760c6f68",
+        "sha": "f81d9d0a79c905b62c05060056850bb51f6b98c4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pykrige-feedstock/deployments",
             "created_at": "2018-04-24T22:55:11Z",
             "updated_at": "2018-04-24T22:55:13Z",
-            "pushed_at": "2018-10-14T12:01:21Z",
+            "pushed_at": "2018-10-15T13:51:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pykrige-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pykrige-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pykrige-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pykrige-feedstock/deployments",
             "created_at": "2017-08-11T14:09:13Z",
             "updated_at": "2018-08-04T18:50:35Z",
-            "pushed_at": "2018-10-14T12:01:22Z",
+            "pushed_at": "2018-10-15T13:51:15Z",
             "git_url": "git://github.com/conda-forge/pykrige-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pykrige-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pykrige-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pykrige-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pykrige-feedstock/statuses/d830f2c7610020031e32b4e054a4fad2760c6f68"
+            "href": "https://api.github.com/repos/conda-forge/pykrige-feedstock/statuses/f81d9d0a79c905b62c05060056850bb51f6b98c4"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 394,
+    "commits": 4,
+    "additions": 395,
     "deletions": 113,
     "changed_files": 29,
-    "Last-Modified": "Sun, 14 Oct 2018 12:01:27 GMT",
-    "ETag": "W/\"0c711965138f31670cad091549c658ee\""
+    "Last-Modified": "Mon, 15 Oct 2018 13:51:14 GMT",
+    "ETag": "W/\"2c112a912f9cf8840dedd7e287830978\""
 }
