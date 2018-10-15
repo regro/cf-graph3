@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|boto3|1.9.23|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)|\n|botocore|1.12.23|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/botocore.svg)](https://anaconda.org/conda-forge/botocore)|\n",
     "created_at": "2018-10-13T23:33:30Z",
-    "updated_at": "2018-10-13T23:33:34Z",
+    "updated_at": "2018-10-15T15:44:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "35a592269388930394644b51afef80521bd84905",
+    "merge_commit_sha": "9a1a329291f10886ffe233f676c2ed7bb2c92740",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/omas-feedstock/pulls/44/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/omas-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/omas-feedstock/issues/44/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/omas-feedstock/statuses/6f4d1fb43c8c9149af7be6232a98aa269f4bf514",
+    "statuses_url": "https://api.github.com/repos/conda-forge/omas-feedstock/statuses/bd5892c32e46818769f42c81b523845ea890dce0",
     "head": {
         "label": "regro-cf-autotick-bot:0.27.1",
         "ref": "0.27.1",
-        "sha": "6f4d1fb43c8c9149af7be6232a98aa269f4bf514",
+        "sha": "bd5892c32e46818769f42c81b523845ea890dce0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/omas-feedstock/deployments",
             "created_at": "2018-03-08T21:57:18Z",
             "updated_at": "2018-03-08T21:57:19Z",
-            "pushed_at": "2018-10-13T23:33:29Z",
+            "pushed_at": "2018-10-15T15:44:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/omas-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/omas-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/omas-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/omas-feedstock/deployments",
             "created_at": "2017-12-15T16:08:10Z",
             "updated_at": "2018-09-25T20:41:59Z",
-            "pushed_at": "2018-10-13T23:33:30Z",
+            "pushed_at": "2018-10-15T15:44:06Z",
             "git_url": "git://github.com/conda-forge/omas-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/omas-feedstock.git",
             "clone_url": "https://github.com/conda-forge/omas-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/omas-feedstock/pulls/44/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/omas-feedstock/statuses/6f4d1fb43c8c9149af7be6232a98aa269f4bf514"
+            "href": "https://api.github.com/repos/conda-forge/omas-feedstock/statuses/bd5892c32e46818769f42c81b523845ea890dce0"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
+    "commits": 2,
+    "additions": 7,
+    "deletions": 6,
     "changed_files": 1,
-    "Last-Modified": "Sat, 13 Oct 2018 23:33:34 GMT",
-    "ETag": "W/\"11f26e62cec611c85e46154442215783\""
+    "Last-Modified": "Mon, 15 Oct 2018 15:44:05 GMT",
+    "ETag": "W/\"fde243488196dcc6ab1b23dbacff1b95\""
 }

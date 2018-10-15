@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pymc-feedstock/pull/6.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pymc-feedstock/issues/6",
     "number": 6,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nRemoving gcc in favour of compiler()\nPinning numpy using pin_compatible\nRemoving libgcc in favour of compiler()\nRemoving libgfortran in favour of compiler()\nAdding Fortran compiler\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T09:09:57Z",
-    "updated_at": "2018-07-07T09:10:00Z",
-    "closed_at": null,
+    "updated_at": "2018-10-15T16:18:26Z",
+    "closed_at": "2018-10-15T16:18:26Z",
     "merged_at": null,
     "merge_commit_sha": "285231221bd5382ba84e9c79d42bb5fbf7092a20",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymc-feedstock/deployments",
             "created_at": "2018-03-04T22:11:33Z",
             "updated_at": "2018-03-04T22:11:36Z",
-            "pushed_at": "2018-10-14T02:32:13Z",
+            "pushed_at": "2018-10-15T16:21:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymc-feedstock/deployments",
             "created_at": "2017-01-19T07:42:20Z",
             "updated_at": "2018-08-04T18:21:38Z",
-            "pushed_at": "2018-10-14T02:32:14Z",
+            "pushed_at": "2018-10-15T16:21:13Z",
             "git_url": "git://github.com/conda-forge/pymc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymc-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 273,
     "deletions": 125,
     "changed_files": 21,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"f355c51109f5e04587267359dfeab9bf\""
+    "Last-Modified": "Mon, 15 Oct 2018 16:18:26 GMT",
+    "ETag": "W/\"8fe57e308c05ce5d2e5fcda5039410d9\""
 }
