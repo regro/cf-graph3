@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T20:30:11Z",
-    "updated_at": "2018-10-13T20:30:15Z",
+    "updated_at": "2018-10-15T21:43:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2ce6f742fd93f9726ea564ec976749135cd7f08a",
+    "merge_commit_sha": "97a1e981ef736f18a2372de846bb9118551a81d6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/faker-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/faker-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/faker-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/faker-feedstock/statuses/49eb8463e9e398859d62b939bc92bd1bfeafbd35",
+    "statuses_url": "https://api.github.com/repos/conda-forge/faker-feedstock/statuses/f2f7e257804dc160349c97dbb1af002f1cef1618",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.2",
         "ref": "0.9.2",
-        "sha": "49eb8463e9e398859d62b939bc92bd1bfeafbd35",
+        "sha": "f2f7e257804dc160349c97dbb1af002f1cef1618",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/faker-feedstock/deployments",
             "created_at": "2018-03-01T06:00:31Z",
             "updated_at": "2018-03-01T06:00:33Z",
-            "pushed_at": "2018-10-13T20:30:11Z",
+            "pushed_at": "2018-10-15T21:43:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/faker-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/faker-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/faker-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/faker-feedstock/deployments",
             "created_at": "2017-03-23T17:17:09Z",
             "updated_at": "2018-10-04T12:43:40Z",
-            "pushed_at": "2018-10-13T20:30:12Z",
+            "pushed_at": "2018-10-15T21:43:04Z",
             "git_url": "git://github.com/conda-forge/faker-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/faker-feedstock.git",
             "clone_url": "https://github.com/conda-forge/faker-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/faker-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/faker-feedstock/statuses/49eb8463e9e398859d62b939bc92bd1bfeafbd35"
+            "href": "https://api.github.com/repos/conda-forge/faker-feedstock/statuses/f2f7e257804dc160349c97dbb1af002f1cef1618"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
+    "commits": 3,
     "additions": 3,
-    "deletions": 3,
-    "changed_files": 1
+    "deletions": 2,
+    "changed_files": 1,
+    "Last-Modified": "Mon, 15 Oct 2018 21:43:03 GMT",
+    "ETag": "W/\"256ffaee98e73e442501ed43170a48c8\""
 }
