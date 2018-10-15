@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T08:28:15Z",
-    "updated_at": "2018-10-14T19:50:23Z",
+    "updated_at": "2018-10-15T12:17:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "aceca143ccaff5ef2ba8a20ee7ff6a86197f1688",
+    "merge_commit_sha": "0c8c88720ccb02dd235ac3910547492f8d0e8ca7",
     "assignee": {
         "login": "carlodri",
         "id": 5230366,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/statuses/98710dd39c5c25e0096ec9c755395f6c004b81d7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/statuses/1e3847cb4a9b338e423749ed7a6c6d997ab0caad",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "98710dd39c5c25e0096ec9c755395f6c004b81d7",
+        "sha": "1e3847cb4a9b338e423749ed7a6c6d997ab0caad",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nidaqmx-python-feedstock/deployments",
             "created_at": "2018-10-14T08:27:59Z",
             "updated_at": "2018-10-14T08:28:01Z",
-            "pushed_at": "2018-10-14T18:37:56Z",
+            "pushed_at": "2018-10-15T12:17:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nidaqmx-python-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nidaqmx-python-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nidaqmx-python-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/deployments",
             "created_at": "2018-05-04T17:59:31Z",
             "updated_at": "2018-09-22T10:35:24Z",
-            "pushed_at": "2018-10-14T18:37:57Z",
+            "pushed_at": "2018-10-15T12:17:32Z",
             "git_url": "git://github.com/conda-forge/nidaqmx-python-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nidaqmx-python-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nidaqmx-python-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/statuses/98710dd39c5c25e0096ec9c755395f6c004b81d7"
+            "href": "https://api.github.com/repos/conda-forge/nidaqmx-python-feedstock/statuses/1e3847cb4a9b338e423749ed7a6c6d997ab0caad"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 40,
-    "deletions": 364,
-    "changed_files": 17,
-    "Last-Modified": "Sun, 14 Oct 2018 19:50:23 GMT",
-    "ETag": "W/\"a2755d49913ea2ce27ec3dab97de10af\""
+    "commits": 8,
+    "additions": 65,
+    "deletions": 36,
+    "changed_files": 13,
+    "Last-Modified": "Mon, 15 Oct 2018 12:17:31 GMT",
+    "ETag": "W/\"643016d5f8d86a4e53e3e19ec7c59e93\""
 }
