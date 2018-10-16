@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibgdal\ngdal\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T13:03:51Z",
-    "updated_at": "2018-10-09T13:03:55Z",
+    "updated_at": "2018-10-16T17:08:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b0e931ca8843563dcffc3a1447c2f1c7f68a9400",
+    "merge_commit_sha": "96c4b27b14eaaa568fac7715980d818f7277f7f0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/pulls/28/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/issues/28/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/statuses/5a9cd5fe2619a6128b93dff32adf7f1312ac495d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/statuses/7d2cac5d9fd951961b4e0b24d96b802e4d53fa0e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5a9cd5fe2619a6128b93dff32adf7f1312ac495d",
+        "sha": "7d2cac5d9fd951961b4e0b24d96b802e4d53fa0e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libdap4-feedstock/deployments",
             "created_at": "2018-08-07T20:45:41Z",
             "updated_at": "2018-08-07T20:45:42Z",
-            "pushed_at": "2018-10-09T13:03:51Z",
+            "pushed_at": "2018-10-16T17:08:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libdap4-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libdap4-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libdap4-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libdap4-feedstock/deployments",
             "created_at": "2016-07-01T19:02:15Z",
             "updated_at": "2018-09-27T02:13:52Z",
-            "pushed_at": "2018-10-09T13:03:52Z",
+            "pushed_at": "2018-10-16T17:08:44Z",
             "git_url": "git://github.com/conda-forge/libdap4-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libdap4-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libdap4-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libdap4-feedstock/pulls/28/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libdap4-feedstock/statuses/5a9cd5fe2619a6128b93dff32adf7f1312ac495d"
+            "href": "https://api.github.com/repos/conda-forge/libdap4-feedstock/statuses/7d2cac5d9fd951961b4e0b24d96b802e4d53fa0e"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 110,
-    "deletions": 10,
-    "changed_files": 8
+    "commits": 3,
+    "additions": 111,
+    "deletions": 11,
+    "changed_files": 9,
+    "Last-Modified": "Tue, 16 Oct 2018 17:08:44 GMT",
+    "ETag": "W/\"98b3e02902ed2167960b5efa5f91b41f\""
 }

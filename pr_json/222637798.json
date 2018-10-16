@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T08:58:41Z",
-    "updated_at": "2018-10-13T11:16:46Z",
+    "updated_at": "2018-10-16T16:56:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8e4ecb1b3bc2ad9d43cbe3d92ebb662f0a5e6fce",
+    "merge_commit_sha": "46f9147a5888adfcbd10f7ad8a54bad4baa02645",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/statuses/701f1b6ce11ee03a5efefe7a10cb6ad6c1aba6e2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/statuses/2b596fe094869ef1c42e6369fb31482296a4979e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "701f1b6ce11ee03a5efefe7a10cb6ad6c1aba6e2",
+        "sha": "2b596fe094869ef1c42e6369fb31482296a4979e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-geotiepoints-feedstock/deployments",
             "created_at": "2018-07-26T00:24:15Z",
             "updated_at": "2018-07-26T00:24:18Z",
-            "pushed_at": "2018-10-13T11:16:25Z",
+            "pushed_at": "2018-10-16T16:55:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/deployments",
             "created_at": "2018-05-21T18:32:36Z",
             "updated_at": "2018-09-26T15:48:16Z",
-            "pushed_at": "2018-10-13T11:16:25Z",
+            "pushed_at": "2018-10-16T16:55:34Z",
             "git_url": "git://github.com/conda-forge/python-geotiepoints-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-geotiepoints-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-geotiepoints-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/statuses/701f1b6ce11ee03a5efefe7a10cb6ad6c1aba6e2"
+            "href": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/statuses/2b596fe094869ef1c42e6369fb31482296a4979e"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 9,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
+    "commits": 6,
     "additions": 309,
     "deletions": 47,
     "changed_files": 20,
-    "Last-Modified": "Sat, 13 Oct 2018 11:16:46 GMT",
-    "ETag": "W/\"47499c24993260e058d72cbd4a7bba4c\""
+    "Last-Modified": "Tue, 16 Oct 2018 16:56:21 GMT",
+    "ETag": "W/\"a9afc5181a76914fc4e6511092e866fb\""
 }

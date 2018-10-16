@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/python-geotiepoints-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\n\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T21:28:50Z",
-    "updated_at": "2018-07-26T21:28:53Z",
-    "closed_at": null,
+    "updated_at": "2018-10-16T17:01:46Z",
+    "closed_at": "2018-10-16T17:01:46Z",
     "merged_at": null,
     "merge_commit_sha": "1d4f356a243b4bf6d8763ab1fb79d84c3d45673a",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-geotiepoints-feedstock/deployments",
             "created_at": "2018-07-26T00:24:15Z",
             "updated_at": "2018-07-26T00:24:18Z",
-            "pushed_at": "2018-10-13T11:16:25Z",
+            "pushed_at": "2018-10-16T16:55:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-geotiepoints-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-geotiepoints-feedstock/deployments",
             "created_at": "2018-05-21T18:32:36Z",
             "updated_at": "2018-09-26T15:48:16Z",
-            "pushed_at": "2018-10-13T11:16:25Z",
+            "pushed_at": "2018-10-16T16:55:34Z",
             "git_url": "git://github.com/conda-forge/python-geotiepoints-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-geotiepoints-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-geotiepoints-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 2,
     "deletions": 2,
     "changed_files": 2,
-    "Last-Modified": "Thu, 26 Jul 2018 21:28:53 GMT",
-    "ETag": "W/\"951e2b1f1bbb2db874fdfac26b4164a1\""
+    "Last-Modified": "Tue, 16 Oct 2018 17:01:46 GMT",
+    "ETag": "W/\"d9e541b16c9ce65b6a4e2e8213af2a09\""
 }
