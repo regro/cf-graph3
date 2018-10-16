@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-animation\nr-magick\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-15T23:34:58Z",
-    "updated_at": "2018-10-16T17:56:27Z",
+    "updated_at": "2018-10-16T20:01:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ba2dcebc2270deded485022b18fd8ad47e3d03cf",
+    "merge_commit_sha": "67125b066220ed8368635223819365e9a96bf983",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/pulls/38/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/issues/38/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/statuses/2a49ca2cbf1051dea93ff202801af713df82df74",
+    "statuses_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/statuses/4792ca8bce981f431b353de7006f6a95ebdb87f6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2a49ca2cbf1051dea93ff202801af713df82df74",
+        "sha": "4792ca8bce981f431b353de7006f6a95ebdb87f6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/imagemagick-feedstock/deployments",
             "created_at": "2018-03-01T16:37:42Z",
             "updated_at": "2018-03-01T16:37:44Z",
-            "pushed_at": "2018-10-16T17:56:26Z",
+            "pushed_at": "2018-10-16T20:01:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/imagemagick-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/imagemagick-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/imagemagick-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/deployments",
             "created_at": "2017-08-16T20:47:40Z",
             "updated_at": "2018-09-10T20:25:54Z",
-            "pushed_at": "2018-10-16T17:56:28Z",
+            "pushed_at": "2018-10-16T20:01:37Z",
             "git_url": "git://github.com/conda-forge/imagemagick-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/imagemagick-feedstock.git",
             "clone_url": "https://github.com/conda-forge/imagemagick-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/pulls/38/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/statuses/2a49ca2cbf1051dea93ff202801af713df82df74"
+            "href": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/statuses/4792ca8bce981f431b353de7006f6a95ebdb87f6"
         }
     },
     "author_association": "NONE",
@@ -336,6 +336,6 @@
     "additions": 214,
     "deletions": 14,
     "changed_files": 8,
-    "Last-Modified": "Tue, 16 Oct 2018 17:56:27 GMT",
-    "ETag": "W/\"3710f1ea4d0de87826e00dffc5e57469\""
+    "Last-Modified": "Tue, 16 Oct 2018 20:01:36 GMT",
+    "ETag": "W/\"82ddcfdf96bf59c05be1ac28946fd8c1\""
 }
