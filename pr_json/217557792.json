@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/imagemagick-feedstock/pull/36.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/issues/36",
     "number": 36,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "imagemagick v7.0.8-12",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T05:09:11Z",
-    "updated_at": "2018-09-24T05:09:15Z",
-    "closed_at": null,
+    "updated_at": "2018-10-16T17:49:32Z",
+    "closed_at": "2018-10-16T17:49:22Z",
     "merged_at": null,
     "merge_commit_sha": "10d2539f46fdafdf35f05cf83feb80bb9393e208",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/imagemagick-feedstock/deployments",
             "created_at": "2018-03-01T16:37:42Z",
             "updated_at": "2018-03-01T16:37:44Z",
-            "pushed_at": "2018-10-15T23:34:58Z",
+            "pushed_at": "2018-10-16T17:56:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/imagemagick-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/imagemagick-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/imagemagick-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/imagemagick-feedstock/deployments",
             "created_at": "2017-08-16T20:47:40Z",
             "updated_at": "2018-09-10T20:25:54Z",
-            "pushed_at": "2018-10-15T23:34:59Z",
+            "pushed_at": "2018-10-16T17:56:28Z",
             "git_url": "git://github.com/conda-forge/imagemagick-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/imagemagick-feedstock.git",
             "clone_url": "https://github.com/conda-forge/imagemagick-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 8,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 3,
     "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Mon, 24 Sep 2018 05:09:15 GMT",
-    "ETag": "W/\"003d07e7bae731bfa358170b8400d34a\""
+    "Last-Modified": "Tue, 16 Oct 2018 17:49:32 GMT",
+    "ETag": "W/\"44f0092ea483ada79aca3d51d1ae8641\""
 }
