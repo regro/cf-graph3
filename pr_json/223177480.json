@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/hypothesis-feedstock/pull/167.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/issues/167",
     "number": 167,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "hypothesis v3.76.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-16T09:30:58Z",
-    "updated_at": "2018-10-16T09:31:04Z",
-    "closed_at": null,
+    "updated_at": "2018-10-16T13:34:33Z",
+    "closed_at": "2018-10-16T13:34:33Z",
     "merged_at": null,
     "merge_commit_sha": "c8b49f2499bbde5b4d6dbd2a97dc38f83f439bbf",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 10,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 10,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Tue, 16 Oct 2018 09:31:04 GMT",
-    "ETag": "W/\"6b183ec8b62d603309ac901ac8c1c74b\""
+    "Last-Modified": "Tue, 16 Oct 2018 13:34:33 GMT",
+    "ETag": "W/\"1fada2c3b9ee773d99bed41728d5f03e\""
 }
