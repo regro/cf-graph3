@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbcolz\ncourtana\nmosfit\npymbar\npyseidon\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-12T19:58:38Z",
-    "updated_at": "2018-10-17T13:17:37Z",
+    "updated_at": "2018-10-17T14:35:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f06faab5f7d503ba06b98013d83724559c024684",
+    "merge_commit_sha": "bd8866422a73cb9b1c855888875a7485a58d38ab",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/pulls/19/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/issues/19/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/statuses/6798539f403d8d2739e20102bb38a6c0cce35b70",
+    "statuses_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/statuses/601dcce14817d5915df2f4de76ea23d269ee0b36",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6798539f403d8d2739e20102bb38a6c0cce35b70",
+        "sha": "601dcce14817d5915df2f4de76ea23d269ee0b36",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numexpr-feedstock/deployments",
             "created_at": "2018-05-01T22:58:12Z",
             "updated_at": "2018-05-01T22:58:14Z",
-            "pushed_at": "2018-10-16T16:30:28Z",
+            "pushed_at": "2018-10-17T14:35:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numexpr-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numexpr-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numexpr-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numexpr-feedstock/deployments",
             "created_at": "2016-08-16T00:02:39Z",
             "updated_at": "2018-10-12T21:46:36Z",
-            "pushed_at": "2018-10-16T16:30:29Z",
+            "pushed_at": "2018-10-17T14:35:38Z",
             "git_url": "git://github.com/conda-forge/numexpr-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numexpr-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numexpr-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/numexpr-feedstock/pulls/19/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/numexpr-feedstock/statuses/6798539f403d8d2739e20102bb38a6c0cce35b70"
+            "href": "https://api.github.com/repos/conda-forge/numexpr-feedstock/statuses/601dcce14817d5915df2f4de76ea23d269ee0b36"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 488,
-    "deletions": 121,
-    "changed_files": 29,
-    "Last-Modified": "Wed, 17 Oct 2018 13:17:37 GMT",
-    "ETag": "W/\"f9ac47e115fd6b02a1e1a3d0295af3bc\""
+    "commits": 6,
+    "additions": 2218,
+    "deletions": 123,
+    "changed_files": 31,
+    "Last-Modified": "Wed, 17 Oct 2018 14:35:38 GMT",
+    "ETag": "W/\"1cee26a14630ba380863a31a36567a79\""
 }
