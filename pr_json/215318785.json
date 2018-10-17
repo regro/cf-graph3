@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nhdfeos2\nlibgdal\nlibnetcdf\nncl\npyhdf\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T15:14:53Z",
-    "updated_at": "2018-10-17T14:46:20Z",
+    "updated_at": "2018-10-17T19:21:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6bb17074cd5f3d6e87441148eba927f33589d41d",
+    "merge_commit_sha": "477ed45b38d74dd4d701bd484ee54aa5a8f2d869",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/pulls/23/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/issues/23/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/statuses/1e59d09cd482d7bfb01c2f51a66b8ee357465889",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/statuses/12084ed8b60808c97290534f8e91b3cec83f56a6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1e59d09cd482d7bfb01c2f51a66b8ee357465889",
+        "sha": "12084ed8b60808c97290534f8e91b3cec83f56a6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hdf4-feedstock/deployments",
             "created_at": "2018-09-13T15:14:36Z",
             "updated_at": "2018-09-13T15:14:38Z",
-            "pushed_at": "2018-10-17T14:46:20Z",
+            "pushed_at": "2018-10-17T19:21:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hdf4-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hdf4-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hdf4-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hdf4-feedstock/deployments",
             "created_at": "2016-04-15T22:38:25Z",
             "updated_at": "2018-09-01T20:16:32Z",
-            "pushed_at": "2018-10-17T14:46:21Z",
+            "pushed_at": "2018-10-17T19:21:39Z",
             "git_url": "git://github.com/conda-forge/hdf4-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hdf4-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hdf4-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hdf4-feedstock/pulls/23/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hdf4-feedstock/statuses/1e59d09cd482d7bfb01c2f51a66b8ee357465889"
+            "href": "https://api.github.com/repos/conda-forge/hdf4-feedstock/statuses/12084ed8b60808c97290534f8e91b3cec83f56a6"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 6,
     "review_comments": 3,
     "maintainer_can_modify": true,
-    "commits": 13,
-    "additions": 148,
-    "deletions": 37,
-    "changed_files": 15
+    "commits": 8,
+    "additions": 131,
+    "deletions": 39,
+    "changed_files": 14,
+    "Last-Modified": "Wed, 17 Oct 2018 19:21:38 GMT",
+    "ETag": "W/\"958e32ebec7b19ab01f2053cd039e050\""
 }
