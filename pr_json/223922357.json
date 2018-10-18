@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncdat-lite\ncdo\neccodes\necmwf_grib\ngmt\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T11:35:26Z",
-    "updated_at": "2018-10-18T11:35:31Z",
+    "updated_at": "2018-10-18T16:22:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4a72a62de44697c31770143f0b3abc14789b6d3d",
+    "merge_commit_sha": "2f4946d718280f087b6c06a8a6391c0044ce80d6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/pulls/58/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/issues/58/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/statuses/16bff0c60e854857b7aeedbcb53c1a6034840da4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/statuses/6ec5d96d8df5a36e2b4f5386d0d1948eb3d3bb54",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "16bff0c60e854857b7aeedbcb53c1a6034840da4",
+        "sha": "6ec5d96d8df5a36e2b4f5386d0d1948eb3d3bb54",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libnetcdf-feedstock/deployments",
             "created_at": "2018-03-01T23:01:56Z",
             "updated_at": "2018-03-01T23:01:57Z",
-            "pushed_at": "2018-10-18T11:35:25Z",
+            "pushed_at": "2018-10-18T16:21:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libnetcdf-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libnetcdf-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libnetcdf-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/deployments",
             "created_at": "2016-05-23T02:39:13Z",
             "updated_at": "2018-09-22T17:17:47Z",
-            "pushed_at": "2018-10-18T11:35:27Z",
+            "pushed_at": "2018-10-18T16:21:14Z",
             "git_url": "git://github.com/conda-forge/libnetcdf-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libnetcdf-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libnetcdf-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/pulls/58/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/statuses/16bff0c60e854857b7aeedbcb53c1a6034840da4"
+            "href": "https://api.github.com/repos/conda-forge/libnetcdf-feedstock/statuses/6ec5d96d8df5a36e2b4f5386d0d1948eb3d3bb54"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 130,
     "deletions": 10,
     "changed_files": 8,
-    "Last-Modified": "Thu, 18 Oct 2018 11:35:31 GMT",
-    "ETag": "W/\"2c02a5351dc00e68c8d8dfc28c2b60c0\""
+    "Last-Modified": "Thu, 18 Oct 2018 16:22:37 GMT",
+    "ETag": "W/\"146af14ee135683bf2c3095fabb62e2f\""
 }
