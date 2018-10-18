@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-15T23:33:33Z",
-    "updated_at": "2018-10-15T23:33:36Z",
+    "updated_at": "2018-10-18T06:26:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ea9f25c08dcfbb3e84bc3c32edc36b6ab089cfd3",
+    "merge_commit_sha": "b19b7bd75be5aa0a0ca3e614a805c52e9c150edb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/statuses/ce4852c60626c6bf419ceb2aca74346855429023",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/statuses/8a3e2f56da18caa18ce889ff6c1fcb7ea671aa82",
     "head": {
         "label": "regro-cf-autotick-bot:5.0.88",
         "ref": "5.0.88",
-        "sha": "ce4852c60626c6bf419ceb2aca74346855429023",
+        "sha": "8a3e2f56da18caa18ce889ff6c1fcb7ea671aa82",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-chemospec-feedstock/deployments",
             "created_at": "2018-10-15T23:33:07Z",
             "updated_at": "2018-10-15T23:33:10Z",
-            "pushed_at": "2018-10-15T23:33:32Z",
+            "pushed_at": "2018-10-18T06:26:24Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-chemospec-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-chemospec-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-chemospec-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/deployments",
             "created_at": "2018-03-11T20:11:40Z",
             "updated_at": "2018-08-04T19:06:17Z",
-            "pushed_at": "2018-10-15T23:33:33Z",
+            "pushed_at": "2018-10-18T06:26:25Z",
             "git_url": "git://github.com/conda-forge/r-chemospec-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-chemospec-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-chemospec-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/statuses/ce4852c60626c6bf419ceb2aca74346855429023"
+            "href": "https://api.github.com/repos/conda-forge/r-chemospec-feedstock/statuses/8a3e2f56da18caa18ce889ff6c1fcb7ea671aa82"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 285,
-    "deletions": 131,
-    "changed_files": 22,
-    "Last-Modified": "Mon, 15 Oct 2018 23:33:36 GMT",
-    "ETag": "W/\"238f28c0c90b7f1c3c37358c1aea6109\""
+    "commits": 4,
+    "additions": 336,
+    "deletions": 147,
+    "changed_files": 24,
+    "Last-Modified": "Thu, 18 Oct 2018 06:26:24 GMT",
+    "ETag": "W/\"b650eb0f6392ef784310fef3e469a437\""
 }
