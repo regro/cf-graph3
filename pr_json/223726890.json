@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T19:30:27Z",
-    "updated_at": "2018-10-17T23:05:35Z",
+    "updated_at": "2018-10-18T07:46:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "53f3e4ebe35b5718d34165c8ca54334e6a6dac4f",
+    "merge_commit_sha": "e7940783993e0c57ea9d63cb7a9f34a95d627673",
     "assignee": {
         "login": "ax3l",
         "id": 1353258,
@@ -102,6 +102,14 @@
     ],
     "requested_teams": [],
     "labels": [
+        {
+            "id": 1095484208,
+            "node_id": "MDU6TGFiZWwxMDk1NDg0MjA4",
+            "url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "fbca04",
+            "default": false
+        },
         {
             "id": 957991247,
             "node_id": "MDU6TGFiZWw5NTc5OTEyNDc=",
@@ -413,7 +421,5 @@
     "commits": 2,
     "additions": 268,
     "deletions": 24,
-    "changed_files": 18,
-    "Last-Modified": "Wed, 17 Oct 2018 23:05:35 GMT",
-    "ETag": "W/\"448a4cd513b88c89424fa9870dd5d125\""
+    "changed_files": 18
 }
