@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T17:29:16Z",
-    "updated_at": "2018-10-18T07:56:29Z",
+    "updated_at": "2018-10-18T17:57:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1036aaa974e1467d966a49071a7d4929f7b2bf02",
+    "merge_commit_sha": "41f790b19a84eb26c82bf519fa06fd08e1ace9db",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/weave-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/weave-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/weave-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/weave-feedstock/statuses/3863590c5afef593408bcc7522b62488215c4ffa",
+    "statuses_url": "https://api.github.com/repos/conda-forge/weave-feedstock/statuses/ba2da2f71f2887093ff8fcfa3f3c2c36968ef63b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3863590c5afef593408bcc7522b62488215c4ffa",
+        "sha": "ba2da2f71f2887093ff8fcfa3f3c2c36968ef63b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/weave-feedstock/deployments",
             "created_at": "2018-03-06T23:33:10Z",
             "updated_at": "2018-03-06T23:33:11Z",
-            "pushed_at": "2018-10-18T07:56:29Z",
+            "pushed_at": "2018-10-18T17:57:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/weave-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/weave-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/weave-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/weave-feedstock/deployments",
             "created_at": "2017-04-03T12:32:07Z",
             "updated_at": "2018-08-04T19:07:31Z",
-            "pushed_at": "2018-10-18T07:56:30Z",
+            "pushed_at": "2018-10-18T17:57:15Z",
             "git_url": "git://github.com/conda-forge/weave-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/weave-feedstock.git",
             "clone_url": "https://github.com/conda-forge/weave-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/weave-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/weave-feedstock/statuses/3863590c5afef593408bcc7522b62488215c4ffa"
+            "href": "https://api.github.com/repos/conda-forge/weave-feedstock/statuses/ba2da2f71f2887093ff8fcfa3f3c2c36968ef63b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 265,
-    "deletions": 127,
-    "changed_files": 20,
-    "Last-Modified": "Thu, 18 Oct 2018 07:56:29 GMT",
-    "ETag": "W/\"7c6aa3a444120a55e2333968c3313577\""
+    "commits": 7,
+    "additions": 343,
+    "deletions": 126,
+    "changed_files": 22,
+    "Last-Modified": "Thu, 18 Oct 2018 17:57:14 GMT",
+    "ETag": "W/\"3a5abe1c1249fe30ac1448ed604c31a5\""
 }
