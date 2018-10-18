@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ngridded\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T16:32:55Z",
-    "updated_at": "2018-10-13T16:33:00Z",
+    "updated_at": "2018-10-18T02:02:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "da2c8c444a7c80c8c2e86b4629ce92a1276da035",
+    "merge_commit_sha": "7213ca26190439e6e3da49717ac5f02331a8f892",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/pulls/16/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/issues/16/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/statuses/df3ba7311ea756f2f12dd5445f410e23028156e6",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/statuses/007f540c6323b21bb2d94502a39f1bf9e78e0f45",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "df3ba7311ea756f2f12dd5445f410e23028156e6",
+        "sha": "007f540c6323b21bb2d94502a39f1bf9e78e0f45",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cell_tree2d-feedstock/deployments",
             "created_at": "2018-07-25T20:16:44Z",
             "updated_at": "2018-07-25T20:16:46Z",
-            "pushed_at": "2018-10-13T16:32:55Z",
+            "pushed_at": "2018-10-18T02:02:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cell_tree2d-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cell_tree2d-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cell_tree2d-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cell_tree2d-feedstock",
             "homepage": null,
-            "size": 43,
+            "size": 47,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/deployments",
             "created_at": "2016-04-12T12:00:48Z",
             "updated_at": "2018-08-04T17:06:22Z",
-            "pushed_at": "2018-10-13T16:32:56Z",
+            "pushed_at": "2018-10-18T02:02:14Z",
             "git_url": "git://github.com/conda-forge/cell_tree2d-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cell_tree2d-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cell_tree2d-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/pulls/16/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/statuses/df3ba7311ea756f2f12dd5445f410e23028156e6"
+            "href": "https://api.github.com/repos/conda-forge/cell_tree2d-feedstock/statuses/007f540c6323b21bb2d94502a39f1bf9e78e0f45"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 427,
-    "deletions": 166,
-    "changed_files": 28
+    "commits": 4,
+    "additions": 732,
+    "deletions": 172,
+    "changed_files": 34,
+    "Last-Modified": "Thu, 18 Oct 2018 02:02:13 GMT",
+    "ETag": "W/\"501f5757fd07f953e6838656e247e011\""
 }

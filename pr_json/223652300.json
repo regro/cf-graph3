@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\navro\nuwsgi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T15:32:21Z",
-    "updated_at": "2018-10-17T15:32:24Z",
+    "updated_at": "2018-10-18T01:27:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "19fe91bda4a6e550f7dc3f10bf1b74bcf27425cb",
+    "merge_commit_sha": "01a0be677a37fe6e58b2dbb2e1666ec479dfff74",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/statuses/508344181a98ba569527edd4f7ec6a4e6dd5f1af",
+    "statuses_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/statuses/da1c2e091c769fba99079d4718b311da98180eb4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "508344181a98ba569527edd4f7ec6a4e6dd5f1af",
+        "sha": "da1c2e091c769fba99079d4718b311da98180eb4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/jansson-feedstock/deployments",
             "created_at": "2018-03-16T19:20:58Z",
             "updated_at": "2018-03-16T19:21:00Z",
-            "pushed_at": "2018-10-17T15:32:20Z",
+            "pushed_at": "2018-10-18T01:26:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/jansson-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/jansson-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/jansson-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/jansson-feedstock",
             "homepage": null,
-            "size": 34,
+            "size": 39,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/jansson-feedstock/deployments",
             "created_at": "2016-07-09T20:03:18Z",
             "updated_at": "2018-08-04T17:20:01Z",
-            "pushed_at": "2018-10-17T15:32:21Z",
+            "pushed_at": "2018-10-18T01:26:58Z",
             "git_url": "git://github.com/conda-forge/jansson-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/jansson-feedstock.git",
             "clone_url": "https://github.com/conda-forge/jansson-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/jansson-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/jansson-feedstock/statuses/508344181a98ba569527edd4f7ec6a4e6dd5f1af"
+            "href": "https://api.github.com/repos/conda-forge/jansson-feedstock/statuses/da1c2e091c769fba99079d4718b311da98180eb4"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 236,
-    "deletions": 115,
-    "changed_files": 20
+    "commits": 5,
+    "additions": 328,
+    "deletions": 114,
+    "changed_files": 23,
+    "Last-Modified": "Thu, 18 Oct 2018 01:27:39 GMT",
+    "ETag": "W/\"fac3c1b406fbb128eaadcb4a784605d1\""
 }
