@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npython-symengine\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T05:57:47Z",
-    "updated_at": "2018-10-15T22:31:17Z",
+    "updated_at": "2018-10-18T17:10:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7f38b74f913d56ab80b356361f58c243da6e9bfa",
+    "merge_commit_sha": "9b5c93d118471b12bef0d596fee3093aa4958d60",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/statuses/76e1a5490374c8e7056c23571c9b10aaf7cd8d9a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/statuses/7ccbb9521c93444e80cbb9a16cc54b2f0edf71d9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "76e1a5490374c8e7056c23571c9b10aaf7cd8d9a",
+        "sha": "7ccbb9521c93444e80cbb9a16cc54b2f0edf71d9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/symengine-feedstock/deployments",
             "created_at": "2018-06-30T04:18:46Z",
             "updated_at": "2018-06-30T04:18:48Z",
-            "pushed_at": "2018-10-13T06:02:56Z",
+            "pushed_at": "2018-10-18T17:10:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/symengine-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/symengine-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/symengine-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/symengine-feedstock/deployments",
             "created_at": "2016-06-16T15:38:57Z",
             "updated_at": "2018-08-04T17:24:22Z",
-            "pushed_at": "2018-10-13T06:02:57Z",
+            "pushed_at": "2018-10-18T17:10:17Z",
             "git_url": "git://github.com/conda-forge/symengine-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/symengine-feedstock.git",
             "clone_url": "https://github.com/conda-forge/symengine-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/symengine-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/symengine-feedstock/statuses/76e1a5490374c8e7056c23571c9b10aaf7cd8d9a"
+            "href": "https://api.github.com/repos/conda-forge/symengine-feedstock/statuses/7ccbb9521c93444e80cbb9a16cc54b2f0edf71d9"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 180,
+    "commits": 4,
+    "additions": 206,
     "deletions": 61,
-    "changed_files": 16,
-    "Last-Modified": "Mon, 15 Oct 2018 22:31:17 GMT",
-    "ETag": "W/\"bd4492843e57a8b017b1b8aba3b2f054\""
+    "changed_files": 17,
+    "Last-Modified": "Thu, 18 Oct 2018 17:10:16 GMT",
+    "ETag": "W/\"2d4aa8d92f1aeba561ec54d7eed0d58b\""
 }
