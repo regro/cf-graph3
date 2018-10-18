@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T17:28:57Z",
-    "updated_at": "2018-10-13T17:29:01Z",
+    "updated_at": "2018-10-18T01:59:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ad161961ce71d0ca30ae65f76d5bf12a4f678df8",
+    "merge_commit_sha": "235123a3ded3679e5ff455263d25181946f97aa7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/statuses/83bf95c7e0ac7ce44b3a608b4761c1efb7ca003e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/statuses/dc8f3a0115323d704f1384fb2c8e0e74e775e0ec",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "83bf95c7e0ac7ce44b3a608b4761c1efb7ca003e",
+        "sha": "dc8f3a0115323d704f1384fb2c8e0e74e775e0ec",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/wordcloud-feedstock/deployments",
             "created_at": "2018-03-07T00:00:47Z",
             "updated_at": "2018-03-07T00:00:49Z",
-            "pushed_at": "2018-10-13T17:28:56Z",
+            "pushed_at": "2018-10-18T01:58:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/wordcloud-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/wordcloud-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/wordcloud-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/deployments",
             "created_at": "2016-08-10T18:27:55Z",
             "updated_at": "2018-08-04T19:26:22Z",
-            "pushed_at": "2018-10-13T17:28:57Z",
+            "pushed_at": "2018-10-18T01:58:48Z",
             "git_url": "git://github.com/conda-forge/wordcloud-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/wordcloud-feedstock.git",
             "clone_url": "https://github.com/conda-forge/wordcloud-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/statuses/83bf95c7e0ac7ce44b3a608b4761c1efb7ca003e"
+            "href": "https://api.github.com/repos/conda-forge/wordcloud-feedstock/statuses/dc8f3a0115323d704f1384fb2c8e0e74e775e0ec"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 376,
-    "deletions": 159,
-    "changed_files": 26
+    "commits": 3,
+    "additions": 380,
+    "deletions": 162,
+    "changed_files": 26,
+    "Last-Modified": "Thu, 18 Oct 2018 01:59:31 GMT",
+    "ETag": "W/\"72ca80b3ada17c24e7abb5c6442accc9\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nparquet-cpp\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T00:57:14Z",
-    "updated_at": "2018-10-14T18:55:43Z",
+    "updated_at": "2018-10-18T01:33:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6fdeb39e800ada0ab1874c1ab076a2cd62f7ed77",
+    "merge_commit_sha": "de362571ac4a8285cdd1bdeaf6a5042bd8ae6933",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/pulls/20/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/issues/20/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/statuses/c79cf07bd2d21e7ada846f06a22a26d7eed6aae5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/statuses/65ec61222c0fbf233680ba5fa0922b6d6079ba1d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c79cf07bd2d21e7ada846f06a22a26d7eed6aae5",
+        "sha": "65ec61222c0fbf233680ba5fa0922b6d6079ba1d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/thrift-cpp-feedstock/deployments",
             "created_at": "2018-07-01T00:01:05Z",
             "updated_at": "2018-07-01T00:01:06Z",
-            "pushed_at": "2018-10-13T03:59:24Z",
+            "pushed_at": "2018-10-18T01:33:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/thrift-cpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/thrift-cpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/thrift-cpp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/deployments",
             "created_at": "2016-05-11T19:56:25Z",
             "updated_at": "2018-08-04T17:12:56Z",
-            "pushed_at": "2018-10-13T03:59:25Z",
+            "pushed_at": "2018-10-18T01:33:12Z",
             "git_url": "git://github.com/conda-forge/thrift-cpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/thrift-cpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/thrift-cpp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/pulls/20/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/statuses/c79cf07bd2d21e7ada846f06a22a26d7eed6aae5"
+            "href": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/statuses/65ec61222c0fbf233680ba5fa0922b6d6079ba1d"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 250,
-    "deletions": 111,
+    "commits": 8,
+    "additions": 268,
+    "deletions": 113,
     "changed_files": 19,
-    "Last-Modified": "Sun, 14 Oct 2018 18:55:43 GMT",
-    "ETag": "W/\"18dbb014426231b8f2de86ea222627bc\""
+    "Last-Modified": "Thu, 18 Oct 2018 01:33:11 GMT",
+    "ETag": "W/\"612c457188e2eff175e649316e342ca0\""
 }
