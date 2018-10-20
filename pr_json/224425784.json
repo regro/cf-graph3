@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|botocore|1.12.28|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/botocore.svg)](https://anaconda.org/conda-forge/botocore)|\n",
     "created_at": "2018-10-19T22:28:42Z",
-    "updated_at": "2018-10-19T22:39:48Z",
+    "updated_at": "2018-10-20T16:27:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "69245563224d39cac6b9920ede388b08c0d3f56f",
+    "merge_commit_sha": "3a6c2bcf96eee8874daf1419932fd18242a4bee6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/pulls/187/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/issues/187/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/statuses/f1f9c782e3dcd70f58b0de44c7cb42996181c93d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/statuses/f80c59a28ed7d3f3ad52e1891dcb921c3b678cdd",
     "head": {
         "label": "regro-cf-autotick-bot:1.16.38",
         "ref": "1.16.38",
-        "sha": "f1f9c782e3dcd70f58b0de44c7cb42996181c93d",
+        "sha": "f80c59a28ed7d3f3ad52e1891dcb921c3b678cdd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/awscli-feedstock/deployments",
             "created_at": "2018-02-24T01:13:22Z",
             "updated_at": "2018-02-24T01:13:23Z",
-            "pushed_at": "2018-10-19T22:39:49Z",
+            "pushed_at": "2018-10-20T16:27:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/awscli-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/awscli-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/awscli-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "d149a4c732b60fe5c3f89369f5f249b1958180b0",
+        "sha": "e76cddaa3c0bf6ac7ee0a8f46c0d3c2c0ba173a6",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/awscli-feedstock/deployments",
             "created_at": "2016-07-10T12:34:43Z",
-            "updated_at": "2018-10-19T16:30:15Z",
-            "pushed_at": "2018-10-19T22:39:49Z",
+            "updated_at": "2018-10-20T16:24:48Z",
+            "pushed_at": "2018-10-20T16:27:07Z",
             "git_url": "git://github.com/conda-forge/awscli-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/awscli-feedstock.git",
             "clone_url": "https://github.com/conda-forge/awscli-feedstock.git",
             "svn_url": "https://github.com/conda-forge/awscli-feedstock",
             "homepage": null,
-            "size": 138,
+            "size": 140,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/awscli-feedstock/pulls/187/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/awscli-feedstock/statuses/f1f9c782e3dcd70f58b0de44c7cb42996181c93d"
+            "href": "https://api.github.com/repos/conda-forge/awscli-feedstock/statuses/f80c59a28ed7d3f3ad52e1891dcb921c3b678cdd"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -326,14 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\nbotocore\n1.12.28",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
-    "mergeable_state": "clean",
+    "rebaseable": false,
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 3,
     "deletions": 3,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Sat, 20 Oct 2018 16:27:07 GMT",
+    "ETag": "W/\"4e36d2edac262f4fcb2619aa9a9bbb91\""
 }
