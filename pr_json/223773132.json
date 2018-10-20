@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T22:30:09Z",
-    "updated_at": "2018-10-17T22:34:13Z",
+    "updated_at": "2018-10-20T16:17:30Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "5459346019876af3fe0b8e2eb2d1a793851e0934",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1098224095,
+            "node_id": "MDU6TGFiZWwxMDk4MjI0MDk1",
+            "url": "https://api.github.com/repos/conda-forge/docker-py-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "81eac9",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/docker-py-feedstock/pulls/20/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/docker-py-feedstock/pulls/20/comments",
@@ -329,13 +338,11 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 86,
     "deletions": 78,
-    "changed_files": 17,
-    "Last-Modified": "Wed, 17 Oct 2018 22:34:13 GMT",
-    "ETag": "W/\"fa9925244a2a8b1d0e6575b4d632ee79\""
+    "changed_files": 17
 }
