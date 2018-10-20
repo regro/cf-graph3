@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T20:31:18Z",
-    "updated_at": "2018-10-19T20:06:30Z",
+    "updated_at": "2018-10-20T19:14:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f0ea67f12325c2b25db630db77ac553cdb1401b0",
+    "merge_commit_sha": "ae980b348954290b4f2b95cb484e1eb9c62dcae7",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/pulls/43/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/issues/43/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/statuses/377578de1aca3c9c8baa04221797100b80ef70cb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/statuses/64a1b87cdcc80068cdd76fbf6cef5b10cd2f243f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "377578de1aca3c9c8baa04221797100b80ef70cb",
+        "sha": "64a1b87cdcc80068cdd76fbf6cef5b10cd2f243f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/vigra-feedstock/deployments",
             "created_at": "2018-10-13T20:31:01Z",
             "updated_at": "2018-10-13T20:31:03Z",
-            "pushed_at": "2018-10-19T15:42:29Z",
+            "pushed_at": "2018-10-20T19:14:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/vigra-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/vigra-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/vigra-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vigra-feedstock/deployments",
             "created_at": "2016-03-28T02:38:45Z",
             "updated_at": "2018-08-04T17:03:24Z",
-            "pushed_at": "2018-10-19T15:42:31Z",
+            "pushed_at": "2018-10-20T19:14:29Z",
             "git_url": "git://github.com/conda-forge/vigra-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vigra-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vigra-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 9,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 9,
-            "open_issues": 4,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/vigra-feedstock/pulls/43/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/vigra-feedstock/statuses/377578de1aca3c9c8baa04221797100b80ef70cb"
+            "href": "https://api.github.com/repos/conda-forge/vigra-feedstock/statuses/64a1b87cdcc80068cdd76fbf6cef5b10cd2f243f"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 698,
-    "deletions": 88,
+    "commits": 11,
+    "additions": 706,
+    "deletions": 96,
     "changed_files": 28,
-    "Last-Modified": "Fri, 19 Oct 2018 20:06:30 GMT",
-    "ETag": "W/\"c364ae298c51a5d47718821091418d68\""
+    "Last-Modified": "Sat, 20 Oct 2018 19:14:28 GMT",
+    "ETag": "W/\"82e2c195bea6ef0a270dba3d7bb298e2\""
 }
