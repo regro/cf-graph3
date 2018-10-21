@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving make from host to build\nRemoving toolchain in favour of compiler()\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T16:18:10Z",
-    "updated_at": "2018-08-02T03:13:59Z",
+    "updated_at": "2018-10-21T21:57:26Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3b511dbc40befa9703b567d3e248e16ba33995dd",
@@ -369,11 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 74,
     "deletions": 56,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Sun, 21 Oct 2018 21:57:26 GMT",
+    "ETag": "W/\"be92d3f2913e5cf759d0d664d54fd86f\""
 }
