@@ -30,12 +30,12 @@
         "type": "User",
         "site_admin": false
     },
-    "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
+    "body": "It is likely this feedstock needs to be rebuilt.\r\nNotes and instructions for merging this PR:\r\n1. Please merge the PR only after the tests have passed. \r\n2. Feel free to push to the bot's branch to update this PR if needed. \r\n\r\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\r\n\r\nThis package has the following downstream children:\r\n\r\nAnd potentially more.\r\n\r\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\r\n\r\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\r\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\r\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\r\n\r\nFixes #3 ",
     "created_at": "2018-10-05T15:11:43Z",
-    "updated_at": "2018-10-05T15:12:12Z",
+    "updated_at": "2018-10-21T08:45:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9973900bb3639c4aa1cd8046df67e2b4c405db73",
+    "merge_commit_sha": "6d94c1c760c6035de91b85d085525b3bf175b66c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lld-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lld-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lld-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lld-feedstock/statuses/fb6e7e6b8e9fa1346cac1b74b61d4eac1db93db7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lld-feedstock/statuses/1304fe20496a860d24a4a3ec5b36df32f93a0326",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "fb6e7e6b8e9fa1346cac1b74b61d4eac1db93db7",
+        "sha": "1304fe20496a860d24a4a3ec5b36df32f93a0326",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lld-feedstock/deployments",
             "created_at": "2018-03-18T17:06:43Z",
             "updated_at": "2018-03-18T17:06:44Z",
-            "pushed_at": "2018-10-05T15:11:43Z",
+            "pushed_at": "2018-10-21T08:44:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lld-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lld-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lld-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lld-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 29,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "5fe74826de0adb0558362e0862a637cdff42af39",
+        "sha": "f0dcd9e8db866ec8877c2c6f8ad48da0ac795182",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/lld-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/lld-feedstock/deployments",
             "created_at": "2018-01-28T14:05:30Z",
-            "updated_at": "2018-08-12T01:24:18Z",
-            "pushed_at": "2018-10-05T15:11:44Z",
+            "updated_at": "2018-10-21T08:13:43Z",
+            "pushed_at": "2018-10-21T08:44:53Z",
             "git_url": "git://github.com/conda-forge/lld-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lld-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lld-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/lld-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lld-feedstock/statuses/fb6e7e6b8e9fa1346cac1b74b61d4eac1db93db7"
+            "href": "https://api.github.com/repos/conda-forge/lld-feedstock/statuses/1304fe20496a860d24a4a3ec5b36df32f93a0326"
         }
     },
     "author_association": "NONE",
-    "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:</p>\n<p>And potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
-    "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
+    "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:</p>\n<p>And potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>\n<p><span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This pull request closes issue #3.\">Fixes</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"349829309\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/conda-forge/lld-feedstock/issues/3\" data-hovercard-type=\"issue\" data-hovercard-url=\"/conda-forge/lld-feedstock/issues/3/hovercard\" href=\"https://github.com/conda-forge/lld-feedstock/issues/3\">#3</a></p>",
+    "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nFixes #3",
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 438,
-    "deletions": 94,
-    "changed_files": 26
+    "commits": 3,
+    "additions": 314,
+    "deletions": 22,
+    "changed_files": 18,
+    "Last-Modified": "Sun, 21 Oct 2018 08:45:17 GMT",
+    "ETag": "W/\"e2f58f2243b314306d9476cf31ae0276\""
 }
