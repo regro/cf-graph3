@@ -1,1 +1,26 @@
-{}
+{
+    "ci/circleci: build_linux_python2.7": [
+        "success",
+        5598838245
+    ],
+    "ci/circleci: build_linux_python3.6": [
+        "success",
+        5598838688
+    ],
+    "ci/circleci: build_linux_python3.7": [
+        "failure",
+        5598830364
+    ],
+    "continuous-integration/travis-ci/pr": [
+        "failure",
+        5598751927
+    ],
+    "conda-forge-linter": [
+        "success",
+        5598725267
+    ],
+    "continuous-integration/appveyor/pr": [
+        "failure",
+        5603447288
+    ]
+}

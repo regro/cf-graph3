@@ -1,1 +1,18 @@
-{}
+{
+    "ci/circleci: build_linux_": [
+        "failure",
+        5181083504
+    ],
+    "conda-forge-linter": [
+        "success",
+        5181080471
+    ],
+    "continuous-integration/travis-ci/pr": [
+        "failure",
+        5181092875
+    ],
+    "continuous-integration/appveyor/pr": [
+        "failure",
+        5181083966
+    ]
+}

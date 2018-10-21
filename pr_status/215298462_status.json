@@ -1,1 +1,18 @@
-{}
+{
+    "ci/circleci: build_linux_c_compilertoolchain_c": [
+        "success",
+        5496460464
+    ],
+    "ci/circleci: build_linux_c_compilergcc": [
+        "failure",
+        5496439662
+    ],
+    "continuous-integration/travis-ci/pr": [
+        "success",
+        5496174341
+    ],
+    "conda-forge-linter": [
+        "success",
+        5496107183
+    ]
+}

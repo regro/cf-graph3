@@ -1,1 +1,18 @@
-{}
+{
+    "ci/circleci: build_linux_python2.7": [
+        "failure",
+        5596010390
+    ],
+    "ci/circleci: build_linux_python3.6": [
+        "failure",
+        5596021573
+    ],
+    "continuous-integration/travis-ci/pr": [
+        "failure",
+        5595889974
+    ],
+    "continuous-integration/appveyor/pr": [
+        "failure",
+        5599062442
+    ]
+}

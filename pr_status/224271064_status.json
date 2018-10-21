@@ -1,1 +1,22 @@
-{}
+{
+    "ci/circleci: build_linux_r_base3.5.1": [
+        "success",
+        5676047999
+    ],
+    "ci/circleci: build_linux_r_base3.4.1": [
+        "success",
+        5676051033
+    ],
+    "conda-forge-linter": [
+        "success",
+        5676029275
+    ],
+    "continuous-integration/travis-ci/pr": [
+        "success",
+        5676074994
+    ],
+    "continuous-integration/appveyor/pr": [
+        "success",
+        5679705769
+    ]
+}
