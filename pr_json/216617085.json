@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|clangdev|7.0.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/clangdev.svg)](https://anaconda.org/conda-forge/clangdev)|\n|llvmdev|7.0.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/llvmdev.svg)](https://anaconda.org/conda-forge/llvmdev)|\n",
     "created_at": "2018-09-19T12:15:13Z",
-    "updated_at": "2018-10-21T08:52:09Z",
+    "updated_at": "2018-10-21T18:46:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "15bd7a2bab49bbe6a3178c2872d5abfddf7f1d03",
+    "merge_commit_sha": "d344fde25bd6fe7f3ece30ddbe17ac7f723e3a94",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/statuses/8fdc1d5336b51742ed7fcaefc89159fbf207899e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/statuses/b2e81483b18143bd1222fa1b441a4008ad844dd8",
     "head": {
         "label": "regro-cf-autotick-bot:7.0.0",
         "ref": "7.0.0",
-        "sha": "8fdc1d5336b51742ed7fcaefc89159fbf207899e",
+        "sha": "b2e81483b18143bd1222fa1b441a4008ad844dd8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lldb-feedstock/deployments",
             "created_at": "2018-03-18T17:06:31Z",
             "updated_at": "2018-03-18T17:06:33Z",
-            "pushed_at": "2018-10-21T12:28:51Z",
+            "pushed_at": "2018-10-21T18:46:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lldb-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lldb-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lldb-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lldb-feedstock/deployments",
             "created_at": "2018-01-10T06:06:05Z",
             "updated_at": "2018-08-12T03:48:13Z",
-            "pushed_at": "2018-10-21T12:28:52Z",
+            "pushed_at": "2018-10-21T18:46:33Z",
             "git_url": "git://github.com/conda-forge/lldb-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lldb-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lldb-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lldb-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lldb-feedstock/statuses/8fdc1d5336b51742ed7fcaefc89159fbf207899e"
+            "href": "https://api.github.com/repos/conda-forge/lldb-feedstock/statuses/b2e81483b18143bd1222fa1b441a4008ad844dd8"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 110,
+    "commits": 5,
+    "additions": 113,
     "deletions": 46,
-    "changed_files": 17
+    "changed_files": 17,
+    "Last-Modified": "Sun, 21 Oct 2018 18:46:33 GMT",
+    "ETag": "W/\"df3d2d42c6048e76ca5c92a2df026c2b\""
 }
