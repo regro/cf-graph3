@@ -32,13 +32,74 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T08:31:54Z",
-    "updated_at": "2018-10-21T16:44:37Z",
+    "updated_at": "2018-10-21T19:30:46Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "7939b5571a4b1a6dfad2f41ec13c95e6e77f1414",
-    "assignee": null,
-    "assignees": [],
-    "requested_reviewers": [],
+    "assignee": {
+        "login": "ax3l",
+        "id": 1353258,
+        "node_id": "MDQ6VXNlcjEzNTMyNTg=",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/1353258?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ax3l",
+        "html_url": "https://github.com/ax3l",
+        "followers_url": "https://api.github.com/users/ax3l/followers",
+        "following_url": "https://api.github.com/users/ax3l/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ax3l/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ax3l/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ax3l/subscriptions",
+        "organizations_url": "https://api.github.com/users/ax3l/orgs",
+        "repos_url": "https://api.github.com/users/ax3l/repos",
+        "events_url": "https://api.github.com/users/ax3l/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ax3l/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "ax3l",
+            "id": 1353258,
+            "node_id": "MDQ6VXNlcjEzNTMyNTg=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/1353258?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ax3l",
+            "html_url": "https://github.com/ax3l",
+            "followers_url": "https://api.github.com/users/ax3l/followers",
+            "following_url": "https://api.github.com/users/ax3l/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ax3l/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ax3l/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ax3l/subscriptions",
+            "organizations_url": "https://api.github.com/users/ax3l/orgs",
+            "repos_url": "https://api.github.com/users/ax3l/repos",
+            "events_url": "https://api.github.com/users/ax3l/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ax3l/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
+    "requested_reviewers": [
+        {
+            "login": "ax3l",
+            "id": 1353258,
+            "node_id": "MDQ6VXNlcjEzNTMyNTg=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/1353258?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ax3l",
+            "html_url": "https://github.com/ax3l",
+            "followers_url": "https://api.github.com/users/ax3l/followers",
+            "following_url": "https://api.github.com/users/ax3l/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ax3l/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ax3l/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ax3l/subscriptions",
+            "organizations_url": "https://api.github.com/users/ax3l/orgs",
+            "repos_url": "https://api.github.com/users/ax3l/repos",
+            "events_url": "https://api.github.com/users/ax3l/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ax3l/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [
         {
@@ -352,5 +413,7 @@
     "commits": 5,
     "additions": 311,
     "deletions": 31,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Sun, 21 Oct 2018 19:30:46 GMT",
+    "ETag": "W/\"b374ac5e3c4829a27fb15593878b7378\""
 }
