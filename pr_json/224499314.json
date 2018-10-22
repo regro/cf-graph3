@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-20T20:29:12Z",
-    "updated_at": "2018-10-21T19:41:01Z",
+    "updated_at": "2018-10-22T16:51:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "39792d21cb297248bd45751bb6ff3b3253df843f",
+    "merge_commit_sha": "917ba4d5088530ab2ae6a8f27e823730493f2990",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/pulls/31/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/issues/31/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/statuses/73f2c98efe097a77224e0bf69f903297be530a76",
+    "statuses_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/statuses/e0551bd3e87d23ab0661f34cab899818b5d430d6",
     "head": {
         "label": "regro-cf-autotick-bot:2.0.2",
         "ref": "2.0.2",
-        "sha": "73f2c98efe097a77224e0bf69f903297be530a76",
+        "sha": "e0551bd3e87d23ab0661f34cab899818b5d430d6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/harfbuzz-feedstock/deployments",
             "created_at": "2018-03-16T19:16:29Z",
             "updated_at": "2018-03-16T19:16:31Z",
-            "pushed_at": "2018-10-20T20:29:11Z",
+            "pushed_at": "2018-10-22T16:50:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/harfbuzz-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/harfbuzz-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/harfbuzz-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/deployments",
             "created_at": "2016-08-16T08:34:01Z",
             "updated_at": "2018-10-11T00:05:49Z",
-            "pushed_at": "2018-10-20T20:29:12Z",
+            "pushed_at": "2018-10-22T16:50:20Z",
             "git_url": "git://github.com/conda-forge/harfbuzz-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/harfbuzz-feedstock.git",
             "clone_url": "https://github.com/conda-forge/harfbuzz-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/pulls/31/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/statuses/73f2c98efe097a77224e0bf69f903297be530a76"
+            "href": "https://api.github.com/repos/conda-forge/harfbuzz-feedstock/statuses/e0551bd3e87d23ab0661f34cab899818b5d430d6"
         }
     },
     "author_association": "NONE",
@@ -367,15 +367,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 1,
-    "Last-Modified": "Sun, 21 Oct 2018 19:41:01 GMT",
-    "ETag": "W/\"0ac620319ff712aa0ecefa68c15be8c5\""
+    "commits": 2,
+    "additions": 26,
+    "deletions": 70,
+    "changed_files": 3,
+    "Last-Modified": "Mon, 22 Oct 2018 16:51:50 GMT",
+    "ETag": "W/\"47a19fd552f19b85203c9e2508daa5ab\""
 }
