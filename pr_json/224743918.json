@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-22T16:55:03Z",
-    "updated_at": "2018-10-22T16:55:03Z",
+    "updated_at": "2018-10-22T19:42:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "419e4d5d85ae93452d7351a6a1c08e6113ec0a6f",
+    "merge_commit_sha": "539865908b06fba780bed56491b9f821c9722882",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/statuses/a19e2d80e86d4e26f33ec139f783334d90f7247c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/statuses/e15ecb7530c06c81a9f396227b85762e7083cfe9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a19e2d80e86d4e26f33ec139f783334d90f7247c",
+        "sha": "e15ecb7530c06c81a9f396227b85762e7083cfe9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libdiffpy-feedstock/deployments",
             "created_at": "2018-06-24T05:08:46Z",
             "updated_at": "2018-06-24T05:08:48Z",
-            "pushed_at": "2018-10-22T16:55:02Z",
+            "pushed_at": "2018-10-22T19:37:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libdiffpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libdiffpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libdiffpy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/deployments",
             "created_at": "2018-02-07T23:42:28Z",
             "updated_at": "2018-08-04T18:32:45Z",
-            "pushed_at": "2018-10-22T16:55:04Z",
+            "pushed_at": "2018-10-22T19:37:58Z",
             "git_url": "git://github.com/conda-forge/libdiffpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libdiffpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libdiffpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/statuses/a19e2d80e86d4e26f33ec139f783334d90f7247c"
+            "href": "https://api.github.com/repos/conda-forge/libdiffpy-feedstock/statuses/e15ecb7530c06c81a9f396227b85762e7083cfe9"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 187,
-    "deletions": 57,
-    "changed_files": 14,
-    "Last-Modified": "Mon, 22 Oct 2018 16:55:03 GMT",
-    "ETag": "W/\"d3cc0737c9ac66430b1f5781484c7fe8\""
+    "commits": 3,
+    "additions": 201,
+    "deletions": 59,
+    "changed_files": 16,
+    "Last-Modified": "Mon, 22 Oct 2018 19:42:53 GMT",
+    "ETag": "W/\"b038977ca10189c4947a9211e3c61e79\""
 }
