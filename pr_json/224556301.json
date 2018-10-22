@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/fslpy-feedstock/pull/6.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/fslpy-feedstock/issues/6",
     "number": 6,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "fslpy v1.12.0",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-21T17:30:00Z",
-    "updated_at": "2018-10-21T17:35:13Z",
-    "closed_at": null,
+    "updated_at": "2018-10-22T11:51:32Z",
+    "closed_at": "2018-10-22T11:51:32Z",
     "merged_at": null,
-    "merge_commit_sha": "cabc0348c20bfe24b6aab4f0fecb521e97d3af9e",
+    "merge_commit_sha": "39dd9ca71155f5c9f1bab5a37a3bc9fac32a64cf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/fslpy-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/fslpy-feedstock/deployments",
             "created_at": "2018-08-29T12:55:24Z",
-            "updated_at": "2018-09-14T22:40:03Z",
-            "pushed_at": "2018-10-21T17:30:01Z",
+            "updated_at": "2018-10-22T11:51:25Z",
+            "pushed_at": "2018-10-22T11:51:23Z",
             "git_url": "git://github.com/conda-forge/fslpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fslpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fslpy-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Sun, 21 Oct 2018 17:35:13 GMT",
-    "ETag": "W/\"b6a3be6422c561aab9711b7c8bf6c9e7\""
+    "Last-Modified": "Mon, 22 Oct 2018 11:51:32 GMT",
+    "ETag": "W/\"f063deeaf38509445d1e27db3d758e2d\""
 }
