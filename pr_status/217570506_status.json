@@ -1,0 +1,38 @@
+{
+    "ci/circleci: build_linux_c_compilertoolchain_cpython3.5": [
+        "success",
+        5544280792
+    ],
+    "ci/circleci: build_linux_c_compilergccpython2.7": [
+        "success",
+        5544293323
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_cpython3.7": [
+        "failure",
+        5544296377
+    ],
+    "ci/circleci: build_linux_c_compilergccpython3.5": [
+        "success",
+        5544305415
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_cpython3.6": [
+        "success",
+        5544304315
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_cpython2.7": [
+        "success",
+        5544306040
+    ],
+    "ci/circleci: build_linux_c_compilergccpython3.6": [
+        "success",
+        5544316300
+    ],
+    "ci/circleci: build_linux_c_compilergccpython3.7": [
+        "success",
+        5544318045
+    ],
+    "continuous-integration/appveyor/pr": [
+        "success",
+        5548762822
+    ]
+}

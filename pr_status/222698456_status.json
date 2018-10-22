@@ -1,0 +1,34 @@
+{
+    "continuous-integration/travis-ci/pr": [
+        "failure",
+        5646492897
+    ],
+    "continuous-integration/appveyor/pr": [
+        "failure",
+        5647193256
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_ccxx_compilertoolchain_cxxpython3.6": [
+        "failure",
+        5646550208
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_ccxx_compilertoolchain_cxxpython3.7": [
+        "success",
+        5646555784
+    ],
+    "ci/circleci: build_linux_c_compilergcccxx_compilergxxpython3.7": [
+        "success",
+        5646557965
+    ],
+    "ci/circleci: build_linux_c_compilertoolchain_ccxx_compilertoolchain_cxxpython2.7": [
+        "failure",
+        5646557286
+    ],
+    "ci/circleci: build_linux_c_compilergcccxx_compilergxxpython3.6": [
+        "success",
+        5646564252
+    ],
+    "ci/circleci: build_linux_c_compilergcccxx_compilergxxpython2.7": [
+        "success",
+        5646566297
+    ]
+}
