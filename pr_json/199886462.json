@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving cmake from host to build\nMoving pkg-config from host to build\nRemoving gcc in favour of compiler()\nRemoving libgcc in favour of compiler()\nRemoving libgfortran in favour of compiler()\nRemoving pinnings for openblas to use values from conda_build_config.yaml\nRemoving pinnings for boost-cpp to use values from conda_build_config.yaml\nRemoving pinnings for hdf5 to use values from conda_build_config.yaml\nRemoving pinnings for bzip2 to use values from conda_build_config.yaml\nRemoving pinnings for xz to use values from conda_build_config.yaml\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nPinning numpy using pin_compatible\nAdding Fortran compiler\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T08:09:20Z",
-    "updated_at": "2018-07-07T08:09:24Z",
+    "updated_at": "2018-10-21T23:54:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "6110aa93680e61147aaa5064a708cf4e71db6415",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 415,
     "deletions": 136,
     "changed_files": 21,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"3bf0e2e2fe70293c4eaef0bc845dee4c\""
+    "Last-Modified": "Sun, 21 Oct 2018 23:54:06 GMT",
+    "ETag": "W/\"402792fb0ce4e1d306e199da571ef851\""
 }
