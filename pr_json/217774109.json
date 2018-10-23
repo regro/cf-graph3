@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nmo_pack\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T20:12:55Z",
-    "updated_at": "2018-10-22T11:07:36Z",
+    "updated_at": "2018-10-23T15:58:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "992a1fa063c9b66a68649e288cac2d6b4bbed9be",
+    "merge_commit_sha": "00b81c07d4243f471f8e812b3fb36ee56b2bc3db",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/statuses/6e0bcaeae62ad91af6795c6faeec9fdd52bb1f36",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/statuses/23f089a77d0a026a09232d2a6a61a2c542b7bcbf",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6e0bcaeae62ad91af6795c6faeec9fdd52bb1f36",
+        "sha": "23f089a77d0a026a09232d2a6a61a2c542b7bcbf",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libmo_unpack-feedstock/deployments",
             "created_at": "2018-03-01T23:01:26Z",
             "updated_at": "2018-03-01T23:01:28Z",
-            "pushed_at": "2018-10-22T11:07:32Z",
+            "pushed_at": "2018-10-23T15:58:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libmo_unpack-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libmo_unpack-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libmo_unpack-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/libmo_unpack-feedstock",
             "homepage": null,
-            "size": 39,
+            "size": 40,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/deployments",
             "created_at": "2016-03-29T09:01:22Z",
             "updated_at": "2018-09-03T22:21:45Z",
-            "pushed_at": "2018-10-22T11:07:38Z",
+            "pushed_at": "2018-10-23T15:58:22Z",
             "git_url": "git://github.com/conda-forge/libmo_unpack-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libmo_unpack-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libmo_unpack-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/statuses/6e0bcaeae62ad91af6795c6faeec9fdd52bb1f36"
+            "href": "https://api.github.com/repos/conda-forge/libmo_unpack-feedstock/statuses/23f089a77d0a026a09232d2a6a61a2c542b7bcbf"
         }
     },
     "author_association": "NONE",
@@ -333,7 +333,9 @@
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 7,
-    "additions": 92,
+    "additions": 90,
     "deletions": 26,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Tue, 23 Oct 2018 15:58:22 GMT",
+    "ETag": "W/\"e2f91a3d07a9beaf7c70cc02af23b59b\""
 }
