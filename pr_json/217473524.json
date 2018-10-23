@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nhyperspy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-22T19:12:39Z",
-    "updated_at": "2018-09-23T11:44:43Z",
+    "updated_at": "2018-10-23T12:25:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2afc03f3a314c64277332209e77fcc72433b807c",
+    "merge_commit_sha": "28751d83a5ae42c9d08735a44a5eb344c11d33c4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -55,11 +55,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/statuses/e5fb53e637e0349e4bbde94b1c84e97621312c6d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/statuses/4d2609774f6c5902b9d5ba96a9557242c1e17cbd",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e5fb53e637e0349e4bbde94b1c84e97621312c6d",
+        "sha": "4d2609774f6c5902b9d5ba96a9557242c1e17cbd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -148,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hyperspy-gui-traitsui-feedstock/deployments",
             "created_at": "2018-08-31T17:09:25Z",
             "updated_at": "2018-08-31T17:09:27Z",
-            "pushed_at": "2018-10-20T12:28:15Z",
+            "pushed_at": "2018-10-23T12:25:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hyperspy-gui-traitsui-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hyperspy-gui-traitsui-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hyperspy-gui-traitsui-feedstock.git",
@@ -272,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/deployments",
             "created_at": "2017-06-21T03:37:49Z",
             "updated_at": "2018-09-04T08:50:50Z",
-            "pushed_at": "2018-10-20T12:28:16Z",
+            "pushed_at": "2018-10-23T12:29:51Z",
             "git_url": "git://github.com/conda-forge/hyperspy-gui-traitsui-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hyperspy-gui-traitsui-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hyperspy-gui-traitsui-feedstock.git",
@@ -290,7 +290,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -299,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -327,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/statuses/e5fb53e637e0349e4bbde94b1c84e97621312c6d"
+            "href": "https://api.github.com/repos/conda-forge/hyperspy-gui-traitsui-feedstock/statuses/4d2609774f6c5902b9d5ba96a9557242c1e17cbd"
         }
     },
     "author_association": "NONE",
@@ -338,13 +338,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 102,
-    "deletions": 8,
-    "changed_files": 12,
-    "Last-Modified": "Sun, 23 Sep 2018 11:44:43 GMT",
-    "ETag": "W/\"26924830ce5fa40139fc27410bfc55cf\""
+    "commits": 3,
+    "additions": 38,
+    "deletions": 19,
+    "changed_files": 10,
+    "Last-Modified": "Tue, 23 Oct 2018 12:25:22 GMT",
+    "ETag": "W/\"0213499a74ea27f3c5247ffa217432ba\""
 }
