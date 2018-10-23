@@ -9,7 +9,7 @@
     "number": 15,
     "state": "open",
     "locked": false,
-    "title": "libcdms v3.1.0",
+    "title": "libcdms v3.1.0 bot-rerun",
     "user": {
         "login": "regro-cf-autotick-bot",
         "id": 36490558,
@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-22T18:56:48Z",
-    "updated_at": "2018-10-22T20:21:52Z",
+    "updated_at": "2018-10-23T20:23:01Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "f757028679b3712be56c667078468afd57b0583b",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1101981695,
+            "node_id": "MDU6TGFiZWwxMTAxOTgxNjk1",
+            "url": "https://api.github.com/repos/conda-forge/libcdms-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "10aab5",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/libcdms-feedstock/pulls/15/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/libcdms-feedstock/pulls/15/comments",
@@ -263,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libcdms-feedstock/deployments",
             "created_at": "2017-02-18T20:46:48Z",
             "updated_at": "2018-08-04T19:06:41Z",
-            "pushed_at": "2018-10-22T20:02:00Z",
+            "pushed_at": "2018-10-23T20:21:59Z",
             "git_url": "git://github.com/conda-forge/libcdms-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libcdms-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libcdms-feedstock.git",
@@ -335,7 +344,5 @@
     "commits": 2,
     "additions": 64,
     "deletions": 32,
-    "changed_files": 9,
-    "Last-Modified": "Mon, 22 Oct 2018 20:21:52 GMT",
-    "ETag": "W/\"d287178adb63f4c7e6173c29c581b930\""
+    "changed_files": 9
 }
