@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T00:31:30Z",
-    "updated_at": "2018-10-24T17:01:17Z",
+    "updated_at": "2018-10-24T18:01:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f9bc52ad0f30ff18adfa8bbd91fde1a29f26d4c5",
+    "merge_commit_sha": "6d295f1c2236268a0f619906940dc36e33dd4a33",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/statuses/e460dace3f665c578c2b6eae5ab15276d8e45c68",
+    "statuses_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/statuses/89ded6135e4d41b5d4e03a0e55140321b7441996",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e460dace3f665c578c2b6eae5ab15276d8e45c68",
+        "sha": "89ded6135e4d41b5d4e03a0e55140321b7441996",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/galsim-feedstock/deployments",
             "created_at": "2018-10-18T00:31:14Z",
             "updated_at": "2018-10-18T00:31:17Z",
-            "pushed_at": "2018-10-24T17:01:17Z",
+            "pushed_at": "2018-10-24T18:01:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/galsim-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/galsim-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/galsim-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/galsim-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 17,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/galsim-feedstock/deployments",
             "created_at": "2018-10-01T09:53:25Z",
             "updated_at": "2018-10-01T09:56:03Z",
-            "pushed_at": "2018-10-24T17:01:17Z",
+            "pushed_at": "2018-10-24T18:01:07Z",
             "git_url": "git://github.com/conda-forge/galsim-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/galsim-feedstock.git",
             "clone_url": "https://github.com/conda-forge/galsim-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/galsim-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/galsim-feedstock/statuses/e460dace3f665c578c2b6eae5ab15276d8e45c68"
+            "href": "https://api.github.com/repos/conda-forge/galsim-feedstock/statuses/89ded6135e4d41b5d4e03a0e55140321b7441996"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
+    "commits": 7,
     "additions": 277,
     "deletions": 20,
     "changed_files": 17,
-    "Last-Modified": "Wed, 24 Oct 2018 17:01:17 GMT",
-    "ETag": "W/\"21c239923460bec52143510338c115be\""
+    "Last-Modified": "Wed, 24 Oct 2018 18:01:07 GMT",
+    "ETag": "W/\"dea876bf4d1b5e0ff232aa2ef74c29d0\""
 }
