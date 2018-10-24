@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/reproject-feedstock/pull/8.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/reproject-feedstock/issues/8",
     "number": 8,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T03:18:08Z",
-    "updated_at": "2018-07-26T03:18:12Z",
-    "closed_at": null,
+    "updated_at": "2018-10-24T10:05:48Z",
+    "closed_at": "2018-10-24T10:05:48Z",
     "merged_at": null,
     "merge_commit_sha": "41bd7bc11a1730f08a789194750b76a476cf4590",
     "assignee": null,
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/reproject-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/reproject-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/reproject-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/reproject-feedstock/deployments",
             "created_at": "2016-07-07T11:46:52Z",
-            "updated_at": "2018-08-04T17:28:21Z",
-            "pushed_at": "2018-10-24T08:19:22Z",
+            "updated_at": "2018-10-24T10:05:23Z",
+            "pushed_at": "2018-10-24T10:05:21Z",
             "git_url": "git://github.com/conda-forge/reproject-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/reproject-feedstock.git",
             "clone_url": "https://github.com/conda-forge/reproject-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 306,
     "deletions": 144,
     "changed_files": 25,
-    "Last-Modified": "Thu, 26 Jul 2018 03:18:12 GMT",
-    "ETag": "W/\"d0e63dc8f77f3393f5a9c8a611a2aaa0\""
+    "Last-Modified": "Wed, 24 Oct 2018 10:05:48 GMT",
+    "ETag": "W/\"df7cd46e8f36eb0dbe549d8f4a45575a\""
 }
