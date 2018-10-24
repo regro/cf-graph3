@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/help2man-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nMoving automake from host to build\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-24T01:26:11Z",
-    "updated_at": "2018-07-25T18:35:09Z",
-    "closed_at": null,
+    "updated_at": "2018-10-24T21:36:08Z",
+    "closed_at": "2018-10-24T21:36:08Z",
     "merged_at": null,
     "merge_commit_sha": "c4d95b2e19ed66b77d176beb3b939cc6c01041c6",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/help2man-feedstock/deployments",
             "created_at": "2016-12-07T00:53:12Z",
-            "updated_at": "2018-10-02T01:01:49Z",
-            "pushed_at": "2018-10-13T22:30:39Z",
+            "updated_at": "2018-10-24T21:34:24Z",
+            "pushed_at": "2018-10-24T21:34:22Z",
             "git_url": "git://github.com/conda-forge/help2man-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/help2man-feedstock.git",
             "clone_url": "https://github.com/conda-forge/help2man-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 4,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 3,
     "additions": 232,
     "deletions": 86,
     "changed_files": 19,
-    "Last-Modified": "Wed, 25 Jul 2018 18:35:09 GMT",
-    "ETag": "W/\"4a87b345bd778d91c5ba0e6e694123e6\""
+    "Last-Modified": "Wed, 24 Oct 2018 21:36:08 GMT",
+    "ETag": "W/\"a51084d370af6a6ced8ada1c5effd401\""
 }
