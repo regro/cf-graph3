@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/av-feedstock/pull/9.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/av-feedstock/issues/9",
     "number": 9,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving pkg-config from host to build\nRemoving pinnings for ffmpeg to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T17:22:53Z",
-    "updated_at": "2018-07-26T17:22:57Z",
-    "closed_at": null,
+    "updated_at": "2018-10-25T12:12:30Z",
+    "closed_at": "2018-10-25T12:12:30Z",
     "merged_at": null,
     "merge_commit_sha": "d3d4a8ce6cebf95d19246b2284951e397ef998b9",
     "assignee": null,
@@ -269,7 +269,7 @@
             "clone_url": "https://github.com/conda-forge/av-feedstock.git",
             "svn_url": "https://github.com/conda-forge/av-feedstock",
             "homepage": null,
-            "size": 21,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 9,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 9,
-            "open_issues": 6,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -325,17 +325,17 @@
     "body_html": "<p>List of changes done to the recipe:<br>\nRenamed build with host<br>\nMoving pkg-config from host to build<br>\nRemoving pinnings for ffmpeg to use values from conda_build_config.yaml. If you need the pin see <a href=\"https://conda-forge.org/docs/meta.html#pinning-packages\" rel=\"nofollow\">here</a> for details.<br>\nAdding C compiler</p>\n<p><em>If you have recived a <code>Migrate to Jinja2 compiler syntax</code> PR from me recently please close that one and use this one</em>.<br>\nIt is very likely that this feedstock is in need of migration.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>If this recipe has a <code>cython</code> dependency please note that only a <code>C</code> compiler has been added. If the project also needs a <code>C++</code> compiler please add it by adding <code>- { compiler('cxx') }</code> to the build section</li>\n</ol>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "List of changes done to the recipe:\nRenamed build with host\nMoving pkg-config from host to build\nRemoving pinnings for ffmpeg to use values from conda_build_config.yaml. If you need the pin see here for details.\nAdding C compiler\nIf you have recived a Migrate to Jinja2 compiler syntax PR from me recently please close that one and use this one.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nIf this recipe has a cython dependency please note that only a C compiler has been added. If the project also needs a C++ compiler please add it by adding - { compiler('cxx') } to the build section\n\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": false,
+    "rebaseable": false,
+    "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 326,
     "deletions": 146,
     "changed_files": 25,
-    "Last-Modified": "Thu, 26 Jul 2018 17:22:57 GMT",
-    "ETag": "W/\"9dc613b32704a388e3916d3e3ab26be0\""
+    "Last-Modified": "Thu, 25 Oct 2018 12:12:30 GMT",
+    "ETag": "W/\"97829b6934f234d8dfe42987026c2ece\""
 }

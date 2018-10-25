@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-10T21:55:52Z",
-    "updated_at": "2018-10-25T08:55:50Z",
+    "updated_at": "2018-10-25T12:15:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e9d6f102729d7defb1f17955f84023bb362aec5e",
+    "merge_commit_sha": "904228f9ef453cb46e76551183346e0e7160097d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/pulls/51/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/issues/51/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/statuses/e440db4c6eb8f1b2f22f094132545dff8c374932",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/statuses/7754d8810b270325d4f1538c2aae56b98277c9be",
     "head": {
         "label": "regro-cf-autotick-bot:10.12.0",
         "ref": "10.12.0",
-        "sha": "e440db4c6eb8f1b2f22f094132545dff8c374932",
+        "sha": "7754d8810b270325d4f1538c2aae56b98277c9be",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nodejs-feedstock/deployments",
             "created_at": "2018-03-24T02:54:47Z",
             "updated_at": "2018-03-24T02:54:49Z",
-            "pushed_at": "2018-10-25T08:55:49Z",
+            "pushed_at": "2018-10-25T12:15:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nodejs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nodejs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nodejs-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nodejs-feedstock/deployments",
             "created_at": "2016-04-07T14:30:21Z",
             "updated_at": "2018-10-01T15:08:14Z",
-            "pushed_at": "2018-10-25T09:08:12Z",
+            "pushed_at": "2018-10-25T12:15:52Z",
             "git_url": "git://github.com/conda-forge/nodejs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nodejs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nodejs-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/nodejs-feedstock/pulls/51/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nodejs-feedstock/statuses/e440db4c6eb8f1b2f22f094132545dff8c374932"
+            "href": "https://api.github.com/repos/conda-forge/nodejs-feedstock/statuses/7754d8810b270325d4f1538c2aae56b98277c9be"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 17,
-    "deletions": 3,
+    "commits": 4,
+    "additions": 18,
+    "deletions": 4,
     "changed_files": 3,
-    "Last-Modified": "Thu, 25 Oct 2018 08:55:50 GMT",
-    "ETag": "W/\"803d9a2a9af3fd432c64bbe116f56bb6\""
+    "Last-Modified": "Thu, 25 Oct 2018 12:15:52 GMT",
+    "ETag": "W/\"99c1134a48ec6b643311cfd75bc24573\""
 }
