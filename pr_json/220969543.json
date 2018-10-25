@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nnetgen\nsmesh\nfreecad\ngmsh\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T19:57:30Z",
-    "updated_at": "2018-10-07T19:57:33Z",
+    "updated_at": "2018-10-25T13:28:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a335d7947c1657bebb3b2dcc9ad3b3bd0cdfb939",
+    "merge_commit_sha": "3f2c65cb61c15aac4c0ac13a8f59274e9311ca9b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/occt-feedstock/pulls/26/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/occt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/occt-feedstock/issues/26/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/occt-feedstock/statuses/fd88321d1b069db45a2a34f861348440f0f7ed18",
+    "statuses_url": "https://api.github.com/repos/conda-forge/occt-feedstock/statuses/3eac88aa1fbd7d55f0cd2b6794968ef13d9255cf",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "fd88321d1b069db45a2a34f861348440f0f7ed18",
+        "sha": "3eac88aa1fbd7d55f0cd2b6794968ef13d9255cf",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/occt-feedstock/deployments",
             "created_at": "2018-10-07T19:57:16Z",
             "updated_at": "2018-10-07T19:57:18Z",
-            "pushed_at": "2018-10-07T19:57:29Z",
+            "pushed_at": "2018-10-25T13:28:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/occt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/occt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/occt-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/occt-feedstock/deployments",
             "created_at": "2016-11-05T15:20:37Z",
             "updated_at": "2018-09-23T10:39:39Z",
-            "pushed_at": "2018-10-07T19:57:31Z",
+            "pushed_at": "2018-10-25T13:28:32Z",
             "git_url": "git://github.com/conda-forge/occt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/occt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/occt-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/occt-feedstock/pulls/26/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/occt-feedstock/statuses/fd88321d1b069db45a2a34f861348440f0f7ed18"
+            "href": "https://api.github.com/repos/conda-forge/occt-feedstock/statuses/3eac88aa1fbd7d55f0cd2b6794968ef13d9255cf"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 109,
     "deletions": 15,
     "changed_files": 7,
-    "Last-Modified": "Sun, 07 Oct 2018 19:57:33 GMT",
-    "ETag": "W/\"cdb18dd2fbfd08763a682b0cc3aedab9\""
+    "Last-Modified": "Thu, 25 Oct 2018 13:28:31 GMT",
+    "ETag": "W/\"76395f866625bd94d260b63285c20fa0\""
 }

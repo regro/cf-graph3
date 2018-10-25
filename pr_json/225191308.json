@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|arrow-cpp|0.11.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/arrow-cpp.svg)](https://anaconda.org/conda-forge/arrow-cpp)|\n",
     "created_at": "2018-10-23T21:21:10Z",
-    "updated_at": "2018-10-23T21:22:07Z",
+    "updated_at": "2018-10-25T13:55:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2ebd00bf8095e7a6ffabf3d5571d4d0c495fa3bf",
+    "merge_commit_sha": "c7cf53a36d4081072d904d4834a3630d57f85dbb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/pulls/59/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/issues/59/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/statuses/940ad40b804529d622ee863f095b2a3f57c8dfda",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/statuses/037d2eca585f182950c9e031042955393472b7ea",
     "head": {
         "label": "regro-cf-autotick-bot:0.11.1",
         "ref": "0.11.1",
-        "sha": "940ad40b804529d622ee863f095b2a3f57c8dfda",
+        "sha": "037d2eca585f182950c9e031042955393472b7ea",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyarrow-feedstock/deployments",
             "created_at": "2018-07-01T00:01:56Z",
             "updated_at": "2018-07-01T00:01:58Z",
-            "pushed_at": "2018-10-23T21:21:10Z",
+            "pushed_at": "2018-10-25T13:55:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyarrow-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyarrow-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyarrow-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/deployments",
             "created_at": "2016-10-20T03:13:23Z",
             "updated_at": "2018-10-09T13:56:58Z",
-            "pushed_at": "2018-10-23T21:21:11Z",
+            "pushed_at": "2018-10-25T13:55:38Z",
             "git_url": "git://github.com/conda-forge/pyarrow-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyarrow-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyarrow-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/pulls/59/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/statuses/940ad40b804529d622ee863f095b2a3f57c8dfda"
+            "href": "https://api.github.com/repos/conda-forge/pyarrow-feedstock/statuses/037d2eca585f182950c9e031042955393472b7ea"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -336,6 +336,6 @@
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Tue, 23 Oct 2018 21:22:07 GMT",
-    "ETag": "W/\"c4b6ec66f0dc54adc08a6205d2334fce\""
+    "Last-Modified": "Thu, 25 Oct 2018 13:55:37 GMT",
+    "ETag": "W/\"80ee341ad06ffb7c28768d786d13106b\""
 }
