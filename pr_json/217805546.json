@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T22:22:43Z",
-    "updated_at": "2018-10-25T12:52:28Z",
+    "updated_at": "2018-10-25T15:15:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e79487d0dff62f81db8308d9d7e7fe0c401a1f24",
+    "merge_commit_sha": "637d214ad3992bbed32591d243001596c761e9b2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/statuses/f187fbf06444a7b5a362b1002ca5d31c5bed6b4a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/statuses/a4fb38de3e30e3bdff5259e1d8a83e5f3f6c255a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f187fbf06444a7b5a362b1002ca5d31c5bed6b4a",
+        "sha": "a4fb38de3e30e3bdff5259e1d8a83e5f3f6c255a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/neuron-feedstock/deployments",
             "created_at": "2018-08-29T11:13:59Z",
             "updated_at": "2018-08-29T11:14:01Z",
-            "pushed_at": "2018-10-25T12:52:27Z",
+            "pushed_at": "2018-10-25T15:15:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/neuron-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/neuron-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/neuron-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/neuron-feedstock/deployments",
             "created_at": "2018-07-16T16:46:08Z",
             "updated_at": "2018-08-30T08:40:53Z",
-            "pushed_at": "2018-10-25T12:52:28Z",
+            "pushed_at": "2018-10-25T15:15:37Z",
             "git_url": "git://github.com/conda-forge/neuron-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/neuron-feedstock.git",
             "clone_url": "https://github.com/conda-forge/neuron-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/neuron-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/neuron-feedstock/statuses/f187fbf06444a7b5a362b1002ca5d31c5bed6b4a"
+            "href": "https://api.github.com/repos/conda-forge/neuron-feedstock/statuses/a4fb38de3e30e3bdff5259e1d8a83e5f3f6c255a"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 11,
-    "additions": 400,
-    "deletions": 22,
-    "changed_files": 19,
-    "Last-Modified": "Thu, 25 Oct 2018 12:52:28 GMT",
-    "ETag": "W/\"2a9c4d5bf296fea5ba319574551395d7\""
+    "commits": 12,
+    "additions": 449,
+    "deletions": 24,
+    "changed_files": 20,
+    "Last-Modified": "Thu, 25 Oct 2018 15:15:36 GMT",
+    "ETag": "W/\"317b1c8873bb5eac8f584750d32164a8\""
 }
