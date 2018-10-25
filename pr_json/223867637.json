@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T08:31:54Z",
-    "updated_at": "2018-10-21T22:17:08Z",
+    "updated_at": "2018-10-25T18:23:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ae0203da22829edcba91241ae12a7f7746bdcf88",
+    "merge_commit_sha": "343acd53a06a098e90eb9bd83eada1d5c3aadd0a",
     "assignee": {
         "login": "ax3l",
         "id": 1353258,
@@ -414,6 +414,6 @@
     "additions": 349,
     "deletions": 31,
     "changed_files": 21,
-    "Last-Modified": "Sun, 21 Oct 2018 22:17:08 GMT",
-    "ETag": "W/\"586c9ff08ac0724723eb96522c05aac2\""
+    "Last-Modified": "Thu, 25 Oct 2018 18:23:37 GMT",
+    "ETag": "W/\"7c38cf60366a72287301a2c82b9361a0\""
 }
