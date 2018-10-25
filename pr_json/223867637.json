@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T08:31:54Z",
-    "updated_at": "2018-10-25T18:23:37Z",
+    "updated_at": "2018-10-25T20:40:38Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "343acd53a06a098e90eb9bd83eada1d5c3aadd0a",
@@ -78,28 +78,7 @@
             "site_admin": false
         }
     ],
-    "requested_reviewers": [
-        {
-            "login": "ax3l",
-            "id": 1353258,
-            "node_id": "MDQ6VXNlcjEzNTMyNTg=",
-            "avatar_url": "https://avatars3.githubusercontent.com/u/1353258?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/ax3l",
-            "html_url": "https://github.com/ax3l",
-            "followers_url": "https://api.github.com/users/ax3l/followers",
-            "following_url": "https://api.github.com/users/ax3l/following{/other_user}",
-            "gists_url": "https://api.github.com/users/ax3l/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/ax3l/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/ax3l/subscriptions",
-            "organizations_url": "https://api.github.com/users/ax3l/orgs",
-            "repos_url": "https://api.github.com/users/ax3l/repos",
-            "events_url": "https://api.github.com/users/ax3l/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/ax3l/received_events",
-            "type": "User",
-            "site_admin": false
-        }
-    ],
+    "requested_reviewers": [],
     "requested_teams": [],
     "labels": [
         {
@@ -408,12 +387,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 7,
-    "review_comments": 0,
+    "review_comments": 1,
     "maintainer_can_modify": true,
     "commits": 4,
     "additions": 349,
     "deletions": 31,
     "changed_files": 21,
-    "Last-Modified": "Thu, 25 Oct 2018 18:23:37 GMT",
-    "ETag": "W/\"7c38cf60366a72287301a2c82b9361a0\""
+    "Last-Modified": "Thu, 25 Oct 2018 20:40:38 GMT",
+    "ETag": "W/\"10b32bc467c39612813896c2a881cdb8\""
 }
