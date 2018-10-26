@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nbatman\notfftw\notlm\notmixmod\notmorris\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-26T14:30:12Z",
-    "updated_at": "2018-10-26T15:50:00Z",
+    "updated_at": "2018-10-26T18:46:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "18362745ded44a70eab8b6561efef000fea8d67a",
+    "merge_commit_sha": "71fdbb11eae9091907293101eeacade53e2683ad",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/pulls/66/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/issues/66/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/statuses/aebbef8d72f8f9d3d2d956147c77f0ae571c2763",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/statuses/b5a771c5f18827eeece3c8e1ebcd7b49ec9fda62",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "aebbef8d72f8f9d3d2d956147c77f0ae571c2763",
+        "sha": "b5a771c5f18827eeece3c8e1ebcd7b49ec9fda62",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openturns-feedstock/deployments",
             "created_at": "2018-03-28T10:27:35Z",
             "updated_at": "2018-03-28T10:27:36Z",
-            "pushed_at": "2018-10-26T15:49:59Z",
+            "pushed_at": "2018-10-26T18:46:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openturns-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openturns-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openturns-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openturns-feedstock/deployments",
             "created_at": "2016-05-27T05:30:12Z",
             "updated_at": "2018-10-25T14:48:31Z",
-            "pushed_at": "2018-10-26T16:07:55Z",
+            "pushed_at": "2018-10-26T18:46:03Z",
             "git_url": "git://github.com/conda-forge/openturns-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openturns-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openturns-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/openturns-feedstock/pulls/66/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openturns-feedstock/statuses/aebbef8d72f8f9d3d2d956147c77f0ae571c2763"
+            "href": "https://api.github.com/repos/conda-forge/openturns-feedstock/statuses/b5a771c5f18827eeece3c8e1ebcd7b49ec9fda62"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 527,
+    "commits": 4,
+    "additions": 565,
     "deletions": 14,
-    "changed_files": 19,
-    "Last-Modified": "Fri, 26 Oct 2018 15:50:00 GMT",
-    "ETag": "W/\"d359ee3baa96dd6f150f32b5b0341c7a\""
+    "changed_files": 20,
+    "Last-Modified": "Fri, 26 Oct 2018 18:46:03 GMT",
+    "ETag": "W/\"3274a1cf3467f5aa5b1a73f5082b3b8d\""
 }
