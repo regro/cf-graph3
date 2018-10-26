@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T08:31:54Z",
-    "updated_at": "2018-10-25T20:40:38Z",
+    "updated_at": "2018-10-26T08:55:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "343acd53a06a098e90eb9bd83eada1d5c3aadd0a",
+    "merge_commit_sha": "40dc5e973125a6f4389956dd13f00d4d7ff3d0a3",
     "assignee": {
         "login": "ax3l",
         "id": 1353258,
@@ -103,11 +103,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/statuses/8151683397c8ce271a0bc4f3ec06c79f67eb3457",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/statuses/b297fb0fdfa9e64456915ba5bcf5746546f402ce",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8151683397c8ce271a0bc4f3ec06c79f67eb3457",
+        "sha": "b297fb0fdfa9e64456915ba5bcf5746546f402ce",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -196,7 +196,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openpmd-api-feedstock/deployments",
             "created_at": "2018-10-17T19:30:12Z",
             "updated_at": "2018-10-17T19:30:14Z",
-            "pushed_at": "2018-10-21T22:17:08Z",
+            "pushed_at": "2018-10-26T08:55:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openpmd-api-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openpmd-api-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openpmd-api-feedstock.git",
@@ -320,7 +320,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/deployments",
             "created_at": "2018-06-07T18:49:19Z",
             "updated_at": "2018-09-25T05:58:14Z",
-            "pushed_at": "2018-10-21T22:17:09Z",
+            "pushed_at": "2018-10-26T08:55:37Z",
             "git_url": "git://github.com/conda-forge/openpmd-api-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openpmd-api-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openpmd-api-feedstock.git",
@@ -375,7 +375,7 @@
             "href": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/statuses/8151683397c8ce271a0bc4f3ec06c79f67eb3457"
+            "href": "https://api.github.com/repos/conda-forge/openpmd-api-feedstock/statuses/b297fb0fdfa9e64456915ba5bcf5746546f402ce"
         }
     },
     "author_association": "NONE",
@@ -389,10 +389,10 @@
     "comments": 7,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 349,
+    "commits": 5,
+    "additions": 353,
     "deletions": 31,
     "changed_files": 21,
-    "Last-Modified": "Thu, 25 Oct 2018 20:40:38 GMT",
-    "ETag": "W/\"10b32bc467c39612813896c2a881cdb8\""
+    "Last-Modified": "Fri, 26 Oct 2018 08:55:37 GMT",
+    "ETag": "W/\"1ba1301568d4f56602ae076d523a3ee2\""
 }
