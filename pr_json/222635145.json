@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\narcsi\nbatman\ndipy\nelektronn\nelektronn2\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T07:57:33Z",
-    "updated_at": "2018-10-26T14:28:42Z",
+    "updated_at": "2018-10-26T15:25:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ab110a61a9499dc206bba19017796f62a3e65506",
+    "merge_commit_sha": "c2cae2261b4d0fb1e0613298866949cd55886ea5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/pulls/76/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/issues/76/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/statuses/9b7e71092ae52be5b6360ac0f830be549e160190",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/statuses/27f3e303294da9b7d56f6db254493608cb20aa58",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9b7e71092ae52be5b6360ac0f830be549e160190",
+        "sha": "27f3e303294da9b7d56f6db254493608cb20aa58",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scikit-learn-feedstock/deployments",
             "created_at": "2018-07-15T16:11:06Z",
             "updated_at": "2018-07-15T16:11:09Z",
-            "pushed_at": "2018-10-21T06:51:44Z",
+            "pushed_at": "2018-10-26T15:25:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scikit-learn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scikit-learn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scikit-learn-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/deployments",
             "created_at": "2016-05-22T02:17:58Z",
             "updated_at": "2018-09-26T16:27:14Z",
-            "pushed_at": "2018-10-21T06:51:45Z",
+            "pushed_at": "2018-10-26T15:25:09Z",
             "git_url": "git://github.com/conda-forge/scikit-learn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scikit-learn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scikit-learn-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/pulls/76/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/statuses/9b7e71092ae52be5b6360ac0f830be549e160190"
+            "href": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/statuses/27f3e303294da9b7d56f6db254493608cb20aa58"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 27,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 385,
-    "deletions": 35,
-    "changed_files": 15,
-    "Last-Modified": "Fri, 26 Oct 2018 14:28:42 GMT",
-    "ETag": "W/\"39be7b5c5fce45e049ba3242250d41de\""
+    "commits": 6,
+    "additions": 383,
+    "deletions": 52,
+    "changed_files": 17,
+    "Last-Modified": "Fri, 26 Oct 2018 15:25:08 GMT",
+    "ETag": "W/\"be7d05b48b508cda506a76b50e723c26\""
 }
