@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-25T19:19:36Z",
-    "updated_at": "2018-10-25T19:40:14Z",
+    "updated_at": "2018-10-26T04:55:18Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "954549b43f88b8cf5b0e3acb7ad1e42474e02528",
+    "merge_commit_sha": "0199ef8ab5a8e26a4ce899a05d9f652d234bbced",
     "assignee": {
         "login": "isuruf",
         "id": 5234427,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/blis-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/blis-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/blis-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/blis-feedstock/statuses/ca8f744668a8793d0e76f9dc98bdba3ba0e9cfd5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/blis-feedstock/statuses/43904803f0ece5bcf0964b3d33f117a33c7983d6",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.0",
         "ref": "0.5.0",
-        "sha": "ca8f744668a8793d0e76f9dc98bdba3ba0e9cfd5",
+        "sha": "43904803f0ece5bcf0964b3d33f117a33c7983d6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/blis-feedstock/deployments",
             "created_at": "2018-07-25T22:19:37Z",
             "updated_at": "2018-07-25T22:19:39Z",
-            "pushed_at": "2018-10-25T19:40:14Z",
+            "pushed_at": "2018-10-26T04:55:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/blis-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/blis-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/blis-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/blis-feedstock/deployments",
             "created_at": "2018-07-05T14:47:48Z",
             "updated_at": "2018-09-07T18:05:04Z",
-            "pushed_at": "2018-10-25T19:40:15Z",
+            "pushed_at": "2018-10-26T04:55:18Z",
             "git_url": "git://github.com/conda-forge/blis-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/blis-feedstock.git",
             "clone_url": "https://github.com/conda-forge/blis-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/blis-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/blis-feedstock/statuses/ca8f744668a8793d0e76f9dc98bdba3ba0e9cfd5"
+            "href": "https://api.github.com/repos/conda-forge/blis-feedstock/statuses/43904803f0ece5bcf0964b3d33f117a33c7983d6"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 8,
     "deletions": 183,
     "changed_files": 3,
-    "Last-Modified": "Thu, 25 Oct 2018 19:40:14 GMT",
-    "ETag": "W/\"132b0ec9d1491d0c2a039fb35c971c30\""
+    "Last-Modified": "Fri, 26 Oct 2018 04:55:18 GMT",
+    "ETag": "W/\"1992e450c7d7352e96263d00629c4b7e\""
 }
