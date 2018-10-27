@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/aloe-feedstock/deployments",
             "created_at": "2018-02-24T00:10:24Z",
             "updated_at": "2018-02-24T00:10:26Z",
-            "pushed_at": "2018-10-27T10:12:18Z",
+            "pushed_at": "2018-10-27T11:13:37Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/aloe-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/aloe-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/aloe-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/aloe-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/aloe-feedstock/deployments",
             "created_at": "2017-05-21T21:13:21Z",
             "updated_at": "2018-08-04T19:10:13Z",
-            "pushed_at": "2018-10-27T10:12:19Z",
+            "pushed_at": "2018-10-27T11:13:39Z",
             "git_url": "git://github.com/conda-forge/aloe-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/aloe-feedstock.git",
             "clone_url": "https://github.com/conda-forge/aloe-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 87,
     "deletions": 61,
-    "changed_files": 7
+    "changed_files": 7,
+    "Last-Modified": "Sat, 27 Oct 2018 10:12:24 GMT",
+    "ETag": "W/\"9263498214cdd72d20281dd6e7a75a9b\""
 }
