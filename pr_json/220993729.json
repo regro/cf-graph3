@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/sqlalchemy-utils-feedstock/pull/21.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/issues/21",
     "number": 21,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nflask-restalchemy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T02:56:52Z",
-    "updated_at": "2018-10-08T02:56:57Z",
-    "closed_at": null,
+    "updated_at": "2018-10-29T12:46:59Z",
+    "closed_at": "2018-10-29T12:46:59Z",
     "merged_at": null,
     "merge_commit_sha": "6089d5a08b185066fc0726a8ed16253ab4f505f0",
     "assignee": null,
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/pulls/21/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/statuses/18a4464c57854cad63749aaa693e553e7c1425ee",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/statuses/a9d30e8c3e1c8d293f20aef6233659cfde0fa4d0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "18a4464c57854cad63749aaa693e553e7c1425ee",
+        "sha": "a9d30e8c3e1c8d293f20aef6233659cfde0fa4d0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sqlalchemy-utils-feedstock/deployments",
             "created_at": "2018-03-06T03:27:49Z",
             "updated_at": "2018-03-06T03:27:51Z",
-            "pushed_at": "2018-10-14T07:28:11Z",
+            "pushed_at": "2018-10-29T12:24:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sqlalchemy-utils-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sqlalchemy-utils-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sqlalchemy-utils-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "3278e760c4d790ec0f328289d18931d1b480165b",
+        "sha": "9e26e31dc270a64237c723d6170b6e51e686f480",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/deployments",
             "created_at": "2016-09-19T01:22:30Z",
-            "updated_at": "2018-10-29T12:03:00Z",
-            "pushed_at": "2018-10-29T12:02:58Z",
+            "updated_at": "2018-10-29T13:06:18Z",
+            "pushed_at": "2018-10-29T13:07:03Z",
             "git_url": "git://github.com/conda-forge/sqlalchemy-utils-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sqlalchemy-utils-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sqlalchemy-utils-feedstock.git",
             "svn_url": "https://github.com/conda-forge/sqlalchemy-utils-feedstock",
             "homepage": null,
-            "size": 37,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 6,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 6,
+            "forks": 8,
             "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/pulls/21/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/statuses/18a4464c57854cad63749aaa693e553e7c1425ee"
+            "href": "https://api.github.com/repos/conda-forge/sqlalchemy-utils-feedstock/statuses/a9d30e8c3e1c8d293f20aef6233659cfde0fa4d0"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 219,
-    "deletions": 109,
-    "changed_files": 22,
-    "Last-Modified": "Mon, 08 Oct 2018 02:56:57 GMT",
-    "ETag": "W/\"1b826443675fc25881db76b4a5a3d85c\""
+    "maintainer_can_modify": false,
+    "commits": 13,
+    "additions": 207,
+    "deletions": 110,
+    "changed_files": 16,
+    "Last-Modified": "Mon, 29 Oct 2018 12:46:59 GMT",
+    "ETag": "W/\"73abca2ca16cd2e38be69083999fc22e\""
 }
