@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-30T20:21:54Z",
-    "updated_at": "2018-10-06T11:49:15Z",
+    "updated_at": "2018-10-30T09:00:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4d18775683513c0d6e6910e38de53831324509ea",
+    "merge_commit_sha": "47a2149b7265860398481e5ceebb500fd924ccc3",
     "assignee": {
         "login": "carlodri",
         "id": 5230366,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/statuses/b82f7b852843c44732d55eeaeb82fcd0ae8bf45e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/statuses/2489344ad53bd52d8ee2e93ab5556fc577869298",
     "head": {
         "label": "regro-cf-autotick-bot:0.60.2",
         "ref": "0.60.2",
-        "sha": "b82f7b852843c44732d55eeaeb82fcd0ae8bf45e",
+        "sha": "2489344ad53bd52d8ee2e93ab5556fc577869298",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pycroscopy-feedstock/deployments",
             "created_at": "2018-04-18T17:15:03Z",
             "updated_at": "2018-04-18T17:15:05Z",
-            "pushed_at": "2018-10-30T02:15:03Z",
+            "pushed_at": "2018-10-30T09:00:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pycroscopy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pycroscopy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pycroscopy-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/deployments",
             "created_at": "2018-03-29T15:10:05Z",
             "updated_at": "2018-08-04T18:34:20Z",
-            "pushed_at": "2018-10-30T02:15:04Z",
+            "pushed_at": "2018-10-30T09:00:51Z",
             "git_url": "git://github.com/conda-forge/pycroscopy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pycroscopy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pycroscopy-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/statuses/b82f7b852843c44732d55eeaeb82fcd0ae8bf45e"
+            "href": "https://api.github.com/repos/conda-forge/pycroscopy-feedstock/statuses/2489344ad53bd52d8ee2e93ab5556fc577869298"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 32,
+    "comments": 33,
     "review_comments": 3,
     "maintainer_can_modify": true,
-    "commits": 14,
-    "additions": 115,
-    "deletions": 39,
-    "changed_files": 17,
-    "Last-Modified": "Sat, 06 Oct 2018 11:49:02 GMT",
-    "ETag": "W/\"a60e4d4e12196bb359db0841484d5b3a\""
+    "commits": 16,
+    "additions": 96,
+    "deletions": 85,
+    "changed_files": 18,
+    "Last-Modified": "Tue, 30 Oct 2018 09:00:50 GMT",
+    "ETag": "W/\"485eec536dc13506d452c18146c7d458\""
 }
