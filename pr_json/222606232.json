@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npython-ligo-lw\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-12T23:01:51Z",
-    "updated_at": "2018-10-12T23:01:55Z",
+    "updated_at": "2018-10-31T17:34:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "62fef70c77accd4140545dbdfca7fb820bcb739e",
+    "merge_commit_sha": "f8176b57b8731d6140bc8a3338829d180c2f3bd5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/statuses/3d31572977abc3cf1eaabb418fc1521118cc2dd7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/statuses/3b35d47f0371fb29129c61cd95162b6ab576bfae",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3d31572977abc3cf1eaabb418fc1521118cc2dd7",
+        "sha": "3b35d47f0371fb29129c61cd95162b6ab576bfae",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lscsoft-glue-feedstock/deployments",
             "created_at": "2018-06-06T04:31:29Z",
             "updated_at": "2018-06-06T04:31:32Z",
-            "pushed_at": "2018-10-30T22:18:26Z",
+            "pushed_at": "2018-10-31T17:34:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lscsoft-glue-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lscsoft-glue-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lscsoft-glue-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "6c4a4deacbb54d8c911122f22981cb91123db3ee",
+        "sha": "4529823c827d0d475903aec4f86758d425c074b2",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/deployments",
             "created_at": "2018-06-05T14:29:45Z",
-            "updated_at": "2018-08-04T18:49:09Z",
-            "pushed_at": "2018-10-30T22:18:27Z",
+            "updated_at": "2018-10-31T17:27:32Z",
+            "pushed_at": "2018-10-31T17:34:04Z",
             "git_url": "git://github.com/conda-forge/lscsoft-glue-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lscsoft-glue-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lscsoft-glue-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/statuses/3d31572977abc3cf1eaabb418fc1521118cc2dd7"
+            "href": "https://api.github.com/repos/conda-forge/lscsoft-glue-feedstock/statuses/3b35d47f0371fb29129c61cd95162b6ab576bfae"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 148,
-    "deletions": 58,
-    "changed_files": 17
+    "commits": 3,
+    "additions": 311,
+    "deletions": 16,
+    "changed_files": 17,
+    "Last-Modified": "Wed, 31 Oct 2018 17:34:03 GMT",
+    "ETag": "W/\"ebc8b77e58f5410a813bbe17fe5e6c4f\""
 }
