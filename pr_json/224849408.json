@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-22T23:52:52Z",
-    "updated_at": "2018-10-22T23:52:56Z",
+    "updated_at": "2018-10-31T03:29:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bf35ec6595aa5d4cdedc2129c95cd0b1541f4a8c",
+    "merge_commit_sha": "bd37e8b1e695aff8cca687a62cb1acd8fafbd967",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/statuses/71c7f16bc707b62b96926bec20174bb9e57c8694",
+    "statuses_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/statuses/d3b7060e71421b92f8a08b2ec71e4b0cd18f57f9",
     "head": {
         "label": "regro-cf-autotick-bot:3.2.0",
         "ref": "3.2.0",
-        "sha": "71c7f16bc707b62b96926bec20174bb9e57c8694",
+        "sha": "d3b7060e71421b92f8a08b2ec71e4b0cd18f57f9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/timezonefinder-feedstock/deployments",
             "created_at": "2018-03-06T03:45:17Z",
             "updated_at": "2018-03-06T03:45:19Z",
-            "pushed_at": "2018-10-22T23:52:51Z",
+            "pushed_at": "2018-10-31T03:29:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/timezonefinder-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/timezonefinder-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/timezonefinder-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/deployments",
             "created_at": "2017-02-02T12:37:36Z",
             "updated_at": "2018-08-04T18:54:29Z",
-            "pushed_at": "2018-10-22T23:52:52Z",
+            "pushed_at": "2018-10-31T03:29:33Z",
             "git_url": "git://github.com/conda-forge/timezonefinder-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/timezonefinder-feedstock.git",
             "clone_url": "https://github.com/conda-forge/timezonefinder-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 4,
+            "open_issues": 2,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/statuses/71c7f16bc707b62b96926bec20174bb9e57c8694"
+            "href": "https://api.github.com/repos/conda-forge/timezonefinder-feedstock/statuses/d3b7060e71421b92f8a08b2ec71e4b0cd18f57f9"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 9,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 39,
-    "deletions": 21,
-    "changed_files": 7,
-    "Last-Modified": "Mon, 22 Oct 2018 23:52:56 GMT",
-    "ETag": "W/\"4e37a5795aa3eef3625470f747feb6d9\""
+    "commits": 6,
+    "additions": 258,
+    "deletions": 27,
+    "changed_files": 15,
+    "Last-Modified": "Wed, 31 Oct 2018 03:29:32 GMT",
+    "ETag": "W/\"5cdae69cf6765921e4029ff2bd8d46b0\""
 }

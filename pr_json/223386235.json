@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nuavro\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-16T20:31:08Z",
-    "updated_at": "2018-10-23T15:18:24Z",
+    "updated_at": "2018-10-31T03:57:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c817dbe9fbe96f7656b788390ab893f75b1f8f0e",
+    "merge_commit_sha": "8932d95f0e71a9856e66a755222a102d5c6f1b5f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/statuses/e28a36447fe030bf80662b9b8329b572a2691c17",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/statuses/bc0e5709e3afa2d93efa01e101bed60eedf3835b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e28a36447fe030bf80662b9b8329b572a2691c17",
+        "sha": "bc0e5709e3afa2d93efa01e101bed60eedf3835b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fastparquet-feedstock/deployments",
             "created_at": "2018-07-26T00:29:36Z",
             "updated_at": "2018-07-26T00:29:38Z",
-            "pushed_at": "2018-10-16T20:31:08Z",
+            "pushed_at": "2018-10-31T03:57:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fastparquet-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fastparquet-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fastparquet-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/deployments",
             "created_at": "2016-11-03T13:53:38Z",
             "updated_at": "2018-08-19T23:21:11Z",
-            "pushed_at": "2018-10-16T20:31:09Z",
+            "pushed_at": "2018-10-31T03:57:08Z",
             "git_url": "git://github.com/conda-forge/fastparquet-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fastparquet-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fastparquet-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/statuses/e28a36447fe030bf80662b9b8329b572a2691c17"
+            "href": "https://api.github.com/repos/conda-forge/fastparquet-feedstock/statuses/bc0e5709e3afa2d93efa01e101bed60eedf3835b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 394,
-    "deletions": 159,
-    "changed_files": 26,
-    "Last-Modified": "Tue, 23 Oct 2018 15:18:24 GMT",
-    "ETag": "W/\"86e5042faef34d91a9927a85409bfed7\""
+    "commits": 4,
+    "additions": 627,
+    "deletions": 153,
+    "changed_files": 32,
+    "Last-Modified": "Wed, 31 Oct 2018 03:57:07 GMT",
+    "ETag": "W/\"43f2bc01422bc14f80caa67c4e4a8a37\""
 }
