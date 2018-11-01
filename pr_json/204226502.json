@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving cmake from host to build\nRemoving gcc in favour of compiler()\nRemoving pinnings for numpy to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nRemoving libgcc in favour of compiler()\nPinning numpy using pin_compatible. If you need to pin numpy to a specific version see [here](https://conda-forge.org/docs/meta.html#building-against-numpy).\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T18:21:43Z",
-    "updated_at": "2018-11-01T15:55:01Z",
+    "updated_at": "2018-11-01T17:28:18Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "98818e436d31231a5077505dec3f7738a3986657",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 12,
+    "comments": 13,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 6,
     "additions": 274,
     "deletions": 124,
-    "changed_files": 22
+    "changed_files": 22,
+    "Last-Modified": "Thu, 01 Nov 2018 17:28:18 GMT",
+    "ETag": "W/\"435d1d5264b3f9098439ae3f5c26b068\""
 }
