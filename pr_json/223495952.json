@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsimbody\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T07:31:29Z",
-    "updated_at": "2018-10-21T15:47:22Z",
+    "updated_at": "2018-11-02T19:07:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "70b625ef7fc322ba2b225852063c578eccf5913d",
+    "merge_commit_sha": "629231d8b47bbe8b37ff2908b0d09fd255137e89",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/statuses/1fa560ed03e7a7d3dc4f9747c4b62e0e0b341a02",
+    "statuses_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/statuses/a906ebbca4a8b1f37c854471bcca91295ba723ec",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1fa560ed03e7a7d3dc4f9747c4b62e0e0b341a02",
+        "sha": "a906ebbca4a8b1f37c854471bcca91295ba723ec",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/freeglut-feedstock/deployments",
             "created_at": "2018-08-07T23:20:15Z",
             "updated_at": "2018-08-07T23:20:17Z",
-            "pushed_at": "2018-10-17T07:31:29Z",
+            "pushed_at": "2018-11-02T19:07:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/freeglut-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/freeglut-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/freeglut-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/freeglut-feedstock/deployments",
             "created_at": "2016-05-24T03:13:46Z",
             "updated_at": "2018-09-16T00:19:29Z",
-            "pushed_at": "2018-10-17T07:31:30Z",
+            "pushed_at": "2018-11-02T19:07:06Z",
             "git_url": "git://github.com/conda-forge/freeglut-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/freeglut-feedstock.git",
             "clone_url": "https://github.com/conda-forge/freeglut-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/freeglut-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/freeglut-feedstock/statuses/1fa560ed03e7a7d3dc4f9747c4b62e0e0b341a02"
+            "href": "https://api.github.com/repos/conda-forge/freeglut-feedstock/statuses/a906ebbca4a8b1f37c854471bcca91295ba723ec"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 56,
+    "commits": 5,
+    "additions": 66,
     "deletions": 9,
     "changed_files": 5,
-    "Last-Modified": "Sun, 21 Oct 2018 15:47:22 GMT",
-    "ETag": "W/\"76b1edb4c5d5d7eedcefb043ea3fcce2\""
+    "Last-Modified": "Fri, 02 Nov 2018 19:07:05 GMT",
+    "ETag": "W/\"9c023140eed930b56282fdecb8b074d7\""
 }
