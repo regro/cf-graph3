@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npivy\nsoqt\nfreecad\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T00:57:43Z",
-    "updated_at": "2018-11-01T10:34:56Z",
+    "updated_at": "2018-11-02T07:26:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0ff453a787d16d8922f4dcc2db682e2172cf3f9c",
+    "merge_commit_sha": "66d3ea0d45df82fef235489a55860625909a4786",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/statuses/e3b50339e11d37850152a7327470c20bded0c960",
+    "statuses_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/statuses/27d7154de978214cacc7e637af759859f71bd159",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e3b50339e11d37850152a7327470c20bded0c960",
+        "sha": "27d7154de978214cacc7e637af759859f71bd159",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/coin3d-feedstock/deployments",
             "created_at": "2018-10-08T00:57:29Z",
             "updated_at": "2018-10-08T00:57:32Z",
-            "pushed_at": "2018-10-31T16:37:33Z",
+            "pushed_at": "2018-11-02T07:26:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/coin3d-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/coin3d-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/coin3d-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/coin3d-feedstock/deployments",
             "created_at": "2018-03-01T15:23:55Z",
             "updated_at": "2018-08-04T18:47:38Z",
-            "pushed_at": "2018-10-31T16:37:34Z",
+            "pushed_at": "2018-11-02T07:26:15Z",
             "git_url": "git://github.com/conda-forge/coin3d-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/coin3d-feedstock.git",
             "clone_url": "https://github.com/conda-forge/coin3d-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/coin3d-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/coin3d-feedstock/statuses/e3b50339e11d37850152a7327470c20bded0c960"
+            "href": "https://api.github.com/repos/conda-forge/coin3d-feedstock/statuses/27d7154de978214cacc7e637af759859f71bd159"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 8,
+    "comments": 9,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 188,
-    "deletions": 69,
-    "changed_files": 17
+    "commits": 8,
+    "additions": 189,
+    "deletions": 70,
+    "changed_files": 17,
+    "Last-Modified": "Fri, 02 Nov 2018 07:26:19 GMT",
+    "ETag": "W/\"f03c4716daa8cef5df88b641dc6fa639\""
 }
