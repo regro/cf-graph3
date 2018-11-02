@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/dask-yarn-feedstock/pull/5.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/dask-yarn-feedstock/issues/5",
     "number": 5,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T16:02:16Z",
-    "updated_at": "2018-10-08T16:02:20Z",
-    "closed_at": null,
+    "updated_at": "2018-11-02T21:32:41Z",
+    "closed_at": "2018-11-02T21:32:41Z",
     "merged_at": null,
     "merge_commit_sha": "0fc67e84078eb1cbfad37d632b611b3a86157e7c",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/dask-yarn-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/dask-yarn-feedstock/deployments",
             "created_at": "2018-07-03T13:36:13Z",
-            "updated_at": "2018-10-30T10:37:07Z",
-            "pushed_at": "2018-10-30T10:37:05Z",
+            "updated_at": "2018-11-02T21:58:18Z",
+            "pushed_at": "2018-11-02T21:58:17Z",
             "git_url": "git://github.com/conda-forge/dask-yarn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dask-yarn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dask-yarn-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 152,
     "deletions": 62,
     "changed_files": 17,
-    "Last-Modified": "Mon, 08 Oct 2018 16:02:20 GMT",
-    "ETag": "W/\"2a0975f4d04e798c8cf7cf8d8c2cdcc1\""
+    "Last-Modified": "Fri, 02 Nov 2018 21:32:41 GMT",
+    "ETag": "W/\"7a96b691d51391cffaf004de4d52c9e3\""
 }
