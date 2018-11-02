@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-01T19:16:09Z",
-    "updated_at": "2018-11-01T19:17:51Z",
+    "updated_at": "2018-11-01T23:24:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fe240db45b6f6de8a84864a63da7bc035495b57a",
+    "merge_commit_sha": "5a491bc88fbd8689c76a7c231ecc4f0969d22731",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/statuses/283be400e6553d810f8ef84fac2da688beaa2ceb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/statuses/95c6cf8365e69046484bd547b94a2c64096a44c7",
     "head": {
         "label": "regro-cf-autotick-bot:0.1.2",
         "ref": "0.1.2",
-        "sha": "283be400e6553d810f8ef84fac2da688beaa2ceb",
+        "sha": "95c6cf8365e69046484bd547b94a2c64096a44c7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymt_sedflux-feedstock/deployments",
             "created_at": "2018-10-14T01:33:00Z",
             "updated_at": "2018-10-14T01:33:02Z",
-            "pushed_at": "2018-11-01T19:16:09Z",
+            "pushed_at": "2018-11-01T23:24:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymt_sedflux-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymt_sedflux-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymt_sedflux-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/deployments",
             "created_at": "2018-10-12T22:52:32Z",
             "updated_at": "2018-10-17T03:42:29Z",
-            "pushed_at": "2018-11-01T19:16:10Z",
+            "pushed_at": "2018-11-01T23:24:15Z",
             "git_url": "git://github.com/conda-forge/pymt_sedflux-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymt_sedflux-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymt_sedflux-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/statuses/283be400e6553d810f8ef84fac2da688beaa2ceb"
+            "href": "https://api.github.com/repos/conda-forge/pymt_sedflux-feedstock/statuses/95c6cf8365e69046484bd547b94a2c64096a44c7"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 5,
-    "deletions": 5,
+    "commits": 3,
+    "additions": 8,
+    "deletions": 8,
     "changed_files": 4,
-    "Last-Modified": "Thu, 01 Nov 2018 19:17:51 GMT",
-    "ETag": "W/\"d01ce036dfb905a5e508bb73ad6e73e1\""
+    "Last-Modified": "Thu, 01 Nov 2018 23:24:14 GMT",
+    "ETag": "W/\"10bc17aa97b2d372ef63a4fd86d75d24\""
 }
