@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-29T15:16:11Z",
-    "updated_at": "2018-10-29T15:16:18Z",
+    "updated_at": "2018-11-03T15:02:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "734f46683b809acb0d6ba536bd1de7fc0f998b6a",
+    "merge_commit_sha": "e51ccee8195d977354abf652356b3136b9a68b4d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/statuses/ff36691626b830203cbbfc679bb7d76c5495f8a5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/statuses/cb29fa2c70801e24adea40f6e24182050707b4e7",
     "head": {
         "label": "regro-cf-autotick-bot:0.19.0",
         "ref": "0.19.0",
-        "sha": "ff36691626b830203cbbfc679bb7d76c5495f8a5",
+        "sha": "cb29fa2c70801e24adea40f6e24182050707b4e7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/bazel-feedstock/deployments",
             "created_at": "2018-02-24T01:52:52Z",
             "updated_at": "2018-02-24T01:52:53Z",
-            "pushed_at": "2018-10-29T15:16:11Z",
+            "pushed_at": "2018-11-03T15:02:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/bazel-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/bazel-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/bazel-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/bazel-feedstock/deployments",
             "created_at": "2017-07-14T12:19:47Z",
             "updated_at": "2018-10-17T01:10:14Z",
-            "pushed_at": "2018-10-29T15:16:12Z",
+            "pushed_at": "2018-11-03T15:02:33Z",
             "git_url": "git://github.com/conda-forge/bazel-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/bazel-feedstock.git",
             "clone_url": "https://github.com/conda-forge/bazel-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/bazel-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/bazel-feedstock/statuses/ff36691626b830203cbbfc679bb7d76c5495f8a5"
+            "href": "https://api.github.com/repos/conda-forge/bazel-feedstock/statuses/cb29fa2c70801e24adea40f6e24182050707b4e7"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1,
-    "Last-Modified": "Mon, 29 Oct 2018 15:16:18 GMT",
-    "ETag": "W/\"667cdc58452a5f736dd3daa3ebceb883\""
+    "commits": 2,
+    "additions": 13,
+    "deletions": 12,
+    "changed_files": 2,
+    "Last-Modified": "Sat, 03 Nov 2018 15:02:32 GMT",
+    "ETag": "W/\"f56a226ca525a2c36c90a28aa6d723a0\""
 }
