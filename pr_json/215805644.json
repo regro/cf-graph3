@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nffmpeg\ngit-annex\nemacs\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-16T06:11:54Z",
-    "updated_at": "2018-11-03T14:51:51Z",
+    "updated_at": "2018-11-04T09:57:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1d8d85637804b1e61dd08e4aa3ce3eb57f6f74eb",
+    "merge_commit_sha": "bee3b25c24c81d4c0cc75d9ba7c9014e48e08c34",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/cc00c2aec85a9c5aedf47c87be23c1b639cd7b5e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/4453d129bb1dd668dc554a5602aac95f03a342e1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "cc00c2aec85a9c5aedf47c87be23c1b639cd7b5e",
+        "sha": "4453d129bb1dd668dc554a5602aac95f03a342e1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gnutls-feedstock/deployments",
             "created_at": "2018-09-16T05:08:57Z",
             "updated_at": "2018-09-16T05:08:59Z",
-            "pushed_at": "2018-09-16T06:11:54Z",
+            "pushed_at": "2018-11-04T09:22:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gnutls-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gnutls-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gnutls-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gnutls-feedstock",
             "homepage": null,
-            "size": 23,
+            "size": 24,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/deployments",
             "created_at": "2017-09-27T08:20:30Z",
             "updated_at": "2018-08-06T04:03:34Z",
-            "pushed_at": "2018-11-03T15:06:25Z",
+            "pushed_at": "2018-11-04T09:22:21Z",
             "git_url": "git://github.com/conda-forge/gnutls-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gnutls-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gnutls-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/cc00c2aec85a9c5aedf47c87be23c1b639cd7b5e"
+            "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/4453d129bb1dd668dc554a5602aac95f03a342e1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 7,
+    "comments": 10,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 172,
-    "deletions": 52,
-    "changed_files": 13
+    "commits": 3,
+    "additions": 173,
+    "deletions": 53,
+    "changed_files": 13,
+    "Last-Modified": "Sun, 04 Nov 2018 09:57:22 GMT",
+    "ETag": "W/\"42fac4abe788dde6f3bee18720ef7744\""
 }
