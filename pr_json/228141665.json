@@ -32,13 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-03T21:13:51Z",
-    "updated_at": "2018-11-03T21:13:54Z",
+    "updated_at": "2018-11-03T23:10:00Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "f7218618e949150fafff7f21f39c4a3322ed4797",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "anjakefala",
+            "id": 7489659,
+            "node_id": "MDQ6VXNlcjc0ODk2NTk=",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/7489659?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anjakefala",
+            "html_url": "https://github.com/anjakefala",
+            "followers_url": "https://api.github.com/users/anjakefala/followers",
+            "following_url": "https://api.github.com/users/anjakefala/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anjakefala/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anjakefala/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anjakefala/subscriptions",
+            "organizations_url": "https://api.github.com/users/anjakefala/orgs",
+            "repos_url": "https://api.github.com/users/anjakefala/repos",
+            "events_url": "https://api.github.com/users/anjakefala/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anjakefala/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -336,6 +357,6 @@
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Sat, 03 Nov 2018 21:13:54 GMT",
-    "ETag": "W/\"b7710fc4e1fe2f1fd7cf6447a044e9a6\""
+    "Last-Modified": "Sat, 03 Nov 2018 23:10:00 GMT",
+    "ETag": "W/\"e2213806f99727878a7ef2d724b26c25\""
 }
