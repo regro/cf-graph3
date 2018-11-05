@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-15T18:33:31Z",
-    "updated_at": "2018-11-05T13:36:07Z",
+    "updated_at": "2018-11-05T18:33:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8499eca613b2013da24f83339acbbae2b94c59ff",
+    "merge_commit_sha": "5798b5170c6f0338f38144d9768d902d6eb5fe8b",
     "assignee": {
         "login": "constantinpape",
         "id": 4263537,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/statuses/8187e3d0ce719300ad5c39d9b1d97b100f123fec",
+    "statuses_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/statuses/ec3e3c25fe7a35726f321505ab152d8567136815",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8187e3d0ce719300ad5c39d9b1d97b100f123fec",
+        "sha": "ec3e3c25fe7a35726f321505ab152d8567136815",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/z5py-feedstock/deployments",
             "created_at": "2018-10-14T10:28:01Z",
             "updated_at": "2018-10-14T10:28:03Z",
-            "pushed_at": "2018-10-19T22:05:51Z",
+            "pushed_at": "2018-11-05T18:33:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/z5py-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/z5py-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/z5py-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/z5py-feedstock/deployments",
             "created_at": "2018-08-16T15:01:54Z",
             "updated_at": "2018-10-15T17:35:23Z",
-            "pushed_at": "2018-10-19T22:05:52Z",
+            "pushed_at": "2018-11-05T18:33:10Z",
             "git_url": "git://github.com/conda-forge/z5py-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/z5py-feedstock.git",
             "clone_url": "https://github.com/conda-forge/z5py-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/z5py-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/z5py-feedstock/statuses/8187e3d0ce719300ad5c39d9b1d97b100f123fec"
+            "href": "https://api.github.com/repos/conda-forge/z5py-feedstock/statuses/ec3e3c25fe7a35726f321505ab152d8567136815"
         }
     },
     "author_association": "NONE",
@@ -369,11 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 13,
+    "comments": 21,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 350,
-    "deletions": 22,
-    "changed_files": 16
+    "commits": 12,
+    "additions": 269,
+    "deletions": 30,
+    "changed_files": 15,
+    "Last-Modified": "Mon, 05 Nov 2018 18:33:09 GMT",
+    "ETag": "W/\"577617d7e5d8064578fa97421a867cec\""
 }
