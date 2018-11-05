@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-28T00:11:19Z",
-    "updated_at": "2018-11-01T10:20:51Z",
+    "updated_at": "2018-11-05T20:29:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9a3e884ae17736b14736de0572db91cac42aa3c1",
+    "merge_commit_sha": "73f43703eb1bdfd880456bdd8af1fd253986b1f2",
     "assignee": {
         "login": "abloemert",
         "id": 19301316,
@@ -95,11 +95,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/statuses/f854c0e2a055e43ef8be97af1fdb7e638f3e0eae",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/statuses/9715ebe794ab27dc681363b8eae46399cb07e969",
     "head": {
         "label": "regro-cf-autotick-bot:0.4.1",
         "ref": "0.4.1",
-        "sha": "f854c0e2a055e43ef8be97af1fdb7e638f3e0eae",
+        "sha": "9715ebe794ab27dc681363b8eae46399cb07e969",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -188,13 +188,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-node-semver-feedstock/deployments",
             "created_at": "2018-03-05T02:31:25Z",
             "updated_at": "2018-03-05T02:31:27Z",
-            "pushed_at": "2018-11-05T13:16:54Z",
+            "pushed_at": "2018-11-05T20:29:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-node-semver-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-node-semver-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-node-semver-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/python-node-semver-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -312,7 +312,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/deployments",
             "created_at": "2018-02-07T12:46:30Z",
             "updated_at": "2018-11-01T10:30:24Z",
-            "pushed_at": "2018-11-05T13:16:55Z",
+            "pushed_at": "2018-11-05T20:29:36Z",
             "git_url": "git://github.com/conda-forge/python-node-semver-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-node-semver-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-node-semver-feedstock.git",
@@ -367,7 +367,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/statuses/f854c0e2a055e43ef8be97af1fdb7e638f3e0eae"
+            "href": "https://api.github.com/repos/conda-forge/python-node-semver-feedstock/statuses/9715ebe794ab27dc681363b8eae46399cb07e969"
         }
     },
     "author_association": "NONE",
@@ -378,11 +378,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 8,
+    "comments": 12,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 7,
+    "commits": 5,
+    "additions": 8,
     "deletions": 7,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Mon, 05 Nov 2018 20:29:40 GMT",
+    "ETag": "W/\"e04d75fc9bfe9a63c2542594a936f364\""
 }
