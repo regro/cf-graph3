@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-30T08:13:52Z",
-    "updated_at": "2018-11-03T12:51:04Z",
+    "updated_at": "2018-11-05T13:45:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "30a6ed87cce829b7d273f9ba7152b5d4c30e665a",
+    "merge_commit_sha": "e2cec58cabd566f78f62832da78c3a381a42bbb7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/43a85b424092949cf1668cf3664dd0423a833ada",
+    "statuses_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/75087f416fb33760d54a247cd0e1682ca6bd78a7",
     "head": {
         "label": "regro-cf-autotick-bot:4.3.0",
         "ref": "4.3.0",
-        "sha": "43a85b424092949cf1668cf3664dd0423a833ada",
+        "sha": "75087f416fb33760d54a247cd0e1682ca6bd78a7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/axelrod-feedstock/deployments",
             "created_at": "2018-03-15T16:47:16Z",
             "updated_at": "2018-03-15T16:47:17Z",
-            "pushed_at": "2018-10-31T19:15:39Z",
+            "pushed_at": "2018-11-05T13:45:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/axelrod-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/axelrod-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/axelrod-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/axelrod-feedstock/deployments",
             "created_at": "2017-05-02T14:18:39Z",
             "updated_at": "2018-08-04T19:17:22Z",
-            "pushed_at": "2018-10-31T19:15:40Z",
+            "pushed_at": "2018-11-05T13:45:09Z",
             "git_url": "git://github.com/conda-forge/axelrod-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/axelrod-feedstock.git",
             "clone_url": "https://github.com/conda-forge/axelrod-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/43a85b424092949cf1668cf3664dd0423a833ada"
+            "href": "https://api.github.com/repos/conda-forge/axelrod-feedstock/statuses/75087f416fb33760d54a247cd0e1682ca6bd78a7"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
-    "review_comments": 0,
+    "comments": 4,
+    "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 98,
-    "deletions": 44,
-    "changed_files": 14,
-    "Last-Modified": "Sat, 03 Nov 2018 12:51:04 GMT",
-    "ETag": "W/\"3c27e03c2db9196432b5f2770ec8c1cc\""
+    "commits": 7,
+    "additions": 80,
+    "deletions": 96,
+    "changed_files": 15,
+    "Last-Modified": "Mon, 05 Nov 2018 13:45:08 GMT",
+    "ETag": "W/\"13dd8fd5de62576ad92b06f6957fa879\""
 }
