@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-05T20:15:31Z",
-    "updated_at": "2018-11-05T20:15:35Z",
+    "updated_at": "2018-11-06T10:54:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e6574e225215ab049f4e73ac8f98306612662f9f",
+    "merge_commit_sha": "4c29056749559199bdb37d9f6a71e1b7b45aeb58",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/branca-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/branca-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/branca-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/branca-feedstock/statuses/45aee0e43ee9eb39a2fd5d7bb981256d0eb4ccd1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/branca-feedstock/statuses/171d01187ce2586c9e05218f3b7d24010892c853",
     "head": {
         "label": "regro-cf-autotick-bot:0.3.1",
         "ref": "0.3.1",
-        "sha": "45aee0e43ee9eb39a2fd5d7bb981256d0eb4ccd1",
+        "sha": "171d01187ce2586c9e05218f3b7d24010892c853",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/branca-feedstock/deployments",
             "created_at": "2018-11-05T20:15:00Z",
             "updated_at": "2018-11-05T20:15:02Z",
-            "pushed_at": "2018-11-05T20:15:30Z",
+            "pushed_at": "2018-11-06T10:54:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/branca-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/branca-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/branca-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/branca-feedstock/deployments",
             "created_at": "2016-07-26T01:06:20Z",
             "updated_at": "2018-08-04T17:31:53Z",
-            "pushed_at": "2018-11-05T20:15:32Z",
+            "pushed_at": "2018-11-06T10:54:57Z",
             "git_url": "git://github.com/conda-forge/branca-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/branca-feedstock.git",
             "clone_url": "https://github.com/conda-forge/branca-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/branca-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/branca-feedstock/statuses/45aee0e43ee9eb39a2fd5d7bb981256d0eb4ccd1"
+            "href": "https://api.github.com/repos/conda-forge/branca-feedstock/statuses/171d01187ce2586c9e05218f3b7d24010892c853"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 40,
-    "deletions": 22,
+    "commits": 3,
+    "additions": 42,
+    "deletions": 23,
     "changed_files": 7,
-    "Last-Modified": "Mon, 05 Nov 2018 20:15:35 GMT",
-    "ETag": "W/\"c4d764a0648a1be298d77478d45a753f\""
+    "Last-Modified": "Tue, 06 Nov 2018 10:54:56 GMT",
+    "ETag": "W/\"73c818eeb517740d814cbe6f0af39697\""
 }
