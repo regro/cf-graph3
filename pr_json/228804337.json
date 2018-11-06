@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|harfbuzz|2.1.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/harfbuzz.svg)](https://anaconda.org/conda-forge/harfbuzz)|\n",
     "created_at": "2018-11-06T19:15:26Z",
-    "updated_at": "2018-11-06T19:15:32Z",
+    "updated_at": "2018-11-06T20:46:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6ace4a7192f140a2030f980b456441d88a8654b7",
+    "merge_commit_sha": "a388cc658270f4c982dd4c7b8b64c8f53e0ecead",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/statuses/4f0a1c17803a7bc94eb620089da0f05d66abf70c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/statuses/aa547799e7ea6a7498584a01e662451091921497",
     "head": {
         "label": "regro-cf-autotick-bot:0.1.11",
         "ref": "0.1.11",
-        "sha": "4f0a1c17803a7bc94eb620089da0f05d66abf70c",
+        "sha": "aa547799e7ea6a7498584a01e662451091921497",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tectonic-feedstock/deployments",
             "created_at": "2018-08-08T00:20:43Z",
             "updated_at": "2018-08-08T00:20:45Z",
-            "pushed_at": "2018-11-06T19:15:26Z",
+            "pushed_at": "2018-11-06T20:46:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tectonic-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tectonic-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tectonic-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tectonic-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 40,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tectonic-feedstock/deployments",
             "created_at": "2017-10-07T21:48:33Z",
             "updated_at": "2018-10-19T13:10:03Z",
-            "pushed_at": "2018-11-06T19:15:27Z",
+            "pushed_at": "2018-11-06T20:46:37Z",
             "git_url": "git://github.com/conda-forge/tectonic-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tectonic-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tectonic-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tectonic-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tectonic-feedstock/statuses/4f0a1c17803a7bc94eb620089da0f05d66abf70c"
+            "href": "https://api.github.com/repos/conda-forge/tectonic-feedstock/statuses/aa547799e7ea6a7498584a01e662451091921497"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 3,
-    "deletions": 3,
-    "changed_files": 2,
-    "Last-Modified": "Tue, 06 Nov 2018 19:15:32 GMT",
-    "ETag": "W/\"ac09ff358b9d7abaaed575307c9dc53e\""
+    "deletions": 19,
+    "changed_files": 3,
+    "Last-Modified": "Tue, 06 Nov 2018 20:46:36 GMT",
+    "ETag": "W/\"a17c6a7ff6d9139e8be555b990bafab6\""
 }
