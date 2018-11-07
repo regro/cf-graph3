@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T21:17:39Z",
-    "updated_at": "2018-11-06T21:20:03Z",
+    "updated_at": "2018-11-07T17:49:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "cd0fdf2835a2144d35add381dc7d5ad31a0b6022",
+    "merge_commit_sha": "20e6c843d6ed3d82beb98b0e5a42c53152592615",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/statuses/b61afde709e52c8cb797ef36c733897386b9bd91",
+    "statuses_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/statuses/a31b8f0c98f868cf013b8035eddb850d1e6acebd",
     "head": {
         "label": "regro-cf-autotick-bot:2.2.0",
         "ref": "2.2.0",
-        "sha": "b61afde709e52c8cb797ef36c733897386b9bd91",
+        "sha": "a31b8f0c98f868cf013b8035eddb850d1e6acebd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/retriever-feedstock/deployments",
             "created_at": "2018-07-09T06:46:32Z",
             "updated_at": "2018-07-09T06:46:34Z",
-            "pushed_at": "2018-11-06T21:17:39Z",
+            "pushed_at": "2018-11-07T17:49:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/retriever-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/retriever-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/retriever-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/retriever-feedstock/deployments",
             "created_at": "2017-07-17T00:41:33Z",
             "updated_at": "2018-08-04T18:49:56Z",
-            "pushed_at": "2018-11-06T21:17:40Z",
+            "pushed_at": "2018-11-07T17:49:35Z",
             "git_url": "git://github.com/conda-forge/retriever-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/retriever-feedstock.git",
             "clone_url": "https://github.com/conda-forge/retriever-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/retriever-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/retriever-feedstock/statuses/b61afde709e52c8cb797ef36c733897386b9bd91"
+            "href": "https://api.github.com/repos/conda-forge/retriever-feedstock/statuses/a31b8f0c98f868cf013b8035eddb850d1e6acebd"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 40,
+    "commits": 3,
+    "additions": 41,
     "deletions": 22,
     "changed_files": 7,
-    "Last-Modified": "Tue, 06 Nov 2018 21:20:03 GMT",
-    "ETag": "W/\"d7d4c1d1c2c0cb5ed6786104c00b67cc\""
+    "Last-Modified": "Wed, 07 Nov 2018 17:49:34 GMT",
+    "ETag": "W/\"fbbe5d36bde1cbc0176b5346a7be3a2c\""
 }
