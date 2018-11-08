@@ -32,7 +32,7 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages)for more information about building noarch packages.Before merging this PR make sure:\nNotes and instructions for merging this PR:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-03T12:43:24Z",
-    "updated_at": "2018-10-21T01:25:05Z",
+    "updated_at": "2018-11-08T20:35:48Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "6a7bb57b0c58e836307c4a5ab1182764bce0bddf",
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/statuses/e6291f6ae82a8d3f63380c694474427454491a7b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/statuses/1777f0372a5d694136dc618660a62f40c933e270",
     "head": {
         "label": "regro-cf-autotick-bot:noarch_migration",
         "ref": "noarch_migration",
-        "sha": "e6291f6ae82a8d3f63380c694474427454491a7b",
+        "sha": "1777f0372a5d694136dc618660a62f40c933e270",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xnumpy-feedstock/deployments",
             "created_at": "2018-07-03T12:42:50Z",
             "updated_at": "2018-07-03T12:42:52Z",
-            "pushed_at": "2018-10-13T17:28:47Z",
+            "pushed_at": "2018-11-08T20:35:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xnumpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xnumpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xnumpy-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/deployments",
             "created_at": "2016-10-20T03:13:58Z",
             "updated_at": "2018-08-04T17:37:26Z",
-            "pushed_at": "2018-10-13T17:28:48Z",
+            "pushed_at": "2018-11-08T20:35:49Z",
             "git_url": "git://github.com/conda-forge/xnumpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xnumpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xnumpy-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/statuses/e6291f6ae82a8d3f63380c694474427454491a7b"
+            "href": "https://api.github.com/repos/conda-forge/xnumpy-feedstock/statuses/1777f0372a5d694136dc618660a62f40c933e270"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 188,
-    "deletions": 242,
+    "commits": 3,
+    "additions": 210,
+    "deletions": 246,
     "changed_files": 19,
-    "Last-Modified": "Sun, 21 Oct 2018 01:25:05 GMT",
-    "ETag": "W/\"4fe27cb2f4b371f14c7f0517781af26a\""
+    "Last-Modified": "Thu, 08 Nov 2018 20:35:48 GMT",
+    "ETag": "W/\"d5ee6e894f8ac14739733a082ca87621\""
 }

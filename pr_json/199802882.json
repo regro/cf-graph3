@@ -32,7 +32,7 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-06T17:13:04Z",
-    "updated_at": "2018-10-21T01:21:19Z",
+    "updated_at": "2018-11-08T20:40:34Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "c7ec07d107ab27154ad4ee99457a603da5459a7b",
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/statuses/7aa8d6da52420484f8052150a1ecf8b8fe3bb7cf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/statuses/feb1857c2e18b39cc3cf92934f827ca27d5720c3",
     "head": {
         "label": "regro-cf-autotick-bot:noarch_migration",
         "ref": "noarch_migration",
-        "sha": "7aa8d6da52420484f8052150a1ecf8b8fe3bb7cf",
+        "sha": "feb1857c2e18b39cc3cf92934f827ca27d5720c3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/npctypes-feedstock/deployments",
             "created_at": "2018-07-06T17:12:48Z",
             "updated_at": "2018-07-06T17:12:50Z",
-            "pushed_at": "2018-10-13T13:57:37Z",
+            "pushed_at": "2018-11-08T20:38:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/npctypes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/npctypes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/npctypes-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/npctypes-feedstock/deployments",
             "created_at": "2016-10-11T05:45:19Z",
             "updated_at": "2018-08-04T18:42:50Z",
-            "pushed_at": "2018-10-13T13:57:38Z",
+            "pushed_at": "2018-11-08T20:38:34Z",
             "git_url": "git://github.com/conda-forge/npctypes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/npctypes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/npctypes-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/npctypes-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/npctypes-feedstock/statuses/7aa8d6da52420484f8052150a1ecf8b8fe3bb7cf"
+            "href": "https://api.github.com/repos/conda-forge/npctypes-feedstock/statuses/feb1857c2e18b39cc3cf92934f827ca27d5720c3"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 189,
-    "deletions": 243,
+    "commits": 3,
+    "additions": 211,
+    "deletions": 247,
     "changed_files": 19,
-    "Last-Modified": "Sun, 21 Oct 2018 01:21:19 GMT",
-    "ETag": "W/\"5df3287ca97bbeb707213d461ff4c3c2\""
+    "Last-Modified": "Thu, 08 Nov 2018 20:40:34 GMT",
+    "ETag": "W/\"857be343f526eba6c71dfe8a67d203ab\""
 }
