@@ -32,7 +32,7 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-08T21:45:49Z",
-    "updated_at": "2018-10-21T01:21:32Z",
+    "updated_at": "2018-11-08T20:37:56Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "ee285e77b25034c27fe5a6be7cfee0a5ea25024a",
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/statuses/7f53a77837fff8b6391ac012b096226be642ed34",
+    "statuses_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/statuses/ab86bc4b61a818e0cb1740686de63f6ede48a6cc",
     "head": {
         "label": "regro-cf-autotick-bot:noarch_migration",
         "ref": "noarch_migration",
-        "sha": "7f53a77837fff8b6391ac012b096226be642ed34",
+        "sha": "ab86bc4b61a818e0cb1740686de63f6ede48a6cc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/imgroi-feedstock/deployments",
             "created_at": "2018-07-08T21:45:35Z",
             "updated_at": "2018-07-08T21:45:37Z",
-            "pushed_at": "2018-10-14T11:29:03Z",
+            "pushed_at": "2018-11-08T21:14:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/imgroi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/imgroi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/imgroi-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/imgroi-feedstock",
             "homepage": null,
-            "size": 29,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/imgroi-feedstock/deployments",
             "created_at": "2016-11-02T06:18:53Z",
             "updated_at": "2018-08-04T17:37:57Z",
-            "pushed_at": "2018-10-14T11:29:04Z",
+            "pushed_at": "2018-11-08T21:14:37Z",
             "git_url": "git://github.com/conda-forge/imgroi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/imgroi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/imgroi-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/imgroi-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/imgroi-feedstock/statuses/7f53a77837fff8b6391ac012b096226be642ed34"
+            "href": "https://api.github.com/repos/conda-forge/imgroi-feedstock/statuses/ab86bc4b61a818e0cb1740686de63f6ede48a6cc"
         }
     },
     "author_association": "NONE",
@@ -369,11 +369,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 189,
-    "deletions": 243,
-    "changed_files": 19
+    "commits": 3,
+    "additions": 211,
+    "deletions": 247,
+    "changed_files": 19,
+    "Last-Modified": "Thu, 08 Nov 2018 20:37:56 GMT",
+    "ETag": "W/\"f3c905e024c4aeac0e02f22cf7791d62\""
 }

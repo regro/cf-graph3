@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-08T22:13:59Z",
-    "updated_at": "2018-11-08T22:13:59Z",
+    "updated_at": "2018-11-08T22:38:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "fccba19c9938413bd7ad65becc824bbf7c252b3e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/pulls/38/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/issues/38/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/statuses/36e68ebbb9d4c113995622be628c40b5cd11903e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/statuses/b32b1083dba6c9e934fecf1871506825442a165f",
     "head": {
         "label": "regro-cf-autotick-bot:1.11.0.post19",
         "ref": "1.11.0.post19",
-        "sha": "36e68ebbb9d4c113995622be628c40b5cd11903e",
+        "sha": "b32b1083dba6c9e934fecf1871506825442a165f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/spglib-feedstock/deployments",
             "created_at": "2018-03-21T03:51:12Z",
             "updated_at": "2018-03-21T03:51:14Z",
-            "pushed_at": "2018-11-08T22:13:58Z",
+            "pushed_at": "2018-11-08T22:38:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/spglib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/spglib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/spglib-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "5651d0fbef3fc70ffeb58ec996c228563611e839",
+        "sha": "577a4168848ae66602f6d35ddaccbb3d5d765275",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/spglib-feedstock/deployments",
             "created_at": "2016-11-18T19:30:26Z",
-            "updated_at": "2018-10-13T17:49:23Z",
-            "pushed_at": "2018-11-08T14:17:11Z",
+            "updated_at": "2018-11-08T22:36:27Z",
+            "pushed_at": "2018-11-08T22:38:35Z",
             "git_url": "git://github.com/conda-forge/spglib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/spglib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/spglib-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/spglib-feedstock/pulls/38/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/spglib-feedstock/statuses/36e68ebbb9d4c113995622be628c40b5cd11903e"
+            "href": "https://api.github.com/repos/conda-forge/spglib-feedstock/statuses/b32b1083dba6c9e934fecf1871506825442a165f"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": true,
+    "rebaseable": false,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
+    "commits": 2,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Thu, 08 Nov 2018 22:38:34 GMT",
+    "ETag": "W/\"0dc4988f478508904b3ccb106429000a\""
 }
