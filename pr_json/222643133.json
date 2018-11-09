@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nmegaman\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T10:57:39Z",
-    "updated_at": "2018-10-13T10:59:49Z",
+    "updated_at": "2018-11-09T16:49:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9f7e828f1375b92e74b898786b96e4ece69b4b6c",
+    "merge_commit_sha": "990c5a9de01318a345f704de757c0af9a9b1ef80",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/pulls/16/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/issues/16/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/statuses/cc1e004916f7e2e6d5c781fc667672a6a5f01ae4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/statuses/1bbc988b03bc98e4f3a198bb46e20951b092335f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "cc1e004916f7e2e6d5c781fc667672a6a5f01ae4",
+        "sha": "1bbc988b03bc98e4f3a198bb46e20951b092335f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyamg-feedstock/deployments",
             "created_at": "2018-07-07T06:13:41Z",
             "updated_at": "2018-07-07T06:13:43Z",
-            "pushed_at": "2018-10-13T10:57:38Z",
+            "pushed_at": "2018-11-09T16:49:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyamg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyamg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyamg-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyamg-feedstock/deployments",
             "created_at": "2016-04-05T09:45:34Z",
             "updated_at": "2018-08-12T19:41:55Z",
-            "pushed_at": "2018-10-13T10:57:39Z",
+            "pushed_at": "2018-11-09T16:49:56Z",
             "git_url": "git://github.com/conda-forge/pyamg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyamg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyamg-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyamg-feedstock/pulls/16/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyamg-feedstock/statuses/cc1e004916f7e2e6d5c781fc667672a6a5f01ae4"
+            "href": "https://api.github.com/repos/conda-forge/pyamg-feedstock/statuses/1bbc988b03bc98e4f3a198bb46e20951b092335f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 390,
     "deletions": 82,
-    "changed_files": 26
+    "changed_files": 26,
+    "Last-Modified": "Fri, 09 Nov 2018 16:49:55 GMT",
+    "ETag": "W/\"5f594fac81a8099fe51d498a2dc8cd3a\""
 }
