@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-11T02:02:26Z",
-    "updated_at": "2018-10-11T02:02:29Z",
+    "updated_at": "2018-11-09T17:18:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2084356aff332a1fdab330adf4d30cd857a748e7",
+    "merge_commit_sha": "d7c51a7f1845d2073daff2108497f9b19c0a3274",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/statuses/9287e1f8bc3af4aae89b6805f45a5cd593a85d51",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/statuses/b590d584f564b91ee8b0745a15064f2063ce69f8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9287e1f8bc3af4aae89b6805f45a5cd593a85d51",
+        "sha": "b590d584f564b91ee8b0745a15064f2063ce69f8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ipython-sql-feedstock/deployments",
             "created_at": "2018-03-01T22:07:47Z",
             "updated_at": "2018-03-01T22:07:49Z",
-            "pushed_at": "2018-10-11T02:02:25Z",
+            "pushed_at": "2018-11-09T17:18:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ipython-sql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ipython-sql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ipython-sql-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/deployments",
             "created_at": "2016-08-24T03:24:42Z",
             "updated_at": "2018-08-04T17:30:19Z",
-            "pushed_at": "2018-10-11T02:02:27Z",
+            "pushed_at": "2018-11-09T17:18:08Z",
             "git_url": "git://github.com/conda-forge/ipython-sql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ipython-sql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ipython-sql-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/statuses/9287e1f8bc3af4aae89b6805f45a5cd593a85d51"
+            "href": "https://api.github.com/repos/conda-forge/ipython-sql-feedstock/statuses/b590d584f564b91ee8b0745a15064f2063ce69f8"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 377,
     "deletions": 152,
-    "changed_files": 26
+    "changed_files": 26,
+    "Last-Modified": "Fri, 09 Nov 2018 17:18:08 GMT",
+    "ETag": "W/\"53df19c94f583373eef02aa4643ab129\""
 }
