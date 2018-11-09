@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naiohttp\nelasticsearch-async\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T12:16:09Z",
-    "updated_at": "2018-11-09T13:08:37Z",
+    "updated_at": "2018-11-09T15:05:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f9784996a168d48835ec88617e18e19e7b159632",
+    "merge_commit_sha": "5b485780bfc3886f99a43c5b0cb3c33b719f2459",
     "assignee": {
         "login": "carlodri",
         "id": 5230366,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/statuses/f3c61be989a8418181bd1f3275aee17a1ee2305c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/statuses/4a01e9b3d891997e7de7492a53c5a82d358e57d6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f3c61be989a8418181bd1f3275aee17a1ee2305c",
+        "sha": "4a01e9b3d891997e7de7492a53c5a82d358e57d6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/async-timeout-feedstock/deployments",
             "created_at": "2018-02-24T00:52:54Z",
             "updated_at": "2018-02-24T00:52:55Z",
-            "pushed_at": "2018-11-09T12:51:59Z",
+            "pushed_at": "2018-11-09T14:21:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/async-timeout-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/async-timeout-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/async-timeout-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/deployments",
             "created_at": "2017-05-04T19:06:40Z",
             "updated_at": "2018-11-09T11:42:39Z",
-            "pushed_at": "2018-11-09T12:52:00Z",
+            "pushed_at": "2018-11-09T14:21:20Z",
             "git_url": "git://github.com/conda-forge/async-timeout-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/async-timeout-feedstock.git",
             "clone_url": "https://github.com/conda-forge/async-timeout-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/statuses/f3c61be989a8418181bd1f3275aee17a1ee2305c"
+            "href": "https://api.github.com/repos/conda-forge/async-timeout-feedstock/statuses/4a01e9b3d891997e7de7492a53c5a82d358e57d6"
         }
     },
     "author_association": "NONE",
@@ -369,13 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 302,
-    "deletions": 28,
-    "changed_files": 13,
-    "Last-Modified": "Fri, 09 Nov 2018 13:08:37 GMT",
-    "ETag": "W/\"6511020132acf85ce339d6238f8e5942\""
+    "commits": 6,
+    "additions": 398,
+    "deletions": 30,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 09 Nov 2018 15:05:25 GMT",
+    "ETag": "W/\"2f3948359ba3767bba824b3063dfb6cd\""
 }
