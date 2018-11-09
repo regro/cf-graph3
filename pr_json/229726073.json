@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T15:19:58Z",
-    "updated_at": "2018-11-09T19:44:07Z",
+    "updated_at": "2018-11-09T21:12:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8130b08eaa15d71927a12f73db9ec5bafdbc39b5",
+    "merge_commit_sha": "c1fd074f43a4cfb5172a85823b64058b732e4463",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/statuses/bbf44fcba053c79816a4858ed3fd39742faad946",
+    "statuses_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/statuses/5e02b69bdbba7cd307d7b42c12d6b894bc4d626d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bbf44fcba053c79816a4858ed3fd39742faad946",
+        "sha": "5e02b69bdbba7cd307d7b42c12d6b894bc4d626d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/jupyterhub-ldapauthenticator-feedstock/deployments",
             "created_at": "2018-11-09T15:19:43Z",
             "updated_at": "2018-11-09T15:19:45Z",
-            "pushed_at": "2018-11-09T19:44:07Z",
+            "pushed_at": "2018-11-09T21:11:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/jupyterhub-ldapauthenticator-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/jupyterhub-ldapauthenticator-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/jupyterhub-ldapauthenticator-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/jupyterhub-ldapauthenticator-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 16,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/deployments",
             "created_at": "2018-06-14T12:40:23Z",
             "updated_at": "2018-08-04T18:50:35Z",
-            "pushed_at": "2018-11-09T19:44:08Z",
+            "pushed_at": "2018-11-09T21:11:56Z",
             "git_url": "git://github.com/conda-forge/jupyterhub-ldapauthenticator-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/jupyterhub-ldapauthenticator-feedstock.git",
             "clone_url": "https://github.com/conda-forge/jupyterhub-ldapauthenticator-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/statuses/bbf44fcba053c79816a4858ed3fd39742faad946"
+            "href": "https://api.github.com/repos/conda-forge/jupyterhub-ldapauthenticator-feedstock/statuses/5e02b69bdbba7cd307d7b42c12d6b894bc4d626d"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 61,
-    "deletions": 147,
-    "changed_files": 14
+    "commits": 5,
+    "additions": 63,
+    "deletions": 149,
+    "changed_files": 14,
+    "Last-Modified": "Fri, 09 Nov 2018 21:12:14 GMT",
+    "ETag": "W/\"de93d3c3ab2ba0f9b951178361a1eb62\""
 }
