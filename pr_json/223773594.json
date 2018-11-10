@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T22:32:43Z",
-    "updated_at": "2018-11-05T02:03:06Z",
+    "updated_at": "2018-11-09T23:23:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3272c03aeaf12cd90c4a8aa90dd515f04877e04a",
+    "merge_commit_sha": "a3ac6ed8eb6536aeb5b9f37d7bc1d8907c5e3f6b",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/statuses/2a60542f9d059105e6a51c01c66728dc7efa0d56",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/statuses/8183121bf357f0fc8ca3c7ca4f328ebc46600459",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2a60542f9d059105e6a51c01c66728dc7efa0d56",
+        "sha": "8183121bf357f0fc8ca3c7ca4f328ebc46600459",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyuvdata-feedstock/deployments",
             "created_at": "2018-07-24T19:13:05Z",
             "updated_at": "2018-07-24T19:13:07Z",
-            "pushed_at": "2018-11-08T05:10:24Z",
+            "pushed_at": "2018-11-09T23:23:37Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyuvdata-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyuvdata-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyuvdata-feedstock.git",
@@ -214,7 +214,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "f23017d9d792f237681f5028dfa70dda09739bc0",
+        "sha": "04f77a8dc6e8582aeba2b3fe80809d331b6c18df",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/deployments",
             "created_at": "2017-11-10T16:54:24Z",
             "updated_at": "2018-11-08T04:36:09Z",
-            "pushed_at": "2018-11-08T04:36:07Z",
+            "pushed_at": "2018-11-09T23:23:38Z",
             "git_url": "git://github.com/conda-forge/pyuvdata-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyuvdata-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyuvdata-feedstock.git",
@@ -358,24 +358,24 @@
             "href": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/statuses/2a60542f9d059105e6a51c01c66728dc7efa0d56"
+            "href": "https://api.github.com/repos/conda-forge/pyuvdata-feedstock/statuses/8183121bf357f0fc8ca3c7ca4f328ebc46600459"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:</p>\n<p>And potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
-    "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable": true,
+    "rebaseable": true,
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 288,
-    "deletions": 20,
+    "commits": 3,
+    "additions": 338,
+    "deletions": 16,
     "changed_files": 16,
-    "Last-Modified": "Mon, 05 Nov 2018 02:03:06 GMT",
-    "ETag": "W/\"0f13ce6608e2934c0cd61addadbef4d6\""
+    "Last-Modified": "Fri, 09 Nov 2018 23:23:38 GMT",
+    "ETag": "W/\"5bae2624c88614e3333715a7f4153c1c\""
 }
