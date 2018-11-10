@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T08:15:20Z",
-    "updated_at": "2018-11-10T20:32:37Z",
+    "updated_at": "2018-11-10T22:50:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3a777af53430df41d86284388beaa06ebde05494",
+    "merge_commit_sha": "0ce8049c24608171fb4139ed526cdea8a5179332",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/statuses/33431e87f9ac4c957a02732cbb0bcd0f260868a3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/statuses/592d4a10f2aff0e0c288f566e1548267c5b24796",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "33431e87f9ac4c957a02732cbb0bcd0f260868a3",
+        "sha": "592d4a10f2aff0e0c288f566e1548267c5b24796",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xlntpyarrow-feedstock/deployments",
             "created_at": "2018-07-01T00:02:34Z",
             "updated_at": "2018-07-01T00:02:35Z",
-            "pushed_at": "2018-11-10T20:32:37Z",
+            "pushed_at": "2018-11-10T22:50:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xlntpyarrow-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xlntpyarrow-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xlntpyarrow-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/deployments",
             "created_at": "2017-08-09T14:59:59Z",
             "updated_at": "2018-08-04T18:38:43Z",
-            "pushed_at": "2018-11-10T20:32:37Z",
+            "pushed_at": "2018-11-10T22:50:16Z",
             "git_url": "git://github.com/conda-forge/xlntpyarrow-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xlntpyarrow-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xlntpyarrow-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/statuses/33431e87f9ac4c957a02732cbb0bcd0f260868a3"
+            "href": "https://api.github.com/repos/conda-forge/xlntpyarrow-feedstock/statuses/592d4a10f2aff0e0c288f566e1548267c5b24796"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 370,
-    "deletions": 149,
-    "changed_files": 25,
-    "Last-Modified": "Sat, 10 Nov 2018 20:32:37 GMT",
-    "ETag": "W/\"761b6069c6626dc111fff3d098d37b1d\""
+    "commits": 5,
+    "additions": 630,
+    "deletions": 145,
+    "changed_files": 31,
+    "Last-Modified": "Sat, 10 Nov 2018 22:50:20 GMT",
+    "ETag": "W/\"0259524afab65584e528d8234dffcab9\""
 }
