@@ -32,15 +32,24 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-07T22:18:54Z",
-    "updated_at": "2018-11-07T22:18:58Z",
+    "updated_at": "2018-11-10T20:50:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "28f3bc72f8192c3586a1c2234903ccdd9a610395",
+    "merge_commit_sha": "9047a52ff0797deaa7ac23215ea39903312e3c40",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1123141795,
+            "node_id": "MDU6TGFiZWwxMTIzMTQxNzk1",
+            "url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "e035c3",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/pulls/18/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/pulls/18/comments",
@@ -262,8 +271,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/deployments",
             "created_at": "2016-07-01T18:20:01Z",
-            "updated_at": "2018-08-27T04:38:58Z",
-            "pushed_at": "2018-11-07T22:18:55Z",
+            "updated_at": "2018-11-10T20:50:37Z",
+            "pushed_at": "2018-11-10T20:50:35Z",
             "git_url": "git://github.com/conda-forge/openstacksdk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openstacksdk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openstacksdk-feedstock.git",
@@ -281,7 +290,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
