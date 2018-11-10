@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T02:30:44Z",
-    "updated_at": "2018-10-18T02:30:47Z",
+    "updated_at": "2018-11-10T22:07:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6c4377e5ba89946a5b7cb9e0ffab50d3df0f0c18",
+    "merge_commit_sha": "8adac2135fcd8f6b75e4a396088a19bb8a18a8c4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/alps-feedstock/pulls/20/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/alps-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/alps-feedstock/issues/20/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/alps-feedstock/statuses/bf37675e2cdf1ce641adea5301c44934fa538c0a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/alps-feedstock/statuses/6984c9c2f63e462e0743f63f0b5ccdb63b5e753b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bf37675e2cdf1ce641adea5301c44934fa538c0a",
+        "sha": "6984c9c2f63e462e0743f63f0b5ccdb63b5e753b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/alps-feedstock/deployments",
             "created_at": "2018-07-07T07:09:18Z",
             "updated_at": "2018-07-07T07:09:20Z",
-            "pushed_at": "2018-10-18T02:30:43Z",
+            "pushed_at": "2018-11-10T22:07:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/alps-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/alps-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/alps-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/alps-feedstock/deployments",
             "created_at": "2017-01-12T08:20:04Z",
             "updated_at": "2018-08-04T18:33:25Z",
-            "pushed_at": "2018-10-18T02:30:45Z",
+            "pushed_at": "2018-11-10T22:07:45Z",
             "git_url": "git://github.com/conda-forge/alps-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/alps-feedstock.git",
             "clone_url": "https://github.com/conda-forge/alps-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/alps-feedstock/pulls/20/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/alps-feedstock/statuses/bf37675e2cdf1ce641adea5301c44934fa538c0a"
+            "href": "https://api.github.com/repos/conda-forge/alps-feedstock/statuses/6984c9c2f63e462e0743f63f0b5ccdb63b5e753b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 257,
-    "deletions": 127,
-    "changed_files": 20,
-    "Last-Modified": "Thu, 18 Oct 2018 02:30:47 GMT",
-    "ETag": "W/\"c56f45f391d56c763084568f3f1a9d81\""
+    "commits": 4,
+    "additions": 441,
+    "deletions": 144,
+    "changed_files": 22,
+    "Last-Modified": "Sat, 10 Nov 2018 22:07:49 GMT",
+    "ETag": "W/\"480fed96437554e5ee4fc58a73403ba2\""
 }

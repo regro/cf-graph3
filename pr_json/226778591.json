@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-30T03:16:31Z",
-    "updated_at": "2018-10-30T03:16:35Z",
+    "updated_at": "2018-11-10T21:23:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ca5234eb0531c6da8fbc39f3a1fde09dc4f8c150",
+    "merge_commit_sha": "6ee42ca2be11f1361d1c4ab72efa99bfea071b39",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/statuses/8e94a20c64a8a6b950ac277a103a48a99425cb5b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/statuses/ce6931ad815b6e4fbf220255cbf5b5c749a713be",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8e94a20c64a8a6b950ac277a103a48a99425cb5b",
+        "sha": "ce6931ad815b6e4fbf220255cbf5b5c749a713be",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fretbursts-feedstock/deployments",
             "created_at": "2018-07-26T00:29:10Z",
             "updated_at": "2018-07-26T00:29:12Z",
-            "pushed_at": "2018-10-30T03:16:30Z",
+            "pushed_at": "2018-11-10T21:23:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fretbursts-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fretbursts-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fretbursts-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/deployments",
             "created_at": "2016-09-09T17:56:05Z",
             "updated_at": "2018-08-07T13:41:35Z",
-            "pushed_at": "2018-10-30T03:16:32Z",
+            "pushed_at": "2018-11-10T21:23:57Z",
             "git_url": "git://github.com/conda-forge/fretbursts-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fretbursts-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fretbursts-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/statuses/8e94a20c64a8a6b950ac277a103a48a99425cb5b"
+            "href": "https://api.github.com/repos/conda-forge/fretbursts-feedstock/statuses/ce6931ad815b6e4fbf220255cbf5b5c749a713be"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 395,
-    "deletions": 83,
+    "commits": 3,
+    "additions": 396,
+    "deletions": 84,
     "changed_files": 28,
-    "Last-Modified": "Tue, 30 Oct 2018 03:16:35 GMT",
-    "ETag": "W/\"a89e512e9fb6c62d2e539ab6be011cba\""
+    "Last-Modified": "Sat, 10 Nov 2018 21:23:56 GMT",
+    "ETag": "W/\"ebff2b44766a96d5d3e2f1692d957108\""
 }

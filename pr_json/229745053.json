@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nfermipy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T16:19:21Z",
-    "updated_at": "2018-11-09T16:19:24Z",
+    "updated_at": "2018-11-10T20:29:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f51f9fe95504aa8c62489c7d5bc8576a9f265ae9",
+    "merge_commit_sha": "dd4c33bc67e37083071780990c761981f57d0c8c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/statuses/f3743e284542f1e878f0ca0cd667ccda1998b5d2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/statuses/cd669f5da009b13a57e5f8d35ac1d2594b6bd469",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f3743e284542f1e878f0ca0cd667ccda1998b5d2",
+        "sha": "cd669f5da009b13a57e5f8d35ac1d2594b6bd469",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gammapy-feedstock/deployments",
             "created_at": "2018-03-01T21:46:42Z",
             "updated_at": "2018-03-01T21:46:43Z",
-            "pushed_at": "2018-11-09T16:19:20Z",
+            "pushed_at": "2018-11-10T20:29:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gammapy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gammapy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gammapy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gammapy-feedstock",
             "homepage": null,
-            "size": 31,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gammapy-feedstock/deployments",
             "created_at": "2017-08-15T21:33:14Z",
             "updated_at": "2018-09-24T00:21:53Z",
-            "pushed_at": "2018-11-09T16:19:21Z",
+            "pushed_at": "2018-11-10T20:29:09Z",
             "git_url": "git://github.com/conda-forge/gammapy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gammapy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gammapy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gammapy-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gammapy-feedstock/statuses/f3743e284542f1e878f0ca0cd667ccda1998b5d2"
+            "href": "https://api.github.com/repos/conda-forge/gammapy-feedstock/statuses/cd669f5da009b13a57e5f8d35ac1d2594b6bd469"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 48,
-    "deletions": 20,
-    "changed_files": 12
+    "commits": 4,
+    "additions": 291,
+    "deletions": 36,
+    "changed_files": 20,
+    "Last-Modified": "Sat, 10 Nov 2018 20:29:08 GMT",
+    "ETag": "W/\"78962931e8c2b016eca0fbd3c2b0564c\""
 }
