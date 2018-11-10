@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-10T13:14:43Z",
-    "updated_at": "2018-11-10T13:14:46Z",
+    "updated_at": "2018-11-10T14:34:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b309ed52b890499eba74ec2baa97e1e89f1965bb",
+    "merge_commit_sha": "98aa34c25030b7f39534e8525a162a0311680fd7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/6b867ecb599f1a0b7296a1694827fdaf3e074de2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/a38d5863428c888d1dc4134140e5f8ec00358898",
     "head": {
         "label": "regro-cf-autotick-bot:2.4.0",
         "ref": "2.4.0",
-        "sha": "6b867ecb599f1a0b7296a1694827fdaf3e074de2",
+        "sha": "a38d5863428c888d1dc4134140e5f8ec00358898",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/apache-libcloud-feedstock/deployments",
             "created_at": "2018-02-24T00:17:43Z",
             "updated_at": "2018-02-24T00:17:45Z",
-            "pushed_at": "2018-11-10T13:14:42Z",
+            "pushed_at": "2018-11-10T14:33:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/deployments",
             "created_at": "2016-06-10T17:50:42Z",
             "updated_at": "2018-09-24T20:29:22Z",
-            "pushed_at": "2018-11-10T13:14:43Z",
+            "pushed_at": "2018-11-10T14:33:58Z",
             "git_url": "git://github.com/conda-forge/apache-libcloud-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/apache-libcloud-feedstock.git",
             "clone_url": "https://github.com/conda-forge/apache-libcloud-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/6b867ecb599f1a0b7296a1694827fdaf3e074de2"
+            "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/a38d5863428c888d1dc4134140e5f8ec00358898"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 5,
-    "deletions": 80,
+    "commits": 3,
+    "additions": 8,
+    "deletions": 83,
     "changed_files": 10,
-    "Last-Modified": "Sat, 10 Nov 2018 13:14:46 GMT",
-    "ETag": "W/\"8fbeffaffe0fe7797bea1ea921a1caa5\""
+    "Last-Modified": "Sat, 10 Nov 2018 14:34:03 GMT",
+    "ETag": "W/\"ba1ee24062250be87ff55396f6c05f46\""
 }
