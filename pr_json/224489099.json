@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-20T17:29:05Z",
-    "updated_at": "2018-10-23T21:57:34Z",
+    "updated_at": "2018-11-11T04:17:26Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0d758c9c580fcc844350093492c80bfa7e43c2d9",
+    "merge_commit_sha": "d5009f0fcb96c3c77b75291962d03d7eae41abc0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/statuses/236f7c90124f70765404d1776257f126a3412ef5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/statuses/2c1e4743532166115a901515e8f6294a7bb5b809",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "236f7c90124f70765404d1776257f126a3412ef5",
+        "sha": "2c1e4743532166115a901515e8f6294a7bb5b809",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fs.sshfs-feedstock/deployments",
             "created_at": "2018-03-07T22:01:55Z",
             "updated_at": "2018-03-07T22:01:57Z",
-            "pushed_at": "2018-10-20T17:29:05Z",
+            "pushed_at": "2018-11-11T04:17:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fs.sshfs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fs.sshfs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fs.sshfs-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/fs.sshfs-feedstock",
             "homepage": null,
-            "size": 36,
+            "size": 38,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/deployments",
             "created_at": "2017-11-07T14:46:40Z",
             "updated_at": "2018-08-04T19:38:58Z",
-            "pushed_at": "2018-10-20T17:29:06Z",
+            "pushed_at": "2018-11-11T04:17:27Z",
             "git_url": "git://github.com/conda-forge/fs.sshfs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fs.sshfs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fs.sshfs-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/statuses/236f7c90124f70765404d1776257f126a3412ef5"
+            "href": "https://api.github.com/repos/conda-forge/fs.sshfs-feedstock/statuses/2c1e4743532166115a901515e8f6294a7bb5b809"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 376,
+    "commits": 3,
+    "additions": 377,
     "deletions": 159,
-    "changed_files": 26
+    "changed_files": 26,
+    "Last-Modified": "Sun, 11 Nov 2018 04:17:26 GMT",
+    "ETag": "W/\"f092c2ae7f9f02febee76e64c74da2b4\""
 }

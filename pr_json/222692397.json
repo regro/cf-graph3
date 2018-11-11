@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T04:28:57Z",
-    "updated_at": "2018-10-23T15:18:18Z",
+    "updated_at": "2018-11-11T04:31:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a19d7605f7193c2949c4a0eec2a18c51abccaa4f",
+    "merge_commit_sha": "1e0772e6ac7f3023542470368813b59ab97113fe",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/statuses/ac7fb6ff3c21e974707e834bb96955a48450bf7f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/statuses/7dc9e71f9d101e0903a2d169527f32adad13c22b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ac7fb6ff3c21e974707e834bb96955a48450bf7f",
+        "sha": "7dc9e71f9d101e0903a2d169527f32adad13c22b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pybufr-ecmwf-feedstock/deployments",
             "created_at": "2018-07-01T02:15:03Z",
             "updated_at": "2018-07-01T02:15:05Z",
-            "pushed_at": "2018-10-15T21:48:09Z",
+            "pushed_at": "2018-11-11T04:31:25Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pybufr-ecmwf-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pybufr-ecmwf-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pybufr-ecmwf-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pybufr-ecmwf-feedstock",
             "homepage": null,
-            "size": 35,
+            "size": 37,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/deployments",
             "created_at": "2016-09-12T17:48:57Z",
             "updated_at": "2018-08-04T17:33:33Z",
-            "pushed_at": "2018-10-15T21:48:10Z",
+            "pushed_at": "2018-11-11T04:31:26Z",
             "git_url": "git://github.com/conda-forge/pybufr-ecmwf-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pybufr-ecmwf-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pybufr-ecmwf-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/statuses/ac7fb6ff3c21e974707e834bb96955a48450bf7f"
+            "href": "https://api.github.com/repos/conda-forge/pybufr-ecmwf-feedstock/statuses/7dc9e71f9d101e0903a2d169527f32adad13c22b"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 8,
+    "comments": 9,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 661,
+    "commits": 7,
+    "additions": 663,
     "deletions": 149,
-    "changed_files": 30
+    "changed_files": 30,
+    "Last-Modified": "Sun, 11 Nov 2018 04:31:30 GMT",
+    "ETag": "W/\"cb9d7f43285c0d9590c55a0e379d5d15\""
 }
