@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\norange3-imageanalytics\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T14:29:42Z",
-    "updated_at": "2018-11-11T04:15:17Z",
+    "updated_at": "2018-11-11T14:19:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "481122bda7d24cc1d1a672dcbfd65ebc4de66e11",
+    "merge_commit_sha": "3e7680808aa74052c61469f58b7ccd6a2058e8b6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lap-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lap-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lap-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lap-feedstock/statuses/12a4cfa0a910b3bb22e049b15f16ce497c525bf4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lap-feedstock/statuses/ffd6dfb3cdde387be8a6b2182f83ae0c54db58d2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "12a4cfa0a910b3bb22e049b15f16ce497c525bf4",
+        "sha": "ffd6dfb3cdde387be8a6b2182f83ae0c54db58d2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lap-feedstock/deployments",
             "created_at": "2018-06-24T05:03:34Z",
             "updated_at": "2018-06-24T05:03:35Z",
-            "pushed_at": "2018-11-11T04:15:17Z",
+            "pushed_at": "2018-11-11T14:19:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lap-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lap-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lap-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lap-feedstock/deployments",
             "created_at": "2018-01-06T05:54:58Z",
             "updated_at": "2018-08-04T19:04:09Z",
-            "pushed_at": "2018-11-11T04:15:18Z",
+            "pushed_at": "2018-11-11T14:19:48Z",
             "git_url": "git://github.com/conda-forge/lap-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lap-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lap-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lap-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lap-feedstock/statuses/12a4cfa0a910b3bb22e049b15f16ce497c525bf4"
+            "href": "https://api.github.com/repos/conda-forge/lap-feedstock/statuses/ffd6dfb3cdde387be8a6b2182f83ae0c54db58d2"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
+    "commits": 7,
     "additions": 454,
     "deletions": 102,
     "changed_files": 29,
-    "Last-Modified": "Sun, 11 Nov 2018 04:15:17 GMT",
-    "ETag": "W/\"6f0cc4d9d48eae06f1e74609aaa22a00\""
+    "Last-Modified": "Sun, 11 Nov 2018 14:19:47 GMT",
+    "ETag": "W/\"5a9966367a540130038abc41217f948e\""
 }
