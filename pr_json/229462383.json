@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npyfmi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-08T18:17:21Z",
-    "updated_at": "2018-11-09T17:16:02Z",
+    "updated_at": "2018-11-11T13:03:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4f27da5f057eb2237b25b2d4161093b55acdad14",
+    "merge_commit_sha": "dc8d6d7058ee24c182ce2fa08c966534c4c968c8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/pulls/16/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/issues/16/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/statuses/b1e80c33c18023e18e8208c8aacf8249614a3aa4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/statuses/58aa1a98a71349040069f41f8ced8289c8041a0e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b1e80c33c18023e18e8208c8aacf8249614a3aa4",
+        "sha": "58aa1a98a71349040069f41f8ced8289c8041a0e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/assimulo-feedstock/deployments",
             "created_at": "2018-07-07T13:12:28Z",
             "updated_at": "2018-07-07T13:12:30Z",
-            "pushed_at": "2018-11-09T17:16:02Z",
+            "pushed_at": "2018-11-11T13:03:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/assimulo-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/assimulo-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/assimulo-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/assimulo-feedstock",
             "homepage": null,
-            "size": 101,
+            "size": 104,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "96e956ed60171dd15342798740e203f9de9bec1a",
+        "sha": "be5f22f1faa9f1f47cbd71a9af8185bdcfaf0539",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/assimulo-feedstock/deployments",
             "created_at": "2016-11-09T17:36:50Z",
-            "updated_at": "2018-11-09T16:57:55Z",
-            "pushed_at": "2018-11-11T12:01:44Z",
+            "updated_at": "2018-11-11T13:01:02Z",
+            "pushed_at": "2018-11-11T13:03:58Z",
             "git_url": "git://github.com/conda-forge/assimulo-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/assimulo-feedstock.git",
             "clone_url": "https://github.com/conda-forge/assimulo-feedstock.git",
             "svn_url": "https://github.com/conda-forge/assimulo-feedstock",
             "homepage": null,
-            "size": 92,
+            "size": 95,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/assimulo-feedstock/pulls/16/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/assimulo-feedstock/statuses/b1e80c33c18023e18e8208c8aacf8249614a3aa4"
+            "href": "https://api.github.com/repos/conda-forge/assimulo-feedstock/statuses/58aa1a98a71349040069f41f8ced8289c8041a0e"
         }
     },
     "author_association": "NONE",
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 420,
     "deletions": 117,
-    "changed_files": 28
+    "changed_files": 28,
+    "Last-Modified": "Sun, 11 Nov 2018 13:03:57 GMT",
+    "ETag": "W/\"69c06910447b4259b57e77c6ff4075b4\""
 }
