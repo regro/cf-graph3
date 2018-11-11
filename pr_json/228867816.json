@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T23:17:36Z",
-    "updated_at": "2018-11-06T23:17:39Z",
+    "updated_at": "2018-11-11T00:31:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0c8134534b1e53ddaf0cc578e5d63403d95da918",
+    "merge_commit_sha": "6441e7f2d07ae23260d59308110573e90bf705cb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/statuses/f826cf20981e31ff5b79335e0f1f0d15f0a5f30b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/statuses/6211a9989d8da40240a7c9aa0b0cd97bc1410ed5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f826cf20981e31ff5b79335e0f1f0d15f0a5f30b",
+        "sha": "6211a9989d8da40240a7c9aa0b0cd97bc1410ed5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hmmlearn-feedstock/deployments",
             "created_at": "2018-11-06T23:14:42Z",
             "updated_at": "2018-11-06T23:14:45Z",
-            "pushed_at": "2018-11-06T23:17:36Z",
+            "pushed_at": "2018-11-11T00:30:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hmmlearn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hmmlearn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hmmlearn-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/deployments",
             "created_at": "2018-11-06T22:13:04Z",
             "updated_at": "2018-11-06T22:15:27Z",
-            "pushed_at": "2018-11-06T23:17:37Z",
+            "pushed_at": "2018-11-11T00:30:19Z",
             "git_url": "git://github.com/conda-forge/hmmlearn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hmmlearn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hmmlearn-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/statuses/f826cf20981e31ff5b79335e0f1f0d15f0a5f30b"
+            "href": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/statuses/6211a9989d8da40240a7c9aa0b0cd97bc1410ed5"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 350,
-    "deletions": 19,
+    "commits": 3,
+    "additions": 358,
+    "deletions": 25,
     "changed_files": 18,
-    "Last-Modified": "Tue, 06 Nov 2018 23:17:39 GMT",
-    "ETag": "W/\"a77a39327a844f73063c16d2cb6051da\""
+    "Last-Modified": "Sun, 11 Nov 2018 00:31:17 GMT",
+    "ETag": "W/\"cecceabd3280e33d90c8feff7131e050\""
 }

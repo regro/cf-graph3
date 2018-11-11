@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nemperor\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-29T19:16:11Z",
-    "updated_at": "2018-10-29T19:16:15Z",
+    "updated_at": "2018-11-11T00:04:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f9b5cc184c2be75b5172ba51b53ee7832d3cbc30",
+    "merge_commit_sha": "a91e79f0ec9d2fa152f103f1957f8df45129020f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/statuses/c607195a6882c92ae6881ee31d497310ec98d097",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/statuses/f392b4b61e23cc176742d4a74e4cb0d8066ba1b7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c607195a6882c92ae6881ee31d497310ec98d097",
+        "sha": "f392b4b61e23cc176742d4a74e4cb0d8066ba1b7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scikit-bio-feedstock/deployments",
             "created_at": "2018-03-05T04:46:26Z",
             "updated_at": "2018-03-05T04:46:27Z",
-            "pushed_at": "2018-10-29T19:16:10Z",
+            "pushed_at": "2018-11-11T00:04:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scikit-bio-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scikit-bio-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scikit-bio-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/scikit-bio-feedstock",
             "homepage": null,
-            "size": 40,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/deployments",
             "created_at": "2016-07-26T02:41:09Z",
             "updated_at": "2018-08-28T01:53:35Z",
-            "pushed_at": "2018-10-29T19:16:12Z",
+            "pushed_at": "2018-11-11T00:04:54Z",
             "git_url": "git://github.com/conda-forge/scikit-bio-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scikit-bio-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scikit-bio-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/statuses/c607195a6882c92ae6881ee31d497310ec98d097"
+            "href": "https://api.github.com/repos/conda-forge/scikit-bio-feedstock/statuses/f392b4b61e23cc176742d4a74e4cb0d8066ba1b7"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 121,
-    "deletions": 56,
-    "changed_files": 13
+    "commits": 4,
+    "additions": 306,
+    "deletions": 84,
+    "changed_files": 20,
+    "Last-Modified": "Sun, 11 Nov 2018 00:04:52 GMT",
+    "ETag": "W/\"b980d0996c1b9863f8137d58a8886091\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T10:18:53Z",
-    "updated_at": "2018-11-10T20:12:22Z",
+    "updated_at": "2018-11-11T00:23:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4517e3d617f390d4b396a88c00f4e182c86305c9",
+    "merge_commit_sha": "c5b02b2fe2baf1de41a6b317211bc54f59b4bee1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/statuses/e26e73f24fc7be1c26623d8c572955a5ddc70788",
+    "statuses_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/statuses/4671a1ec7709e569c431c7ba03e6c10a65e184d9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e26e73f24fc7be1c26623d8c572955a5ddc70788",
+        "sha": "4671a1ec7709e569c431c7ba03e6c10a65e184d9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/trollius-feedstock/deployments",
             "created_at": "2018-03-09T23:01:18Z",
             "updated_at": "2018-03-09T23:01:19Z",
-            "pushed_at": "2018-11-10T20:12:22Z",
+            "pushed_at": "2018-11-11T00:23:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/trollius-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/trollius-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/trollius-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/trollius-feedstock/deployments",
             "created_at": "2017-04-28T03:06:05Z",
             "updated_at": "2018-08-04T18:16:28Z",
-            "pushed_at": "2018-11-10T20:12:23Z",
+            "pushed_at": "2018-11-11T00:23:47Z",
             "git_url": "git://github.com/conda-forge/trollius-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/trollius-feedstock.git",
             "clone_url": "https://github.com/conda-forge/trollius-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/trollius-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/trollius-feedstock/statuses/e26e73f24fc7be1c26623d8c572955a5ddc70788"
+            "href": "https://api.github.com/repos/conda-forge/trollius-feedstock/statuses/4671a1ec7709e569c431c7ba03e6c10a65e184d9"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 146,
-    "deletions": 170,
+    "commits": 5,
+    "additions": 147,
+    "deletions": 171,
     "changed_files": 25,
-    "Last-Modified": "Sat, 10 Nov 2018 20:12:22 GMT",
-    "ETag": "W/\"e6ee9a3e5cc130cabbf6cc8195b7e1f9\""
+    "Last-Modified": "Sun, 11 Nov 2018 00:23:46 GMT",
+    "ETag": "W/\"10beedd0f499da9ccfd024750ee42db1\""
 }
