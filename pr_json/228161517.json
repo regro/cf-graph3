@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-04T07:14:47Z",
-    "updated_at": "2018-11-11T11:41:31Z",
+    "updated_at": "2018-11-11T13:24:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "113de8d04253b14762cdfbd794ad77c1c3df7846",
+    "merge_commit_sha": "aa66f82ebfa86d0bdb85cb418c26dc2031640b28",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/statuses/458cafd901aad3d4c7a78864fdf30cf19786b819",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/statuses/2fc2844ff555a65b66f399a20c0f552d69366af4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "458cafd901aad3d4c7a78864fdf30cf19786b819",
+        "sha": "2fc2844ff555a65b66f399a20c0f552d69366af4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mdbenchmark-feedstock/deployments",
             "created_at": "2018-09-25T07:16:54Z",
             "updated_at": "2018-09-25T07:16:56Z",
-            "pushed_at": "2018-11-11T00:39:59Z",
+            "pushed_at": "2018-11-11T13:24:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mdbenchmark-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mdbenchmark-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mdbenchmark-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mdbenchmark-feedstock",
             "homepage": null,
-            "size": 35,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/deployments",
             "created_at": "2017-12-18T00:33:29Z",
             "updated_at": "2018-10-30T09:42:56Z",
-            "pushed_at": "2018-11-11T00:39:59Z",
+            "pushed_at": "2018-11-11T13:24:29Z",
             "git_url": "git://github.com/conda-forge/mdbenchmark-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mdbenchmark-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mdbenchmark-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/statuses/458cafd901aad3d4c7a78864fdf30cf19786b819"
+            "href": "https://api.github.com/repos/conda-forge/mdbenchmark-feedstock/statuses/2fc2844ff555a65b66f399a20c0f552d69366af4"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 97,
+    "commits": 4,
+    "additions": 96,
     "deletions": 12,
-    "changed_files": 10
+    "changed_files": 10,
+    "Last-Modified": "Sun, 11 Nov 2018 13:24:28 GMT",
+    "ETag": "W/\"aa0c1b73941c533e92a66699e2e86db8\""
 }
