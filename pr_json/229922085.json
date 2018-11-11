@@ -1,12 +1,12 @@
 {
-    "url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14",
-    "id": 220717193,
-    "node_id": "MDExOlB1bGxSZXF1ZXN0MjIwNzE3MTkz",
-    "html_url": "https://github.com/conda-forge/openmp-feedstock/pull/14",
-    "diff_url": "https://github.com/conda-forge/openmp-feedstock/pull/14.diff",
-    "patch_url": "https://github.com/conda-forge/openmp-feedstock/pull/14.patch",
-    "issue_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/14",
-    "number": 14,
+    "url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15",
+    "id": 229922085,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MjI5OTIyMDg1",
+    "html_url": "https://github.com/conda-forge/openmp-feedstock/pull/15",
+    "diff_url": "https://github.com/conda-forge/openmp-feedstock/pull/15.diff",
+    "patch_url": "https://github.com/conda-forge/openmp-feedstock/pull/15.patch",
+    "issue_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/15",
+    "number": 15,
     "state": "open",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
@@ -31,35 +31,26 @@
         "site_admin": false
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nvic\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
-    "created_at": "2018-10-05T14:16:41Z",
-    "updated_at": "2018-11-10T22:44:54Z",
+    "created_at": "2018-11-11T00:15:30Z",
+    "updated_at": "2018-11-11T00:15:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e52ee8c4687e2a48a60e45cf71de30f1f5504263",
+    "merge_commit_sha": null,
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [
-        {
-            "id": 1123203980,
-            "node_id": "MDU6TGFiZWwxMTIzMjAzOTgw",
-            "url": "https://api.github.com/repos/conda-forge/openmp-feedstock/labels/bot-rerun",
-            "name": "bot-rerun",
-            "color": "d222f9",
-            "default": false
-        }
-    ],
+    "labels": [],
     "milestone": null,
-    "commits_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14/commits",
-    "review_comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14/comments",
+    "commits_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/commits",
+    "review_comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/1b482215114f074f43cc9cf10a4974b13c58abc4",
+    "comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/15/comments",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/c98cc3c4cefd186a7df5ac3fc5fffcdecc07cb1f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1b482215114f074f43cc9cf10a4974b13c58abc4",
+        "sha": "c98cc3c4cefd186a7df5ac3fc5fffcdecc07cb1f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -148,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openmp-feedstock/deployments",
             "created_at": "2018-06-29T07:07:25Z",
             "updated_at": "2018-06-29T07:07:27Z",
-            "pushed_at": "2018-10-14T18:25:31Z",
+            "pushed_at": "2018-11-11T00:15:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openmp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
@@ -183,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "abdff0e4e6749e0568e8d1cafe4424c0f1b2c91b",
+        "sha": "883001586da92777d5917227cbc61e2550a3ad4c",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -306,43 +297,43 @@
     },
     "_links": {
         "self": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15"
         },
         "html": {
-            "href": "https://github.com/conda-forge/openmp-feedstock/pull/14"
+            "href": "https://github.com/conda-forge/openmp-feedstock/pull/15"
         },
         "issue": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/14"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/15"
         },
         "comments": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/14/comments"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/15/comments"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14/comments"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/comments"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/comments{/number}"
         },
         "commits": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/14/commits"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/1b482215114f074f43cc9cf10a4974b13c58abc4"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/c98cc3c4cefd186a7df5ac3fc5fffcdecc07cb1f"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:<br>\nvic<br>\nAnd potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nvic\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
-    "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable": null,
+    "rebaseable": null,
+    "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 8,
+    "comments": 0,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
-    "additions": 168,
-    "deletions": 60,
-    "changed_files": 16
+    "additions": 90,
+    "deletions": 10,
+    "changed_files": 8
 }
