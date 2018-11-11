@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-30T03:16:42Z",
-    "updated_at": "2018-11-10T21:23:42Z",
+    "updated_at": "2018-11-11T00:19:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "84a557d1bcf2941638ecdad848c2c258acd64fe9",
+    "merge_commit_sha": "9ff461dd9a41c077abff4cfaee24f714bce03959",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/statuses/74f9d6d9c476f1f6b152ffee26634a94e8a54104",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/statuses/230e05644733441a29b233f92ebfc82f377bdf59",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "74f9d6d9c476f1f6b152ffee26634a94e8a54104",
+        "sha": "230e05644733441a29b233f92ebfc82f377bdf59",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fbprophet-feedstock/deployments",
             "created_at": "2018-06-02T17:36:35Z",
             "updated_at": "2018-06-02T17:36:36Z",
-            "pushed_at": "2018-11-10T21:23:42Z",
+            "pushed_at": "2018-11-11T00:19:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fbprophet-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fbprophet-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fbprophet-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/fbprophet-feedstock",
             "homepage": null,
-            "size": 39,
+            "size": 43,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/deployments",
             "created_at": "2017-04-12T02:56:24Z",
             "updated_at": "2018-08-04T19:08:17Z",
-            "pushed_at": "2018-11-10T21:23:43Z",
+            "pushed_at": "2018-11-11T00:19:31Z",
             "git_url": "git://github.com/conda-forge/fbprophet-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fbprophet-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fbprophet-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/statuses/74f9d6d9c476f1f6b152ffee26634a94e8a54104"
+            "href": "https://api.github.com/repos/conda-forge/fbprophet-feedstock/statuses/230e05644733441a29b233f92ebfc82f377bdf59"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 467,
-    "deletions": 116,
-    "changed_files": 32
+    "commits": 6,
+    "additions": 499,
+    "deletions": 122,
+    "changed_files": 32,
+    "Last-Modified": "Sun, 11 Nov 2018 00:19:30 GMT",
+    "ETag": "W/\"400ebb75dcdaadc78bba9bf7dfb2535e\""
 }

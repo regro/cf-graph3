@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-rmysql\nwgrib2\nr-rmariadb\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-29T19:22:34Z",
-    "updated_at": "2018-11-03T11:57:43Z",
+    "updated_at": "2018-11-11T00:50:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9cf74722774f65317a0c80a6b5135ef688bd89a6",
+    "merge_commit_sha": "fb257225b2f0d91d4c00987cffac23d657d4c0e7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/statuses/a3308b54d1fc36751de2f4666221fa2648afb564",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/statuses/e74cc6595cca1a764917a3d9208aeb5ae5dc3f44",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a3308b54d1fc36751de2f4666221fa2648afb564",
+        "sha": "e74cc6595cca1a764917a3d9208aeb5ae5dc3f44",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mysql-connector-c-feedstock/deployments",
             "created_at": "2018-06-26T01:18:15Z",
             "updated_at": "2018-06-26T01:18:17Z",
-            "pushed_at": "2018-11-03T11:57:43Z",
+            "pushed_at": "2018-11-11T00:49:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mysql-connector-c-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mysql-connector-c-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mysql-connector-c-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mysql-connector-c-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 31,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/deployments",
             "created_at": "2017-01-12T08:20:42Z",
             "updated_at": "2018-08-04T18:44:23Z",
-            "pushed_at": "2018-11-03T11:57:44Z",
+            "pushed_at": "2018-11-11T00:49:53Z",
             "git_url": "git://github.com/conda-forge/mysql-connector-c-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mysql-connector-c-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mysql-connector-c-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/statuses/a3308b54d1fc36751de2f4666221fa2648afb564"
+            "href": "https://api.github.com/repos/conda-forge/mysql-connector-c-feedstock/statuses/e74cc6595cca1a764917a3d9208aeb5ae5dc3f44"
         }
     },
     "author_association": "NONE",
@@ -326,14 +326,16 @@
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nr-rmysql\nwgrib2\nr-rmariadb\nAnd potentially more.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 154,
-    "deletions": 52,
-    "changed_files": 15
+    "commits": 8,
+    "additions": 709,
+    "deletions": 67,
+    "changed_files": 24,
+    "Last-Modified": "Sun, 11 Nov 2018 00:50:40 GMT",
+    "ETag": "W/\"be4bc3dce38789d779e5feecc32ce58d\""
 }

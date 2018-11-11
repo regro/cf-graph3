@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T10:33:33Z",
-    "updated_at": "2018-11-10T22:07:12Z",
+    "updated_at": "2018-11-11T01:06:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4d93bf88d6497d74ab78c9319c24e3c8ac24ab5a",
+    "merge_commit_sha": "7d2e9f2665dde19b248188ded49878b7a4d9035e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/squash-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/squash-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/squash-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/squash-feedstock/statuses/eaa5d4217daa4e2e549cfc74a174daf2d0f7cefa",
+    "statuses_url": "https://api.github.com/repos/conda-forge/squash-feedstock/statuses/89f0452fc1cee6f4b89eed3cb9c1f2c89964329f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "eaa5d4217daa4e2e549cfc74a174daf2d0f7cefa",
+        "sha": "89f0452fc1cee6f4b89eed3cb9c1f2c89964329f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/squash-feedstock/deployments",
             "created_at": "2018-07-07T10:12:22Z",
             "updated_at": "2018-07-07T10:12:24Z",
-            "pushed_at": "2018-11-10T22:07:12Z",
+            "pushed_at": "2018-11-11T01:06:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/squash-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/squash-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/squash-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/squash-feedstock",
             "homepage": null,
-            "size": 32,
+            "size": 35,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/squash-feedstock/deployments",
             "created_at": "2017-02-13T04:24:36Z",
             "updated_at": "2018-08-04T19:27:28Z",
-            "pushed_at": "2018-11-10T22:07:13Z",
+            "pushed_at": "2018-11-11T01:06:57Z",
             "git_url": "git://github.com/conda-forge/squash-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/squash-feedstock.git",
             "clone_url": "https://github.com/conda-forge/squash-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/squash-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/squash-feedstock/statuses/eaa5d4217daa4e2e549cfc74a174daf2d0f7cefa"
+            "href": "https://api.github.com/repos/conda-forge/squash-feedstock/statuses/89f0452fc1cee6f4b89eed3cb9c1f2c89964329f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 408,
+    "commits": 7,
+    "additions": 421,
     "deletions": 114,
-    "changed_files": 22
+    "changed_files": 22,
+    "Last-Modified": "Sun, 11 Nov 2018 01:06:56 GMT",
+    "ETag": "W/\"e495cf0ed2360cbe659e4c0d398f5806\""
 }

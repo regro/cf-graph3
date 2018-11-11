@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nhalide-python\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-21T12:28:41Z",
-    "updated_at": "2018-11-10T21:48:08Z",
+    "updated_at": "2018-11-11T00:13:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "871923ef5c7e69bdcca4c5864451294b348a3e10",
+    "merge_commit_sha": "e0331b0193d735b301c024627b47a268f82886f7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/halide-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/halide-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/halide-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/halide-feedstock/statuses/6426273a29b2b514017cd5065e088bef576f9d04",
+    "statuses_url": "https://api.github.com/repos/conda-forge/halide-feedstock/statuses/cd08ce869ffc37e030f17bb3a88030e75e4bd0d6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6426273a29b2b514017cd5065e088bef576f9d04",
+        "sha": "cd08ce869ffc37e030f17bb3a88030e75e4bd0d6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/halide-feedstock/deployments",
             "created_at": "2018-06-24T01:22:58Z",
             "updated_at": "2018-06-24T01:23:00Z",
-            "pushed_at": "2018-11-10T21:48:08Z",
+            "pushed_at": "2018-11-11T00:13:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/halide-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/halide-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/halide-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/halide-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 28,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/halide-feedstock/deployments",
             "created_at": "2017-03-11T09:08:18Z",
             "updated_at": "2018-08-04T18:56:04Z",
-            "pushed_at": "2018-11-10T21:48:09Z",
+            "pushed_at": "2018-11-11T00:13:03Z",
             "git_url": "git://github.com/conda-forge/halide-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/halide-feedstock.git",
             "clone_url": "https://github.com/conda-forge/halide-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/halide-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/halide-feedstock/statuses/6426273a29b2b514017cd5065e088bef576f9d04"
+            "href": "https://api.github.com/repos/conda-forge/halide-feedstock/statuses/cd08ce869ffc37e030f17bb3a88030e75e4bd0d6"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 267,
+    "commits": 6,
+    "additions": 347,
     "deletions": 124,
-    "changed_files": 20
+    "changed_files": 22,
+    "Last-Modified": "Sun, 11 Nov 2018 00:13:02 GMT",
+    "ETag": "W/\"c932038a94d877cfdf56e996dc59538b\""
 }
