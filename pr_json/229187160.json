@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsaga-python\nradical.pilot\nradical.entk\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-07T22:18:33Z",
-    "updated_at": "2018-11-07T22:18:37Z",
+    "updated_at": "2018-11-12T19:31:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1f1bd1e2d4686aa72557a620bc917f09c9be15de",
+    "merge_commit_sha": "695cdcb23079c356e78c2cacf9881e6de84e7b56",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/statuses/24f4d13f677f3df533c7cf71ce1a9799d68c8494",
+    "statuses_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/statuses/5e1ea7a60d04a4434e04d740ef9f07bb262fb649",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "24f4d13f677f3df533c7cf71ce1a9799d68c8494",
+        "sha": "5e1ea7a60d04a4434e04d740ef9f07bb262fb649",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/radical.utils-feedstock/deployments",
             "created_at": "2018-08-20T16:31:00Z",
             "updated_at": "2018-08-20T16:31:02Z",
-            "pushed_at": "2018-11-07T22:18:33Z",
+            "pushed_at": "2018-11-12T19:31:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/radical.utils-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/radical.utils-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/radical.utils-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/radical.utils-feedstock",
             "homepage": null,
-            "size": 22,
+            "size": 24,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/deployments",
             "created_at": "2018-06-15T04:09:17Z",
             "updated_at": "2018-10-31T15:34:33Z",
-            "pushed_at": "2018-11-07T22:18:34Z",
+            "pushed_at": "2018-11-12T19:31:05Z",
             "git_url": "git://github.com/conda-forge/radical.utils-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/radical.utils-feedstock.git",
             "clone_url": "https://github.com/conda-forge/radical.utils-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/statuses/24f4d13f677f3df533c7cf71ce1a9799d68c8494"
+            "href": "https://api.github.com/repos/conda-forge/radical.utils-feedstock/statuses/5e1ea7a60d04a4434e04d740ef9f07bb262fb649"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 92,
     "deletions": 10,
-    "changed_files": 8
+    "changed_files": 8,
+    "Last-Modified": "Mon, 12 Nov 2018 19:31:04 GMT",
+    "ETag": "W/\"37d047f6213e61f8530be9b28c098fc5\""
 }
