@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-30T11:16:01Z",
-    "updated_at": "2018-11-11T03:49:27Z",
+    "updated_at": "2018-11-12T12:03:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0d64b7c5f24b9f9599ad49dd0b95d3bf89968593",
+    "merge_commit_sha": "ce91af7c1d513697db9a4dfa531b2e1e89fcfbee",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/statuses/2472ea21d1869b4b936a9948b6d2acce897e5525",
+    "statuses_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/statuses/f7eecc8e810c587b1345adbb91c827f789ca7305",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2472ea21d1869b4b936a9948b6d2acce897e5525",
+        "sha": "f7eecc8e810c587b1345adbb91c827f789ca7305",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/px4tools-feedstock/deployments",
             "created_at": "2018-03-02T03:08:14Z",
             "updated_at": "2018-03-02T03:08:15Z",
-            "pushed_at": "2018-10-30T11:16:01Z",
+            "pushed_at": "2018-11-12T11:36:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/px4tools-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/px4tools-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/px4tools-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/px4tools-feedstock/deployments",
             "created_at": "2016-10-03T22:05:46Z",
             "updated_at": "2018-08-04T19:03:52Z",
-            "pushed_at": "2018-10-30T11:16:02Z",
+            "pushed_at": "2018-11-12T11:36:29Z",
             "git_url": "git://github.com/conda-forge/px4tools-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/px4tools-feedstock.git",
             "clone_url": "https://github.com/conda-forge/px4tools-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 4,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/px4tools-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/px4tools-feedstock/statuses/2472ea21d1869b4b936a9948b6d2acce897e5525"
+            "href": "https://api.github.com/repos/conda-forge/px4tools-feedstock/statuses/f7eecc8e810c587b1345adbb91c827f789ca7305"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 493,
-    "deletions": 197,
+    "commits": 3,
+    "additions": 501,
+    "deletions": 210,
     "changed_files": 29,
-    "Last-Modified": "Sun, 11 Nov 2018 03:49:27 GMT",
-    "ETag": "W/\"4d20afdc22da1971a3c5d73f195233a8\""
+    "Last-Modified": "Mon, 12 Nov 2018 12:03:54 GMT",
+    "ETag": "W/\"f92c37685fa3b340be7942cd74f38c8d\""
 }
