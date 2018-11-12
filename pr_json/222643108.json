@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\neqcorrscan\ninstaseis\nlibcomcat\nobspyck\npyweed\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T10:57:07Z",
-    "updated_at": "2018-11-08T18:57:09Z",
+    "updated_at": "2018-11-12T12:19:11Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "e6e7a8e6ba5f725f80b741895101e0c46f2bad40",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 7,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 335,
     "deletions": 46,
-    "changed_files": 22
+    "changed_files": 22,
+    "Last-Modified": "Mon, 12 Nov 2018 12:19:11 GMT",
+    "ETag": "W/\"6898234ef9de8c5b33ba8a97251cf445\""
 }
