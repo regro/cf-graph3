@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-12T15:14:33Z",
-    "updated_at": "2018-11-12T17:53:12Z",
+    "updated_at": "2018-11-12T18:55:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8ec15dce4842a5b8551e37547f689d88b0899fb3",
+    "merge_commit_sha": "3449720d0cec1a64a2fa069ff9764ace9b83a996",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/statuses/e12e2a108e9edb7cbd55c61ea84540d8b52f8e90",
+    "statuses_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/statuses/b9af803bb20eb277e1b3b07377bf5e45f176d65f",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.4",
         "ref": "1.2.4",
-        "sha": "e12e2a108e9edb7cbd55c61ea84540d8b52f8e90",
+        "sha": "b9af803bb20eb277e1b3b07377bf5e45f176d65f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/msmtools-feedstock/deployments",
             "created_at": "2018-07-26T00:36:26Z",
             "updated_at": "2018-07-26T00:36:28Z",
-            "pushed_at": "2018-11-12T17:53:12Z",
+            "pushed_at": "2018-11-12T18:55:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/msmtools-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/msmtools-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/msmtools-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/msmtools-feedstock",
             "homepage": null,
-            "size": 47,
+            "size": 50,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/msmtools-feedstock/deployments",
             "created_at": "2016-09-22T15:10:52Z",
             "updated_at": "2018-09-05T00:08:10Z",
-            "pushed_at": "2018-11-12T17:53:13Z",
+            "pushed_at": "2018-11-12T18:55:22Z",
             "git_url": "git://github.com/conda-forge/msmtools-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/msmtools-feedstock.git",
             "clone_url": "https://github.com/conda-forge/msmtools-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/msmtools-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/msmtools-feedstock/statuses/e12e2a108e9edb7cbd55c61ea84540d8b52f8e90"
+            "href": "https://api.github.com/repos/conda-forge/msmtools-feedstock/statuses/b9af803bb20eb277e1b3b07377bf5e45f176d65f"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 423,
+    "commits": 8,
+    "additions": 495,
     "deletions": 139,
-    "changed_files": 31,
-    "Last-Modified": "Mon, 12 Nov 2018 17:53:12 GMT",
-    "ETag": "W/\"6ce664f66e5258503796e49db4c087fe\""
+    "changed_files": 34,
+    "Last-Modified": "Mon, 12 Nov 2018 18:55:22 GMT",
+    "ETag": "W/\"dcc290a7f1f14d098b3d3083c7e7fb23\""
 }
