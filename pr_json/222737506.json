@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T19:29:50Z",
-    "updated_at": "2018-11-12T11:16:03Z",
+    "updated_at": "2018-11-12T21:32:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1183c7d1326cf3ebfadff2c0e401c9cbcb34b842",
+    "merge_commit_sha": "c472dcafb4232a2c865285775dff892b0620c441",
     "assignee": {
         "login": "carlodri",
         "id": 5230366,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/statuses/56af8e5b121401d8304b4175375ff55c26143fb2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/statuses/c9018d51ffa7f768313e3190163f3e6c8d80692b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "56af8e5b121401d8304b4175375ff55c26143fb2",
+        "sha": "c9018d51ffa7f768313e3190163f3e6c8d80692b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cairosvg-feedstock/deployments",
             "created_at": "2018-03-01T03:19:26Z",
             "updated_at": "2018-03-01T03:19:28Z",
-            "pushed_at": "2018-11-12T10:46:48Z",
+            "pushed_at": "2018-11-12T21:32:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cairosvg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cairosvg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cairosvg-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/deployments",
             "created_at": "2016-11-16T22:15:28Z",
             "updated_at": "2018-11-12T10:03:53Z",
-            "pushed_at": "2018-11-12T10:46:49Z",
+            "pushed_at": "2018-11-12T21:32:04Z",
             "git_url": "git://github.com/conda-forge/cairosvg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cairosvg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cairosvg-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/statuses/56af8e5b121401d8304b4175375ff55c26143fb2"
+            "href": "https://api.github.com/repos/conda-forge/cairosvg-feedstock/statuses/c9018d51ffa7f768313e3190163f3e6c8d80692b"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
+    "commits": 6,
     "additions": 127,
-    "deletions": 69,
+    "deletions": 70,
     "changed_files": 15,
-    "Last-Modified": "Mon, 12 Nov 2018 11:16:03 GMT",
-    "ETag": "W/\"31c086e88251ce9d9a1b6a4645383cad\""
+    "Last-Modified": "Mon, 12 Nov 2018 21:32:03 GMT",
+    "ETag": "W/\"9b8d2c6096118e2bddb914db0858a1fc\""
 }

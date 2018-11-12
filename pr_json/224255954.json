@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nmdsrv\nmsmbuilder\npyemma\npyretis\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-19T11:31:24Z",
-    "updated_at": "2018-11-12T17:34:34Z",
+    "updated_at": "2018-11-12T18:58:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1a305d52a8fe87c4a94de46d12db6d7374be502b",
+    "merge_commit_sha": "6935d0208286dacd1535401c4d4d06d8e8a23deb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/statuses/4618f6f0caaf13f973105e974d49c12337ca7d70",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/statuses/5d04942e52fa7b46ff739e00f5ad82dcd073fdde",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4618f6f0caaf13f973105e974d49c12337ca7d70",
+        "sha": "5d04942e52fa7b46ff739e00f5ad82dcd073fdde",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mdtraj-feedstock/deployments",
             "created_at": "2018-07-26T00:28:23Z",
             "updated_at": "2018-07-26T00:28:25Z",
-            "pushed_at": "2018-11-12T17:34:34Z",
+            "pushed_at": "2018-11-12T18:58:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mdtraj-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mdtraj-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mdtraj-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mdtraj-feedstock",
             "homepage": null,
-            "size": 59,
+            "size": 168,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/deployments",
             "created_at": "2016-09-04T22:28:58Z",
             "updated_at": "2018-10-23T18:47:00Z",
-            "pushed_at": "2018-11-12T17:34:35Z",
+            "pushed_at": "2018-11-12T18:58:33Z",
             "git_url": "git://github.com/conda-forge/mdtraj-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mdtraj-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mdtraj-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/statuses/4618f6f0caaf13f973105e974d49c12337ca7d70"
+            "href": "https://api.github.com/repos/conda-forge/mdtraj-feedstock/statuses/5d04942e52fa7b46ff739e00f5ad82dcd073fdde"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 15,
     "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 9,
-    "additions": 510,
+    "commits": 11,
+    "additions": 22152,
     "deletions": 107,
-    "changed_files": 30
+    "changed_files": 31,
+    "Last-Modified": "Mon, 12 Nov 2018 18:58:33 GMT",
+    "ETag": "W/\"d1758d88fdb77f034a96dfe7d7b047cc\""
 }

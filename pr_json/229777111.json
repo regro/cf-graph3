@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nresponder\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T18:16:11Z",
-    "updated_at": "2018-11-12T11:26:18Z",
+    "updated_at": "2018-11-12T21:18:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5f5023b33c33d168f1dd5df2c6827de6f41e1a1f",
+    "merge_commit_sha": "59c5bf470f5d079cf2cd5d8c1055d550c62efc59",
     "assignee": {
         "login": "carlodri",
         "id": 5230366,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/statuses/ed1276ac65b57eba7f93a09457241b3f3ea92d38",
+    "statuses_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/statuses/2c8ae3db6570d8a7ca89894b9cac555c3a2440b5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ed1276ac65b57eba7f93a09457241b3f3ea92d38",
+        "sha": "2c8ae3db6570d8a7ca89894b9cac555c3a2440b5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/uvicorn-feedstock/deployments",
             "created_at": "2018-10-17T09:28:57Z",
             "updated_at": "2018-10-17T09:28:59Z",
-            "pushed_at": "2018-11-12T11:22:53Z",
+            "pushed_at": "2018-11-12T21:18:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/uvicorn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/uvicorn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/uvicorn-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/deployments",
             "created_at": "2018-10-17T07:43:23Z",
             "updated_at": "2018-11-07T07:38:25Z",
-            "pushed_at": "2018-11-12T11:22:54Z",
+            "pushed_at": "2018-11-12T21:18:20Z",
             "git_url": "git://github.com/conda-forge/uvicorn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/uvicorn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/uvicorn-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/statuses/ed1276ac65b57eba7f93a09457241b3f3ea92d38"
+            "href": "https://api.github.com/repos/conda-forge/uvicorn-feedstock/statuses/2c8ae3db6570d8a7ca89894b9cac555c3a2440b5"
         }
     },
     "author_association": "NONE",
@@ -367,15 +367,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
+    "commits": 4,
     "additions": 93,
     "deletions": 8,
     "changed_files": 10,
-    "Last-Modified": "Mon, 12 Nov 2018 11:26:18 GMT",
-    "ETag": "W/\"1099ae82eafe8eedf8255a4c096ad15c\""
+    "Last-Modified": "Mon, 12 Nov 2018 21:18:19 GMT",
+    "ETag": "W/\"8dc656aa8fcca0bdcf8c798d0df69f71\""
 }
