@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npsy-maps\npsy-reg\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T03:14:34Z",
-    "updated_at": "2018-11-09T03:14:37Z",
+    "updated_at": "2018-11-14T12:33:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "41640cf2e782fa136077c66abb30ac19014faeba",
+    "merge_commit_sha": "fe6e5f6a61fbe8ff0b62d0e71c87af5c4559c1f4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/statuses/0f2f81951b8b8fc7de19d34576efd964adb61ad1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/statuses/472d0ff4d9a6d3f11dfaa3b51128706d976ec462",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "0f2f81951b8b8fc7de19d34576efd964adb61ad1",
+        "sha": "472d0ff4d9a6d3f11dfaa3b51128706d976ec462",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/psy-simple-feedstock/deployments",
             "created_at": "2018-04-09T10:43:29Z",
             "updated_at": "2018-04-09T10:43:30Z",
-            "pushed_at": "2018-11-13T11:11:32Z",
+            "pushed_at": "2018-11-14T12:30:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/psy-simple-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/psy-simple-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/psy-simple-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/psy-simple-feedstock",
             "homepage": null,
-            "size": 21,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "5351091e3c20c715d9b5d8761469255b7773c25a",
+        "sha": "3e959ca55a19c538edb0dd5a09d8ee1148e792af",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/deployments",
             "created_at": "2017-08-02T13:06:24Z",
             "updated_at": "2018-11-13T10:59:12Z",
-            "pushed_at": "2018-11-13T10:59:10Z",
+            "pushed_at": "2018-11-14T12:30:48Z",
             "git_url": "git://github.com/conda-forge/psy-simple-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/psy-simple-feedstock.git",
             "clone_url": "https://github.com/conda-forge/psy-simple-feedstock.git",
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/statuses/0f2f81951b8b8fc7de19d34576efd964adb61ad1"
+            "href": "https://api.github.com/repos/conda-forge/psy-simple-feedstock/statuses/472d0ff4d9a6d3f11dfaa3b51128706d976ec462"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:<br>\npsy-maps<br>\npsy-reg<br>\nAnd potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\npsy-maps\npsy-reg\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 376,
-    "deletions": 159,
-    "changed_files": 26
+    "commits": 4,
+    "additions": 83,
+    "deletions": 8,
+    "changed_files": 8,
+    "Last-Modified": "Wed, 14 Nov 2018 12:33:15 GMT",
+    "ETag": "W/\"37e85e9b5586f31ddc69bab565da3f5b\""
 }
