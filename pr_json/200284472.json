@@ -32,10 +32,10 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-10T05:10:39Z",
-    "updated_at": "2018-09-25T17:05:19Z",
+    "updated_at": "2018-11-14T20:42:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f29ee3d4dfa8692c8ccd976dc2a0e1649e00c3cb",
+    "merge_commit_sha": "716b9e940e616672e3ddfd4cc1ea1f3cde1390e5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/7f7b7772d9a498d9ebee9a5ff13073f652fff6cc",
+    "statuses_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/75b578e5ed44183cf8aec978eac71631f091c255",
     "head": {
         "label": "regro-cf-autotick-bot:noarch_migration",
         "ref": "noarch_migration",
-        "sha": "7f7b7772d9a498d9ebee9a5ff13073f652fff6cc",
+        "sha": "75b578e5ed44183cf8aec978eac71631f091c255",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/apache-libcloud-feedstock/deployments",
             "created_at": "2018-02-24T00:17:43Z",
             "updated_at": "2018-02-24T00:17:45Z",
-            "pushed_at": "2018-11-12T23:11:17Z",
+            "pushed_at": "2018-11-14T20:42:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/apache-libcloud-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 39,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "ab77e0073121daff2ccfd55d162fa6f00274e594",
+        "sha": "97eab89356a387679145d59817822b546dd36cfc",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/deployments",
             "created_at": "2016-06-10T17:50:42Z",
             "updated_at": "2018-11-12T22:00:05Z",
-            "pushed_at": "2018-11-12T22:00:03Z",
+            "pushed_at": "2018-11-14T20:42:30Z",
             "git_url": "git://github.com/conda-forge/apache-libcloud-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/apache-libcloud-feedstock.git",
             "clone_url": "https://github.com/conda-forge/apache-libcloud-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 8,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/7f7b7772d9a498d9ebee9a5ff13073f652fff6cc"
+            "href": "https://api.github.com/repos/conda-forge/apache-libcloud-feedstock/statuses/75b578e5ed44183cf8aec978eac71631f091c255"
         }
     },
     "author_association": "CONTRIBUTOR",
     "body_html": "<p>I think this feedstock could be built with noarch.<br>\nThis means that the package only needs to be built once, drastically reducing CI usage.<br>\nSee <a href=\"https://conda-forge.org/docs/meta.html#building-noarch-packages\" rel=\"nofollow\">here</a> for more information about building noarch packages.<br>\nBefore merging this PR make sure:</p>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No compiled extensions</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No post-link or pre-link or pre-unlink scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No OS specific build scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No python version specific requirements</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> 2to3 is not used</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> Scripts argument in setup.py is not used</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> If entrypoints are in setup.py, they are listed in meta.yaml</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No activate scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> Not a dependency of <code>conda</code><br>\nNotes and instructions for merging this PR:</li>\n</ul>\n<ol>\n<li>If any items in the above checklist are not satisfied, please close this PR. Do not merge.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee here for more information about building noarch packages.\nBefore merging this PR make sure:\n\n No compiled extensions\n No post-link or pre-link or pre-unlink scripts\n No OS specific build scripts\n No python version specific requirements\n No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n 2to3 is not used\n Scripts argument in setup.py is not used\n If entrypoints are in setup.py, they are listed in meta.yaml\n No activate scripts\n Not a dependency of conda\nNotes and instructions for merging this PR:\n\n\nIf any items in the above checklist are not satisfied, please close this PR. Do not merge.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 211,
-    "deletions": 255,
-    "changed_files": 19
+    "commits": 6,
+    "additions": 8,
+    "deletions": 307,
+    "changed_files": 14,
+    "Last-Modified": "Wed, 14 Nov 2018 20:42:29 GMT",
+    "ETag": "W/\"2fb0b0a78aa16cdf32be723569d99ff5\""
 }
