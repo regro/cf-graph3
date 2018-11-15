@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-15T15:15:02Z",
-    "updated_at": "2018-11-15T15:15:13Z",
+    "updated_at": "2018-11-15T21:09:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "00e70c0cb49c0cd57c66e4c3e03d94c21c33ad75",
+    "merge_commit_sha": "5755ed52db25d324710722ffa05451531b43c444",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/29/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/issues/29/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/ecd7a27f314f6ce044099cd311c47dd6d1768551",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/43936093e2b8cf3dc80d1de73535e77c9c641f38",
     "head": {
         "label": "regro-cf-autotick-bot:8.6.9",
         "ref": "8.6.9",
-        "sha": "ecd7a27f314f6ce044099cd311c47dd6d1768551",
+        "sha": "43936093e2b8cf3dc80d1de73535e77c9c641f38",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tk-feedstock/deployments",
             "created_at": "2018-09-17T22:14:38Z",
             "updated_at": "2018-09-17T22:14:40Z",
-            "pushed_at": "2018-11-15T15:15:01Z",
+            "pushed_at": "2018-11-15T21:09:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tk-feedstock",
             "homepage": null,
-            "size": 51,
+            "size": 56,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/deployments",
             "created_at": "2016-05-18T06:43:27Z",
             "updated_at": "2018-09-18T12:06:50Z",
-            "pushed_at": "2018-11-15T15:15:04Z",
+            "pushed_at": "2018-11-15T21:09:36Z",
             "git_url": "git://github.com/conda-forge/tk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/29/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/ecd7a27f314f6ce044099cd311c47dd6d1768551"
+            "href": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/43936093e2b8cf3dc80d1de73535e77c9c641f38"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 4,
-    "deletions": 4,
-    "changed_files": 2
+    "deletions": 22,
+    "changed_files": 3,
+    "Last-Modified": "Thu, 15 Nov 2018 21:09:35 GMT",
+    "ETag": "W/\"79d365b5a10fcec9a7abb7d2558cab43\""
 }
