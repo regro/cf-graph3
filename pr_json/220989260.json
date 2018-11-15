@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naudi\npyaudi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T01:56:57Z",
-    "updated_at": "2018-10-08T01:57:04Z",
+    "updated_at": "2018-11-15T05:16:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6623037d6853e7a1b3fc2b489916124a6ba4a96b",
+    "merge_commit_sha": "697f72c170cba0332df4a62055c93ee2b253a4a8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/b393f302198a10835651c6547be22b9397bb3d10",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/6894317b9978022e943d91ca1a22698e68cbd961",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b393f302198a10835651c6547be22b9397bb3d10",
+        "sha": "6894317b9978022e943d91ca1a22698e68cbd961",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mppp-feedstock/deployments",
             "created_at": "2018-04-06T10:40:13Z",
             "updated_at": "2018-04-06T10:40:15Z",
-            "pushed_at": "2018-10-08T01:56:57Z",
+            "pushed_at": "2018-11-15T05:16:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mppp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mppp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mppp-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "f31425994fd412ea7f79e5e1234c14979ed0c911",
+        "sha": "ce3bb5004d5cfc0f1374ee0a1f908ad058f1b5b8",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/deployments",
             "created_at": "2017-05-22T17:40:00Z",
             "updated_at": "2018-10-11T15:16:41Z",
-            "pushed_at": "2018-10-11T15:16:39Z",
+            "pushed_at": "2018-11-15T05:16:13Z",
             "git_url": "git://github.com/conda-forge/mppp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mppp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mppp-feedstock.git",
@@ -318,24 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/b393f302198a10835651c6547be22b9397bb3d10"
+            "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/6894317b9978022e943d91ca1a22698e68cbd961"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:<br>\naudi<br>\npyaudi<br>\nAnd potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\naudi\npyaudi\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 170,
-    "deletions": 58,
-    "changed_files": 16,
-    "Last-Modified": "Mon, 08 Oct 2018 01:57:04 GMT",
-    "ETag": "W/\"922af7520f2fcced4198fb11cab186ce\""
+    "commits": 4,
+    "additions": 106,
+    "deletions": 14,
+    "changed_files": 9,
+    "Last-Modified": "Thu, 15 Nov 2018 05:16:12 GMT",
+    "ETag": "W/\"ed5f39bd724377e82f7ea81f0dc981fa\""
 }
