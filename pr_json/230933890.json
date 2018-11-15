@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|pytest|4.0.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/pytest.svg)](https://anaconda.org/conda-forge/pytest)|\n",
     "created_at": "2018-11-14T18:18:10Z",
-    "updated_at": "2018-11-14T18:18:15Z",
+    "updated_at": "2018-11-15T10:31:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c9aeb2393f666ce900e67dd778d2f2c51c3dcc79",
+    "merge_commit_sha": "21833d37392b936b1edbb2ac939ab623a53f9649",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/41/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/issues/41/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/dd765cb979c382547a2d78a6795dd2cd524c2275",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/2b0d10f5133083d2fbece8c26601d68e15f4466a",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.4",
         "ref": "0.9.4",
-        "sha": "dd765cb979c382547a2d78a6795dd2cd524c2275",
+        "sha": "2b0d10f5133083d2fbece8c26601d68e15f4466a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sunpy-feedstock/deployments",
             "created_at": "2018-07-26T21:12:32Z",
             "updated_at": "2018-07-26T21:12:34Z",
-            "pushed_at": "2018-11-14T18:18:10Z",
+            "pushed_at": "2018-11-15T10:31:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sunpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/deployments",
             "created_at": "2016-05-17T13:47:50Z",
             "updated_at": "2018-10-29T17:22:14Z",
-            "pushed_at": "2018-11-14T18:18:11Z",
+            "pushed_at": "2018-11-15T10:31:10Z",
             "git_url": "git://github.com/conda-forge/sunpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sunpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sunpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/41/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/dd765cb979c382547a2d78a6795dd2cd524c2275"
+            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/2b0d10f5133083d2fbece8c26601d68e15f4466a"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 5,
+    "deletions": 4,
+    "changed_files": 1,
+    "Last-Modified": "Thu, 15 Nov 2018 10:31:15 GMT",
+    "ETag": "W/\"10f84cba9aa9ec7af28745c7f1d85435\""
 }
