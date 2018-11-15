@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsagelib\nsage\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-13T21:17:29Z",
-    "updated_at": "2018-11-14T21:41:56Z",
+    "updated_at": "2018-11-15T00:32:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "60f60e4be34cd6e95253e9d33bb572d932ee718f",
+    "merge_commit_sha": "7a14bbc371317254d4bc3af7090ec5f801631418",
     "assignee": {
         "login": "isuruf",
         "id": 5234427,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/statuses/d8e8f82bc670501b728a080b5a24e49904246fdb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/statuses/819b43677ffcd90779596ab444a5777b4af50eb1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d8e8f82bc670501b728a080b5a24e49904246fdb",
+        "sha": "819b43677ffcd90779596ab444a5777b4af50eb1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lcalc-feedstock/deployments",
             "created_at": "2018-06-24T05:05:27Z",
             "updated_at": "2018-06-24T05:05:29Z",
-            "pushed_at": "2018-11-14T21:41:56Z",
+            "pushed_at": "2018-11-15T00:32:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lcalc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lcalc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lcalc-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lcalc-feedstock/deployments",
             "created_at": "2017-02-12T12:15:21Z",
             "updated_at": "2018-08-04T18:55:01Z",
-            "pushed_at": "2018-11-14T21:41:57Z",
+            "pushed_at": "2018-11-15T00:32:46Z",
             "git_url": "git://github.com/conda-forge/lcalc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lcalc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lcalc-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/lcalc-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lcalc-feedstock/statuses/d8e8f82bc670501b728a080b5a24e49904246fdb"
+            "href": "https://api.github.com/repos/conda-forge/lcalc-feedstock/statuses/819b43677ffcd90779596ab444a5777b4af50eb1"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 235,
+    "commits": 6,
+    "additions": 239,
     "deletions": 91,
     "changed_files": 17,
-    "Last-Modified": "Wed, 14 Nov 2018 21:41:56 GMT",
-    "ETag": "W/\"312bb79745cefc9f0d0b8f381bd053be\""
+    "Last-Modified": "Thu, 15 Nov 2018 00:32:45 GMT",
+    "ETag": "W/\"df2322561c6d3031bf796ae51fc808b4\""
 }
