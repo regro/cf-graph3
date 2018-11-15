@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsage\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-14T07:15:16Z",
-    "updated_at": "2018-11-14T07:17:36Z",
+    "updated_at": "2018-11-15T04:04:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "32b595b258b21675b116e962f30afca5c3908693",
+    "merge_commit_sha": "384a81b152d151b14f1e102b05de01b6995692c7",
     "assignee": {
         "login": "isuruf",
         "id": 5234427,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/giac-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/giac-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/giac-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/giac-feedstock/statuses/a2983a107f1677d10ec4cb80f6612b258613c864",
+    "statuses_url": "https://api.github.com/repos/conda-forge/giac-feedstock/statuses/8b862d71eb0783b5458297f62de9b69e3c8d5762",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a2983a107f1677d10ec4cb80f6612b258613c864",
+        "sha": "8b862d71eb0783b5458297f62de9b69e3c8d5762",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/giac-feedstock/deployments",
             "created_at": "2018-11-14T07:14:52Z",
             "updated_at": "2018-11-14T07:14:54Z",
-            "pushed_at": "2018-11-14T07:15:15Z",
+            "pushed_at": "2018-11-15T04:04:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/giac-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/giac-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/giac-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/giac-feedstock/deployments",
             "created_at": "2017-03-05T18:30:40Z",
             "updated_at": "2018-08-04T17:54:13Z",
-            "pushed_at": "2018-11-14T07:15:17Z",
+            "pushed_at": "2018-11-15T04:04:55Z",
             "git_url": "git://github.com/conda-forge/giac-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/giac-feedstock.git",
             "clone_url": "https://github.com/conda-forge/giac-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/giac-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/giac-feedstock/statuses/a2983a107f1677d10ec4cb80f6612b258613c864"
+            "href": "https://api.github.com/repos/conda-forge/giac-feedstock/statuses/8b862d71eb0783b5458297f62de9b69e3c8d5762"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 240,
-    "deletions": 72,
-    "changed_files": 14,
-    "Last-Modified": "Wed, 14 Nov 2018 07:17:36 GMT",
-    "ETag": "W/\"0836dfd484fed7d95c82da5724637b09\""
+    "commits": 3,
+    "additions": 242,
+    "deletions": 91,
+    "changed_files": 15,
+    "Last-Modified": "Thu, 15 Nov 2018 04:04:54 GMT",
+    "ETag": "W/\"7e4bf147e5e9ab8f921c29161bd41387\""
 }

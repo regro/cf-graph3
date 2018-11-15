@@ -32,12 +32,52 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlinbox\nsagelib\nsage\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T16:01:35Z",
-    "updated_at": "2018-11-15T01:51:18Z",
+    "updated_at": "2018-11-15T03:46:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6ca5e24076f49239d778e660686f14520237ccee",
-    "assignee": null,
-    "assignees": [],
+    "merge_commit_sha": "e132a809dbbc5c28005d61fa74e20d23f9634846",
+    "assignee": {
+        "login": "isuruf",
+        "id": 5234427,
+        "node_id": "MDQ6VXNlcjUyMzQ0Mjc=",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/5234427?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/isuruf",
+        "html_url": "https://github.com/isuruf",
+        "followers_url": "https://api.github.com/users/isuruf/followers",
+        "following_url": "https://api.github.com/users/isuruf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/isuruf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/isuruf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/isuruf/subscriptions",
+        "organizations_url": "https://api.github.com/users/isuruf/orgs",
+        "repos_url": "https://api.github.com/users/isuruf/repos",
+        "events_url": "https://api.github.com/users/isuruf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/isuruf/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "isuruf",
+            "id": 5234427,
+            "node_id": "MDQ6VXNlcjUyMzQ0Mjc=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/5234427?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/isuruf",
+            "html_url": "https://github.com/isuruf",
+            "followers_url": "https://api.github.com/users/isuruf/followers",
+            "following_url": "https://api.github.com/users/isuruf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/isuruf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/isuruf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/isuruf/subscriptions",
+            "organizations_url": "https://api.github.com/users/isuruf/orgs",
+            "repos_url": "https://api.github.com/users/isuruf/repos",
+            "events_url": "https://api.github.com/users/isuruf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/isuruf/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
@@ -46,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/statuses/df290a2fc2455f274b61892aa2499e34e162e9dd",
+    "statuses_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/statuses/3fa58f7e14bdf3400e21b1bfc0eacd2faba271e1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "df290a2fc2455f274b61892aa2499e34e162e9dd",
+        "sha": "3fa58f7e14bdf3400e21b1bfc0eacd2faba271e1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/m4rie-feedstock/deployments",
             "created_at": "2018-06-26T01:09:17Z",
             "updated_at": "2018-06-26T01:09:19Z",
-            "pushed_at": "2018-11-15T01:51:18Z",
+            "pushed_at": "2018-11-15T03:46:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/m4rie-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/m4rie-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/m4rie-feedstock.git",
@@ -263,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/m4rie-feedstock/deployments",
             "created_at": "2017-02-07T08:50:55Z",
             "updated_at": "2018-08-04T17:48:43Z",
-            "pushed_at": "2018-11-15T01:51:19Z",
+            "pushed_at": "2018-11-15T03:46:35Z",
             "git_url": "git://github.com/conda-forge/m4rie-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/m4rie-feedstock.git",
             "clone_url": "https://github.com/conda-forge/m4rie-feedstock.git",
@@ -318,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/m4rie-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/m4rie-feedstock/statuses/df290a2fc2455f274b61892aa2499e34e162e9dd"
+            "href": "https://api.github.com/repos/conda-forge/m4rie-feedstock/statuses/3fa58f7e14bdf3400e21b1bfc0eacd2faba271e1"
         }
     },
     "author_association": "NONE",
@@ -332,10 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 164,
+    "commits": 4,
+    "additions": 165,
     "deletions": 52,
     "changed_files": 15,
-    "Last-Modified": "Thu, 15 Nov 2018 01:51:18 GMT",
-    "ETag": "W/\"800ca5b8b511872567316c803ceebc6e\""
+    "Last-Modified": "Thu, 15 Nov 2018 03:46:34 GMT",
+    "ETag": "W/\"0a8836aae2338ec6e833033ae55b91dd\""
 }
