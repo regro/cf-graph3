@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npivy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-13T19:21:03Z",
-    "updated_at": "2018-11-14T09:37:56Z",
+    "updated_at": "2018-11-15T06:52:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "31b7b00fdd758a867c2cc4e64b3f95bff35b8f98",
+    "merge_commit_sha": "e3c5df3a2e4425a886dffaf9483a46eae5d2cb68",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/statuses/eb612ac59cd6e54665aa1e47ecb81b7b465a6f2a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/statuses/1654d3f8d961aa6b4099944ddb88dc25773771c6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "eb612ac59cd6e54665aa1e47ecb81b7b465a6f2a",
+        "sha": "1654d3f8d961aa6b4099944ddb88dc25773771c6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/soqt-feedstock/deployments",
             "created_at": "2018-11-13T19:20:48Z",
             "updated_at": "2018-11-13T19:20:51Z",
-            "pushed_at": "2018-11-14T09:37:50Z",
+            "pushed_at": "2018-11-15T06:52:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/soqt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/soqt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/soqt-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/soqt-feedstock/deployments",
             "created_at": "2018-06-12T12:17:24Z",
             "updated_at": "2018-08-04T19:45:28Z",
-            "pushed_at": "2018-11-14T09:37:51Z",
+            "pushed_at": "2018-11-15T06:52:28Z",
             "git_url": "git://github.com/conda-forge/soqt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/soqt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/soqt-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/soqt-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/soqt-feedstock/statuses/eb612ac59cd6e54665aa1e47ecb81b7b465a6f2a"
+            "href": "https://api.github.com/repos/conda-forge/soqt-feedstock/statuses/1654d3f8d961aa6b4099944ddb88dc25773771c6"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 166,
-    "deletions": 52,
-    "changed_files": 18,
-    "Last-Modified": "Wed, 14 Nov 2018 09:37:56 GMT",
-    "ETag": "W/\"033c8ace10042e2193c35e4a51eca594\""
+    "commits": 6,
+    "additions": 201,
+    "deletions": 63,
+    "changed_files": 21,
+    "Last-Modified": "Thu, 15 Nov 2018 06:52:27 GMT",
+    "ETag": "W/\"1a7c2d28795a21dce05ecbe1f4e1204a\""
 }
