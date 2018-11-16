@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-extrafont\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-13T01:16:23Z",
-    "updated_at": "2018-11-13T01:16:28Z",
+    "updated_at": "2018-11-16T13:35:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "cfee750c26db5f2e9d27554132e5162386772560",
+    "merge_commit_sha": "4aa0bf35fdc9f825aa250c666cce7752f5e85bce",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/statuses/7ec368de27a832f039a2690041f16bd4cd27c29a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/statuses/f144bfe448d1b44dfcbd20116871882701383139",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7ec368de27a832f039a2690041f16bd4cd27c29a",
+        "sha": "f144bfe448d1b44dfcbd20116871882701383139",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-rttf2pt1-feedstock/deployments",
             "created_at": "2018-08-01T20:20:50Z",
             "updated_at": "2018-08-01T20:20:52Z",
-            "pushed_at": "2018-11-13T01:16:22Z",
+            "pushed_at": "2018-11-16T13:35:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-rttf2pt1-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-rttf2pt1-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-rttf2pt1-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/deployments",
             "created_at": "2017-08-25T10:49:42Z",
             "updated_at": "2018-08-04T19:18:54Z",
-            "pushed_at": "2018-11-13T01:16:24Z",
+            "pushed_at": "2018-11-16T13:35:15Z",
             "git_url": "git://github.com/conda-forge/r-rttf2pt1-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-rttf2pt1-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-rttf2pt1-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/statuses/7ec368de27a832f039a2690041f16bd4cd27c29a"
+            "href": "https://api.github.com/repos/conda-forge/r-rttf2pt1-feedstock/statuses/f144bfe448d1b44dfcbd20116871882701383139"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 290,
+    "commits": 3,
+    "additions": 162,
     "deletions": 58,
-    "changed_files": 19,
-    "Last-Modified": "Tue, 13 Nov 2018 01:16:28 GMT",
-    "ETag": "W/\"98376092b76d4f12e9e7a9369f875217\""
+    "changed_files": 15,
+    "Last-Modified": "Fri, 16 Nov 2018 13:35:14 GMT",
+    "ETag": "W/\"0052c7c4a2c5ca2552fd6978fbdde3ed\""
 }
