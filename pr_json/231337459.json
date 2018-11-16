@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-15T21:18:56Z",
-    "updated_at": "2018-11-15T21:19:10Z",
+    "updated_at": "2018-11-16T11:12:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b4e9fa85c46bcbc296ac4f4c963c13c8bae33f55",
+    "merge_commit_sha": "23995dc92736fe0e840158b7c33c2e42c19a1bdc",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/statuses/eaac65533724a1d13a3350fa138402933429e22a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/statuses/c8448d9a84c2ec2ef5eb2583303092a1b93c7c8e",
     "head": {
         "label": "regro-cf-autotick-bot:0.13.0",
         "ref": "0.13.0",
-        "sha": "eaac65533724a1d13a3350fa138402933429e22a",
+        "sha": "c8448d9a84c2ec2ef5eb2583303092a1b93c7c8e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nptdms-feedstock/deployments",
             "created_at": "2018-11-15T21:18:41Z",
             "updated_at": "2018-11-15T21:18:43Z",
-            "pushed_at": "2018-11-15T21:18:56Z",
+            "pushed_at": "2018-11-16T11:12:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nptdms-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nptdms-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nptdms-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nptdms-feedstock/deployments",
             "created_at": "2018-09-10T13:09:20Z",
             "updated_at": "2018-09-11T11:43:48Z",
-            "pushed_at": "2018-11-15T21:18:57Z",
+            "pushed_at": "2018-11-16T11:12:58Z",
             "git_url": "git://github.com/conda-forge/nptdms-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nptdms-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nptdms-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/nptdms-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nptdms-feedstock/statuses/eaac65533724a1d13a3350fa138402933429e22a"
+            "href": "https://api.github.com/repos/conda-forge/nptdms-feedstock/statuses/c8448d9a84c2ec2ef5eb2583303092a1b93c7c8e"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1,
-    "Last-Modified": "Thu, 15 Nov 2018 21:19:10 GMT",
-    "ETag": "W/\"910ad286f7e8135a8724e5bfd2107ffe\""
+    "commits": 4,
+    "additions": 4,
+    "deletions": 171,
+    "changed_files": 2,
+    "Last-Modified": "Fri, 16 Nov 2018 11:12:57 GMT",
+    "ETag": "W/\"7db91bea73e231513b1191787a7e03a8\""
 }
