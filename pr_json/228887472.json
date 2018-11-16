@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-07T01:14:19Z",
-    "updated_at": "2018-11-07T01:14:42Z",
+    "updated_at": "2018-11-16T00:51:27Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "0edd1cd7a8c5ca3834212b6b560f68878628de77",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/regex-feedstock/deployments",
             "created_at": "2016-03-31T23:19:42Z",
             "updated_at": "2018-11-06T17:52:51Z",
-            "pushed_at": "2018-11-07T01:14:20Z",
+            "pushed_at": "2018-11-16T00:46:50Z",
             "git_url": "git://github.com/conda-forge/regex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/regex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/regex-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 6,
+            "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 6,
-            "open_issues": 2,
+            "forks": 7,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Wed, 07 Nov 2018 01:14:42 GMT",
-    "ETag": "W/\"fdaadaff24cc3587c1b931e6740c3cce\""
+    "Last-Modified": "Fri, 16 Nov 2018 00:51:27 GMT",
+    "ETag": "W/\"dd54f11422123a0c0fe313fbe0cab266\""
 }
