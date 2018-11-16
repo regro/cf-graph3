@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncis_interface\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T13:12:44Z",
-    "updated_at": "2018-10-05T13:17:19Z",
+    "updated_at": "2018-11-16T14:02:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "173bb1603844676847d99ed0b70c3493082540e3",
+    "merge_commit_sha": "d47cb70d7005b2453aa2cd629c231c68f5b02aec",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/statuses/91d7ddb6b191ae3a177e23504ceaa2e738f90ac9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/statuses/56ad051944848b0ccea81e906c55df24e6dccbd2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "91d7ddb6b191ae3a177e23504ceaa2e738f90ac9",
+        "sha": "56ad051944848b0ccea81e906c55df24e6dccbd2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/czmq-feedstock/deployments",
             "created_at": "2018-06-29T23:39:00Z",
             "updated_at": "2018-06-29T23:39:02Z",
-            "pushed_at": "2018-10-05T13:12:43Z",
+            "pushed_at": "2018-11-16T14:02:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/czmq-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/czmq-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/czmq-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/czmq-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 39,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/czmq-feedstock/deployments",
             "created_at": "2018-06-20T19:46:08Z",
             "updated_at": "2018-10-05T12:47:55Z",
-            "pushed_at": "2018-10-05T13:12:44Z",
+            "pushed_at": "2018-11-16T14:02:50Z",
             "git_url": "git://github.com/conda-forge/czmq-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/czmq-feedstock.git",
             "clone_url": "https://github.com/conda-forge/czmq-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/czmq-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/czmq-feedstock/statuses/91d7ddb6b191ae3a177e23504ceaa2e738f90ac9"
+            "href": "https://api.github.com/repos/conda-forge/czmq-feedstock/statuses/56ad051944848b0ccea81e906c55df24e6dccbd2"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 177,
     "deletions": 53,
-    "changed_files": 15
+    "changed_files": 15,
+    "Last-Modified": "Fri, 16 Nov 2018 14:02:49 GMT",
+    "ETag": "W/\"1d709ac9957394f4c5fdd6e91abbae7d\""
 }
