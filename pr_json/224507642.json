@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\noctave\nyaafe\nfluidsynth\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-20T23:29:08Z",
-    "updated_at": "2018-10-20T23:29:14Z",
+    "updated_at": "2018-11-17T07:32:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9a0ce617cab7b139a7ae76fcd1260c43e57125ca",
+    "merge_commit_sha": "ee8e47e34fb994ac3de1ec4fca8dc1003b771c8a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/statuses/688b86cc733f7fc993e65236c6c955f3f6ca6e8a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/statuses/7313baa581fba9949c3193041d543233c7425bf8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "688b86cc733f7fc993e65236c6c955f3f6ca6e8a",
+        "sha": "7313baa581fba9949c3193041d543233c7425bf8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libsndfile-feedstock/deployments",
             "created_at": "2018-03-16T22:43:07Z",
             "updated_at": "2018-03-16T22:43:08Z",
-            "pushed_at": "2018-10-20T23:29:08Z",
+            "pushed_at": "2018-11-17T07:32:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libsndfile-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libsndfile-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libsndfile-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/deployments",
             "created_at": "2017-04-02T00:04:15Z",
             "updated_at": "2018-08-04T18:35:52Z",
-            "pushed_at": "2018-10-20T23:29:09Z",
+            "pushed_at": "2018-11-17T07:32:55Z",
             "git_url": "git://github.com/conda-forge/libsndfile-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libsndfile-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libsndfile-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/statuses/688b86cc733f7fc993e65236c6c955f3f6ca6e8a"
+            "href": "https://api.github.com/repos/conda-forge/libsndfile-feedstock/statuses/7313baa581fba9949c3193041d543233c7425bf8"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 154,
-    "deletions": 52,
-    "changed_files": 15
+    "commits": 3,
+    "additions": 160,
+    "deletions": 53,
+    "changed_files": 16,
+    "Last-Modified": "Sat, 17 Nov 2018 07:32:54 GMT",
+    "ETag": "W/\"e8993bbdd2cad361eed1a5b43a29cced\""
 }

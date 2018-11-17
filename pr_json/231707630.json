@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-forecast\nr-penalized\nr-kernelknn\nr-ccapp\nr-imbalance\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-17T05:14:07Z",
-    "updated_at": "2018-11-17T05:20:31Z",
+    "updated_at": "2018-11-17T06:51:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "77be059bd3eaa76b1e94d8eb4a59d4f743153757",
+    "merge_commit_sha": "7fb9835f90752a49de61d90124ac17acef690b72",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/statuses/eec2914c7e301790f7da4dd89d8eb8db93907ef3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/statuses/8bb4988261db433bc0a5d16a378708990302c5f4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "eec2914c7e301790f7da4dd89d8eb8db93907ef3",
+        "sha": "8bb4988261db433bc0a5d16a378708990302c5f4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-rcpparmadillo-feedstock/deployments",
             "created_at": "2018-03-09T04:43:40Z",
             "updated_at": "2018-03-09T04:43:41Z",
-            "pushed_at": "2018-11-17T05:14:07Z",
+            "pushed_at": "2018-11-17T06:51:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-rcpparmadillo-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-rcpparmadillo-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-rcpparmadillo-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-rcpparmadillo-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/deployments",
             "created_at": "2017-04-29T15:03:31Z",
             "updated_at": "2018-09-30T18:03:30Z",
-            "pushed_at": "2018-11-17T05:14:08Z",
+            "pushed_at": "2018-11-17T06:51:06Z",
             "git_url": "git://github.com/conda-forge/r-rcpparmadillo-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-rcpparmadillo-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-rcpparmadillo-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/statuses/eec2914c7e301790f7da4dd89d8eb8db93907ef3"
+            "href": "https://api.github.com/repos/conda-forge/r-rcpparmadillo-feedstock/statuses/8bb4988261db433bc0a5d16a378708990302c5f4"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 75,
+    "commits": 3,
+    "additions": 77,
     "deletions": 57,
-    "changed_files": 12
+    "changed_files": 12,
+    "Last-Modified": "Sat, 17 Nov 2018 06:51:06 GMT",
+    "ETag": "W/\"7469f8c1307264522110400921e0b004\""
 }
