@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-qlcmatrix\nr-relations\nr-tm\nr-wordcloud\nr-skmeans\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-17T12:14:53Z",
-    "updated_at": "2018-11-17T12:14:58Z",
+    "updated_at": "2018-11-17T14:57:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e06c9875e53133796cc1f663f8af40e623a5af2d",
+    "merge_commit_sha": "a8d6fc3454353c34049f0c6767e7cdb343af5dcc",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/statuses/7943e0009fd43e830815afeff8378246ce593b99",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/statuses/aba3a2860da7ddc50132763c6674033e7c1fa9b3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7943e0009fd43e830815afeff8378246ce593b99",
+        "sha": "aba3a2860da7ddc50132763c6674033e7c1fa9b3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-slam-feedstock/deployments",
             "created_at": "2018-04-23T10:54:45Z",
             "updated_at": "2018-04-23T10:54:47Z",
-            "pushed_at": "2018-11-17T12:14:53Z",
+            "pushed_at": "2018-11-17T14:57:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-slam-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-slam-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-slam-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-slam-feedstock",
             "homepage": null,
-            "size": 18,
+            "size": 28,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-slam-feedstock/deployments",
             "created_at": "2017-04-28T14:08:04Z",
             "updated_at": "2018-09-30T09:34:57Z",
-            "pushed_at": "2018-11-17T12:14:54Z",
+            "pushed_at": "2018-11-17T14:57:33Z",
             "git_url": "git://github.com/conda-forge/r-slam-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-slam-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-slam-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-slam-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-slam-feedstock/statuses/7943e0009fd43e830815afeff8378246ce593b99"
+            "href": "https://api.github.com/repos/conda-forge/r-slam-feedstock/statuses/aba3a2860da7ddc50132763c6674033e7c1fa9b3"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 8,
-    "deletions": 8,
-    "changed_files": 2
+    "commits": 2,
+    "additions": 7,
+    "deletions": 6,
+    "changed_files": 2,
+    "Last-Modified": "Sat, 17 Nov 2018 14:57:33 GMT",
+    "ETag": "W/\"a4ed47c839b8e6d11c2e2c922b8ecad0\""
 }

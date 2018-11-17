@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npynfft\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-25T05:12:28Z",
-    "updated_at": "2018-09-27T20:48:08Z",
+    "updated_at": "2018-11-17T14:51:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a96087acd4aa6bf841ff373c2da4b2c86329519a",
+    "merge_commit_sha": "1a78a236397e1161c6a6ae65cdf42cf4024a5aad",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/statuses/9d57a49e189248083398165475f42b66aa654e74",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/statuses/07f241db5dd608ee20fc4d4149ac396884905fff",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9d57a49e189248083398165475f42b66aa654e74",
+        "sha": "07f241db5dd608ee20fc4d4149ac396884905fff",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nfft-feedstock/deployments",
             "created_at": "2018-03-02T01:22:41Z",
             "updated_at": "2018-03-02T01:22:43Z",
-            "pushed_at": "2018-09-25T16:52:25Z",
+            "pushed_at": "2018-11-17T14:51:39Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nfft-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nfft-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nfft-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nfft-feedstock/deployments",
             "created_at": "2016-05-11T15:52:59Z",
             "updated_at": "2018-09-25T04:09:41Z",
-            "pushed_at": "2018-09-25T16:52:26Z",
+            "pushed_at": "2018-11-17T14:51:40Z",
             "git_url": "git://github.com/conda-forge/nfft-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nfft-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nfft-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/nfft-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nfft-feedstock/statuses/9d57a49e189248083398165475f42b66aa654e74"
+            "href": "https://api.github.com/repos/conda-forge/nfft-feedstock/statuses/07f241db5dd608ee20fc4d4149ac396884905fff"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 12,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 111,
+    "commits": 6,
+    "additions": 113,
     "deletions": 23,
-    "changed_files": 9
+    "changed_files": 10,
+    "Last-Modified": "Sat, 17 Nov 2018 14:51:40 GMT",
+    "ETag": "W/\"c0b5d7a472ee68888431bb228b083c29\""
 }
