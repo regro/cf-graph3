@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nldas-tools-framecpp\nldas-tools-al-swig\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T00:57:29Z",
-    "updated_at": "2018-11-16T19:10:18Z",
+    "updated_at": "2018-11-17T07:10:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1658f0565070037de27068ef4b4ad106304a022e",
+    "merge_commit_sha": "64596d03e43134c9f437b6ce7f1bdd2415ff19fe",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/statuses/f217f8c8cc440b65433ec15886af648f1f551e20",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/statuses/7bba352cbe38d23295043e744641a0ae6c6940d9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f217f8c8cc440b65433ec15886af648f1f551e20",
+        "sha": "7bba352cbe38d23295043e744641a0ae6c6940d9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ldas-tools-al-feedstock/deployments",
             "created_at": "2018-10-08T00:57:15Z",
             "updated_at": "2018-10-08T00:57:17Z",
-            "pushed_at": "2018-10-08T00:57:28Z",
+            "pushed_at": "2018-11-17T07:10:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ldas-tools-al-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ldas-tools-al-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ldas-tools-al-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/deployments",
             "created_at": "2018-08-31T14:09:36Z",
             "updated_at": "2018-08-31T14:10:25Z",
-            "pushed_at": "2018-10-08T00:57:29Z",
+            "pushed_at": "2018-11-17T07:10:10Z",
             "git_url": "git://github.com/conda-forge/ldas-tools-al-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ldas-tools-al-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ldas-tools-al-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/statuses/f217f8c8cc440b65433ec15886af648f1f551e20"
+            "href": "https://api.github.com/repos/conda-forge/ldas-tools-al-feedstock/statuses/7bba352cbe38d23295043e744641a0ae6c6940d9"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 114,
+    "commits": 3,
+    "additions": 116,
     "deletions": 10,
-    "changed_files": 8
+    "changed_files": 9,
+    "Last-Modified": "Sat, 17 Nov 2018 07:10:10 GMT",
+    "ETag": "W/\"fdadf5ed208eab6c733a257600b64f9b\""
 }
