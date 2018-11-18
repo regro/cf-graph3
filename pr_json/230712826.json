@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-imbalance\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-14T05:16:05Z",
-    "updated_at": "2018-11-14T09:15:09Z",
+    "updated_at": "2018-11-18T00:16:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3276a159fd4108793783feeaa1595c4286b18549",
+    "merge_commit_sha": "55aba12bec156e5625b732d77d5e08a918b5d3bf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/statuses/e0581b46e31bb635de99656ec878b3b7ab9809b4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/statuses/7294711bd6b8da971ed7dde987fd7759adfd15fa",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e0581b46e31bb635de99656ec878b3b7ab9809b4",
+        "sha": "7294711bd6b8da971ed7dde987fd7759adfd15fa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-bnlearn-feedstock/deployments",
             "created_at": "2018-08-01T00:22:46Z",
             "updated_at": "2018-08-01T00:22:48Z",
-            "pushed_at": "2018-11-14T09:07:24Z",
+            "pushed_at": "2018-11-18T00:16:25Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-bnlearn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-bnlearn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-bnlearn-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/deployments",
             "created_at": "2018-01-29T20:53:47Z",
             "updated_at": "2018-08-04T18:53:04Z",
-            "pushed_at": "2018-11-14T09:07:25Z",
+            "pushed_at": "2018-11-18T00:16:25Z",
             "git_url": "git://github.com/conda-forge/r-bnlearn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-bnlearn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-bnlearn-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/statuses/e0581b46e31bb635de99656ec878b3b7ab9809b4"
+            "href": "https://api.github.com/repos/conda-forge/r-bnlearn-feedstock/statuses/7294711bd6b8da971ed7dde987fd7759adfd15fa"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 312,
-    "deletions": 140,
+    "commits": 5,
+    "additions": 314,
+    "deletions": 144,
     "changed_files": 22,
-    "Last-Modified": "Wed, 14 Nov 2018 09:15:09 GMT",
-    "ETag": "W/\"4d98b4e62d6024d74b539caf33c671d0\""
+    "Last-Modified": "Sun, 18 Nov 2018 00:16:24 GMT",
+    "ETag": "W/\"18ad057d086108c68330b49a8d6db0f8\""
 }
