@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-03T06:14:29Z",
-    "updated_at": "2018-11-07T15:06:59Z",
+    "updated_at": "2018-11-19T17:59:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3000ad166af5fd39ed80c08cae84a9dc90f3a23c",
+    "merge_commit_sha": "845b02b4dbcacc2228d3cee91f62a8f0918ac625",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/statuses/353389f02ab71bdf7507821a544571d97f969605",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/statuses/2133b955af57596917b6a9638d96aedb28b841d9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "353389f02ab71bdf7507821a544571d97f969605",
+        "sha": "2133b955af57596917b6a9638d96aedb28b841d9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hoomd-feedstock/deployments",
             "created_at": "2018-07-01T01:53:17Z",
             "updated_at": "2018-07-01T01:53:19Z",
-            "pushed_at": "2018-11-07T15:06:59Z",
+            "pushed_at": "2018-11-19T17:59:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hoomd-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hoomd-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hoomd-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hoomd-feedstock/deployments",
             "created_at": "2018-06-22T15:42:33Z",
             "updated_at": "2018-10-08T15:03:36Z",
-            "pushed_at": "2018-11-07T15:07:00Z",
+            "pushed_at": "2018-11-19T17:59:11Z",
             "git_url": "git://github.com/conda-forge/hoomd-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hoomd-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hoomd-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hoomd-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hoomd-feedstock/statuses/353389f02ab71bdf7507821a544571d97f969605"
+            "href": "https://api.github.com/repos/conda-forge/hoomd-feedstock/statuses/2133b955af57596917b6a9638d96aedb28b841d9"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 357,
-    "deletions": 14,
-    "changed_files": 16
+    "commits": 9,
+    "additions": 366,
+    "deletions": 25,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 19 Nov 2018 17:59:10 GMT",
+    "ETag": "W/\"6b3c73e54ca93592c2b5b39bb6bb1246\""
 }

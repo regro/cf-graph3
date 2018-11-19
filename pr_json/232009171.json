@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-svdialogs\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-19T15:16:43Z",
-    "updated_at": "2018-11-19T15:16:48Z",
+    "updated_at": "2018-11-19T17:45:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ed143e94f712089ffd68e9ec60be94eb83c1cffa",
+    "merge_commit_sha": "254f0b4846e1b442bd6bc24f6f26069d2df3000a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/statuses/46e4f7aa4598f7a84579989147ef304a667f4bd7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/statuses/41915cdfd4c1b6d7dbf1b6866fa4c486e8f49783",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "46e4f7aa4598f7a84579989147ef304a667f4bd7",
+        "sha": "41915cdfd4c1b6d7dbf1b6866fa4c486e8f49783",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-svgui-feedstock/deployments",
             "created_at": "2018-11-19T15:16:30Z",
             "updated_at": "2018-11-19T15:16:32Z",
-            "pushed_at": "2018-11-19T15:16:43Z",
+            "pushed_at": "2018-11-19T17:45:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-svgui-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-svgui-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-svgui-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/deployments",
             "created_at": "2017-08-24T01:36:59Z",
             "updated_at": "2018-10-11T11:13:36Z",
-            "pushed_at": "2018-11-19T15:16:44Z",
+            "pushed_at": "2018-11-19T17:45:10Z",
             "git_url": "git://github.com/conda-forge/r-svgui-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-svgui-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-svgui-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/statuses/46e4f7aa4598f7a84579989147ef304a667f4bd7"
+            "href": "https://api.github.com/repos/conda-forge/r-svgui-feedstock/statuses/41915cdfd4c1b6d7dbf1b6866fa4c486e8f49783"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 40,
-    "deletions": 237,
+    "deletions": 241,
     "changed_files": 14,
-    "Last-Modified": "Mon, 19 Nov 2018 15:16:48 GMT",
-    "ETag": "W/\"d7d537570c5abcd6e2335b287bdfc9a7\""
+    "Last-Modified": "Mon, 19 Nov 2018 17:45:14 GMT",
+    "ETag": "W/\"aee9240f4be59a066132c62e03a3d7fc\""
 }
