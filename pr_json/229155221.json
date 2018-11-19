@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibcxxwrap-julia\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-07T20:16:32Z",
-    "updated_at": "2018-11-19T09:35:07Z",
+    "updated_at": "2018-11-19T16:43:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f406cbb645ed7852065214a71bf90cda6b0202c4",
+    "merge_commit_sha": "4faf833855f03811257f0f2dc066659e0b865b6f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/julia-feedstock/pulls/61/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/julia-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/julia-feedstock/issues/61/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/julia-feedstock/statuses/397b57b32501ef71b4787f254ee2fe786f524143",
+    "statuses_url": "https://api.github.com/repos/conda-forge/julia-feedstock/statuses/ae6dde1b6cc06ac06e9a3658df154ec7ccefb33e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "397b57b32501ef71b4787f254ee2fe786f524143",
+        "sha": "ae6dde1b6cc06ac06e9a3658df154ec7ccefb33e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/julia-feedstock/deployments",
             "created_at": "2018-03-01T22:40:01Z",
             "updated_at": "2018-03-01T22:40:03Z",
-            "pushed_at": "2018-11-19T09:35:06Z",
+            "pushed_at": "2018-11-19T16:43:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/julia-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/julia-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/julia-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/julia-feedstock",
             "homepage": null,
-            "size": 55,
+            "size": 56,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/julia-feedstock/deployments",
             "created_at": "2017-08-18T14:21:41Z",
             "updated_at": "2018-11-18T12:16:28Z",
-            "pushed_at": "2018-11-19T09:35:07Z",
+            "pushed_at": "2018-11-19T16:43:51Z",
             "git_url": "git://github.com/conda-forge/julia-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/julia-feedstock.git",
             "clone_url": "https://github.com/conda-forge/julia-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/julia-feedstock/pulls/61/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/julia-feedstock/statuses/397b57b32501ef71b4787f254ee2fe786f524143"
+            "href": "https://api.github.com/repos/conda-forge/julia-feedstock/statuses/ae6dde1b6cc06ac06e9a3658df154ec7ccefb33e"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 7,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 226,
+    "commits": 7,
+    "additions": 242,
     "deletions": 27,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Mon, 19 Nov 2018 16:43:51 GMT",
+    "ETag": "W/\"47a652957b3c4bff1bbc653d98235d58\""
 }
