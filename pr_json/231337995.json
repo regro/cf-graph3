@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\narcsi\ndatacube\nfiona\ngmt\ngsshapy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-15T21:20:53Z",
-    "updated_at": "2018-11-19T18:25:15Z",
+    "updated_at": "2018-11-19T21:48:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fac2ee2583769005f493ce697f7eeb895f0a99e9",
+    "merge_commit_sha": "3dcd41b6714c06fafda13518d539dee3e1cd4fa8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/pulls/237/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/issues/237/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/statuses/71a37799ed373ce6580b1c45dbe07354de671287",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/statuses/fb88bfed22a675d8d21833e69017536adb443939",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "71a37799ed373ce6580b1c45dbe07354de671287",
+        "sha": "fb88bfed22a675d8d21833e69017536adb443939",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gdal-feedstock/deployments",
             "created_at": "2018-03-21T22:45:42Z",
             "updated_at": "2018-03-21T22:45:44Z",
-            "pushed_at": "2018-11-17T16:50:30Z",
+            "pushed_at": "2018-11-19T21:48:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gdal-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gdal-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gdal-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gdal-feedstock",
             "homepage": null,
-            "size": 641,
+            "size": 642,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gdal-feedstock/deployments",
             "created_at": "2016-03-08T15:58:10Z",
             "updated_at": "2018-10-01T19:10:31Z",
-            "pushed_at": "2018-11-17T16:50:32Z",
+            "pushed_at": "2018-11-19T21:48:37Z",
             "git_url": "git://github.com/conda-forge/gdal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gdal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gdal-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gdal-feedstock/pulls/237/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gdal-feedstock/statuses/71a37799ed373ce6580b1c45dbe07354de671287"
+            "href": "https://api.github.com/repos/conda-forge/gdal-feedstock/statuses/fb88bfed22a675d8d21833e69017536adb443939"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 734,
-    "deletions": 199,
-    "changed_files": 19
+    "commits": 4,
+    "additions": 735,
+    "deletions": 200,
+    "changed_files": 20,
+    "Last-Modified": "Mon, 19 Nov 2018 21:48:36 GMT",
+    "ETag": "W/\"5dbd83bf2f8665bd85388607ad9afd76\""
 }
