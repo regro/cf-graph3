@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-17T13:14:05Z",
-    "updated_at": "2018-11-18T17:36:48Z",
+    "updated_at": "2018-11-18T23:53:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6165eca1fd5d96e45b692760cc9a18991f544bba",
+    "merge_commit_sha": "68de25be97dc6877a1e49edf47be415f2fe370d3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/pulls/132/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/issues/132/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/statuses/948d8ecb169150675e5ea3364928c1407aa6681e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/statuses/2d204251758fad57ffbcbe8fc7c15628eaf5b9db",
     "head": {
         "label": "regro-cf-autotick-bot:3.4.4",
         "ref": "3.4.4",
-        "sha": "948d8ecb169150675e5ea3364928c1407aa6681e",
+        "sha": "2d204251758fad57ffbcbe8fc7c15628eaf5b9db",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/opencv-feedstock/deployments",
             "created_at": "2018-03-02T01:34:30Z",
             "updated_at": "2018-03-02T01:34:32Z",
-            "pushed_at": "2018-11-18T17:36:48Z",
+            "pushed_at": "2018-11-18T23:53:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/opencv-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/opencv-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/opencv-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/deployments",
             "created_at": "2016-04-01T16:53:43Z",
             "updated_at": "2018-11-12T07:37:37Z",
-            "pushed_at": "2018-11-18T17:36:49Z",
+            "pushed_at": "2018-11-18T23:53:40Z",
             "git_url": "git://github.com/conda-forge/opencv-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/opencv-feedstock.git",
             "clone_url": "https://github.com/conda-forge/opencv-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/opencv-feedstock/pulls/132/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/opencv-feedstock/statuses/948d8ecb169150675e5ea3364928c1407aa6681e"
+            "href": "https://api.github.com/repos/conda-forge/opencv-feedstock/statuses/2d204251758fad57ffbcbe8fc7c15628eaf5b9db"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 62,
+    "commits": 6,
+    "additions": 58,
     "deletions": 66,
     "changed_files": 11,
-    "Last-Modified": "Sun, 18 Nov 2018 17:36:48 GMT",
-    "ETag": "W/\"f31d28075530bf5852cb3b30b76d7385\""
+    "Last-Modified": "Sun, 18 Nov 2018 23:53:39 GMT",
+    "ETag": "W/\"6031d11ce1b1f9a21688fdfeee2d9eec\""
 }
