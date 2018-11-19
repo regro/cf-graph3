@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pyutilib-feedstock/pull/15.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pyutilib-feedstock/issues/15",
     "number": 15,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npyomo\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T17:18:53Z",
-    "updated_at": "2018-11-17T17:49:30Z",
-    "closed_at": null,
+    "updated_at": "2018-11-19T20:06:48Z",
+    "closed_at": "2018-11-19T20:06:48Z",
     "merged_at": null,
     "merge_commit_sha": "0c5ba38d124e4d1ccb80db21ab874392dfb40b97",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 6,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 6,
     "additions": 380,
     "deletions": 165,
-    "changed_files": 26
+    "changed_files": 26,
+    "Last-Modified": "Mon, 19 Nov 2018 20:06:48 GMT",
+    "ETag": "W/\"e19b2e9bef7c8c670435f6d394229b6a\""
 }
