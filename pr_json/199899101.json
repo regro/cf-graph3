@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pypdf2-feedstock/pull/5.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pypdf2-feedstock/issues/5",
     "number": 5,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Suggestion: add noarch",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T14:21:38Z",
-    "updated_at": "2018-07-07T14:21:42Z",
-    "closed_at": null,
+    "updated_at": "2018-11-20T16:59:48Z",
+    "closed_at": "2018-11-20T16:59:48Z",
     "merged_at": null,
     "merge_commit_sha": "0ad55756201b39371e6876b7666eaed38694ba7d",
     "assignee": null,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/pypdf2-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/pypdf2-feedstock/deployments",
             "created_at": "2016-06-23T20:27:35Z",
-            "updated_at": "2018-11-19T17:14:00Z",
-            "pushed_at": "2018-11-20T12:57:26Z",
+            "updated_at": "2018-11-20T16:58:25Z",
+            "pushed_at": "2018-11-20T16:58:22Z",
             "git_url": "git://github.com/conda-forge/pypdf2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pypdf2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pypdf2-feedstock.git",
             "svn_url": "https://github.com/conda-forge/pypdf2-feedstock",
             "homepage": null,
-            "size": 19,
+            "size": 33,
             "stargazers_count": 2,
             "watchers_count": 2,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 188,
     "deletions": 242,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Tue, 20 Nov 2018 16:59:48 GMT",
+    "ETag": "W/\"8de60cf115b2f676929785ca7611bd73\""
 }
