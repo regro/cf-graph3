@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-11T21:57:39Z",
-    "updated_at": "2018-11-20T16:14:14Z",
+    "updated_at": "2018-11-20T19:26:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b12183330f569ec7f02f5e21f9489842f0009b79",
+    "merge_commit_sha": "16ebd4c9efa082522e25a3dd0848fbc681e76169",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/statuses/b340dc8397c25980e77753978cab8c92f7420dec",
+    "statuses_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/statuses/72cc6e079cfc867b6b910456452167cec68721f4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b340dc8397c25980e77753978cab8c92f7420dec",
+        "sha": "72cc6e079cfc867b6b910456452167cec68721f4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/valgrind-feedstock/deployments",
             "created_at": "2018-07-26T01:18:00Z",
             "updated_at": "2018-07-26T01:18:02Z",
-            "pushed_at": "2018-11-20T16:00:53Z",
+            "pushed_at": "2018-11-20T19:26:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/valgrind-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/valgrind-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/valgrind-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/valgrind-feedstock/deployments",
             "created_at": "2018-07-20T15:14:27Z",
             "updated_at": "2018-10-11T20:06:10Z",
-            "pushed_at": "2018-11-20T16:00:54Z",
+            "pushed_at": "2018-11-20T19:26:45Z",
             "git_url": "git://github.com/conda-forge/valgrind-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/valgrind-feedstock.git",
             "clone_url": "https://github.com/conda-forge/valgrind-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/valgrind-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/valgrind-feedstock/statuses/b340dc8397c25980e77753978cab8c92f7420dec"
+            "href": "https://api.github.com/repos/conda-forge/valgrind-feedstock/statuses/72cc6e079cfc867b6b910456452167cec68721f4"
         }
     },
     "author_association": "NONE",
@@ -373,9 +373,9 @@
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
-    "additions": 111,
+    "additions": 112,
     "deletions": 12,
     "changed_files": 9,
-    "Last-Modified": "Tue, 20 Nov 2018 16:14:14 GMT",
-    "ETag": "W/\"02c8278a07619106f37dcadaad97fd6f\""
+    "Last-Modified": "Tue, 20 Nov 2018 19:26:44 GMT",
+    "ETag": "W/\"c764a4817799f48f2e735d2464ce9619\""
 }
