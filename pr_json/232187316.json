@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-medicalrisk\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-20T04:15:38Z",
-    "updated_at": "2018-11-20T04:15:42Z",
+    "updated_at": "2018-11-20T08:20:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "d6029aa6f4e68070c3d0c08a13e85ef0bc0347cd",
+    "merge_commit_sha": "075eaa4fe5adc14a2fdc3be9075cd92b64d5fb95",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/statuses/d5bd0969f5d164fb03e012066741b16d17cb079c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/statuses/825889b6f0e565fa1df3155092cdb4d0f416ddc2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d5bd0969f5d164fb03e012066741b16d17cb079c",
+        "sha": "825889b6f0e565fa1df3155092cdb4d0f416ddc2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-hash-feedstock/deployments",
             "created_at": "2018-11-20T04:15:24Z",
             "updated_at": "2018-11-20T04:15:26Z",
-            "pushed_at": "2018-11-20T04:15:38Z",
+            "pushed_at": "2018-11-20T07:51:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-hash-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-hash-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-hash-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-hash-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-hash-feedstock/deployments",
             "created_at": "2017-08-14T20:17:29Z",
             "updated_at": "2018-10-11T07:45:10Z",
-            "pushed_at": "2018-11-20T04:15:39Z",
+            "pushed_at": "2018-11-20T07:51:20Z",
             "git_url": "git://github.com/conda-forge/r-hash-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-hash-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-hash-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-hash-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-hash-feedstock/statuses/d5bd0969f5d164fb03e012066741b16d17cb079c"
+            "href": "https://api.github.com/repos/conda-forge/r-hash-feedstock/statuses/825889b6f0e565fa1df3155092cdb4d0f416ddc2"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 23,
-    "deletions": 243,
-    "changed_files": 13
+    "deletions": 246,
+    "changed_files": 13,
+    "Last-Modified": "Tue, 20 Nov 2018 08:20:08 GMT",
+    "ETag": "W/\"ef8d480d2005b64f1384beedfdf30a3c\""
 }
