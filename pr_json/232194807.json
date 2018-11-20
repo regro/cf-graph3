@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-gamlss\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-20T05:15:58Z",
-    "updated_at": "2018-11-20T05:16:03Z",
+    "updated_at": "2018-11-20T08:23:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "44df899c1fa05a9e36e2db70235edd666e5002d3",
+    "merge_commit_sha": "d15ac34120e30d5a950bfccc37e6e621aae26a14",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/statuses/604879d2f770993d569b668b546b5246992320b8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/statuses/8e15456b856ef5c79b75d1684a394846419767ed",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "604879d2f770993d569b668b546b5246992320b8",
+        "sha": "8e15456b856ef5c79b75d1684a394846419767ed",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-gamlss.data-feedstock/deployments",
             "created_at": "2018-04-30T23:01:24Z",
             "updated_at": "2018-04-30T23:01:26Z",
-            "pushed_at": "2018-11-20T05:15:58Z",
+            "pushed_at": "2018-11-20T07:54:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-gamlss.data-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-gamlss.data-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-gamlss.data-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-gamlss.data-feedstock",
             "homepage": null,
-            "size": 21,
+            "size": 22,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/deployments",
             "created_at": "2017-08-26T12:11:59Z",
             "updated_at": "2018-10-18T07:11:03Z",
-            "pushed_at": "2018-11-20T05:15:59Z",
+            "pushed_at": "2018-11-20T07:54:12Z",
             "git_url": "git://github.com/conda-forge/r-gamlss.data-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-gamlss.data-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-gamlss.data-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/statuses/604879d2f770993d569b668b546b5246992320b8"
+            "href": "https://api.github.com/repos/conda-forge/r-gamlss.data-feedstock/statuses/8e15456b856ef5c79b75d1684a394846419767ed"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 37,
-    "deletions": 234,
-    "changed_files": 14
+    "deletions": 238,
+    "changed_files": 14,
+    "Last-Modified": "Tue, 20 Nov 2018 08:23:54 GMT",
+    "ETag": "W/\"6f4de514553aad3e5a2741bcc27495a8\""
 }
