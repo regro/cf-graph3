@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nimpyla\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T15:12:47Z",
-    "updated_at": "2018-10-03T22:12:33Z",
+    "updated_at": "2018-11-20T22:20:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c63e4cc77fb2f0775e786d24f2d139f1f0e3cc44",
+    "merge_commit_sha": "c843c284bb8a54a57e9f2a1b53c7f43e333c372c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/statuses/8fee9540c5464847234dc417d43979dccc97c511",
+    "statuses_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/statuses/9179491b3a47449aaf75f30d6734e63daa0a4cb4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8fee9540c5464847234dc417d43979dccc97c511",
+        "sha": "9179491b3a47449aaf75f30d6734e63daa0a4cb4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/bitarray-feedstock/deployments",
             "created_at": "2018-05-30T23:14:45Z",
             "updated_at": "2018-05-30T23:14:47Z",
-            "pushed_at": "2018-09-23T15:12:47Z",
+            "pushed_at": "2018-11-20T22:20:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/bitarray-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/bitarray-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/bitarray-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/bitarray-feedstock/deployments",
             "created_at": "2017-07-19T08:56:37Z",
             "updated_at": "2018-08-04T18:18:46Z",
-            "pushed_at": "2018-09-23T15:12:48Z",
+            "pushed_at": "2018-11-20T22:20:35Z",
             "git_url": "git://github.com/conda-forge/bitarray-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/bitarray-feedstock.git",
             "clone_url": "https://github.com/conda-forge/bitarray-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/bitarray-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/bitarray-feedstock/statuses/8fee9540c5464847234dc417d43979dccc97c511"
+            "href": "https://api.github.com/repos/conda-forge/bitarray-feedstock/statuses/9179491b3a47449aaf75f30d6734e63daa0a4cb4"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 523,
-    "deletions": 73,
-    "changed_files": 33,
-    "Last-Modified": "Wed, 03 Oct 2018 22:12:33 GMT",
-    "ETag": "W/\"583264dd1c6eda406a08925df003df49\""
+    "commits": 3,
+    "additions": 390,
+    "deletions": 90,
+    "changed_files": 29,
+    "Last-Modified": "Tue, 20 Nov 2018 22:20:34 GMT",
+    "ETag": "W/\"a75d70e29e36439bb8b395bb1b1e2974\""
 }

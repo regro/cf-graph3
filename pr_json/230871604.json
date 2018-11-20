@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|glue-core|0.14.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/glue-core.svg)](https://anaconda.org/conda-forge/glue-core)|\n|glue-vispy-viewers|0.11|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/glue-vispy-viewers.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers)|\n",
     "created_at": "2018-11-14T15:15:08Z",
-    "updated_at": "2018-11-20T17:59:55Z",
+    "updated_at": "2018-11-20T22:31:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f2c19b289b0221b19960543a708fc50dc93ff87a",
+    "merge_commit_sha": "568f41c83bdad83c402d3d930dbe9bbbcffe9cc1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/pulls/36/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/issues/36/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/statuses/e6059d75b4ba66e9482e5073c966a502fa9eb650",
+    "statuses_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/statuses/771f607122b3771fff5f881b71cea57f57315635",
     "head": {
         "label": "regro-cf-autotick-bot:0.14.0",
         "ref": "0.14.0",
-        "sha": "e6059d75b4ba66e9482e5073c966a502fa9eb650",
+        "sha": "771f607122b3771fff5f881b71cea57f57315635",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/glueviz-feedstock/deployments",
             "created_at": "2018-03-01T15:43:32Z",
             "updated_at": "2018-03-01T15:43:34Z",
-            "pushed_at": "2018-11-20T17:59:26Z",
+            "pushed_at": "2018-11-20T22:31:04Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/glueviz-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/glueviz-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/glueviz-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/glueviz-feedstock/deployments",
             "created_at": "2016-05-13T05:36:42Z",
             "updated_at": "2018-08-04T17:11:55Z",
-            "pushed_at": "2018-11-20T17:59:27Z",
+            "pushed_at": "2018-11-20T22:31:05Z",
             "git_url": "git://github.com/conda-forge/glueviz-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/glueviz-feedstock.git",
             "clone_url": "https://github.com/conda-forge/glueviz-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/glueviz-feedstock/pulls/36/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/glueviz-feedstock/statuses/e6059d75b4ba66e9482e5073c966a502fa9eb650"
+            "href": "https://api.github.com/repos/conda-forge/glueviz-feedstock/statuses/771f607122b3771fff5f881b71cea57f57315635"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 119,
-    "deletions": 77,
+    "commits": 5,
+    "additions": 120,
+    "deletions": 78,
     "changed_files": 12,
-    "Last-Modified": "Tue, 20 Nov 2018 17:59:55 GMT",
-    "ETag": "W/\"2a8788d92ed6107396fd5a50d0493075\""
+    "Last-Modified": "Tue, 20 Nov 2018 22:31:04 GMT",
+    "ETag": "W/\"16080e637bbd3bda8d2c82a9802ae7bb\""
 }
