@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\noctave\ngraphicsmagick\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-13T22:15:56Z",
-    "updated_at": "2018-11-20T04:50:37Z",
+    "updated_at": "2018-11-20T05:59:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5bd1567630956213ec29b0563ebffefafa8b78cb",
+    "merge_commit_sha": "ef381daf360a8aaec9d285e114557531a6b83afc",
     "assignee": {
         "login": "croth1",
         "id": 15384900,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/statuses/e286cbb9c44983a055298d6f64f478c1f68b50ce",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/statuses/b1ecee6863b6b0e52256f289260264641941115f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e286cbb9c44983a055298d6f64f478c1f68b50ce",
+        "sha": "b1ecee6863b6b0e52256f289260264641941115f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gnuplot-feedstock/deployments",
             "created_at": "2018-03-27T12:26:31Z",
             "updated_at": "2018-03-27T12:26:33Z",
-            "pushed_at": "2018-11-18T12:26:30Z",
+            "pushed_at": "2018-11-20T05:49:58Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gnuplot-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gnuplot-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gnuplot-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/deployments",
             "created_at": "2016-12-13T12:18:42Z",
             "updated_at": "2018-08-04T18:43:56Z",
-            "pushed_at": "2018-11-18T12:26:32Z",
+            "pushed_at": "2018-11-20T05:49:59Z",
             "git_url": "git://github.com/conda-forge/gnuplot-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gnuplot-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gnuplot-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/statuses/e286cbb9c44983a055298d6f64f478c1f68b50ce"
+            "href": "https://api.github.com/repos/conda-forge/gnuplot-feedstock/statuses/b1ecee6863b6b0e52256f289260264641941115f"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 361,
-    "deletions": 119,
-    "changed_files": 16,
-    "Last-Modified": "Tue, 20 Nov 2018 04:50:37 GMT",
-    "ETag": "W/\"bde0d6dbcf20ce9bfa565f8ea28ef964\""
+    "commits": 7,
+    "additions": 363,
+    "deletions": 120,
+    "changed_files": 17,
+    "Last-Modified": "Tue, 20 Nov 2018 05:59:40 GMT",
+    "ETag": "W/\"2faf53df052d225a0c495e847cd98b3f\""
 }
