@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nparaview\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T17:31:43Z",
-    "updated_at": "2018-11-20T18:07:51Z",
+    "updated_at": "2018-11-21T08:06:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "357fa6ec765eedabcc947e38aa22fc34f60e95a4",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1135162565,
+            "node_id": "MDU6TGFiZWwxMTM1MTYyNTY1",
+            "url": "https://api.github.com/repos/conda-forge/glew-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "1f5c7f",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/glew-feedstock/pulls/6/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/glew-feedstock/pulls/6/comments",
@@ -329,13 +338,11 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 7,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 153,
     "deletions": 51,
-    "changed_files": 18,
-    "Last-Modified": "Tue, 20 Nov 2018 18:07:51 GMT",
-    "ETag": "W/\"b830b6594ce5b11eb12a8a81afa820ac\""
+    "changed_files": 18
 }
