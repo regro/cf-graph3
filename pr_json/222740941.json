@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T20:29:06Z",
-    "updated_at": "2018-10-23T15:18:17Z",
+    "updated_at": "2018-11-21T05:03:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a8fc06c55b64f53187c177f7f890a1bd86cdf209",
+    "merge_commit_sha": "330bd1632783596770f5b91f39f02cf6aa57dfa0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/statuses/785a78075bc1a35e5584aad5e0e7f39ab2b448cb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/statuses/6a509f20e570e44658f7784b2e36d67d2b282369",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "785a78075bc1a35e5584aad5e0e7f39ab2b448cb",
+        "sha": "6a509f20e570e44658f7784b2e36d67d2b282369",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/avrocpp-feedstock/deployments",
             "created_at": "2018-06-18T14:08:44Z",
             "updated_at": "2018-06-18T14:08:46Z",
-            "pushed_at": "2018-10-14T20:29:06Z",
+            "pushed_at": "2018-11-21T05:03:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/avrocpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/avrocpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/avrocpp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/deployments",
             "created_at": "2018-01-09T18:32:34Z",
             "updated_at": "2018-08-04T18:23:33Z",
-            "pushed_at": "2018-10-14T20:29:07Z",
+            "pushed_at": "2018-11-21T05:03:23Z",
             "git_url": "git://github.com/conda-forge/avrocpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/avrocpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/avrocpp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/statuses/785a78075bc1a35e5584aad5e0e7f39ab2b448cb"
+            "href": "https://api.github.com/repos/conda-forge/avrocpp-feedstock/statuses/6a509f20e570e44658f7784b2e36d67d2b282369"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 204,
     "deletions": 64,
     "changed_files": 16,
-    "Last-Modified": "Tue, 23 Oct 2018 15:18:17 GMT",
-    "ETag": "W/\"776a143d4a1e4626b3d691fbbadb02f2\""
+    "Last-Modified": "Wed, 21 Nov 2018 05:03:22 GMT",
+    "ETag": "W/\"62b275470a95d93e04521ac7a6067c3b\""
 }

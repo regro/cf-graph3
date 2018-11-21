@@ -32,10 +32,10 @@
     },
     "body": "Renamed build with host\nMoving cmake from host to build\nRemoving pinnings for openblas to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nRemoving pinnings for numpy to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nRemoving pinnings for jpeg to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nRemoving pinnings for libpng to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nRemoving pinnings for sqlite to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nPinning numpy using pin_compatible. If you need to pin numpy to a specific version see [here](https://conda-forge.org/docs/meta.html#building-against-numpy).\nAdding Fortran compiler\nAdding C compiler\nAdding C++ compiler\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-07T22:24:23Z",
-    "updated_at": "2018-08-07T22:24:27Z",
+    "updated_at": "2018-11-21T04:55:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b21b22335938ba92a076627044db729f0a7bc00c",
+    "merge_commit_sha": "47e8aa6cb16c2e110af7aa252ca9bd5efd9b5b50",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/18d17e33e8fa4388033be463d12fe41511be8990",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/55c868faa1607ff46ac5f76d2e93a4d9d51854b0",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "18d17e33e8fa4388033be463d12fe41511be8990",
+        "sha": "55c868faa1607ff46ac5f76d2e93a4d9d51854b0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dlib-feedstock/deployments",
             "created_at": "2018-03-19T17:02:22Z",
             "updated_at": "2018-03-19T17:02:24Z",
-            "pushed_at": "2018-10-18T00:31:50Z",
+            "pushed_at": "2018-11-21T04:55:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dlib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/deployments",
             "created_at": "2016-09-14T14:03:36Z",
             "updated_at": "2018-08-04T17:34:08Z",
-            "pushed_at": "2018-10-18T00:31:52Z",
+            "pushed_at": "2018-11-21T04:55:39Z",
             "git_url": "git://github.com/conda-forge/dlib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dlib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dlib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/18d17e33e8fa4388033be463d12fe41511be8990"
+            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/55c868faa1607ff46ac5f76d2e93a4d9d51854b0"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 447,
-    "deletions": 153,
-    "changed_files": 24
+    "commits": 3,
+    "additions": 399,
+    "deletions": 177,
+    "changed_files": 21,
+    "Last-Modified": "Wed, 21 Nov 2018 04:55:38 GMT",
+    "ETag": "W/\"cf4d224ecca8d2c5c9760cd8ebc8a702\""
 }

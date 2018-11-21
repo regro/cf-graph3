@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nblaze\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T01:00:23Z",
-    "updated_at": "2018-10-13T01:00:28Z",
+    "updated_at": "2018-11-21T05:03:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fc12550cf0a0e94f527bf57f644672550b420964",
+    "merge_commit_sha": "8318abd035bccbd5ac513acdef64124008096b51",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/statuses/e0e1ee1d2e4169f06c28494f772d62f480e162b4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/statuses/c3093d12c22621edf47127182bd5ef25f5a079ea",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e0e1ee1d2e4169f06c28494f772d62f480e162b4",
+        "sha": "c3093d12c22621edf47127182bd5ef25f5a079ea",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/datashape-feedstock/deployments",
             "created_at": "2018-07-07T18:40:43Z",
             "updated_at": "2018-07-07T18:40:45Z",
-            "pushed_at": "2018-10-13T01:00:23Z",
+            "pushed_at": "2018-11-21T05:03:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/datashape-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/datashape-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/datashape-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/datashape-feedstock/deployments",
             "created_at": "2017-07-19T03:13:14Z",
             "updated_at": "2018-08-04T19:19:06Z",
-            "pushed_at": "2018-10-13T01:00:24Z",
+            "pushed_at": "2018-11-21T05:03:44Z",
             "git_url": "git://github.com/conda-forge/datashape-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/datashape-feedstock.git",
             "clone_url": "https://github.com/conda-forge/datashape-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/datashape-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/datashape-feedstock/statuses/e0e1ee1d2e4169f06c28494f772d62f480e162b4"
+            "href": "https://api.github.com/repos/conda-forge/datashape-feedstock/statuses/c3093d12c22621edf47127182bd5ef25f5a079ea"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 427,
     "deletions": 166,
     "changed_files": 28,
-    "Last-Modified": "Sat, 13 Oct 2018 01:00:28 GMT",
-    "ETag": "W/\"d77bdc4e25026d4cb081e2004be1390f\""
+    "Last-Modified": "Wed, 21 Nov 2018 05:03:44 GMT",
+    "ETag": "W/\"9536c8b4b036a4ea51d879fa368b4f86\""
 }
