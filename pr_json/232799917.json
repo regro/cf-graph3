@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/scikit-learn-feedstock/pull/82.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/issues/82",
     "number": 82,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "scikit-learn v0.20.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-21T21:15:50Z",
-    "updated_at": "2018-11-21T21:15:55Z",
-    "closed_at": null,
+    "updated_at": "2018-11-22T04:33:20Z",
+    "closed_at": "2018-11-22T04:33:20Z",
     "merged_at": null,
     "merge_commit_sha": "8f2b7878acc59b67c48bf29be653dbb1e6374201",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 22,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 7,
+            "open_issues_count": 6,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 22,
-            "open_issues": 7,
+            "open_issues": 6,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -326,16 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 3,
     "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Wed, 21 Nov 2018 21:15:55 GMT",
-    "ETag": "W/\"82b81caf093ebb7e334b090e7ad739e7\""
+    "Last-Modified": "Thu, 22 Nov 2018 04:33:20 GMT",
+    "ETag": "W/\"ea3b2f8b75ce3f08da2145c6e9a02501\""
 }
