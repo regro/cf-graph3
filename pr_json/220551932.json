@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T00:10:52Z",
-    "updated_at": "2018-10-06T05:40:38Z",
+    "updated_at": "2018-11-22T20:13:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9c7df988a8705b388375730794b87ab69323b763",
+    "merge_commit_sha": "25b3f6c10830090ae1859b7b9e01d3c867c83d1b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/statuses/288fa67fa64d3c187adf5e44be65ee495f3ff5bf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/statuses/cf4af7b5aca09656a1e6c920e2476b2cf606b7c4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "288fa67fa64d3c187adf5e44be65ee495f3ff5bf",
+        "sha": "cf4af7b5aca09656a1e6c920e2476b2cf606b7c4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nose-cov-feedstock/deployments",
             "created_at": "2018-10-05T00:10:38Z",
             "updated_at": "2018-10-05T00:10:40Z",
-            "pushed_at": "2018-10-05T00:10:51Z",
+            "pushed_at": "2018-11-22T20:13:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nose-cov-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nose-cov-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nose-cov-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/deployments",
             "created_at": "2016-12-15T12:00:54Z",
             "updated_at": "2018-08-04T19:05:10Z",
-            "pushed_at": "2018-10-05T00:10:52Z",
+            "pushed_at": "2018-11-22T20:13:07Z",
             "git_url": "git://github.com/conda-forge/nose-cov-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nose-cov-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nose-cov-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/statuses/288fa67fa64d3c187adf5e44be65ee495f3ff5bf"
+            "href": "https://api.github.com/repos/conda-forge/nose-cov-feedstock/statuses/cf4af7b5aca09656a1e6c920e2476b2cf606b7c4"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 494,
     "deletions": 214,
     "changed_files": 29,
-    "Last-Modified": "Sat, 06 Oct 2018 05:40:38 GMT",
-    "ETag": "W/\"55810e056a7502bb315ed8c0303de08b\""
+    "Last-Modified": "Thu, 22 Nov 2018 20:13:07 GMT",
+    "ETag": "W/\"b98fc2c57043fc22ef6bbed9d34d461c\""
 }

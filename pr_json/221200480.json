@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T18:08:26Z",
-    "updated_at": "2018-10-08T18:08:34Z",
+    "updated_at": "2018-11-22T20:22:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6631c9c340a36c808667d7fbbcfe0ef6fe6d2ec8",
+    "merge_commit_sha": "8dcdaea51caa64be04860edbd5dba8cffd1c5e95",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/statuses/5943051b4d67d4a1e7b2a348ac55a4c08049a20a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/statuses/510e666fa97ad8404835959e7c136524fc8e33ac",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5943051b4d67d4a1e7b2a348ac55a4c08049a20a",
+        "sha": "510e666fa97ad8404835959e7c136524fc8e33ac",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libsecret-feedstock/deployments",
             "created_at": "2018-07-26T21:16:58Z",
             "updated_at": "2018-07-26T21:17:01Z",
-            "pushed_at": "2018-10-08T18:08:25Z",
+            "pushed_at": "2018-11-22T20:22:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libsecret-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libsecret-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libsecret-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libsecret-feedstock/deployments",
             "created_at": "2018-07-24T13:02:54Z",
             "updated_at": "2018-08-04T18:58:29Z",
-            "pushed_at": "2018-10-08T18:08:27Z",
+            "pushed_at": "2018-11-22T20:22:36Z",
             "git_url": "git://github.com/conda-forge/libsecret-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libsecret-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libsecret-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libsecret-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libsecret-feedstock/statuses/5943051b4d67d4a1e7b2a348ac55a4c08049a20a"
+            "href": "https://api.github.com/repos/conda-forge/libsecret-feedstock/statuses/510e666fa97ad8404835959e7c136524fc8e33ac"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 162,
     "deletions": 50,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Thu, 22 Nov 2018 20:22:36 GMT",
+    "ETag": "W/\"1d6f123e6453d01645f412be2e0a4290\""
 }
