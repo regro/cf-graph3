@@ -35,7 +35,7 @@
     "updated_at": "2018-11-21T21:15:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2228501bfd0d05349734406d9d542b0ecddcaeb7",
+    "merge_commit_sha": "8f2b7878acc59b67c48bf29be653dbb1e6374201",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/scikit-learn-feedstock/deployments",
             "created_at": "2016-05-22T02:17:58Z",
-            "updated_at": "2018-11-21T01:37:58Z",
-            "pushed_at": "2018-11-21T21:15:51Z",
+            "updated_at": "2018-11-22T03:01:09Z",
+            "pushed_at": "2018-11-22T03:01:07Z",
             "git_url": "git://github.com/conda-forge/scikit-learn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scikit-learn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scikit-learn-feedstock.git",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 21,
+            "forks_count": 22,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 7,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 21,
+            "forks": 22,
             "open_issues": 7,
             "watchers": 2,
             "default_branch": "master"
@@ -337,5 +337,5 @@
     "deletions": 3,
     "changed_files": 1,
     "Last-Modified": "Wed, 21 Nov 2018 21:15:55 GMT",
-    "ETag": "W/\"827d69a9d0a9477a80d86c6c7643aed9\""
+    "ETag": "W/\"4339cac4d03399f9ea303af464adf3ed\""
 }
