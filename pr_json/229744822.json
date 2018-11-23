@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncasadi\ncyipopt\npagmo\npygmo\npyomo.solvers\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-09T16:18:36Z",
-    "updated_at": "2018-11-22T22:19:22Z",
+    "updated_at": "2018-11-23T00:24:17Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "efdcc7d93da35879a91638ed73f8880d7a3be3aa",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 1,
     "maintainer_can_modify": true,
     "commits": 8,
     "additions": 121,
     "deletions": 69,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Fri, 23 Nov 2018 00:24:17 GMT",
+    "ETag": "W/\"b3dfc5bb5cc4b049f992a5d2e790126c\""
 }
