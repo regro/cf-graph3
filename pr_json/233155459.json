@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T10:17:40Z",
-    "updated_at": "2018-11-23T10:36:44Z",
+    "updated_at": "2018-11-23T13:24:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e09f72bd86dded9ebb52b2afa9e5b6923016b1d8",
+    "merge_commit_sha": "929160e875d00d51eb153e1db05b6ffe930b8fd9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/statuses/5434058c368a38dbf77fe99c6bcdb1c4fe309123",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/statuses/cd80736e62695e0d4485b95a629be1deecea5d27",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5434058c368a38dbf77fe99c6bcdb1c4fe309123",
+        "sha": "cd80736e62695e0d4485b95a629be1deecea5d27",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-gggenes-feedstock/deployments",
             "created_at": "2018-11-23T10:17:08Z",
             "updated_at": "2018-11-23T10:17:11Z",
-            "pushed_at": "2018-11-23T10:17:39Z",
+            "pushed_at": "2018-11-23T13:21:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-gggenes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-gggenes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-gggenes-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/deployments",
             "created_at": "2018-08-12T19:08:10Z",
             "updated_at": "2018-08-12T19:09:35Z",
-            "pushed_at": "2018-11-23T10:17:41Z",
+            "pushed_at": "2018-11-23T13:21:46Z",
             "git_url": "git://github.com/conda-forge/r-gggenes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-gggenes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-gggenes-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/statuses/5434058c368a38dbf77fe99c6bcdb1c4fe309123"
+            "href": "https://api.github.com/repos/conda-forge/r-gggenes-feedstock/statuses/cd80736e62695e0d4485b95a629be1deecea5d27"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 50,
-    "deletions": 161,
+    "deletions": 162,
     "changed_files": 12,
-    "Last-Modified": "Fri, 23 Nov 2018 10:36:44 GMT",
-    "ETag": "W/\"508fdce434f06d305a8fa8a2e7087800\""
+    "Last-Modified": "Fri, 23 Nov 2018 13:24:09 GMT",
+    "ETag": "W/\"395c900fa940437e65f7b9f4930d2dc6\""
 }
