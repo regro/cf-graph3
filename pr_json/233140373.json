@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T09:15:51Z",
-    "updated_at": "2018-11-23T09:15:56Z",
+    "updated_at": "2018-11-23T16:48:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c7e32b2df826ddd313c0873a615032f9ff914c7c",
+    "merge_commit_sha": "6f2620176c3204013514bd44b74dd6fad4223de1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/statuses/ccfe520b05fc696519c16cd1a91325bfffaa3f46",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/statuses/9ab268385100d16b977659a888196ad12f11bd48",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ccfe520b05fc696519c16cd1a91325bfffaa3f46",
+        "sha": "9ab268385100d16b977659a888196ad12f11bd48",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-ggm-feedstock/deployments",
             "created_at": "2018-11-23T09:15:37Z",
             "updated_at": "2018-11-23T09:15:39Z",
-            "pushed_at": "2018-11-23T09:15:50Z",
+            "pushed_at": "2018-11-23T16:48:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-ggm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-ggm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-ggm-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/deployments",
             "created_at": "2018-01-30T22:30:17Z",
             "updated_at": "2018-08-04T19:22:07Z",
-            "pushed_at": "2018-11-23T09:15:52Z",
+            "pushed_at": "2018-11-23T16:48:51Z",
             "git_url": "git://github.com/conda-forge/r-ggm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-ggm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-ggm-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/statuses/ccfe520b05fc696519c16cd1a91325bfffaa3f46"
+            "href": "https://api.github.com/repos/conda-forge/r-ggm-feedstock/statuses/9ab268385100d16b977659a888196ad12f11bd48"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 209,
-    "deletions": 246,
+    "commits": 3,
+    "additions": 210,
+    "deletions": 247,
     "changed_files": 19,
-    "Last-Modified": "Fri, 23 Nov 2018 09:15:56 GMT",
-    "ETag": "W/\"e7bef49f5332f06f7cdd466d1e21c68e\""
+    "Last-Modified": "Fri, 23 Nov 2018 16:48:50 GMT",
+    "ETag": "W/\"4e80ab85792856ec7396c8afb1dd38e0\""
 }
