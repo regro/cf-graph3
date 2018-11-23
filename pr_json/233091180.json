@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T01:15:20Z",
-    "updated_at": "2018-11-23T01:15:25Z",
+    "updated_at": "2018-11-23T07:34:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9e063ae9aab93ec1505fa74f1ccc50167bc5c01d",
+    "merge_commit_sha": "6191e101c6f29b07453fb8574e8cc72ad501f0cf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/statuses/e8b0ac3f98ffbbb1221ff58892b356bc6166a0b3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/statuses/ce7526685f61637bb45cd62637dc1cf8c5a12238",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e8b0ac3f98ffbbb1221ff58892b356bc6166a0b3",
+        "sha": "ce7526685f61637bb45cd62637dc1cf8c5a12238",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-kohonen-feedstock/deployments",
             "created_at": "2018-05-25T11:04:38Z",
             "updated_at": "2018-05-25T11:04:40Z",
-            "pushed_at": "2018-11-23T01:15:20Z",
+            "pushed_at": "2018-11-23T07:34:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-kohonen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-kohonen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-kohonen-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-kohonen-feedstock",
             "homepage": null,
-            "size": 33,
+            "size": 34,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/deployments",
             "created_at": "2017-04-30T21:37:22Z",
             "updated_at": "2018-11-02T08:46:17Z",
-            "pushed_at": "2018-11-23T01:15:21Z",
+            "pushed_at": "2018-11-23T07:34:28Z",
             "git_url": "git://github.com/conda-forge/r-kohonen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-kohonen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-kohonen-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/statuses/e8b0ac3f98ffbbb1221ff58892b356bc6166a0b3"
+            "href": "https://api.github.com/repos/conda-forge/r-kohonen-feedstock/statuses/ce7526685f61637bb45cd62637dc1cf8c5a12238"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 70,
-    "deletions": 51,
-    "changed_files": 12
+    "commits": 3,
+    "additions": 74,
+    "deletions": 54,
+    "changed_files": 12,
+    "Last-Modified": "Fri, 23 Nov 2018 07:34:27 GMT",
+    "ETag": "W/\"8e5eb75ae6bfb1a1c7be14ebc429affe\""
 }
