@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-03T07:15:35Z",
-    "updated_at": "2018-11-23T18:09:44Z",
+    "updated_at": "2018-11-23T21:21:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bdd834a887a852a9b983ab827f2b0877241fd45e",
+    "merge_commit_sha": "409fd8fe239116121c788b2d5bad0d362f1a83f9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cling-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cling-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cling-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cling-feedstock/statuses/010815295fdfe591619c38990d51bd4ab9e24f05",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cling-feedstock/statuses/4973e2e78f70c6fb16b4321bac8787445dc854df",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "010815295fdfe591619c38990d51bd4ab9e24f05",
+        "sha": "4973e2e78f70c6fb16b4321bac8787445dc854df",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cling-feedstock/deployments",
             "created_at": "2018-03-01T04:02:55Z",
             "updated_at": "2018-03-01T04:02:57Z",
-            "pushed_at": "2018-11-23T18:09:44Z",
+            "pushed_at": "2018-11-23T21:12:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cling-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cling-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cling-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cling-feedstock",
             "homepage": null,
-            "size": 65,
+            "size": 66,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cling-feedstock/deployments",
             "created_at": "2017-02-20T18:41:55Z",
             "updated_at": "2018-08-04T18:14:40Z",
-            "pushed_at": "2018-11-23T18:09:45Z",
+            "pushed_at": "2018-11-23T21:12:02Z",
             "git_url": "git://github.com/conda-forge/cling-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cling-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cling-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cling-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cling-feedstock/statuses/010815295fdfe591619c38990d51bd4ab9e24f05"
+            "href": "https://api.github.com/repos/conda-forge/cling-feedstock/statuses/4973e2e78f70c6fb16b4321bac8787445dc854df"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
+    "commits": 4,
     "additions": 2272,
     "deletions": 380,
-    "changed_files": 58
+    "changed_files": 58,
+    "Last-Modified": "Fri, 23 Nov 2018 21:21:23 GMT",
+    "ETag": "W/\"0afde5296650107f690d8b4fbb721188\""
 }
