@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlinbox\nsagelib\nsage\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T11:58:17Z",
-    "updated_at": "2018-11-24T02:45:01Z",
+    "updated_at": "2018-11-24T04:42:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "142e545ad9d720aa4bd85665a08616ec1ef860cd",
+    "merge_commit_sha": "d785176cca37fa61ab7271214ca42045c9cc9388",
     "assignee": {
         "login": "isuruf",
         "id": 5234427,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/statuses/7e0f0a8d8a33568446cc0f57cf85d244908fd5cf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/statuses/49225952ad464ea9f8e5775fd0ae87c601b58466",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7e0f0a8d8a33568446cc0f57cf85d244908fd5cf",
+        "sha": "49225952ad464ea9f8e5775fd0ae87c601b58466",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fflas-ffpack-feedstock/deployments",
             "created_at": "2018-03-01T06:04:28Z",
             "updated_at": "2018-03-01T06:04:30Z",
-            "pushed_at": "2018-11-15T04:11:09Z",
+            "pushed_at": "2018-11-24T04:42:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fflas-ffpack-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fflas-ffpack-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fflas-ffpack-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/deployments",
             "created_at": "2017-02-11T19:31:50Z",
             "updated_at": "2018-08-04T18:22:19Z",
-            "pushed_at": "2018-11-15T04:11:10Z",
+            "pushed_at": "2018-11-24T04:42:53Z",
             "git_url": "git://github.com/conda-forge/fflas-ffpack-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fflas-ffpack-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fflas-ffpack-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/statuses/7e0f0a8d8a33568446cc0f57cf85d244908fd5cf"
+            "href": "https://api.github.com/repos/conda-forge/fflas-ffpack-feedstock/statuses/49225952ad464ea9f8e5775fd0ae87c601b58466"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 178,
+    "commits": 8,
+    "additions": 179,
     "deletions": 60,
     "changed_files": 15,
-    "Last-Modified": "Sat, 24 Nov 2018 02:45:01 GMT",
-    "ETag": "W/\"f3917e9793ac4ab5e6d3ad00f8164e23\""
+    "Last-Modified": "Sat, 24 Nov 2018 04:42:52 GMT",
+    "ETag": "W/\"f6a8552bad9a81283b5caed71789707b\""
 }
