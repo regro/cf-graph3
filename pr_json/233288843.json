@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npycroscopy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T23:15:36Z",
-    "updated_at": "2018-11-23T23:15:40Z",
+    "updated_at": "2018-11-24T07:20:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a85112feccc5ed3a95567ef510eb86817dfccd09",
+    "merge_commit_sha": "cb0c0d52994683da27adf0f3a154da9f96797b9e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/statuses/733bcce5c6c10c48ae6c73554b2ceca1745f07c5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/statuses/38e7444b8840d0473c8f86e4bb70ba46858a5f5c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "733bcce5c6c10c48ae6c73554b2ceca1745f07c5",
+        "sha": "38e7444b8840d0473c8f86e4bb70ba46858a5f5c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyusid-feedstock/deployments",
             "created_at": "2018-11-23T23:15:21Z",
             "updated_at": "2018-11-23T23:15:23Z",
-            "pushed_at": "2018-11-23T23:15:36Z",
+            "pushed_at": "2018-11-24T07:20:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyusid-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyusid-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyusid-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pyusid-feedstock",
             "homepage": null,
-            "size": 15,
+            "size": 16,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyusid-feedstock/deployments",
             "created_at": "2018-08-06T16:18:06Z",
             "updated_at": "2018-08-07T12:57:36Z",
-            "pushed_at": "2018-11-23T23:15:37Z",
+            "pushed_at": "2018-11-24T07:20:57Z",
             "git_url": "git://github.com/conda-forge/pyusid-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyusid-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyusid-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyusid-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyusid-feedstock/statuses/733bcce5c6c10c48ae6c73554b2ceca1745f07c5"
+            "href": "https://api.github.com/repos/conda-forge/pyusid-feedstock/statuses/38e7444b8840d0473c8f86e4bb70ba46858a5f5c"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 170,
-    "deletions": 68,
-    "changed_files": 21
+    "commits": 3,
+    "additions": 172,
+    "deletions": 69,
+    "changed_files": 21,
+    "Last-Modified": "Sat, 24 Nov 2018 07:20:56 GMT",
+    "ETag": "W/\"fd3732b9a7e53ebfd760a5b21587820e\""
 }
