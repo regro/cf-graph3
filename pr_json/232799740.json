@@ -35,7 +35,7 @@
     "updated_at": "2018-11-21T21:15:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9bd00a9cb152ba73726017e7b436cde13e94ab38",
+    "merge_commit_sha": "a173858dd41ec373b11d63ab06e6f807b9f6cdca",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/protobuf-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/protobuf-feedstock/deployments",
             "created_at": "2016-02-16T23:54:27Z",
-            "updated_at": "2018-10-08T10:09:21Z",
-            "pushed_at": "2018-11-24T10:11:16Z",
+            "updated_at": "2018-11-24T15:39:10Z",
+            "pushed_at": "2018-11-24T15:39:08Z",
             "git_url": "git://github.com/conda-forge/protobuf-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/protobuf-feedstock.git",
             "clone_url": "https://github.com/conda-forge/protobuf-feedstock.git",
             "svn_url": "https://github.com/conda-forge/protobuf-feedstock",
             "homepage": null,
-            "size": 110,
+            "size": 111,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 19,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 19,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 6,
     "deletions": 6,
-    "changed_files": 4
+    "changed_files": 4,
+    "Last-Modified": "Wed, 21 Nov 2018 21:15:08 GMT",
+    "ETag": "W/\"6ce561acae1b3c534bb43f06e35ef4a0\""
 }
