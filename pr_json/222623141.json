@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T02:58:02Z",
-    "updated_at": "2018-10-13T02:58:02Z",
+    "updated_at": "2018-11-24T11:22:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "cb62e96dd853153c3d33bb6ea4b88267785f0212",
+    "merge_commit_sha": "6cee413c150d980f1e7dde970d9bc671e1e07630",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/statuses/e9d5dda8fee972a22da2171c238a4ece0d71da4d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/statuses/5779d9ce4a1d416f1a56e79cfd7eb5763099649f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "e9d5dda8fee972a22da2171c238a4ece0d71da4d",
+        "sha": "5779d9ce4a1d416f1a56e79cfd7eb5763099649f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyembree-feedstock/deployments",
             "created_at": "2018-07-25T19:17:27Z",
             "updated_at": "2018-07-25T19:17:29Z",
-            "pushed_at": "2018-10-13T02:58:02Z",
+            "pushed_at": "2018-11-24T11:22:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyembree-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyembree-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyembree-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyembree-feedstock/deployments",
             "created_at": "2016-10-05T14:27:51Z",
             "updated_at": "2018-08-04T17:34:34Z",
-            "pushed_at": "2018-10-13T02:58:03Z",
+            "pushed_at": "2018-11-24T11:22:30Z",
             "git_url": "git://github.com/conda-forge/pyembree-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyembree-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyembree-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyembree-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyembree-feedstock/statuses/e9d5dda8fee972a22da2171c238a4ece0d71da4d"
+            "href": "https://api.github.com/repos/conda-forge/pyembree-feedstock/statuses/5779d9ce4a1d416f1a56e79cfd7eb5763099649f"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 530,
     "deletions": 181,
     "changed_files": 28,
-    "Last-Modified": "Sat, 13 Oct 2018 02:58:02 GMT",
-    "ETag": "W/\"348b7df014582113885e599f9830c8da\""
+    "Last-Modified": "Sat, 24 Nov 2018 11:22:34 GMT",
+    "ETag": "W/\"9e9787d1c4cff1729826886021af0abd\""
 }
