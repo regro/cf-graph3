@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-24T16:15:19Z",
-    "updated_at": "2018-11-24T16:15:23Z",
+    "updated_at": "2018-11-24T21:03:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4a17bf9859e45060126d79c0c900539ab39880be",
+    "merge_commit_sha": "009f316dae809c7ac782340cc9316ca80626c7f6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/statuses/8b6f3b61da3be99b04841a74c013b563ff5ae669",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/statuses/092e48e58d8e46789c3bbcd042fc78e27250089c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8b6f3b61da3be99b04841a74c013b563ff5ae669",
+        "sha": "092e48e58d8e46789c3bbcd042fc78e27250089c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-cairo-feedstock/deployments",
             "created_at": "2018-08-01T09:21:32Z",
             "updated_at": "2018-08-01T09:21:34Z",
-            "pushed_at": "2018-11-24T16:15:19Z",
+            "pushed_at": "2018-11-24T21:03:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-cairo-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-cairo-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-cairo-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/deployments",
             "created_at": "2017-04-24T08:30:11Z",
             "updated_at": "2018-10-23T19:20:21Z",
-            "pushed_at": "2018-11-24T16:15:20Z",
+            "pushed_at": "2018-11-24T21:03:52Z",
             "git_url": "git://github.com/conda-forge/r-cairo-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-cairo-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-cairo-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/statuses/8b6f3b61da3be99b04841a74c013b563ff5ae669"
+            "href": "https://api.github.com/repos/conda-forge/r-cairo-feedstock/statuses/092e48e58d8e46789c3bbcd042fc78e27250089c"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 65,
+    "commits": 3,
+    "additions": 67,
     "deletions": 48,
-    "changed_files": 12
+    "changed_files": 12,
+    "Last-Modified": "Sat, 24 Nov 2018 21:03:51 GMT",
+    "ETag": "W/\"8968d2128656e8d15cf1991205dec683\""
 }
