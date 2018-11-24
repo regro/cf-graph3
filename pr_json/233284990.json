@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\norange3-geo\norange3-imageanalytics\norange3-network\norange3-text\norange3-timeseries\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T22:15:01Z",
-    "updated_at": "2018-11-23T22:17:10Z",
+    "updated_at": "2018-11-24T13:29:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3d6fdc26c267b71a6e446598b58db0f5d3eaa460",
+    "merge_commit_sha": "fa73497aa99e583c17e82c93b483becbaf3538e3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/pulls/54/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/issues/54/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/statuses/7d72a11ff9742ab97815c5712a7aa720bbdcabb7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/statuses/ad25ea897b1f030d58a1f1add0e713d9f8c3c678",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7d72a11ff9742ab97815c5712a7aa720bbdcabb7",
+        "sha": "ad25ea897b1f030d58a1f1add0e713d9f8c3c678",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/orange3-feedstock/deployments",
             "created_at": "2018-03-07T22:17:45Z",
             "updated_at": "2018-03-07T22:17:47Z",
-            "pushed_at": "2018-11-23T22:15:00Z",
+            "pushed_at": "2018-11-24T13:28:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/orange3-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/orange3-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/orange3-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/orange3-feedstock",
             "homepage": null,
-            "size": 75,
+            "size": 77,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/orange3-feedstock/deployments",
             "created_at": "2016-07-26T03:01:19Z",
             "updated_at": "2018-11-13T16:14:31Z",
-            "pushed_at": "2018-11-23T22:15:02Z",
+            "pushed_at": "2018-11-24T13:28:31Z",
             "git_url": "git://github.com/conda-forge/orange3-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/orange3-feedstock.git",
             "clone_url": "https://github.com/conda-forge/orange3-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/orange3-feedstock/pulls/54/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/orange3-feedstock/statuses/7d72a11ff9742ab97815c5712a7aa720bbdcabb7"
+            "href": "https://api.github.com/repos/conda-forge/orange3-feedstock/statuses/ad25ea897b1f030d58a1f1add0e713d9f8c3c678"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 285,
-    "deletions": 16,
-    "changed_files": 14
+    "commits": 3,
+    "additions": 290,
+    "deletions": 23,
+    "changed_files": 14,
+    "Last-Modified": "Sat, 24 Nov 2018 13:29:02 GMT",
+    "ETag": "W/\"cb610f92040bd2821ee25161e80b7df7\""
 }
