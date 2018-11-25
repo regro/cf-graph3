@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-23T19:14:55Z",
-    "updated_at": "2018-11-23T19:15:00Z",
+    "updated_at": "2018-11-25T16:17:59Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "230e78de507e3fab59f1bf83f7bbbeb9ebe4b90a",
+    "merge_commit_sha": "d0892c3df7dd6d0492eb4fbdc1acb6d71b2e6c99",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/statuses/d58d552cbcfb6548e7f36ce1117800b0b1dbbee3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/statuses/ef649defd0cf1e3bd828a002462561c05a7a9fbc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d58d552cbcfb6548e7f36ce1117800b0b1dbbee3",
+        "sha": "ef649defd0cf1e3bd828a002462561c05a7a9fbc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-europepmc-feedstock/deployments",
             "created_at": "2018-11-23T19:14:41Z",
             "updated_at": "2018-11-23T19:14:43Z",
-            "pushed_at": "2018-11-23T19:14:55Z",
+            "pushed_at": "2018-11-25T16:12:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-europepmc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-europepmc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-europepmc-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-europepmc-feedstock",
             "homepage": null,
-            "size": 13,
+            "size": 15,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/deployments",
             "created_at": "2018-08-12T21:30:49Z",
             "updated_at": "2018-08-12T21:31:45Z",
-            "pushed_at": "2018-11-23T19:14:56Z",
+            "pushed_at": "2018-11-25T16:12:01Z",
             "git_url": "git://github.com/conda-forge/r-europepmc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-europepmc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-europepmc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/statuses/d58d552cbcfb6548e7f36ce1117800b0b1dbbee3"
+            "href": "https://api.github.com/repos/conda-forge/r-europepmc-feedstock/statuses/ef649defd0cf1e3bd828a002462561c05a7a9fbc"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 50,
-    "deletions": 161,
-    "changed_files": 12
+    "deletions": 162,
+    "changed_files": 12,
+    "Last-Modified": "Sun, 25 Nov 2018 16:17:59 GMT",
+    "ETag": "W/\"75ce0c76e70d3972c09fa225f09835d3\""
 }
