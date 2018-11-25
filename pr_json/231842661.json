@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-irkernel\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-19T03:19:44Z",
-    "updated_at": "2018-11-19T03:19:44Z",
+    "updated_at": "2018-11-25T21:49:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f16213953eb88de74f4596f28cc0ee46e2aa558b",
+    "merge_commit_sha": "376984404db74d2406a6733b81079174fa62bdf6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/statuses/2e3d0b3e7b1a2f9b8f7d8235fd55ae409c0a60e2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/statuses/dab7fba7d1830c0cc0a7d324d7c31f3c6bd35d95",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2e3d0b3e7b1a2f9b8f7d8235fd55ae409c0a60e2",
+        "sha": "dab7fba7d1830c0cc0a7d324d7c31f3c6bd35d95",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-pbdzmq-feedstock/deployments",
             "created_at": "2018-03-09T01:24:51Z",
             "updated_at": "2018-03-09T01:24:53Z",
-            "pushed_at": "2018-11-19T03:19:44Z",
+            "pushed_at": "2018-11-25T21:49:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-pbdzmq-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-pbdzmq-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-pbdzmq-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/deployments",
             "created_at": "2017-02-18T15:38:50Z",
             "updated_at": "2018-08-04T18:34:34Z",
-            "pushed_at": "2018-11-19T03:19:45Z",
+            "pushed_at": "2018-11-25T21:49:44Z",
             "git_url": "git://github.com/conda-forge/r-pbdzmq-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-pbdzmq-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-pbdzmq-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/statuses/2e3d0b3e7b1a2f9b8f7d8235fd55ae409c0a60e2"
+            "href": "https://api.github.com/repos/conda-forge/r-pbdzmq-feedstock/statuses/dab7fba7d1830c0cc0a7d324d7c31f3c6bd35d95"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 249,
-    "deletions": 148,
+    "commits": 4,
+    "additions": 258,
+    "deletions": 158,
     "changed_files": 20,
-    "Last-Modified": "Mon, 19 Nov 2018 03:19:44 GMT",
-    "ETag": "W/\"322349bec46b1d35c9f6c15a79c2fc5a\""
+    "Last-Modified": "Sun, 25 Nov 2018 21:49:47 GMT",
+    "ETag": "W/\"93d8e46377ff4af80a82c37f3e46e385\""
 }

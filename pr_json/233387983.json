@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T17:15:12Z",
-    "updated_at": "2018-11-25T17:15:16Z",
+    "updated_at": "2018-11-25T22:02:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4dbea4eaa8ff0b57638a5cdec4efbb8c7d2ad7ce",
+    "merge_commit_sha": "94621efd5be920e6fccd1a9b85d5f7edc9bdba06",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/egal-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/egal-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/egal-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/egal-feedstock/statuses/922f04a6ddaa75a0900e11a8c46e185ef1603d1f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/egal-feedstock/statuses/0940765a878e07e4636745346eb84c5236b2bed2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "922f04a6ddaa75a0900e11a8c46e185ef1603d1f",
+        "sha": "0940765a878e07e4636745346eb84c5236b2bed2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/egal-feedstock/deployments",
             "created_at": "2018-03-01T05:52:31Z",
             "updated_at": "2018-03-01T05:52:33Z",
-            "pushed_at": "2018-11-25T17:15:11Z",
+            "pushed_at": "2018-11-25T22:02:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/egal-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/egal-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/egal-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/egal-feedstock",
             "homepage": null,
-            "size": 11,
+            "size": 20,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/egal-feedstock/deployments",
             "created_at": "2017-02-07T08:49:08Z",
             "updated_at": "2018-08-04T19:27:11Z",
-            "pushed_at": "2018-11-25T17:15:12Z",
+            "pushed_at": "2018-11-25T22:02:31Z",
             "git_url": "git://github.com/conda-forge/egal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/egal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/egal-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/egal-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/egal-feedstock/statuses/922f04a6ddaa75a0900e11a8c46e185ef1603d1f"
+            "href": "https://api.github.com/repos/conda-forge/egal-feedstock/statuses/0940765a878e07e4636745346eb84c5236b2bed2"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 353,
-    "deletions": 144,
-    "changed_files": 25
+    "commits": 3,
+    "additions": 358,
+    "deletions": 150,
+    "changed_files": 25,
+    "Last-Modified": "Sun, 25 Nov 2018 22:02:35 GMT",
+    "ETag": "W/\"54fa29ddfa3395d70b5d6b8adbb5d0f0\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T11:16:09Z",
-    "updated_at": "2018-11-25T11:16:12Z",
+    "updated_at": "2018-11-25T20:57:26Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "155eaff5f6d6aeb6dca763ddfac802fb52ee75b5",
+    "merge_commit_sha": "990787bcbb2d76bb2b18e897beb3b4485eb74a00",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/statuses/8a41d803cf1fbbd9138f5ac56247cd0d717a5957",
+    "statuses_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/statuses/bb41ee3282a7c45b9edd5b1400326f29f39e060c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8a41d803cf1fbbd9138f5ac56247cd0d717a5957",
+        "sha": "bb41ee3282a7c45b9edd5b1400326f29f39e060c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/meshpy-feedstock/deployments",
             "created_at": "2018-11-25T11:15:54Z",
             "updated_at": "2018-11-25T11:15:56Z",
-            "pushed_at": "2018-11-25T11:16:09Z",
+            "pushed_at": "2018-11-25T20:57:27Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/meshpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/meshpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/meshpy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/meshpy-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 22,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/meshpy-feedstock/deployments",
             "created_at": "2018-11-19T13:37:15Z",
             "updated_at": "2018-11-19T13:39:46Z",
-            "pushed_at": "2018-11-25T11:16:10Z",
+            "pushed_at": "2018-11-25T20:57:27Z",
             "git_url": "git://github.com/conda-forge/meshpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/meshpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/meshpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/meshpy-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/meshpy-feedstock/statuses/8a41d803cf1fbbd9138f5ac56247cd0d717a5957"
+            "href": "https://api.github.com/repos/conda-forge/meshpy-feedstock/statuses/bb41ee3282a7c45b9edd5b1400326f29f39e060c"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 350,
-    "deletions": 19,
-    "changed_files": 18
+    "commits": 5,
+    "additions": 395,
+    "deletions": 21,
+    "changed_files": 19,
+    "Last-Modified": "Sun, 25 Nov 2018 20:57:26 GMT",
+    "ETag": "W/\"d8e867bd9e59fd2b922b2a47248521e4\""
 }

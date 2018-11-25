@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-20T14:16:50Z",
-    "updated_at": "2018-11-23T14:51:19Z",
+    "updated_at": "2018-11-25T21:22:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "486c52925002d8bdad7c5d7e2c2cd7c24d62006f",
+    "merge_commit_sha": "a5edd6b82c0c0f20e06d165278b9eeb6faca1f36",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/timml-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/timml-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/timml-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/timml-feedstock/statuses/4857b58adf58dff7fd001755f5164b1e139afa8c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/timml-feedstock/statuses/b12c4a20bfe7a487cfdf4e3bbc0ad0cc4bb8abfc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4857b58adf58dff7fd001755f5164b1e139afa8c",
+        "sha": "b12c4a20bfe7a487cfdf4e3bbc0ad0cc4bb8abfc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/timml-feedstock/deployments",
             "created_at": "2018-11-20T14:16:35Z",
             "updated_at": "2018-11-20T14:16:38Z",
-            "pushed_at": "2018-11-23T14:51:18Z",
+            "pushed_at": "2018-11-25T21:22:17Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/timml-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/timml-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/timml-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/timml-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 19,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/timml-feedstock/deployments",
             "created_at": "2018-11-15T19:18:36Z",
             "updated_at": "2018-11-15T19:20:48Z",
-            "pushed_at": "2018-11-23T14:51:19Z",
+            "pushed_at": "2018-11-25T21:22:18Z",
             "git_url": "git://github.com/conda-forge/timml-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/timml-feedstock.git",
             "clone_url": "https://github.com/conda-forge/timml-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/timml-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/timml-feedstock/statuses/4857b58adf58dff7fd001755f5164b1e139afa8c"
+            "href": "https://api.github.com/repos/conda-forge/timml-feedstock/statuses/b12c4a20bfe7a487cfdf4e3bbc0ad0cc4bb8abfc"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 250,
+    "commits": 6,
+    "additions": 251,
     "deletions": 16,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Sun, 25 Nov 2018 21:22:17 GMT",
+    "ETag": "W/\"138ec40e0626afdfabf2ccbee1722825\""
 }
