@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T02:14:35Z",
-    "updated_at": "2018-11-25T02:14:38Z",
+    "updated_at": "2018-11-25T07:26:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "84bc18f9a0dd93af2c2b2a60d836ec82aec2abc9",
+    "merge_commit_sha": "c7de78eeebbd2a8bb4a78791e38cbbc5ddd91545",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/statuses/7cc42a5e345d744b6b8ebd9a3f89b7898db40f0c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/statuses/3be3e39cf519dbdbd0fab6290d918407a01e1654",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7cc42a5e345d744b6b8ebd9a3f89b7898db40f0c",
+        "sha": "3be3e39cf519dbdbd0fab6290d918407a01e1654",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-akima-feedstock/deployments",
             "created_at": "2018-08-01T21:18:49Z",
             "updated_at": "2018-08-01T21:18:52Z",
-            "pushed_at": "2018-11-25T02:14:35Z",
+            "pushed_at": "2018-11-25T07:26:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-akima-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-akima-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-akima-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-akima-feedstock/deployments",
             "created_at": "2017-11-28T00:02:36Z",
             "updated_at": "2018-10-13T23:13:01Z",
-            "pushed_at": "2018-11-25T02:14:36Z",
+            "pushed_at": "2018-11-25T07:26:30Z",
             "git_url": "git://github.com/conda-forge/r-akima-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-akima-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-akima-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-akima-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-akima-feedstock/statuses/7cc42a5e345d744b6b8ebd9a3f89b7898db40f0c"
+            "href": "https://api.github.com/repos/conda-forge/r-akima-feedstock/statuses/3be3e39cf519dbdbd0fab6290d918407a01e1654"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 22,
-    "deletions": 75,
+    "commits": 4,
+    "additions": 28,
+    "deletions": 82,
     "changed_files": 11,
-    "Last-Modified": "Sun, 25 Nov 2018 02:14:38 GMT",
-    "ETag": "W/\"e5bd9dc8bff79fcbb106b72e99de317c\""
+    "Last-Modified": "Sun, 25 Nov 2018 07:26:34 GMT",
+    "ETag": "W/\"871a93c821e7908b813ca4c99fea76f1\""
 }
