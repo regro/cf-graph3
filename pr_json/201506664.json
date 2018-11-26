@@ -8,7 +8,7 @@
     "issue_url": "https://api.github.com/repos/conda-forge/cube_browser-feedstock/issues/2",
     "number": 2,
     "state": "open",
-    "locked": false,
+    "locked": true,
     "title": "Suggestion: add noarch",
     "user": {
         "login": "regro-cf-autotick-bot",
@@ -262,7 +262,7 @@
             "releases_url": "https://api.github.com/repos/conda-forge/cube_browser-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/cube_browser-feedstock/deployments",
             "created_at": "2016-09-08T11:05:29Z",
-            "updated_at": "2018-08-04T17:31:10Z",
+            "updated_at": "2018-11-26T11:27:28Z",
             "pushed_at": "2018-11-25T19:14:27Z",
             "git_url": "git://github.com/conda-forge/cube_browser-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cube_browser-feedstock.git",
@@ -280,8 +280,8 @@
             "has_pages": false,
             "forks_count": 4,
             "mirror_url": null,
-            "archived": false,
-            "open_issues_count": 2,
+            "archived": true,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 3,
     "additions": 254,
     "deletions": 361,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"4c68c48cff41fd61e4929f83652ac6b8\""
 }
