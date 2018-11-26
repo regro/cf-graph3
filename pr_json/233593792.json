@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-26T15:18:08Z",
-    "updated_at": "2018-11-26T15:18:14Z",
+    "updated_at": "2018-11-26T16:19:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7a17f6897d70b08463722b21c10f0e659e21ed24",
+    "merge_commit_sha": "4d2e280b451ae45ec5c75b323a0f8ff6fc548e59",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/statuses/3d290c3259de13c0a7713376f6ed05cdf9099fb5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/statuses/d96a84d86d7678a22abe77392bb2c4a9f0d568d7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3d290c3259de13c0a7713376f6ed05cdf9099fb5",
+        "sha": "d96a84d86d7678a22abe77392bb2c4a9f0d568d7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-iml-feedstock/deployments",
             "created_at": "2018-11-26T15:17:52Z",
             "updated_at": "2018-11-26T15:17:54Z",
-            "pushed_at": "2018-11-26T15:18:07Z",
+            "pushed_at": "2018-11-26T16:19:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-iml-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-iml-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-iml-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-iml-feedstock",
             "homepage": null,
-            "size": 0,
+            "size": 13,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-iml-feedstock/deployments",
             "created_at": "2018-11-26T14:56:34Z",
             "updated_at": "2018-11-26T14:58:57Z",
-            "pushed_at": "2018-11-26T15:18:09Z",
+            "pushed_at": "2018-11-26T16:19:10Z",
             "git_url": "git://github.com/conda-forge/r-iml-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-iml-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-iml-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-iml-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-iml-feedstock/statuses/3d290c3259de13c0a7713376f6ed05cdf9099fb5"
+            "href": "https://api.github.com/repos/conda-forge/r-iml-feedstock/statuses/d96a84d86d7678a22abe77392bb2c4a9f0d568d7"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 19,
-    "deletions": 188,
+    "deletions": 189,
     "changed_files": 9,
-    "Last-Modified": "Mon, 26 Nov 2018 15:18:14 GMT",
-    "ETag": "W/\"f0481e4c12da6dfb273819a949119e7d\""
+    "Last-Modified": "Mon, 26 Nov 2018 16:19:16 GMT",
+    "ETag": "W/\"53e77067f950c7076304eff5fd82148c\""
 }
