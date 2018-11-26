@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-21T23:16:57Z",
-    "updated_at": "2018-11-21T23:17:23Z",
+    "updated_at": "2018-11-25T22:14:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fa8fd833e20168e2003f938d0167afba7dfd8b0e",
+    "merge_commit_sha": "16d93dbf8e851afbdc9d0ddff66531606f331b6b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/statuses/8e3416ed832800222ad8a0b60f9edfca2cb51fcc",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/statuses/8509c534b055e7be9f4e9cfb6280b6282a5da105",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8e3416ed832800222ad8a0b60f9edfca2cb51fcc",
+        "sha": "8509c534b055e7be9f4e9cfb6280b6282a5da105",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-rpostgresql-feedstock/deployments",
             "created_at": "2018-08-01T13:25:51Z",
             "updated_at": "2018-08-01T13:25:53Z",
-            "pushed_at": "2018-11-21T23:16:56Z",
+            "pushed_at": "2018-11-25T22:14:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-rpostgresql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-rpostgresql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-rpostgresql-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-rpostgresql-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 24,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/deployments",
             "created_at": "2017-11-15T19:58:38Z",
             "updated_at": "2018-08-04T18:29:12Z",
-            "pushed_at": "2018-11-21T23:16:58Z",
+            "pushed_at": "2018-11-25T22:14:27Z",
             "git_url": "git://github.com/conda-forge/r-rpostgresql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-rpostgresql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-rpostgresql-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/statuses/8e3416ed832800222ad8a0b60f9edfca2cb51fcc"
+            "href": "https://api.github.com/repos/conda-forge/r-rpostgresql-feedstock/statuses/8509c534b055e7be9f4e9cfb6280b6282a5da105"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 235,
-    "deletions": 136,
-    "changed_files": 18
+    "commits": 5,
+    "additions": 295,
+    "deletions": 130,
+    "changed_files": 20,
+    "Last-Modified": "Sun, 25 Nov 2018 22:14:36 GMT",
+    "ETag": "W/\"f7462c9be5d51b82e2f644e4d218234a\""
 }
