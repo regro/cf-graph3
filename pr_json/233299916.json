@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-24T04:15:36Z",
-    "updated_at": "2018-11-24T22:08:56Z",
+    "updated_at": "2018-11-26T14:01:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9c00276df91ba79956d6494bd20c0e61b96b54f7",
+    "merge_commit_sha": "26a78c2cd18e7e69770588a1441ffd56df67be0e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/statuses/f03b6c7aa1e1c3ab9a0a5a1092abd3de09eb482a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/statuses/f679f4dde78b7d977c5f22b9dc85f290d58c7f71",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f03b6c7aa1e1c3ab9a0a5a1092abd3de09eb482a",
+        "sha": "f679f4dde78b7d977c5f22b9dc85f290d58c7f71",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-delaporte-feedstock/deployments",
             "created_at": "2018-06-24T01:15:41Z",
             "updated_at": "2018-06-24T01:15:43Z",
-            "pushed_at": "2018-11-24T22:08:56Z",
+            "pushed_at": "2018-11-26T14:01:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-delaporte-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-delaporte-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-delaporte-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/deployments",
             "created_at": "2017-09-03T19:38:33Z",
             "updated_at": "2018-11-22T07:39:01Z",
-            "pushed_at": "2018-11-24T22:08:57Z",
+            "pushed_at": "2018-11-26T14:01:08Z",
             "git_url": "git://github.com/conda-forge/r-delaporte-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-delaporte-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-delaporte-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/statuses/f03b6c7aa1e1c3ab9a0a5a1092abd3de09eb482a"
+            "href": "https://api.github.com/repos/conda-forge/r-delaporte-feedstock/statuses/f679f4dde78b7d977c5f22b9dc85f290d58c7f71"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 26,
+    "commits": 8,
+    "additions": 28,
     "deletions": 13,
     "changed_files": 5,
-    "Last-Modified": "Sat, 24 Nov 2018 22:08:56 GMT",
-    "ETag": "W/\"29920346447aa654907e6f71c49f9788\""
+    "Last-Modified": "Mon, 26 Nov 2018 14:01:07 GMT",
+    "ETag": "W/\"26db56bf194be00c26fb5a6abdf2f83b\""
 }
