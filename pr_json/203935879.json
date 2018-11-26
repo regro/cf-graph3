@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/python-pdal-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/python-pdal-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving {{pin_compatible('numpy')}} from host to build\nMoving {{pin_compatible('pdal', from host to build\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-25T19:15:06Z",
-    "updated_at": "2018-07-25T19:16:20Z",
-    "closed_at": null,
+    "updated_at": "2018-11-26T03:28:39Z",
+    "closed_at": "2018-11-26T03:28:39Z",
     "merged_at": null,
     "merge_commit_sha": "bd4042faeed082bacf82ba756019d71affdfd0d3",
     "assignee": null,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-pdal-feedstock/deployments",
             "created_at": "2018-05-08T00:06:10Z",
             "updated_at": "2018-11-21T22:50:12Z",
-            "pushed_at": "2018-11-21T22:50:10Z",
+            "pushed_at": "2018-11-26T03:39:13Z",
             "git_url": "git://github.com/conda-forge/python-pdal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-pdal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-pdal-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 6,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 6,
     "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Wed, 25 Jul 2018 19:16:20 GMT",
-    "ETag": "W/\"05ba5670dbfeff630905bc1d0dbfbafa\""
+    "Last-Modified": "Mon, 26 Nov 2018 03:28:39 GMT",
+    "ETag": "W/\"c97698b8757626ce2d256d51cdff8ea7\""
 }
