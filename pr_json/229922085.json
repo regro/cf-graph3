@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nvic\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-11T00:15:30Z",
-    "updated_at": "2018-11-26T23:35:11Z",
+    "updated_at": "2018-11-27T01:52:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "404474b5035d1c164dc295a6b0f85c743d3e603a",
+    "merge_commit_sha": "fc8030b972ef0fe71a9b1a25aa33dcaf68ccc1b5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/119cdc9b8cabea573825a013d08942caceffe170",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/047a1cda574326198b7400f8b27ed58a2d223754",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "119cdc9b8cabea573825a013d08942caceffe170",
+        "sha": "047a1cda574326198b7400f8b27ed58a2d223754",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openmp-feedstock/deployments",
             "created_at": "2018-06-29T07:07:25Z",
             "updated_at": "2018-06-29T07:07:27Z",
-            "pushed_at": "2018-11-26T23:35:10Z",
+            "pushed_at": "2018-11-27T01:52:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openmp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/deployments",
             "created_at": "2017-07-14T23:49:10Z",
             "updated_at": "2018-10-14T17:16:24Z",
-            "pushed_at": "2018-11-26T23:35:12Z",
+            "pushed_at": "2018-11-27T01:52:21Z",
             "git_url": "git://github.com/conda-forge/openmp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openmp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openmp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/119cdc9b8cabea573825a013d08942caceffe170"
+            "href": "https://api.github.com/repos/conda-forge/openmp-feedstock/statuses/047a1cda574326198b7400f8b27ed58a2d223754"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 8,
+    "commits": 9,
     "additions": 99,
     "deletions": 11,
     "changed_files": 9,
-    "Last-Modified": "Mon, 26 Nov 2018 23:35:11 GMT",
-    "ETag": "W/\"9c98b721b7a4d7d21ba66a98d46ce382\""
+    "Last-Modified": "Tue, 27 Nov 2018 01:52:21 GMT",
+    "ETag": "W/\"0f780f43ab762766c90c00727f04ee7a\""
 }
