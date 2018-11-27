@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-stm\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-22T01:15:28Z",
-    "updated_at": "2018-11-26T23:49:37Z",
+    "updated_at": "2018-11-27T04:09:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ef40aa91089a835ab433e97c6c08b57e0a1154ae",
+    "merge_commit_sha": "3e1a9d3d1c3fe99b33f5810ef10c30ce7223f0f2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/statuses/564d608a4ceb299797c7fc4683e6fb146e84cf5a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/statuses/ecfbf475494613a191632eaee95a7f7e505ee908",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "564d608a4ceb299797c7fc4683e6fb146e84cf5a",
+        "sha": "ecfbf475494613a191632eaee95a7f7e505ee908",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-quanteda-feedstock/deployments",
             "created_at": "2018-11-22T01:15:14Z",
             "updated_at": "2018-11-22T01:15:16Z",
-            "pushed_at": "2018-11-22T01:15:27Z",
+            "pushed_at": "2018-11-27T04:09:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-quanteda-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-quanteda-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-quanteda-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/deployments",
             "created_at": "2018-06-30T03:55:50Z",
             "updated_at": "2018-08-04T19:21:48Z",
-            "pushed_at": "2018-11-22T01:15:29Z",
+            "pushed_at": "2018-11-27T04:09:26Z",
             "git_url": "git://github.com/conda-forge/r-quanteda-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-quanteda-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-quanteda-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/statuses/564d608a4ceb299797c7fc4683e6fb146e84cf5a"
+            "href": "https://api.github.com/repos/conda-forge/r-quanteda-feedstock/statuses/ecfbf475494613a191632eaee95a7f7e505ee908"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 173,
-    "deletions": 54,
+    "commits": 3,
+    "additions": 174,
+    "deletions": 55,
     "changed_files": 14,
-    "Last-Modified": "Mon, 26 Nov 2018 23:49:37 GMT",
-    "ETag": "W/\"8ca61b937e2a9a5618c390525743d0d7\""
+    "Last-Modified": "Tue, 27 Nov 2018 04:09:25 GMT",
+    "ETag": "W/\"ab943de361d56e51d3235bc1a6b76b17\""
 }
