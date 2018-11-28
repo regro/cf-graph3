@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/blpapi-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/blpapi-feedstock/deployments",
             "created_at": "2018-10-17T07:43:17Z",
-            "updated_at": "2018-10-31T15:55:19Z",
-            "pushed_at": "2018-10-31T15:55:16Z",
+            "updated_at": "2018-11-28T21:02:32Z",
+            "pushed_at": "2018-11-28T21:34:43Z",
             "git_url": "git://github.com/conda-forge/blpapi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/blpapi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/blpapi-feedstock.git",
             "svn_url": "https://github.com/conda-forge/blpapi-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 19,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 331,
     "deletions": 18,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Wed, 17 Oct 2018 09:31:21 GMT",
+    "ETag": "W/\"6a451882a9023ab1f52d1db3e6ccb5ea\""
 }
