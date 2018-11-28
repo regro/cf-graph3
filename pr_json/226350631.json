@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-28T08:15:52Z",
-    "updated_at": "2018-11-04T22:38:22Z",
+    "updated_at": "2018-11-28T03:14:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9aa58ea6161a6b7dbf1fada764962184a480c3ec",
+    "merge_commit_sha": "c84e54f8c77c27ac48eae54ea678187e90e7fac3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/pulls/35/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/issues/35/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/statuses/48240009c078e527c4b482ba4b82e6fba7481f89",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/statuses/01b8ad0aaf0a2c4ccda3e318cd84d072277bc1cc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "48240009c078e527c4b482ba4b82e6fba7481f89",
+        "sha": "01b8ad0aaf0a2c4ccda3e318cd84d072277bc1cc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mosfit-feedstock/deployments",
             "created_at": "2018-03-02T22:01:24Z",
             "updated_at": "2018-03-02T22:01:26Z",
-            "pushed_at": "2018-10-28T08:15:51Z",
+            "pushed_at": "2018-11-28T03:14:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mosfit-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mosfit-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mosfit-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/mosfit-feedstock",
             "homepage": null,
-            "size": 66,
+            "size": 68,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mosfit-feedstock/deployments",
             "created_at": "2017-04-25T01:18:05Z",
             "updated_at": "2018-08-04T18:57:05Z",
-            "pushed_at": "2018-10-28T08:15:53Z",
+            "pushed_at": "2018-11-28T03:14:34Z",
             "git_url": "git://github.com/conda-forge/mosfit-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mosfit-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mosfit-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mosfit-feedstock/pulls/35/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mosfit-feedstock/statuses/48240009c078e527c4b482ba4b82e6fba7481f89"
+            "href": "https://api.github.com/repos/conda-forge/mosfit-feedstock/statuses/01b8ad0aaf0a2c4ccda3e318cd84d072277bc1cc"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 170,
-    "deletions": 68,
-    "changed_files": 21
+    "commits": 3,
+    "additions": 171,
+    "deletions": 69,
+    "changed_files": 21,
+    "Last-Modified": "Wed, 28 Nov 2018 03:14:33 GMT",
+    "ETag": "W/\"f26b3e163e94fd5285e21c770a474a3a\""
 }
