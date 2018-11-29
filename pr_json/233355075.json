@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T04:14:22Z",
-    "updated_at": "2018-11-25T04:14:25Z",
+    "updated_at": "2018-11-29T12:07:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f7ea4ffd35d51d15705c4080ab70050663cfcc8e",
+    "merge_commit_sha": "28766b88534b2af4f5b989b6ab5b90eadce7209f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/statuses/bf5e41572ea238030798e149455eb71debd803c5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/statuses/4d70ad7296ae12b3173fe6a5220ddcabf481fbf8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bf5e41572ea238030798e149455eb71debd803c5",
+        "sha": "4d70ad7296ae12b3173fe6a5220ddcabf481fbf8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/qt_binder-feedstock/deployments",
             "created_at": "2018-11-25T04:14:08Z",
             "updated_at": "2018-11-25T04:14:10Z",
-            "pushed_at": "2018-11-25T04:14:21Z",
+            "pushed_at": "2018-11-29T12:07:42Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/qt_binder-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/qt_binder-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/qt_binder-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/deployments",
             "created_at": "2016-08-01T17:46:03Z",
             "updated_at": "2018-08-04T17:23:54Z",
-            "pushed_at": "2018-11-25T04:14:22Z",
+            "pushed_at": "2018-11-29T12:07:43Z",
             "git_url": "git://github.com/conda-forge/qt_binder-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/qt_binder-feedstock.git",
             "clone_url": "https://github.com/conda-forge/qt_binder-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/statuses/bf5e41572ea238030798e149455eb71debd803c5"
+            "href": "https://api.github.com/repos/conda-forge/qt_binder-feedstock/statuses/4d70ad7296ae12b3173fe6a5220ddcabf481fbf8"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 471,
-    "deletions": 202,
+    "commits": 4,
+    "additions": 474,
+    "deletions": 205,
     "changed_files": 29,
-    "Last-Modified": "Sun, 25 Nov 2018 04:14:25 GMT",
-    "ETag": "W/\"b6d0dd61c9f48b71197c5da00f67eefe\""
+    "Last-Modified": "Thu, 29 Nov 2018 12:07:47 GMT",
+    "ETag": "W/\"5727351e285e49cefa67f71d8c8eacd3\""
 }
