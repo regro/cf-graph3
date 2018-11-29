@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T10:10:58Z",
-    "updated_at": "2018-10-21T22:54:07Z",
+    "updated_at": "2018-11-29T23:05:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "d490416c9f447771c3539bd46ebae6e2707f7760",
+    "merge_commit_sha": "1f70e3921525c458382a7ade131869875e260ade",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/pulls/22/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/issues/22/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/statuses/949d875d1eba0b49124b96b6206b1e739bd63d03",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/statuses/3318f690476a4af2afcb380d4aa5b22f896a0df8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "949d875d1eba0b49124b96b6206b1e739bd63d03",
+        "sha": "3318f690476a4af2afcb380d4aa5b22f896a0df8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mpir-feedstock/deployments",
             "created_at": "2018-06-26T01:16:01Z",
             "updated_at": "2018-06-26T01:16:03Z",
-            "pushed_at": "2018-09-16T03:26:17Z",
+            "pushed_at": "2018-11-29T23:05:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mpir-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mpir-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mpir-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mpir-feedstock/deployments",
             "created_at": "2016-03-28T16:03:54Z",
             "updated_at": "2018-08-04T17:11:19Z",
-            "pushed_at": "2018-09-16T03:26:19Z",
+            "pushed_at": "2018-11-29T23:05:47Z",
             "git_url": "git://github.com/conda-forge/mpir-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mpir-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mpir-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mpir-feedstock/pulls/22/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mpir-feedstock/statuses/949d875d1eba0b49124b96b6206b1e739bd63d03"
+            "href": "https://api.github.com/repos/conda-forge/mpir-feedstock/statuses/3318f690476a4af2afcb380d4aa5b22f896a0df8"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 163,
+    "commits": 7,
+    "additions": 165,
     "deletions": 61,
     "changed_files": 18,
-    "Last-Modified": "Sun, 21 Oct 2018 22:54:07 GMT",
-    "ETag": "W/\"272197b57240f09f1c63985ed5f84b5d\""
+    "Last-Modified": "Thu, 29 Nov 2018 23:05:46 GMT",
+    "ETag": "W/\"067e4d85d342f906aac36983003fc6ea\""
 }
