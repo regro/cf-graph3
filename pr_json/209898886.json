@@ -32,25 +32,34 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T17:22:47Z",
-    "updated_at": "2018-09-24T03:51:52Z",
+    "updated_at": "2018-11-30T14:18:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c64c115f8aa96552a782155bfd1093de8cf7f6a3",
+    "merge_commit_sha": "2bce0e3f9c6f32ec5db9e46dd6ade34f7d9b3828",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1145799405,
+            "node_id": "MDU6TGFiZWwxMTQ1Nzk5NDA1",
+            "url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "3baa0b",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/pulls/7/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/statuses/df6cf14d15d829457b33b61b8e4636361634f746",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/statuses/c54b91edbc3fb0b0211d12cbec2fd79800f55734",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "df6cf14d15d829457b33b61b8e4636361634f746",
+        "sha": "c54b91edbc3fb0b0211d12cbec2fd79800f55734",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +148,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lp_solve-feedstock/deployments",
             "created_at": "2018-06-29T23:40:48Z",
             "updated_at": "2018-06-29T23:40:50Z",
-            "pushed_at": "2018-08-21T17:22:46Z",
+            "pushed_at": "2018-11-30T13:33:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lp_solve-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lp_solve-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lp_solve-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lp_solve-feedstock",
             "homepage": null,
-            "size": 44,
+            "size": 46,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/deployments",
             "created_at": "2017-01-06T10:11:09Z",
             "updated_at": "2018-08-04T17:44:30Z",
-            "pushed_at": "2018-08-21T17:22:47Z",
+            "pushed_at": "2018-11-30T13:33:55Z",
             "git_url": "git://github.com/conda-forge/lp_solve-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lp_solve-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lp_solve-feedstock.git",
@@ -318,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/statuses/df6cf14d15d829457b33b61b8e4636361634f746"
+            "href": "https://api.github.com/repos/conda-forge/lp_solve-feedstock/statuses/c54b91edbc3fb0b0211d12cbec2fd79800f55734"
         }
     },
     "author_association": "NONE",
@@ -329,11 +338,11 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 153,
-    "deletions": 51,
-    "changed_files": 18
+    "commits": 4,
+    "additions": 200,
+    "deletions": 116,
+    "changed_files": 23
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-24T12:15:49Z",
-    "updated_at": "2018-11-30T13:43:47Z",
+    "updated_at": "2018-11-30T15:06:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "95279cbab49642411c8d75b7f56cac5711ff7496",
+    "merge_commit_sha": "c67f4b20b9693feb10c021b7ea5d5bad4e262a09",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/statuses/71debe71a5e7866fefe4bd2347fd67b0d313233d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/statuses/f8e2b84aaaf9ff342879a44a98a4d80ea0e40ec4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "71debe71a5e7866fefe4bd2347fd67b0d313233d",
+        "sha": "f8e2b84aaaf9ff342879a44a98a4d80ea0e40ec4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-clues-feedstock/deployments",
             "created_at": "2018-08-01T04:19:38Z",
             "updated_at": "2018-08-01T04:19:40Z",
-            "pushed_at": "2018-11-30T13:41:13Z",
+            "pushed_at": "2018-11-30T15:06:24Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-clues-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-clues-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-clues-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-clues-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 29,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-clues-feedstock/deployments",
             "created_at": "2018-01-31T22:36:42Z",
             "updated_at": "2018-08-04T19:22:13Z",
-            "pushed_at": "2018-11-30T13:41:14Z",
+            "pushed_at": "2018-11-30T15:06:24Z",
             "git_url": "git://github.com/conda-forge/r-clues-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-clues-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-clues-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-clues-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-clues-feedstock/statuses/71debe71a5e7866fefe4bd2347fd67b0d313233d"
+            "href": "https://api.github.com/repos/conda-forge/r-clues-feedstock/statuses/f8e2b84aaaf9ff342879a44a98a4d80ea0e40ec4"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 313,
+    "commits": 6,
+    "additions": 314,
     "deletions": 142,
     "changed_files": 22,
-    "Last-Modified": "Fri, 30 Nov 2018 13:43:47 GMT",
-    "ETag": "W/\"6c8d48be9918c8e2cea18dcf36f18f2f\""
+    "Last-Modified": "Fri, 30 Nov 2018 15:06:24 GMT",
+    "ETag": "W/\"ef10058dc7a9bfdbc9b6d1fde28fd30e\""
 }
