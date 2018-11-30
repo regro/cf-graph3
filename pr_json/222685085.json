@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T00:36:43Z",
-    "updated_at": "2018-11-26T17:33:57Z",
+    "updated_at": "2018-11-30T21:03:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "503c295d741a9e8a8e7333430fef7f3d4c0ff21d",
+    "merge_commit_sha": "67f0842c1748fa4733fa32c290af33d862fe7723",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/pulls/29/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/issues/29/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/statuses/ddf48175b55b43edde56f3b9c37ff45f9a12fa25",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/statuses/da0a9f0d26eec64022645fac53c6e2f7fffa8c1b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ddf48175b55b43edde56f3b9c37ff45f9a12fa25",
+        "sha": "da0a9f0d26eec64022645fac53c6e2f7fffa8c1b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-spams-feedstock/deployments",
             "created_at": "2018-07-07T13:33:24Z",
             "updated_at": "2018-07-07T13:33:26Z",
-            "pushed_at": "2018-11-21T04:18:44Z",
+            "pushed_at": "2018-11-30T21:03:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-spams-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-spams-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-spams-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-spams-feedstock/deployments",
             "created_at": "2016-05-22T02:51:33Z",
             "updated_at": "2018-11-06T11:03:29Z",
-            "pushed_at": "2018-11-21T04:18:45Z",
+            "pushed_at": "2018-11-30T21:03:37Z",
             "git_url": "git://github.com/conda-forge/python-spams-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-spams-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-spams-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-spams-feedstock/pulls/29/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-spams-feedstock/statuses/ddf48175b55b43edde56f3b9c37ff45f9a12fa25"
+            "href": "https://api.github.com/repos/conda-forge/python-spams-feedstock/statuses/da0a9f0d26eec64022645fac53c6e2f7fffa8c1b"
         }
     },
     "author_association": "NONE",
@@ -369,11 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 221,
-    "deletions": 47,
-    "changed_files": 13
+    "commits": 6,
+    "additions": 227,
+    "deletions": 45,
+    "changed_files": 13,
+    "Last-Modified": "Fri, 30 Nov 2018 21:03:42 GMT",
+    "ETag": "W/\"667eb2515d13d5cf30cd451895166ac3\""
 }
