@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsagelib\nsage\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-29T21:17:47Z",
-    "updated_at": "2018-11-29T21:17:50Z",
+    "updated_at": "2018-11-30T00:31:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "422aa5964d8702d6b2b5301da7ad36e3d10b840f",
+    "merge_commit_sha": "15ba0691938a75688ece51cd3791bdb375d3b2d9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/brial-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/brial-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/brial-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/brial-feedstock/statuses/077c08585bd9e000da18d099b5d59e6f352e0379",
+    "statuses_url": "https://api.github.com/repos/conda-forge/brial-feedstock/statuses/9b99fd97a347f405d39b92aee76cf42ccdc9bf38",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "077c08585bd9e000da18d099b5d59e6f352e0379",
+        "sha": "9b99fd97a347f405d39b92aee76cf42ccdc9bf38",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/brial-feedstock/deployments",
             "created_at": "2018-03-01T03:12:58Z",
             "updated_at": "2018-03-01T03:13:00Z",
-            "pushed_at": "2018-11-29T21:17:47Z",
+            "pushed_at": "2018-11-30T00:31:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/brial-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/brial-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/brial-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/brial-feedstock/deployments",
             "created_at": "2017-02-09T10:02:50Z",
             "updated_at": "2018-08-04T18:34:08Z",
-            "pushed_at": "2018-11-29T21:17:48Z",
+            "pushed_at": "2018-11-30T00:31:11Z",
             "git_url": "git://github.com/conda-forge/brial-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/brial-feedstock.git",
             "clone_url": "https://github.com/conda-forge/brial-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/brial-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/brial-feedstock/statuses/077c08585bd9e000da18d099b5d59e6f352e0379"
+            "href": "https://api.github.com/repos/conda-forge/brial-feedstock/statuses/9b99fd97a347f405d39b92aee76cf42ccdc9bf38"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 224,
-    "deletions": 81,
+    "commits": 3,
+    "additions": 225,
+    "deletions": 82,
     "changed_files": 15,
-    "Last-Modified": "Thu, 29 Nov 2018 21:17:50 GMT",
-    "ETag": "W/\"3e69a8a59b45ea8104cae17a92ad5e19\""
+    "Last-Modified": "Fri, 30 Nov 2018 00:31:10 GMT",
+    "ETag": "W/\"e9bcf38913332e0e326dd4589316f801\""
 }
