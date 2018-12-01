@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-19T00:15:19Z",
-    "updated_at": "2018-12-01T00:59:53Z",
+    "updated_at": "2018-12-01T06:43:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1cfa5544b8a055e0151a7a85140559e4cf75bb65",
+    "merge_commit_sha": "a3ffd601b248db447ccababa89d22f42516fd596",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/statuses/a01d5049eff9d9130b52b1861140d30cdc4d24f7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/statuses/c26fd08c82c82e09e7886bcb067ea7a6502d8285",
     "head": {
         "label": "regro-cf-autotick-bot:2.5.1",
         "ref": "2.5.1",
-        "sha": "a01d5049eff9d9130b52b1861140d30cdc4d24f7",
+        "sha": "c26fd08c82c82e09e7886bcb067ea7a6502d8285",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/postgis-feedstock/deployments",
             "created_at": "2018-05-11T23:06:56Z",
             "updated_at": "2018-05-11T23:06:58Z",
-            "pushed_at": "2018-12-01T00:59:53Z",
+            "pushed_at": "2018-12-01T06:43:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/postgis-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/postgis-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/postgis-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/postgis-feedstock/deployments",
             "created_at": "2018-02-11T07:45:53Z",
             "updated_at": "2018-11-19T06:16:48Z",
-            "pushed_at": "2018-12-01T00:59:55Z",
+            "pushed_at": "2018-12-01T06:43:17Z",
             "git_url": "git://github.com/conda-forge/postgis-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/postgis-feedstock.git",
             "clone_url": "https://github.com/conda-forge/postgis-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/postgis-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/postgis-feedstock/statuses/a01d5049eff9d9130b52b1861140d30cdc4d24f7"
+            "href": "https://api.github.com/repos/conda-forge/postgis-feedstock/statuses/c26fd08c82c82e09e7886bcb067ea7a6502d8285"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 23,
-    "deletions": 18,
-    "changed_files": 6,
-    "Last-Modified": "Sat, 01 Dec 2018 00:59:53 GMT",
-    "ETag": "W/\"0da3c8f1ae93ff6698ece39fc2bcf1b8\""
+    "commits": 9,
+    "additions": 37,
+    "deletions": 32,
+    "changed_files": 9,
+    "Last-Modified": "Sat, 01 Dec 2018 06:43:16 GMT",
+    "ETag": "W/\"eaf2886da3e1042cd5ae265954538a8d\""
 }
