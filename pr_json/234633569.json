@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nmagics\niris-grib\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-29T13:16:32Z",
-    "updated_at": "2018-11-29T13:16:36Z",
+    "updated_at": "2018-12-03T07:08:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3877bbae4dbd2d1b69e0ef2f7de26eea16d48b5b",
+    "merge_commit_sha": "435a0388d00c6c94773cc0bc64ae4036cda60be7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/pulls/40/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/issues/40/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/statuses/b5efe13c09b88281f9669db50781069ed16da04a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/statuses/32238b9731289c1ba8516909e3f0b0bfb1223cbc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b5efe13c09b88281f9669db50781069ed16da04a",
+        "sha": "32238b9731289c1ba8516909e3f0b0bfb1223cbc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-eccodes-feedstock/deployments",
             "created_at": "2018-06-28T02:28:34Z",
             "updated_at": "2018-06-28T02:28:37Z",
-            "pushed_at": "2018-11-29T13:16:32Z",
+            "pushed_at": "2018-12-03T06:57:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-eccodes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-eccodes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-eccodes-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/deployments",
             "created_at": "2016-06-13T13:03:13Z",
             "updated_at": "2018-09-27T17:00:44Z",
-            "pushed_at": "2018-11-29T13:16:33Z",
+            "pushed_at": "2018-12-03T06:57:14Z",
             "git_url": "git://github.com/conda-forge/python-eccodes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-eccodes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-eccodes-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/pulls/40/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/statuses/b5efe13c09b88281f9669db50781069ed16da04a"
+            "href": "https://api.github.com/repos/conda-forge/python-eccodes-feedstock/statuses/32238b9731289c1ba8516909e3f0b0bfb1223cbc"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 162,
-    "deletions": 20,
-    "changed_files": 8,
-    "Last-Modified": "Thu, 29 Nov 2018 13:16:36 GMT",
-    "ETag": "W/\"d7c0c85137a29b29bf75bb07b34d35c0\""
+    "commits": 3,
+    "additions": 166,
+    "deletions": 23,
+    "changed_files": 9,
+    "Last-Modified": "Mon, 03 Dec 2018 07:08:51 GMT",
+    "ETag": "W/\"a3f864dbb256be3de517f1e9f68921c2\""
 }
