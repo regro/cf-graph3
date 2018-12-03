@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-01T00:13:57Z",
-    "updated_at": "2018-12-02T18:29:51Z",
+    "updated_at": "2018-12-03T21:06:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "63b7ae8eef7b17918c83764e822eafa8b47692f0",
+    "merge_commit_sha": "102d1ee0c89fc55da66447817852662af07bd920",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/pulls/110/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/issues/110/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/statuses/000bb3558dabd759e6090a6b6233715ffd55a2c8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/statuses/91d312846d38566f79a609ead64457e8cd857a6f",
     "head": {
         "label": "regro-cf-autotick-bot:1.8.3",
         "ref": "1.8.3",
-        "sha": "000bb3558dabd759e6090a6b6233715ffd55a2c8",
+        "sha": "91d312846d38566f79a609ead64457e8cd857a6f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fiona-feedstock/deployments",
             "created_at": "2018-03-01T14:05:16Z",
             "updated_at": "2018-03-01T14:05:19Z",
-            "pushed_at": "2018-12-02T18:29:51Z",
+            "pushed_at": "2018-12-03T21:06:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fiona-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fiona-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fiona-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fiona-feedstock/deployments",
             "created_at": "2016-03-19T13:54:41Z",
             "updated_at": "2018-11-30T17:04:19Z",
-            "pushed_at": "2018-12-02T18:29:52Z",
+            "pushed_at": "2018-12-03T21:06:15Z",
             "git_url": "git://github.com/conda-forge/fiona-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fiona-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fiona-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fiona-feedstock/pulls/110/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fiona-feedstock/statuses/000bb3558dabd759e6090a6b6233715ffd55a2c8"
+            "href": "https://api.github.com/repos/conda-forge/fiona-feedstock/statuses/91d312846d38566f79a609ead64457e8cd857a6f"
         }
     },
     "author_association": "NONE",
@@ -336,6 +336,6 @@
     "additions": 3,
     "deletions": 4,
     "changed_files": 2,
-    "Last-Modified": "Sun, 02 Dec 2018 18:29:51 GMT",
-    "ETag": "W/\"34d341cc70711fd5cfa7988f51b313c0\""
+    "Last-Modified": "Mon, 03 Dec 2018 21:06:15 GMT",
+    "ETag": "W/\"7987d6cbc3b21a448d1d51a182c8cec7\""
 }
