@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving cmake from host to build\nRemoving toolchain in favour of compiler()\nMoving `python # [win]` which was used for vc matrix\nRemoving pinnings for libgdal to use values from conda_build_config.yaml\nRemoving pinnings for cairo to use values from conda_build_config.yaml\nRemoving vc in favour of compiler()\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-06-30T04:26:15Z",
-    "updated_at": "2018-08-30T01:26:38Z",
+    "updated_at": "2018-12-04T14:06:44Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "960f1c6c9aaadb4435a88e94fbaa3d8c1466b950",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/statuses/8499cc0bd74d789e80038651ab930cde2510dec0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/statuses/680e09f2fb743b23a6b3ba2b01fac9c3d351997b",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "8499cc0bd74d789e80038651ab930cde2510dec0",
+        "sha": "680e09f2fb743b23a6b3ba2b01fac9c3d351997b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hexer-feedstock/deployments",
             "created_at": "2018-06-30T04:25:35Z",
             "updated_at": "2018-06-30T04:25:37Z",
-            "pushed_at": "2018-06-30T04:26:15Z",
+            "pushed_at": "2018-12-04T14:06:39Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hexer-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hexer-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hexer-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hexer-feedstock/deployments",
             "created_at": "2018-03-20T13:41:24Z",
             "updated_at": "2018-08-04T18:47:02Z",
-            "pushed_at": "2018-08-04T18:47:01Z",
+            "pushed_at": "2018-12-04T14:06:41Z",
             "git_url": "git://github.com/conda-forge/hexer-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hexer-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hexer-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hexer-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hexer-feedstock/statuses/8499cc0bd74d789e80038651ab930cde2510dec0"
+            "href": "https://api.github.com/repos/conda-forge/hexer-feedstock/statuses/680e09f2fb743b23a6b3ba2b01fac9c3d351997b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 5,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 223,
-    "deletions": 107,
+    "commits": 3,
+    "additions": 262,
+    "deletions": 118,
     "changed_files": 19,
-    "Last-Modified": "Thu, 30 Aug 2018 01:26:38 GMT",
-    "ETag": "W/\"0c78e9b416a9b2ca1df634515484fa6a\""
+    "Last-Modified": "Tue, 04 Dec 2018 14:06:44 GMT",
+    "ETag": "W/\"b2cceb7cfd7ae1ceaf84643e708a89bb\""
 }
