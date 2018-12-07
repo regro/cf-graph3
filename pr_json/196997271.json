@@ -32,7 +32,7 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nRemoving gcc in favour of compiler()\nMoving perl from host to build\nRemoving pinnings for openblas to use values from conda_build_config.yaml\nRemoving pinnings for readline to use values from conda_build_config.yaml\nRemoving pinnings for arpack to use values from conda_build_config.yaml\nRemoving pinnings for curl to use values from conda_build_config.yaml\nRemoving pinnings for fontconfig to use values from conda_build_config.yaml\nRemoving pinnings for freetype to use values from conda_build_config.yaml\nRemoving pinnings for glpk to use values from conda_build_config.yaml\nRemoving pinnings for hdf5 to use values from conda_build_config.yaml\nRemoving pinnings for zlib to use values from conda_build_config.yaml\nRemoving pinnings for bzip2 to use values from conda_build_config.yaml\nRemoving pinnings for icu to use values from conda_build_config.yaml\nRemoving pinnings for ncurses to use values from conda_build_config.yaml\nRemoving pinnings for xz to use values from conda_build_config.yaml\nRemoving pinnings for libxml2 to use values from conda_build_config.yaml\nRemoving pinnings for libpng to use values from conda_build_config.yaml\nRemoving pinnings for glib to use values from conda_build_config.yaml\nRemoving pinnings for qt to use values from conda_build_config.yaml\nRemoving pinnings for openssl to use values from conda_build_config.yaml\nRemoving libgfortran in favour of compiler()\nAdding Fortran compiler\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-25T04:09:56Z",
-    "updated_at": "2018-12-07T04:46:51Z",
+    "updated_at": "2018-12-07T05:24:09Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3f2e53f5ad0d3da2a881d33ab81ea1d2dc345c9e",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 6,
     "additions": 245,
     "deletions": 68,
     "changed_files": 9,
-    "Last-Modified": "Fri, 07 Dec 2018 04:46:51 GMT",
-    "ETag": "W/\"4f5246b322a6030f5e702da8c32f4247\""
+    "Last-Modified": "Fri, 07 Dec 2018 05:24:09 GMT",
+    "ETag": "W/\"ca10bf6705ffa305d26d2ef848b30f3f\""
 }
