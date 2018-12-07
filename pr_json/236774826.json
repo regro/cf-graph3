@@ -35,7 +35,7 @@
     "updated_at": "2018-12-07T07:14:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "9468602d4fabbf40f910a2abc21d60d2d426a025",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/jaws-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/jaws-feedstock/deployments",
             "created_at": "2018-04-18T15:49:29Z",
-            "updated_at": "2018-12-06T20:39:58Z",
-            "pushed_at": "2018-12-07T06:34:18Z",
+            "updated_at": "2018-12-07T07:54:37Z",
+            "pushed_at": "2018-12-07T07:54:34Z",
             "git_url": "git://github.com/conda-forge/jaws-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/jaws-feedstock.git",
             "clone_url": "https://github.com/conda-forge/jaws-feedstock.git",
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 07 Dec 2018 07:14:03 GMT",
+    "ETag": "W/\"dfb56b4bb9b7b47c8bbc1dfeaad50d36\""
 }
