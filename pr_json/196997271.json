@@ -32,10 +32,10 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nRemoving gcc in favour of compiler()\nMoving perl from host to build\nRemoving pinnings for openblas to use values from conda_build_config.yaml\nRemoving pinnings for readline to use values from conda_build_config.yaml\nRemoving pinnings for arpack to use values from conda_build_config.yaml\nRemoving pinnings for curl to use values from conda_build_config.yaml\nRemoving pinnings for fontconfig to use values from conda_build_config.yaml\nRemoving pinnings for freetype to use values from conda_build_config.yaml\nRemoving pinnings for glpk to use values from conda_build_config.yaml\nRemoving pinnings for hdf5 to use values from conda_build_config.yaml\nRemoving pinnings for zlib to use values from conda_build_config.yaml\nRemoving pinnings for bzip2 to use values from conda_build_config.yaml\nRemoving pinnings for icu to use values from conda_build_config.yaml\nRemoving pinnings for ncurses to use values from conda_build_config.yaml\nRemoving pinnings for xz to use values from conda_build_config.yaml\nRemoving pinnings for libxml2 to use values from conda_build_config.yaml\nRemoving pinnings for libpng to use values from conda_build_config.yaml\nRemoving pinnings for glib to use values from conda_build_config.yaml\nRemoving pinnings for qt to use values from conda_build_config.yaml\nRemoving pinnings for openssl to use values from conda_build_config.yaml\nRemoving libgfortran in favour of compiler()\nAdding Fortran compiler\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-25T04:09:56Z",
-    "updated_at": "2018-07-29T04:31:54Z",
+    "updated_at": "2018-12-07T04:46:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5b837276c5c1f3820e2672de3a85cf160a403e18",
+    "merge_commit_sha": "3f2e53f5ad0d3da2a881d33ab81ea1d2dc345c9e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/db3b2351fe6c0fd67b22a3ce9533cb53c7f3a3a3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/a618f3d78c501a6873411c0c95479b8b38e9ba2b",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "db3b2351fe6c0fd67b22a3ce9533cb53c7f3a3a3",
+        "sha": "a618f3d78c501a6873411c0c95479b8b38e9ba2b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/octave-feedstock/deployments",
             "created_at": "2018-03-17T03:55:50Z",
             "updated_at": "2018-03-17T03:55:52Z",
-            "pushed_at": "2018-07-29T04:31:54Z",
+            "pushed_at": "2018-12-07T04:17:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/octave-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/octave-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/octave-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/deployments",
             "created_at": "2017-06-08T17:31:16Z",
             "updated_at": "2018-08-04T18:38:24Z",
-            "pushed_at": "2018-08-04T18:38:23Z",
+            "pushed_at": "2018-12-07T04:17:23Z",
             "git_url": "git://github.com/conda-forge/octave-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/octave-feedstock.git",
             "clone_url": "https://github.com/conda-forge/octave-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/db3b2351fe6c0fd67b22a3ce9533cb53c7f3a3a3"
+            "href": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/a618f3d78c501a6873411c0c95479b8b38e9ba2b"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 197,
-    "deletions": 40,
-    "changed_files": 3
+    "commits": 6,
+    "additions": 245,
+    "deletions": 68,
+    "changed_files": 9,
+    "Last-Modified": "Fri, 07 Dec 2018 04:46:51 GMT",
+    "ETag": "W/\"4f5246b322a6030f5e702da8c32f4247\""
 }

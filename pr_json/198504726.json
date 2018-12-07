@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving gcc in favour of compiler()\nMoving {{pin_compatible('openblas', from host to build\nMoving {{pin_compatible('hdf5', from host to build\nRemoving libgfortran in favour of compiler()\nRemoving libgcc in favour of compiler()\nAdding Fortran compiler\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-01T03:06:44Z",
-    "updated_at": "2018-07-01T03:06:48Z",
+    "updated_at": "2018-12-07T04:46:38Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "e5f96fb80d65f02aed41bbb5feb1289615e94724",
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1153334726,
+            "node_id": "MDU6TGFiZWwxMTUzMzM0NzI2",
+            "url": "https://api.github.com/repos/conda-forge/mpb-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "cc2e78",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/mpb-feedstock/pulls/4/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/mpb-feedstock/pulls/4/comments",
@@ -329,13 +338,11 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 14,
     "deletions": 6,
-    "changed_files": 3,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"1808f0946f69a8840ca14b6a58e7bbc2\""
+    "changed_files": 3
 }
