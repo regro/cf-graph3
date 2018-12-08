@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-22T13:16:32Z",
-    "updated_at": "2018-11-30T16:43:01Z",
+    "updated_at": "2018-12-08T14:59:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9e297a5ad1ebea46d040673108aa9fbac857c15c",
+    "merge_commit_sha": "c361b2d415b8c5896af70124cf280070eadfd596",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/statuses/29f77a7ada9430b02c66db26f2ce87d38f5ff42f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/statuses/a40ee90ad29fd5ad05dc358622a8ba17e6687af3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "29f77a7ada9430b02c66db26f2ce87d38f5ff42f",
+        "sha": "a40ee90ad29fd5ad05dc358622a8ba17e6687af3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-phylogeneticem-feedstock/deployments",
             "created_at": "2018-08-03T00:19:32Z",
             "updated_at": "2018-08-03T00:19:34Z",
-            "pushed_at": "2018-11-30T13:43:43Z",
+            "pushed_at": "2018-12-08T14:59:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-phylogeneticem-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-phylogeneticem-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-phylogeneticem-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/deployments",
             "created_at": "2018-04-25T22:11:41Z",
             "updated_at": "2018-08-04T19:40:56Z",
-            "pushed_at": "2018-11-30T13:43:44Z",
+            "pushed_at": "2018-12-08T14:59:58Z",
             "git_url": "git://github.com/conda-forge/r-phylogeneticem-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-phylogeneticem-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-phylogeneticem-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/statuses/29f77a7ada9430b02c66db26f2ce87d38f5ff42f"
+            "href": "https://api.github.com/repos/conda-forge/r-phylogeneticem-feedstock/statuses/a40ee90ad29fd5ad05dc358622a8ba17e6687af3"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 225,
-    "deletions": 76,
+    "commits": 5,
+    "additions": 222,
+    "deletions": 77,
     "changed_files": 18,
-    "Last-Modified": "Fri, 30 Nov 2018 16:43:01 GMT",
-    "ETag": "W/\"124673f832d3b20fc19bc4d77707bc9b\""
+    "Last-Modified": "Sat, 08 Dec 2018 14:59:57 GMT",
+    "ETag": "W/\"20abf7e79272ab6d5422c06ed76d0d8c\""
 }
