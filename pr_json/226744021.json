@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-29T23:16:12Z",
-    "updated_at": "2018-12-10T05:44:04Z",
+    "updated_at": "2018-12-10T17:54:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "82ee767ee1ea6eb2897407aa45a4747b616e5168",
+    "merge_commit_sha": "1476f420f9d8ad9e8aa3f0a6f7d5e11ffd3e1f63",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/statuses/8c75a1c7f8df8ecda5c9ac1922c65c84d17ed965",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/statuses/471e3b4373046022e5c3b664c21e9bdd9c7fa0e7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8c75a1c7f8df8ecda5c9ac1922c65c84d17ed965",
+        "sha": "471e3b4373046022e5c3b664c21e9bdd9c7fa0e7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lightgbm-feedstock/deployments",
             "created_at": "2018-05-01T04:09:41Z",
             "updated_at": "2018-05-01T04:09:42Z",
-            "pushed_at": "2018-11-06T18:15:43Z",
+            "pushed_at": "2018-12-10T14:39:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lightgbm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lightgbm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lightgbm-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lightgbm-feedstock",
             "homepage": null,
-            "size": 43,
+            "size": 45,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/deployments",
             "created_at": "2017-07-20T21:12:48Z",
             "updated_at": "2018-10-05T17:31:49Z",
-            "pushed_at": "2018-11-06T18:15:45Z",
+            "pushed_at": "2018-12-10T14:39:54Z",
             "git_url": "git://github.com/conda-forge/lightgbm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lightgbm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lightgbm-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/statuses/8c75a1c7f8df8ecda5c9ac1922c65c84d17ed965"
+            "href": "https://api.github.com/repos/conda-forge/lightgbm-feedstock/statuses/471e3b4373046022e5c3b664c21e9bdd9c7fa0e7"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 363,
+    "commits": 3,
+    "additions": 371,
     "deletions": 19,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Mon, 10 Dec 2018 17:54:36 GMT",
+    "ETag": "W/\"dbf72744b687c6cbb81c781a172df886\""
 }
