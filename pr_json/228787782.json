@@ -32,13 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T18:15:44Z",
-    "updated_at": "2018-11-06T18:15:48Z",
+    "updated_at": "2018-12-10T05:42:49Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "0ab84f44f789d3ca6818e66e630788fcc1a57df1",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "synapticarbors",
+            "id": 589279,
+            "node_id": "MDQ6VXNlcjU4OTI3OQ==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/589279?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/synapticarbors",
+            "html_url": "https://github.com/synapticarbors",
+            "followers_url": "https://api.github.com/users/synapticarbors/followers",
+            "following_url": "https://api.github.com/users/synapticarbors/following{/other_user}",
+            "gists_url": "https://api.github.com/users/synapticarbors/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/synapticarbors/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/synapticarbors/subscriptions",
+            "organizations_url": "https://api.github.com/users/synapticarbors/orgs",
+            "repos_url": "https://api.github.com/users/synapticarbors/repos",
+            "events_url": "https://api.github.com/users/synapticarbors/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/synapticarbors/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -336,6 +357,6 @@
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Tue, 06 Nov 2018 18:15:48 GMT",
-    "ETag": "W/\"db6712e2f57c98f16c6a821203c4b160\""
+    "Last-Modified": "Mon, 10 Dec 2018 05:42:49 GMT",
+    "ETag": "W/\"ecd21dcc5294b01364cab82475bcc946\""
 }
