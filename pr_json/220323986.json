@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T10:23:14Z",
-    "updated_at": "2018-10-04T10:23:18Z",
+    "updated_at": "2018-12-10T04:21:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fc450fc4be381de54f6899ab25d68a3f9fe6d779",
+    "merge_commit_sha": "4e6bb9f3eba4e2888c1024a6220ec3d90b2101b0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/statuses/776ec951e8356f35aad5dd0f33d3106d8124ae0d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/statuses/94c42dd09b25e691728867781a7a46440e6e090f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "776ec951e8356f35aad5dd0f33d3106d8124ae0d",
+        "sha": "94c42dd09b25e691728867781a7a46440e6e090f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/rake_nltk-feedstock/deployments",
             "created_at": "2018-06-10T11:14:00Z",
             "updated_at": "2018-06-10T11:14:02Z",
-            "pushed_at": "2018-10-04T10:23:14Z",
+            "pushed_at": "2018-12-10T04:21:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/rake_nltk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/rake_nltk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/rake_nltk-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/deployments",
             "created_at": "2018-05-07T09:18:31Z",
             "updated_at": "2018-08-04T19:09:17Z",
-            "pushed_at": "2018-10-04T10:23:15Z",
+            "pushed_at": "2018-12-10T04:21:50Z",
             "git_url": "git://github.com/conda-forge/rake_nltk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/rake_nltk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/rake_nltk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/statuses/776ec951e8356f35aad5dd0f33d3106d8124ae0d"
+            "href": "https://api.github.com/repos/conda-forge/rake_nltk-feedstock/statuses/94c42dd09b25e691728867781a7a46440e6e090f"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 200,
     "deletions": 102,
     "changed_files": 17,
-    "Last-Modified": "Thu, 04 Oct 2018 10:23:18 GMT",
-    "ETag": "W/\"6fd9d905b0ebb888e73a2e099cc447f4\""
+    "Last-Modified": "Mon, 10 Dec 2018 04:21:50 GMT",
+    "ETag": "W/\"0128cd0c283dba6c9fdd37b893cb2123\""
 }
