@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T14:29:34Z",
-    "updated_at": "2018-11-28T00:12:46Z",
+    "updated_at": "2018-12-10T10:09:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3ea1fe3535c9c8c584f5866e584784460e240214",
+    "merge_commit_sha": "c9c04afe277a0587c0ad6f7742562a075d0228e4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/statuses/5e5e705543fd2c475e19da4c4736b3f37c6dd07c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/statuses/0525704c3b275f2ba2e747adefd185373ffc9bc6",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.1",
         "ref": "1.2.1",
-        "sha": "5e5e705543fd2c475e19da4c4736b3f37c6dd07c",
+        "sha": "0525704c3b275f2ba2e747adefd185373ffc9bc6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/spdlog-feedstock/deployments",
             "created_at": "2018-03-05T21:51:51Z",
             "updated_at": "2018-03-05T21:51:53Z",
-            "pushed_at": "2018-10-17T14:29:34Z",
+            "pushed_at": "2018-12-10T10:09:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/spdlog-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/spdlog-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/spdlog-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/spdlog-feedstock/deployments",
             "created_at": "2017-01-27T12:50:17Z",
             "updated_at": "2018-09-12T18:46:09Z",
-            "pushed_at": "2018-10-17T14:29:35Z",
+            "pushed_at": "2018-12-10T10:09:02Z",
             "git_url": "git://github.com/conda-forge/spdlog-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/spdlog-feedstock.git",
             "clone_url": "https://github.com/conda-forge/spdlog-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/spdlog-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/spdlog-feedstock/statuses/5e5e705543fd2c475e19da4c4736b3f37c6dd07c"
+            "href": "https://api.github.com/repos/conda-forge/spdlog-feedstock/statuses/0525704c3b275f2ba2e747adefd185373ffc9bc6"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 4,
-    "deletions": 4,
-    "changed_files": 2,
-    "Last-Modified": "Wed, 28 Nov 2018 00:12:46 GMT",
-    "ETag": "W/\"ab1296734b168e80701a6f45b428eef4\""
+    "commits": 4,
+    "additions": 14,
+    "deletions": 14,
+    "changed_files": 5,
+    "Last-Modified": "Mon, 10 Dec 2018 10:09:01 GMT",
+    "ETag": "W/\"7c82e35ef67e7227f7fabe52471f84dc\""
 }
