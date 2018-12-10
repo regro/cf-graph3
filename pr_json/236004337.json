@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/protobuf-feedstock/pull/59.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/protobuf-feedstock/issues/59",
     "number": 59,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "protobuf v3.6.1.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|libprotobuf|3.6.1.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/libprotobuf.svg)](https://anaconda.org/conda-forge/libprotobuf)|\n",
     "created_at": "2018-12-05T00:14:39Z",
-    "updated_at": "2018-12-05T00:14:43Z",
-    "closed_at": null,
+    "updated_at": "2018-12-10T08:28:58Z",
+    "closed_at": "2018-12-10T08:28:57Z",
     "merged_at": null,
     "merge_commit_sha": "a62523889d3a7ce514c51e3139bf34bfe2fbc063",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 19,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 19,
-            "open_issues": 6,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -326,16 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\nlibprotobuf\n3.6.1.2",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 3,
     "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Wed, 05 Dec 2018 00:14:43 GMT",
-    "ETag": "W/\"2845d50896822b0d67efd7874d7419c0\""
+    "Last-Modified": "Mon, 10 Dec 2018 08:28:58 GMT",
+    "ETag": "W/\"13a73622b62708fe92419756e9898955\""
 }
