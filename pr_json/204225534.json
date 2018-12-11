@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nPinning numpy using pin_compatible. If you need to pin numpy to a specific version see [here](https://conda-forge.org/docs/meta.html#building-against-numpy).\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T18:17:26Z",
-    "updated_at": "2018-10-30T04:34:52Z",
+    "updated_at": "2018-12-11T15:39:35Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "6e92d84eda122c1e068a61593c97a31ea04c8c53",
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 356,
     "deletions": 184,
-    "changed_files": 22
+    "changed_files": 22,
+    "Last-Modified": "Tue, 11 Dec 2018 15:39:35 GMT",
+    "ETag": "W/\"60254599ec322320203f5f6a1d6c795a\""
 }
