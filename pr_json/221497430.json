@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T16:02:19Z",
-    "updated_at": "2018-10-21T21:57:27Z",
+    "updated_at": "2018-12-11T00:36:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5de3a4ca616ec464e08a1115751ac4da87f46c07",
+    "merge_commit_sha": "d54f01d1b03b27b4c845e0d7bb52c5a563fd1e22",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/statuses/4c47b0a460b391c2080f0788d456cd5225eb7d3e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/statuses/54aa0dd0a8a35c2cc533c7193e6c1bddd54865d0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4c47b0a460b391c2080f0788d456cd5225eb7d3e",
+        "sha": "54aa0dd0a8a35c2cc533c7193e6c1bddd54865d0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/healpix_cxx-feedstock/deployments",
             "created_at": "2018-06-24T01:25:01Z",
             "updated_at": "2018-06-24T01:25:03Z",
-            "pushed_at": "2018-10-09T16:02:19Z",
+            "pushed_at": "2018-12-11T00:36:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/healpix_cxx-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/healpix_cxx-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/healpix_cxx-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/deployments",
             "created_at": "2018-02-10T04:58:15Z",
             "updated_at": "2018-08-13T21:31:43Z",
-            "pushed_at": "2018-10-09T16:02:20Z",
+            "pushed_at": "2018-12-11T00:36:30Z",
             "git_url": "git://github.com/conda-forge/healpix_cxx-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/healpix_cxx-feedstock.git",
             "clone_url": "https://github.com/conda-forge/healpix_cxx-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/statuses/4c47b0a460b391c2080f0788d456cd5225eb7d3e"
+            "href": "https://api.github.com/repos/conda-forge/healpix_cxx-feedstock/statuses/54aa0dd0a8a35c2cc533c7193e6c1bddd54865d0"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 166,
     "deletions": 56,
     "changed_files": 15,
-    "Last-Modified": "Sun, 21 Oct 2018 21:57:27 GMT",
-    "ETag": "W/\"28854c09f113f2cdf042ec93db4de149\""
+    "Last-Modified": "Tue, 11 Dec 2018 00:36:29 GMT",
+    "ETag": "W/\"916b1ea9c8d38d3ba57b0c0af4e88a58\""
 }
