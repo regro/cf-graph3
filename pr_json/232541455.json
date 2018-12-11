@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-21T05:16:34Z",
-    "updated_at": "2018-11-21T05:17:06Z",
+    "updated_at": "2018-12-11T23:02:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "77cd7c9169a95e8fafac229773fa6cf747bfade6",
+    "merge_commit_sha": "63d8c3d77dde8893a09d71c004b0d03260cd6d24",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/statuses/ae1c80c3624a966a5fd5180516bd857d42db54e1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/statuses/dd0a029e52d5f743911eaf7992a29c6b48a0392f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ae1c80c3624a966a5fd5180516bd857d42db54e1",
+        "sha": "dd0a029e52d5f743911eaf7992a29c6b48a0392f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-smoother-feedstock/deployments",
             "created_at": "2018-11-21T05:16:20Z",
             "updated_at": "2018-11-21T05:16:22Z",
-            "pushed_at": "2018-11-21T05:16:33Z",
+            "pushed_at": "2018-12-11T23:02:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-smoother-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-smoother-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-smoother-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/deployments",
             "created_at": "2018-02-17T08:50:48Z",
             "updated_at": "2018-08-04T18:25:08Z",
-            "pushed_at": "2018-11-21T05:16:35Z",
+            "pushed_at": "2018-12-11T23:02:49Z",
             "git_url": "git://github.com/conda-forge/r-smoother-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-smoother-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-smoother-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/statuses/ae1c80c3624a966a5fd5180516bd857d42db54e1"
+            "href": "https://api.github.com/repos/conda-forge/r-smoother-feedstock/statuses/dd0a029e52d5f743911eaf7992a29c6b48a0392f"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 209,
-    "deletions": 246,
-    "changed_files": 19
+    "commits": 3,
+    "additions": 211,
+    "deletions": 250,
+    "changed_files": 19,
+    "Last-Modified": "Tue, 11 Dec 2018 23:02:48 GMT",
+    "ETag": "W/\"af8cc3fbf12871cb336668d8da092597\""
 }
