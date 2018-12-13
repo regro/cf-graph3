@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nwofpy\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T16:36:21Z",
-    "updated_at": "2018-12-13T10:50:18Z",
+    "updated_at": "2018-12-13T12:41:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "52f9f76d69728a38c3714915e039c1260a340632",
+    "merge_commit_sha": "2235d18eb7a48f8350bc34b6f34d4d5139da8cfb",
     "assignee": {
         "login": "ocefpaf",
         "id": 950575,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/pulls/21/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/statuses/5fc7d0f5a211b781f4d6385b71418250f8efba70",
+    "statuses_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/statuses/ffbefcf6b4465aff578e26b5a0bef0af3ae17b6f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5fc7d0f5a211b781f4d6385b71418250f8efba70",
+        "sha": "ffbefcf6b4465aff578e26b5a0bef0af3ae17b6f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/uwsgi-feedstock/deployments",
             "created_at": "2018-07-08T18:08:12Z",
             "updated_at": "2018-07-08T18:08:14Z",
-            "pushed_at": "2018-12-13T10:50:17Z",
+            "pushed_at": "2018-12-13T12:41:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/uwsgi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/uwsgi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/uwsgi-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/uwsgi-feedstock",
             "homepage": null,
-            "size": 41,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/deployments",
             "created_at": "2016-05-20T14:53:44Z",
             "updated_at": "2018-11-09T13:14:25Z",
-            "pushed_at": "2018-12-13T10:50:19Z",
+            "pushed_at": "2018-12-13T12:41:21Z",
             "git_url": "git://github.com/conda-forge/uwsgi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/uwsgi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/uwsgi-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/pulls/21/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/statuses/5fc7d0f5a211b781f4d6385b71418250f8efba70"
+            "href": "https://api.github.com/repos/conda-forge/uwsgi-feedstock/statuses/ffbefcf6b4465aff578e26b5a0bef0af3ae17b6f"
         }
     },
     "author_association": "NONE",
@@ -372,8 +372,10 @@
     "comments": 5,
     "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 5,
+    "commits": 6,
     "additions": 507,
     "deletions": 169,
-    "changed_files": 27
+    "changed_files": 27,
+    "Last-Modified": "Thu, 13 Dec 2018 12:41:20 GMT",
+    "ETag": "W/\"817a32e5431e9abd5a4a808dbacab054\""
 }
