@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-14T12:13:33Z",
-    "updated_at": "2018-12-14T12:13:33Z",
+    "updated_at": "2018-12-14T13:10:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "dc599b5cdc1057da7bfd335371e6b929b854daa8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/statuses/6eec1721294d144f724564601c8c59bfd28affcf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/statuses/9dabff0e95c7622b66a3e45bc72b68577e16b42e",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.5",
         "ref": "1.0.5",
-        "sha": "6eec1721294d144f724564601c8c59bfd28affcf",
+        "sha": "9dabff0e95c7622b66a3e45bc72b68577e16b42e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-ternary-feedstock/deployments",
             "created_at": "2018-04-19T04:09:34Z",
             "updated_at": "2018-04-19T04:09:36Z",
-            "pushed_at": "2018-12-14T12:13:32Z",
+            "pushed_at": "2018-12-14T13:10:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-ternary-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-ternary-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-ternary-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/deployments",
             "created_at": "2016-04-16T00:05:51Z",
             "updated_at": "2018-08-04T17:11:02Z",
-            "pushed_at": "2018-08-04T17:11:01Z",
+            "pushed_at": "2018-12-14T13:10:31Z",
             "git_url": "git://github.com/conda-forge/python-ternary-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-ternary-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-ternary-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/statuses/6eec1721294d144f724564601c8c59bfd28affcf"
+            "href": "https://api.github.com/repos/conda-forge/python-ternary-feedstock/statuses/9dabff0e95c7622b66a3e45bc72b68577e16b42e"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 236,
-    "deletions": 310,
-    "changed_files": 27
+    "commits": 3,
+    "additions": 239,
+    "deletions": 314,
+    "changed_files": 27,
+    "Last-Modified": "Fri, 14 Dec 2018 13:10:31 GMT",
+    "ETag": "W/\"619ef681e57031c5c8d8a8640d15d759\""
 }
