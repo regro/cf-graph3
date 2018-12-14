@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-13T19:17:03Z",
-    "updated_at": "2018-12-14T00:20:03Z",
+    "updated_at": "2018-12-14T07:58:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2effb62b1da178f01d0dadd37a209b7d14dbec1f",
+    "merge_commit_sha": "88e4cafa9e3f7d275b7d88239b44a5c7f7d1a578",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/statuses/0538866e3f5a1079a2ad1423c4460550a13f6da8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/statuses/9b636cb1eefab56bc54f96a41450a3105f0d59c6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "0538866e3f5a1079a2ad1423c4460550a13f6da8",
+        "sha": "9b636cb1eefab56bc54f96a41450a3105f0d59c6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/highfive-feedstock/deployments",
             "created_at": "2018-12-13T19:16:49Z",
             "updated_at": "2018-12-13T19:16:51Z",
-            "pushed_at": "2018-12-13T19:17:03Z",
+            "pushed_at": "2018-12-14T07:58:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/highfive-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/highfive-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/highfive-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/highfive-feedstock/deployments",
             "created_at": "2018-12-13T17:55:23Z",
             "updated_at": "2018-12-13T18:15:49Z",
-            "pushed_at": "2018-12-13T19:17:04Z",
+            "pushed_at": "2018-12-14T07:58:27Z",
             "git_url": "git://github.com/conda-forge/highfive-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/highfive-feedstock.git",
             "clone_url": "https://github.com/conda-forge/highfive-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/highfive-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/highfive-feedstock/statuses/0538866e3f5a1079a2ad1423c4460550a13f6da8"
+            "href": "https://api.github.com/repos/conda-forge/highfive-feedstock/statuses/9b636cb1eefab56bc54f96a41450a3105f0d59c6"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 7,
-    "deletions": 6,
-    "changed_files": 2,
-    "Last-Modified": "Fri, 14 Dec 2018 00:20:03 GMT",
-    "ETag": "W/\"14be2c45e37a22fa8ab99e69a4b2f5fd\""
+    "commits": 2,
+    "additions": 319,
+    "deletions": 19,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 14 Dec 2018 07:58:31 GMT",
+    "ETag": "W/\"99b27542c98363c8a51695b7ec249851\""
 }
