@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/coredns-feedstock/pull/13.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/issues/13",
     "number": 13,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "coredns v1.2.6",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-04T18:14:21Z",
-    "updated_at": "2018-11-04T18:14:25Z",
-    "closed_at": null,
-    "merged_at": null,
-    "merge_commit_sha": "dcc7295a5b5a63746500ee4e8e23beaa174e7a60",
+    "updated_at": "2018-12-16T01:57:44Z",
+    "closed_at": "2018-12-16T01:57:44Z",
+    "merged_at": "2018-12-16T01:57:44Z",
+    "merge_commit_sha": "0ff1a286a36ce4ff7a1040d4a0b5d48940c03f9e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/statuses/1b7163b06f20f3f68c6cd17f431b36b65b87f092",
+    "statuses_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/statuses/7debbb3e5a64d708dab20d24a841852ce06b2b70",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.6",
         "ref": "1.2.6",
-        "sha": "1b7163b06f20f3f68c6cd17f431b36b65b87f092",
+        "sha": "7debbb3e5a64d708dab20d24a841852ce06b2b70",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/coredns-feedstock/deployments",
             "created_at": "2018-03-22T13:25:10Z",
             "updated_at": "2018-03-22T13:25:12Z",
-            "pushed_at": "2018-12-16T00:18:59Z",
+            "pushed_at": "2018-12-16T01:48:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/coredns-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/coredns-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/coredns-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "276d333a622fa16b5380bd799c3498651c7efad1",
+        "sha": "dff224064f22cfb21c78fcfb05f6e6192c4b8719",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/coredns-feedstock/deployments",
             "created_at": "2018-03-19T12:38:30Z",
-            "updated_at": "2018-10-25T02:47:53Z",
-            "pushed_at": "2018-12-16T00:19:01Z",
+            "updated_at": "2018-12-16T01:57:45Z",
+            "pushed_at": "2018-12-16T01:57:44Z",
             "git_url": "git://github.com/conda-forge/coredns-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/coredns-feedstock.git",
             "clone_url": "https://github.com/conda-forge/coredns-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,24 +318,43 @@
             "href": "https://api.github.com/repos/conda-forge/coredns-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/coredns-feedstock/statuses/1b7163b06f20f3f68c6cd17f431b36b65b87f092"
+            "href": "https://api.github.com/repos/conda-forge/coredns-feedstock/statuses/7debbb3e5a64d708dab20d24a841852ce06b2b70"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
-    "merged": false,
-    "mergeable": true,
-    "rebaseable": true,
-    "mergeable_state": "unstable",
-    "merged_by": null,
-    "comments": 1,
+    "merged": true,
+    "mergeable": null,
+    "rebaseable": null,
+    "mergeable_state": "unknown",
+    "merged_by": {
+        "login": "sodre",
+        "id": 1043285,
+        "node_id": "MDQ6VXNlcjEwNDMyODU=",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1043285?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sodre",
+        "html_url": "https://github.com/sodre",
+        "followers_url": "https://api.github.com/users/sodre/followers",
+        "following_url": "https://api.github.com/users/sodre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sodre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sodre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sodre/subscriptions",
+        "organizations_url": "https://api.github.com/users/sodre/orgs",
+        "repos_url": "https://api.github.com/users/sodre/repos",
+        "events_url": "https://api.github.com/users/sodre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sodre/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 5,
-    "changed_files": 2,
-    "Last-Modified": "Sun, 04 Nov 2018 18:14:25 GMT",
-    "ETag": "W/\"cc2c421f782e7143888330de36c60fc0\""
+    "maintainer_can_modify": false,
+    "commits": 3,
+    "additions": 2,
+    "deletions": 2,
+    "changed_files": 1,
+    "Last-Modified": "Sun, 16 Dec 2018 01:57:44 GMT",
+    "ETag": "W/\"829f851b1db799ffbf939e0ab8633d58\""
 }
