@@ -35,7 +35,7 @@
     "updated_at": "2018-12-17T18:15:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7ad72e965152b31aa4d8f8a358ec456429344c37",
+    "merge_commit_sha": "75367f64ff71261cc640c5810e639a98693838c5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/cw-eval-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cw-eval-feedstock",
             "homepage": null,
-            "size": 0,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/cw-eval-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/cw-eval-feedstock/deployments",
             "created_at": "2018-12-17T17:57:15Z",
-            "updated_at": "2018-12-17T17:59:25Z",
-            "pushed_at": "2018-12-17T18:15:37Z",
+            "updated_at": "2018-12-17T19:43:07Z",
+            "pushed_at": "2018-12-17T19:43:05Z",
             "git_url": "git://github.com/conda-forge/cw-eval-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cw-eval-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cw-eval-feedstock.git",
             "svn_url": "https://github.com/conda-forge/cw-eval-feedstock",
             "homepage": null,
-            "size": 18,
+            "size": 19,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 358,
     "deletions": 26,
-    "changed_files": 21
+    "changed_files": 21,
+    "Last-Modified": "Mon, 17 Dec 2018 18:15:42 GMT",
+    "ETag": "W/\"ad1cdacc1df1a7876541f8776df86dd9\""
 }
