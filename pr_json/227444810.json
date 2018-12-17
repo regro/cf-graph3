@@ -32,15 +32,24 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-31T21:16:50Z",
-    "updated_at": "2018-11-30T14:04:23Z",
+    "updated_at": "2018-12-17T15:00:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "01775f955167b6b8004091d011177e3d1cf810a4",
+    "merge_commit_sha": "aa942863423f2b8f08aba3ccac4bc516cc1e4611",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1111830924,
+            "node_id": "MDU6TGFiZWwxMTExODMwOTI0",
+            "url": "https://api.github.com/repos/conda-forge/nipype-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "9384e8",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/pulls/28/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/pulls/28/comments",
@@ -139,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nipype-feedstock/deployments",
             "created_at": "2018-03-27T17:14:16Z",
             "updated_at": "2018-03-27T17:14:18Z",
-            "pushed_at": "2018-11-30T14:04:17Z",
+            "pushed_at": "2018-12-17T14:18:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nipype-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nipype-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nipype-feedstock.git",
@@ -262,8 +271,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/nipype-feedstock/deployments",
             "created_at": "2016-07-16T21:41:35Z",
-            "updated_at": "2018-11-27T16:33:13Z",
-            "pushed_at": "2018-12-17T13:51:17Z",
+            "updated_at": "2018-12-17T15:00:31Z",
+            "pushed_at": "2018-12-17T15:00:28Z",
             "git_url": "git://github.com/conda-forge/nipype-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nipype-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nipype-feedstock.git",
@@ -281,7 +290,7 @@
             "forks_count": 14,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 14,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,7 +344,5 @@
     "commits": 4,
     "additions": 103,
     "deletions": 9,
-    "changed_files": 12,
-    "Last-Modified": "Fri, 30 Nov 2018 14:04:23 GMT",
-    "ETag": "W/\"88c4e7ffe5f08d3ff22097719e40052e\""
+    "changed_files": 12
 }
