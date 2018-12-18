@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-07T00:15:08Z",
-    "updated_at": "2018-12-18T03:07:04Z",
+    "updated_at": "2018-12-18T05:56:26Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7769cc418911a266304d0b66cf1899225af37014",
+    "merge_commit_sha": "f39bf7982212bb049eea748ceb0dcc42c5443dcc",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/statuses/a8a4d3d62815641a74688dd666d105a6d37433fb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/statuses/0eb95ab168e80c47fd021637fa2c5c40593f7067",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a8a4d3d62815641a74688dd666d105a6d37433fb",
+        "sha": "0eb95ab168e80c47fd021637fa2c5c40593f7067",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/calculix-feedstock/deployments",
             "created_at": "2018-12-07T00:14:51Z",
             "updated_at": "2018-12-07T00:14:53Z",
-            "pushed_at": "2018-12-18T03:02:35Z",
+            "pushed_at": "2018-12-18T05:52:41Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/calculix-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/calculix-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/calculix-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/calculix-feedstock/deployments",
             "created_at": "2018-12-06T21:47:26Z",
             "updated_at": "2018-12-08T21:53:33Z",
-            "pushed_at": "2018-12-18T03:02:36Z",
+            "pushed_at": "2018-12-18T05:52:42Z",
             "git_url": "git://github.com/conda-forge/calculix-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/calculix-feedstock.git",
             "clone_url": "https://github.com/conda-forge/calculix-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/calculix-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/calculix-feedstock/statuses/a8a4d3d62815641a74688dd666d105a6d37433fb"
+            "href": "https://api.github.com/repos/conda-forge/calculix-feedstock/statuses/0eb95ab168e80c47fd021637fa2c5c40593f7067"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 8,
+    "comments": 12,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 428,
-    "deletions": 27,
-    "changed_files": 18,
-    "Last-Modified": "Tue, 18 Dec 2018 03:07:04 GMT",
-    "ETag": "W/\"5c11680178c50ba65a7b06f2719367b8\""
+    "commits": 10,
+    "additions": 452,
+    "deletions": 89,
+    "changed_files": 25,
+    "Last-Modified": "Tue, 18 Dec 2018 05:56:26 GMT",
+    "ETag": "W/\"6a0ecb3fa1dfc68a821ed4eb8bda155f\""
 }
