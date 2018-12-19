@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-18T22:13:32Z",
-    "updated_at": "2018-12-18T22:30:29Z",
+    "updated_at": "2018-12-19T06:54:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "138841dec231a87ff6baff9f0ab6b8d09815d6e6",
+    "merge_commit_sha": "7b4229835b091aaadcfcc86bf9869fa0f9904ed2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/statuses/d96c85582957d7e8eb3797f8a595aa8705d65bc1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/statuses/281913776eac9b8aa228714f4df334a32db45da0",
     "head": {
         "label": "regro-cf-autotick-bot:1.6.0",
         "ref": "1.6.0",
-        "sha": "d96c85582957d7e8eb3797f8a595aa8705d65bc1",
+        "sha": "281913776eac9b8aa228714f4df334a32db45da0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/landlab-feedstock/deployments",
             "created_at": "2018-09-18T16:19:40Z",
             "updated_at": "2018-09-18T16:19:43Z",
-            "pushed_at": "2018-12-18T22:30:29Z",
+            "pushed_at": "2018-12-19T06:54:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/landlab-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/landlab-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/landlab-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/landlab-feedstock/deployments",
             "created_at": "2018-08-29T14:51:38Z",
             "updated_at": "2018-11-19T08:20:39Z",
-            "pushed_at": "2018-12-18T22:30:30Z",
+            "pushed_at": "2018-12-19T06:54:36Z",
             "git_url": "git://github.com/conda-forge/landlab-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/landlab-feedstock.git",
             "clone_url": "https://github.com/conda-forge/landlab-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/landlab-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/landlab-feedstock/statuses/d96c85582957d7e8eb3797f8a595aa8705d65bc1"
+            "href": "https://api.github.com/repos/conda-forge/landlab-feedstock/statuses/281913776eac9b8aa228714f4df334a32db45da0"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 340,
+    "commits": 6,
+    "additions": 341,
     "deletions": 34,
     "changed_files": 13,
-    "Last-Modified": "Tue, 18 Dec 2018 22:30:29 GMT",
-    "ETag": "W/\"d2cc8cf07b34255b98173e5ae258993e\""
+    "Last-Modified": "Wed, 19 Dec 2018 06:54:35 GMT",
+    "ETag": "W/\"626b890398c4f65c440cdcd64f0c008d\""
 }
