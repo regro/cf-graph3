@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T21:15:52Z",
-    "updated_at": "2018-12-19T22:14:49Z",
+    "updated_at": "2018-12-20T12:59:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b02506a642068d539588fa0ca96d227bcbd072f7",
+    "merge_commit_sha": "78760d21c11a9becbfff00c981f14e5ea816f9d3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/statuses/d4ddd67a170d27804b16dc56ed0ea64ec67b8d8b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/statuses/ce4af1bd29f5731a2e46ba4c13ddf801329aa5eb",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d4ddd67a170d27804b16dc56ed0ea64ec67b8d8b",
+        "sha": "ce4af1bd29f5731a2e46ba4c13ddf801329aa5eb",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pygridtools-feedstock/deployments",
             "created_at": "2018-12-19T21:15:38Z",
             "updated_at": "2018-12-19T21:15:40Z",
-            "pushed_at": "2018-12-19T21:15:52Z",
+            "pushed_at": "2018-12-20T12:58:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pygridtools-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pygridtools-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pygridtools-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/deployments",
             "created_at": "2016-03-23T00:06:47Z",
             "updated_at": "2018-08-04T17:02:38Z",
-            "pushed_at": "2018-12-19T21:15:53Z",
+            "pushed_at": "2018-12-20T12:58:55Z",
             "git_url": "git://github.com/conda-forge/pygridtools-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pygridtools-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pygridtools-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/statuses/d4ddd67a170d27804b16dc56ed0ea64ec67b8d8b"
+            "href": "https://api.github.com/repos/conda-forge/pygridtools-feedstock/statuses/ce4af1bd29f5731a2e46ba4c13ddf801329aa5eb"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 556,
-    "deletions": 135,
+    "commits": 3,
+    "additions": 586,
+    "deletions": 164,
     "changed_files": 27,
-    "Last-Modified": "Wed, 19 Dec 2018 22:14:49 GMT",
-    "ETag": "W/\"10792f69410174bf7057d72c264f938a\""
+    "Last-Modified": "Thu, 20 Dec 2018 12:59:03 GMT",
+    "ETag": "W/\"830372bd1487630cbb87a60545a43cb2\""
 }
