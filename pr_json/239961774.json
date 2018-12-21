@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nitkwidgets\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T20:16:26Z",
-    "updated_at": "2018-12-21T14:53:57Z",
+    "updated_at": "2018-12-21T15:33:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b34e72013942da095ebdb338f5c7a2b5b9da7f30",
+    "merge_commit_sha": "e7015637a6a52e2328f7d5d0e39bd301f1276306",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/itk-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/itk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/itk-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/itk-feedstock/statuses/3c580d215074ae6cbf861d92bc3026bcde711067",
+    "statuses_url": "https://api.github.com/repos/conda-forge/itk-feedstock/statuses/9d088828d8c4d6ee838d4d8693ec389630caac9a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3c580d215074ae6cbf861d92bc3026bcde711067",
+        "sha": "9d088828d8c4d6ee838d4d8693ec389630caac9a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/itk-feedstock/deployments",
             "created_at": "2018-12-19T20:16:10Z",
             "updated_at": "2018-12-19T20:16:12Z",
-            "pushed_at": "2018-12-21T14:53:57Z",
+            "pushed_at": "2018-12-21T15:33:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/itk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/itk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/itk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/itk-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/itk-feedstock/deployments",
             "created_at": "2017-09-05T18:21:37Z",
             "updated_at": "2018-08-12T19:22:47Z",
-            "pushed_at": "2018-12-21T14:53:58Z",
+            "pushed_at": "2018-12-21T15:33:51Z",
             "git_url": "git://github.com/conda-forge/itk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/itk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/itk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/itk-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/itk-feedstock/statuses/3c580d215074ae6cbf861d92bc3026bcde711067"
+            "href": "https://api.github.com/repos/conda-forge/itk-feedstock/statuses/9d088828d8c4d6ee838d4d8693ec389630caac9a"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 694,
-    "deletions": 155,
-    "changed_files": 32,
-    "Last-Modified": "Fri, 21 Dec 2018 14:53:57 GMT",
-    "ETag": "W/\"304d804c96af1331f391944e118c2f82\""
+    "commits": 4,
+    "additions": 756,
+    "deletions": 198,
+    "changed_files": 33,
+    "Last-Modified": "Fri, 21 Dec 2018 15:33:50 GMT",
+    "ETag": "W/\"16633e41b63048bff776107bf6519d00\""
 }
