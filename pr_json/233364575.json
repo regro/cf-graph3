@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T09:14:02Z",
-    "updated_at": "2018-11-26T19:20:34Z",
+    "updated_at": "2018-12-21T08:01:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a1b5c3147dce5287d28f3287f8e99a59e43859a6",
+    "merge_commit_sha": "f2ba094fdf281dcf1c76d023ac55689495f820b3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/statuses/d7f6be40d0f75da2f3d080a04375a562c65073c3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/statuses/ae4b124b397a8b6f7842bb1d7f95bbacb36ae288",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d7f6be40d0f75da2f3d080a04375a562c65073c3",
+        "sha": "ae4b124b397a8b6f7842bb1d7f95bbacb36ae288",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/msprime-feedstock/deployments",
             "created_at": "2018-10-14T08:28:25Z",
             "updated_at": "2018-10-14T08:28:26Z",
-            "pushed_at": "2018-12-04T15:14:32Z",
+            "pushed_at": "2018-12-21T08:01:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/msprime-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/msprime-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/msprime-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/msprime-feedstock",
             "homepage": null,
-            "size": 35,
+            "size": 37,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/msprime-feedstock/deployments",
             "created_at": "2018-02-20T19:08:43Z",
             "updated_at": "2018-11-20T19:27:37Z",
-            "pushed_at": "2018-12-04T15:14:34Z",
+            "pushed_at": "2018-12-21T08:01:02Z",
             "git_url": "git://github.com/conda-forge/msprime-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/msprime-feedstock.git",
             "clone_url": "https://github.com/conda-forge/msprime-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/msprime-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/msprime-feedstock/statuses/d7f6be40d0f75da2f3d080a04375a562c65073c3"
+            "href": "https://api.github.com/repos/conda-forge/msprime-feedstock/statuses/ae4b124b397a8b6f7842bb1d7f95bbacb36ae288"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 391,
-    "deletions": 24,
-    "changed_files": 19
+    "commits": 4,
+    "additions": 392,
+    "deletions": 25,
+    "changed_files": 19,
+    "Last-Modified": "Fri, 21 Dec 2018 08:01:02 GMT",
+    "ETag": "W/\"e95d303ac1b72126e46ceb6045995d3f\""
 }
