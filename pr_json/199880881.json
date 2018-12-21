@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T05:07:03Z",
-    "updated_at": "2018-10-23T15:18:19Z",
+    "updated_at": "2018-12-21T07:08:12Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "a899adca43f448be1b40d5de1007bef600e1f5f1",
@@ -80,7 +80,16 @@
     ],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1168704767,
+            "node_id": "MDU6TGFiZWwxMTY4NzA0NzY3",
+            "url": "https://api.github.com/repos/conda-forge/terraform-provider-postgresql-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "b307bc",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/terraform-provider-postgresql-feedstock/pulls/1/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-postgresql-feedstock/pulls/1/comments",
@@ -179,7 +188,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-postgresql-feedstock/deployments",
             "created_at": "2018-07-02T08:16:46Z",
             "updated_at": "2018-07-02T08:16:48Z",
-            "pushed_at": "2018-12-20T21:13:17Z",
+            "pushed_at": "2018-12-21T07:01:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-postgresql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-postgresql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-postgresql-feedstock.git",
@@ -303,7 +312,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-postgresql-feedstock/deployments",
             "created_at": "2018-03-14T13:28:27Z",
             "updated_at": "2018-09-14T08:02:24Z",
-            "pushed_at": "2018-12-20T21:13:18Z",
+            "pushed_at": "2018-12-21T07:01:44Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-postgresql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-postgresql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-postgresql-feedstock.git",
@@ -369,13 +378,11 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 179,
     "deletions": 100,
-    "changed_files": 19,
-    "Last-Modified": "Tue, 23 Oct 2018 15:18:19 GMT",
-    "ETag": "W/\"d2cbcd5065bb5de7924c03bf306973e8\""
+    "changed_files": 19
 }

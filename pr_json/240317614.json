@@ -154,7 +154,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 0,
@@ -165,7 +165,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-tmvtnorm-feedstock/deployments",
             "created_at": "2018-12-20T21:36:05Z",
             "updated_at": "2018-12-20T21:40:20Z",
-            "pushed_at": "2018-12-20T22:15:40Z",
+            "pushed_at": "2018-12-21T06:40:09Z",
             "git_url": "git://github.com/conda-forge/r-tmvtnorm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-tmvtnorm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-tmvtnorm-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 1,
-            "open_issues": 1,
+            "forks": 2,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 114,
     "deletions": 14,
-    "changed_files": 10
+    "changed_files": 10,
+    "Last-Modified": "Thu, 20 Dec 2018 22:27:34 GMT",
+    "ETag": "W/\"3a7134f9e216cf641b4dc4f4e814a381\""
 }
