@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T20:16:59Z",
-    "updated_at": "2018-12-19T20:17:05Z",
+    "updated_at": "2018-12-21T22:36:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6f10f4a119eaf90e6f4204755967bde05a29a01a",
+    "merge_commit_sha": "d2e298517fd20bc8723e67076ac2c0cb3e16aeaa",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/statuses/fa7a05e30b3e50b8d5dad5e0b38a9445af1d8c21",
+    "statuses_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/statuses/bc6f0d33dcebda2cb5ee270780cdd74f728db776",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "fa7a05e30b3e50b8d5dad5e0b38a9445af1d8c21",
+        "sha": "bc6f0d33dcebda2cb5ee270780cdd74f728db776",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/whitebox_tools-feedstock/deployments",
             "created_at": "2018-12-19T20:16:42Z",
             "updated_at": "2018-12-19T20:16:45Z",
-            "pushed_at": "2018-12-19T20:16:58Z",
+            "pushed_at": "2018-12-21T22:36:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/whitebox_tools-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/whitebox_tools-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/whitebox_tools-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/deployments",
             "created_at": "2017-12-07T17:50:32Z",
             "updated_at": "2018-08-04T18:22:46Z",
-            "pushed_at": "2018-12-19T20:16:59Z",
+            "pushed_at": "2018-12-21T22:36:21Z",
             "git_url": "git://github.com/conda-forge/whitebox_tools-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/whitebox_tools-feedstock.git",
             "clone_url": "https://github.com/conda-forge/whitebox_tools-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/statuses/fa7a05e30b3e50b8d5dad5e0b38a9445af1d8c21"
+            "href": "https://api.github.com/repos/conda-forge/whitebox_tools-feedstock/statuses/bc6f0d33dcebda2cb5ee270780cdd74f728db776"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 457,
-    "deletions": 83,
-    "changed_files": 25
+    "commits": 4,
+    "additions": 675,
+    "deletions": 111,
+    "changed_files": 32,
+    "Last-Modified": "Fri, 21 Dec 2018 22:36:20 GMT",
+    "ETag": "W/\"180a93223b6b04a8d025e45d6f1155ca\""
 }

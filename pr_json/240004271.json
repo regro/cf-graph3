@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T23:16:07Z",
-    "updated_at": "2018-12-19T23:16:10Z",
+    "updated_at": "2018-12-21T22:30:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4b18cd2f7d8e65f00496a6b906c16d0ecef8e42c",
+    "merge_commit_sha": "6cfccf7a8b3c76762b7915d7c2d3dd0bb8a8f332",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/statuses/bad85b0002333a14ad7412e348a6f40c61d64d9b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/statuses/7b16c801557fee6c49264fd34bb05d36e40872a1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bad85b0002333a14ad7412e348a6f40c61d64d9b",
+        "sha": "7b16c801557fee6c49264fd34bb05d36e40872a1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/multineat-feedstock/deployments",
             "created_at": "2018-12-19T23:15:51Z",
             "updated_at": "2018-12-19T23:15:53Z",
-            "pushed_at": "2018-12-19T23:16:06Z",
+            "pushed_at": "2018-12-21T22:30:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/multineat-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/multineat-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/multineat-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/multineat-feedstock/deployments",
             "created_at": "2018-04-23T22:13:51Z",
             "updated_at": "2018-08-04T18:47:59Z",
-            "pushed_at": "2018-12-19T23:16:08Z",
+            "pushed_at": "2018-12-21T22:30:10Z",
             "git_url": "git://github.com/conda-forge/multineat-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/multineat-feedstock.git",
             "clone_url": "https://github.com/conda-forge/multineat-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/multineat-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/multineat-feedstock/statuses/bad85b0002333a14ad7412e348a6f40c61d64d9b"
+            "href": "https://api.github.com/repos/conda-forge/multineat-feedstock/statuses/7b16c801557fee6c49264fd34bb05d36e40872a1"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
+    "commits": 2,
     "additions": 7,
-    "deletions": 6,
-    "changed_files": 2,
-    "Last-Modified": "Wed, 19 Dec 2018 23:16:10 GMT",
-    "ETag": "W/\"81baecc547615d5de34d1d614b2e5194\""
+    "deletions": 10,
+    "changed_files": 3,
+    "Last-Modified": "Fri, 21 Dec 2018 22:30:22 GMT",
+    "ETag": "W/\"df12edcf6e42e10e424b024213b509cb\""
 }
