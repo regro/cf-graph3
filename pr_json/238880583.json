@@ -32,13 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-15T01:13:18Z",
-    "updated_at": "2018-12-15T01:15:50Z",
+    "updated_at": "2018-12-21T10:56:38Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "f90c19b7995c11a42920cb4e3a598cbf110a0855",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "sodre",
+            "id": 1043285,
+            "node_id": "MDQ6VXNlcjEwNDMyODU=",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/1043285?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sodre",
+            "html_url": "https://github.com/sodre",
+            "followers_url": "https://api.github.com/users/sodre/followers",
+            "following_url": "https://api.github.com/users/sodre/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sodre/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sodre/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sodre/subscriptions",
+            "organizations_url": "https://api.github.com/users/sodre/orgs",
+            "repos_url": "https://api.github.com/users/sodre/repos",
+            "events_url": "https://api.github.com/users/sodre/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sodre/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -335,5 +356,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 21 Dec 2018 10:56:38 GMT",
+    "ETag": "W/\"544a1fba762764b046e4b943601b68f0\""
 }
