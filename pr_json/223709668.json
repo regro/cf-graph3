@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T18:31:00Z",
-    "updated_at": "2018-10-17T18:31:23Z",
+    "updated_at": "2018-12-23T14:14:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5eb04f8badbf9eb1dab246420d5c203f180f6107",
+    "merge_commit_sha": "e22efb209c0fb0211e2f7926dca40927b388730f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/statuses/f67e2dcbe77e02396d66240157857d28a1b8d91c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/statuses/4859db64a562a12ad6ccfbb24d8fd8bbde15c183",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f67e2dcbe77e02396d66240157857d28a1b8d91c",
+        "sha": "4859db64a562a12ad6ccfbb24d8fd8bbde15c183",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyopcode-feedstock/deployments",
             "created_at": "2018-03-05T00:52:02Z",
             "updated_at": "2018-03-05T00:52:04Z",
-            "pushed_at": "2018-10-17T18:31:00Z",
+            "pushed_at": "2018-12-23T14:14:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyopcode-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyopcode-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyopcode-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/deployments",
             "created_at": "2016-06-21T12:15:32Z",
             "updated_at": "2018-08-04T17:24:49Z",
-            "pushed_at": "2018-10-17T18:31:01Z",
+            "pushed_at": "2018-12-23T14:14:19Z",
             "git_url": "git://github.com/conda-forge/pyopcode-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyopcode-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyopcode-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/statuses/f67e2dcbe77e02396d66240157857d28a1b8d91c"
+            "href": "https://api.github.com/repos/conda-forge/pyopcode-feedstock/statuses/4859db64a562a12ad6ccfbb24d8fd8bbde15c183"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 336,
-    "deletions": 366,
-    "changed_files": 23,
-    "Last-Modified": "Wed, 17 Oct 2018 18:31:23 GMT",
-    "ETag": "W/\"f4a74b4884fc98b81cdd317d79e66487\""
+    "commits": 4,
+    "additions": 770,
+    "deletions": 342,
+    "changed_files": 31,
+    "Last-Modified": "Sun, 23 Dec 2018 14:14:24 GMT",
+    "ETag": "W/\"d3e57eed4e952e9e740ce9a32eb3d32e\""
 }
