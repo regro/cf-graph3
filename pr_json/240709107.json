@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-24T01:15:35Z",
-    "updated_at": "2018-12-24T05:19:18Z",
+    "updated_at": "2018-12-24T06:23:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "60aa0595ad714d667585347a87b315678495d82d",
+    "merge_commit_sha": "06709bcda0da921a36fec4ec74fc6d80b83edfd5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/statuses/f62ba875cce558d328064bfebbdd0404caf967c0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/statuses/918a9d289fa3a45f7d7397f42271821b9c654b44",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f62ba875cce558d328064bfebbdd0404caf967c0",
+        "sha": "918a9d289fa3a45f7d7397f42271821b9c654b44",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-hypergea-feedstock/deployments",
             "created_at": "2018-12-24T01:15:20Z",
             "updated_at": "2018-12-24T01:15:23Z",
-            "pushed_at": "2018-12-24T05:19:18Z",
+            "pushed_at": "2018-12-24T06:23:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-hypergea-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-hypergea-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-hypergea-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-hypergea-feedstock",
             "homepage": null,
-            "size": 17,
+            "size": 18,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/deployments",
             "created_at": "2018-12-24T00:05:55Z",
             "updated_at": "2018-12-24T00:13:55Z",
-            "pushed_at": "2018-12-24T05:19:18Z",
+            "pushed_at": "2018-12-24T06:23:05Z",
             "git_url": "git://github.com/conda-forge/r-hypergea-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-hypergea-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-hypergea-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/statuses/f62ba875cce558d328064bfebbdd0404caf967c0"
+            "href": "https://api.github.com/repos/conda-forge/r-hypergea-feedstock/statuses/918a9d289fa3a45f7d7397f42271821b9c654b44"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 114,
-    "deletions": 14,
+    "commits": 4,
+    "additions": 117,
+    "deletions": 16,
     "changed_files": 10,
-    "Last-Modified": "Mon, 24 Dec 2018 05:19:18 GMT",
-    "ETag": "W/\"aa98e64575e147b9c1099ca96900d801\""
+    "Last-Modified": "Mon, 24 Dec 2018 06:23:05 GMT",
+    "ETag": "W/\"a95b4a251f09975e605b98211e9b704c\""
 }
