@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-15T06:16:47Z",
-    "updated_at": "2018-12-15T06:16:50Z",
+    "updated_at": "2018-12-24T20:47:10Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "7c5a6406e60cc8437e97cb64225d069838c25ea5",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 140,
     "deletions": 8,
     "changed_files": 8,
-    "Last-Modified": "Sat, 15 Dec 2018 06:16:50 GMT",
-    "ETag": "W/\"6b91675114af66aa0a4dcb10d63d6630\""
+    "Last-Modified": "Mon, 24 Dec 2018 20:47:10 GMT",
+    "ETag": "W/\"a87185e2973a539027d3a5ed8aa3928a\""
 }
