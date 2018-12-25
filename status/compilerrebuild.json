@@ -1,184 +1,10 @@
 {
   "done": [
-    "miktex",
-    "luajit",
-    "nodejs",
-    "libframe",
-    "zookeeper-c",
-    "laszip",
-    "sixs",
-    "wabt",
-    "oniguruma",
-    "jq",
-    "cni",
-    "cni-plugins",
-    "libgpg-error",
-    "npth",
-    "libksba",
-    "libassuan",
-    "libgcrypt",
-    "openmpi",
-    "lp_solve",
-    "su-exec",
-    "rubiks",
-    "eigen",
-    "ad3-cpp",
-    "json-c",
-    "lrcalc",
-    "jsoncpp",
-    "nauty",
-    "consul",
-    "tzcode",
+    "llvmdev",
     "c-ares",
-    "cpulimit",
-    "binaryen",
-    "xz",
-    "libgfortran",
-    "libglu",
-    "m2w64-muparser",
-    "gflags",
-    "xtl",
-    "xtensor",
-    "xframe",
-    "xproperty",
-    "palp",
-    "jansson",
-    "make",
-    "patch",
-    "m4",
-    "libsigcpp",
-    "bzip2",
-    "pv",
-    "lmdb",
-    "ossuuid",
-    "perl",
-    "check",
-    "libmo_unpack",
-    "lcov",
-    "go1.4-bootstrap",
-    "help2man",
-    "go",
-    "autoconf",
-    "automake",
-    "libtool",
-    "cppunit",
-    "libuv",
-    "libmagic",
-    "nspr",
-    "coredns",
-    "perl-text-soundex",
-    "chrpath",
-    "libntlm",
-    "c99-to-c89",
-    "gmp",
-    "zn_poly",
-    "ratpoints",
-    "givaro",
-    "flintqs",
-    "ecm",
-    "cddlib",
-    "gfan",
-    "cryptopp",
-    "planarity",
-    "fftw",
-    "xtensor-fftw",
-    "libsakura",
-    "libtar",
-    "proj.4",
-    "openblas",
-    "optpp",
-    "jags",
-    "dsdp",
-    "harminv",
-    "xtensor-blas",
-    "superlu",
-    "scalapack",
-    "iml",
-    "hypre",
-    "hmat-oss",
-    "gsl",
-    "coincbc",
-    "arpack",
-    "armadillo",
-    "adept",
-    "libsigsegv",
-    "geoip",
-    "clhep",
-    "gtest",
-    "time",
-    "icu",
-    "xerces-c",
-    "xerces-c28",
-    "argtable2",
-    "pthreads-win32",
-    "openlibm",
-    "openspecfun",
-    "gosu",
-    "nlohmann_json",
-    "lzip",
-    "clapack",
-    "spdlog",
-    "mpich",
-    "lastools",
-    "re2",
-    "datamash",
-    "f2c",
-    "blis",
-    "coreutils",
-    "libuuid",
-    "gperf",
-    "fdupes",
-    "libsemigroups",
-    "libctl",
-    "pulsewaves",
-    "pkg-config",
-    "pixman",
-    "ncurses",
-    "c-progressbar",
-    "readline",
-    "bash",
-    "sqlite",
-    "libedit",
-    "htop",
-    "gap",
-    "fish",
-    "parmetis",
-    "ocl-icd",
-    "libsodium",
-    "zeromq",
-    "cppzmq",
-    "xeus",
-    "xwidgets",
-    "libffi",
-    "pugixml",
-    "libsharp",
-    "libdb",
-    "jack",
-    "qhull",
-    "iperf",
-    "cspice",
-    "srm",
-    "nn",
-    "rhash",
-    "libev",
-    "cunit",
-    "nfft",
-    "alsa-lib",
-    "primesieve",
-    "glog",
-    "cliquer",
-    "sed",
-    "cppcheck",
-    "judy",
-    "patchelf",
-    "jemalloc",
-    "nettle",
-    "fswatch",
     "dsfmt",
-    "xxhash",
-    "metis",
-    "suitesparse",
-    "nasm",
+    "sparsehash",
+    "su-exec",
     "xorg-util-macros",
     "libpciaccess",
     "libdrm",
@@ -225,58 +51,171 @@
     "xorg-bigreqsproto",
     "xorg-applewmproto",
     "pthread-stubs",
-    "ragel",
+    "clhep",
+    "judy",
+    "libgpuarray",
+    "json-c",
+    "ocl-icd",
+    "fann2",
+    "blosc",
+    "openmpi",
+    "snappy",
+    "snzip",
+    "leveldb",
+    "cunit",
+    "pkg-config",
+    "pixman",
+    "ncurses",
+    "c-progressbar",
+    "readline",
+    "bash",
+    "sqlite",
+    "htop",
+    "fish",
+    "re2",
+    "pcre2",
+    "coreutils",
+    "gmp",
+    "zn_poly",
+    "ratpoints",
+    "givaro",
+    "gap",
+    "flintqs",
+    "ecm",
+    "cddlib",
+    "gfan",
+    "xtl",
+    "xtensor",
+    "xframe",
+    "xproperty",
+    "ctags",
+    "cliquer",
+    "rpfits",
+    "laz-perf",
+    "clapack",
+    "giflib",
+    "gtest",
+    "jsoncpp",
+    "argtable2",
+    "laszip",
+    "palp",
+    "rubiks",
+    "expat",
+    "udunits2",
+    "dbus",
+    "libunistring",
+    "libffi",
+    "wabt",
+    "pulsewaves",
+    "lrcalc",
+    "x264",
+    "oniguruma",
+    "jq",
+    "cni",
+    "cni-plugins",
+    "yaml",
+    "time",
+    "nodejs",
+    "nettle",
+    "spdlog",
+    "mpir",
+    "gperf",
+    "libsharp",
+    "fftw",
+    "xtensor-fftw",
+    "nfft",
+    "cspice",
+    "ghostscript",
+    "libsodium",
+    "zeromq",
+    "cppzmq",
+    "nn",
+    "freexl",
+    "datefudge",
+    "metis",
+    "jbig",
+    "qd",
+    "reaper",
+    "gflags",
+    "libdb",
+    "jack",
+    "m2w64-muparser",
+    "libtar",
+    "jansson",
+    "pugixml",
+    "qhull",
+    "alsa-lib",
+    "lastools",
+    "make",
+    "patch",
+    "m4",
+    "libsigcpp",
+    "libedit",
+    "bzip2",
+    "pv",
+    "lmdb",
+    "ossuuid",
+    "perl",
+    "check",
+    "libmo_unpack",
+    "lcov",
+    "go1.4-bootstrap",
+    "perl-xml-parser",
+    "help2man",
+    "go",
+    "autoconf",
+    "automake",
+    "libtool",
+    "cppunit",
+    "mpfr",
+    "mpfi",
+    "mpc",
+    "symengine",
+    "libgap",
+    "fplll",
+    "libuv",
+    "libmagic",
+    "nspr",
+    "coredns",
+    "perl-text-soundex",
+    "nasm",
+    "datamash",
+    "lzip",
+    "racket",
     "libatomic_ops",
     "bdw-gc",
     "ecl",
     "maxima",
-    "x264",
-    "bisonpp",
-    "nitro",
-    "pcre2",
-    "gengetopt",
-    "libunistring",
-    "fann2",
-    "mpir",
-    "mpfr",
-    "mpfi",
-    "libgap",
-    "mpc",
-    "symengine",
-    "yaml",
-    "racket",
-    "vlfeat",
-    "ctags",
-    "reaper",
+    "xz",
     "rapidjson",
     "brotli",
-    "giflib",
-    "csa",
-    "gridutils",
-    "gridgen",
-    "lz4-c",
-    "freexl",
-    "snappy",
-    "snzip",
-    "leveldb",
-    "ghostscript",
-    "double-conversion",
-    "llvmdev",
-    "libosxunwind",
-    "symmetrica",
-    "libgpuarray",
-    "qd",
-    "fplll",
-    "graphite2",
-    "expat",
-    "udunits2",
-    "perl-xml-parser",
-    "dbus",
-    "sparsehash",
-    "laz-perf",
-    "tini",
-    "jbig",
-    "inotify-tools",
+    "glog",
+    "bisonpp",
+    "nitro",
+    "chrpath",
+    "consul",
+    "openblas",
+    "optpp",
+    "jags",
+    "dsdp",
+    "harminv",
+    "xtensor-blas",
+    "superlu",
+    "suitesparse",
+    "scalapack",
+    "iml",
+    "hypre",
+    "hmat-oss",
+    "gsl",
+    "coincbc",
+    "arpack",
+    "armadillo",
+    "adept",
+    "nauty",
+    "srm",
+    "gosu",
+    "libntlm",
+    "cpulimit",
     "openssl",
     "mysql-connector-c",
     "socat",
@@ -285,12 +224,15 @@
     "lcalc",
     "libevent",
     "tmux",
-    "curl",
-    "ldc",
-    "cfitsio",
-    "chealpix",
-    "ccfits",
-    "healpix_cxx",
+    "libgfortran",
+    "lp_solve",
+    "iperf",
+    "tini",
+    "gengetopt",
+    "planarity",
+    "cppcheck",
+    "libglu",
+    "rhash",
     "cmake",
     "tsl_hopscotch_map",
     "tsl_robin_map",
@@ -301,21 +243,18 @@
     "hydrotrend",
     "child",
     "ldas-tools-cmake",
-    "petsc",
     "zlib",
     "cling",
     "ilmbase",
     "openexr",
     "tk",
     "krb5",
-    "libgsasl",
     "cyrus-sasl",
     "openldap",
     "nds2-client",
     "xapian-core",
     "kyotocabinet",
     "metaio",
-    "ntbtls",
     "libzip",
     "libprotobuf",
     "tokyocabinet",
@@ -327,7 +266,6 @@
     "tbb",
     "embree3",
     "google-cloud-sdk",
-    "slepc",
     "yasm",
     "y_serial",
     "xvfbwrapper",
@@ -343,17 +281,12 @@
     "xorg-libxtst",
     "xorg-libxcursor",
     "xorg-libice",
-    "xorg-libsm",
-    "xorg-libxt",
-    "xorg-libxmu",
-    "xorg-libxaw3d",
     "wincertstore",
     "waf",
     "snakefood",
     "sip",
     "simpletal",
     "scons",
-    "sagemath-db-elliptic-curves",
     "python-snappy",
     "pyreadline",
     "pyke",
@@ -433,7 +366,6 @@
     "pysendfile",
     "twofish",
     "audiogrep",
-    "pyctest",
     "aionotify",
     "typing_extensions",
     "bsddb3",
@@ -464,7 +396,6 @@
     "psutil",
     "buildpy",
     "pyprind",
-    "bjoern",
     "ufal.udpipe-temp",
     "flask-openid",
     "yappi",
@@ -504,7 +435,6 @@
     "markupsafe",
     "win_unicode_console",
     "jedi",
-    "xeus-python",
     "pickleshare",
     "signac-flow",
     "pyvisa",
@@ -526,7 +456,6 @@
     "tenacity",
     "super_state_machine",
     "singledispatch",
-    "sagemath-db-conway-polynomials",
     "repeated_test",
     "python-monkey-business",
     "pydocstyle",
@@ -673,8 +602,6 @@
     "nidaqmx-python",
     "quaternion",
     "cftime",
-    "petsc4py",
-    "slepc4py",
     "yeadon",
     "xtensor-python",
     "weave",
@@ -700,6 +627,7 @@
     "qutip",
     "pywavelets",
     "python-stratify",
+    "python-blosc",
     "pyspharm",
     "windspharm",
     "pyproj",
@@ -734,7 +662,6 @@
     "pybroom",
     "nlopt",
     "mocsy",
-    "libadjoint",
     "gsw",
     "clusterpy",
     "ciso",
@@ -773,11 +700,11 @@
     "more-itertools",
     "jaraco.functools",
     "pytest",
-    "prompt",
     "faker",
-    "plumpy",
     "chardet",
+    "plumpy",
     "pyrsistent",
+    "prompt",
     "meshpy",
     "scikit-learn",
     "tslearn",
@@ -833,10 +760,6 @@
     "pyomo",
     "python-annoy",
     "pkgconfig",
-    "lz4",
-    "zstd",
-    "tiledb",
-    "tiledb-py",
     "libogg",
     "libvorbis",
     "speex",
@@ -978,7 +901,6 @@
     "asyncpg",
     "asyncpgsa",
     "astropy",
-    "galsim",
     "spherical-geometry",
     "speclite",
     "pyuvdata",
@@ -1120,7 +1042,6 @@
     "anyjson",
     "antlr-python-runtime",
     "altair",
-    "alpenglow",
     "aldjemy",
     "aiohttp",
     "motor",
@@ -1134,17 +1055,16 @@
     "mosh",
     "libssh2",
     "ssh2-python",
-    "librdkafka",
-    "python-confluent-kafka",
-    "pykafka",
     "libpng",
     "sox",
     "pgplot",
-    "wcslib",
     "m4ri",
     "m4rie",
     "libtheora",
     "hdf5",
+    "adios",
+    "openpmd-api",
+    "adios-python",
     "h5utils",
     "moab",
     "kealib",
@@ -1155,33 +1075,20 @@
     "anypytools",
     "flann",
     "freetype",
-    "occt",
     "celiagg",
     "erlang",
     "elfutils",
+    "curl",
+    "pyctest",
+    "ldc",
+    "cfitsio",
+    "chealpix",
+    "ccfits",
+    "wcslib",
+    "healpix_cxx",
+    "sagemath-db-elliptic-curves",
+    "sagemath-db-conway-polynomials",
     "coinmp",
-    "boost-cpp",
-    "helics",
-    "libkml",
-    "valgrind",
-    "source-highlight",
-    "coin3d",
-    "thrift-cpp",
-    "rank_filter",
-    "piranha",
-    "msgpack-c",
-    "brial",
-    "boost",
-    "highfive",
-    "reaktoro",
-    "mlpack",
-    "pyodeint",
-    "pykep",
-    "libobjcryst",
-    "pyobjcryst",
-    "libdiffpy",
-    "casacore",
-    "python-casacore",
     "avro",
     "cyavro",
     "xsimd",
@@ -1191,11 +1098,8 @@
     "rxcpp",
     "pcre",
     "zsh",
-    "czmq",
     "textadapter",
     "swig",
-    "ldas-tools-al",
-    "ldas-tools-framecpp",
     "libmed",
     "xraylib",
     "simupop",
@@ -1203,8 +1107,9 @@
     "py-fann2",
     "mysql",
     "lzo",
-    "squashfs-tools",
     "python-lzo",
+    "pytables",
+    "mdtraj",
     "libjpeg-turbo",
     "zbar",
     "libiconv",
@@ -1222,74 +1127,7 @@
     "spooles",
     "calculix",
     "kubernetes",
-    "libxml2",
-    "clangdev",
-    "libcxx",
-    "lld",
-    "gf2x",
-    "ntl",
-    "libflint",
-    "singular",
-    "pynac",
-    "arb",
-    "python-flint",
-    "eclib",
-    "llvmlite",
-    "numba",
-    "opentsne",
-    "fasttsne",
-    "xarray-extras",
-    "umap-learn",
-    "rvlib",
-    "fastparquet",
-    "uavro",
-    "hoomd",
-    "halide",
-    "uwsgi",
-    "shogun-cpp",
-    "openturns",
-    "otsubsetinverse",
-    "otsvm",
-    "otrobopt",
-    "otpmml",
-    "otmorris",
-    "otmixmod",
-    "otlm",
-    "otfftw",
-    "libxslt",
-    "asciidoc",
-    "postgresql",
-    "psycopg2",
-    "aiida-core",
-    "lxml",
-    "fs.webdavfs",
-    "pyscrap",
-    "spyne",
-    "sphinxcontrib-autodoc_doxygen",
-    "scrapy",
-    "pywps",
-    "publish",
-    "jupyter_contrib_nbextensions",
-    "libhwloc",
-    "pocl",
-    "igraph",
-    "rw",
-    "doconce",
-    "libarchive",
-    "singularity",
-    "python-libarchive-c",
-    "conda-build",
-    "hcephes",
-    "ncephes",
-    "almosthere",
-    "bgen",
-    "obvious-ci",
-    "liknorm",
-    "liknorm-py",
-    "glimix-core",
-    "centrally-managed-conda",
     "gettext",
-    "giac",
     "findutils",
     "git",
     "ffnvcodec-headers",
@@ -1371,8 +1209,6 @@
     "git-secret",
     "libflac",
     "libsndfile",
-    "xorg-libxpm",
-    "xorg-libxaw",
     "w3m",
     "supervisor",
     "superlance",
@@ -1387,44 +1223,208 @@
     "pymt_sedflux",
     "libmemcached",
     "pylibmc",
-    "libcroco",
     "gstreamer",
     "gst-plugins-base",
     "glibmm",
-    "libxmlpp",
     "dbus-cxx",
-    "fontconfig",
-    "hide_code",
-    "xorg-libxft",
-    "vispy",
-    "cairo",
-    "pycairo",
-    "python-igraph",
-    "giza",
-    "cairocffi",
     "flex",
-    "libdap4",
     "bison",
     "sphinxbase",
     "pocketsphinx",
     "scotch",
-    "mumps",
     "libpcap",
     "mongo-tools",
-    "gobject-introspection",
-    "pygobject",
-    "harfbuzz",
-    "tectonic",
-    "pango",
-    "atk",
     "bc",
     "jpeg",
     "tachyon",
     "qpdf",
-    "xfig",
     "libtiff",
     "libwebp",
-    "vigra",
+    "pillow",
+    "bokeh",
+    "pandas-plink",
+    "bcolz",
+    "imreg_dft",
+    "fresnel",
+    "aggdraw",
+    "wordcloud",
+    "torchvision",
+    "sphinx-nbexamples",
+    "reportlab",
+    "python-spams",
+    "imageio",
+    "videogrep",
+    "constructor",
+    "cmt",
+    "openjpeg",
+    "leptonica",
+    "tesseract",
+    "jasper",
+    "imread",
+    "hdf4",
+    "pyhdf",
+    "libnetcdf",
+    "wgrib2",
+    "netcdf4",
+    "pycovjson",
+    "siphon",
+    "easytest",
+    "cfunits",
+    "cfchecker",
+    "aospy",
+    "libdrs",
+    "libcf",
+    "libcdms",
+    "ecmwf_grib",
+    "python-ecmwf_grib",
+    "eccodes",
+    "pygrib",
+    "cdat-lite",
+    "nappy",
+    "geotiff",
+    "geos",
+    "shapely",
+    "cw-eval",
+    "flatbuffers",
+    "cxxopts",
+    "chemfiles-lib",
+    "ampl-mp",
+    "pynumero_libraries",
+    "cryptopp",
+    "nlohmann_json",
+    "openlibm",
+    "openspecfun",
+    "eigen",
+    "galsim",
+    "libsakura",
+    "alpenglow",
+    "ad3-cpp",
+    "jemalloc",
+    "miktex",
+    "inotify-tools",
+    "libuuid",
+    "xeus",
+    "xwidgets",
+    "xeus-cling",
+    "xeus-python",
+    "czmq",
+    "xorg-libsm",
+    "xorg-libxt",
+    "xorg-libxpm",
+    "xorg-libxmu",
+    "occt",
+    "xorg-libxaw3d",
+    "xorg-libxaw",
+    "xfig",
+    "fig2dev",
+    "c99-to-c89",
+    "fswatch",
+    "libev",
+    "bjoern",
+    "lz4-c",
+    "squashfs-tools",
+    "lz4",
+    "zstd",
+    "tiledb",
+    "tiledb-py",
+    "blis",
+    "binaryen",
+    "graphite2",
+    "libframe",
+    "primesieve",
+    "xxhash",
+    "vlfeat",
+    "symmetrica",
+    "parmetis",
+    "mumps",
+    "ipopt",
+    "pyomo.solvers",
+    "cyipopt",
+    "casadi",
+    "petsc",
+    "slepc",
+    "petsc4py",
+    "slepc4py",
+    "f2c",
+    "libctl",
+    "mpich",
+    "libadjoint",
+    "sed",
+    "icu",
+    "xerces-c",
+    "xerces-c28",
+    "libxml2",
+    "libarchive",
+    "singularity",
+    "python-libarchive-c",
+    "clangdev",
+    "libcxx",
+    "lld",
+    "gf2x",
+    "ntl",
+    "libflint",
+    "singular",
+    "pynac",
+    "arb",
+    "python-flint",
+    "giac",
+    "eclib",
+    "llvmlite",
+    "numba",
+    "opentsne",
+    "fasttsne",
+    "xarray-extras",
+    "umap-learn",
+    "rvlib",
+    "fastparquet",
+    "uavro",
+    "hoomd",
+    "halide",
+    "halide-python",
+    "uwsgi",
+    "shogun-cpp",
+    "libxslt",
+    "asciidoc",
+    "postgresql",
+    "psycopg2",
+    "aiida-core",
+    "odm2api",
+    "odm2rest",
+    "lxml",
+    "fs.webdavfs",
+    "pyscrap",
+    "svglib",
+    "spyne",
+    "wofpy",
+    "sphinxcontrib-autodoc_doxygen",
+    "scrapy",
+    "pywps",
+    "publish",
+    "jupyter_contrib_nbextensions",
+    "libxmlpp",
+    "libspatialite",
+    "libdap4",
+    "libcroco",
+    "igraph",
+    "rw",
+    "doconce",
+    "cdo",
+    "fontconfig",
+    "hide_code",
+    "xorg-libxft",
+    "vispy",
+    "libgd",
+    "py_gd",
+    "nginx",
+    "cairo",
+    "pycairo",
+    "python-igraph",
+    "gobject-introspection",
+    "pygobject",
+    "poppler",
+    "harfbuzz",
+    "tectonic",
+    "pango",
     "r-base",
     "r-bezier",
     "r-rmpi",
@@ -1722,6 +1722,7 @@
     "r-rpart",
     "r-rpart.plot",
     "r-rodbc",
+    "r-rnetcdf",
     "r-rmtstat",
     "r-rlang",
     "r-rvcheck",
@@ -1843,6 +1844,7 @@
     "r-nnet",
     "r-nlp",
     "r-nleqslv",
+    "r-ncdf4",
     "r-naturalsort",
     "r-castor",
     "r-mvtnorm",
@@ -1944,6 +1946,7 @@
     "r-lmtest",
     "r-sp",
     "r-adehabitatma",
+    "r-rgeos",
     "r-splancs",
     "r-raster",
     "r-dismo",
@@ -2245,6 +2248,7 @@
     "r-prettymapr",
     "r-whoami",
     "r-minicran",
+    "r-xtractomatic",
     "r-wikipedir",
     "r-wikidatar",
     "r-waterml",
@@ -2738,6 +2742,7 @@
     "r-solrium",
     "r-ritis",
     "r-robis",
+    "r-rerddap",
     "r-plotly",
     "r-visdat",
     "r-naniar",
@@ -2836,77 +2841,21 @@
     "r-contrast",
     "r-aqp",
     "r-soildb",
-    "pillow",
-    "bokeh",
-    "pandas-plink",
-    "bgen-reader",
-    "imreg_dft",
-    "fresnel",
-    "aggdraw",
-    "halide-python",
-    "wordcloud",
-    "torchvision",
-    "sphinx-nbexamples",
-    "reportlab",
-    "svglib",
-    "rdkit",
-    "python-spams",
-    "imageio",
-    "videogrep",
-    "constructor",
-    "cmt",
-    "cairosvg",
-    "svg42pdf",
-    "openjpeg",
-    "leptonica",
-    "tesseract",
-    "poppler",
-    "libgd",
-    "py_gd",
-    "nginx",
-    "jasper",
-    "imread",
-    "hdf4",
-    "pyhdf",
-    "libnetcdf",
-    "wgrib2",
-    "r-rnetcdf",
-    "r-ncdf4",
-    "r-xtractomatic",
-    "r-rerddap",
-    "netcdf4",
-    "pycovjson",
-    "siphon",
-    "easytest",
-    "cfunits",
-    "cfchecker",
-    "aospy",
-    "libdrs",
-    "libcf",
-    "libcdms",
-    "ecmwf_grib",
-    "python-ecmwf_grib",
-    "eccodes",
-    "pygrib",
-    "python-eccodes",
-    "cdo",
-    "cdat-lite",
-    "nappy",
     "graphviz",
     "pydot",
     "py2cytoscape",
     "python-graphviz",
     "pygraphviz",
     "jonga",
-    "geotiff",
     "gdk-pixbuf",
+    "librsvg",
+    "r-rsvg",
+    "atk",
     "gtk2",
     "r-rggobi",
     "r-rgtk2",
     "qt",
-    "soqt",
     "pyside2",
-    "pivy",
     "simage",
     "qwt",
     "qtkeychain",
@@ -2914,9 +2863,9 @@
     "qca",
     "pyqt",
     "ipyleaflet",
-    "ipypivot",
     "egal",
     "bqplot",
+    "ipypivot",
     "pymeasure",
     "apptools",
     "spyder",
@@ -2938,6 +2887,7 @@
     "orange3-educational",
     "orange3-timeseries",
     "orange3-imageanalytics",
+    "orange3-geo",
     "landlab",
     "compas",
     "gwpy",
@@ -2973,16 +2923,19 @@
     "ipyvolume",
     "hips",
     "scikit-data",
+    "scikit-allel",
     "resonance",
+    "quantecon",
     "pywim",
     "pystan",
+    "pyretis",
     "pymvpa2",
     "pymc3",
     "pymc",
     "pykrige",
-    "pygridgen",
     "pyfai",
     "dioptas",
+    "pyemma",
     "pydl",
     "pyagrum",
     "psyplot",
@@ -2991,6 +2944,7 @@
     "psy-reg",
     "pot",
     "parcels",
+    "oq-engine",
     "omnifit",
     "obspy",
     "obspyck",
@@ -3011,117 +2965,158 @@
     "aipy",
     "geomalgo",
     "galpy",
+    "fretbursts",
     "flopy",
     "fermipy",
     "eqcorrscan",
     "elektronn2",
     "elektronn",
+    "courtana",
+    "cartopy",
+    "psy-maps",
+    "iris",
+    "cube_browser",
     "bluesky",
+    "basemap",
+    "seapy",
+    "pyweed",
+    "pyhum",
     "axelrod",
     "astroplan",
     "assimulo",
     "wxpython",
-    "dose",
-    "librsvg",
-    "r-rsvg",
-    "fig2dev",
-    "geos",
-    "r-rgeos",
-    "shapely",
-    "cw-eval",
-    "odm2api",
     "yodatools",
-    "wofpy",
-    "odm2rest",
-    "orange3-geo",
-    "oq-engine",
-    "libspatialite",
+    "dose",
+    "giza",
+    "cairocffi",
+    "cairosvg",
+    "svg42pdf",
+    "boost-cpp",
+    "fenics",
+    "ldas-tools-al",
+    "ldas-tools-framecpp",
+    "z5py",
+    "helics",
+    "libkml",
     "gdal",
     "pycoalescence",
     "tuiview",
     "rios",
     "python-fmask",
     "fiona",
-    "pygridtools",
-    "cartopy",
-    "psy-maps",
-    "iris",
+    "paegan-transport",
+    "valgrind",
+    "source-highlight",
+    "coin3d",
+    "soqt",
+    "pivy",
+    "thrift-cpp",
+    "rank_filter",
+    "piranha",
+    "pagmo",
+    "openturns",
+    "otsubsetinverse",
+    "otsvm",
+    "otrobopt",
+    "otpmml",
+    "otmorris",
+    "otmixmod",
+    "otlm",
+    "otfftw",
+    "mshr",
+    "msgpack-c",
+    "brial",
+    "boost",
+    "highfive",
+    "reaktoro",
+    "mlpack",
+    "pyodeint",
+    "vigra",
+    "rdkit",
+    "python-eccodes",
     "iris-grib",
-    "cube_browser",
-    "basemap",
-    "seapy",
-    "pyweed",
-    "pyhum",
-    "flatbuffers",
+    "pykep",
+    "pygmo",
+    "libobjcryst",
+    "pyobjcryst",
+    "libdiffpy",
+    "casacore",
+    "python-casacore",
     "arrow-cpp",
     "pyarrow",
     "turbodbc",
     "pymapd",
-    "fenics",
-    "mshr",
-    "cxxopts",
-    "xeus-cling",
-    "chemfiles-lib",
-    "ampl-mp",
-    "pynumero_libraries",
-    "ipopt",
-    "pyomo.solvers",
-    "pagmo",
-    "pygmo",
-    "cyipopt",
-    "casadi",
-    "blosc",
-    "z5py",
-    "adios",
-    "openpmd-api",
-    "adios-python",
-    "pytables",
-    "fretbursts",
     "ibis-framework",
-    "quantecon",
-    "paegan-transport",
-    "mdtraj",
-    "pyretis",
-    "pyemma",
-    "courtana",
-    "bcolz",
-    "scikit-allel",
-    "python-blosc",
+    "csa",
+    "gridutils",
+    "gridgen",
+    "pygridgen",
+    "pygridtools",
+    "geoip",
+    "proj.4",
+    "libsemigroups",
+    "luajit",
+    "patchelf",
+    "conda-build",
+    "hcephes",
+    "ncephes",
+    "almosthere",
+    "bgen",
+    "bgen-reader",
+    "obvious-ci",
+    "liknorm",
+    "liknorm-py",
+    "glimix-core",
+    "centrally-managed-conda",
+    "fdupes",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "libassuan",
+    "libgcrypt",
+    "ntbtls",
+    "libgsasl",
+    "librdkafka",
+    "python-confluent-kafka",
+    "pykafka",
+    "double-conversion",
+    "ragel",
+    "libosxunwind",
+    "sixs",
+    "pthreads-win32",
+    "libhwloc",
+    "pocl",
+    "libsigsegv",
     "hub",
-    "rpfits",
-    "datefudge"
+    "tzcode",
+    "zookeeper-c"
   ],
   "in-pr": [
-    "libidn2",
-    "packmol",
+    "openmp",
+    "freeglut",
+    "snap-cpp",
+    "lua",
+    "isl",
     "openfst",
-    "ocaml",
-    "ocamlbuild",
+    "mesalib",
+    "p11-kit",
+    "geckodriver",
+    "tar",
+    "lapack",
+    "libidn2",
     "pbzip2",
     "perl-unix-processors",
     "perl-sys-cpu",
-    "isl",
+    "gperftools",
+    "mppp",
     "atomsk",
     "fflas-ffpack",
-    "cquadpack",
-    "snap-cpp",
-    "lua",
-    "p11-kit",
-    "lapack",
-    "freeglut",
-    "geckodriver",
-    "tar",
-    "mppp",
-    "lbzip2",
-    "openmp",
-    "gperftools",
-    "mesalib",
+    "packmol",
+    "ocaml",
+    "ocamlbuild",
     "sstp-client",
     "sdsl-lite",
     "fmilib",
-    "oommf",
-    "swi-prolog",
-    "aws-sdk-cpp",
     "nss",
     "sdl2",
     "sdl2_net",
@@ -3135,6 +3130,7 @@
     "whitebox_tools",
     "static",
     "python-leveldb",
+    "python-ldap",
     "jsonnet",
     "wfastcgi",
     "pocketsphinx-python",
@@ -3161,7 +3157,6 @@
     "trottersuzuki",
     "piqs",
     "pyxdameraulevenshtein",
-    "python-primesieve",
     "pygeobase",
     "pydstool",
     "pybufr-ecmwf",
@@ -3210,11 +3205,9 @@
     "deepgraph",
     "dawg",
     "datashape",
-    "libsemigroups-python-bindings",
     "cssutils",
     "cld2-cffi",
     "chartkick",
-    "cassandra-driver",
     "pyutilsnrw",
     "bcdoc",
     "sncosmo",
@@ -3252,12 +3245,9 @@
     "nb_anacondacloud",
     "multineat",
     "aiopeewee",
-    "pigz",
     "lynx",
     "lua-luaposix",
-    "mpb",
     "libmatio",
-    "hyperion-fortran",
     "hdfeos5",
     "msprime",
     "westpa",
@@ -3265,52 +3255,27 @@
     "pyflann",
     "cyflann",
     "sdl2_ttf",
-    "netgen",
     "environment-modules",
-    "pcl",
-    "trilinos",
-    "clsparse",
-    "clfft",
-    "clblas",
-    "cryptominisat",
-    "cgal",
-    "zwatershed",
-    "openmesh",
-    "libcmaes",
-    "avrocpp",
+    "swi-prolog",
+    "aws-sdk-cpp",
+    "oommf",
     "yajl",
     "tetgen",
     "scikit-build",
-    "pyranha",
-    "pyopcode",
     "the_silver_searcher",
-    "ldas-tools-filters",
     "lal",
     "lalpulsar",
     "lalmetaio",
     "openmeeg",
-    "fmipp",
     "swiglpk",
     "m2crypto",
     "marray",
+    "msmbuilder",
+    "mdsrv",
     "lzfse",
-    "julia",
-    "gnupg",
     "kubernetes-federation",
-    "mdsplus",
-    "lalxml",
-    "libhdfs3",
-    "flang",
-    "scikit-cycling",
-    "lldb",
-    "lightgbm",
-    "compiler-rt",
-    "shogun",
-    "lighttpd",
-    "fludashboard",
     "libidn11",
-    "conda-testenv",
-    "limix-inference",
+    "newt",
     "terraform-provider-http",
     "terraform-provider-logicmonitor",
     "terraform-provider-dyn",
@@ -3318,34 +3283,16 @@
     "terraform-provider-clc",
     "lftp",
     "gnutls",
-    "libsecret",
-    "squash",
-    "cyclus",
-    "texlive-core",
-    "louvain",
-    "cairomm",
     "miller",
     "iverilog",
     "fltk",
     "u3d",
-    "openmotif",
     "sdl2_image",
-    "r-hypergea",
-    "r-rserve",
-    "r-rjava",
-    "r-rcppgsl",
-    "r-gsl",
-    "r-openimager",
-    "r-openmx",
-    "r-rstan",
-    "r-quanteda",
-    "r-rgl",
     "pyautogui",
     "asciimatics",
     "ipywe",
     "girder",
     "libitk",
-    "vtk",
     "vmd-python",
     "dummydata",
     "sisl",
@@ -3355,9 +3302,48 @@
     "dxchange",
     "netcdf-fortran",
     "netcdf-cxx4",
-    "r-gribr",
-    "magics",
     "hdfeos2",
+    "glew",
+    "gdcm",
+    "dlib",
+    "cotire",
+    "capnproto",
+    "backward-cpp",
+    "cquadpack",
+    "netgen",
+    "cassandra-driver",
+    "python-primesieve",
+    "opty",
+    "mpb",
+    "hyperion-fortran",
+    "mdsplus",
+    "lalxml",
+    "flang",
+    "scikit-cycling",
+    "lldb",
+    "lightgbm",
+    "compiler-rt",
+    "vtk",
+    "shogun",
+    "lighttpd",
+    "fludashboard",
+    "openmotif",
+    "texlive-core",
+    "louvain",
+    "r-hypergea",
+    "r-rserve",
+    "r-rjava",
+    "r-rcppgsl",
+    "r-gribr",
+    "r-gsl",
+    "r-openimager",
+    "r-openmx",
+    "r-rstan",
+    "r-quanteda",
+    "r-fpp2",
+    "r-rgl",
+    "r-probably",
+    "imagemagick",
     "r-cairodevice",
     "qtwebkit",
     "qtlocation",
@@ -3365,6 +3351,7 @@
     "pyside",
     "veusz",
     "iris-ued",
+    "vitables",
     "qt_binder",
     "asap",
     "colicoords",
@@ -3372,17 +3359,17 @@
     "cis_interface",
     "compas_fab",
     "salvus_mesher_lite",
-    "ovito",
+    "sfepy",
     "rnatools",
     "coolprop",
-    "alps",
     "somoclu",
     "skan",
     "scikit-beam",
+    "tyssue",
     "scikit-bio",
     "pygypsy",
+    "pycalphad",
     "pybinding",
-    "otagrum",
     "openmc",
     "gmprocess",
     "nipype",
@@ -3399,57 +3386,71 @@
     "gptools",
     "gala",
     "fbprophet",
+    "dipy",
     "control",
+    "lagranto",
+    "cis",
+    "agg-regrid",
     "xpdsim",
+    "ocw",
     "arm_pyart",
     "instaseis",
     "glue-core",
     "enaml",
-    "gnuplot",
+    "mss",
     "hachoir-wx",
-    "imagemagick",
-    "glew",
+    "gnuplot",
+    "cairomm",
+    "ldas-tools-filters",
     "postgis",
     "gmt",
-    "lagranto",
-    "cis",
-    "agg-regrid",
-    "ocw",
-    "mss",
-    "gdcm",
-    "xlntpyarrow",
-    "dlib",
-    "dionysus",
-    "cotire",
-    "capnproto",
-    "backward-cpp",
-    "pygmo_plugins_nonfree",
-    "pycalphad",
-    "opty",
-    "sfepy",
-    "vitables",
-    "tyssue",
+    "pcl",
+    "trilinos",
+    "clsparse",
+    "clfft",
+    "clblas",
+    "cryptominisat",
     "pyne",
-    "msmbuilder",
-    "mdsrv",
-    "dipy"
+    "otagrum",
+    "dionysus",
+    "cyclus",
+    "cgal",
+    "ovito",
+    "fmipp",
+    "alps",
+    "zwatershed",
+    "pyranha",
+    "pyopcode",
+    "pygmo_plugins_nonfree",
+    "openmesh",
+    "magics",
+    "libcmaes",
+    "avrocpp",
+    "xlntpyarrow",
+    "libsemigroups-python-bindings",
+    "conda-testenv",
+    "limix-inference",
+    "lbzip2",
+    "libsecret",
+    "gnupg",
+    "libhdfs3",
+    "squash",
+    "julia",
+    "pigz"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "flock",
-    "multinest",
-    "mpg123",
     "fasttext",
-    "libunwind",
     "libva",
     "cmrt",
     "intel-hybrid-driver",
     "intel-vaapi-driver",
     "libva-utils",
+    "libunwind",
+    "flock",
     "lua-luafilesystem",
     "pypy3.5",
     "xorg-libxcb",
-    "simbody",
     "debtcollector",
     "ispyb",
     "tensorflow",
@@ -3457,10 +3458,8 @@
     "onnx-caffe2",
     "shade",
     "kaldi",
-    "oommfc",
     "django-libsass",
     "craftr",
-    "pyicu",
     "cwltool",
     "scattertext",
     "textract",
@@ -3468,42 +3467,57 @@
     "ansible",
     "lmod",
     "gpflow",
-    "pymeep",
     "keras",
     "megaman",
-    "audi",
-    "gudhi",
-    "pyaudi",
-    "kafkacat",
+    "oommfc",
     "lalsimulation",
-    "lalframe",
-    "lalinspiral",
-    "libcxxwrap-julia",
-    "hdfs3",
-    "linbox",
-    "inline-html",
-    "premailer",
-    "airflow",
     "sdl2_mixer",
-    "yaafe",
-    "git-annex",
-    "cycamore",
-    "modsecurity",
-    "pymodsecurity",
     "ffmpeg",
     "ffpyplayer",
     "audioread",
     "aubio",
+    "av",
+    "siesta",
+    "libdrs_f",
+    "cdtime",
+    "kivy",
+    "chemfiles-python",
+    "pycapnp",
+    "simbody",
     "gmsh",
+    "mpg123",
+    "yaafe",
+    "pymeep",
+    "multinest",
+    "vic",
+    "esmf",
+    "esmpy",
+    "xesmf",
+    "nco",
+    "pynco",
+    "pyaxiom",
+    "cdms2",
+    "cmor",
+    "genutil",
+    "cdutil",
+    "pyicu",
+    "climlab",
+    "linbox",
+    "blaze",
+    "inline-html",
+    "premailer",
+    "airflow",
+    "emacs",
     "root5",
     "root_numpy",
+    "doxygen",
+    "pytrilinos",
     "r-xlconnectjars",
     "r-xlconnect",
     "r-xlsxjars",
     "r-xlsx",
     "r-hive",
     "r-aws",
-    "r-keyring",
     "r-stm",
     "r-pals",
     "r-bcrocsurface",
@@ -3525,25 +3539,10 @@
     "r-copula",
     "r-clusterr",
     "r-rvaidememoire",
-    "datalad",
-    "av",
-    "smesh",
-    "vic",
-    "climlab",
-    "siesta",
-    "esmf",
-    "esmpy",
-    "xesmf",
-    "libradolan",
-    "nco",
-    "pynco",
-    "pyaxiom",
-    "libdrs_f",
-    "cdtime",
-    "cdms2",
-    "cmor",
-    "genutil",
-    "cdutil",
+    "lemon",
+    "r-magick",
+    "r-multipanelfigure",
+    "r-animation",
     "r-gwidgetsrgtk2",
     "py_entitymatching",
     "pyferret",
@@ -3554,49 +3553,41 @@
     "lalburst",
     "lintel",
     "orange3-text",
-    "sagelib",
-    "sage",
+    "pymks",
     "numcosmo",
     "textacy",
     "tomopy",
     "emperor",
     "pymultinest",
-    "limix",
+    "espei",
+    "mdsynthesis",
     "discretizer",
     "itkwidgets",
     "hyperion",
     "fatiando",
-    "batman",
     "pyfmi",
     "opencv",
     "camelot-py",
+    "tierpsy",
     "cvloop",
     "graphicsmagick",
     "octave",
-    "r-magick",
-    "r-multipanelfigure",
-    "r-animation",
-    "emacs",
-    "kivy",
-    "paraview",
+    "lalframe",
+    "lalinspiral",
     "lalinference",
-    "rsgislib",
     "rapidpy",
-    "pgrouting",
-    "gsshapy",
-    "arcsi",
     "qgis",
+    "nansat",
+    "gsshapy",
     "r-sf",
     "r-rlas",
     "r-tilegramsr",
     "rasterio",
     "landsat_util",
     "datacube",
-    "pdal",
-    "python-pdal",
-    "spdlib",
     "hexer",
     "r-rgdal",
+    "r-rosm",
     "r-pgirmess",
     "r-obistools",
     "r-intamap",
@@ -3607,22 +3598,36 @@
     "pynio",
     "ncl",
     "pyngl",
-    "nansat",
-    "apache-beam",
-    "doxygen",
-    "freecad",
-    "pytrilinos",
-    "lemon",
-    "chemfiles-python",
-    "pycapnp",
-    "caffe",
-    "espei",
-    "tierpsy",
+    "pdal",
+    "python-pdal",
     "cyclus-build-deps",
-    "pymks",
     "xsgen",
-    "mdsynthesis",
-    "blaze"
+    "audi",
+    "batman",
+    "libradolan",
+    "cycamore",
+    "gudhi",
+    "pgrouting",
+    "rsgislib",
+    "sagelib",
+    "sage",
+    "pyaudi",
+    "spdlib",
+    "caffe",
+    "apache-beam",
+    "modsecurity",
+    "pymodsecurity",
+    "limix",
+    "r-keyring",
+    "hdfs3",
+    "git-annex",
+    "datalad",
+    "kafkacat",
+    "paraview",
+    "libcxxwrap-julia",
+    "arcsi",
+    "smesh",
+    "freecad"
   ],
   "_feedstock_status": {
     "ad3-cpp": {
@@ -4020,7 +4025,7 @@
       "pr_url": "https://github.com/conda-forge/auditwheel-feedstock/pull/17"
     },
     "autoconf": {
-      "num_descendants": 3360,
+      "num_descendants": 3365,
       "immediate_children": [
         "asciidoc",
         "automake",
@@ -4036,7 +4041,7 @@
       "pr_url": "https://github.com/conda-forge/autoconf-feedstock/pull/20"
     },
     "automake": {
-      "num_descendants": 3358,
+      "num_descendants": 3363,
       "immediate_children": [
         "cppunit",
         "findutils",
@@ -4246,7 +4251,7 @@
       "pr_url": "https://github.com/conda-forge/biopython-feedstock/pull/12"
     },
     "bison": {
-      "num_descendants": 1788,
+      "num_descendants": 1791,
       "immediate_children": [
         "doxygen",
         "gobject-introspection",
@@ -4374,7 +4379,7 @@
       "pr_url": "https://github.com/conda-forge/boost-feedstock/pull/64"
     },
     "boost-cpp": {
-      "num_descendants": 161,
+      "num_descendants": 162,
       "immediate_children": [
         "arrow-cpp",
         "audi",
@@ -4470,7 +4475,7 @@
       "immediate_children": []
     },
     "cairo": {
-      "num_descendants": 1778,
+      "num_descendants": 1781,
       "immediate_children": [
         "cairocffi",
         "cairomm",
@@ -4653,7 +4658,7 @@
       "pr_url": "https://github.com/conda-forge/centrally-managed-conda-feedstock/pull/6"
     },
     "certifi": {
-      "num_descendants": 2952,
+      "num_descendants": 2956,
       "immediate_children": [
         "docker-compose",
         "dulwich",
@@ -4885,7 +4890,7 @@
       "pr_url": "https://github.com/conda-forge/clusterpy-feedstock/pull/7"
     },
     "cmake": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "alps",
         "ampl-mp",
@@ -5263,7 +5268,7 @@
       "pr_url": "https://github.com/conda-forge/curio-feedstock/pull/5"
     },
     "curl": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "aws-sdk-cpp",
         "cfitsio",
@@ -5368,7 +5373,7 @@
       "pr_url": "https://github.com/conda-forge/cypari2-feedstock/pull/12"
     },
     "cyrus-sasl": {
-      "num_descendants": 5,
+      "num_descendants": 6,
       "immediate_children": [
         "nds2-client",
         "openldap",
@@ -6173,7 +6178,7 @@
       "pr_url": "https://github.com/conda-forge/eventlet-feedstock/pull/11"
     },
     "expat": {
-      "num_descendants": 3355,
+      "num_descendants": 3360,
       "immediate_children": [
         "cmake",
         "dbus",
@@ -6477,7 +6482,7 @@
       "pr_url": "https://github.com/conda-forge/flatbuffers-feedstock/pull/12"
     },
     "flex": {
-      "num_descendants": 1793,
+      "num_descendants": 1796,
       "immediate_children": [
         "bc",
         "bison",
@@ -6542,7 +6547,7 @@
       "pr_url": "https://github.com/conda-forge/flup-feedstock/pull/2"
     },
     "fontconfig": {
-      "num_descendants": 1789,
+      "num_descendants": 1792,
       "immediate_children": [
         "cairo",
         "gtk2",
@@ -6592,7 +6597,7 @@
       "pr_url": "https://github.com/conda-forge/freetds-feedstock/pull/9"
     },
     "freetype": {
-      "num_descendants": 1832,
+      "num_descendants": 1835,
       "immediate_children": [
         "aggdraw",
         "cairo",
@@ -6631,7 +6636,7 @@
       "pr_url": "https://github.com/conda-forge/freetype-feedstock/pull/24"
     },
     "freexl": {
-      "num_descendants": 40,
+      "num_descendants": 41,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -6880,7 +6885,7 @@
       "pr_url": "https://github.com/conda-forge/george-feedstock/pull/5"
     },
     "geos": {
-      "num_descendants": 64,
+      "num_descendants": 65,
       "immediate_children": [
         "basemap",
         "cartopy",
@@ -6898,7 +6903,7 @@
       "pr_url": "https://github.com/conda-forge/geos-feedstock/pull/34"
     },
     "geotiff": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -6907,7 +6912,7 @@
       "pr_url": "https://github.com/conda-forge/geotiff-feedstock/pull/6"
     },
     "gettext": {
-      "num_descendants": 1911,
+      "num_descendants": 1915,
       "immediate_children": [
         "cyclus",
         "cyclus-build-deps",
@@ -6924,6 +6929,7 @@
         "lftp",
         "libflac",
         "mono",
+        "newt",
         "postgis",
         "ruby",
         "supervisor",
@@ -6988,7 +6994,7 @@
       "pr_url": "https://github.com/conda-forge/giac-feedstock/pull/7"
     },
     "giflib": {
-      "num_descendants": 68,
+      "num_descendants": 69,
       "immediate_children": [
         "bob.io.image",
         "emacs",
@@ -7053,7 +7059,7 @@
       "pr_url": "https://github.com/conda-forge/glew-feedstock/pull/8"
     },
     "glib": {
-      "num_descendants": 1798,
+      "num_descendants": 1801,
       "immediate_children": [
         "atk",
         "cairo",
@@ -7133,7 +7139,7 @@
       "pr_url": "https://github.com/conda-forge/glue-core-feedstock/pull/22"
     },
     "gmp": {
-      "num_descendants": 1614,
+      "num_descendants": 1617,
       "immediate_children": [
         "arb",
         "bqplot",
@@ -7260,7 +7266,7 @@
       "pr_url": "https://github.com/conda-forge/go-feedstock/pull/33"
     },
     "gobject-introspection": {
-      "num_descendants": 1765,
+      "num_descendants": 1768,
       "immediate_children": [
         "atk",
         "gdk-pixbuf",
@@ -7317,7 +7323,7 @@
       "pr_url": "https://github.com/conda-forge/graph-feedstock/pull/3"
     },
     "graphite2": {
-      "num_descendants": 1740,
+      "num_descendants": 1743,
       "immediate_children": [
         "gtk2",
         "harfbuzz",
@@ -7378,7 +7384,7 @@
       "pr_url": "https://github.com/conda-forge/gsd-feedstock/pull/11"
     },
     "gsl": {
-      "num_descendants": 1510,
+      "num_descendants": 1513,
       "immediate_children": [
         "brian2",
         "cvxopt",
@@ -7566,7 +7572,7 @@
       "pr_url": "https://github.com/conda-forge/happybase-feedstock/pull/11"
     },
     "harfbuzz": {
-      "num_descendants": 1739,
+      "num_descendants": 1742,
       "immediate_children": [
         "gtk2",
         "opencv",
@@ -7588,7 +7594,7 @@
       "pr_url": "https://github.com/conda-forge/hdbscan-feedstock/pull/23"
     },
     "hdf4": {
-      "num_descendants": 118,
+      "num_descendants": 119,
       "immediate_children": [
         "gdal",
         "hdfeos2",
@@ -7602,7 +7608,7 @@
       "pr_url": "https://github.com/conda-forge/hdf4-feedstock/pull/23"
     },
     "hdf5": {
-      "num_descendants": 257,
+      "num_descendants": 258,
       "immediate_children": [
         "adios",
         "alps",
@@ -7710,7 +7716,7 @@
       "pr_url": "https://github.com/conda-forge/heapdict-feedstock/pull/3"
     },
     "help2man": {
-      "num_descendants": 3358,
+      "num_descendants": 3363,
       "immediate_children": [
         "flex",
         "libtool"
@@ -7828,7 +7834,7 @@
       "pr_url": "https://github.com/conda-forge/ibis-framework-feedstock/pull/24"
     },
     "icu": {
-      "num_descendants": 1985,
+      "num_descendants": 1988,
       "immediate_children": [
         "alps",
         "boost-cpp",
@@ -8271,7 +8277,7 @@
       "pr_url": "https://github.com/conda-forge/jobtastic-feedstock/pull/2"
     },
     "jpeg": {
-      "num_descendants": 1869,
+      "num_descendants": 1872,
       "immediate_children": [
         "bob.io.image",
         "dlib",
@@ -8343,7 +8349,7 @@
       "pr_url": "https://github.com/conda-forge/jsmin-feedstock/pull/5"
     },
     "json-c": {
-      "num_descendants": 41,
+      "num_descendants": 42,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -8493,7 +8499,7 @@
       "pr_url": "https://github.com/conda-forge/kapteyn-feedstock/pull/7"
     },
     "kealib": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -8542,7 +8548,7 @@
       "pr_url": "https://github.com/conda-forge/knit-feedstock/pull/3"
     },
     "krb5": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "curl",
         "cyrus-sasl",
@@ -8690,7 +8696,7 @@
       "pr_url": "https://github.com/conda-forge/libcroco-feedstock/pull/2"
     },
     "libdap4": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal"
@@ -8725,7 +8731,7 @@
       ]
     },
     "libedit": {
-      "num_descendants": 3346,
+      "num_descendants": 3351,
       "immediate_children": [
         "krb5",
         "ldc",
@@ -8752,7 +8758,7 @@
       "pr_url": "https://github.com/conda-forge/libevent-feedstock/pull/6"
     },
     "libffi": {
-      "num_descendants": 3181,
+      "num_descendants": 3186,
       "immediate_children": [
         "cffi",
         "gdk-pixbuf",
@@ -8855,7 +8861,7 @@
       "pr_url": "https://github.com/conda-forge/libhwloc-feedstock/pull/14"
     },
     "libiconv": {
-      "num_descendants": 2065,
+      "num_descendants": 2069,
       "immediate_children": [
         "doxygen",
         "ffmpeg",
@@ -8900,7 +8906,7 @@
       "pr_url": "https://github.com/conda-forge/libitk-feedstock/pull/20"
     },
     "libjpeg-turbo": {
-      "num_descendants": 1476,
+      "num_descendants": 1479,
       "immediate_children": [
         "r-base",
         "zbar"
@@ -8908,7 +8914,7 @@
       "pr_url": "https://github.com/conda-forge/libjpeg-turbo-feedstock/pull/7"
     },
     "libkml": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -8947,7 +8953,7 @@
       "pr_url": "https://github.com/conda-forge/libmo_unpack-feedstock/pull/12"
     },
     "libnetcdf": {
-      "num_descendants": 115,
+      "num_descendants": 116,
       "immediate_children": [
         "cdat-lite",
         "cdo",
@@ -8980,7 +8986,7 @@
       "pr_url": "https://github.com/conda-forge/libnetcdf-feedstock/pull/58"
     },
     "libntlm": {
-      "num_descendants": 15,
+      "num_descendants": 16,
       "immediate_children": [
         "cyrus-sasl",
         "libgsasl",
@@ -9011,7 +9017,7 @@
       "pr_url": "https://github.com/conda-forge/libpcap-feedstock/pull/4"
     },
     "libpng": {
-      "num_descendants": 1877,
+      "num_descendants": 1881,
       "immediate_children": [
         "bob.io.image",
         "brial",
@@ -9144,7 +9150,7 @@
       "pr_url": "https://github.com/conda-forge/libsigcpp-feedstock/pull/14"
     },
     "libsndfile": {
-      "num_descendants": 1478,
+      "num_descendants": 1481,
       "immediate_children": [
         "fluidsynth",
         "octave",
@@ -9172,7 +9178,7 @@
       "pr_url": "https://github.com/conda-forge/libspatialindex-feedstock/pull/16"
     },
     "libspatialite": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -9181,7 +9187,7 @@
       "pr_url": "https://github.com/conda-forge/libspatialite-feedstock/pull/33"
     },
     "libssh2": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "curl",
         "libgit2",
@@ -9201,7 +9207,7 @@
       "pr_url": "https://github.com/conda-forge/libtheora-feedstock/pull/9"
     },
     "libtiff": {
-      "num_descendants": 1815,
+      "num_descendants": 1818,
       "immediate_children": [
         "bob.io.image",
         "emacs",
@@ -9233,7 +9239,7 @@
       "pr_url": "https://github.com/conda-forge/libtiff-feedstock/pull/33"
     },
     "libtool": {
-      "num_descendants": 3357,
+      "num_descendants": 3362,
       "immediate_children": [
         "brial",
         "cppunit",
@@ -9266,7 +9272,7 @@
       ]
     },
     "libuuid": {
-      "num_descendants": 1823,
+      "num_descendants": 1826,
       "immediate_children": [
         "czmq",
         "fontconfig",
@@ -9283,14 +9289,14 @@
       "pr_url": "https://github.com/conda-forge/libuuid-feedstock/pull/18"
     },
     "libuv": {
-      "num_descendants": 3346,
+      "num_descendants": 3351,
       "immediate_children": [
         "cmake"
       ],
       "pr_url": "https://github.com/conda-forge/libuv-feedstock/pull/15"
     },
     "libxcb": {
-      "num_descendants": 1824,
+      "num_descendants": 1827,
       "immediate_children": [
         "cairo",
         "graphviz",
@@ -9301,7 +9307,7 @@
       "pr_url": "https://github.com/conda-forge/libxcb-feedstock/pull/12"
     },
     "libxml2": {
-      "num_descendants": 1900,
+      "num_descendants": 1903,
       "immediate_children": [
         "asciidoc",
         "cdo",
@@ -9357,7 +9363,7 @@
       "pr_url": "https://github.com/conda-forge/libxmlpp-feedstock/pull/8"
     },
     "libxslt": {
-      "num_descendants": 98,
+      "num_descendants": 99,
       "immediate_children": [
         "asciidoc",
         "doconce",
@@ -9590,7 +9596,7 @@
       "pr_url": "https://github.com/conda-forge/m2w64-muparser-feedstock/pull/2"
     },
     "m4": {
-      "num_descendants": 3363,
+      "num_descendants": 3368,
       "immediate_children": [
         "autoconf",
         "automake",
@@ -9651,7 +9657,7 @@
       "pr_url": "https://github.com/conda-forge/mahotas-feedstock/pull/21"
     },
     "make": {
-      "num_descendants": 3386,
+      "num_descendants": 3391,
       "immediate_children": [
         "bzip2",
         "camb",
@@ -10213,7 +10219,7 @@
       "pr_url": "https://github.com/conda-forge/mpfi-feedstock/pull/6"
     },
     "mpfr": {
-      "num_descendants": 1540,
+      "num_descendants": 1543,
       "immediate_children": [
         "arb",
         "cgal",
@@ -10286,7 +10292,7 @@
       "pr_url": "https://github.com/conda-forge/mpifft4py-feedstock/pull/6"
     },
     "mpir": {
-      "num_descendants": 1541,
+      "num_descendants": 1544,
       "immediate_children": [
         "gmpy2",
         "mpc",
@@ -10538,7 +10544,7 @@
       ]
     },
     "ncurses": {
-      "num_descendants": 3365,
+      "num_descendants": 3370,
       "immediate_children": [
         "almosthere",
         "bash",
@@ -10689,7 +10695,7 @@
       "pr_url": "https://github.com/conda-forge/nginx-feedstock/pull/15"
     },
     "ninja": {
-      "num_descendants": 1814,
+      "num_descendants": 1817,
       "immediate_children": [
         "craftr",
         "fribidi",
@@ -10762,7 +10768,7 @@
       "pr_url": "https://github.com/conda-forge/nodejs-feedstock/pull/48"
     },
     "nose": {
-      "num_descendants": 1765,
+      "num_descendants": 1768,
       "immediate_children": [
         "caffe",
         "case",
@@ -11494,7 +11500,7 @@
       "pr_url": "https://github.com/conda-forge/omnifit-feedstock/pull/2"
     },
     "oniguruma": {
-      "num_descendants": 4,
+      "num_descendants": 5,
       "immediate_children": [
         "jq",
         "slang"
@@ -11541,7 +11547,7 @@
       "pr_url": "https://github.com/conda-forge/opbeat-feedstock/pull/8"
     },
     "openblas": {
-      "num_descendants": 2185,
+      "num_descendants": 2188,
       "immediate_children": [
         "adept",
         "alps",
@@ -11650,7 +11656,7 @@
       "pr_url": "https://github.com/conda-forge/openh264-feedstock/pull/4"
     },
     "openjpeg": {
-      "num_descendants": 46,
+      "num_descendants": 47,
       "immediate_children": [
         "gdal",
         "imagemagick",
@@ -11707,7 +11713,7 @@
       "pr_url": "https://github.com/conda-forge/openspecfun-feedstock/pull/4"
     },
     "openssl": {
-      "num_descendants": 3354,
+      "num_descendants": 3359,
       "immediate_children": [
         "aws-sdk-cpp",
         "cryptography",
@@ -12107,7 +12113,7 @@
       "pr_url": "https://github.com/conda-forge/pangaea-feedstock/pull/4"
     },
     "pango": {
-      "num_descendants": 1737,
+      "num_descendants": 1740,
       "immediate_children": [
         "gnuplot",
         "graphviz",
@@ -12235,7 +12241,7 @@
       "pr_url": "https://github.com/conda-forge/pbzip2-feedstock/pull/4"
     },
     "pcre": {
-      "num_descendants": 1854,
+      "num_descendants": 1858,
       "immediate_children": [
         "cyclus",
         "cyclus-build-deps",
@@ -12305,7 +12311,7 @@
       "pr_url": "https://github.com/conda-forge/pep257-feedstock/pull/7"
     },
     "perl": {
-      "num_descendants": 3374,
+      "num_descendants": 3379,
       "immediate_children": [
         "autoconf",
         "automake",
@@ -12473,7 +12479,7 @@
       "pr_url": "https://github.com/conda-forge/pillow-feedstock/pull/52"
     },
     "pip": {
-      "num_descendants": 2834,
+      "num_descendants": 2838,
       "immediate_children": [
         "adaptive",
         "aggdraw",
@@ -13125,6 +13131,7 @@
         "python-igraph",
         "python-kubernetes",
         "python-language-server",
+        "python-ldap",
         "python-ligo-lw",
         "python-lmdb",
         "python-lzo",
@@ -13364,7 +13371,7 @@
       "pr_url": "https://github.com/conda-forge/piranha-feedstock/pull/16"
     },
     "pixman": {
-      "num_descendants": 1779,
+      "num_descendants": 1782,
       "immediate_children": [
         "cairo",
         "gtk2",
@@ -13375,7 +13382,7 @@
       "pr_url": "https://github.com/conda-forge/pixman-feedstock/pull/12"
     },
     "pkg-config": {
-      "num_descendants": 3370,
+      "num_descendants": 3375,
       "immediate_children": [
         "bob.ap",
         "bob.blitz",
@@ -13437,7 +13444,7 @@
       "pr_url": "https://github.com/conda-forge/pkg-config-feedstock/pull/23"
     },
     "pkgconfig": {
-      "num_descendants": 1591,
+      "num_descendants": 1594,
       "immediate_children": [
         "coinmp",
         "dlib",
@@ -13493,7 +13500,7 @@
       "pr_url": "https://github.com/conda-forge/pony-feedstock/pull/7"
     },
     "poppler": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "gdal",
         "libgdal"
@@ -13501,8 +13508,9 @@
       "pr_url": "https://github.com/conda-forge/poppler-feedstock/pull/25"
     },
     "popt": {
-      "num_descendants": 7,
+      "num_descendants": 8,
       "immediate_children": [
+        "newt",
         "rsync"
       ],
       "pr_url": "https://github.com/conda-forge/popt-feedstock/pull/7"
@@ -13520,7 +13528,7 @@
       "pr_url": "https://github.com/conda-forge/postgis-feedstock/pull/15"
     },
     "postgresql": {
-      "num_descendants": 52,
+      "num_descendants": 53,
       "immediate_children": [
         "gdal",
         "libgdal",
@@ -13726,7 +13734,7 @@
       "pr_url": "https://github.com/conda-forge/psyplot-gui-feedstock/pull/6"
     },
     "pthread-stubs": {
-      "num_descendants": 1832,
+      "num_descendants": 1835,
       "immediate_children": [
         "giza",
         "libxcb",
@@ -14763,7 +14771,7 @@
       "pr_url": "https://github.com/conda-forge/pythesint-feedstock/pull/6"
     },
     "python": {
-      "num_descendants": 3089,
+      "num_descendants": 3094,
       "immediate_children": [
         "absl-py",
         "adaptive",
@@ -15499,6 +15507,7 @@
         "neuron",
         "newrelic",
         "newspaper3k",
+        "newt",
         "nidaqmx-python",
         "ninja",
         "ninja_syntax",
@@ -15857,6 +15866,7 @@
         "python-ironicclient",
         "python-kubernetes",
         "python-language-server",
+        "python-ldap",
         "python-leveldb",
         "python-levenshtein",
         "python-libarchive-c",
@@ -16962,7 +16972,7 @@
       "pr_url": "https://github.com/conda-forge/r-ashr-feedstock/pull/2"
     },
     "r-assertthat": {
-      "num_descendants": 315,
+      "num_descendants": 317,
       "immediate_children": [
         "r-ashr",
         "r-bigrquery",
@@ -16995,7 +17005,7 @@
       "pr_url": "https://github.com/conda-forge/r-automap-feedstock/pull/3"
     },
     "r-backports": {
-      "num_descendants": 85,
+      "num_descendants": 86,
       "immediate_children": [
         "r-base64url",
         "r-batchjobs",
@@ -17014,7 +17024,7 @@
       "pr_url": "https://github.com/conda-forge/r-backports-feedstock/pull/4"
     },
     "r-base": {
-      "num_descendants": 1474,
+      "num_descendants": 1477,
       "immediate_children": [
         "r",
         "r-abind",
@@ -17416,6 +17426,7 @@
         "r-formula",
         "r-formula.tools",
         "r-fpc",
+        "r-fpp2",
         "r-fracdiff",
         "r-fs",
         "r-fst",
@@ -17953,6 +17964,7 @@
         "r-prettyunits",
         "r-princurve",
         "r-printr",
+        "r-probably",
         "r-proc",
         "r-processx",
         "r-prodlim",
@@ -18126,6 +18138,7 @@
         "r-rodbc",
         "r-rook",
         "r-rootsolve",
+        "r-rosm",
         "r-rotl",
         "r-roxygen2",
         "r-rpart",
@@ -18578,7 +18591,7 @@
       "pr_url": "https://github.com/conda-forge/r-bestglm-feedstock/pull/4"
     },
     "r-bh": {
-      "num_descendants": 234,
+      "num_descendants": 235,
       "immediate_children": [
         "r-anytime",
         "r-biganalytics",
@@ -18653,14 +18666,14 @@
       "pr_url": "https://github.com/conda-forge/r-bigmemory.sri-feedstock/pull/4"
     },
     "r-bindr": {
-      "num_descendants": 132,
+      "num_descendants": 133,
       "immediate_children": [
         "r-bindrcpp"
       ],
       "pr_url": "https://github.com/conda-forge/r-bindr-feedstock/pull/3"
     },
     "r-bindrcpp": {
-      "num_descendants": 131,
+      "num_descendants": 132,
       "immediate_children": [
         "r-dplyr"
       ],
@@ -18971,7 +18984,7 @@
       "pr_url": "https://github.com/conda-forge/r-classint-feedstock/pull/4"
     },
     "r-cli": {
-      "num_descendants": 287,
+      "num_descendants": 289,
       "immediate_children": [
         "r-devtools",
         "r-landscapemetrics",
@@ -19073,7 +19086,7 @@
       "pr_url": "https://github.com/conda-forge/r-colorramps-feedstock/pull/3"
     },
     "r-colorspace": {
-      "num_descendants": 182,
+      "num_descendants": 184,
       "immediate_children": [
         "r-biclust",
         "r-circlize",
@@ -19177,7 +19190,7 @@
       "pr_url": "https://github.com/conda-forge/r-cowplot-feedstock/pull/8"
     },
     "r-crayon": {
-      "num_descendants": 330,
+      "num_descendants": 332,
       "immediate_children": [
         "r-cli",
         "r-collateral",
@@ -19241,7 +19254,7 @@
       "pr_url": "https://github.com/conda-forge/r-ctv-feedstock/pull/1"
     },
     "r-curl": {
-      "num_descendants": 101,
+      "num_descendants": 103,
       "immediate_children": [
         "r-aws.ec2metadata",
         "r-aws.s3",
@@ -19253,6 +19266,7 @@
         "r-opencpu",
         "r-quantmod",
         "r-rio",
+        "r-rosm",
         "r-rversions",
         "r-ttr",
         "r-usethis",
@@ -19466,7 +19480,7 @@
       "pr_url": "https://github.com/conda-forge/r-diffusionmap-feedstock/pull/2"
     },
     "r-digest": {
-      "num_descendants": 292,
+      "num_descendants": 295,
       "immediate_children": [
         "r-aqp",
         "r-aws.s3",
@@ -19603,7 +19617,7 @@
       "pr_url": "https://github.com/conda-forge/r-downloader-feedstock/pull/3"
     },
     "r-dplyr": {
-      "num_descendants": 130,
+      "num_descendants": 131,
       "immediate_children": [
         "r-alakazam",
         "r-anomalydetection",
@@ -19667,6 +19681,7 @@
         "r-plasmidprofiler",
         "r-plotly",
         "r-pool",
+        "r-probably",
         "r-purrrlyr",
         "r-rccmisc",
         "r-rdrop2",
@@ -20033,10 +20048,11 @@
       "pr_url": "https://github.com/conda-forge/r-foreach-feedstock/pull/3"
     },
     "r-forecast": {
-      "num_descendants": 2,
+      "num_descendants": 3,
       "immediate_children": [
         "r-expsmooth",
-        "r-fma"
+        "r-fma",
+        "r-fpp2"
       ],
       "pr_url": "https://github.com/conda-forge/r-forecast-feedstock/pull/5"
     },
@@ -20087,7 +20103,7 @@
       "pr_url": "https://github.com/conda-forge/r-fpc-feedstock/pull/5"
     },
     "r-fracdiff": {
-      "num_descendants": 3,
+      "num_descendants": 4,
       "immediate_children": [
         "r-forecast"
       ],
@@ -20414,7 +20430,7 @@
       "pr_url": "https://github.com/conda-forge/r-globals-feedstock/pull/6"
     },
     "r-glue": {
-      "num_descendants": 303,
+      "num_descendants": 305,
       "immediate_children": [
         "r-dbplyr",
         "r-diagrammer",
@@ -20607,7 +20623,7 @@
       "pr_url": "https://github.com/conda-forge/r-gsw-feedstock/pull/5"
     },
     "r-gtable": {
-      "num_descendants": 169,
+      "num_descendants": 171,
       "immediate_children": [
         "r-cowplot",
         "r-egg",
@@ -20865,7 +20881,7 @@
       "pr_url": "https://github.com/conda-forge/r-httpuv-feedstock/pull/10"
     },
     "r-httr": {
-      "num_descendants": 50,
+      "num_descendants": 51,
       "immediate_children": [
         "r-aws.s3",
         "r-bigrquery",
@@ -21048,18 +21064,19 @@
       "pr_url": "https://github.com/conda-forge/r-janeaustenr-feedstock/pull/3"
     },
     "r-jpeg": {
-      "num_descendants": 7,
+      "num_descendants": 8,
       "immediate_children": [
         "r-gglogo",
         "r-ggmap",
         "r-openimager",
         "r-readbitmap",
+        "r-rosm",
         "r-yarrr"
       ],
       "pr_url": "https://github.com/conda-forge/r-jpeg-feedstock/pull/3"
     },
     "r-jsonlite": {
-      "num_descendants": 181,
+      "num_descendants": 182,
       "immediate_children": [
         "r-aws.ec2metadata",
         "r-bigrquery",
@@ -21250,7 +21267,7 @@
       "pr_url": "https://github.com/conda-forge/r-ks-feedstock/pull/9"
     },
     "r-labeling": {
-      "num_descendants": 173,
+      "num_descendants": 175,
       "immediate_children": [
         "r-scales"
       ],
@@ -21284,7 +21301,7 @@
       "pr_url": "https://github.com/conda-forge/r-lars-feedstock/pull/2"
     },
     "r-lattice": {
-      "num_descendants": 444,
+      "num_descendants": 447,
       "immediate_children": [
         "r-ape",
         "r-aqp",
@@ -21357,7 +21374,7 @@
       "pr_url": "https://github.com/conda-forge/r-latticeextra-feedstock/pull/2"
     },
     "r-lazyeval": {
-      "num_descendants": 172,
+      "num_descendants": 174,
       "immediate_children": [
         "r-alakazam",
         "r-corrr",
@@ -21460,7 +21477,7 @@
       "pr_url": "https://github.com/conda-forge/r-lmertest-feedstock/pull/7"
     },
     "r-lmtest": {
-      "num_descendants": 15,
+      "num_descendants": 16,
       "immediate_children": [
         "r-aer",
         "r-betareg",
@@ -21557,7 +21574,7 @@
       "pr_url": "https://github.com/conda-forge/r-magic-feedstock/pull/2"
     },
     "r-magrittr": {
-      "num_descendants": 396,
+      "num_descendants": 398,
       "immediate_children": [
         "r-anomalydetection",
         "r-bioset",
@@ -21736,7 +21753,7 @@
       "pr_url": "https://github.com/conda-forge/r-markdown-feedstock/pull/5"
     },
     "r-mass": {
-      "num_descendants": 327,
+      "num_descendants": 329,
       "immediate_children": [
         "r-ade4",
         "r-agricolae",
@@ -21878,7 +21895,7 @@
       "pr_url": "https://github.com/conda-forge/r-matlab-feedstock/pull/3"
     },
     "r-matrix": {
-      "num_descendants": 343,
+      "num_descendants": 345,
       "immediate_children": [
         "r-apcluster",
         "r-arm",
@@ -22045,7 +22062,7 @@
       "pr_url": "https://github.com/conda-forge/r-metarnaseq-feedstock/pull/1"
     },
     "r-mgcv": {
-      "num_descendants": 191,
+      "num_descendants": 193,
       "immediate_children": [
         "r-brms",
         "r-car",
@@ -22073,7 +22090,7 @@
       "pr_url": "https://github.com/conda-forge/r-microbenchmark-feedstock/pull/4"
     },
     "r-mime": {
-      "num_descendants": 162,
+      "num_descendants": 163,
       "immediate_children": [
         "r-crul",
         "r-httr",
@@ -22232,7 +22249,7 @@
       "pr_url": "https://github.com/conda-forge/r-multitaper-feedstock/pull/2"
     },
     "r-munsell": {
-      "num_descendants": 173,
+      "num_descendants": 175,
       "immediate_children": [
         "r-scales"
       ],
@@ -22328,7 +22345,7 @@
       "pr_url": "https://github.com/conda-forge/r-nleqslv-feedstock/pull/4"
     },
     "r-nlme": {
-      "num_descendants": 240,
+      "num_descendants": 242,
       "immediate_children": [
         "r-agricolae",
         "r-ape",
@@ -22377,7 +22394,7 @@
       "pr_url": "https://github.com/conda-forge/r-nmf-feedstock/pull/4"
     },
     "r-nnet": {
-      "num_descendants": 60,
+      "num_descendants": 61,
       "immediate_children": [
         "r-bcrocsurface",
         "r-car",
@@ -22447,7 +22464,7 @@
       "pr_url": "https://github.com/conda-forge/r-oce-feedstock/pull/5"
     },
     "r-openssl": {
-      "num_descendants": 54,
+      "num_descendants": 55,
       "immediate_children": [
         "r-base64",
         "r-httr",
@@ -22588,7 +22605,7 @@
       "pr_url": "https://github.com/conda-forge/r-phonr-feedstock/pull/2"
     },
     "r-pillar": {
-      "num_descendants": 272,
+      "num_descendants": 274,
       "immediate_children": [
         "r-collateral",
         "r-tibble",
@@ -22602,7 +22619,7 @@
       "pr_url": "https://github.com/conda-forge/r-pinfsc50-feedstock/pull/2"
     },
     "r-pkgconfig": {
-      "num_descendants": 187,
+      "num_descendants": 188,
       "immediate_children": [
         "r-dplyr",
         "r-hms",
@@ -22638,7 +22655,7 @@
       "pr_url": "https://github.com/conda-forge/r-plm-feedstock/pull/1"
     },
     "r-plogr": {
-      "num_descendants": 137,
+      "num_descendants": 138,
       "immediate_children": [
         "r-bindrcpp",
         "r-dplyr",
@@ -22681,7 +22698,7 @@
       "pr_url": "https://github.com/conda-forge/r-plumber-feedstock/pull/3"
     },
     "r-plyr": {
-      "num_descendants": 225,
+      "num_descendants": 228,
       "immediate_children": [
         "r-anomalydetection",
         "r-aqp",
@@ -22731,6 +22748,7 @@
         "r-reshape2",
         "r-rfpermute",
         "r-rmr2",
+        "r-rosm",
         "r-satellite",
         "r-shinysky",
         "r-smatr",
@@ -22757,7 +22775,7 @@
       "pr_url": "https://github.com/conda-forge/r-pmcmr-feedstock/pull/4"
     },
     "r-png": {
-      "num_descendants": 17,
+      "num_descendants": 18,
       "immediate_children": [
         "r-d3heatmap",
         "r-ggmap",
@@ -22767,6 +22785,7 @@
         "r-radix",
         "r-readbitmap",
         "r-rgooglemaps",
+        "r-rosm",
         "r-showimage"
       ],
       "pr_url": "https://github.com/conda-forge/r-png-feedstock/pull/3"
@@ -22837,7 +22856,7 @@
       "pr_url": "https://github.com/conda-forge/r-prettyunits-feedstock/pull/3"
     },
     "r-proc": {
-      "num_descendants": 3,
+      "num_descendants": 4,
       "immediate_children": [
         "r-fftrees",
         "r-yardstick"
@@ -22949,7 +22968,7 @@
       "pr_url": "https://github.com/conda-forge/r-ptw-feedstock/pull/2"
     },
     "r-purrr": {
-      "num_descendants": 149,
+      "num_descendants": 150,
       "immediate_children": [
         "r-anomalydetection",
         "r-broom",
@@ -23023,7 +23042,7 @@
       "pr_url": "https://github.com/conda-forge/r-qlcmatrix-feedstock/pull/3"
     },
     "r-quadprog": {
-      "num_descendants": 20,
+      "num_descendants": 21,
       "immediate_children": [
         "r-bb",
         "r-cmls",
@@ -23042,7 +23061,7 @@
       "pr_url": "https://github.com/conda-forge/r-quadprog-feedstock/pull/3"
     },
     "r-quantmod": {
-      "num_descendants": 7,
+      "num_descendants": 8,
       "immediate_children": [
         "r-dmwr",
         "r-essentials",
@@ -23150,7 +23169,7 @@
       "pr_url": "https://github.com/conda-forge/r-r2html-feedstock/pull/4"
     },
     "r-r6": {
-      "num_descendants": 349,
+      "num_descendants": 352,
       "immediate_children": [
         "r-batchtools",
         "r-callr",
@@ -23295,7 +23314,7 @@
       "pr_url": "https://github.com/conda-forge/r-rbokeh-feedstock/pull/2"
     },
     "r-rcolorbrewer": {
-      "num_descendants": 179,
+      "num_descendants": 181,
       "immediate_children": [
         "r-aqp",
         "r-chemospecutils",
@@ -23326,7 +23345,7 @@
       "pr_url": "https://github.com/conda-forge/r-rcolorbrewer-feedstock/pull/2"
     },
     "r-rcpp": {
-      "num_descendants": 510,
+      "num_descendants": 513,
       "immediate_children": [
         "r-ahocorasicktrie",
         "r-alakazam",
@@ -23480,7 +23499,7 @@
       "pr_url": "https://github.com/conda-forge/r-rcpp-feedstock/pull/10"
     },
     "r-rcpparmadillo": {
-      "num_descendants": 30,
+      "num_descendants": 31,
       "immediate_children": [
         "r-anomalydetection",
         "r-bayesm",
@@ -23670,7 +23689,7 @@
       "pr_url": "https://github.com/conda-forge/r-reshape-feedstock/pull/5"
     },
     "r-reshape2": {
-      "num_descendants": 184,
+      "num_descendants": 186,
       "immediate_children": [
         "r-afex",
         "r-bayesplot",
@@ -23730,12 +23749,13 @@
       "pr_url": "https://github.com/conda-forge/r-rfoc-feedstock/pull/3"
     },
     "r-rgdal": {
-      "num_descendants": 7,
+      "num_descendants": 8,
       "immediate_children": [
         "r-gdalutils",
         "r-intamap",
         "r-obistools",
-        "r-pgirmess"
+        "r-pgirmess",
+        "r-rosm"
       ]
     },
     "r-rgexf": {
@@ -23791,13 +23811,14 @@
       "pr_url": "https://github.com/conda-forge/r-rjava-feedstock/pull/5"
     },
     "r-rjson": {
-      "num_descendants": 6,
+      "num_descendants": 7,
       "immediate_children": [
         "r-argparse",
         "r-getoptlong",
         "r-ggmap",
         "r-jmvcore",
-        "r-prettymapr"
+        "r-prettymapr",
+        "r-rosm"
       ],
       "pr_url": "https://github.com/conda-forge/r-rjson-feedstock/pull/3"
     },
@@ -23814,7 +23835,7 @@
       "pr_url": "https://github.com/conda-forge/r-rjsonio-feedstock/pull/3"
     },
     "r-rlang": {
-      "num_descendants": 329,
+      "num_descendants": 331,
       "immediate_children": [
         "r-bayesplot",
         "r-bioset",
@@ -23857,6 +23878,7 @@
         "r-pkgdown",
         "r-pkgload",
         "r-plotly",
+        "r-probably",
         "r-promises",
         "r-purrr",
         "r-recipes",
@@ -24287,7 +24309,7 @@
       "pr_url": "https://github.com/conda-forge/r-satellite-feedstock/pull/2"
     },
     "r-scales": {
-      "num_descendants": 172,
+      "num_descendants": 174,
       "immediate_children": [
         "r-alakazam",
         "r-aqp",
@@ -24601,7 +24623,7 @@
       "pr_url": "https://github.com/conda-forge/r-sourcetools-feedstock/pull/4"
     },
     "r-sp": {
-      "num_descendants": 62,
+      "num_descendants": 63,
       "immediate_children": [
         "r-adehabitatlt",
         "r-adehabitatma",
@@ -24628,6 +24650,7 @@
         "r-rgdal",
         "r-rgeos",
         "r-rlas",
+        "r-rosm",
         "r-soildb",
         "r-spacetime",
         "r-spdep",
@@ -24793,7 +24816,7 @@
       "pr_url": "https://github.com/conda-forge/r-stringdist-feedstock/pull/4"
     },
     "r-stringi": {
-      "num_descendants": 281,
+      "num_descendants": 283,
       "immediate_children": [
         "r-alakazam",
         "r-assertive.strings",
@@ -24826,7 +24849,7 @@
       "pr_url": "https://github.com/conda-forge/r-stringi-feedstock/pull/11"
     },
     "r-stringr": {
-      "num_descendants": 254,
+      "num_descendants": 256,
       "immediate_children": [
         "r-aqp",
         "r-bayesfactor",
@@ -25052,7 +25075,7 @@
       "pr_url": "https://github.com/conda-forge/r-threejs-feedstock/pull/3"
     },
     "r-tibble": {
-      "num_descendants": 271,
+      "num_descendants": 273,
       "immediate_children": [
         "r-anomalydetection",
         "r-apatables",
@@ -25212,7 +25235,7 @@
       "immediate_children": []
     },
     "r-timedate": {
-      "num_descendants": 13,
+      "num_descendants": 14,
       "immediate_children": [
         "r-fbasics",
         "r-forecast",
@@ -25261,7 +25284,7 @@
       "pr_url": "https://github.com/conda-forge/r-truncnorm-feedstock/pull/4"
     },
     "r-tseries": {
-      "num_descendants": 3,
+      "num_descendants": 4,
       "immediate_children": [
         "r-forecast"
       ],
@@ -25273,7 +25296,7 @@
       "pr_url": "https://github.com/conda-forge/r-tsne-feedstock/pull/3"
     },
     "r-ttr": {
-      "num_descendants": 9,
+      "num_descendants": 10,
       "immediate_children": [
         "r-quantmod",
         "r-smoother"
@@ -25306,7 +25329,7 @@
       "pr_url": "https://github.com/conda-forge/r-upsetr-feedstock/pull/3"
     },
     "r-urca": {
-      "num_descendants": 4,
+      "num_descendants": 5,
       "immediate_children": [
         "r-forecast",
         "r-vars"
@@ -25322,7 +25345,7 @@
       "pr_url": "https://github.com/conda-forge/r-urltools-feedstock/pull/5"
     },
     "r-utf8": {
-      "num_descendants": 273,
+      "num_descendants": 275,
       "immediate_children": [
         "r-pillar"
       ],
@@ -25395,7 +25418,7 @@
       "pr_url": "https://github.com/conda-forge/r-viridis-feedstock/pull/4"
     },
     "r-viridislite": {
-      "num_descendants": 174,
+      "num_descendants": 176,
       "immediate_children": [
         "r-ggplot2",
         "r-kableextra",
@@ -25483,7 +25506,7 @@
       "pr_url": "https://github.com/conda-forge/r-wikitaxa-feedstock/pull/3"
     },
     "r-withr": {
-      "num_descendants": 204,
+      "num_descendants": 206,
       "immediate_children": [
         "r-batchtools",
         "r-caret",
@@ -25633,7 +25656,7 @@
       "pr_url": "https://github.com/conda-forge/r-xtractomatic-feedstock/pull/3"
     },
     "r-xts": {
-      "num_descendants": 22,
+      "num_descendants": 23,
       "immediate_children": [
         "r-dmwr",
         "r-dygraphs",
@@ -25670,7 +25693,7 @@
       "pr_url": "https://github.com/conda-forge/r-yaml-feedstock/pull/6"
     },
     "r-zoo": {
-      "num_descendants": 78,
+      "num_descendants": 79,
       "immediate_children": [
         "r-aer",
         "r-changepoint",
@@ -25782,7 +25805,7 @@
       "pr_url": "https://github.com/conda-forge/re2-feedstock/pull/11"
     },
     "readline": {
-      "num_descendants": 3117,
+      "num_descendants": 3122,
       "immediate_children": [
         "bash",
         "casacore",
@@ -26044,7 +26067,7 @@
       "pr_url": "https://github.com/conda-forge/rever-feedstock/pull/15"
     },
     "rhash": {
-      "num_descendants": 3346,
+      "num_descendants": 3351,
       "immediate_children": [
         "cmake"
       ],
@@ -26702,7 +26725,7 @@
       "pr_url": "https://github.com/conda-forge/setproctitle-feedstock/pull/10"
     },
     "setuptools": {
-      "num_descendants": 2951,
+      "num_descendants": 2955,
       "immediate_children": [
         "absl-py",
         "addict",
@@ -28226,7 +28249,7 @@
       "pr_url": "https://github.com/conda-forge/sqlalchemy-feedstock/pull/21"
     },
     "sqlite": {
-      "num_descendants": 3095,
+      "num_descendants": 3100,
       "immediate_children": [
         "apsw",
         "cyclus",
@@ -29216,7 +29239,7 @@
       "pr_url": "https://github.com/conda-forge/wgrib2-feedstock/pull/6"
     },
     "wheel": {
-      "num_descendants": 2835,
+      "num_descendants": 2839,
       "immediate_children": [
         "chemfiles-python",
         "glimix-core",
@@ -29270,7 +29293,7 @@
       "pr_url": "https://github.com/conda-forge/win_unicode_console-feedstock/pull/4"
     },
     "wincertstore": {
-      "num_descendants": 2952,
+      "num_descendants": 2956,
       "immediate_children": [
         "setuptools"
       ],
@@ -29373,7 +29396,7 @@
       "pr_url": "https://github.com/conda-forge/xattr-feedstock/pull/4"
     },
     "xcb-proto": {
-      "num_descendants": 1825,
+      "num_descendants": 1828,
       "immediate_children": [
         "libxcb"
       ],
@@ -29388,7 +29411,7 @@
       "pr_url": "https://github.com/conda-forge/xdg-feedstock/pull/4"
     },
     "xerces-c": {
-      "num_descendants": 41,
+      "num_descendants": 42,
       "immediate_children": [
         "freecad",
         "gdal",
@@ -29525,7 +29548,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-imake-feedstock/pull/3"
     },
     "xorg-inputproto": {
-      "num_descendants": 1823,
+      "num_descendants": 1826,
       "immediate_children": [
         "qt",
         "xorg-libx11",
@@ -29535,7 +29558,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-inputproto-feedstock/pull/6"
     },
     "xorg-kbproto": {
-      "num_descendants": 1823,
+      "num_descendants": 1826,
       "immediate_children": [
         "xorg-libice",
         "xorg-libx11",
@@ -29547,7 +29570,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-kbproto-feedstock/pull/3"
     },
     "xorg-libice": {
-      "num_descendants": 1798,
+      "num_descendants": 1801,
       "immediate_children": [
         "cairo",
         "giza",
@@ -29558,7 +29581,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libice-feedstock/pull/7"
     },
     "xorg-libsm": {
-      "num_descendants": 1797,
+      "num_descendants": 1800,
       "immediate_children": [
         "cairo",
         "giza",
@@ -29571,7 +29594,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libsm-feedstock/pull/9"
     },
     "xorg-libx11": {
-      "num_descendants": 1822,
+      "num_descendants": 1825,
       "immediate_children": [
         "cairo",
         "fig2dev",
@@ -29604,7 +29627,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libx11-feedstock/pull/13"
     },
     "xorg-libxau": {
-      "num_descendants": 1826,
+      "num_descendants": 1829,
       "immediate_children": [
         "graphicsmagick",
         "libxcb",
@@ -29638,7 +29661,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libxcursor-feedstock/pull/7"
     },
     "xorg-libxdmcp": {
-      "num_descendants": 1826,
+      "num_descendants": 1829,
       "immediate_children": [
         "graphicsmagick",
         "libxcb",
@@ -29647,7 +29670,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libxdmcp-feedstock/pull/9"
     },
     "xorg-libxext": {
-      "num_descendants": 1799,
+      "num_descendants": 1802,
       "immediate_children": [
         "cairo",
         "giza",
@@ -29738,7 +29761,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-libxrandr-feedstock/pull/3"
     },
     "xorg-libxrender": {
-      "num_descendants": 1787,
+      "num_descendants": 1790,
       "immediate_children": [
         "cairo",
         "giza",
@@ -29816,7 +29839,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-recordproto-feedstock/pull/4"
     },
     "xorg-renderproto": {
-      "num_descendants": 1788,
+      "num_descendants": 1791,
       "immediate_children": [
         "xorg-libxrandr",
         "xorg-libxrender"
@@ -29839,7 +29862,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-trapproto-feedstock/pull/2"
     },
     "xorg-util-macros": {
-      "num_descendants": 1881,
+      "num_descendants": 1884,
       "immediate_children": [
         "libpciaccess",
         "libxcb",
@@ -29933,7 +29956,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-xcmiscproto-feedstock/pull/2"
     },
     "xorg-xextproto": {
-      "num_descendants": 1824,
+      "num_descendants": 1827,
       "immediate_children": [
         "xorg-fixesproto",
         "xorg-libx11",
@@ -29983,7 +30006,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-xineramaproto-feedstock/pull/2"
     },
     "xorg-xproto": {
-      "num_descendants": 1830,
+      "num_descendants": 1833,
       "immediate_children": [
         "libxcb",
         "pycairo",
@@ -30010,7 +30033,7 @@
       "pr_url": "https://github.com/conda-forge/xorg-xproxymanagementprotocol-feedstock/pull/2"
     },
     "xorg-xtrans": {
-      "num_descendants": 1823,
+      "num_descendants": 1826,
       "immediate_children": [
         "xorg-libice",
         "xorg-libsm",
@@ -30101,7 +30124,7 @@
       "pr_url": "https://github.com/conda-forge/xvfbwrapper-feedstock/pull/7"
     },
     "xz": {
-      "num_descendants": 3346,
+      "num_descendants": 3351,
       "immediate_children": [
         "avro",
         "avrocpp",
@@ -30220,7 +30243,7 @@
       "pr_url": "https://github.com/conda-forge/zipfile36-feedstock/pull/1"
     },
     "zlib": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "adios",
         "arm_pyart",
@@ -30453,9 +30476,10 @@
       "pr_url": "https://github.com/conda-forge/hendrics-feedstock/pull/2"
     },
     "r-xfun": {
-      "num_descendants": 23,
+      "num_descendants": 68,
       "immediate_children": [
         "r-bookdown",
+        "r-knitr",
         "r-servr",
         "r-styler",
         "r-tinytex",
@@ -30648,7 +30672,7 @@
       ]
     },
     "fftw": {
-      "num_descendants": 1514,
+      "num_descendants": 1517,
       "immediate_children": [
         "casacore",
         "cdo",
@@ -30680,7 +30704,7 @@
       "pr_url": "https://github.com/conda-forge/fftw-feedstock/pull/45"
     },
     "yasm": {
-      "num_descendants": 1477,
+      "num_descendants": 1480,
       "immediate_children": [
         "libjpeg-turbo"
       ],
@@ -30893,7 +30917,7 @@
       "pr_url": "https://github.com/conda-forge/sdl2_gfx-feedstock/pull/3"
     },
     "libogg": {
-      "num_descendants": 1493,
+      "num_descendants": 1496,
       "immediate_children": [
         "libflac",
         "libsndfile",
@@ -30926,7 +30950,7 @@
       "pr_url": "https://github.com/conda-forge/sdl2_ttf-feedstock/pull/2"
     },
     "libvorbis": {
-      "num_descendants": 1489,
+      "num_descendants": 1492,
       "immediate_children": [
         "ffpyplayer",
         "libsndfile",
@@ -30950,7 +30974,7 @@
       "pr_url": "https://github.com/conda-forge/libwebp-feedstock/pull/11"
     },
     "libflac": {
-      "num_descendants": 1482,
+      "num_descendants": 1485,
       "immediate_children": [
         "ffpyplayer",
         "libsndfile",
@@ -31019,7 +31043,7 @@
       "pr_url": "https://github.com/conda-forge/libcxx-feedstock/pull/28"
     },
     "bzip2": {
-      "num_descendants": 3347,
+      "num_descendants": 3352,
       "immediate_children": [
         "adios",
         "boost-cpp",
@@ -31091,7 +31115,7 @@
       "pr_url": "https://github.com/conda-forge/r-ape-feedstock/pull/8"
     },
     "r-ggplot2": {
-      "num_descendants": 164,
+      "num_descendants": 166,
       "immediate_children": [
         "r-alakazam",
         "r-anom",
@@ -31123,6 +31147,7 @@
         "r-factormerger",
         "r-ffield",
         "r-forecast",
+        "r-fpp2",
         "r-ggalluvial",
         "r-ggally",
         "r-ggalt",
@@ -31577,7 +31602,7 @@
       "pr_url": "https://github.com/conda-forge/r-ifultools-feedstock/pull/4"
     },
     "nasm": {
-      "num_descendants": 3090,
+      "num_descendants": 3095,
       "immediate_children": [
         "python"
       ],
@@ -31964,13 +31989,14 @@
       "pr_url": "https://github.com/conda-forge/r-st-feedstock/pull/3"
     },
     "r-tidyselect": {
-      "num_descendants": 136,
+      "num_descendants": 137,
       "immediate_children": [
         "r-dbplyr",
         "r-dplyr",
         "r-ggalluvial",
         "r-ggeffects",
         "r-huxtable",
+        "r-probably",
         "r-recipes",
         "r-sjplot",
         "r-skimr",
@@ -34774,7 +34800,7 @@
       "pr_url": "https://github.com/conda-forge/pygridtools-feedstock/pull/8"
     },
     "tk": {
-      "num_descendants": 3345,
+      "num_descendants": 3350,
       "immediate_children": [
         "camelot-py",
         "environment-modules",
@@ -34918,7 +34944,7 @@
       "pr_url": "https://github.com/conda-forge/r-suppdists-feedstock/pull/3"
     },
     "r-abind": {
-      "num_descendants": 39,
+      "num_descendants": 40,
       "immediate_children": [
         "r-arm",
         "r-brms",
@@ -34928,6 +34954,7 @@
         "r-magic",
         "r-mertools",
         "r-rfpermute",
+        "r-rosm",
         "r-spatstat",
         "r-startr"
       ],
@@ -35375,7 +35402,7 @@
       "pr_url": "https://github.com/conda-forge/ecos-feedstock/pull/2"
     },
     "r-zeallot": {
-      "num_descendants": 3,
+      "num_descendants": 4,
       "immediate_children": [
         "r-keras",
         "r-vctrs"
@@ -36775,7 +36802,7 @@
       "pr_url": "https://github.com/conda-forge/landlab-feedstock/pull/3"
     },
     "r-fansi": {
-      "num_descendants": 273,
+      "num_descendants": 275,
       "immediate_children": [
         "r-pillar"
       ],
@@ -36946,8 +36973,9 @@
       "pr_url": "https://github.com/conda-forge/optpp-feedstock/pull/5"
     },
     "r-yardstick": {
-      "num_descendants": 1,
+      "num_descendants": 2,
       "immediate_children": [
+        "r-probably",
         "r-tidymodels"
       ],
       "pr_url": "https://github.com/conda-forge/r-yardstick-feedstock/pull/1"
@@ -38306,10 +38334,11 @@
       ]
     },
     "r-generics": {
-      "num_descendants": 34,
+      "num_descendants": 35,
       "immediate_children": [
         "r-broom",
         "r-parsnip",
+        "r-probably",
         "r-recipes",
         "r-rsample",
         "r-textrecipes",
@@ -38551,13 +38580,17 @@
       "pr_url": "https://github.com/conda-forge/motor-feedstock/pull/2"
     },
     "r-expsmooth": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "r-fpp2"
+      ],
       "pr_url": "https://github.com/conda-forge/r-expsmooth-feedstock/pull/1"
     },
     "r-fma": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "r-fpp2"
+      ],
       "pr_url": "https://github.com/conda-forge/r-fma-feedstock/pull/1"
     },
     "aionotify": {
@@ -38566,7 +38599,7 @@
       "pr_url": "https://github.com/conda-forge/aionotify-feedstock/pull/1"
     },
     "r-uroot": {
-      "num_descendants": 3,
+      "num_descendants": 4,
       "immediate_children": [
         "r-forecast"
       ],
@@ -38978,8 +39011,10 @@
       "pr_url": "https://github.com/conda-forge/videogrep-feedstock/pull/1"
     },
     "openldap": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "python-ldap"
+      ],
       "pr_url": "https://github.com/conda-forge/openldap-feedstock/pull/1"
     },
     "r-arules": {
@@ -39167,8 +39202,10 @@
       "pr_url": "https://github.com/conda-forge/r-bezier-feedstock/pull/1"
     },
     "slang": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "newt"
+      ],
       "pr_url": "https://github.com/conda-forge/slang-feedstock/pull/1"
     },
     "ldas-tools-filters": {
@@ -39187,13 +39224,17 @@
       "pr_url": "https://github.com/conda-forge/r-rtweet-feedstock/pull/1"
     },
     "r-vctrs": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "r-probably"
+      ],
       "pr_url": "https://github.com/conda-forge/r-vctrs-feedstock/pull/1"
     },
     "r-prettymapr": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "r-rosm"
+      ],
       "pr_url": "https://github.com/conda-forge/r-prettymapr-feedstock/pull/1"
     },
     "r-lobstr": {
@@ -39205,6 +39246,30 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/r-extradistr-feedstock/pull/1"
+    },
+    "python-ldap": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/python-ldap-feedstock/pull/1"
+    },
+    "r-fpp2": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/r-fpp2-feedstock/pull/1"
+    },
+    "r-rosm": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "newt": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/newt-feedstock/pull/1"
+    },
+    "r-probably": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/r-probably-feedstock/pull/1"
     }
   }
 }
