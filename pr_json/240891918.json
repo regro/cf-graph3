@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-25T20:14:02Z",
-    "updated_at": "2018-12-26T13:46:47Z",
+    "updated_at": "2018-12-26T15:04:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "162758ae9ea04856c15a8ed384d5bb4f660619eb",
+    "merge_commit_sha": "8a5c0faf1e78bc6cf3f2a2dca7adf43287975a21",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/statuses/10553dc2efa57c74552221dee01fde6af2d492fd",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/statuses/fc87bd38cc687a23e5fd3cf0027431560aea11a7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "10553dc2efa57c74552221dee01fde6af2d492fd",
+        "sha": "fc87bd38cc687a23e5fd3cf0027431560aea11a7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ghc-feedstock/deployments",
             "created_at": "2018-12-25T20:13:47Z",
             "updated_at": "2018-12-25T20:13:49Z",
-            "pushed_at": "2018-12-26T13:46:48Z",
+            "pushed_at": "2018-12-26T15:04:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ghc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ghc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ghc-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/ghc-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ghc-feedstock/deployments",
             "created_at": "2018-12-25T20:06:17Z",
             "updated_at": "2018-12-25T20:08:18Z",
-            "pushed_at": "2018-12-26T13:46:48Z",
+            "pushed_at": "2018-12-26T15:04:10Z",
             "git_url": "git://github.com/conda-forge/ghc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ghc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ghc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ghc-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ghc-feedstock/statuses/10553dc2efa57c74552221dee01fde6af2d492fd"
+            "href": "https://api.github.com/repos/conda-forge/ghc-feedstock/statuses/fc87bd38cc687a23e5fd3cf0027431560aea11a7"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 10,
-    "additions": 123,
-    "deletions": 18,
+    "commits": 12,
+    "additions": 124,
+    "deletions": 19,
     "changed_files": 11,
-    "Last-Modified": "Wed, 26 Dec 2018 13:46:47 GMT",
-    "ETag": "W/\"184f4d846d8b9489591790599841ea30\""
+    "Last-Modified": "Wed, 26 Dec 2018 15:04:09 GMT",
+    "ETag": "W/\"91a20a7e29309f70fd67a33adb31e631\""
 }
