@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nhyperion\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-07T05:15:55Z",
-    "updated_at": "2018-12-07T05:37:06Z",
+    "updated_at": "2018-12-28T16:21:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "859e2c98a1a58c5b0a131e8577d5acfba3532257",
+    "merge_commit_sha": "2586bb407dc5787bcbe81086e3f8c21aa2f387cb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/statuses/2860827fa4fa6ceeea40f49af6192cc74937409c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/statuses/3cccc292b68e4b079769dc9843b60360c501c5fb",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2860827fa4fa6ceeea40f49af6192cc74937409c",
+        "sha": "3cccc292b68e4b079769dc9843b60360c501c5fb",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hyperion-fortran-feedstock/deployments",
             "created_at": "2018-06-30T04:18:18Z",
             "updated_at": "2018-06-30T04:18:20Z",
-            "pushed_at": "2018-12-07T05:37:06Z",
+            "pushed_at": "2018-12-28T15:28:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hyperion-fortran-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hyperion-fortran-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hyperion-fortran-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/hyperion-fortran-feedstock",
             "homepage": null,
-            "size": 986,
+            "size": 991,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/deployments",
             "created_at": "2016-09-20T15:25:40Z",
             "updated_at": "2018-12-07T04:37:36Z",
-            "pushed_at": "2018-12-07T05:37:07Z",
+            "pushed_at": "2018-12-28T15:28:08Z",
             "git_url": "git://github.com/conda-forge/hyperion-fortran-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hyperion-fortran-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hyperion-fortran-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/statuses/2860827fa4fa6ceeea40f49af6192cc74937409c"
+            "href": "https://api.github.com/repos/conda-forge/hyperion-fortran-feedstock/statuses/3cccc292b68e4b079769dc9843b60360c501c5fb"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 96,
-    "deletions": 10,
-    "changed_files": 8
+    "commits": 3,
+    "additions": 319,
+    "deletions": 19,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 28 Dec 2018 16:21:05 GMT",
+    "ETag": "W/\"ad9f548f377021dec7d7b563e2985fd8\""
 }
