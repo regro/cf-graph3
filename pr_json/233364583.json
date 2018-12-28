@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T09:14:16Z",
-    "updated_at": "2018-11-25T09:14:25Z",
+    "updated_at": "2018-12-28T17:17:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fe2259f5729623983746973f57126488598560f1",
+    "merge_commit_sha": "2c6135d65b9a6abf43a4c433d5c3ad8658d2fd8d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/statuses/239f0b05cd3023ae2ffd12c8df37111e444f44f0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/statuses/b3b401e0b14f5e10ca531f65b954b62825fb7a7d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "239f0b05cd3023ae2ffd12c8df37111e444f44f0",
+        "sha": "b3b401e0b14f5e10ca531f65b954b62825fb7a7d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/msmbuilder-feedstock/deployments",
             "created_at": "2018-06-25T04:04:22Z",
             "updated_at": "2018-06-25T04:04:24Z",
-            "pushed_at": "2018-11-25T09:14:16Z",
+            "pushed_at": "2018-12-28T16:30:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/msmbuilder-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/msmbuilder-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/msmbuilder-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/msmbuilder-feedstock",
             "homepage": null,
-            "size": 26,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/deployments",
             "created_at": "2017-04-03T21:09:35Z",
             "updated_at": "2018-08-04T18:16:27Z",
-            "pushed_at": "2018-11-25T09:14:17Z",
+            "pushed_at": "2018-12-28T16:30:04Z",
             "git_url": "git://github.com/conda-forge/msmbuilder-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/msmbuilder-feedstock.git",
             "clone_url": "https://github.com/conda-forge/msmbuilder-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/statuses/239f0b05cd3023ae2ffd12c8df37111e444f44f0"
+            "href": "https://api.github.com/repos/conda-forge/msmbuilder-feedstock/statuses/b3b401e0b14f5e10ca531f65b954b62825fb7a7d"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 415,
-    "deletions": 182,
-    "changed_files": 27
+    "commits": 4,
+    "additions": 1071,
+    "deletions": 230,
+    "changed_files": 40,
+    "Last-Modified": "Fri, 28 Dec 2018 17:17:30 GMT",
+    "ETag": "W/\"4abfe5b237c2daf055b695a4a310b3b4\""
 }

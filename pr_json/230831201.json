@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlalinference\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-14T13:16:09Z",
-    "updated_at": "2018-11-14T13:25:18Z",
+    "updated_at": "2018-12-28T18:46:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "60903be37f5e09dc5360a1a2b0791342c190aaf6",
+    "merge_commit_sha": "80efce4a0ee5089146540216653136aeb4e4fde1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/statuses/b19f9aa6ec0cdd00278cb92ac73feb58f9c382ee",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/statuses/4468236e4dbd9a2c932fb980d2396a38f0b7727f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b19f9aa6ec0cdd00278cb92ac73feb58f9c382ee",
+        "sha": "4468236e4dbd9a2c932fb980d2396a38f0b7727f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lalpulsar-feedstock/deployments",
             "created_at": "2018-11-14T13:15:53Z",
             "updated_at": "2018-11-14T13:15:56Z",
-            "pushed_at": "2018-11-14T13:16:08Z",
+            "pushed_at": "2018-12-28T18:46:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lalpulsar-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lalpulsar-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lalpulsar-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/deployments",
             "created_at": "2018-10-02T18:39:39Z",
             "updated_at": "2018-10-02T18:44:27Z",
-            "pushed_at": "2018-11-14T13:16:10Z",
+            "pushed_at": "2018-12-28T18:46:34Z",
             "git_url": "git://github.com/conda-forge/lalpulsar-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lalpulsar-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lalpulsar-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/statuses/b19f9aa6ec0cdd00278cb92ac73feb58f9c382ee"
+            "href": "https://api.github.com/repos/conda-forge/lalpulsar-feedstock/statuses/4468236e4dbd9a2c932fb980d2396a38f0b7727f"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 33,
-    "deletions": 6,
-    "changed_files": 4,
-    "Last-Modified": "Wed, 14 Nov 2018 13:25:18 GMT",
-    "ETag": "W/\"ad098c018ed8dc1e98e95c7bcc5d66de\""
+    "commits": 4,
+    "additions": 363,
+    "deletions": 39,
+    "changed_files": 19,
+    "Last-Modified": "Fri, 28 Dec 2018 18:46:34 GMT",
+    "ETag": "W/\"bfd6c38688778eb3a46dce76a17fb6d6\""
 }
