@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naubio\naudioread\nav\nbatman\nbob.io.video\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-28T14:14:51Z",
-    "updated_at": "2018-12-28T15:05:46Z",
+    "updated_at": "2018-12-28T15:23:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2a3f8a4da821fecce41a4259fddd6a29a3b57de5",
+    "merge_commit_sha": "71b86895376a5fba78e7346460143c0dd668b1fa",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/pulls/69/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/issues/69/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/statuses/f6c5f5c85ad307efe9be36f6dda4a6d98d13f97e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/statuses/188ecece8e71de9d59cbb138bbaec068d67cf080",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f6c5f5c85ad307efe9be36f6dda4a6d98d13f97e",
+        "sha": "188ecece8e71de9d59cbb138bbaec068d67cf080",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ffmpeg-feedstock/deployments",
             "created_at": "2018-07-20T13:14:11Z",
             "updated_at": "2018-07-20T13:14:13Z",
-            "pushed_at": "2018-12-28T14:34:16Z",
+            "pushed_at": "2018-12-28T15:23:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ffmpeg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ffmpeg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ffmpeg-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/ffmpeg-feedstock",
             "homepage": null,
-            "size": 80,
+            "size": 100,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/deployments",
             "created_at": "2016-04-04T11:15:29Z",
             "updated_at": "2018-11-12T12:34:23Z",
-            "pushed_at": "2018-12-28T14:34:17Z",
+            "pushed_at": "2018-12-28T15:23:22Z",
             "git_url": "git://github.com/conda-forge/ffmpeg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ffmpeg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ffmpeg-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/pulls/69/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/statuses/f6c5f5c85ad307efe9be36f6dda4a6d98d13f97e"
+            "href": "https://api.github.com/repos/conda-forge/ffmpeg-feedstock/statuses/188ecece8e71de9d59cbb138bbaec068d67cf080"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 477,
+    "commits": 6,
+    "additions": 495,
     "deletions": 41,
     "changed_files": 21,
-    "Last-Modified": "Fri, 28 Dec 2018 15:05:46 GMT",
-    "ETag": "W/\"a58ab25621639ee449dde1e67df27a7c\""
+    "Last-Modified": "Fri, 28 Dec 2018 15:23:21 GMT",
+    "ETag": "W/\"3053b0b4d7b22d265020780d82ba2771\""
 }
