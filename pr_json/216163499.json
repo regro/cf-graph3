@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-18T02:09:59Z",
-    "updated_at": "2018-09-18T02:10:07Z",
+    "updated_at": "2018-12-28T01:31:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "99337d4635ea4bbf798b176176ae17769dc5c8c6",
+    "merge_commit_sha": "e609e084bc247842119a8e05640406508e5a6c42",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/statuses/bb1a0929c6ffb5a734e40216e1312fac1e84869c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/statuses/4b674fa780737dfe122667c7e09ea6b369a83ce0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bb1a0929c6ffb5a734e40216e1312fac1e84869c",
+        "sha": "4b674fa780737dfe122667c7e09ea6b369a83ce0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pbzip2-feedstock/deployments",
             "created_at": "2018-07-07T06:10:31Z",
             "updated_at": "2018-07-07T06:10:33Z",
-            "pushed_at": "2018-09-18T02:09:59Z",
+            "pushed_at": "2018-12-28T01:31:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pbzip2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pbzip2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pbzip2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/deployments",
             "created_at": "2016-08-08T23:09:54Z",
             "updated_at": "2018-11-22T20:07:56Z",
-            "pushed_at": "2018-09-18T02:10:00Z",
+            "pushed_at": "2018-12-28T01:31:59Z",
             "git_url": "git://github.com/conda-forge/pbzip2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pbzip2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pbzip2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/statuses/bb1a0929c6ffb5a734e40216e1312fac1e84869c"
+            "href": "https://api.github.com/repos/conda-forge/pbzip2-feedstock/statuses/4b674fa780737dfe122667c7e09ea6b369a83ce0"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 98,
-    "deletions": 10,
-    "changed_files": 8,
-    "Last-Modified": "Tue, 18 Sep 2018 02:10:07 GMT",
-    "ETag": "W/\"c38039fa63764f9d10161a9f6be41d5c\""
+    "commits": 3,
+    "additions": 321,
+    "deletions": 19,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 28 Dec 2018 01:31:58 GMT",
+    "ETag": "W/\"da714bd072c0589f4e6eef30daa0dfb7\""
 }
