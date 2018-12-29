@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/deprecated-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/deprecated-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "deprecated v1.2.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-04T21:11:23Z",
-    "updated_at": "2018-09-04T21:11:26Z",
-    "closed_at": null,
+    "updated_at": "2018-12-29T03:15:55Z",
+    "closed_at": "2018-12-29T03:15:55Z",
     "merged_at": null,
     "merge_commit_sha": "54465cafabeb1cdceb061a793bd67e4e43f426f0",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/deprecated-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/deprecated-feedstock/deployments",
             "created_at": "2018-06-29T13:15:33Z",
-            "updated_at": "2018-09-13T03:09:26Z",
-            "pushed_at": "2018-11-03T22:15:32Z",
+            "updated_at": "2018-12-29T03:16:04Z",
+            "pushed_at": "2018-12-29T03:16:02Z",
             "git_url": "git://github.com/conda-forge/deprecated-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/deprecated-feedstock.git",
             "clone_url": "https://github.com/conda-forge/deprecated-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 3,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 39,
     "deletions": 21,
     "changed_files": 7,
-    "Last-Modified": "Tue, 04 Sep 2018 21:11:26 GMT",
-    "ETag": "W/\"c0d00b73fcd260c3d4a3795697d1568a\""
+    "Last-Modified": "Sat, 29 Dec 2018 03:15:55 GMT",
+    "ETag": "W/\"e80c15d3f877166b8e9caa9a359d52b9\""
 }
