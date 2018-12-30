@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-30T14:15:40Z",
-    "updated_at": "2018-12-30T14:15:44Z",
+    "updated_at": "2018-12-30T17:12:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5a09863a8f4c4053909fe374d2c050a798abd56b",
+    "merge_commit_sha": "a397378389ff6617a1988f723739d7f876cf90a5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/statuses/9f17ea29998b71fec0c18a3b97175a25954343e0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/statuses/4e3b45b81de02fe332b975e0b2b3a6095890506a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9f17ea29998b71fec0c18a3b97175a25954343e0",
+        "sha": "4e3b45b81de02fe332b975e0b2b3a6095890506a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lalinference-feedstock/deployments",
             "created_at": "2018-12-30T14:15:21Z",
             "updated_at": "2018-12-30T14:15:23Z",
-            "pushed_at": "2018-12-30T14:15:40Z",
+            "pushed_at": "2018-12-30T17:12:27Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lalinference-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lalinference-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lalinference-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lalinference-feedstock/deployments",
             "created_at": "2018-10-30T13:29:26Z",
             "updated_at": "2018-10-30T13:31:36Z",
-            "pushed_at": "2018-12-30T14:15:41Z",
+            "pushed_at": "2018-12-30T17:12:28Z",
             "git_url": "git://github.com/conda-forge/lalinference-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lalinference-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lalinference-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lalinference-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lalinference-feedstock/statuses/9f17ea29998b71fec0c18a3b97175a25954343e0"
+            "href": "https://api.github.com/repos/conda-forge/lalinference-feedstock/statuses/4e3b45b81de02fe332b975e0b2b3a6095890506a"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 337,
-    "deletions": 21,
-    "changed_files": 16,
-    "Last-Modified": "Sun, 30 Dec 2018 14:15:44 GMT",
-    "ETag": "W/\"93f00769f7c17637d4b61880deadaea4\""
+    "commits": 4,
+    "additions": 368,
+    "deletions": 81,
+    "changed_files": 19,
+    "Last-Modified": "Sun, 30 Dec 2018 17:12:27 GMT",
+    "ETag": "W/\"b030273b78ce74a3328f0dece84f4808\""
 }
