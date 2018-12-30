@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npysdl2\nsdl2_gfx\nsmpeg2\nsdl2_net\nsdl2_ttf\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-29T21:16:59Z",
-    "updated_at": "2018-12-29T01:46:14Z",
+    "updated_at": "2018-12-30T10:13:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c554e699f354a5bf406b5620d9aa8068f50d7be3",
+    "merge_commit_sha": "2b416039c954c0916d32108969ec332a0da92a5f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/statuses/d9c123007868e97413653acffd0d646e1133eeb5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/statuses/d773e91c7e0f5c3a9d1ed8860a74817c77a55931",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d9c123007868e97413653acffd0d646e1133eeb5",
+        "sha": "d773e91c7e0f5c3a9d1ed8860a74817c77a55931",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sdl2-feedstock/deployments",
             "created_at": "2018-03-18T17:05:28Z",
             "updated_at": "2018-03-18T17:05:30Z",
-            "pushed_at": "2018-12-11T09:30:43Z",
+            "pushed_at": "2018-12-30T10:13:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sdl2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sdl2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sdl2-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/sdl2-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sdl2-feedstock/deployments",
             "created_at": "2016-11-20T17:27:08Z",
             "updated_at": "2018-08-04T17:41:25Z",
-            "pushed_at": "2018-12-11T09:30:44Z",
+            "pushed_at": "2018-12-30T10:13:40Z",
             "git_url": "git://github.com/conda-forge/sdl2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sdl2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sdl2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sdl2-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sdl2-feedstock/statuses/d9c123007868e97413653acffd0d646e1133eeb5"
+            "href": "https://api.github.com/repos/conda-forge/sdl2-feedstock/statuses/d773e91c7e0f5c3a9d1ed8860a74817c77a55931"
         }
     },
     "author_association": "NONE",
@@ -330,12 +330,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 11,
-    "review_comments": 1,
+    "review_comments": 5,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 369,
-    "deletions": 187,
+    "commits": 9,
+    "additions": 371,
+    "deletions": 186,
     "changed_files": 24,
-    "Last-Modified": "Sat, 29 Dec 2018 01:46:14 GMT",
-    "ETag": "W/\"a07cab5e6e94006dcdb8eced09b1e4bc\""
+    "Last-Modified": "Sun, 30 Dec 2018 10:13:39 GMT",
+    "ETag": "W/\"03d56846c87b38914e21fe0707a4a7f7\""
 }
