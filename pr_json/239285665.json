@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/opencv-feedstock/deployments",
             "created_at": "2018-03-02T01:34:30Z",
             "updated_at": "2018-03-02T01:34:32Z",
-            "pushed_at": "2018-12-30T10:05:11Z",
+            "pushed_at": "2018-12-30T12:09:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/opencv-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/opencv-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/opencv-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/deployments",
             "created_at": "2016-04-01T16:53:43Z",
             "updated_at": "2018-12-30T10:05:40Z",
-            "pushed_at": "2018-12-30T10:05:37Z",
+            "pushed_at": "2018-12-30T13:05:54Z",
             "git_url": "git://github.com/conda-forge/opencv-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/opencv-feedstock.git",
             "clone_url": "https://github.com/conda-forge/opencv-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 43,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 15,
+            "open_issues_count": 16,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 43,
-            "open_issues": 15,
+            "open_issues": 16,
             "watchers": 30,
             "default_branch": "master"
         }
@@ -325,9 +325,9 @@
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": false,
+    "rebaseable": false,
+    "mergeable_state": "dirty",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 35,
     "changed_files": 5,
     "Last-Modified": "Tue, 18 Dec 2018 23:28:54 GMT",
-    "ETag": "W/\"788db1e45d0401c4631053d25365ebc4\""
+    "ETag": "W/\"c0e63f96e1c8ed437683b096f18e7316\""
 }
