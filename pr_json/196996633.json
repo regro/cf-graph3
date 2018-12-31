@@ -32,13 +32,34 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nPinning numpy using pin_compatible\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-25T04:03:21Z",
-    "updated_at": "2018-06-25T04:03:23Z",
+    "updated_at": "2018-12-31T09:01:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "721ad3e3a3984a49707b3bca176bd0dda64627f8",
+    "merge_commit_sha": "7140f074169c45a667b5dce4372d16348f6c52ca",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "oleksandr-pavlyk",
+            "id": 21087696,
+            "node_id": "MDQ6VXNlcjIxMDg3Njk2",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/21087696?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/oleksandr-pavlyk",
+            "html_url": "https://github.com/oleksandr-pavlyk",
+            "followers_url": "https://api.github.com/users/oleksandr-pavlyk/followers",
+            "following_url": "https://api.github.com/users/oleksandr-pavlyk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/oleksandr-pavlyk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/oleksandr-pavlyk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/oleksandr-pavlyk/subscriptions",
+            "organizations_url": "https://api.github.com/users/oleksandr-pavlyk/orgs",
+            "repos_url": "https://api.github.com/users/oleksandr-pavlyk/repos",
+            "events_url": "https://api.github.com/users/oleksandr-pavlyk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/oleksandr-pavlyk/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -46,11 +67,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/statuses/5375277fac7127a57d6e79344e8da1a9d3d2b097",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/statuses/362d542ba46e5001866459efaf910d46491955a7",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "5375277fac7127a57d6e79344e8da1a9d3d2b097",
+        "sha": "362d542ba46e5001866459efaf910d46491955a7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +160,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mkl_random-feedstock/deployments",
             "created_at": "2018-06-25T04:02:55Z",
             "updated_at": "2018-06-25T04:02:56Z",
-            "pushed_at": "2018-11-25T11:15:53Z",
+            "pushed_at": "2018-12-31T08:57:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mkl_random-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mkl_random-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mkl_random-feedstock.git",
@@ -174,7 +195,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "5a83aac2e2ab93183b4ec0992c6325a3c5dc568a",
+        "sha": "3d63442f0907b3525a3cb3c8b7452d7666f33dcd",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -263,7 +284,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/deployments",
             "created_at": "2017-12-29T05:14:17Z",
             "updated_at": "2018-11-02T15:55:48Z",
-            "pushed_at": "2018-11-25T11:15:54Z",
+            "pushed_at": "2018-12-31T08:57:53Z",
             "git_url": "git://github.com/conda-forge/mkl_random-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mkl_random-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mkl_random-feedstock.git",
@@ -318,24 +339,24 @@
             "href": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/statuses/5375277fac7127a57d6e79344e8da1a9d3d2b097"
+            "href": "https://api.github.com/repos/conda-forge/mkl_random-feedstock/statuses/362d542ba46e5001866459efaf910d46491955a7"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.</p>\n<p>The <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.</p>\n<p>List of changes done to the recipe:<br>\nRenamed build with host<br>\nRemoving toolchain in favour of compiler()<br>\nRemoving pinnings for numpy to use values from conda_build_config.yaml<br>\nPinning numpy using pin_compatible<br>\nAdding C compiler<br>\nAdding C++ compiler</p>\n<p><em>If you have recived a <code>Migrate to Jinja2 compiler syntax</code> PR from me recently please close that one and use this one</em>.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.<br>\nIf you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.</li>\n</ol>\n<p>Finally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</p>",
     "body_text": "This PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\nList of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nPinning numpy using pin_compatible\nAdding C compiler\nAdding C++ compiler\nIf you have recived a Migrate to Jinja2 compiler syntax PR from me recently please close that one and use this one.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nIf you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\n\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 310,
-    "deletions": 138,
-    "changed_files": 24,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"4aed1fdc3c67e373644620ea75682f91\""
+    "commits": 7,
+    "additions": 356,
+    "deletions": 35,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 31 Dec 2018 09:01:47 GMT",
+    "ETag": "W/\"dfdb7c1a64aa04d6dcfe4be9e5c13bba\""
 }

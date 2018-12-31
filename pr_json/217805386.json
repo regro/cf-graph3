@@ -32,13 +32,34 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T22:21:47Z",
-    "updated_at": "2018-10-02T13:11:11Z",
+    "updated_at": "2018-12-31T08:53:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ecbc1009277e9093125da3b154161650975623ca",
+    "merge_commit_sha": "9b16cc47645c33a378058f38bdea8cd5ca5685db",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "bollwyvl",
+            "id": 45380,
+            "node_id": "MDQ6VXNlcjQ1Mzgw",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/45380?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bollwyvl",
+            "html_url": "https://github.com/bollwyvl",
+            "followers_url": "https://api.github.com/users/bollwyvl/followers",
+            "following_url": "https://api.github.com/users/bollwyvl/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bollwyvl/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bollwyvl/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bollwyvl/subscriptions",
+            "organizations_url": "https://api.github.com/users/bollwyvl/orgs",
+            "repos_url": "https://api.github.com/users/bollwyvl/repos",
+            "events_url": "https://api.github.com/users/bollwyvl/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bollwyvl/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -46,11 +67,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/statuses/d6f2476880d7cb7cc29714efb45aeccf7b9c6ef7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/statuses/2f36bcbc92eb8e5048d6cb91d0db830770387cf4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d6f2476880d7cb7cc29714efb45aeccf7b9c6ef7",
+        "sha": "2f36bcbc92eb8e5048d6cb91d0db830770387cf4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +160,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/geckodriver-feedstock/deployments",
             "created_at": "2018-06-15T23:29:21Z",
             "updated_at": "2018-06-15T23:29:23Z",
-            "pushed_at": "2018-10-05T12:05:01Z",
+            "pushed_at": "2018-12-31T08:33:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/geckodriver-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/geckodriver-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/geckodriver-feedstock.git",
@@ -263,7 +284,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/deployments",
             "created_at": "2018-05-12T07:41:39Z",
             "updated_at": "2018-10-05T11:54:39Z",
-            "pushed_at": "2018-10-05T11:54:38Z",
+            "pushed_at": "2018-12-31T08:33:52Z",
             "git_url": "git://github.com/conda-forge/geckodriver-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/geckodriver-feedstock.git",
             "clone_url": "https://github.com/conda-forge/geckodriver-feedstock.git",
@@ -318,7 +339,7 @@
             "href": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/statuses/d6f2476880d7cb7cc29714efb45aeccf7b9c6ef7"
+            "href": "https://api.github.com/repos/conda-forge/geckodriver-feedstock/statuses/2f36bcbc92eb8e5048d6cb91d0db830770387cf4"
         }
     },
     "author_association": "NONE",
@@ -327,15 +348,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 5,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 88,
-    "deletions": 10,
-    "changed_files": 8,
-    "Last-Modified": "Tue, 02 Oct 2018 13:11:11 GMT",
-    "ETag": "W/\"3b9b71446b80cf924888f72463acd61e\""
+    "commits": 3,
+    "additions": 402,
+    "deletions": 27,
+    "changed_files": 18,
+    "Last-Modified": "Mon, 31 Dec 2018 08:53:11 GMT",
+    "ETag": "W/\"48cae713927e4d3f2a0e4146d60918af\""
 }
