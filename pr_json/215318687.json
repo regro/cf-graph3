@@ -32,13 +32,34 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T15:14:35Z",
-    "updated_at": "2018-12-31T09:01:16Z",
+    "updated_at": "2018-12-31T09:48:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a793f87a76a4c7896d2b1b9f9c427b9fbfd86844",
+    "merge_commit_sha": "466a1e87732340490f0f4f57dcc21e978aca433c",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "CurtLH",
+            "id": 6969525,
+            "node_id": "MDQ6VXNlcjY5Njk1MjU=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/6969525?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CurtLH",
+            "html_url": "https://github.com/CurtLH",
+            "followers_url": "https://api.github.com/users/CurtLH/followers",
+            "following_url": "https://api.github.com/users/CurtLH/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CurtLH/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CurtLH/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CurtLH/subscriptions",
+            "organizations_url": "https://api.github.com/users/CurtLH/orgs",
+            "repos_url": "https://api.github.com/users/CurtLH/repos",
+            "events_url": "https://api.github.com/users/CurtLH/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CurtLH/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -46,11 +67,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/statuses/63607c2176cd3ee4b982195ca511beaca7630fef",
+    "statuses_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/statuses/494f99433368a5e907e21caf1b6367a82f98c141",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "63607c2176cd3ee4b982195ca511beaca7630fef",
+        "sha": "494f99433368a5e907e21caf1b6367a82f98c141",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +160,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/snap-cpp-feedstock/deployments",
             "created_at": "2018-07-27T01:12:32Z",
             "updated_at": "2018-07-27T01:12:34Z",
-            "pushed_at": "2018-12-31T09:01:15Z",
+            "pushed_at": "2018-12-31T09:48:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/snap-cpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/snap-cpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/snap-cpp-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/snap-cpp-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +284,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/deployments",
             "created_at": "2018-06-15T07:33:37Z",
             "updated_at": "2018-08-04T19:10:25Z",
-            "pushed_at": "2018-12-31T09:01:17Z",
+            "pushed_at": "2018-12-31T09:48:17Z",
             "git_url": "git://github.com/conda-forge/snap-cpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/snap-cpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/snap-cpp-feedstock.git",
@@ -318,7 +339,7 @@
             "href": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/statuses/63607c2176cd3ee4b982195ca511beaca7630fef"
+            "href": "https://api.github.com/repos/conda-forge/snap-cpp-feedstock/statuses/494f99433368a5e907e21caf1b6367a82f98c141"
         }
     },
     "author_association": "NONE",
@@ -332,10 +353,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 375,
+    "commits": 11,
+    "additions": 383,
     "deletions": 54,
     "changed_files": 21,
-    "Last-Modified": "Mon, 31 Dec 2018 09:01:16 GMT",
-    "ETag": "W/\"207743fa2c8d19730e30c59e8a778fe3\""
+    "Last-Modified": "Mon, 31 Dec 2018 09:48:16 GMT",
+    "ETag": "W/\"69dcbe02ca12511d2afda76c2dc4197b\""
 }

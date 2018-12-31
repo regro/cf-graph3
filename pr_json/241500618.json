@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nr-tidyposterior\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-30T17:14:05Z",
-    "updated_at": "2018-12-30T19:28:57Z",
+    "updated_at": "2018-12-31T10:05:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1177b31f08dfe8326ddb4e4e051f86042487fee6",
+    "merge_commit_sha": "6ee0c0fe1df5b659b275285003681edebdda07f6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/statuses/b15389f7549f996f58203e1086987d672d124576",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/statuses/8702ca0e3fef9e6a2f3470857cc22b1b75ab3971",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b15389f7549f996f58203e1086987d672d124576",
+        "sha": "8702ca0e3fef9e6a2f3470857cc22b1b75ab3971",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-rstanarm-feedstock/deployments",
             "created_at": "2018-05-02T04:14:55Z",
             "updated_at": "2018-05-02T04:14:58Z",
-            "pushed_at": "2018-12-30T17:14:05Z",
+            "pushed_at": "2018-12-31T10:05:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-rstanarm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-rstanarm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-rstanarm-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/deployments",
             "created_at": "2018-05-01T08:27:36Z",
             "updated_at": "2018-10-10T12:48:51Z",
-            "pushed_at": "2018-12-30T17:14:06Z",
+            "pushed_at": "2018-12-31T10:05:16Z",
             "git_url": "git://github.com/conda-forge/r-rstanarm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-rstanarm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-rstanarm-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/statuses/b15389f7549f996f58203e1086987d672d124576"
+            "href": "https://api.github.com/repos/conda-forge/r-rstanarm-feedstock/statuses/8702ca0e3fef9e6a2f3470857cc22b1b75ab3971"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 302,
-    "deletions": 49,
-    "changed_files": 17,
-    "Last-Modified": "Sun, 30 Dec 2018 19:28:57 GMT",
-    "ETag": "W/\"bd87c036441052ee866cf0b9b48d1cf8\""
+    "commits": 4,
+    "additions": 345,
+    "deletions": 100,
+    "changed_files": 18,
+    "Last-Modified": "Mon, 31 Dec 2018 10:05:15 GMT",
+    "ETag": "W/\"eaf6b79f1ab25d769e9a6e297d407d2b\""
 }
