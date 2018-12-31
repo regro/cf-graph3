@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-29T04:13:47Z",
-    "updated_at": "2018-12-29T04:41:56Z",
+    "updated_at": "2018-12-31T07:47:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "11156befa901619176901cedaf73ce1547979bec",
+    "merge_commit_sha": "5d952ad5da4fe18626c5949718abb4ae9adec3d2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/statuses/faabacedd1e9545228f8a52a2931db46f5409c54",
+    "statuses_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/statuses/125afec237caab77d095688571e8e70735c2f083",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.9",
         "ref": "0.9.9",
-        "sha": "faabacedd1e9545228f8a52a2931db46f5409c54",
+        "sha": "125afec237caab77d095688571e8e70735c2f083",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/starlette-feedstock/deployments",
             "created_at": "2018-10-18T17:30:00Z",
             "updated_at": "2018-10-18T17:30:02Z",
-            "pushed_at": "2018-12-29T04:13:47Z",
+            "pushed_at": "2018-12-31T07:47:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/starlette-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/starlette-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/starlette-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/starlette-feedstock/deployments",
             "created_at": "2018-10-18T16:31:57Z",
             "updated_at": "2018-12-29T03:12:50Z",
-            "pushed_at": "2018-12-29T04:13:48Z",
+            "pushed_at": "2018-12-31T07:47:53Z",
             "git_url": "git://github.com/conda-forge/starlette-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/starlette-feedstock.git",
             "clone_url": "https://github.com/conda-forge/starlette-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/starlette-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/starlette-feedstock/statuses/faabacedd1e9545228f8a52a2931db46f5409c54"
+            "href": "https://api.github.com/repos/conda-forge/starlette-feedstock/statuses/125afec237caab77d095688571e8e70735c2f083"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 140,
-    "deletions": 8,
+    "commits": 3,
+    "additions": 146,
+    "deletions": 9,
     "changed_files": 8,
-    "Last-Modified": "Sat, 29 Dec 2018 04:41:56 GMT",
-    "ETag": "W/\"a2b76348a7904d1efb26f013de031a3d\""
+    "Last-Modified": "Mon, 31 Dec 2018 07:47:52 GMT",
+    "ETag": "W/\"c6d5def86927e2db06a7697638f51282\""
 }

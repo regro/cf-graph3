@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-30T20:11:47Z",
-    "updated_at": "2018-12-31T02:41:43Z",
+    "updated_at": "2018-12-31T07:59:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8234f6ce8e0e3530a681552ea92c69dd39828311",
+    "merge_commit_sha": "75575e654473077c1f158504ac038b76175e1595",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/pulls/26/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/issues/26/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/statuses/8f08ea345066c5c8951ebb32bfa6504ea827d271",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/statuses/f018aa70b550c155297d7f2368947aa4e375175b",
     "head": {
         "label": "regro-cf-autotick-bot:1.34.0",
         "ref": "1.34.0",
-        "sha": "8f08ea345066c5c8951ebb32bfa6504ea827d271",
+        "sha": "f018aa70b550c155297d7f2368947aa4e375175b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-aws-feedstock/deployments",
             "created_at": "2018-03-14T00:28:45Z",
             "updated_at": "2018-03-14T00:28:47Z",
-            "pushed_at": "2018-12-31T02:41:38Z",
+            "pushed_at": "2018-12-31T07:59:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-aws-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-aws-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-aws-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/deployments",
             "created_at": "2018-03-13T22:28:12Z",
             "updated_at": "2018-09-14T08:02:35Z",
-            "pushed_at": "2018-12-31T02:41:39Z",
+            "pushed_at": "2018-12-31T07:59:30Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-aws-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-aws-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-aws-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/pulls/26/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/statuses/8f08ea345066c5c8951ebb32bfa6504ea827d271"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-aws-feedstock/statuses/f018aa70b550c155297d7f2368947aa4e375175b"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 337,
-    "deletions": 44,
+    "commits": 6,
+    "additions": 360,
+    "deletions": 46,
     "changed_files": 17,
-    "Last-Modified": "Mon, 31 Dec 2018 02:41:43 GMT",
-    "ETag": "W/\"70df88c25955aca21c828ebaa642f870\""
+    "Last-Modified": "Mon, 31 Dec 2018 07:59:30 GMT",
+    "ETag": "W/\"b1c681606130790794142062f47467a1\""
 }
