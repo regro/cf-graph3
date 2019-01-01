@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-31T02:13:35Z",
-    "updated_at": "2019-01-01T01:59:10Z",
+    "updated_at": "2019-01-01T15:49:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0bbe4a7d5ce476967a70a3487409fca94acde7e5",
+    "merge_commit_sha": "c6952ecb61c90361e4c4bd7b2cbe262f97e48661",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/statuses/f0f7b5e60f878e6032e013d2f59e55323e6a377f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/statuses/dbf39bcb12e32d1bdad8dc0dbc7e7f31096187ee",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f0f7b5e60f878e6032e013d2f59e55323e6a377f",
+        "sha": "dbf39bcb12e32d1bdad8dc0dbc7e7f31096187ee",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pytorch-cpu-feedstock/deployments",
             "created_at": "2018-12-31T02:13:20Z",
             "updated_at": "2018-12-31T02:13:23Z",
-            "pushed_at": "2018-12-31T21:48:30Z",
+            "pushed_at": "2019-01-01T15:49:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pytorch-cpu-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pytorch-cpu-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pytorch-cpu-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/deployments",
             "created_at": "2018-12-31T01:31:36Z",
             "updated_at": "2018-12-31T01:33:48Z",
-            "pushed_at": "2018-12-31T21:48:32Z",
+            "pushed_at": "2019-01-01T15:49:21Z",
             "git_url": "git://github.com/conda-forge/pytorch-cpu-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pytorch-cpu-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pytorch-cpu-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/statuses/f0f7b5e60f878e6032e013d2f59e55323e6a377f"
+            "href": "https://api.github.com/repos/conda-forge/pytorch-cpu-feedstock/statuses/dbf39bcb12e32d1bdad8dc0dbc7e7f31096187ee"
         }
     },
     "author_association": "NONE",
@@ -327,7 +327,7 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 19,
     "review_comments": 0,
@@ -336,6 +336,6 @@
     "additions": 499,
     "deletions": 53,
     "changed_files": 18,
-    "Last-Modified": "Tue, 01 Jan 2019 01:59:10 GMT",
-    "ETag": "W/\"14d62d406676b10cf7e35a90cef3ec26\""
+    "Last-Modified": "Tue, 01 Jan 2019 15:49:21 GMT",
+    "ETag": "W/\"b32a4aab53e36a353d514b7d794c22fd\""
 }
