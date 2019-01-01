@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-05T11:12:43Z",
-    "updated_at": "2018-10-05T11:12:47Z",
+    "updated_at": "2019-01-01T21:22:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a790e5bb36eeecd039c4038eac3bc2efa6b3c40d",
+    "merge_commit_sha": "9bedbb866cd2efc75b2da2b7e1f2bb7fa861a94a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/statuses/0c8ac69b02683e62b698b19f165213553198f2e6",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/statuses/67dfd430f1160815c30c28d29382595a28c1b538",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "0c8ac69b02683e62b698b19f165213553198f2e6",
+        "sha": "67dfd430f1160815c30c28d29382595a28c1b538",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dj-database-url-feedstock/deployments",
             "created_at": "2018-03-01T21:36:49Z",
             "updated_at": "2018-03-01T21:36:51Z",
-            "pushed_at": "2018-10-05T11:12:43Z",
+            "pushed_at": "2019-01-01T21:21:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dj-database-url-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dj-database-url-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dj-database-url-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/deployments",
             "created_at": "2017-08-31T15:11:23Z",
             "updated_at": "2018-08-04T19:33:07Z",
-            "pushed_at": "2018-10-05T11:12:44Z",
+            "pushed_at": "2019-01-01T21:21:56Z",
             "git_url": "git://github.com/conda-forge/dj-database-url-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dj-database-url-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dj-database-url-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/statuses/0c8ac69b02683e62b698b19f165213553198f2e6"
+            "href": "https://api.github.com/repos/conda-forge/dj-database-url-feedstock/statuses/67dfd430f1160815c30c28d29382595a28c1b538"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 381,
-    "deletions": 163,
-    "changed_files": 26,
-    "Last-Modified": "Fri, 05 Oct 2018 11:12:47 GMT",
-    "ETag": "W/\"1dc74cf25922833fd2d7bd43c4ebd9f3\""
+    "commits": 5,
+    "additions": 334,
+    "deletions": 284,
+    "changed_files": 22,
+    "Last-Modified": "Tue, 01 Jan 2019 21:22:01 GMT",
+    "ETag": "W/\"79d7a320d5afd2ddbeb47e31c9a6f811\""
 }

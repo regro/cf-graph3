@@ -32,13 +32,34 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-01T09:13:36Z",
-    "updated_at": "2019-01-01T09:13:40Z",
+    "updated_at": "2019-01-01T21:56:47Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "08221a83c8d6fde3da4dcfe54fb5fed733962ea8",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "chapmanb",
+            "id": 39391,
+            "node_id": "MDQ6VXNlcjM5Mzkx",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/39391?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chapmanb",
+            "html_url": "https://github.com/chapmanb",
+            "followers_url": "https://api.github.com/users/chapmanb/followers",
+            "following_url": "https://api.github.com/users/chapmanb/following{/other_user}",
+            "gists_url": "https://api.github.com/users/chapmanb/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/chapmanb/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/chapmanb/subscriptions",
+            "organizations_url": "https://api.github.com/users/chapmanb/orgs",
+            "repos_url": "https://api.github.com/users/chapmanb/repos",
+            "events_url": "https://api.github.com/users/chapmanb/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/chapmanb/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -336,6 +357,6 @@
     "additions": 197,
     "deletions": 15,
     "changed_files": 12,
-    "Last-Modified": "Tue, 01 Jan 2019 09:13:40 GMT",
-    "ETag": "W/\"af5c9a4a20f0fdf8322bc923ae584bfb\""
+    "Last-Modified": "Tue, 01 Jan 2019 21:56:47 GMT",
+    "ETag": "W/\"4acf60e4a2302a56e50ae21a2c1be7b3\""
 }

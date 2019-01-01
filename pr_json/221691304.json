@@ -32,13 +32,34 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-10T07:57:50Z",
-    "updated_at": "2018-10-16T09:42:11Z",
+    "updated_at": "2019-01-01T21:58:04Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "b117fddb6e76c9fc37cb3c2cf350f19f67ceed32",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "jhamrick",
+            "id": 83444,
+            "node_id": "MDQ6VXNlcjgzNDQ0",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/83444?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jhamrick",
+            "html_url": "https://github.com/jhamrick",
+            "followers_url": "https://api.github.com/users/jhamrick/followers",
+            "following_url": "https://api.github.com/users/jhamrick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jhamrick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jhamrick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jhamrick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jhamrick/orgs",
+            "repos_url": "https://api.github.com/users/jhamrick/repos",
+            "events_url": "https://api.github.com/users/jhamrick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jhamrick/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -336,6 +357,6 @@
     "additions": 381,
     "deletions": 164,
     "changed_files": 26,
-    "Last-Modified": "Tue, 16 Oct 2018 09:42:11 GMT",
-    "ETag": "W/\"1f84f4954f146b5a4bbe96140f19dbf7\""
+    "Last-Modified": "Tue, 01 Jan 2019 21:58:04 GMT",
+    "ETag": "W/\"014539ccb8f87d0f9fd0167acc112f04\""
 }

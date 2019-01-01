@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T02:57:51Z",
-    "updated_at": "2018-10-13T02:57:56Z",
+    "updated_at": "2019-01-01T22:06:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2756e9865ff872fc8fd334276b07330143c82956",
+    "merge_commit_sha": "390633195b2e388c4cc4c25ce598ef6564769f8e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/statuses/df5f3c301bd2b4ff8d7c1ae2ec02a58abc020222",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/statuses/e7f8d6898101a889dc3be971a1f67e056c52d8ac",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "df5f3c301bd2b4ff8d7c1ae2ec02a58abc020222",
+        "sha": "e7f8d6898101a889dc3be971a1f67e056c52d8ac",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyxdameraulevenshtein-feedstock/deployments",
             "created_at": "2018-03-05T02:49:51Z",
             "updated_at": "2018-03-05T02:49:52Z",
-            "pushed_at": "2018-10-19T16:26:53Z",
+            "pushed_at": "2019-01-01T22:06:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyxdameraulevenshtein-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyxdameraulevenshtein-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyxdameraulevenshtein-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/deployments",
             "created_at": "2016-10-26T03:18:50Z",
             "updated_at": "2018-08-04T17:45:16Z",
-            "pushed_at": "2018-10-13T02:57:53Z",
+            "pushed_at": "2019-01-01T22:06:16Z",
             "git_url": "git://github.com/conda-forge/pyxdameraulevenshtein-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyxdameraulevenshtein-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyxdameraulevenshtein-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/statuses/df5f3c301bd2b4ff8d7c1ae2ec02a58abc020222"
+            "href": "https://api.github.com/repos/conda-forge/pyxdameraulevenshtein-feedstock/statuses/e7f8d6898101a889dc3be971a1f67e056c52d8ac"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 471,
-    "deletions": 327,
-    "changed_files": 29,
-    "Last-Modified": "Sat, 13 Oct 2018 02:57:56 GMT",
-    "ETag": "W/\"c51fa2e2d6e067754ad11c3b460872bb\""
+    "commits": 5,
+    "additions": 1051,
+    "deletions": 331,
+    "changed_files": 41,
+    "Last-Modified": "Tue, 01 Jan 2019 22:06:20 GMT",
+    "ETag": "W/\"52b8ebc02f80e018fac82d2ed9af0de5\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-04T07:17:04Z",
-    "updated_at": "2019-01-01T21:09:29Z",
+    "updated_at": "2019-01-01T22:03:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f3a1903b0d8fd529704b51d58fa528651ffbd3dc",
+    "merge_commit_sha": "8c03b6ed4e312e7848a86cce1457aba062613706",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/toro-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/toro-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/toro-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/toro-feedstock/statuses/bc8ab79898986d1ced872d54b5190788a464e9b1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/toro-feedstock/statuses/8737be3c7b4fb902c7a358cae21a7c73d848a078",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "bc8ab79898986d1ced872d54b5190788a464e9b1",
+        "sha": "8737be3c7b4fb902c7a358cae21a7c73d848a078",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/toro-feedstock/deployments",
             "created_at": "2018-07-08T11:40:44Z",
             "updated_at": "2018-07-08T11:40:46Z",
-            "pushed_at": "2019-01-01T21:09:28Z",
+            "pushed_at": "2019-01-01T22:03:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/toro-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/toro-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/toro-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/toro-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/toro-feedstock/deployments",
             "created_at": "2016-08-31T02:44:38Z",
             "updated_at": "2018-08-04T17:29:49Z",
-            "pushed_at": "2019-01-01T21:09:29Z",
+            "pushed_at": "2019-01-01T22:03:56Z",
             "git_url": "git://github.com/conda-forge/toro-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/toro-feedstock.git",
             "clone_url": "https://github.com/conda-forge/toro-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/toro-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/toro-feedstock/statuses/bc8ab79898986d1ced872d54b5190788a464e9b1"
+            "href": "https://api.github.com/repos/conda-forge/toro-feedstock/statuses/8737be3c7b4fb902c7a358cae21a7c73d848a078"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 356,
-    "deletions": 231,
+    "commits": 5,
+    "additions": 359,
+    "deletions": 234,
     "changed_files": 24,
-    "Last-Modified": "Tue, 01 Jan 2019 21:09:29 GMT",
-    "ETag": "W/\"0323f3ce9948b90b172172d038c273c9\""
+    "Last-Modified": "Tue, 01 Jan 2019 22:03:55 GMT",
+    "ETag": "W/\"f74c361b4eacf7256e8f9440c4f0c7d0\""
 }
