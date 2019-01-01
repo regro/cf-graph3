@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/sdl2_net-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/sdl2_net-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving `python # [win]` which was used for vc matrix\nMoving cmake from host to build\nRemoving toolchain in favour of compiler()\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-06-30T04:27:27Z",
-    "updated_at": "2018-06-30T04:27:31Z",
-    "closed_at": null,
+    "updated_at": "2019-01-01T20:17:44Z",
+    "closed_at": "2019-01-01T20:17:44Z",
     "merged_at": null,
     "merge_commit_sha": "d8421c187e41052ac70979e023fe32ef91bf8349",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sdl2_net-feedstock/deployments",
             "created_at": "2018-06-30T04:27:07Z",
             "updated_at": "2018-06-30T04:27:09Z",
-            "pushed_at": "2018-09-13T12:17:54Z",
+            "pushed_at": "2019-01-01T20:17:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sdl2_net-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sdl2_net-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sdl2_net-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sdl2_net-feedstock/deployments",
             "created_at": "2016-12-17T21:40:05Z",
             "updated_at": "2018-08-04T18:21:10Z",
-            "pushed_at": "2018-09-13T12:17:55Z",
+            "pushed_at": "2019-01-01T20:17:08Z",
             "git_url": "git://github.com/conda-forge/sdl2_net-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sdl2_net-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sdl2_net-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 299,
     "deletions": 175,
     "changed_files": 23,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"97e632c7dd200ed4174b2d84bca029a9\""
+    "Last-Modified": "Tue, 01 Jan 2019 20:17:44 GMT",
+    "ETag": "W/\"870d6eecbf5db6f82309f63a315aadc4\""
 }
