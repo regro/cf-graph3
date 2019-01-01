@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T16:15:43Z",
-    "updated_at": "2018-11-25T16:18:10Z",
+    "updated_at": "2019-01-01T22:03:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6beede7391ab79f892cfc1e2c8dac9b523fc068f",
+    "merge_commit_sha": "436d93061626979bfd2339bc376b0e637c1b303d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/statuses/ba31cc20a2a5e7e903f9a823ebc321bbbb77e18a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/statuses/86ac84aab37fd548754bb163f0d06886b5f8eb03",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ba31cc20a2a5e7e903f9a823ebc321bbbb77e18a",
+        "sha": "86ac84aab37fd548754bb163f0d06886b5f8eb03",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gdb-feedstock/deployments",
             "created_at": "2018-03-16T18:15:33Z",
             "updated_at": "2018-03-16T18:15:35Z",
-            "pushed_at": "2018-11-25T16:15:43Z",
+            "pushed_at": "2019-01-01T22:03:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gdb-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gdb-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gdb-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gdb-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gdb-feedstock/deployments",
             "created_at": "2016-10-10T22:50:04Z",
             "updated_at": "2018-11-03T17:00:15Z",
-            "pushed_at": "2018-11-25T16:15:44Z",
+            "pushed_at": "2019-01-01T22:03:08Z",
             "git_url": "git://github.com/conda-forge/gdb-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gdb-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gdb-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gdb-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gdb-feedstock/statuses/ba31cc20a2a5e7e903f9a823ebc321bbbb77e18a"
+            "href": "https://api.github.com/repos/conda-forge/gdb-feedstock/statuses/86ac84aab37fd548754bb163f0d06886b5f8eb03"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 209,
-    "deletions": 16,
-    "changed_files": 9
+    "commits": 3,
+    "additions": 357,
+    "deletions": 22,
+    "changed_files": 16,
+    "Last-Modified": "Tue, 01 Jan 2019 22:03:07 GMT",
+    "ETag": "W/\"56e22ccd5d47768996fb0e6f3bf5b6aa\""
 }

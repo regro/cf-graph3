@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T18:29:44Z",
-    "updated_at": "2018-10-18T01:52:43Z",
+    "updated_at": "2019-01-01T23:01:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8fcc37f6c1a80362063bfaa51873e3d36b75af08",
+    "merge_commit_sha": "5b903b652f73f6097b3743c7d3d8d331b1c5f2ae",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/statuses/b23888e452b180f21c9a9c989253877d7eff5eeb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/statuses/a03ab8aebce1fadb6eacb1067d0b4623e0b6f534",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b23888e452b180f21c9a9c989253877d7eff5eeb",
+        "sha": "a03ab8aebce1fadb6eacb1067d0b4623e0b6f534",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/trottersuzuki-feedstock/deployments",
             "created_at": "2018-06-29T23:44:34Z",
             "updated_at": "2018-06-29T23:44:36Z",
-            "pushed_at": "2018-10-18T01:52:43Z",
+            "pushed_at": "2019-01-01T23:01:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/trottersuzuki-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/trottersuzuki-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/trottersuzuki-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/deployments",
             "created_at": "2017-08-04T12:14:11Z",
             "updated_at": "2018-08-04T18:50:25Z",
-            "pushed_at": "2018-10-18T01:52:44Z",
+            "pushed_at": "2019-01-01T23:01:47Z",
             "git_url": "git://github.com/conda-forge/trottersuzuki-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/trottersuzuki-feedstock.git",
             "clone_url": "https://github.com/conda-forge/trottersuzuki-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/statuses/b23888e452b180f21c9a9c989253877d7eff5eeb"
+            "href": "https://api.github.com/repos/conda-forge/trottersuzuki-feedstock/statuses/a03ab8aebce1fadb6eacb1067d0b4623e0b6f534"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 341,
-    "deletions": 137,
-    "changed_files": 22
+    "commits": 5,
+    "additions": 837,
+    "deletions": 133,
+    "changed_files": 33,
+    "Last-Modified": "Tue, 01 Jan 2019 23:01:46 GMT",
+    "ETag": "W/\"5de114c8cc3ae6746ecd91a445f60b6a\""
 }
