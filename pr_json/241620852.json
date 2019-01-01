@@ -1,15 +1,15 @@
 {
-    "url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21",
-    "id": 224138531,
-    "node_id": "MDExOlB1bGxSZXF1ZXN0MjI0MTM4NTMx",
-    "html_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/21",
-    "diff_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/21.diff",
-    "patch_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/21.patch",
-    "issue_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/21",
-    "number": 21,
+    "url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23",
+    "id": 241620852,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MjQxNjIwODUy",
+    "html_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/23",
+    "diff_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/23.diff",
+    "patch_url": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/23.patch",
+    "issue_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/23",
+    "number": 23,
     "state": "open",
     "locked": false,
-    "title": "terraform-provider-azurerm v1.17.0",
+    "title": "terraform-provider-azurerm v1.20.0",
     "user": {
         "login": "regro-cf-autotick-bot",
         "id": 36490558,
@@ -31,26 +31,26 @@
         "site_admin": false
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
-    "created_at": "2018-10-19T00:31:06Z",
-    "updated_at": "2019-01-01T05:35:58Z",
+    "created_at": "2019-01-01T07:13:02Z",
+    "updated_at": "2019-01-01T07:13:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0973e13053681b3e583d339e5ff0431c86640d0d",
+    "merge_commit_sha": null,
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
-    "commits_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21/commits",
-    "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21/comments",
+    "commits_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23/commits",
+    "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/statuses/13568078c08c58aa051aff502d56096d5a4c4507",
+    "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/23/comments",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/statuses/ac3fc1fc1ed4d8d103c0ffe92721c66157c188b3",
     "head": {
-        "label": "regro-cf-autotick-bot:1.17.0",
-        "ref": "1.17.0",
-        "sha": "13568078c08c58aa051aff502d56096d5a4c4507",
+        "label": "regro-cf-autotick-bot:1.20.0",
+        "ref": "1.20.0",
+        "sha": "ac3fc1fc1ed4d8d103c0ffe92721c66157c188b3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-azurerm-feedstock/deployments",
             "created_at": "2018-03-15T22:35:42Z",
             "updated_at": "2018-03-15T22:35:44Z",
-            "pushed_at": "2019-01-01T05:36:03Z",
+            "pushed_at": "2019-01-01T07:13:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-azurerm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-azurerm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-azurerm-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "19b121b57e660dc6b1c0feff9f2dcab787f9f8c9",
+        "sha": "b2b9b6f24d14c5d7d055a31b46dce8f0242a082a",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,35 +290,35 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
     },
     "_links": {
         "self": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23"
         },
         "html": {
-            "href": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/21"
+            "href": "https://github.com/conda-forge/terraform-provider-azurerm-feedstock/pull/23"
         },
         "issue": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/21"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/23"
         },
         "comments": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/21/comments"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/issues/23/comments"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21/comments"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23/comments"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/comments{/number}"
         },
         "commits": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/21/commits"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/pulls/23/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/statuses/13568078c08c58aa051aff502d56096d5a4c4507"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-azurerm-feedstock/statuses/ac3fc1fc1ed4d8d103c0ffe92721c66157c188b3"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,11 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 2,
+    "comments": 0,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 3,
-    "deletions": 4,
-    "changed_files": 1,
-    "Last-Modified": "Tue, 01 Jan 2019 05:35:58 GMT",
-    "ETag": "W/\"47ab942b6d8b019c3dc6bc0c4adb6622\""
+    "commits": 2,
+    "additions": 5,
+    "deletions": 7,
+    "changed_files": 4
 }
