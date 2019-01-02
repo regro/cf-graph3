@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-02T00:15:50Z",
-    "updated_at": "2019-01-02T10:06:13Z",
+    "updated_at": "2019-01-02T16:25:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7d3f984e8a44632917646a15e19e1b6e292e5b3b",
+    "merge_commit_sha": "84d2461d0b9bca9f562f47b176cbb6544c5fa316",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/statuses/a0145cf7a3372b305dc48d28f7c1b854744452f0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/statuses/3d819bb4b6d7e62222f94de30fa219ecfab43a2b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a0145cf7a3372b305dc48d28f7c1b854744452f0",
+        "sha": "3d819bb4b6d7e62222f94de30fa219ecfab43a2b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/biom-format-feedstock/deployments",
             "created_at": "2018-09-28T22:10:33Z",
             "updated_at": "2018-09-28T22:10:36Z",
-            "pushed_at": "2019-01-02T10:05:39Z",
+            "pushed_at": "2019-01-02T16:25:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/biom-format-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/biom-format-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/biom-format-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/biom-format-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/biom-format-feedstock/deployments",
             "created_at": "2018-07-27T12:37:05Z",
             "updated_at": "2018-10-30T08:10:24Z",
-            "pushed_at": "2019-01-02T10:05:40Z",
+            "pushed_at": "2019-01-02T16:25:20Z",
             "git_url": "git://github.com/conda-forge/biom-format-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/biom-format-feedstock.git",
             "clone_url": "https://github.com/conda-forge/biom-format-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/biom-format-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/biom-format-feedstock/statuses/a0145cf7a3372b305dc48d28f7c1b854744452f0"
+            "href": "https://api.github.com/repos/conda-forge/biom-format-feedstock/statuses/3d819bb4b6d7e62222f94de30fa219ecfab43a2b"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 690,
-    "deletions": 36,
-    "changed_files": 27
+    "commits": 5,
+    "additions": 514,
+    "deletions": 31,
+    "changed_files": 22,
+    "Last-Modified": "Wed, 02 Jan 2019 16:25:19 GMT",
+    "ETag": "W/\"79fe73e731a363b5e010246fb7345202\""
 }
