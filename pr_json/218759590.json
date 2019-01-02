@@ -32,12 +32,52 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-27T19:13:48Z",
-    "updated_at": "2019-01-02T01:09:57Z",
+    "updated_at": "2019-01-02T07:38:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "d24ed429e36fc51b9082e97a4547341569307d6f",
-    "assignee": null,
-    "assignees": [],
+    "merge_commit_sha": "c153e3e806204e3a5c014200bcb7849d7f761765",
+    "assignee": {
+        "login": "sodre",
+        "id": 1043285,
+        "node_id": "MDQ6VXNlcjEwNDMyODU=",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1043285?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sodre",
+        "html_url": "https://github.com/sodre",
+        "followers_url": "https://api.github.com/users/sodre/followers",
+        "following_url": "https://api.github.com/users/sodre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sodre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sodre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sodre/subscriptions",
+        "organizations_url": "https://api.github.com/users/sodre/orgs",
+        "repos_url": "https://api.github.com/users/sodre/repos",
+        "events_url": "https://api.github.com/users/sodre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sodre/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "sodre",
+            "id": 1043285,
+            "node_id": "MDQ6VXNlcjEwNDMyODU=",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/1043285?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sodre",
+            "html_url": "https://github.com/sodre",
+            "followers_url": "https://api.github.com/users/sodre/followers",
+            "following_url": "https://api.github.com/users/sodre/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sodre/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sodre/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sodre/subscriptions",
+            "organizations_url": "https://api.github.com/users/sodre/orgs",
+            "repos_url": "https://api.github.com/users/sodre/repos",
+            "events_url": "https://api.github.com/users/sodre/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sodre/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
@@ -46,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/ce791eb2d41a3cfca7dac60d3e28d499a9869adb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/7f097fa12c617de1e0e25c28eed3639ff7ab8415",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.2",
         "ref": "1.0.2",
-        "sha": "ce791eb2d41a3cfca7dac60d3e28d499a9869adb",
+        "sha": "7f097fa12c617de1e0e25c28eed3639ff7ab8415",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-docker-feedstock/deployments",
             "created_at": "2018-07-02T08:12:46Z",
             "updated_at": "2018-07-02T08:12:48Z",
-            "pushed_at": "2019-01-02T02:49:09Z",
+            "pushed_at": "2019-01-02T07:38:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
@@ -174,7 +214,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "948254a8da74fd5d8f2b629e7e1039bc671661f2",
+        "sha": "0e421f9701710f82d27023d5ac606f3f532a0fd0",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +302,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/deployments",
             "created_at": "2018-03-14T14:32:24Z",
-            "updated_at": "2019-01-01T22:45:24Z",
-            "pushed_at": "2019-01-02T02:49:10Z",
+            "updated_at": "2019-01-02T07:38:14Z",
+            "pushed_at": "2019-01-02T07:38:52Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-docker-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-docker-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-docker-feedstock.git",
@@ -281,7 +321,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/ce791eb2d41a3cfca7dac60d3e28d499a9869adb"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/7f097fa12c617de1e0e25c28eed3639ff7ab8415"
         }
     },
     "author_association": "NONE",
@@ -326,7 +366,7 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 2,
@@ -336,6 +376,6 @@
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Wed, 02 Jan 2019 01:09:57 GMT",
-    "ETag": "W/\"c50fa909da6b0e2768510a5731f3ad8d\""
+    "Last-Modified": "Wed, 02 Jan 2019 07:38:51 GMT",
+    "ETag": "W/\"dc9a08aaa7bba59ca4f3083a933c1c60\""
 }
