@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T18:28:40Z",
-    "updated_at": "2019-01-01T22:49:50Z",
+    "updated_at": "2019-01-02T01:10:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "925d765b471f8850d7de29b1757ec91a04856b21",
+    "merge_commit_sha": "ff10bcccc9ea39d08a7d914fa04bd2f42c51f891",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/c4826e7e49001a21032f6787e5b23a2c71da47d3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/d74c5f69bd7957b4da3b9bf1b75e93e8bf4a6f9b",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.3",
         "ref": "1.0.3",
-        "sha": "c4826e7e49001a21032f6787e5b23a2c71da47d3",
+        "sha": "d74c5f69bd7957b4da3b9bf1b75e93e8bf4a6f9b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-docker-feedstock/deployments",
             "created_at": "2018-07-02T08:12:46Z",
             "updated_at": "2018-07-02T08:12:48Z",
-            "pushed_at": "2019-01-02T01:09:57Z",
+            "pushed_at": "2019-01-02T01:10:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-docker-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/deployments",
             "created_at": "2018-03-14T14:32:24Z",
             "updated_at": "2019-01-01T22:45:24Z",
-            "pushed_at": "2019-01-02T01:09:58Z",
+            "pushed_at": "2019-01-02T01:10:50Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-docker-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-docker-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-docker-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/c4826e7e49001a21032f6787e5b23a2c71da47d3"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-docker-feedstock/statuses/d74c5f69bd7957b4da3b9bf1b75e93e8bf4a6f9b"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
+    "commits": 4,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Tue, 01 Jan 2019 22:49:50 GMT",
-    "ETag": "W/\"45bedb4a7b6913edf3a53877a3e5ce42\""
+    "Last-Modified": "Wed, 02 Jan 2019 01:10:49 GMT",
+    "ETag": "W/\"e7f0bb5706da8465bfa383c5526c8c8d\""
 }
