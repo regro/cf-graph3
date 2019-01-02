@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-04T14:16:50Z",
-    "updated_at": "2019-01-01T05:32:20Z",
+    "updated_at": "2019-01-01T23:44:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8f9f1f8edcb1029b86a113bf69e3fde4ec9a4515",
+    "merge_commit_sha": "ecc5d1077d48a11491596c8bb64b996c424eed5d",
     "assignee": {
         "login": "sodre",
         "id": 1043285,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/statuses/430ef36c33e5e07b73876ab52b3ace6104328db0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/statuses/c0642b01dd4917766e35f3b055a7397f16a2144a",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.0",
         "ref": "1.0.0",
-        "sha": "430ef36c33e5e07b73876ab52b3ace6104328db0",
+        "sha": "c0642b01dd4917766e35f3b055a7397f16a2144a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/terraform-provider-arukas-feedstock/deployments",
             "created_at": "2018-07-02T08:22:35Z",
             "updated_at": "2018-07-02T08:22:38Z",
-            "pushed_at": "2019-01-01T05:20:22Z",
+            "pushed_at": "2019-01-01T23:44:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/terraform-provider-arukas-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/terraform-provider-arukas-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/terraform-provider-arukas-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/deployments",
             "created_at": "2018-03-14T12:51:01Z",
             "updated_at": "2019-01-01T04:41:51Z",
-            "pushed_at": "2019-01-01T05:20:23Z",
+            "pushed_at": "2019-01-01T23:44:57Z",
             "git_url": "git://github.com/conda-forge/terraform-provider-arukas-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/terraform-provider-arukas-feedstock.git",
             "clone_url": "https://github.com/conda-forge/terraform-provider-arukas-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/statuses/430ef36c33e5e07b73876ab52b3ace6104328db0"
+            "href": "https://api.github.com/repos/conda-forge/terraform-provider-arukas-feedstock/statuses/c0642b01dd4917766e35f3b055a7397f16a2144a"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 4,
-    "deletions": 5,
+    "commits": 3,
+    "additions": 3,
+    "deletions": 6,
     "changed_files": 1,
-    "Last-Modified": "Tue, 01 Jan 2019 05:32:20 GMT",
-    "ETag": "W/\"9239524215bf43caa9eeb32e7c581d6d\""
+    "Last-Modified": "Tue, 01 Jan 2019 23:44:56 GMT",
+    "ETag": "W/\"21c828474630e550fd8886c3985b7dfb\""
 }

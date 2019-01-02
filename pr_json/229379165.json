@@ -35,7 +35,7 @@
     "updated_at": "2018-12-31T21:44:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "638d27a26648a3648a89a5d5e892ee50970bd183",
+    "merge_commit_sha": "3ef5d8323deea1e51704f9ee8c31c676863e8d9e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/deployments",
             "created_at": "2016-07-07T15:32:37Z",
-            "updated_at": "2018-12-01T05:59:08Z",
-            "pushed_at": "2018-12-03T03:46:28Z",
+            "updated_at": "2019-01-01T23:53:26Z",
+            "pushed_at": "2019-01-01T23:53:24Z",
             "git_url": "git://github.com/conda-forge/postgresql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/postgresql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/postgresql-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 14,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 14,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -337,5 +337,5 @@
     "deletions": 4,
     "changed_files": 3,
     "Last-Modified": "Mon, 31 Dec 2018 21:44:51 GMT",
-    "ETag": "W/\"6999c7285bacdf6f9051621f35aa97b5\""
+    "ETag": "W/\"705d2bd809f15bcfc2a31addf50c572d\""
 }
