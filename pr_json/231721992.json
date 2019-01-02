@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-17T11:12:47Z",
-    "updated_at": "2018-11-17T11:13:37Z",
+    "updated_at": "2019-01-02T21:11:00Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3dba3af6ee1f36a4d9b2e0149f56bf9758751286",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/statuses/857b72095f253f371676ac43d98eabb257c436bd",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/statuses/7b53497d869a3ce02ed52f6177874cf5964320c0",
     "head": {
         "label": "regro-cf-autotick-bot:0.7.0",
         "ref": "0.7.0",
-        "sha": "857b72095f253f371676ac43d98eabb257c436bd",
+        "sha": "7b53497d869a3ce02ed52f6177874cf5964320c0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-ggeffects-feedstock/deployments",
             "created_at": "2018-08-11T09:15:04Z",
             "updated_at": "2018-08-11T09:15:06Z",
-            "pushed_at": "2018-11-20T09:11:58Z",
+            "pushed_at": "2019-01-02T21:10:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-ggeffects-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-ggeffects-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-ggeffects-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/deployments",
             "created_at": "2018-07-20T11:08:44Z",
             "updated_at": "2018-11-20T08:35:29Z",
-            "pushed_at": "2018-11-20T08:35:26Z",
+            "pushed_at": "2019-01-02T21:10:56Z",
             "git_url": "git://github.com/conda-forge/r-ggeffects-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-ggeffects-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-ggeffects-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/statuses/857b72095f253f371676ac43d98eabb257c436bd"
+            "href": "https://api.github.com/repos/conda-forge/r-ggeffects-feedstock/statuses/7b53497d869a3ce02ed52f6177874cf5964320c0"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 69,
-    "deletions": 35,
-    "changed_files": 10,
-    "Last-Modified": "Sat, 17 Nov 2018 11:13:37 GMT",
-    "ETag": "W/\"e7c4462f5a872d7cef640e49182174fa\""
+    "commits": 3,
+    "additions": 379,
+    "deletions": 47,
+    "changed_files": 16,
+    "Last-Modified": "Wed, 02 Jan 2019 21:11:00 GMT",
+    "ETag": "W/\"6d54eb1eef49a1c34c7654519c55273f\""
 }

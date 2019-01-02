@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\norange3-text\nscattertext\nnewspaper3k\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-13T07:58:06Z",
-    "updated_at": "2018-11-04T23:44:22Z",
+    "updated_at": "2019-01-02T20:28:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3ad39617ca7107160008293ff2fdd15e54ea052b",
+    "merge_commit_sha": "3e40eb8f23e623ca5a9d9903e7daf388e9938a51",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/pulls/16/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/issues/16/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/statuses/d686c6551139dfba96e8d2c6f2c88507aa504543",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/statuses/26a88d730064ebc282d060555ea48b9619b58cf1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d686c6551139dfba96e8d2c6f2c88507aa504543",
+        "sha": "26a88d730064ebc282d060555ea48b9619b58cf1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gensim-feedstock/deployments",
             "created_at": "2018-09-20T19:23:47Z",
             "updated_at": "2018-09-20T19:23:49Z",
-            "pushed_at": "2018-11-03T13:59:40Z",
+            "pushed_at": "2019-01-02T20:28:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gensim-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gensim-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gensim-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gensim-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 45,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gensim-feedstock/deployments",
             "created_at": "2017-09-04T16:08:54Z",
             "updated_at": "2018-10-13T14:53:56Z",
-            "pushed_at": "2018-12-21T16:05:05Z",
+            "pushed_at": "2019-01-02T20:28:30Z",
             "git_url": "git://github.com/conda-forge/gensim-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gensim-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gensim-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 11,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 11,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gensim-feedstock/pulls/16/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gensim-feedstock/statuses/d686c6551139dfba96e8d2c6f2c88507aa504543"
+            "href": "https://api.github.com/repos/conda-forge/gensim-feedstock/statuses/26a88d730064ebc282d060555ea48b9619b58cf1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 19,
+    "comments": 20,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 294,
-    "deletions": 139,
-    "changed_files": 22
+    "commits": 11,
+    "additions": 703,
+    "deletions": 151,
+    "changed_files": 31,
+    "Last-Modified": "Wed, 02 Jan 2019 20:28:30 GMT",
+    "ETag": "W/\"ab16a2b6e04ff7ec2994cd51f5fadb64\""
 }
