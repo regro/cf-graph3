@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-01T18:12:58Z",
-    "updated_at": "2019-01-01T21:34:51Z",
+    "updated_at": "2019-01-02T10:28:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7920e811d85d480845f123be7b431f37b86e09b8",
+    "merge_commit_sha": "d30a35bc6c320cd86b54c7bab6cd41cf3a46e9fd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scons-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scons-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scons-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scons-feedstock/statuses/9dbc7b0dae41f5d9536fa73a32e994d6f9cbb8b2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scons-feedstock/statuses/56eec5bff725ff89ad82d39651a8b3eed2334dfa",
     "head": {
         "label": "regro-cf-autotick-bot:3.0.2",
         "ref": "3.0.2",
-        "sha": "9dbc7b0dae41f5d9536fa73a32e994d6f9cbb8b2",
+        "sha": "56eec5bff725ff89ad82d39651a8b3eed2334dfa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scons-feedstock/deployments",
             "created_at": "2018-09-23T16:12:39Z",
             "updated_at": "2018-09-23T16:12:41Z",
-            "pushed_at": "2019-01-01T21:34:50Z",
+            "pushed_at": "2019-01-02T10:28:23Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scons-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scons-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scons-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/scons-feedstock",
             "homepage": null,
-            "size": 37,
+            "size": 40,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scons-feedstock/deployments",
             "created_at": "2017-03-23T22:06:35Z",
             "updated_at": "2018-09-24T10:56:54Z",
-            "pushed_at": "2019-01-01T21:34:51Z",
+            "pushed_at": "2019-01-02T10:28:24Z",
             "git_url": "git://github.com/conda-forge/scons-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scons-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scons-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scons-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scons-feedstock/statuses/9dbc7b0dae41f5d9536fa73a32e994d6f9cbb8b2"
+            "href": "https://api.github.com/repos/conda-forge/scons-feedstock/statuses/56eec5bff725ff89ad82d39651a8b3eed2334dfa"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 319,
-    "deletions": 408,
-    "changed_files": 26
+    "commits": 8,
+    "additions": 334,
+    "deletions": 115,
+    "changed_files": 20,
+    "Last-Modified": "Wed, 02 Jan 2019 10:28:23 GMT",
+    "ETag": "W/\"848a88cdcaa57c717b5f98cc116a8379\""
 }
