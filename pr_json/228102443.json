@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-03T06:14:38Z",
-    "updated_at": "2018-11-03T06:14:41Z",
+    "updated_at": "2019-01-02T00:55:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "419557af7b54bb2d2f56a0978340dffb59bae33f",
+    "merge_commit_sha": "222e401cf3474355ea03a3509aca41647493ce8b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/statuses/73931051bdada6662cfb47f3d4ac80710f2031e3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/statuses/a1e6dcaba2146e353bda28b1060db1c3e24c6fcc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "73931051bdada6662cfb47f3d4ac80710f2031e3",
+        "sha": "a1e6dcaba2146e353bda28b1060db1c3e24c6fcc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dionysus-feedstock/deployments",
             "created_at": "2018-06-23T01:13:49Z",
             "updated_at": "2018-06-23T01:13:51Z",
-            "pushed_at": "2018-11-03T06:14:38Z",
+            "pushed_at": "2019-01-02T00:55:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dionysus-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dionysus-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dionysus-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dionysus-feedstock/deployments",
             "created_at": "2017-09-28T04:13:51Z",
             "updated_at": "2018-08-04T18:41:55Z",
-            "pushed_at": "2018-11-03T06:14:39Z",
+            "pushed_at": "2019-01-02T00:55:17Z",
             "git_url": "git://github.com/conda-forge/dionysus-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dionysus-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dionysus-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dionysus-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dionysus-feedstock/statuses/73931051bdada6662cfb47f3d4ac80710f2031e3"
+            "href": "https://api.github.com/repos/conda-forge/dionysus-feedstock/statuses/a1e6dcaba2146e353bda28b1060db1c3e24c6fcc"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 160,
-    "deletions": 70,
-    "changed_files": 17,
-    "Last-Modified": "Sat, 03 Nov 2018 06:14:41 GMT",
-    "ETag": "W/\"defb1ad7bd64ae6da4072ab1b6ab6ee6\""
+    "commits": 6,
+    "additions": 725,
+    "deletions": 136,
+    "changed_files": 32,
+    "Last-Modified": "Wed, 02 Jan 2019 00:55:16 GMT",
+    "ETag": "W/\"22962f1fa19b589ebb3fc0a815c68144\""
 }
