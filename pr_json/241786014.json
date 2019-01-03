@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-02T16:15:02Z",
-    "updated_at": "2019-01-03T19:56:55Z",
+    "updated_at": "2019-01-03T21:14:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5b3731add2689498eea77c911c814b2ce832ace8",
+    "merge_commit_sha": "c3a8735c5f780e44e13fb33e80fc3f7bdd7e7612",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/statuses/dd63c3d6aa1a8b9333f7de81b0a60d8f0a8d3ea4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/statuses/970eef4893c792fe6c288b2d9a697192ddf1600f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "dd63c3d6aa1a8b9333f7de81b0a60d8f0a8d3ea4",
+        "sha": "970eef4893c792fe6c288b2d9a697192ddf1600f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/go-dep-feedstock/deployments",
             "created_at": "2019-01-02T16:14:47Z",
             "updated_at": "2019-01-02T16:14:50Z",
-            "pushed_at": "2019-01-02T16:15:02Z",
+            "pushed_at": "2019-01-03T21:14:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/go-dep-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/go-dep-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/go-dep-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/go-dep-feedstock/deployments",
             "created_at": "2019-01-02T15:40:16Z",
             "updated_at": "2019-01-02T15:42:47Z",
-            "pushed_at": "2019-01-03T04:10:35Z",
+            "pushed_at": "2019-01-03T21:14:17Z",
             "git_url": "git://github.com/conda-forge/go-dep-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/go-dep-feedstock.git",
             "clone_url": "https://github.com/conda-forge/go-dep-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/go-dep-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/go-dep-feedstock/statuses/dd63c3d6aa1a8b9333f7de81b0a60d8f0a8d3ea4"
+            "href": "https://api.github.com/repos/conda-forge/go-dep-feedstock/statuses/970eef4893c792fe6c288b2d9a697192ddf1600f"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 10,
+    "comments": 11,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 17,
-    "deletions": 7,
-    "changed_files": 4,
-    "Last-Modified": "Thu, 03 Jan 2019 19:56:55 GMT",
-    "ETag": "W/\"6b9294c665ed1621230b8b84010d10f3\""
+    "commits": 6,
+    "additions": 97,
+    "deletions": 16,
+    "changed_files": 11,
+    "Last-Modified": "Thu, 03 Jan 2019 21:14:25 GMT",
+    "ETag": "W/\"49faadadbf4bdaf8d364f1b32df381a0\""
 }
