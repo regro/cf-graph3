@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-03T19:39:01Z",
-    "updated_at": "2019-01-03T21:15:32Z",
+    "updated_at": "2019-01-04T00:16:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8f1dea81421315a4d859599bf8cc1a2bd153953a",
+    "merge_commit_sha": "deeba273956381e87f76152c4631f05ce8fd990d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/b4fb757d04c683e12b4774507abe95b94d80482c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/6ed1e160d4bdf0d3d562ec4c6a6a919c1c9ca551",
     "head": {
         "label": "regro-cf-autotick-bot:1.7.0",
         "ref": "1.7.0",
-        "sha": "b4fb757d04c683e12b4774507abe95b94d80482c",
+        "sha": "6ed1e160d4bdf0d3d562ec4c6a6a919c1c9ca551",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/event-model-feedstock/deployments",
             "created_at": "2018-05-15T17:32:17Z",
             "updated_at": "2018-05-15T17:32:19Z",
-            "pushed_at": "2019-01-03T21:15:32Z",
+            "pushed_at": "2019-01-04T00:16:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/event-model-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/event-model-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/event-model-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/event-model-feedstock/deployments",
             "created_at": "2016-05-24T15:39:56Z",
             "updated_at": "2018-10-03T11:26:06Z",
-            "pushed_at": "2019-01-03T21:15:33Z",
+            "pushed_at": "2019-01-04T00:16:08Z",
             "git_url": "git://github.com/conda-forge/event-model-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/event-model-feedstock.git",
             "clone_url": "https://github.com/conda-forge/event-model-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/b4fb757d04c683e12b4774507abe95b94d80482c"
+            "href": "https://api.github.com/repos/conda-forge/event-model-feedstock/statuses/6ed1e160d4bdf0d3d562ec4c6a6a919c1c9ca551"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 333,
-    "deletions": 97,
-    "changed_files": 19,
-    "Last-Modified": "Thu, 03 Jan 2019 21:15:32 GMT",
-    "ETag": "W/\"66ecf5f0dc41d9822579d40024bea1ab\""
+    "commits": 5,
+    "additions": 322,
+    "deletions": 399,
+    "changed_files": 25,
+    "Last-Modified": "Fri, 04 Jan 2019 00:16:07 GMT",
+    "ETag": "W/\"bb3d0ee3334ad331598d46f4ac3067f2\""
 }
