@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/coolprop-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/coolprop-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T16:32:38Z",
-    "updated_at": "2018-10-14T16:36:24Z",
-    "closed_at": null,
+    "updated_at": "2019-01-04T23:07:08Z",
+    "closed_at": "2019-01-04T23:07:08Z",
     "merged_at": null,
     "merge_commit_sha": "d2dd0490f5a54e9a6acce1d818cbcbdec45c276c",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/coolprop-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/coolprop-feedstock/deployments",
             "created_at": "2018-05-21T17:17:06Z",
-            "updated_at": "2018-11-19T09:17:32Z",
-            "pushed_at": "2019-01-04T17:58:38Z",
+            "updated_at": "2019-01-04T23:07:10Z",
+            "pushed_at": "2019-01-04T23:07:08Z",
             "git_url": "git://github.com/conda-forge/coolprop-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/coolprop-feedstock.git",
             "clone_url": "https://github.com/conda-forge/coolprop-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 414,
     "deletions": 90,
-    "changed_files": 28
+    "changed_files": 28,
+    "Last-Modified": "Fri, 04 Jan 2019 23:07:08 GMT",
+    "ETag": "W/\"ddb9cf222cd0397ca04d3f9e202a17ed\""
 }
