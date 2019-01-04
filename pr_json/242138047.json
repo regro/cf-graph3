@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-03T23:19:28Z",
-    "updated_at": "2019-01-03T23:33:02Z",
+    "updated_at": "2019-01-04T01:44:25Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "429c3a367b1dde62a873ee98afc7051b31030000",
@@ -80,7 +80,16 @@
     ],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1179686000,
+            "node_id": "MDU6TGFiZWwxMTc5Njg2MDAw",
+            "url": "https://api.github.com/repos/conda-forge/python-slugify-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "1e89cc",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/python-slugify-feedstock/pulls/11/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-slugify-feedstock/pulls/11/comments",
@@ -375,7 +384,5 @@
     "commits": 3,
     "additions": 141,
     "deletions": 9,
-    "changed_files": 8,
-    "Last-Modified": "Thu, 03 Jan 2019 23:33:02 GMT",
-    "ETag": "W/\"80730cca61395a97b3beedfcf5b0d7e2\""
+    "changed_files": 8
 }
