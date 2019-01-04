@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-22T10:15:05Z",
-    "updated_at": "2019-01-02T20:08:16Z",
+    "updated_at": "2019-01-04T08:48:34Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6fa0ef534d83ed06472ebc649edea3bd6f881e9c",
+    "merge_commit_sha": "4646a97359b705c099d956d2c6bd3a61d8b8ad5a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/statuses/f8a3f967d0dbd21489af9ad931f003fa2940250c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/statuses/6c61069ae8b79437f5446b8d32ef21eea87acc4b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f8a3f967d0dbd21489af9ad931f003fa2940250c",
+        "sha": "6c61069ae8b79437f5446b8d32ef21eea87acc4b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-openimager-feedstock/deployments",
             "created_at": "2018-12-22T10:14:49Z",
             "updated_at": "2018-12-22T10:14:51Z",
-            "pushed_at": "2019-01-02T20:08:15Z",
+            "pushed_at": "2019-01-04T08:41:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-openimager-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-openimager-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-openimager-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/deployments",
             "created_at": "2018-12-22T09:40:19Z",
             "updated_at": "2018-12-22T09:43:27Z",
-            "pushed_at": "2019-01-02T20:08:17Z",
+            "pushed_at": "2019-01-04T08:41:46Z",
             "git_url": "git://github.com/conda-forge/r-openimager-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-openimager-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-openimager-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/statuses/f8a3f967d0dbd21489af9ad931f003fa2940250c"
+            "href": "https://api.github.com/repos/conda-forge/r-openimager-feedstock/statuses/6c61069ae8b79437f5446b8d32ef21eea87acc4b"
         }
     },
     "author_association": "NONE",
@@ -330,12 +330,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 6,
-    "review_comments": 1,
+    "review_comments": 3,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 139,
+    "commits": 7,
+    "additions": 140,
     "deletions": 20,
     "changed_files": 13,
-    "Last-Modified": "Wed, 02 Jan 2019 20:08:16 GMT",
-    "ETag": "W/\"afd171dbdf1c5debe55b91c043d405f2\""
+    "Last-Modified": "Fri, 04 Jan 2019 08:48:34 GMT",
+    "ETag": "W/\"1b2dd5db62a9caba541e9aa1d48b84d0\""
 }

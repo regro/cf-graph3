@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npremailer\ninline-html\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-23T18:11:20Z",
-    "updated_at": "2019-01-03T20:24:40Z",
+    "updated_at": "2019-01-04T08:35:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2834d6925e81242178d840086c42ac80286cb1de",
+    "merge_commit_sha": "4b84ab77260b9a2b82f74e62d1f880e3e9854a4c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -55,11 +55,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/statuses/4ad0854bc85b9a34578b7f1b8b8860060d3a4158",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/statuses/2d154f74e5d6d7c9f0e47ca3e5bd585cbc02e60d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4ad0854bc85b9a34578b7f1b8b8860060d3a4158",
+        "sha": "2d154f74e5d6d7c9f0e47ca3e5bd585cbc02e60d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -148,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cssutils-feedstock/deployments",
             "created_at": "2018-03-01T04:49:24Z",
             "updated_at": "2018-03-01T04:49:25Z",
-            "pushed_at": "2019-01-03T20:24:39Z",
+            "pushed_at": "2019-01-04T08:35:04Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cssutils-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cssutils-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cssutils-feedstock.git",
@@ -272,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cssutils-feedstock/deployments",
             "created_at": "2016-08-16T22:35:24Z",
             "updated_at": "2018-08-04T17:34:49Z",
-            "pushed_at": "2019-01-03T20:24:41Z",
+            "pushed_at": "2019-01-04T08:35:05Z",
             "git_url": "git://github.com/conda-forge/cssutils-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cssutils-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cssutils-feedstock.git",
@@ -327,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/cssutils-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cssutils-feedstock/statuses/4ad0854bc85b9a34578b7f1b8b8860060d3a4158"
+            "href": "https://api.github.com/repos/conda-forge/cssutils-feedstock/statuses/2d154f74e5d6d7c9f0e47ca3e5bd585cbc02e60d"
         }
     },
     "author_association": "NONE",
@@ -341,10 +341,10 @@
     "comments": 10,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 332,
-    "deletions": 284,
+    "commits": 9,
+    "additions": 334,
+    "deletions": 286,
     "changed_files": 22,
-    "Last-Modified": "Thu, 03 Jan 2019 20:24:40 GMT",
-    "ETag": "W/\"48c4a113540e49e1492e5c1c56530610\""
+    "Last-Modified": "Fri, 04 Jan 2019 08:35:04 GMT",
+    "ETag": "W/\"9a788abf7f6b36dcdb9be2e7db02f3d5\""
 }
