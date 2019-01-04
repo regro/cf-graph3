@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-04T17:22:21Z",
-    "updated_at": "2019-01-04T17:29:21Z",
+    "updated_at": "2019-01-04T19:36:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8bebfd37881a296ba9613676cfc6d6a29c354cc6",
+    "merge_commit_sha": "75665978d14d59cdb14c9eaeb1916a574468e399",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/statuses/3b4d686a986f38148e76e9b016154451366a5743",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/statuses/aed7f1c730f5a534c709ff9cd65b59140658e909",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.1",
         "ref": "0.5.1",
-        "sha": "3b4d686a986f38148e76e9b016154451366a5743",
+        "sha": "aed7f1c730f5a534c709ff9cd65b59140658e909",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymedphys-feedstock/deployments",
             "created_at": "2018-10-22T06:54:55Z",
             "updated_at": "2018-10-22T06:55:06Z",
-            "pushed_at": "2019-01-04T17:29:21Z",
+            "pushed_at": "2019-01-04T19:36:42Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymedphys-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymedphys-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymedphys-feedstock.git",
@@ -257,7 +257,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/deployments",
             "created_at": "2018-07-05T03:22:55Z",
             "updated_at": "2018-11-27T05:31:02Z",
-            "pushed_at": "2019-01-04T17:29:22Z",
+            "pushed_at": "2019-01-04T19:36:43Z",
             "git_url": "git://github.com/conda-forge/pymedphys-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymedphys-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymedphys-feedstock.git",
@@ -312,7 +312,7 @@
             "href": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/statuses/3b4d686a986f38148e76e9b016154451366a5743"
+            "href": "https://api.github.com/repos/conda-forge/pymedphys-feedstock/statuses/aed7f1c730f5a534c709ff9cd65b59140658e909"
         }
     },
     "author_association": "NONE",
@@ -326,10 +326,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 147,
-    "deletions": 12,
+    "commits": 5,
+    "additions": 143,
+    "deletions": 27,
     "changed_files": 8,
-    "Last-Modified": "Fri, 04 Jan 2019 17:29:21 GMT",
-    "ETag": "W/\"52b564d1f2f9912a857ecaa41b40f214\""
+    "Last-Modified": "Fri, 04 Jan 2019 19:36:42 GMT",
+    "ETag": "W/\"d3f9d12a7461b601cc9c176040841be1\""
 }
