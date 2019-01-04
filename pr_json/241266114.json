@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-28T05:14:17Z",
-    "updated_at": "2019-01-04T12:09:54Z",
+    "updated_at": "2019-01-04T13:16:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4c3c6dd8372bae9f05423393b091e711098ebbb9",
+    "merge_commit_sha": "02fb39d82d34f5cc4500cb9c1a83e82f72ba94bd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/statuses/f0e8833da1bd399da4001f3278b33b5e35b30a55",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/statuses/d77c4fc894fa00a0a428915dc86edd74f9ac2b56",
     "head": {
         "label": "regro-cf-autotick-bot:8.0.0",
         "ref": "8.0.0",
-        "sha": "f0e8833da1bd399da4001f3278b33b5e35b30a55",
+        "sha": "d77c4fc894fa00a0a428915dc86edd74f9ac2b56",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cryptopp-feedstock/deployments",
             "created_at": "2018-06-06T17:50:32Z",
             "updated_at": "2018-06-06T17:50:34Z",
-            "pushed_at": "2019-01-04T12:09:36Z",
+            "pushed_at": "2019-01-04T13:16:34Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cryptopp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cryptopp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cryptopp-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cryptopp-feedstock",
             "homepage": null,
-            "size": 44,
+            "size": 46,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/deployments",
             "created_at": "2017-01-22T21:30:14Z",
             "updated_at": "2019-01-04T07:14:41Z",
-            "pushed_at": "2019-01-04T12:09:37Z",
+            "pushed_at": "2019-01-04T13:16:35Z",
             "git_url": "git://github.com/conda-forge/cryptopp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cryptopp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cryptopp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/statuses/f0e8833da1bd399da4001f3278b33b5e35b30a55"
+            "href": "https://api.github.com/repos/conda-forge/cryptopp-feedstock/statuses/d77c4fc894fa00a0a428915dc86edd74f9ac2b56"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 321,
-    "deletions": 23,
-    "changed_files": 15
+    "commits": 4,
+    "additions": 358,
+    "deletions": 24,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 04 Jan 2019 13:16:35 GMT",
+    "ETag": "W/\"4eb4a6d3d29448a411fd6d90491b05ce\""
 }
