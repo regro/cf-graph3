@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-27T22:17:30Z",
-    "updated_at": "2018-11-27T22:17:34Z",
+    "updated_at": "2019-01-04T15:23:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "799760c88761bb21eeec35852049e2ba52b09302",
+    "merge_commit_sha": "f0fe3618b20ffbd5e0b7b7dcff26d1a16c0615b7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/statuses/465f00514d9c871651a23ea3cdebf021292abea9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/statuses/42cb1619a7908ae20e77724946e584f12da6c256",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "465f00514d9c871651a23ea3cdebf021292abea9",
+        "sha": "42cb1619a7908ae20e77724946e584f12da6c256",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/piqs-feedstock/deployments",
             "created_at": "2018-07-26T00:43:01Z",
             "updated_at": "2018-07-26T00:43:03Z",
-            "pushed_at": "2018-11-27T22:17:30Z",
+            "pushed_at": "2019-01-04T15:23:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/piqs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/piqs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/piqs-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/piqs-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/piqs-feedstock/deployments",
             "created_at": "2018-05-19T15:29:54Z",
             "updated_at": "2018-08-04T19:41:15Z",
-            "pushed_at": "2018-11-27T22:17:31Z",
+            "pushed_at": "2019-01-04T15:23:17Z",
             "git_url": "git://github.com/conda-forge/piqs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/piqs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/piqs-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/piqs-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/piqs-feedstock/statuses/465f00514d9c871651a23ea3cdebf021292abea9"
+            "href": "https://api.github.com/repos/conda-forge/piqs-feedstock/statuses/42cb1619a7908ae20e77724946e584f12da6c256"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 74,
-    "deletions": 34,
-    "changed_files": 10
+    "commits": 4,
+    "additions": 732,
+    "deletions": 56,
+    "changed_files": 28,
+    "Last-Modified": "Fri, 04 Jan 2019 15:23:16 GMT",
+    "ETag": "W/\"6ecb80673a5ebbab73aa56e4047cc2cf\""
 }
