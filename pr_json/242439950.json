@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npyaudi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-05T13:19:22Z",
-    "updated_at": "2019-01-05T14:26:47Z",
+    "updated_at": "2019-01-05T20:08:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "33f817b634f0f6e6b839c16b2e3450af10503fff",
+    "merge_commit_sha": "2e96c75630b089803ff4cc6068cdd3ae89d56d64",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/audi-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/audi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/audi-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/audi-feedstock/statuses/c82e3e71fe11f3ca3f89881151ba8a6528c70008",
+    "statuses_url": "https://api.github.com/repos/conda-forge/audi-feedstock/statuses/b6a5560983e3641cff6bb89646ab3384e26f6c6f",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c82e3e71fe11f3ca3f89881151ba8a6528c70008",
+        "sha": "b6a5560983e3641cff6bb89646ab3384e26f6c6f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/audi-feedstock/deployments",
             "created_at": "2018-04-23T18:18:11Z",
             "updated_at": "2018-04-23T18:18:13Z",
-            "pushed_at": "2019-01-05T14:26:47Z",
+            "pushed_at": "2019-01-05T20:08:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/audi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/audi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/audi-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/audi-feedstock/deployments",
             "created_at": "2018-03-10T15:33:01Z",
             "updated_at": "2018-10-02T14:38:40Z",
-            "pushed_at": "2019-01-05T14:26:48Z",
+            "pushed_at": "2019-01-05T20:08:30Z",
             "git_url": "git://github.com/conda-forge/audi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/audi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/audi-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/audi-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/audi-feedstock/statuses/c82e3e71fe11f3ca3f89881151ba8a6528c70008"
+            "href": "https://api.github.com/repos/conda-forge/audi-feedstock/statuses/b6a5560983e3641cff6bb89646ab3384e26f6c6f"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 324,
-    "deletions": 23,
+    "commits": 4,
+    "additions": 325,
+    "deletions": 24,
     "changed_files": 16,
-    "Last-Modified": "Sat, 05 Jan 2019 14:26:47 GMT",
-    "ETag": "W/\"3735f1e6cbc21c08d4113c4eadc3c242\""
+    "Last-Modified": "Sat, 05 Jan 2019 20:08:29 GMT",
+    "ETag": "W/\"2d8e8a745f627485ec668ef41285c8a5\""
 }
