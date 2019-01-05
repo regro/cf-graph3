@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-05T16:18:57Z",
-    "updated_at": "2019-01-05T16:19:01Z",
+    "updated_at": "2019-01-05T18:32:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b6add06f70b44512e1c1f9ff6dd21ad48065038c",
+    "merge_commit_sha": "b819ae41b5b06e83e7f9e2fae0fc2e8d89058ab4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/statuses/d2cef7f8c6336940933788ccf5063d38697c3b80",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/statuses/29b0a73b8d14c82a9545b55944eeb045ee43d199",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.0",
         "ref": "0.5.0",
-        "sha": "d2cef7f8c6336940933788ccf5063d38697c3b80",
+        "sha": "29b0a73b8d14c82a9545b55944eeb045ee43d199",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pytest-lazy-fixture-feedstock/deployments",
             "created_at": "2018-03-05T01:39:56Z",
             "updated_at": "2018-03-05T01:39:57Z",
-            "pushed_at": "2019-01-05T16:18:57Z",
+            "pushed_at": "2019-01-05T18:32:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pytest-lazy-fixture-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pytest-lazy-fixture-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pytest-lazy-fixture-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/deployments",
             "created_at": "2017-04-18T18:00:05Z",
             "updated_at": "2018-09-29T20:30:44Z",
-            "pushed_at": "2019-01-05T16:18:58Z",
+            "pushed_at": "2019-01-05T18:32:32Z",
             "git_url": "git://github.com/conda-forge/pytest-lazy-fixture-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pytest-lazy-fixture-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pytest-lazy-fixture-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/statuses/d2cef7f8c6336940933788ccf5063d38697c3b80"
+            "href": "https://api.github.com/repos/conda-forge/pytest-lazy-fixture-feedstock/statuses/29b0a73b8d14c82a9545b55944eeb045ee43d199"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 141,
-    "deletions": 8,
+    "commits": 3,
+    "additions": 143,
+    "deletions": 9,
     "changed_files": 8,
-    "Last-Modified": "Sat, 05 Jan 2019 16:19:01 GMT",
-    "ETag": "W/\"cce7609e310068ccd3dce449f1679a8f\""
+    "Last-Modified": "Sat, 05 Jan 2019 18:32:37 GMT",
+    "ETag": "W/\"88cfba5b31bf322cea65387c6cd0bb60\""
 }
