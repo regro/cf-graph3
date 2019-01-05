@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-14T19:29:40Z",
-    "updated_at": "2018-10-14T19:29:45Z",
+    "updated_at": "2019-01-04T23:34:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "74ca47b4a8c4a0ca3e0535b6c921a728f07f2a85",
+    "merge_commit_sha": "bc18d7fd385b92442cdd9d84d830210ccec7d242",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/statuses/fc523a03dcb73e4156e27ff11e461e478e021b22",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/statuses/932e354b8cf0d398be2222890b089b5077c66059",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "fc523a03dcb73e4156e27ff11e461e478e021b22",
+        "sha": "932e354b8cf0d398be2222890b089b5077c66059",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cassandra-driver-feedstock/deployments",
             "created_at": "2018-03-01T03:25:30Z",
             "updated_at": "2018-03-01T03:25:32Z",
-            "pushed_at": "2018-11-12T23:14:52Z",
+            "pushed_at": "2019-01-04T23:34:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cassandra-driver-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cassandra-driver-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cassandra-driver-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/deployments",
             "created_at": "2017-04-03T23:58:24Z",
             "updated_at": "2018-10-26T15:09:46Z",
-            "pushed_at": "2018-11-12T23:14:53Z",
+            "pushed_at": "2019-01-04T23:34:23Z",
             "git_url": "git://github.com/conda-forge/cassandra-driver-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cassandra-driver-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cassandra-driver-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/statuses/fc523a03dcb73e4156e27ff11e461e478e021b22"
+            "href": "https://api.github.com/repos/conda-forge/cassandra-driver-feedstock/statuses/932e354b8cf0d398be2222890b089b5077c66059"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 427,
-    "deletions": 152,
-    "changed_files": 28,
-    "Last-Modified": "Sun, 14 Oct 2018 19:29:45 GMT",
-    "ETag": "W/\"64b5b78e11605a0d496e18ccdb91cd7a\""
+    "commits": 5,
+    "additions": 979,
+    "deletions": 160,
+    "changed_files": 40,
+    "Last-Modified": "Fri, 04 Jan 2019 23:34:27 GMT",
+    "ETag": "W/\"9b5ef3f33d2f9e270e45dbc82a5c295e\""
 }
