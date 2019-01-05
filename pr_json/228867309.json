@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/hmmlearn-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "hmmlearn v0.2.1",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T23:15:09Z",
-    "updated_at": "2018-11-06T23:15:12Z",
-    "closed_at": null,
+    "updated_at": "2019-01-05T13:54:01Z",
+    "closed_at": "2019-01-05T13:54:01Z",
     "merged_at": null,
-    "merge_commit_sha": "677635d1354ff6bffb5b0fed1b0c6e1488473b28",
+    "merge_commit_sha": "c8fdba8707d80243a77db6d3197d3327f2a7f625",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/hmmlearn-feedstock/deployments",
             "created_at": "2018-11-06T22:13:04Z",
-            "updated_at": "2018-11-06T22:15:27Z",
-            "pushed_at": "2019-01-05T01:36:14Z",
+            "updated_at": "2019-01-05T13:53:23Z",
+            "pushed_at": "2019-01-05T13:53:22Z",
             "git_url": "git://github.com/conda-forge/hmmlearn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hmmlearn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hmmlearn-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -326,16 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Tue, 06 Nov 2018 23:15:12 GMT",
-    "ETag": "W/\"71e5190e302173118239e0a5931aef11\""
+    "Last-Modified": "Sat, 05 Jan 2019 13:54:01 GMT",
+    "ETag": "W/\"ba539ed38bcbf367b4fa74143f62b458\""
 }
