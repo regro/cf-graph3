@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-05T17:20:44Z",
-    "updated_at": "2019-01-05T20:52:34Z",
+    "updated_at": "2019-01-05T21:16:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f9b867271551d576ed206cd38aba82ff1975e8dc",
+    "merge_commit_sha": "680b5da21cfe134271df102e7df050c390ea053e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/statuses/ee460e91d8784a3cb053d5513a3a602ffb84c3c9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/statuses/75d5435e7f482f94ba1063b6c9e7e6649d29ebef",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "ee460e91d8784a3cb053d5513a3a602ffb84c3c9",
+        "sha": "75d5435e7f482f94ba1063b6c9e7e6649d29ebef",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymunk-feedstock/deployments",
             "created_at": "2019-01-05T17:20:28Z",
             "updated_at": "2019-01-05T17:20:30Z",
-            "pushed_at": "2019-01-05T20:52:33Z",
+            "pushed_at": "2019-01-05T21:16:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymunk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymunk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymunk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pymunk-feedstock",
             "homepage": null,
-            "size": 17,
+            "size": 18,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymunk-feedstock/deployments",
             "created_at": "2019-01-05T16:52:09Z",
             "updated_at": "2019-01-05T17:01:20Z",
-            "pushed_at": "2019-01-05T20:52:35Z",
+            "pushed_at": "2019-01-05T21:16:46Z",
             "git_url": "git://github.com/conda-forge/pymunk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymunk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymunk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pymunk-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymunk-feedstock/statuses/ee460e91d8784a3cb053d5513a3a602ffb84c3c9"
+            "href": "https://api.github.com/repos/conda-forge/pymunk-feedstock/statuses/75d5435e7f482f94ba1063b6c9e7e6649d29ebef"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 3,
-    "additions": 359,
-    "deletions": 30,
+    "additions": 358,
+    "deletions": 29,
     "changed_files": 21,
-    "Last-Modified": "Sat, 05 Jan 2019 20:52:34 GMT",
-    "ETag": "W/\"80ea4dd7630b2233097b85c221f8cf74\""
+    "Last-Modified": "Sat, 05 Jan 2019 21:16:45 GMT",
+    "ETag": "W/\"4e6bf76f1adfc593fdc3a5bc37e7ee34\""
 }
