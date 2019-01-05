@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ndiscretizer\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-28T11:15:07Z",
-    "updated_at": "2018-11-29T21:23:18Z",
+    "updated_at": "2019-01-05T14:32:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "61b9ed6140df6d94bb79b6076139925eccbf86af",
+    "merge_commit_sha": "85817c084e9d5337a05c68451a3e263542dd7582",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/pulls/60/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/issues/60/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/statuses/6ab9602cf1a8fdd177043ab7788fb3e8a8ba6c27",
+    "statuses_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/statuses/97412d465f91758b982a8e651aa3fc9a3ff9e7f1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6ab9602cf1a8fdd177043ab7788fb3e8a8ba6c27",
+        "sha": "97412d465f91758b982a8e651aa3fc9a3ff9e7f1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/kwant-feedstock/deployments",
             "created_at": "2018-06-24T05:03:05Z",
             "updated_at": "2018-06-24T05:03:07Z",
-            "pushed_at": "2018-11-28T11:15:07Z",
+            "pushed_at": "2019-01-05T14:32:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/kwant-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/kwant-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/kwant-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/kwant-feedstock/deployments",
             "created_at": "2016-11-03T13:54:16Z",
             "updated_at": "2018-11-28T10:37:59Z",
-            "pushed_at": "2018-11-28T11:15:08Z",
+            "pushed_at": "2019-01-05T14:32:12Z",
             "git_url": "git://github.com/conda-forge/kwant-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/kwant-feedstock.git",
             "clone_url": "https://github.com/conda-forge/kwant-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/kwant-feedstock/pulls/60/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/kwant-feedstock/statuses/6ab9602cf1a8fdd177043ab7788fb3e8a8ba6c27"
+            "href": "https://api.github.com/repos/conda-forge/kwant-feedstock/statuses/97412d465f91758b982a8e651aa3fc9a3ff9e7f1"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 315,
+    "commits": 3,
+    "additions": 316,
     "deletions": 10,
     "changed_files": 14,
-    "Last-Modified": "Thu, 29 Nov 2018 21:23:18 GMT",
-    "ETag": "W/\"3347536e39ac7f9b974dc42bcc7ca240\""
+    "Last-Modified": "Sat, 05 Jan 2019 14:32:11 GMT",
+    "ETag": "W/\"63afa4fc993c5b95e8e0ecaa424f8b69\""
 }
