@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-24T06:11:09Z",
-    "updated_at": "2018-09-24T06:11:13Z",
+    "updated_at": "2019-01-05T01:51:18Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c9eec6d7f24f20cf6f782be2e0377251790f718a",
+    "merge_commit_sha": "ac78b765d0d9d1adb71e602f53188532e400ad41",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/statuses/71f9f1ffa3a31ccbad6a963c55a0462a7eb710b0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/statuses/e15108128c08ac17c6db4ca3026883d428abd01b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "71f9f1ffa3a31ccbad6a963c55a0462a7eb710b0",
+        "sha": "e15108128c08ac17c6db4ca3026883d428abd01b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/google-cloud-monitoring-feedstock/deployments",
             "created_at": "2018-03-01T15:53:10Z",
             "updated_at": "2018-03-01T15:53:12Z",
-            "pushed_at": "2018-12-19T19:14:43Z",
+            "pushed_at": "2019-01-05T01:51:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/google-cloud-monitoring-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/google-cloud-monitoring-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/google-cloud-monitoring-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/deployments",
             "created_at": "2017-06-26T14:33:13Z",
             "updated_at": "2018-08-04T19:10:24Z",
-            "pushed_at": "2018-12-19T19:14:44Z",
+            "pushed_at": "2019-01-05T01:51:19Z",
             "git_url": "git://github.com/conda-forge/google-cloud-monitoring-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/google-cloud-monitoring-feedstock.git",
             "clone_url": "https://github.com/conda-forge/google-cloud-monitoring-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/statuses/71f9f1ffa3a31ccbad6a963c55a0462a7eb710b0"
+            "href": "https://api.github.com/repos/conda-forge/google-cloud-monitoring-feedstock/statuses/e15108128c08ac17c6db4ca3026883d428abd01b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 448,
-    "deletions": 156,
-    "changed_files": 29,
-    "Last-Modified": "Mon, 24 Sep 2018 06:11:13 GMT",
-    "ETag": "W/\"c03308f3e3dd35a618f2a50ab045e5aa\""
+    "commits": 3,
+    "additions": 691,
+    "deletions": 167,
+    "changed_files": 32,
+    "Last-Modified": "Sat, 05 Jan 2019 01:51:18 GMT",
+    "ETag": "W/\"b43462f91b8061ad58485888547f5267\""
 }
