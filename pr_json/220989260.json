@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\naudi\npyaudi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-08T01:56:57Z",
-    "updated_at": "2018-11-27T10:45:02Z",
+    "updated_at": "2019-01-05T11:10:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3d992d224491025b0278a427e06c2c3cd287622f",
+    "merge_commit_sha": "c241be32a529ac8740be7982cd0817218dad13e9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/3c2d48a9c38a9bcc40a84acfcd0f089d7707f620",
+    "statuses_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/701a0cabd2741b1ef9869253acfba4a6760410fa",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3c2d48a9c38a9bcc40a84acfcd0f089d7707f620",
+        "sha": "701a0cabd2741b1ef9869253acfba4a6760410fa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/mppp-feedstock/deployments",
             "created_at": "2018-04-06T10:40:13Z",
             "updated_at": "2018-04-06T10:40:15Z",
-            "pushed_at": "2018-11-15T16:20:50Z",
+            "pushed_at": "2019-01-05T11:10:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/mppp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/mppp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/mppp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/mppp-feedstock/deployments",
             "created_at": "2017-05-22T17:40:00Z",
             "updated_at": "2018-10-11T15:16:41Z",
-            "pushed_at": "2018-11-15T16:20:51Z",
+            "pushed_at": "2019-01-05T11:10:11Z",
             "git_url": "git://github.com/conda-forge/mppp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/mppp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/mppp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/3c2d48a9c38a9bcc40a84acfcd0f089d7707f620"
+            "href": "https://api.github.com/repos/conda-forge/mppp-feedstock/statuses/701a0cabd2741b1ef9869253acfba4a6760410fa"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 9,
+    "comments": 10,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 108,
-    "deletions": 16,
-    "changed_files": 10,
-    "Last-Modified": "Tue, 27 Nov 2018 10:45:02 GMT",
-    "ETag": "W/\"494887fe414df154079e419884c8a0a1\""
+    "commits": 7,
+    "additions": 422,
+    "deletions": 33,
+    "changed_files": 20,
+    "Last-Modified": "Sat, 05 Jan 2019 11:10:10 GMT",
+    "ETag": "W/\"e3b680bd0b15942087aa71db8981bcfd\""
 }
