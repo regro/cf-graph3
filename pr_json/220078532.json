@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T15:21:34Z",
-    "updated_at": "2019-01-06T10:50:24Z",
+    "updated_at": "2019-01-06T16:21:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7b5f55cea6362d8b6a898c5409f7452090dff911",
+    "merge_commit_sha": "e5b79792006daec24b82fa2c1aac9c092c089051",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/statuses/738283cf108546e5e82a5afae17594cdc39252ac",
+    "statuses_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/statuses/76a65ba4cfb2bb130940e8b68f8c04dfd06dc784",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "738283cf108546e5e82a5afae17594cdc39252ac",
+        "sha": "76a65ba4cfb2bb130940e8b68f8c04dfd06dc784",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/morepath-feedstock/deployments",
             "created_at": "2018-03-02T00:25:16Z",
             "updated_at": "2018-03-02T00:25:18Z",
-            "pushed_at": "2019-01-06T10:49:47Z",
+            "pushed_at": "2019-01-06T16:18:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/morepath-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/morepath-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/morepath-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/morepath-feedstock/deployments",
             "created_at": "2017-03-08T06:13:26Z",
             "updated_at": "2018-08-04T18:15:54Z",
-            "pushed_at": "2019-01-06T12:16:15Z",
+            "pushed_at": "2019-01-06T16:18:01Z",
             "git_url": "git://github.com/conda-forge/morepath-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/morepath-feedstock.git",
             "clone_url": "https://github.com/conda-forge/morepath-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/morepath-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/morepath-feedstock/statuses/738283cf108546e5e82a5afae17594cdc39252ac"
+            "href": "https://api.github.com/repos/conda-forge/morepath-feedstock/statuses/76a65ba4cfb2bb130940e8b68f8c04dfd06dc784"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 691,
-    "deletions": 167,
+    "commits": 5,
+    "additions": 693,
+    "deletions": 170,
     "changed_files": 32,
-    "Last-Modified": "Sun, 06 Jan 2019 10:50:24 GMT",
-    "ETag": "W/\"2d07556b12b55a1ced4f01f7cc252f56\""
+    "Last-Modified": "Sun, 06 Jan 2019 16:21:49 GMT",
+    "ETag": "W/\"e63655d12cb32fd18c009f330a76b4d8\""
 }
