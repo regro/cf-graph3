@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsdl2_mixer\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-03T14:18:44Z",
-    "updated_at": "2019-01-06T17:12:03Z",
+    "updated_at": "2019-01-06T17:25:07Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "21874c3bd9f6b7803aa8d3ecd3af3348a0726308",
@@ -336,6 +336,6 @@
     "additions": 165,
     "deletions": 55,
     "changed_files": 18,
-    "Last-Modified": "Sun, 06 Jan 2019 17:12:03 GMT",
-    "ETag": "W/\"155358698c3dff272262f2c477844f75\""
+    "Last-Modified": "Sun, 06 Jan 2019 17:25:07 GMT",
+    "ETag": "W/\"dab8d6cf5831f931c2208feb1277b2c1\""
 }
