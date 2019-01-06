@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T07:10:54Z",
-    "updated_at": "2019-01-06T14:44:37Z",
+    "updated_at": "2019-01-06T16:03:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f96396087f425c96143ee883c488eb363a6bf9ec",
+    "merge_commit_sha": "23cd038bf740486548644a4dd792f1cb8b6c5829",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/statuses/4ef79d7bbe3e27999d1ff46d2cbe92dc71aa52c8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/statuses/aa2ae0192dc5a65ae986db39600b8e9791321438",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "4ef79d7bbe3e27999d1ff46d2cbe92dc71aa52c8",
+        "sha": "aa2ae0192dc5a65ae986db39600b8e9791321438",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/oommf-feedstock/deployments",
             "created_at": "2018-03-14T16:56:23Z",
             "updated_at": "2018-03-14T16:56:25Z",
-            "pushed_at": "2019-01-06T14:44:37Z",
+            "pushed_at": "2019-01-06T16:03:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/oommf-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/oommf-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/oommf-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/oommf-feedstock/deployments",
             "created_at": "2017-05-28T11:35:12Z",
             "updated_at": "2018-11-14T12:48:11Z",
-            "pushed_at": "2019-01-06T14:44:38Z",
+            "pushed_at": "2019-01-06T16:03:15Z",
             "git_url": "git://github.com/conda-forge/oommf-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/oommf-feedstock.git",
             "clone_url": "https://github.com/conda-forge/oommf-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/oommf-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/oommf-feedstock/statuses/4ef79d7bbe3e27999d1ff46d2cbe92dc71aa52c8"
+            "href": "https://api.github.com/repos/conda-forge/oommf-feedstock/statuses/aa2ae0192dc5a65ae986db39600b8e9791321438"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 8,
     "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 29,
-    "additions": 424,
+    "commits": 33,
+    "additions": 429,
     "deletions": 131,
     "changed_files": 24,
-    "Last-Modified": "Sun, 06 Jan 2019 14:44:37 GMT",
-    "ETag": "W/\"7dbeeabd081ea0f96522638600c19584\""
+    "Last-Modified": "Sun, 06 Jan 2019 16:03:14 GMT",
+    "ETag": "W/\"5b73e9ace2b12946f379f2a2174ed82e\""
 }
