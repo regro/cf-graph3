@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pytest-selenium-feedstock/pull/11.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pytest-selenium-feedstock/issues/11",
     "number": 11,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "pytest-selenium v1.15.1",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-07T14:20:34Z",
-    "updated_at": "2019-01-07T14:20:34Z",
-    "closed_at": null,
+    "updated_at": "2019-01-07T14:23:45Z",
+    "closed_at": "2019-01-07T14:23:45Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "b765dac1c8cd4339e9614325b67ce106329400e8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/pytest-selenium-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pytest-selenium-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/pytest-selenium-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/pytest-selenium-feedstock/deployments",
             "created_at": "2017-06-03T01:17:13Z",
-            "updated_at": "2019-01-04T12:48:31Z",
-            "pushed_at": "2019-01-07T14:03:57Z",
+            "updated_at": "2019-01-07T16:15:11Z",
+            "pushed_at": "2019-01-07T16:15:09Z",
             "git_url": "git://github.com/conda-forge/pytest-selenium-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pytest-selenium-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pytest-selenium-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Mon, 07 Jan 2019 14:23:45 GMT",
+    "ETag": "W/\"f32f12cfdcfd78158e8bdc538cf4085c\""
 }
