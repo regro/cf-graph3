@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-07T18:23:00Z",
-    "updated_at": "2019-01-07T18:23:07Z",
+    "updated_at": "2019-01-07T22:25:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "15137439d6ae3e0274c968346d9697be44c3dd5b",
+    "merge_commit_sha": "4a43cc513ff966ff0c3e48a26894aa81e8da6a61",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/statuses/b50e21a49fd0e7f0bf434183488e0fe2ca51f767",
+    "statuses_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/statuses/8ddb30154f2772c7170155534d076b7244ddbbf4",
     "head": {
         "label": "regro-cf-autotick-bot:3.7.10",
         "ref": "3.7.10",
-        "sha": "b50e21a49fd0e7f0bf434183488e0fe2ca51f767",
+        "sha": "8ddb30154f2772c7170155534d076b7244ddbbf4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/rabbitmq-server-feedstock/deployments",
             "created_at": "2018-03-08T22:09:48Z",
             "updated_at": "2018-03-08T22:09:49Z",
-            "pushed_at": "2019-01-07T18:23:00Z",
+            "pushed_at": "2019-01-07T22:25:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/rabbitmq-server-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/rabbitmq-server-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/rabbitmq-server-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/deployments",
             "created_at": "2017-04-26T09:41:50Z",
             "updated_at": "2018-11-16T21:09:44Z",
-            "pushed_at": "2019-01-07T18:23:01Z",
+            "pushed_at": "2019-01-07T22:25:10Z",
             "git_url": "git://github.com/conda-forge/rabbitmq-server-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/rabbitmq-server-feedstock.git",
             "clone_url": "https://github.com/conda-forge/rabbitmq-server-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/statuses/b50e21a49fd0e7f0bf434183488e0fe2ca51f767"
+            "href": "https://api.github.com/repos/conda-forge/rabbitmq-server-feedstock/statuses/8ddb30154f2772c7170155534d076b7244ddbbf4"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 221,
-    "deletions": 11,
+    "commits": 3,
+    "additions": 222,
+    "deletions": 12,
     "changed_files": 10,
-    "Last-Modified": "Mon, 07 Jan 2019 18:23:07 GMT",
-    "ETag": "W/\"3de436183d41ab891c496b10587ae550\""
+    "Last-Modified": "Mon, 07 Jan 2019 22:25:09 GMT",
+    "ETag": "W/\"0953dc72ad5f9bba8b8624ac8b1d4260\""
 }
