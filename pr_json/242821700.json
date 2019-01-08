@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-08T00:19:05Z",
-    "updated_at": "2019-01-08T00:19:08Z",
+    "updated_at": "2019-01-08T13:03:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0b58aff1e91562f05f1975d6669cf5c222e81366",
+    "merge_commit_sha": "17ac90157fbb5db590776c3a8c5a942577d2354c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/statuses/2a1249ad57d64d22581dd42fb116e4c7edafb44c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/statuses/51f2e460099fef71ee03158e53e84e6f52d3725a",
     "head": {
         "label": "regro-cf-autotick-bot:1.5.0",
         "ref": "1.5.0",
-        "sha": "2a1249ad57d64d22581dd42fb116e4c7edafb44c",
+        "sha": "51f2e460099fef71ee03158e53e84e6f52d3725a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pkginfo-feedstock/deployments",
             "created_at": "2018-03-14T22:34:46Z",
             "updated_at": "2018-03-14T22:34:48Z",
-            "pushed_at": "2019-01-08T00:19:04Z",
+            "pushed_at": "2019-01-08T13:03:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pkginfo-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pkginfo-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pkginfo-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/deployments",
             "created_at": "2016-05-24T20:18:08Z",
             "updated_at": "2018-08-04T17:13:42Z",
-            "pushed_at": "2019-01-08T00:19:05Z",
+            "pushed_at": "2019-01-08T13:03:09Z",
             "git_url": "git://github.com/conda-forge/pkginfo-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pkginfo-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pkginfo-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/statuses/2a1249ad57d64d22581dd42fb116e4c7edafb44c"
+            "href": "https://api.github.com/repos/conda-forge/pkginfo-feedstock/statuses/51f2e460099fef71ee03158e53e84e6f52d3725a"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 178,
-    "deletions": 26,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 191,
+    "deletions": 36,
+    "changed_files": 12,
+    "Last-Modified": "Tue, 08 Jan 2019 13:03:08 GMT",
+    "ETag": "W/\"6e81dfadaa68ed856c4eece4b1c161ce\""
 }
