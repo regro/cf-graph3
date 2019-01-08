@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pyfai-feedstock/pull/20.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pyfai-feedstock/issues/20",
     "number": 20,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nList of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml\nRemoving toolchain in favour of compiler()\nRemoving vc in favour of compiler()\nPinning numpy using pin_compatible\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-29T07:53:31Z",
-    "updated_at": "2018-07-25T19:40:43Z",
-    "closed_at": null,
+    "updated_at": "2019-01-08T20:18:40Z",
+    "closed_at": "2019-01-08T20:18:40Z",
     "merged_at": null,
     "merge_commit_sha": "19e8d481e7fd921b926e6bb7457a8c58cc821100",
     "assignee": {
@@ -321,7 +321,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -371,9 +371,11 @@
     "merged_by": null,
     "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 93,
     "deletions": 63,
-    "changed_files": 13
+    "changed_files": 13,
+    "Last-Modified": "Tue, 08 Jan 2019 20:18:40 GMT",
+    "ETag": "W/\"844df9e7d4908e9261a95c93004f6b39\""
 }
