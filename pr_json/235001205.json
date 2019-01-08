@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\npyfmi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-30T14:16:21Z",
-    "updated_at": "2019-01-08T09:59:43Z",
+    "updated_at": "2019-01-08T13:35:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7ecb1e6810ad70965ad5e6e7175015f32f98d28e",
+    "merge_commit_sha": "e618f6b202c4b3b69929170dd3ff964275b03aeb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/statuses/f3fb35b2b39cd6883b39c0f224f90d06f31492b5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/statuses/63325d8e671d0da8b92653c7e88757a66e2630b4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f3fb35b2b39cd6883b39c0f224f90d06f31492b5",
+        "sha": "63325d8e671d0da8b92653c7e88757a66e2630b4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fmilib-feedstock/deployments",
             "created_at": "2018-06-30T04:30:16Z",
             "updated_at": "2018-06-30T04:30:17Z",
-            "pushed_at": "2019-01-08T09:59:43Z",
+            "pushed_at": "2019-01-08T13:35:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fmilib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fmilib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fmilib-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fmilib-feedstock/deployments",
             "created_at": "2016-11-04T17:13:37Z",
             "updated_at": "2018-08-04T17:46:43Z",
-            "pushed_at": "2019-01-08T09:59:44Z",
+            "pushed_at": "2019-01-08T13:35:45Z",
             "git_url": "git://github.com/conda-forge/fmilib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fmilib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fmilib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fmilib-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fmilib-feedstock/statuses/f3fb35b2b39cd6883b39c0f224f90d06f31492b5"
+            "href": "https://api.github.com/repos/conda-forge/fmilib-feedstock/statuses/63325d8e671d0da8b92653c7e88757a66e2630b4"
         }
     },
     "author_association": "NONE",
@@ -333,7 +333,9 @@
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 5,
-    "additions": 244,
-    "deletions": 58,
-    "changed_files": 22
+    "additions": 203,
+    "deletions": 61,
+    "changed_files": 22,
+    "Last-Modified": "Tue, 08 Jan 2019 13:35:44 GMT",
+    "ETag": "W/\"dbf4f057fa9ca053b846f48c06287ef6\""
 }
