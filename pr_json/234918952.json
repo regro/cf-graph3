@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-30T09:15:49Z",
-    "updated_at": "2018-12-03T22:58:14Z",
+    "updated_at": "2019-01-09T05:37:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "277a335caea6805b3e0737b8acaa4a7d2531ce54",
+    "merge_commit_sha": "05379517ce15423dc47579ec669bf00678b07d64",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/pulls/57/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/issues/57/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/statuses/8d916f9dccbec792c6e98f5d31b472b036807fd2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/statuses/4199d5cd123b7b077bec27b9c0498b75508a4c58",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "8d916f9dccbec792c6e98f5d31b472b036807fd2",
+        "sha": "4199d5cd123b7b077bec27b9c0498b75508a4c58",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gmt-feedstock/deployments",
             "created_at": "2018-08-07T23:27:40Z",
             "updated_at": "2018-08-07T23:27:42Z",
-            "pushed_at": "2018-12-02T00:10:55Z",
+            "pushed_at": "2019-01-09T05:37:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gmt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gmt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gmt-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gmt-feedstock/deployments",
             "created_at": "2017-01-20T08:31:19Z",
             "updated_at": "2018-08-12T01:08:46Z",
-            "pushed_at": "2019-01-08T14:41:18Z",
+            "pushed_at": "2019-01-09T05:37:20Z",
             "git_url": "git://github.com/conda-forge/gmt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gmt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gmt-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gmt-feedstock/pulls/57/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gmt-feedstock/statuses/8d916f9dccbec792c6e98f5d31b472b036807fd2"
+            "href": "https://api.github.com/repos/conda-forge/gmt-feedstock/statuses/4199d5cd123b7b077bec27b9c0498b75508a4c58"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 10,
+    "comments": 12,
     "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 199,
-    "deletions": 63,
-    "changed_files": 12,
-    "Last-Modified": "Mon, 03 Dec 2018 22:58:14 GMT",
-    "ETag": "W/\"3c16096327e5aa5ae995861269a9d301\""
+    "commits": 5,
+    "additions": 419,
+    "deletions": 68,
+    "changed_files": 18,
+    "Last-Modified": "Wed, 09 Jan 2019 05:37:19 GMT",
+    "ETag": "W/\"cbc616e215a9d93edd1173e19e61069f\""
 }
