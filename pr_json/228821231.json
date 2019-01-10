@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/autobahn-feedstock/pull/19.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/autobahn-feedstock/issues/19",
     "number": 19,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "autobahn v18.11.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-06T20:15:52Z",
-    "updated_at": "2018-11-06T20:31:51Z",
-    "closed_at": null,
+    "updated_at": "2019-01-10T18:21:06Z",
+    "closed_at": "2019-01-10T18:21:06Z",
     "merged_at": null,
     "merge_commit_sha": "023245e7f0b77fe0fb1f8144e5ce2743bf7bfc2d",
     "assignee": {
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/autobahn-feedstock/deployments",
             "created_at": "2018-03-05T21:19:38Z",
             "updated_at": "2018-03-05T21:19:39Z",
-            "pushed_at": "2018-12-17T19:10:01Z",
+            "pushed_at": "2019-01-10T18:19:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/autobahn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/autobahn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/autobahn-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/autobahn-feedstock/deployments",
             "created_at": "2016-11-21T10:16:41Z",
             "updated_at": "2018-12-17T18:24:32Z",
-            "pushed_at": "2018-12-17T18:24:31Z",
+            "pushed_at": "2019-01-10T18:19:57Z",
             "git_url": "git://github.com/conda-forge/autobahn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/autobahn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/autobahn-feedstock.git",
@@ -371,11 +371,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 4,
     "deletions": 4,
     "changed_files": 1,
-    "Last-Modified": "Tue, 06 Nov 2018 20:31:51 GMT",
-    "ETag": "W/\"f0622c9a4b13781bf9f1cf5b4b554379\""
+    "Last-Modified": "Thu, 10 Jan 2019 18:21:06 GMT",
+    "ETag": "W/\"546cb5567b44b3aac77579daff0b570c\""
 }
