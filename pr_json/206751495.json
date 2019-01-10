@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/openstacksdk-feedstock/pull/14.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/issues/14",
     "number": 14,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "openstacksdk v0.17.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-07T16:10:50Z",
-    "updated_at": "2018-08-27T04:39:25Z",
-    "closed_at": null,
+    "updated_at": "2019-01-10T15:16:11Z",
+    "closed_at": "2019-01-10T15:16:11Z",
     "merged_at": null,
     "merge_commit_sha": "842b7ffc84271d884935c4b3185787be959e2073",
     "assignee": null,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/openstacksdk-feedstock/deployments",
             "created_at": "2016-07-01T18:20:01Z",
-            "updated_at": "2018-11-10T20:50:37Z",
-            "pushed_at": "2019-01-10T15:16:11Z",
+            "updated_at": "2019-01-10T15:16:15Z",
+            "pushed_at": "2019-01-10T15:16:12Z",
             "git_url": "git://github.com/conda-forge/openstacksdk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openstacksdk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openstacksdk-feedstock.git",
             "svn_url": "https://github.com/conda-forge/openstacksdk-feedstock",
             "homepage": null,
-            "size": 48,
+            "size": 55,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 6,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 3,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Mon, 27 Aug 2018 04:39:25 GMT",
-    "ETag": "W/\"3ee318af57b7366324b03984fc0909b9\""
+    "Last-Modified": "Thu, 10 Jan 2019 15:16:11 GMT",
+    "ETag": "W/\"f67c6295a32bb8bdd299492a43d74b60\""
 }
