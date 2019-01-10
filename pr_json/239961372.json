@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T20:14:48Z",
-    "updated_at": "2018-12-19T20:14:56Z",
+    "updated_at": "2019-01-10T19:37:41Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "953e8eac732368d6dfc2334b3b84140aeefb34b9",
+    "merge_commit_sha": "e97aee931daeb9925b0366ac522bd207353803b4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/statuses/78827828fb3839602b853a85778c380242ca1596",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/statuses/aee7a33ae62cf02cebfcc29ce7aa2af2257b75b3",
     "head": {
         "label": "regro-cf-autotick-bot:4.0.0",
         "ref": "4.0.0",
-        "sha": "78827828fb3839602b853a85778c380242ca1596",
+        "sha": "aee7a33ae62cf02cebfcc29ce7aa2af2257b75b3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libmed-feedstock/deployments",
             "created_at": "2018-06-29T23:33:49Z",
             "updated_at": "2018-06-29T23:33:51Z",
-            "pushed_at": "2018-12-19T20:14:48Z",
+            "pushed_at": "2019-01-10T19:35:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libmed-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libmed-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libmed-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/libmed-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libmed-feedstock/deployments",
             "created_at": "2018-04-18T15:49:35Z",
             "updated_at": "2018-10-12T19:01:19Z",
-            "pushed_at": "2018-12-19T20:14:49Z",
+            "pushed_at": "2019-01-10T19:35:47Z",
             "git_url": "git://github.com/conda-forge/libmed-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libmed-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libmed-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libmed-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libmed-feedstock/statuses/78827828fb3839602b853a85778c380242ca1596"
+            "href": "https://api.github.com/repos/conda-forge/libmed-feedstock/statuses/aee7a33ae62cf02cebfcc29ce7aa2af2257b75b3"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 341,
-    "deletions": 53,
-    "changed_files": 22
+    "deletions": 56,
+    "changed_files": 22,
+    "Last-Modified": "Thu, 10 Jan 2019 19:37:41 GMT",
+    "ETag": "W/\"7ceb928aaf8719c59ffc0254ea077a50\""
 }
