@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/metpy-feedstock/pull/25.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/metpy-feedstock/issues/25",
     "number": 25,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "metpy v0.10.0",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|pyproj|1.9.6rel|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/pyproj.svg)](https://anaconda.org/conda-forge/pyproj)|\n",
     "created_at": "2019-01-06T03:17:59Z",
-    "updated_at": "2019-01-06T03:18:05Z",
-    "closed_at": null,
+    "updated_at": "2019-01-11T06:19:42Z",
+    "closed_at": "2019-01-11T06:19:42Z",
     "merged_at": null,
     "merge_commit_sha": "a2e8bdd163fd9f91716ca4d880f8df18b53462a2",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -326,16 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\npyproj\n1.9.6rel",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 328,
     "deletions": 20,
     "changed_files": 12,
-    "Last-Modified": "Sun, 06 Jan 2019 03:18:05 GMT",
-    "ETag": "W/\"fc2e52245f656bfb80a19e8ed8d2261e\""
+    "Last-Modified": "Fri, 11 Jan 2019 06:19:42 GMT",
+    "ETag": "W/\"b8ae7b247f77ffd29ea7a8edda5e60f5\""
 }
