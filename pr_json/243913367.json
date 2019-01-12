@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-11T05:22:29Z",
-    "updated_at": "2019-01-11T05:26:06Z",
+    "updated_at": "2019-01-12T23:04:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7ea25600d8b1e9d2e0ceb153efb09f15b07f8f3e",
+    "merge_commit_sha": "4c2bf2fe777c1747641e6b80bd1344208b5a9386",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/statuses/b773ecc7aeff35af808f9de93aa436211f0bc69d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/statuses/d6546bb009650259c8d7695ae8045a11f6dfa4b4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b773ecc7aeff35af808f9de93aa436211f0bc69d",
+        "sha": "d6546bb009650259c8d7695ae8045a11f6dfa4b4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/jupyterhub-yarnspawner-feedstock/deployments",
             "created_at": "2019-01-11T05:22:14Z",
             "updated_at": "2019-01-11T05:22:16Z",
-            "pushed_at": "2019-01-11T05:22:29Z",
+            "pushed_at": "2019-01-12T23:04:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/jupyterhub-yarnspawner-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/jupyterhub-yarnspawner-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/jupyterhub-yarnspawner-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "e3bfcb24f70f12f141b87eca018b03b47e251e9f",
+        "sha": "be476d0128266a50d99819516f078dedca4836f9",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/deployments",
             "created_at": "2019-01-11T01:11:57Z",
-            "updated_at": "2019-01-11T04:47:27Z",
-            "pushed_at": "2019-01-12T21:26:12Z",
+            "updated_at": "2019-01-12T22:58:50Z",
+            "pushed_at": "2019-01-12T23:04:45Z",
             "git_url": "git://github.com/conda-forge/jupyterhub-yarnspawner-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/jupyterhub-yarnspawner-feedstock.git",
             "clone_url": "https://github.com/conda-forge/jupyterhub-yarnspawner-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/statuses/b773ecc7aeff35af808f9de93aa436211f0bc69d"
+            "href": "https://api.github.com/repos/conda-forge/jupyterhub-yarnspawner-feedstock/statuses/d6546bb009650259c8d7695ae8045a11f6dfa4b4"
         }
     },
     "author_association": "NONE",
@@ -336,6 +336,6 @@
     "additions": 52,
     "deletions": 7,
     "changed_files": 6,
-    "Last-Modified": "Fri, 11 Jan 2019 05:26:06 GMT",
-    "ETag": "W/\"aae48d3d2ccf446e75ad9a90a19c1018\""
+    "Last-Modified": "Sat, 12 Jan 2019 23:04:44 GMT",
+    "ETag": "W/\"9be56638fc3ac27af9142f84d9ed89b0\""
 }
