@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-02T13:15:26Z",
-    "updated_at": "2019-01-11T17:01:28Z",
+    "updated_at": "2019-01-12T20:33:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "cbbe09a35d4f9ac37fc1fd864a33a327da3d4292",
+    "merge_commit_sha": "55dcf4574ac34f565d14caa3110ca092180608bf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/statuses/adbaf19641685a73742db4a529f20139b8c9bb2b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/statuses/a4d1fb88822061b38d08ff8ddd963dbdd0b6542c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "adbaf19641685a73742db4a529f20139b8c9bb2b",
+        "sha": "a4d1fb88822061b38d08ff8ddd963dbdd0b6542c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cabal-feedstock/deployments",
             "created_at": "2019-01-02T13:15:11Z",
             "updated_at": "2019-01-02T13:15:14Z",
-            "pushed_at": "2019-01-11T17:01:28Z",
+            "pushed_at": "2019-01-12T20:33:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cabal-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cabal-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cabal-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cabal-feedstock/deployments",
             "created_at": "2019-01-02T12:15:21Z",
             "updated_at": "2019-01-02T12:34:44Z",
-            "pushed_at": "2019-01-11T17:01:29Z",
+            "pushed_at": "2019-01-12T20:33:33Z",
             "git_url": "git://github.com/conda-forge/cabal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cabal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cabal-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cabal-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cabal-feedstock/statuses/adbaf19641685a73742db4a529f20139b8c9bb2b"
+            "href": "https://api.github.com/repos/conda-forge/cabal-feedstock/statuses/a4d1fb88822061b38d08ff8ddd963dbdd0b6542c"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 21,
+    "commits": 22,
     "additions": 106,
     "deletions": 13,
     "changed_files": 7,
-    "Last-Modified": "Fri, 11 Jan 2019 17:01:28 GMT",
-    "ETag": "W/\"026738d56b2518d5e7a44948323eaa00\""
+    "Last-Modified": "Sat, 12 Jan 2019 20:33:32 GMT",
+    "ETag": "W/\"e70c8761047c247ebd5f0cf1a48231ba\""
 }
