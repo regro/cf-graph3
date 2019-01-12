@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-09T18:23:01Z",
-    "updated_at": "2019-01-11T19:16:06Z",
+    "updated_at": "2019-01-11T23:16:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c3d498571dedd86ef5157c6886e6aec80e8d5e36",
+    "merge_commit_sha": "53d2dcf55f9e05106b6487ac309575c0f313f154",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/statuses/3530bfd1f5b1a6ff324e981e2f26d947297d9fe5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/statuses/b47add700a37a84f4962f3c5d74b8b801c6af2bd",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3530bfd1f5b1a6ff324e981e2f26d947297d9fe5",
+        "sha": "b47add700a37a84f4962f3c5d74b8b801c6af2bd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cx_oracle-feedstock/deployments",
             "created_at": "2019-01-09T18:19:56Z",
             "updated_at": "2019-01-09T18:19:59Z",
-            "pushed_at": "2019-01-11T10:49:13Z",
+            "pushed_at": "2019-01-11T23:16:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cx_oracle-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cx_oracle-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cx_oracle-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/cx_oracle-feedstock",
             "homepage": null,
-            "size": 19,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/deployments",
             "created_at": "2019-01-09T17:13:50Z",
             "updated_at": "2019-01-09T20:31:53Z",
-            "pushed_at": "2019-01-11T10:49:13Z",
+            "pushed_at": "2019-01-11T23:16:45Z",
             "git_url": "git://github.com/conda-forge/cx_oracle-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cx_oracle-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cx_oracle-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/statuses/3530bfd1f5b1a6ff324e981e2f26d947297d9fe5"
+            "href": "https://api.github.com/repos/conda-forge/cx_oracle-feedstock/statuses/b47add700a37a84f4962f3c5d74b8b801c6af2bd"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 118,
+    "commits": 5,
+    "additions": 119,
     "deletions": 8,
     "changed_files": 15,
-    "Last-Modified": "Fri, 11 Jan 2019 19:16:06 GMT",
-    "ETag": "W/\"1a26e6c0f3ffd0d8fa32cb87d773cd1a\""
+    "Last-Modified": "Fri, 11 Jan 2019 23:16:44 GMT",
+    "ETag": "W/\"540229beb81e95fe5cdb3d2af6302ed0\""
 }
