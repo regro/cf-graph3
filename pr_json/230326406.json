@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nsmesh\nfreecad\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-13T02:16:14Z",
-    "updated_at": "2018-12-19T14:22:45Z",
+    "updated_at": "2019-01-13T05:58:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9fa82c72070fe7bcd04ad21a18a0dc6e8fb12eed",
+    "merge_commit_sha": "64279d0ba9f82aa794ad9ad6aa5257497d45f7cd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/statuses/48845cd253942540e214875fb2eb4ff589335120",
+    "statuses_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/statuses/6364124f59fe4094a8533ebe584e2fe56e1c9f9b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "48845cd253942540e214875fb2eb4ff589335120",
+        "sha": "6364124f59fe4094a8533ebe584e2fe56e1c9f9b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/netgen-feedstock/deployments",
             "created_at": "2018-05-08T10:57:19Z",
             "updated_at": "2018-05-08T10:57:21Z",
-            "pushed_at": "2018-12-19T08:39:36Z",
+            "pushed_at": "2019-01-13T05:58:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/netgen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/netgen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/netgen-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/netgen-feedstock/deployments",
             "created_at": "2018-04-05T21:06:20Z",
             "updated_at": "2018-09-27T07:47:09Z",
-            "pushed_at": "2018-12-19T08:39:37Z",
+            "pushed_at": "2019-01-13T05:58:18Z",
             "git_url": "git://github.com/conda-forge/netgen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/netgen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/netgen-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/netgen-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/netgen-feedstock/statuses/48845cd253942540e214875fb2eb4ff589335120"
+            "href": "https://api.github.com/repos/conda-forge/netgen-feedstock/statuses/6364124f59fe4094a8533ebe584e2fe56e1c9f9b"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 29,
+    "comments": 30,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 21,
+    "commits": 23,
     "additions": 370,
     "deletions": 124,
     "changed_files": 22,
-    "Last-Modified": "Wed, 19 Dec 2018 14:22:45 GMT",
-    "ETag": "W/\"36d0a397e483fc76b5f982316a1e5a5d\""
+    "Last-Modified": "Sun, 13 Jan 2019 05:58:37 GMT",
+    "ETag": "W/\"cce70468469dc701496ba05c9607ce41\""
 }
