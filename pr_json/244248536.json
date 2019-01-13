@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-12T23:19:19Z",
-    "updated_at": "2019-01-12T23:19:19Z",
+    "updated_at": "2019-01-13T00:15:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "a842f9f8d30a1cc65a75b6264734654c6e3978d4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/statuses/c0c0c8770194b08133dbfbad91f516f9b5063818",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/statuses/2555cb5323eb9ca8d0f7981b80f44953842b0460",
     "head": {
         "label": "regro-cf-autotick-bot:3.7.0.1",
         "ref": "3.7.0.1",
-        "sha": "c0c0c8770194b08133dbfbad91f516f9b5063818",
+        "sha": "2555cb5323eb9ca8d0f7981b80f44953842b0460",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ssl_match_hostname-feedstock/deployments",
             "created_at": "2018-09-23T05:10:39Z",
             "updated_at": "2018-09-23T05:10:41Z",
-            "pushed_at": "2019-01-12T23:19:19Z",
+            "pushed_at": "2019-01-13T00:15:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ssl_match_hostname-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ssl_match_hostname-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ssl_match_hostname-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "a3a94788797cc6f911329af2c237d8d3fe289560",
+        "sha": "6c7de85b6bb20b93aa42ff7b948b46332c12a5d3",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/deployments",
             "created_at": "2016-04-12T08:12:58Z",
-            "updated_at": "2018-09-25T14:09:42Z",
-            "pushed_at": "2018-09-25T14:09:40Z",
+            "updated_at": "2019-01-12T23:59:49Z",
+            "pushed_at": "2019-01-13T00:15:54Z",
             "git_url": "git://github.com/conda-forge/ssl_match_hostname-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ssl_match_hostname-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ssl_match_hostname-feedstock.git",
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/statuses/c0c0c8770194b08133dbfbad91f516f9b5063818"
+            "href": "https://api.github.com/repos/conda-forge/ssl_match_hostname-feedstock/statuses/2555cb5323eb9ca8d0f7981b80f44953842b0460"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": true,
+    "rebaseable": false,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 317,
-    "deletions": 22,
-    "changed_files": 13
+    "commits": 7,
+    "additions": 169,
+    "deletions": 6,
+    "changed_files": 13,
+    "Last-Modified": "Sun, 13 Jan 2019 00:15:53 GMT",
+    "ETag": "W/\"725274514d7d67074003679762795f5e\""
 }
