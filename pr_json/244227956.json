@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-12T16:19:43Z",
-    "updated_at": "2019-01-12T16:19:48Z",
+    "updated_at": "2019-01-13T06:58:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "01a97e23544a3555d6f5fc091dc24f05a925972a",
+    "merge_commit_sha": "50e32be2252a2eaa4517d7490924e2416ec8caa6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/statuses/2c68179a430b1585b9ccec109303229c8fd12459",
+    "statuses_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/statuses/a88e301926cb50d6875e5f93e83668b3153a6f44",
     "head": {
         "label": "regro-cf-autotick-bot:3.7.0",
         "ref": "3.7.0",
-        "sha": "2c68179a430b1585b9ccec109303229c8fd12459",
+        "sha": "a88e301926cb50d6875e5f93e83668b3153a6f44",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/arpack-feedstock/deployments",
             "created_at": "2018-06-05T17:41:21Z",
             "updated_at": "2018-06-05T17:41:23Z",
-            "pushed_at": "2019-01-12T16:19:43Z",
+            "pushed_at": "2019-01-13T06:58:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/arpack-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/arpack-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/arpack-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/arpack-feedstock/deployments",
             "created_at": "2016-09-26T13:28:12Z",
             "updated_at": "2018-11-24T11:44:01Z",
-            "pushed_at": "2019-01-12T16:19:44Z",
+            "pushed_at": "2019-01-13T07:14:55Z",
             "git_url": "git://github.com/conda-forge/arpack-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/arpack-feedstock.git",
             "clone_url": "https://github.com/conda-forge/arpack-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 7,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 7,
-            "open_issues": 2,
+            "forks": 8,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/arpack-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/arpack-feedstock/statuses/2c68179a430b1585b9ccec109303229c8fd12459"
+            "href": "https://api.github.com/repos/conda-forge/arpack-feedstock/statuses/a88e301926cb50d6875e5f93e83668b3153a6f44"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 317,
-    "deletions": 20,
-    "changed_files": 12,
-    "Last-Modified": "Sat, 12 Jan 2019 16:19:48 GMT",
-    "ETag": "W/\"21ba081d27c5f2925b7d42b6fa67fa45\""
+    "deletions": 21,
+    "changed_files": 13,
+    "Last-Modified": "Sun, 13 Jan 2019 06:58:12 GMT",
+    "ETag": "W/\"e2e67ada2d72b1984c6d6135c3bd426e\""
 }
