@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-09T22:19:20Z",
-    "updated_at": "2019-01-11T23:50:17Z",
+    "updated_at": "2019-01-13T21:43:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "16543d9ab10827fd36c13781ed3f617323204a07",
+    "merge_commit_sha": "9d1d8be3f5bedfd069d69700b100a6c34a88edf3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/statuses/447b358cd546cc74833af519d06787dbecafa6fc",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/statuses/89a6a61dbd1d5921479067cbe1183724b05ce2aa",
     "head": {
         "label": "regro-cf-autotick-bot:3.0.0",
         "ref": "3.0.0",
-        "sha": "447b358cd546cc74833af519d06787dbecafa6fc",
+        "sha": "89a6a61dbd1d5921479067cbe1183724b05ce2aa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyinstrument-feedstock/deployments",
             "created_at": "2018-03-04T22:03:22Z",
             "updated_at": "2018-03-04T22:03:23Z",
-            "pushed_at": "2019-01-11T23:50:17Z",
+            "pushed_at": "2019-01-13T21:43:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyinstrument-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyinstrument-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyinstrument-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/deployments",
             "created_at": "2016-09-09T11:03:30Z",
             "updated_at": "2019-01-11T22:53:10Z",
-            "pushed_at": "2019-01-11T23:50:18Z",
+            "pushed_at": "2019-01-13T21:43:45Z",
             "git_url": "git://github.com/conda-forge/pyinstrument-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyinstrument-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyinstrument-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/statuses/447b358cd546cc74833af519d06787dbecafa6fc"
+            "href": "https://api.github.com/repos/conda-forge/pyinstrument-feedstock/statuses/89a6a61dbd1d5921479067cbe1183724b05ce2aa"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 147,
+    "commits": 6,
+    "additions": 149,
     "deletions": 9,
     "changed_files": 9,
-    "Last-Modified": "Fri, 11 Jan 2019 23:50:17 GMT",
-    "ETag": "W/\"39bc2a641acd26f22b9d2831eb95795b\""
+    "Last-Modified": "Sun, 13 Jan 2019 21:43:44 GMT",
+    "ETag": "W/\"a0d601faa4ea6aec956ebebf1a608628\""
 }
