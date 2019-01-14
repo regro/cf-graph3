@@ -32,10 +32,10 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for numpy to use values from conda_build_config.yaml. If you need the pin see [here](https://conda-forge.org/docs/meta.html#pinning-packages) for details.\nPinning numpy using pin_compatible. If you need to pin numpy to a specific version see [here](https://conda-forge.org/docs/meta.html#building-against-numpy).\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T18:17:26Z",
-    "updated_at": "2019-01-14T13:08:14Z",
+    "updated_at": "2019-01-14T14:26:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6e92d84eda122c1e068a61593c97a31ea04c8c53",
+    "merge_commit_sha": "7468221106ece1f9547820031803f60d58358597",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gala-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gala-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gala-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gala-feedstock/statuses/b0515c9f157aebe5cb80fe7a034e89a06d4ae327",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gala-feedstock/statuses/428608076ffe7a93dce95cefcd931e5d53605f21",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "b0515c9f157aebe5cb80fe7a034e89a06d4ae327",
+        "sha": "428608076ffe7a93dce95cefcd931e5d53605f21",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gala-feedstock/deployments",
             "created_at": "2018-03-01T14:31:36Z",
             "updated_at": "2018-03-01T14:31:38Z",
-            "pushed_at": "2018-10-30T04:34:52Z",
+            "pushed_at": "2019-01-14T13:19:41Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gala-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gala-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gala-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gala-feedstock",
             "homepage": null,
-            "size": 37,
+            "size": 38,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gala-feedstock/deployments",
             "created_at": "2016-09-24T23:58:31Z",
             "updated_at": "2018-08-04T18:19:43Z",
-            "pushed_at": "2018-10-30T04:34:53Z",
+            "pushed_at": "2019-01-14T13:19:42Z",
             "git_url": "git://github.com/conda-forge/gala-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gala-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gala-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gala-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gala-feedstock/statuses/b0515c9f157aebe5cb80fe7a034e89a06d4ae327"
+            "href": "https://api.github.com/repos/conda-forge/gala-feedstock/statuses/428608076ffe7a93dce95cefcd931e5d53605f21"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 7,
-    "review_comments": 0,
+    "comments": 10,
+    "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 356,
+    "commits": 6,
+    "additions": 649,
     "deletions": 184,
-    "changed_files": 22
+    "changed_files": 28,
+    "Last-Modified": "Mon, 14 Jan 2019 14:26:54 GMT",
+    "ETag": "W/\"8ad8e5a04671c379e1d6e960dd76cee2\""
 }
