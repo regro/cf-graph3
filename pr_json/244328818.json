@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-14T03:18:38Z",
-    "updated_at": "2019-01-14T03:18:42Z",
+    "updated_at": "2019-01-14T11:42:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a1741a75fedbbe80021dfab46a8edd345fcadf7b",
+    "merge_commit_sha": "050ef37b52231cfeba88d8218002e8741986082d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/pulls/122/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/issues/122/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/statuses/56e681204be8fe1267c999e1b710c09508ad9acf",
+    "statuses_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/statuses/8d1eee72b938c8eb7892c023409d84f0f58c9655",
     "head": {
         "label": "regro-cf-autotick-bot:1.16.0",
         "ref": "1.16.0",
-        "sha": "56e681204be8fe1267c999e1b710c09508ad9acf",
+        "sha": "8d1eee72b938c8eb7892c023409d84f0f58c9655",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numpy-feedstock/deployments",
             "created_at": "2018-04-28T17:16:40Z",
             "updated_at": "2018-04-28T17:16:42Z",
-            "pushed_at": "2019-01-14T03:18:38Z",
+            "pushed_at": "2019-01-14T11:30:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numpy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/deployments",
             "created_at": "2016-05-20T11:52:36Z",
             "updated_at": "2018-11-04T20:11:05Z",
-            "pushed_at": "2019-01-14T03:18:39Z",
+            "pushed_at": "2019-01-14T11:30:05Z",
             "git_url": "git://github.com/conda-forge/numpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/numpy-feedstock/pulls/122/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/numpy-feedstock/statuses/56e681204be8fe1267c999e1b710c09508ad9acf"
+            "href": "https://api.github.com/repos/conda-forge/numpy-feedstock/statuses/8d1eee72b938c8eb7892c023409d84f0f58c9655"
         }
     },
     "author_association": "NONE",
@@ -330,10 +330,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 1,
-    "review_comments": 0,
+    "review_comments": 3,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 339,
-    "deletions": 19,
-    "changed_files": 12
+    "deletions": 204,
+    "changed_files": 14,
+    "Last-Modified": "Mon, 14 Jan 2019 11:42:55 GMT",
+    "ETag": "W/\"4358969781ed05ebf8653a8bd925f951\""
 }
