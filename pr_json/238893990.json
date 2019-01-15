@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|llvm-meta|7.0.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/llvm-meta.svg)](https://anaconda.org/conda-forge/llvm-meta)|\n",
     "created_at": "2018-12-15T06:17:38Z",
-    "updated_at": "2019-01-05T03:33:20Z",
+    "updated_at": "2019-01-15T03:26:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "5a6fd27c81327c9a6593fb8068c050f01195c6eb",
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openmp-feedstock/deployments",
             "created_at": "2018-06-29T07:07:25Z",
             "updated_at": "2018-06-29T07:07:27Z",
-            "pushed_at": "2018-12-15T06:17:38Z",
+            "pushed_at": "2019-01-15T03:18:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openmp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openmp-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/openmp-feedstock",
             "homepage": null,
-            "size": 55,
+            "size": 56,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openmp-feedstock/deployments",
             "created_at": "2017-07-14T23:49:10Z",
             "updated_at": "2018-10-14T17:16:24Z",
-            "pushed_at": "2018-12-24T21:32:20Z",
+            "pushed_at": "2019-01-15T04:13:33Z",
             "git_url": "git://github.com/conda-forge/openmp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openmp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openmp-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 2,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 315,
     "deletions": 19,
-    "changed_files": 12
+    "changed_files": 12,
+    "Last-Modified": "Tue, 15 Jan 2019 03:26:06 GMT",
+    "ETag": "W/\"05682d5b7a6e443021f56870dfdf0307\""
 }
