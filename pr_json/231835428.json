@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-19T02:14:56Z",
-    "updated_at": "2018-11-19T14:08:10Z",
+    "updated_at": "2019-01-17T01:34:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4cc4aa353e7758dbceb494d8c9c2d01d92ac0302",
+    "merge_commit_sha": "adca29c4d9e58611e96b5f9c712962def0cdf742",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/statuses/9917ec02b96a1278567fc802e51cc66ec0675cd0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/statuses/bdaf27d31a9be5a91065c0dfb67501d734fad65f",
     "head": {
         "label": "regro-cf-autotick-bot:2.44.3",
         "ref": "2.44.3",
-        "sha": "9917ec02b96a1278567fc802e51cc66ec0675cd0",
+        "sha": "bdaf27d31a9be5a91065c0dfb67501d734fad65f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/librsvg-feedstock/deployments",
             "created_at": "2018-03-16T22:42:23Z",
             "updated_at": "2018-03-16T22:42:25Z",
-            "pushed_at": "2018-12-05T10:15:08Z",
+            "pushed_at": "2019-01-17T01:34:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/librsvg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/librsvg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/librsvg-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/librsvg-feedstock/deployments",
             "created_at": "2017-12-16T16:52:14Z",
             "updated_at": "2018-10-13T12:21:27Z",
-            "pushed_at": "2018-12-05T10:15:09Z",
+            "pushed_at": "2019-01-17T01:34:20Z",
             "git_url": "git://github.com/conda-forge/librsvg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/librsvg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/librsvg-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/librsvg-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/librsvg-feedstock/statuses/9917ec02b96a1278567fc802e51cc66ec0675cd0"
+            "href": "https://api.github.com/repos/conda-forge/librsvg-feedstock/statuses/bdaf27d31a9be5a91065c0dfb67501d734fad65f"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 2,
-    "Last-Modified": "Mon, 19 Nov 2018 14:08:10 GMT",
-    "ETag": "W/\"10ab0ba7980b6a8be0c75b446e7bc14f\""
+    "commits": 3,
+    "additions": 274,
+    "deletions": 134,
+    "changed_files": 16,
+    "Last-Modified": "Thu, 17 Jan 2019 01:34:19 GMT",
+    "ETag": "W/\"a61b5fa4a6ac1a387d144183f75d08db\""
 }
