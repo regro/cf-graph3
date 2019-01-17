@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|llvm-meta|7.0.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/llvm-meta.svg)](https://anaconda.org/conda-forge/llvm-meta)|\n",
     "created_at": "2018-12-15T06:16:59Z",
-    "updated_at": "2019-01-17T07:29:32Z",
+    "updated_at": "2019-01-17T08:39:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0e76783d433a3a2a416b53be911faafb34fb5e8c",
+    "merge_commit_sha": "3a861ee322b28e89b93950388b3aa24bde4f60e6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/pulls/33/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/issues/33/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/statuses/65b337c8b519ccebbbacdd7e06fbfb2a6f399f09",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/statuses/e1fbccccadd702cf3278be05c8e1ea04b3b601aa",
     "head": {
         "label": "regro-cf-autotick-bot:7.0.1",
         "ref": "7.0.1",
-        "sha": "65b337c8b519ccebbbacdd7e06fbfb2a6f399f09",
+        "sha": "e1fbccccadd702cf3278be05c8e1ea04b3b601aa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libcxx-feedstock/deployments",
             "created_at": "2018-06-29T07:06:59Z",
             "updated_at": "2018-06-29T07:07:01Z",
-            "pushed_at": "2019-01-17T07:29:32Z",
+            "pushed_at": "2019-01-17T08:39:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libcxx-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libcxx-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libcxx-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libcxx-feedstock/deployments",
             "created_at": "2017-01-27T12:45:11Z",
             "updated_at": "2018-11-03T05:17:59Z",
-            "pushed_at": "2019-01-17T07:29:33Z",
+            "pushed_at": "2019-01-17T08:39:45Z",
             "git_url": "git://github.com/conda-forge/libcxx-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libcxx-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libcxx-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libcxx-feedstock/pulls/33/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libcxx-feedstock/statuses/65b337c8b519ccebbbacdd7e06fbfb2a6f399f09"
+            "href": "https://api.github.com/repos/conda-forge/libcxx-feedstock/statuses/e1fbccccadd702cf3278be05c8e1ea04b3b601aa"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 10,
-    "additions": 451,
-    "deletions": 160,
+    "commits": 11,
+    "additions": 452,
+    "deletions": 161,
     "changed_files": 21,
-    "Last-Modified": "Thu, 17 Jan 2019 07:29:32 GMT",
-    "ETag": "W/\"4e2cf9c31beaa4c5950a5adb7659cdef\""
+    "Last-Modified": "Thu, 17 Jan 2019 08:39:44 GMT",
+    "ETag": "W/\"5316942d2d04dc35717d95acedb6b746\""
 }
