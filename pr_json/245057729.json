@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-16T08:20:47Z",
-    "updated_at": "2019-01-16T13:19:43Z",
+    "updated_at": "2019-01-17T14:47:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "832d1d432e4d864bc9fbdcf40a4e4b283cc48c31",
+    "merge_commit_sha": "e0c89e1517a8930d0acb8f359df25bb88eb2209c",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/statuses/49f64de8166adb0f4aa7e20ae054c9f37d6c9afa",
+    "statuses_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/statuses/b181bcf97e1a2bcb2fe1ef8b7e1ed46e5b7144e4",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.7",
         "ref": "1.0.7",
-        "sha": "49f64de8166adb0f4aa7e20ae054c9f37d6c9afa",
+        "sha": "b181bcf97e1a2bcb2fe1ef8b7e1ed46e5b7144e4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/wabt-feedstock/deployments",
             "created_at": "2018-09-13T01:11:32Z",
             "updated_at": "2018-09-13T01:11:34Z",
-            "pushed_at": "2019-01-16T11:21:05Z",
+            "pushed_at": "2019-01-17T14:47:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/wabt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/wabt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/wabt-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/wabt-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 27,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/wabt-feedstock/deployments",
             "created_at": "2018-08-12T03:33:54Z",
             "updated_at": "2018-10-12T19:38:15Z",
-            "pushed_at": "2019-01-16T11:21:07Z",
+            "pushed_at": "2019-01-17T14:47:12Z",
             "git_url": "git://github.com/conda-forge/wabt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/wabt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/wabt-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/wabt-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/wabt-feedstock/statuses/49f64de8166adb0f4aa7e20ae054c9f37d6c9afa"
+            "href": "https://api.github.com/repos/conda-forge/wabt-feedstock/statuses/b181bcf97e1a2bcb2fe1ef8b7e1ed46e5b7144e4"
         }
     },
     "author_association": "NONE",
@@ -369,11 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 317,
-    "deletions": 20,
-    "changed_files": 13
+    "commits": 3,
+    "additions": 377,
+    "deletions": 123,
+    "changed_files": 19,
+    "Last-Modified": "Thu, 17 Jan 2019 14:47:11 GMT",
+    "ETag": "W/\"7b429c0e64da11ebea4300f6a8bfa5dd\""
 }
