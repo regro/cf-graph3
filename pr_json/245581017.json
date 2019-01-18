@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-17T17:17:57Z",
-    "updated_at": "2019-01-17T17:19:15Z",
+    "updated_at": "2019-01-17T21:45:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "08c68496244ab22bc72e63f1c01c02772abbaa1e",
+    "merge_commit_sha": "b3c4627043bf5f70adf8f467c420e6667e7c0f44",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/statuses/9228ee5baf69993b5b346fd59fa9f02be98b8f2f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/statuses/dee63669a8d91a8cfad4444ea1f64f798aed2f98",
     "head": {
         "label": "regro-cf-autotick-bot:0.22.2",
         "ref": "0.22.2",
-        "sha": "9228ee5baf69993b5b346fd59fa9f02be98b8f2f",
+        "sha": "dee63669a8d91a8cfad4444ea1f64f798aed2f98",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pybtex-feedstock/deployments",
             "created_at": "2018-07-09T04:44:06Z",
             "updated_at": "2018-07-09T04:44:08Z",
-            "pushed_at": "2019-01-17T17:17:56Z",
+            "pushed_at": "2019-01-17T21:45:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pybtex-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pybtex-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pybtex-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pybtex-feedstock/deployments",
             "created_at": "2017-08-21T01:28:47Z",
             "updated_at": "2018-11-19T07:57:18Z",
-            "pushed_at": "2019-01-17T17:17:58Z",
+            "pushed_at": "2019-01-17T21:45:14Z",
             "git_url": "git://github.com/conda-forge/pybtex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pybtex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pybtex-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pybtex-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pybtex-feedstock/statuses/9228ee5baf69993b5b346fd59fa9f02be98b8f2f"
+            "href": "https://api.github.com/repos/conda-forge/pybtex-feedstock/statuses/dee63669a8d91a8cfad4444ea1f64f798aed2f98"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 384,
+    "deletions": 60,
+    "changed_files": 20,
+    "Last-Modified": "Thu, 17 Jan 2019 21:45:13 GMT",
+    "ETag": "W/\"602f44c7b4b49de99fa6a12053b06dfb\""
 }
