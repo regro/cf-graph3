@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-11T22:19:20Z",
-    "updated_at": "2019-01-15T05:44:41Z",
+    "updated_at": "2019-01-18T01:45:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "372f015d9a3fa661e02d34039cbf50013616a133",
+    "merge_commit_sha": "09bbaa3cc3faa090212176856bbd54be477a35c6",
     "assignee": {
         "login": "sodre",
         "id": 1043285,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/statuses/b1789a4fa603b13cf30eeed0c70c4f35c935d54f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/statuses/f39144248d879b3b67e8d5bc858660e6cc7e9454",
     "head": {
         "label": "regro-cf-autotick-bot:3.3.11",
         "ref": "3.3.11",
-        "sha": "b1789a4fa603b13cf30eeed0c70c4f35c935d54f",
+        "sha": "f39144248d879b3b67e8d5bc858660e6cc7e9454",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/etcd-feedstock/deployments",
             "created_at": "2018-03-22T13:25:49Z",
             "updated_at": "2018-03-22T13:25:51Z",
-            "pushed_at": "2019-01-11T22:19:20Z",
+            "pushed_at": "2019-01-18T01:45:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/etcd-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/etcd-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/etcd-feedstock.git",
@@ -214,7 +214,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "f3bcc38f0ec2d48c2ae5b33e234131a9d3377939",
+        "sha": "23b362b05367998836d5b2b3c30e195eac68940d",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -302,8 +302,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/etcd-feedstock/deployments",
             "created_at": "2018-03-19T12:42:28Z",
-            "updated_at": "2018-10-11T07:30:12Z",
-            "pushed_at": "2019-01-11T22:19:21Z",
+            "updated_at": "2019-01-18T01:38:58Z",
+            "pushed_at": "2019-01-18T01:45:36Z",
             "git_url": "git://github.com/conda-forge/etcd-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/etcd-feedstock.git",
             "clone_url": "https://github.com/conda-forge/etcd-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/etcd-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/etcd-feedstock/statuses/b1789a4fa603b13cf30eeed0c70c4f35c935d54f"
+            "href": "https://api.github.com/repos/conda-forge/etcd-feedstock/statuses/f39144248d879b3b67e8d5bc858660e6cc7e9454"
         }
     },
     "author_association": "NONE",
@@ -366,14 +366,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
-    "mergeable_state": "clean",
+    "rebaseable": false,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 315,
-    "deletions": 22,
-    "changed_files": 13
+    "commits": 4,
+    "additions": 363,
+    "deletions": 41,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 18 Jan 2019 01:45:35 GMT",
+    "ETag": "W/\"5e46b92bcc9f2c1da8b2c3459bb633d8\""
 }
