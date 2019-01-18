@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nkafkacat\nmodsecurity\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-17T15:32:31Z",
-    "updated_at": "2019-01-04T09:17:20Z",
+    "updated_at": "2019-01-18T16:22:41Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "af843b9dbecc87d2eec632cbda7e011b4202251a",
+    "merge_commit_sha": "cec8a7fb9770b9cf372a5c3117e02230a01dfc99",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/statuses/44876053c524b9e2d812fa5c8965f4048429690b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/statuses/b192f345310d01b4856f8fc620706c0a11adbb9e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "44876053c524b9e2d812fa5c8965f4048429690b",
+        "sha": "b192f345310d01b4856f8fc620706c0a11adbb9e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/yajl-feedstock/deployments",
             "created_at": "2018-07-01T22:07:17Z",
             "updated_at": "2018-07-01T22:07:18Z",
-            "pushed_at": "2019-01-03T19:56:14Z",
+            "pushed_at": "2019-01-18T16:22:40Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/yajl-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/yajl-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/yajl-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/yajl-feedstock/deployments",
             "created_at": "2017-02-18T15:45:09Z",
             "updated_at": "2018-08-04T19:07:05Z",
-            "pushed_at": "2019-01-03T19:56:15Z",
+            "pushed_at": "2019-01-18T16:22:41Z",
             "git_url": "git://github.com/conda-forge/yajl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/yajl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/yajl-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/yajl-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/yajl-feedstock/statuses/44876053c524b9e2d812fa5c8965f4048429690b"
+            "href": "https://api.github.com/repos/conda-forge/yajl-feedstock/statuses/b192f345310d01b4856f8fc620706c0a11adbb9e"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 683,
+    "commits": 5,
+    "additions": 649,
     "deletions": 188,
-    "changed_files": 32
+    "changed_files": 30,
+    "Last-Modified": "Fri, 18 Jan 2019 16:22:41 GMT",
+    "ETag": "W/\"dba2bd5ac765a97c06bb34fbeb29892b\""
 }
