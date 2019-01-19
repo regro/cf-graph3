@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-30T15:14:09Z",
-    "updated_at": "2019-01-06T12:35:00Z",
+    "updated_at": "2019-01-19T08:06:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ab7520738bd8954ab1b376fcfc9f5a14c1dceb45",
+    "merge_commit_sha": "ef8efe7793412cc52c7b1f2373495773ac8c95d4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/statuses/2be36623e756dbfd6f17fee76067011bb9dd5336",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/statuses/0d0d15c671bcd5e12d706415ea1b697ac44df253",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "2be36623e756dbfd6f17fee76067011bb9dd5336",
+        "sha": "0d0d15c671bcd5e12d706415ea1b697ac44df253",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cwltool-feedstock/deployments",
             "created_at": "2018-12-19T02:13:14Z",
             "updated_at": "2018-12-19T02:13:17Z",
-            "pushed_at": "2018-12-30T15:14:09Z",
+            "pushed_at": "2019-01-19T07:45:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cwltool-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cwltool-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cwltool-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cwltool-feedstock/deployments",
             "created_at": "2018-12-19T01:22:46Z",
             "updated_at": "2018-12-20T07:54:56Z",
-            "pushed_at": "2019-01-16T16:40:05Z",
+            "pushed_at": "2019-01-19T07:45:48Z",
             "git_url": "git://github.com/conda-forge/cwltool-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cwltool-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cwltool-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cwltool-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cwltool-feedstock/statuses/2be36623e756dbfd6f17fee76067011bb9dd5336"
+            "href": "https://api.github.com/repos/conda-forge/cwltool-feedstock/statuses/0d0d15c671bcd5e12d706415ea1b697ac44df253"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 109,
-    "deletions": 8,
-    "changed_files": 15,
-    "Last-Modified": "Sun, 06 Jan 2019 12:35:00 GMT",
-    "ETag": "W/\"a893955c763fb009f2add917a273ed9a\""
+    "commits": 3,
+    "additions": 164,
+    "deletions": 46,
+    "changed_files": 20,
+    "Last-Modified": "Sat, 19 Jan 2019 08:06:33 GMT",
+    "ETag": "W/\"1922bc9f86ba67c9aecff19d0cec72bd\""
 }
