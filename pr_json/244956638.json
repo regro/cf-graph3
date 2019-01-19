@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/binaryen-feedstock/pull/17.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/issues/17",
     "number": 17,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "binaryen v1.38.23",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-15T22:15:45Z",
-    "updated_at": "2019-01-15T22:15:49Z",
-    "closed_at": null,
+    "updated_at": "2019-01-19T12:25:53Z",
+    "closed_at": "2019-01-19T12:25:53Z",
     "merged_at": null,
     "merge_commit_sha": "b4b0440c38c8fb63f387030f54fd0716d77bad89",
     "assignee": null,
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/statuses/a2e0de48876bff4c3ea9d6df37a77919ebfca8d6",
+    "statuses_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/statuses/65cd5e17231e0552d8bd91e666a78bfae4e0340e",
     "head": {
         "label": "regro-cf-autotick-bot:1.38.23",
         "ref": "1.38.23",
-        "sha": "a2e0de48876bff4c3ea9d6df37a77919ebfca8d6",
+        "sha": "65cd5e17231e0552d8bd91e666a78bfae4e0340e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/binaryen-feedstock/deployments",
             "created_at": "2018-08-12T01:15:24Z",
             "updated_at": "2018-08-12T01:15:26Z",
-            "pushed_at": "2019-01-17T22:11:57Z",
+            "pushed_at": "2019-01-19T12:25:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/binaryen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/binaryen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/binaryen-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/binaryen-feedstock/deployments",
             "created_at": "2018-08-12T00:08:45Z",
             "updated_at": "2019-01-17T19:26:06Z",
-            "pushed_at": "2019-01-17T19:26:04Z",
+            "pushed_at": "2019-01-19T12:25:17Z",
             "git_url": "git://github.com/conda-forge/binaryen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/binaryen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/binaryen-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/binaryen-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/binaryen-feedstock/statuses/a2e0de48876bff4c3ea9d6df37a77919ebfca8d6"
+            "href": "https://api.github.com/repos/conda-forge/binaryen-feedstock/statuses/65cd5e17231e0552d8bd91e666a78bfae4e0340e"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
-    "maintainer_can_modify": true,
-    "commits": 2,
+    "maintainer_can_modify": false,
+    "commits": 3,
     "additions": 94,
-    "deletions": 106,
+    "deletions": 112,
     "changed_files": 18,
-    "Last-Modified": "Tue, 15 Jan 2019 22:15:49 GMT",
-    "ETag": "W/\"421f73002e595c7f0387b117a5096445\""
+    "Last-Modified": "Sat, 19 Jan 2019 12:25:53 GMT",
+    "ETag": "W/\"603fb6ac110491938a303e81db59cbe8\""
 }
