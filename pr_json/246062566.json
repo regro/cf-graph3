@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-19T18:14:55Z",
-    "updated_at": "2019-01-19T18:14:59Z",
+    "updated_at": "2019-01-20T01:18:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "31b410d61d7aa8b7469345d3e4693023f50e6091",
+    "merge_commit_sha": "801e14eee9914d1e75bf32ae2bc2591bea8e4bc9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/pulls/72/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/issues/72/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/statuses/9ba7ab52776688152de8e154dfd6f1473c74430e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/statuses/1e0f37e7fd392d12fbca05eebb65dc68fc47ab39",
     "head": {
         "label": "regro-cf-autotick-bot:0.12.0",
         "ref": "0.12.0",
-        "sha": "9ba7ab52776688152de8e154dfd6f1473c74430e",
+        "sha": "1e0f37e7fd392d12fbca05eebb65dc68fc47ab39",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/arrow-cpp-feedstock/deployments",
             "created_at": "2018-06-18T14:05:39Z",
             "updated_at": "2018-06-18T14:05:41Z",
-            "pushed_at": "2019-01-19T18:14:55Z",
+            "pushed_at": "2019-01-20T01:18:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/arrow-cpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/arrow-cpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/arrow-cpp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/deployments",
             "created_at": "2016-10-10T15:14:38Z",
             "updated_at": "2019-01-17T07:58:52Z",
-            "pushed_at": "2019-01-19T18:14:56Z",
+            "pushed_at": "2019-01-20T01:18:28Z",
             "git_url": "git://github.com/conda-forge/arrow-cpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/arrow-cpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/arrow-cpp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/pulls/72/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/statuses/9ba7ab52776688152de8e154dfd6f1473c74430e"
+            "href": "https://api.github.com/repos/conda-forge/arrow-cpp-feedstock/statuses/1e0f37e7fd392d12fbca05eebb65dc68fc47ab39"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
+    "commits": 2,
+    "additions": 4,
+    "deletions": 4,
     "changed_files": 1,
-    "Last-Modified": "Sat, 19 Jan 2019 18:14:59 GMT",
-    "ETag": "W/\"6ab20ba6d0b466bea591620b4648c085\""
+    "Last-Modified": "Sun, 20 Jan 2019 01:18:27 GMT",
+    "ETag": "W/\"d474c2f20609ecab1a5d4c6cb5e3fd1e\""
 }
