@@ -32,7 +32,7 @@
     },
     "body": "This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\n\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. It is very likely that the current package version for this feedstock is out of date or needed migration.\n\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\nIf you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)! ",
     "created_at": "2018-06-22T13:42:03Z",
-    "updated_at": "2018-06-23T05:49:19Z",
+    "updated_at": "2019-01-20T04:21:00Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "0860f9789f5bf05488845e96754e8fbc13b0709f",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-forecast-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-forecast-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "0f6f3b4354deb41ee7f2f0e80acccc766e059b43",
+        "sha": "55ccc539842f111b9acb5df089832bb5fd3ff28e",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/r-forecast-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/r-forecast-feedstock/deployments",
             "created_at": "2017-05-02T18:16:49Z",
-            "updated_at": "2019-01-20T04:08:33Z",
-            "pushed_at": "2019-01-20T04:08:32Z",
+            "updated_at": "2019-01-20T04:45:00Z",
+            "pushed_at": "2019-01-20T04:44:58Z",
             "git_url": "git://github.com/conda-forge/r-forecast-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-forecast-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-forecast-feedstock.git",
             "svn_url": "https://github.com/conda-forge/r-forecast-feedstock",
             "homepage": null,
-            "size": 31,
+            "size": 40,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -336,6 +336,6 @@
     "additions": 194,
     "deletions": 133,
     "changed_files": 19,
-    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"f83fad98291d8082c0685cd1bc30fd84\""
+    "Last-Modified": "Sun, 20 Jan 2019 04:21:00 GMT",
+    "ETag": "W/\"5b399b3b8bf97a7e3a305c0ef39f6a55\""
 }
