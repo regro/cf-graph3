@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nmayavi\nsmesh\nfreecad\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-17T23:15:22Z",
-    "updated_at": "2019-01-19T21:58:52Z",
+    "updated_at": "2019-01-21T12:36:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "00f801289c7de990fd136f55baff663d5f4f381f",
+    "merge_commit_sha": "8489f93fc46064184334be0a2a8d56e821a77489",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/pulls/72/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/issues/72/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/statuses/c7817acee3f61f31801b7f9870118cc70e8a1d2e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/statuses/b4766d1b0b59b085905ca2cbc9ee8a46f28c55b6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c7817acee3f61f31801b7f9870118cc70e8a1d2e",
+        "sha": "b4766d1b0b59b085905ca2cbc9ee8a46f28c55b6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/vtk-feedstock/deployments",
             "created_at": "2018-05-11T17:34:33Z",
             "updated_at": "2018-05-11T17:34:34Z",
-            "pushed_at": "2019-01-13T06:33:46Z",
+            "pushed_at": "2019-01-21T12:36:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/vtk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/vtk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/vtk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/vtk-feedstock",
             "homepage": null,
-            "size": 161,
+            "size": 165,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vtk-feedstock/deployments",
             "created_at": "2016-06-24T13:03:46Z",
             "updated_at": "2018-10-25T19:54:49Z",
-            "pushed_at": "2019-01-13T06:33:47Z",
+            "pushed_at": "2019-01-22T12:52:42Z",
             "git_url": "git://github.com/conda-forge/vtk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vtk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vtk-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 31,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 6,
+            "open_issues_count": 7,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 31,
-            "open_issues": 6,
+            "open_issues": 7,
             "watchers": 3,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/vtk-feedstock/pulls/72/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/vtk-feedstock/statuses/c7817acee3f61f31801b7f9870118cc70e8a1d2e"
+            "href": "https://api.github.com/repos/conda-forge/vtk-feedstock/statuses/b4766d1b0b59b085905ca2cbc9ee8a46f28c55b6"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 24,
+    "comments": 26,
     "review_comments": 5,
     "maintainer_can_modify": true,
-    "commits": 12,
-    "additions": 1319,
-    "deletions": 83,
-    "changed_files": 35,
-    "Last-Modified": "Sat, 19 Jan 2019 21:58:52 GMT",
-    "ETag": "W/\"fb7834a7c5bb4716ed911daf5f96cb7d\""
+    "commits": 13,
+    "additions": 496,
+    "deletions": 100,
+    "changed_files": 27,
+    "Last-Modified": "Mon, 21 Jan 2019 12:36:58 GMT",
+    "ETag": "W/\"961e3d06b8b8011927adaab9e2f00011\""
 }
