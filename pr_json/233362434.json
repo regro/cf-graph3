@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T08:15:03Z",
-    "updated_at": "2018-11-25T08:15:08Z",
+    "updated_at": "2019-01-23T06:33:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "66669abea33abff9b1559bd10e7dfa980b574647",
+    "merge_commit_sha": "01ebf9c5778bd1a87a35fd10514917b639219692",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/statuses/f98c3fd9639a456f5d0eff5c76327b6eaa452bb7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/statuses/2d26ca522237b82c3a3233c330046d5e7d8f1985",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f98c3fd9639a456f5d0eff5c76327b6eaa452bb7",
+        "sha": "2d26ca522237b82c3a3233c330046d5e7d8f1985",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/multicore-tsne-feedstock/deployments",
             "created_at": "2018-11-12T17:16:29Z",
             "updated_at": "2018-11-12T17:16:31Z",
-            "pushed_at": "2018-11-25T08:15:03Z",
+            "pushed_at": "2019-01-23T06:33:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/multicore-tsne-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/multicore-tsne-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/multicore-tsne-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/multicore-tsne-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/deployments",
             "created_at": "2018-11-12T16:56:19Z",
             "updated_at": "2018-11-12T17:00:17Z",
-            "pushed_at": "2018-11-25T08:15:04Z",
+            "pushed_at": "2019-01-23T06:33:45Z",
             "git_url": "git://github.com/conda-forge/multicore-tsne-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/multicore-tsne-feedstock.git",
             "clone_url": "https://github.com/conda-forge/multicore-tsne-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/statuses/f98c3fd9639a456f5d0eff5c76327b6eaa452bb7"
+            "href": "https://api.github.com/repos/conda-forge/multicore-tsne-feedstock/statuses/2d26ca522237b82c3a3233c330046d5e7d8f1985"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 350,
-    "deletions": 19,
-    "changed_files": 18
+    "commits": 3,
+    "additions": 468,
+    "deletions": 41,
+    "changed_files": 22,
+    "Last-Modified": "Wed, 23 Jan 2019 06:33:45 GMT",
+    "ETag": "W/\"9f933a486a853b0ac0a52b14a7c04bfb\""
 }
