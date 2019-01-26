@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-25T20:25:18Z",
-    "updated_at": "2019-01-26T06:52:56Z",
+    "updated_at": "2019-01-26T08:21:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "055fcc7def88fdfca41f1617785d0d8eda504307",
+    "merge_commit_sha": "0df05dc9f4b3074e78a1de507e418516e4005de5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/happy-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/happy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/happy-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/happy-feedstock/statuses/5b107c036c3b3ad0638f1e252c5192dcd3424d3e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/happy-feedstock/statuses/c13641c72b1e6ff5b86683ed69e1c7dca04f1f2a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5b107c036c3b3ad0638f1e252c5192dcd3424d3e",
+        "sha": "c13641c72b1e6ff5b86683ed69e1c7dca04f1f2a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/happy-feedstock/deployments",
             "created_at": "2019-01-25T20:24:54Z",
             "updated_at": "2019-01-25T20:24:56Z",
-            "pushed_at": "2019-01-26T06:52:57Z",
+            "pushed_at": "2019-01-26T08:21:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/happy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/happy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/happy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/happy-feedstock",
             "homepage": null,
-            "size": 19,
+            "size": 20,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/happy-feedstock/deployments",
             "created_at": "2019-01-09T16:47:21Z",
             "updated_at": "2019-01-13T18:12:03Z",
-            "pushed_at": "2019-01-26T06:52:57Z",
+            "pushed_at": "2019-01-26T08:21:04Z",
             "git_url": "git://github.com/conda-forge/happy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/happy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/happy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/happy-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/happy-feedstock/statuses/5b107c036c3b3ad0638f1e252c5192dcd3424d3e"
+            "href": "https://api.github.com/repos/conda-forge/happy-feedstock/statuses/c13641c72b1e6ff5b86683ed69e1c7dca04f1f2a"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 50,
+    "commits": 7,
+    "additions": 54,
     "deletions": 27,
-    "changed_files": 12
+    "changed_files": 12,
+    "Last-Modified": "Sat, 26 Jan 2019 08:21:03 GMT",
+    "ETag": "W/\"8fcc487c2a15dba9bd009e74e11ef7d0\""
 }
