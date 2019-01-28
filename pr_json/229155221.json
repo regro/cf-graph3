@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/julia-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/julia-feedstock/deployments",
             "created_at": "2017-08-18T14:21:41Z",
-            "updated_at": "2019-01-11T03:55:37Z",
-            "pushed_at": "2019-01-28T00:17:10Z",
+            "updated_at": "2019-01-28T13:29:31Z",
+            "pushed_at": "2019-01-28T13:29:29Z",
             "git_url": "git://github.com/conda-forge/julia-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/julia-feedstock.git",
             "clone_url": "https://github.com/conda-forge/julia-feedstock.git",
             "svn_url": "https://github.com/conda-forge/julia-feedstock",
             "homepage": null,
-            "size": 57,
+            "size": 68,
             "stargazers_count": 5,
             "watchers_count": 5,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 11,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 11,
+            "open_issues_count": 10,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 11,
-            "open_issues": 11,
+            "open_issues": 10,
             "watchers": 5,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 9,
     "additions": 244,
     "deletions": 25,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Thu, 24 Jan 2019 01:45:28 GMT",
+    "ETag": "W/\"ba1c867b7b5f9cd8da4f0b1958fe680f\""
 }
