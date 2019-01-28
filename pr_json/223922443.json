@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nncl\npynio\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T11:35:43Z",
-    "updated_at": "2019-01-18T16:38:25Z",
+    "updated_at": "2019-01-28T18:54:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e0be005a5f40746895cceb49a2be4b20fbda7e9a",
+    "merge_commit_sha": "9b90810e282f5fe5fa6ec0004a61a5b048d94102",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/statuses/6835eb517577429a4fcbf81489e7565925bd8ac9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/statuses/fabcc8b1b53f478635bccf3fccaf21fdaff32c4a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6835eb517577429a4fcbf81489e7565925bd8ac9",
+        "sha": "fabcc8b1b53f478635bccf3fccaf21fdaff32c4a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hdfeos2-feedstock/deployments",
             "created_at": "2018-10-18T11:35:28Z",
             "updated_at": "2018-10-18T11:35:30Z",
-            "pushed_at": "2019-01-18T16:38:25Z",
+            "pushed_at": "2019-01-28T18:54:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hdfeos2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hdfeos2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hdfeos2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/deployments",
             "created_at": "2016-03-16T08:15:07Z",
             "updated_at": "2018-09-03T18:13:59Z",
-            "pushed_at": "2019-01-18T16:38:26Z",
+            "pushed_at": "2019-01-28T18:54:30Z",
             "git_url": "git://github.com/conda-forge/hdfeos2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hdfeos2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hdfeos2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/statuses/6835eb517577429a4fcbf81489e7565925bd8ac9"
+            "href": "https://api.github.com/repos/conda-forge/hdfeos2-feedstock/statuses/fabcc8b1b53f478635bccf3fccaf21fdaff32c4a"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 274,
-    "deletions": 34,
-    "changed_files": 15
+    "commits": 5,
+    "additions": 359,
+    "deletions": 41,
+    "changed_files": 17,
+    "Last-Modified": "Mon, 28 Jan 2019 18:54:29 GMT",
+    "ETag": "W/\"fe4a155220caa7632966fe8d28a3dc2c\""
 }
