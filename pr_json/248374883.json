@@ -32,7 +32,7 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T04:55:00Z",
-    "updated_at": "2019-01-29T15:19:04Z",
+    "updated_at": "2019-01-29T17:59:02Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": null,
@@ -40,7 +40,16 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1213166370,
+            "node_id": "MDU6TGFiZWwxMjEzMTY2Mzcw",
+            "url": "https://api.github.com/repos/conda-forge/autoconf-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "8ef9a0",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/autoconf-feedstock/pulls/24/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/autoconf-feedstock/pulls/24/comments",

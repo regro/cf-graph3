@@ -1,13 +1,14 @@
 {
   "done": [
-    "msinttypes",
+    "jom",
     "toolchain",
     "vc",
-    "libedit",
     "libgfortran",
-    "jom",
+    "msinttypes",
+    "libedit",
     "cmake",
     "xz",
+    "libiconv",
     "expat"
   ],
   "in-pr": [
@@ -15,19 +16,18 @@
     "autoconf",
     "automake",
     "libtool",
-    "krb5",
     "curl",
     "tk",
     "pkg-config",
     "python",
     "openssl",
-    "libiconv"
+    "krb5"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "perl",
     "bzip2",
+    "perl",
     "zlib",
     "ordereddict",
     "ninja",
@@ -92,13 +92,13 @@
     "freetype",
     "qt",
     "pyqt",
-    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -119,7 +119,7 @@
         "libxml2",
         "zeromq"
       ],
-      "pr_url": "https://github.com/conda-forge/autoconf-feedstock/pull/24"
+      "pr_url": "https://github.com/conda-forge/autoconf-feedstock/pull/25"
     },
     "automake": {
       "num_descendants": 84,
