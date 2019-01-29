@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/toolchain-feedstock/pull/56.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/toolchain-feedstock/issues/56",
     "number": 56,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Arch Migrator",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T04:54:12Z",
-    "updated_at": "2019-01-29T04:54:15Z",
-    "closed_at": null,
+    "updated_at": "2019-01-29T13:36:55Z",
+    "closed_at": "2019-01-29T13:36:55Z",
     "merged_at": null,
     "merge_commit_sha": "4df7768b673e51a76d578593fbbdf39000e82de8",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 21,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 13,
+            "open_issues_count": 12,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 21,
-            "open_issues": 13,
+            "open_issues": 12,
             "watchers": 4,
             "default_branch": "master"
         }
@@ -326,14 +326,16 @@
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n    cc: @conda-forge/arm-arch\n\n    **Please don't close this PR without reaching out the the ARM migrators first**",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 112,
     "deletions": 43,
-    "changed_files": 17
+    "changed_files": 17,
+    "Last-Modified": "Tue, 29 Jan 2019 13:36:55 GMT",
+    "ETag": "W/\"a328880af0283d97f90c4f582cbe85a2\""
 }

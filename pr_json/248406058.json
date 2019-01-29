@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/vc-feedstock/pull/9.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/vc-feedstock/issues/9",
     "number": 9,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Arch Migrator",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T07:54:33Z",
-    "updated_at": "2019-01-29T07:54:36Z",
-    "closed_at": null,
+    "updated_at": "2019-01-29T15:24:22Z",
+    "closed_at": "2019-01-29T15:24:21Z",
     "merged_at": null,
     "merge_commit_sha": "d034a20000ca947b25b36969c358c41b2a5a8f52",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -326,16 +326,16 @@
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n    cc: @conda-forge/arm-arch\n\n    **Please don't close this PR without reaching out the the ARM migrators first**",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 7,
     "deletions": 8,
     "changed_files": 1,
-    "Last-Modified": "Tue, 29 Jan 2019 07:54:36 GMT",
-    "ETag": "W/\"ec69da8fb7693a42a8933bfe5c21bfe4\""
+    "Last-Modified": "Tue, 29 Jan 2019 15:24:22 GMT",
+    "ETag": "W/\"c0a39319e6a507c23d7d5f8b0a4e29a1\""
 }
