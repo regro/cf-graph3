@@ -1,22 +1,22 @@
 {
   "done": [
-    "libgfortran",
-    "vc",
-    "toolchain",
-    "libedit",
     "msinttypes",
+    "toolchain",
+    "vc",
+    "libedit",
+    "libgfortran",
     "jom",
+    "cmake",
     "xz",
     "expat"
   ],
   "in-pr": [
+    "bison",
     "autoconf",
     "automake",
     "libtool",
-    "bison",
     "krb5",
     "curl",
-    "cmake",
     "tk",
     "pkg-config",
     "python",
