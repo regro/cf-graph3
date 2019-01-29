@@ -3,32 +3,33 @@
   "in-pr": [
     "toolchain",
     "jom",
-    "msinttypes",
     "autoconf",
     "automake",
     "libtool",
+    "libedit",
+    "msinttypes",
+    "expat",
     "xz",
     "tk",
+    "python",
     "pkg-config",
-    "python"
+    "openssl",
+    "krb5",
+    "libiconv"
   ],
   "awaiting-pr": [
-    "vc",
     "libgfortran",
+    "vc",
     "bison",
-    "libedit",
-    "krb5",
-    "curl",
     "cmake",
-    "openssl",
-    "libiconv",
-    "expat"
+    "curl"
   ],
   "awaiting-parents": [
     "make",
     "bzip2",
     "perl",
     "zlib",
+    "pandoc",
     "ordereddict",
     "ninja",
     "lz4-c",
@@ -53,6 +54,9 @@
     "entrypoints",
     "pickleshare",
     "nose",
+    "pkgconfig",
+    "lz4",
+    "zstd",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -67,10 +71,6 @@
     "distributed",
     "appnope",
     "ipython",
-    "pkgconfig",
-    "lz4",
-    "zstd",
-    "pandoc",
     "zeromq",
     "pyzmq",
     "ipykernel",
@@ -78,6 +78,8 @@
     "lzo",
     "libpng",
     "libxml2",
+    "libarchive",
+    "git",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -87,8 +89,6 @@
     "pyqt",
     "harfbuzz",
     "ffmpeg",
-    "libarchive",
-    "git",
     "eigen",
     "openblas",
     "blas",
@@ -226,7 +226,8 @@
         "cmake",
         "git",
         "libarchive"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/expat-feedstock/pull/17"
     },
     "ffmpeg": {
       "num_descendants": 1,
@@ -342,7 +343,8 @@
       "num_descendants": 80,
       "immediate_children": [
         "curl"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/krb5-feedstock/pull/14"
     },
     "libarchive": {
       "num_descendants": 0,
@@ -352,7 +354,8 @@
       "num_descendants": 81,
       "immediate_children": [
         "krb5"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libedit-feedstock/pull/5"
     },
     "libiconv": {
       "num_descendants": 5,
@@ -361,7 +364,8 @@
         "git",
         "libarchive",
         "libxml2"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libiconv-feedstock/pull/24"
     },
     "libpng": {
       "num_descendants": 8,
@@ -540,7 +544,8 @@
         "opencv",
         "python",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/openssl-feedstock/pull/35"
     },
     "ordereddict": {
       "num_descendants": 6,
