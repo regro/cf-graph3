@@ -1,17 +1,17 @@
 {
-  "done": [],
+  "done": [
+    "libedit"
+  ],
   "in-pr": [
-    "vc",
+    "msinttypes",
+    "libgfortran",
+    "toolchain",
+    "jom",
     "autoconf",
     "automake",
     "libtool",
-    "jom",
-    "libgfortran",
-    "toolchain",
-    "libedit",
+    "vc",
     "bison",
-    "msinttypes",
-    "expat",
     "cmake",
     "xz",
     "tk",
@@ -20,13 +20,14 @@
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv"
+    "libiconv",
+    "expat"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "perl",
     "bzip2",
+    "perl",
     "zlib",
     "pandoc",
     "ordereddict",
@@ -83,8 +84,6 @@
     "lzo",
     "libpng",
     "libxml2",
-    "libarchive",
-    "git",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -96,6 +95,8 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
+    "libarchive",
+    "git",
     "eigen",
     "opencv"
   ],
