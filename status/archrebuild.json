@@ -1,55 +1,40 @@
 {
   "done": [],
-  "in-pr": [],
-  "awaiting-pr": [
+  "in-pr": [
     "jom",
     "toolchain",
-    "vc",
-    "msinttypes",
-    "bison",
     "autoconf",
     "automake",
-    "libtool",
+    "libtool"
+  ],
+  "awaiting-pr": [
+    "vc",
+    "bison",
     "libedit",
-    "libgfortran",
-    "python",
-    "openssl",
-    "curl",
+    "msinttypes",
+    "expat",
     "cmake",
     "xz",
-    "zlib",
     "tk",
+    "curl",
+    "python",
     "pkg-config",
+    "openssl",
     "krb5",
     "libiconv",
-    "expat"
+    "libgfortran"
   ],
   "awaiting-parents": [
     "make",
     "bzip2",
     "perl",
+    "zlib",
+    "pandoc",
     "ordereddict",
     "ninja",
     "lz4-c",
     "libsodium",
     "icu",
-    "pandoc",
-    "zeromq",
-    "openblas",
-    "blas",
-    "lzo",
-    "libpng",
-    "libxml2",
-    "jpeg",
-    "jasper",
-    "hdf5",
-    "freetype",
-    "qt",
-    "pyqt",
-    "harfbuzz",
-    "ffmpeg",
-    "git",
-    "eigen",
     "certifi",
     "setuptools",
     "pip",
@@ -64,7 +49,6 @@
     "tornado",
     "terminado",
     "testpath",
-    "pyzmq",
     "pexpect",
     "jsonschema",
     "entrypoints",
@@ -73,9 +57,6 @@
     "pkgconfig",
     "lz4",
     "zstd",
-    "libtiff",
-    "libwebp",
-    "libarchive",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -86,18 +67,38 @@
     "pyyaml",
     "mistune",
     "twisted",
-    "numpy",
-    "scipy",
-    "scikit-learn",
-    "pandas",
-    "opencv",
-    "matplotlib",
     "msgpack-python",
     "distributed",
     "appnope",
     "ipython",
+    "zeromq",
+    "pyzmq",
     "ipykernel",
-    "notebook"
+    "notebook",
+    "lzo",
+    "libpng",
+    "libxml2",
+    "libarchive",
+    "git",
+    "jpeg",
+    "libtiff",
+    "libwebp",
+    "jasper",
+    "freetype",
+    "qt",
+    "pyqt",
+    "harfbuzz",
+    "ffmpeg",
+    "eigen",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "matplotlib",
+    "hdf5",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -117,7 +118,8 @@
         "libtool",
         "libxml2",
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/autoconf-feedstock/pull/24"
     },
     "automake": {
       "num_descendants": 84,
@@ -131,7 +133,8 @@
         "pkg-config",
         "xz",
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/automake-feedstock/pull/21"
     },
     "bison": {
       "num_descendants": 81,
@@ -310,7 +313,8 @@
         "libarchive",
         "openblas",
         "pyqt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/jom-feedstock/pull/2"
     },
     "jpeg": {
       "num_descendants": 7,
@@ -394,7 +398,8 @@
         "libpng",
         "libxml2",
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libtool-feedstock/pull/13"
     },
     "libxml2": {
       "num_descendants": 1,
@@ -973,7 +978,8 @@
         "scipy",
         "zeromq",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/toolchain-feedstock/pull/56"
     },
     "tk": {
       "num_descendants": 80,

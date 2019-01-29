@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-25T18:24:11Z",
-    "updated_at": "2019-01-26T13:03:16Z",
+    "updated_at": "2019-01-29T03:05:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "82dd27b5acc3ed5cc908489cd334d5491260b9a7",
+    "merge_commit_sha": "6c24e4f288f5b2421623720fd1f2b62184995fda",
     "assignee": {
         "login": "sodre",
         "id": 1043285,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/consul-feedstock/pulls/25/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/consul-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/consul-feedstock/issues/25/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/consul-feedstock/statuses/d8cae4fce2c25ebab6b2d208f6a6158566214dbe",
+    "statuses_url": "https://api.github.com/repos/conda-forge/consul-feedstock/statuses/04df56b0486f84cb7bac0e822068c5e16531af04",
     "head": {
         "label": "regro-cf-autotick-bot:1.4.1",
         "ref": "1.4.1",
-        "sha": "d8cae4fce2c25ebab6b2d208f6a6158566214dbe",
+        "sha": "04df56b0486f84cb7bac0e822068c5e16531af04",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/consul-feedstock/deployments",
             "created_at": "2018-05-11T23:04:26Z",
             "updated_at": "2018-05-11T23:04:29Z",
-            "pushed_at": "2019-01-25T18:24:11Z",
+            "pushed_at": "2019-01-29T03:05:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/consul-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/consul-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/consul-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/consul-feedstock",
             "homepage": null,
-            "size": 59,
+            "size": 63,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/consul-feedstock/deployments",
             "created_at": "2017-04-24T07:59:29Z",
             "updated_at": "2018-11-16T21:10:32Z",
-            "pushed_at": "2019-01-25T18:24:12Z",
+            "pushed_at": "2019-01-29T03:05:50Z",
             "git_url": "git://github.com/conda-forge/consul-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/consul-feedstock.git",
             "clone_url": "https://github.com/conda-forge/consul-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 1,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/consul-feedstock/pulls/25/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/consul-feedstock/statuses/d8cae4fce2c25ebab6b2d208f6a6158566214dbe"
+            "href": "https://api.github.com/repos/conda-forge/consul-feedstock/statuses/04df56b0486f84cb7bac0e822068c5e16531af04"
         }
     },
     "author_association": "NONE",
@@ -367,15 +367,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 372,
-    "deletions": 129,
-    "changed_files": 20,
-    "Last-Modified": "Sat, 26 Jan 2019 13:03:16 GMT",
-    "ETag": "W/\"3853baadf4611115930d86e5f23f5308\""
+    "commits": 5,
+    "additions": 402,
+    "deletions": 180,
+    "changed_files": 23,
+    "Last-Modified": "Tue, 29 Jan 2019 03:05:49 GMT",
+    "ETag": "W/\"5e7176eac24a0eae766be675aa4e8de1\""
 }
