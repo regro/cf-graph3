@@ -1,35 +1,34 @@
 {
   "done": [],
   "in-pr": [
-    "jom",
     "toolchain",
+    "jom",
+    "msinttypes",
     "autoconf",
     "automake",
-    "libtool"
+    "libtool",
+    "xz",
+    "tk",
+    "pkg-config",
+    "python"
   ],
   "awaiting-pr": [
     "vc",
+    "libgfortran",
     "bison",
     "libedit",
-    "msinttypes",
-    "expat",
-    "cmake",
-    "xz",
-    "tk",
-    "curl",
-    "python",
-    "pkg-config",
-    "openssl",
     "krb5",
+    "curl",
+    "cmake",
+    "openssl",
     "libiconv",
-    "libgfortran"
+    "expat"
   ],
   "awaiting-parents": [
     "make",
     "bzip2",
     "perl",
     "zlib",
-    "pandoc",
     "ordereddict",
     "ninja",
     "lz4-c",
@@ -54,9 +53,6 @@
     "entrypoints",
     "pickleshare",
     "nose",
-    "pkgconfig",
-    "lz4",
-    "zstd",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -71,6 +67,10 @@
     "distributed",
     "appnope",
     "ipython",
+    "pkgconfig",
+    "lz4",
+    "zstd",
+    "pandoc",
     "zeromq",
     "pyzmq",
     "ipykernel",
@@ -78,8 +78,6 @@
     "lzo",
     "libpng",
     "libxml2",
-    "libarchive",
-    "git",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -89,6 +87,8 @@
     "pyqt",
     "harfbuzz",
     "ffmpeg",
+    "libarchive",
+    "git",
     "eigen",
     "openblas",
     "blas",
@@ -482,7 +482,8 @@
         "qt",
         "zlib",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/msinttypes-feedstock/pull/12"
     },
     "ninja": {
       "num_descendants": 3,
@@ -640,7 +641,8 @@
         "python",
         "pyzmq",
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/pkg-config-feedstock/pull/26"
     },
     "pkgconfig": {
       "num_descendants": 6,
@@ -741,7 +743,8 @@
         "zeromq",
         "zlib",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/python-feedstock/pull/234"
     },
     "pyyaml": {
       "num_descendants": 1,
@@ -889,7 +892,8 @@
         "python",
         "qt",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xz-feedstock/pull/20"
     },
     "zeromq": {
       "num_descendants": 3,
@@ -988,7 +992,8 @@
         "krb5",
         "matplotlib",
         "python"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/tk-feedstock/pull/32"
     },
     "blas": {
       "num_descendants": 6,
