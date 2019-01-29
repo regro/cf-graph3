@@ -1,0 +1,1011 @@
+{
+  "done": [],
+  "in-pr": [],
+  "awaiting-pr": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "msinttypes",
+    "libgfortran",
+    "toolchain",
+    "libedit",
+    "jom",
+    "bison",
+    "cmake",
+    "xz",
+    "zlib",
+    "tk",
+    "curl",
+    "python",
+    "pkg-config",
+    "openssl",
+    "krb5",
+    "libiconv",
+    "expat",
+    "vc"
+  ],
+  "awaiting-parents": [
+    "make",
+    "perl",
+    "bzip2",
+    "pandoc",
+    "ordereddict",
+    "ninja",
+    "lz4-c",
+    "libsodium",
+    "icu",
+    "certifi",
+    "setuptools",
+    "pip",
+    "psutil",
+    "ssl_match_hostname",
+    "win_unicode_console",
+    "six",
+    "singledispatch",
+    "pytest",
+    "subprocess32",
+    "traitlets",
+    "tornado",
+    "terminado",
+    "testpath",
+    "pexpect",
+    "jsonschema",
+    "entrypoints",
+    "pickleshare",
+    "nose",
+    "pkgconfig",
+    "lz4",
+    "zstd",
+    "markupsafe",
+    "kiwisolver",
+    "jedi",
+    "heapdict",
+    "futures",
+    "cython",
+    "cytoolz",
+    "pyyaml",
+    "mistune",
+    "twisted",
+    "msgpack-python",
+    "distributed",
+    "appnope",
+    "ipython",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "lzo",
+    "libpng",
+    "libxml2",
+    "jpeg",
+    "libtiff",
+    "libwebp",
+    "jasper",
+    "hdf5",
+    "freetype",
+    "qt",
+    "pyqt",
+    "matplotlib",
+    "harfbuzz",
+    "ffmpeg",
+    "libarchive",
+    "git",
+    "eigen",
+    "opencv",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook"
+  ],
+  "_feedstock_status": {
+    "appnope": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipython"
+      ]
+    },
+    "autoconf": {
+      "num_descendants": 84,
+      "immediate_children": [
+        "automake",
+        "git",
+        "krb5",
+        "libarchive",
+        "libedit",
+        "libtool",
+        "libxml2",
+        "zeromq"
+      ]
+    },
+    "automake": {
+      "num_descendants": 84,
+      "immediate_children": [
+        "harfbuzz",
+        "libarchive",
+        "libedit",
+        "libpng",
+        "libtool",
+        "libxml2",
+        "pkg-config",
+        "xz",
+        "zeromq"
+      ]
+    },
+    "bison": {
+      "num_descendants": 81,
+      "immediate_children": [
+        "krb5",
+        "qt"
+      ]
+    },
+    "certifi": {
+      "num_descendants": 47,
+      "immediate_children": [
+        "setuptools",
+        "tornado"
+      ]
+    },
+    "cmake": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "eigen",
+        "expat",
+        "freetype",
+        "harfbuzz",
+        "hdf5",
+        "jpeg",
+        "libarchive",
+        "libiconv",
+        "libpng",
+        "libtiff",
+        "lzo",
+        "openblas",
+        "opencv",
+        "xz",
+        "zeromq",
+        "zlib",
+        "zstd"
+      ]
+    },
+    "curl": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "cmake",
+        "ffmpeg",
+        "git",
+        "openblas",
+        "opencv",
+        "python",
+        "qt"
+      ]
+    },
+    "cython": {
+      "num_descendants": 13,
+      "immediate_children": [
+        "cytoolz",
+        "mistune",
+        "msgpack-python",
+        "numpy",
+        "pandas",
+        "pyyaml",
+        "scikit-learn",
+        "scipy",
+        "twisted"
+      ]
+    },
+    "cytoolz": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "distributed": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "eigen": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "entrypoints": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "expat": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "cmake",
+        "git",
+        "libarchive"
+      ]
+    },
+    "ffmpeg": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "freetype": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "ffmpeg",
+        "harfbuzz",
+        "matplotlib",
+        "qt"
+      ]
+    },
+    "futures": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "git": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "harfbuzz": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "hdf5": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "heapdict": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "icu": {
+      "num_descendants": 7,
+      "immediate_children": [
+        "harfbuzz",
+        "libxml2",
+        "matplotlib",
+        "qt"
+      ]
+    },
+    "ipykernel": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "ipython": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "ipykernel"
+      ]
+    },
+    "jasper": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "jedi": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipython"
+      ]
+    },
+    "jom": {
+      "num_descendants": 82,
+      "immediate_children": [
+        "bzip2",
+        "libarchive",
+        "openblas",
+        "pyqt"
+      ]
+    },
+    "jpeg": {
+      "num_descendants": 7,
+      "immediate_children": [
+        "jasper",
+        "libtiff",
+        "libwebp",
+        "opencv",
+        "qt"
+      ]
+    },
+    "jsonschema": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "kiwisolver": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "matplotlib"
+      ]
+    },
+    "krb5": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "curl"
+      ]
+    },
+    "libarchive": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "libedit": {
+      "num_descendants": 81,
+      "immediate_children": [
+        "krb5"
+      ]
+    },
+    "libiconv": {
+      "num_descendants": 5,
+      "immediate_children": [
+        "ffmpeg",
+        "git",
+        "libarchive",
+        "libxml2"
+      ]
+    },
+    "libpng": {
+      "num_descendants": 8,
+      "immediate_children": [
+        "freetype",
+        "libwebp",
+        "matplotlib",
+        "opencv",
+        "qt"
+      ]
+    },
+    "libsodium": {
+      "num_descendants": 4,
+      "immediate_children": [
+        "pyzmq",
+        "zeromq"
+      ]
+    },
+    "libtiff": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "libwebp",
+        "opencv"
+      ]
+    },
+    "libtool": {
+      "num_descendants": 84,
+      "immediate_children": [
+        "autoconf",
+        "ffmpeg",
+        "harfbuzz",
+        "hdf5",
+        "libarchive",
+        "libpng",
+        "libxml2",
+        "zeromq"
+      ]
+    },
+    "libxml2": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "libarchive"
+      ]
+    },
+    "lz4-c": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "libarchive",
+        "lz4",
+        "zstd"
+      ]
+    },
+    "lzo": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "libarchive"
+      ]
+    },
+    "make": {
+      "num_descendants": 88,
+      "immediate_children": [
+        "autoconf",
+        "automake",
+        "bison",
+        "bzip2",
+        "cmake",
+        "curl",
+        "freetype",
+        "git",
+        "krb5",
+        "libarchive",
+        "libiconv",
+        "libtiff",
+        "libxml2",
+        "opencv",
+        "openssl",
+        "perl",
+        "pkg-config",
+        "python",
+        "tk",
+        "xz",
+        "zlib",
+        "zstd"
+      ]
+    },
+    "markupsafe": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "matplotlib": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mistune": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "notebook",
+        "twisted"
+      ]
+    },
+    "msgpack-python": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "msinttypes": {
+      "num_descendants": 81,
+      "immediate_children": [
+        "expat",
+        "krb5",
+        "libarchive",
+        "libsodium",
+        "matplotlib",
+        "qt",
+        "zlib",
+        "zstd"
+      ]
+    },
+    "ninja": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "harfbuzz",
+        "hdf5",
+        "opencv"
+      ]
+    },
+    "nose": {
+      "num_descendants": 9,
+      "immediate_children": [
+        "matplotlib",
+        "pkgconfig",
+        "scikit-learn"
+      ]
+    },
+    "notebook": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "numpy": {
+      "num_descendants": 5,
+      "immediate_children": [
+        "matplotlib",
+        "opencv",
+        "pandas",
+        "scikit-learn",
+        "scipy"
+      ]
+    },
+    "openblas": {
+      "num_descendants": 7,
+      "immediate_children": [
+        "blas",
+        "numpy",
+        "opencv",
+        "scikit-learn",
+        "scipy"
+      ]
+    },
+    "opencv": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "openssl": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "curl",
+        "ffmpeg",
+        "git",
+        "krb5",
+        "libarchive",
+        "opencv",
+        "python",
+        "qt"
+      ]
+    },
+    "ordereddict": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "tornado"
+      ]
+    },
+    "pandas": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pandoc": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "perl": {
+      "num_descendants": 86,
+      "immediate_children": [
+        "autoconf",
+        "automake",
+        "bison",
+        "curl",
+        "git",
+        "krb5",
+        "libedit",
+        "openblas",
+        "openssl",
+        "qt"
+      ]
+    },
+    "pexpect": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipython"
+      ]
+    },
+    "pickleshare": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipython"
+      ]
+    },
+    "pip": {
+      "num_descendants": 45,
+      "immediate_children": [
+        "appnope",
+        "cython",
+        "cytoolz",
+        "distributed",
+        "entrypoints",
+        "futures",
+        "heapdict",
+        "ipykernel",
+        "ipython",
+        "jedi",
+        "jsonschema",
+        "kiwisolver",
+        "lz4",
+        "markupsafe",
+        "matplotlib",
+        "mistune",
+        "msgpack-python",
+        "nose",
+        "notebook",
+        "numpy",
+        "pandas",
+        "pexpect",
+        "pickleshare",
+        "pkgconfig",
+        "psutil",
+        "pytest",
+        "pyzmq",
+        "scikit-learn",
+        "six",
+        "ssl_match_hostname",
+        "subprocess32",
+        "testpath",
+        "tornado",
+        "traitlets",
+        "twisted",
+        "win_unicode_console"
+      ]
+    },
+    "pkg-config": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "curl",
+        "ffmpeg",
+        "harfbuzz",
+        "krb5",
+        "libarchive",
+        "libxml2",
+        "matplotlib",
+        "opencv",
+        "pkgconfig",
+        "python",
+        "pyzmq",
+        "zeromq"
+      ]
+    },
+    "pkgconfig": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "lz4",
+        "opencv"
+      ]
+    },
+    "psutil": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "pyqt": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "matplotlib"
+      ]
+    },
+    "pytest": {
+      "num_descendants": 7,
+      "immediate_children": [
+        "lz4",
+        "scikit-learn"
+      ]
+    },
+    "python": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "appnope",
+        "certifi",
+        "curl",
+        "cython",
+        "cytoolz",
+        "distributed",
+        "eigen",
+        "entrypoints",
+        "expat",
+        "freetype",
+        "futures",
+        "git",
+        "harfbuzz",
+        "hdf5",
+        "heapdict",
+        "icu",
+        "ipykernel",
+        "ipython",
+        "jedi",
+        "jpeg",
+        "jsonschema",
+        "kiwisolver",
+        "krb5",
+        "libiconv",
+        "libpng",
+        "libsodium",
+        "libtiff",
+        "libxml2",
+        "lz4",
+        "lz4-c",
+        "lzo",
+        "markupsafe",
+        "matplotlib",
+        "mistune",
+        "msgpack-python",
+        "ninja",
+        "nose",
+        "notebook",
+        "numpy",
+        "opencv",
+        "openssl",
+        "ordereddict",
+        "pandas",
+        "pexpect",
+        "pickleshare",
+        "pip",
+        "pkg-config",
+        "pkgconfig",
+        "psutil",
+        "pyqt",
+        "pytest",
+        "pyyaml",
+        "pyzmq",
+        "qt",
+        "scikit-learn",
+        "scipy",
+        "setuptools",
+        "singledispatch",
+        "six",
+        "ssl_match_hostname",
+        "subprocess32",
+        "terminado",
+        "testpath",
+        "tornado",
+        "traitlets",
+        "twisted",
+        "win_unicode_console",
+        "zeromq",
+        "zlib",
+        "zstd"
+      ]
+    },
+    "pyyaml": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "distributed"
+      ]
+    },
+    "pyzmq": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "ipykernel",
+        "notebook"
+      ]
+    },
+    "qt": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "opencv",
+        "pyqt"
+      ]
+    },
+    "scikit-learn": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scipy": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "scikit-learn"
+      ]
+    },
+    "setuptools": {
+      "num_descendants": 46,
+      "immediate_children": [
+        "cython",
+        "cytoolz",
+        "distributed",
+        "futures",
+        "heapdict",
+        "ipykernel",
+        "ipython",
+        "jedi",
+        "jsonschema",
+        "kiwisolver",
+        "lz4",
+        "markupsafe",
+        "matplotlib",
+        "msgpack-python",
+        "nose",
+        "notebook",
+        "numpy",
+        "pandas",
+        "pickleshare",
+        "pip",
+        "pkgconfig",
+        "psutil",
+        "pytest",
+        "scikit-learn",
+        "scipy",
+        "singledispatch",
+        "six",
+        "terminado",
+        "tornado",
+        "twisted",
+        "win_unicode_console"
+      ]
+    },
+    "singledispatch": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "tornado"
+      ]
+    },
+    "six": {
+      "num_descendants": 20,
+      "immediate_children": [
+        "distributed",
+        "ipykernel",
+        "ipython",
+        "jsonschema",
+        "matplotlib",
+        "notebook",
+        "pandas",
+        "pytest",
+        "singledispatch",
+        "traitlets",
+        "twisted"
+      ]
+    },
+    "ssl_match_hostname": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "tornado"
+      ]
+    },
+    "subprocess32": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "matplotlib"
+      ]
+    },
+    "terminado": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "testpath": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    },
+    "tornado": {
+      "num_descendants": 5,
+      "immediate_children": [
+        "distributed",
+        "ipykernel",
+        "matplotlib",
+        "notebook",
+        "terminado"
+      ]
+    },
+    "traitlets": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipykernel",
+        "ipython",
+        "notebook"
+      ]
+    },
+    "win_unicode_console": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipython"
+      ]
+    },
+    "xz": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "cmake",
+        "libarchive",
+        "libtiff",
+        "libxml2",
+        "python",
+        "qt",
+        "zstd"
+      ]
+    },
+    "zeromq": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "pyzmq"
+      ]
+    },
+    "zlib": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "cmake",
+        "curl",
+        "ffmpeg",
+        "freetype",
+        "git",
+        "hdf5",
+        "libarchive",
+        "libpng",
+        "libtiff",
+        "libxml2",
+        "matplotlib",
+        "opencv",
+        "pandoc",
+        "pkg-config",
+        "python",
+        "qt",
+        "tk",
+        "zstd"
+      ]
+    },
+    "zstd": {
+      "num_descendants": 4,
+      "immediate_children": [
+        "libarchive",
+        "libtiff"
+      ]
+    },
+    "libwebp": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "opencv"
+      ]
+    },
+    "bzip2": {
+      "num_descendants": 81,
+      "immediate_children": [
+        "cmake",
+        "ffmpeg",
+        "libarchive",
+        "python"
+      ]
+    },
+    "lz4": {
+      "num_descendants": 5,
+      "immediate_children": [
+        "zstd"
+      ]
+    },
+    "vc": {
+      "num_descendants": 4,
+      "immediate_children": [
+        "zeromq"
+      ]
+    },
+    "toolchain": {
+      "num_descendants": 83,
+      "immediate_children": [
+        "bzip2",
+        "cmake",
+        "curl",
+        "cython",
+        "cytoolz",
+        "hdf5",
+        "icu",
+        "libarchive",
+        "libedit",
+        "libtiff",
+        "libwebp",
+        "lz4",
+        "lz4-c",
+        "lzo",
+        "numpy",
+        "openblas",
+        "opencv",
+        "pyzmq",
+        "scipy",
+        "zeromq",
+        "zstd"
+      ]
+    },
+    "tk": {
+      "num_descendants": 80,
+      "immediate_children": [
+        "git",
+        "krb5",
+        "matplotlib",
+        "python"
+      ]
+    },
+    "blas": {
+      "num_descendants": 6,
+      "immediate_children": [
+        "numpy",
+        "opencv",
+        "scikit-learn",
+        "scipy"
+      ]
+    },
+    "libgfortran": {
+      "num_descendants": 9,
+      "immediate_children": [
+        "hdf5",
+        "openblas",
+        "scipy"
+      ]
+    },
+    "twisted": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "notebook"
+      ]
+    }
+  }
+}
