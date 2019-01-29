@@ -1,34 +1,35 @@
 {
   "done": [
     "toolchain",
-    "libgfortran",
     "msinttypes",
-    "jom",
-    "bison",
+    "libgfortran",
     "libedit",
+    "jom",
+    "vc",
+    "bison",
     "cmake",
     "xz",
     "libiconv",
-    "expat",
-    "vc"
+    "expat"
   ],
   "in-pr": [
     "autoconf",
     "automake",
     "libtool",
-    "krb5",
-    "curl",
     "tk",
-    "pkg-config",
+    "curl",
     "python",
-    "openssl"
+    "pkg-config",
+    "openssl",
+    "krb5"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "bzip2",
     "perl",
+    "bzip2",
     "zlib",
+    "pandoc",
     "ordereddict",
     "ninja",
     "lz4-c",
@@ -53,6 +54,9 @@
     "entrypoints",
     "pickleshare",
     "nose",
+    "pkgconfig",
+    "lz4",
+    "zstd",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -67,10 +71,10 @@
     "distributed",
     "appnope",
     "ipython",
-    "pkgconfig",
-    "lz4",
-    "zstd",
-    "pandoc",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook",
     "openblas",
     "blas",
     "numpy",
@@ -94,11 +98,7 @@
     "libarchive",
     "git",
     "eigen",
-    "opencv",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook"
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {

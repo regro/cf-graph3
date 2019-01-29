@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-29T13:58:02Z",
-    "updated_at": "2019-01-29T18:01:12Z",
+    "updated_at": "2019-01-29T21:21:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "046dcdadd7ebb767f081fdbf1a417ddfac0c5329",
+    "merge_commit_sha": "2dd9063772aa9bb57b43805d1b2b65be1e74149b",
     "assignee": {
         "login": "sergiopasra",
         "id": 890104,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/numina-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/numina-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/numina-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/numina-feedstock/statuses/6b39669ade9784db29e1a3ab01a6e9513b3a20e1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/numina-feedstock/statuses/d901979e85a9c1f4fc1e86813f7425e78e41591d",
     "head": {
         "label": "regro-cf-autotick-bot:0.19",
         "ref": "0.19",
-        "sha": "6b39669ade9784db29e1a3ab01a6e9513b3a20e1",
+        "sha": "d901979e85a9c1f4fc1e86813f7425e78e41591d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numina-feedstock/deployments",
             "created_at": "2018-05-15T04:20:15Z",
             "updated_at": "2018-05-15T04:20:17Z",
-            "pushed_at": "2019-01-29T18:01:11Z",
+            "pushed_at": "2019-01-29T21:21:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numina-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numina-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numina-feedstock.git",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numina-feedstock/deployments",
             "created_at": "2018-05-15T03:02:10Z",
             "updated_at": "2018-12-10T16:34:50Z",
-            "pushed_at": "2019-01-29T18:01:12Z",
+            "pushed_at": "2019-01-29T21:21:12Z",
             "git_url": "git://github.com/conda-forge/numina-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numina-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numina-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/numina-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/numina-feedstock/statuses/6b39669ade9784db29e1a3ab01a6e9513b3a20e1"
+            "href": "https://api.github.com/repos/conda-forge/numina-feedstock/statuses/d901979e85a9c1f4fc1e86813f7425e78e41591d"
         }
     },
     "author_association": "NONE",
@@ -372,8 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 408,
-    "deletions": 341,
-    "changed_files": 26
+    "commits": 4,
+    "additions": 409,
+    "deletions": 342,
+    "changed_files": 26,
+    "Last-Modified": "Tue, 29 Jan 2019 21:21:11 GMT",
+    "ETag": "W/\"43ff248d01655500e9c510e0eb617fbd\""
 }
