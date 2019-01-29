@@ -1,33 +1,32 @@
 {
   "done": [],
   "in-pr": [
-    "toolchain",
     "jom",
+    "libgfortran",
+    "bison",
     "autoconf",
     "automake",
     "libtool",
+    "toolchain",
     "libedit",
+    "vc",
     "msinttypes",
     "expat",
+    "cmake",
     "xz",
     "tk",
+    "curl",
     "python",
     "pkg-config",
     "openssl",
     "krb5",
     "libiconv"
   ],
-  "awaiting-pr": [
-    "libgfortran",
-    "vc",
-    "bison",
-    "cmake",
-    "curl"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "bzip2",
     "perl",
+    "bzip2",
     "zlib",
     "pandoc",
     "ordereddict",
@@ -75,29 +74,29 @@
     "pyzmq",
     "ipykernel",
     "notebook",
-    "lzo",
-    "libpng",
-    "libxml2",
-    "libarchive",
-    "git",
-    "jpeg",
-    "libtiff",
-    "libwebp",
-    "jasper",
-    "freetype",
-    "qt",
-    "pyqt",
-    "harfbuzz",
-    "ffmpeg",
-    "eigen",
     "openblas",
     "blas",
     "numpy",
     "scipy",
     "scikit-learn",
     "pandas",
-    "matplotlib",
+    "lzo",
+    "jpeg",
+    "libtiff",
+    "jasper",
     "hdf5",
+    "eigen",
+    "libpng",
+    "libwebp",
+    "libxml2",
+    "libarchive",
+    "git",
+    "freetype",
+    "qt",
+    "pyqt",
+    "matplotlib",
+    "harfbuzz",
+    "ffmpeg",
     "opencv"
   ],
   "_feedstock_status": {
@@ -141,7 +140,8 @@
       "immediate_children": [
         "krb5",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/bison-feedstock/pull/17"
     },
     "certifi": {
       "num_descendants": 47,
@@ -170,7 +170,8 @@
         "zeromq",
         "zlib",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/cmake-feedstock/pull/80"
     },
     "curl": {
       "num_descendants": 80,
@@ -182,7 +183,8 @@
         "opencv",
         "python",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/curl-feedstock/pull/44"
     },
     "cython": {
       "num_descendants": 13,
@@ -961,7 +963,8 @@
       "num_descendants": 4,
       "immediate_children": [
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/vc-feedstock/pull/9"
     },
     "toolchain": {
       "num_descendants": 83,
@@ -1015,7 +1018,8 @@
         "hdf5",
         "openblas",
         "scipy"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libgfortran-feedstock/pull/17"
     },
     "twisted": {
       "num_descendants": 1,
