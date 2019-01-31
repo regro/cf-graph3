@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/tslearn-feedstock/pull/18.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/tslearn-feedstock/issues/18",
     "number": 18,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "tslearn v0.1.22",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-15T10:15:52Z",
-    "updated_at": "2019-01-07T10:15:07Z",
-    "closed_at": null,
+    "updated_at": "2019-01-31T10:20:49Z",
+    "closed_at": "2019-01-31T10:20:49Z",
     "merged_at": null,
     "merge_commit_sha": "f75ef2716d725bc72312683f32c773ba3468e32e",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Thu, 31 Jan 2019 10:20:49 GMT",
+    "ETag": "W/\"40fb4b13d2a5a5a9efc36a89cf3177b2\""
 }
