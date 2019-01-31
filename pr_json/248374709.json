@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|sqlalchemy|1.2.17|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/sqlalchemy.svg)](https://anaconda.org/conda-forge/sqlalchemy)|\n",
     "created_at": "2019-01-29T04:53:48Z",
-    "updated_at": "2019-01-30T23:37:28Z",
+    "updated_at": "2019-01-31T10:29:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "64ff932ffa85301df442d251655bd1fc226d39ee",
+    "merge_commit_sha": "5f292119443d26b1bc1012a511f4262d99a80d1c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/44/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/issues/44/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/bc8aa1c89b20148af723d501a482a8f0a77e78e5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/2a319ae259e2e8be33adeb9e04a812ace1c7491b",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.6",
         "ref": "0.9.6",
-        "sha": "bc8aa1c89b20148af723d501a482a8f0a77e78e5",
+        "sha": "2a319ae259e2e8be33adeb9e04a812ace1c7491b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sunpy-feedstock/deployments",
             "created_at": "2018-07-26T21:12:32Z",
             "updated_at": "2018-07-26T21:12:34Z",
-            "pushed_at": "2019-01-30T23:37:28Z",
+            "pushed_at": "2019-01-31T10:29:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sunpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sunpy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/sunpy-feedstock",
             "homepage": null,
-            "size": 112,
+            "size": 124,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sunpy-feedstock/deployments",
             "created_at": "2016-05-17T13:47:50Z",
             "updated_at": "2019-01-22T11:18:08Z",
-            "pushed_at": "2019-01-30T23:37:29Z",
+            "pushed_at": "2019-01-31T10:29:21Z",
             "git_url": "git://github.com/conda-forge/sunpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sunpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sunpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/pulls/44/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/bc8aa1c89b20148af723d501a482a8f0a77e78e5"
+            "href": "https://api.github.com/repos/conda-forge/sunpy-feedstock/statuses/2a319ae259e2e8be33adeb9e04a812ace1c7491b"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 449,
-    "deletions": 337,
-    "changed_files": 29
+    "commits": 13,
+    "additions": 450,
+    "deletions": 355,
+    "changed_files": 29,
+    "Last-Modified": "Thu, 31 Jan 2019 10:29:20 GMT",
+    "ETag": "W/\"3756690c14cd94d26caf169081dd2934\""
 }
