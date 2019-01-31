@@ -1,18 +1,18 @@
 {
   "done": [
-    "libgfortran",
-    "bison",
+    "msinttypes",
     "jom",
+    "libgfortran",
     "toolchain",
     "libedit",
     "vc",
-    "msinttypes",
-    "expat",
+    "bison",
     "cmake",
     "xz",
     "pkg-config",
     "openssl",
-    "libiconv"
+    "libiconv",
+    "expat"
   ],
   "in-pr": [
     "autoconf",
@@ -84,8 +84,6 @@
     "lzo",
     "libpng",
     "libxml2",
-    "libarchive",
-    "git",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -97,6 +95,8 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
+    "libarchive",
+    "git",
     "eigen",
     "opencv"
   ],

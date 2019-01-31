@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-31T00:12:57Z",
-    "updated_at": "2019-01-31T01:43:55Z",
+    "updated_at": "2019-01-31T03:18:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "97bbe1bb79cbbf5eff728b358e2a8fc908cc5c64",
+    "merge_commit_sha": "d729878d9637f0a217c4a8fb94db1a942e1951cf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/statuses/4635ecf4496e6704a8b289ff1d74b02aeb9cf7a8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/statuses/ed879741fdf68c7f324386bc29bec183eed165a1",
     "head": {
         "label": "regro-cf-autotick-bot:0.3.3",
         "ref": "0.3.3",
-        "sha": "4635ecf4496e6704a8b289ff1d74b02aeb9cf7a8",
+        "sha": "ed879741fdf68c7f324386bc29bec183eed165a1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dsc-feedstock/deployments",
             "created_at": "2019-01-14T02:19:23Z",
             "updated_at": "2019-01-14T02:19:26Z",
-            "pushed_at": "2019-01-31T00:12:56Z",
+            "pushed_at": "2019-01-31T03:18:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dsc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dsc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dsc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dsc-feedstock/deployments",
             "created_at": "2018-12-07T18:50:13Z",
             "updated_at": "2019-01-14T02:20:33Z",
-            "pushed_at": "2019-01-31T00:12:58Z",
+            "pushed_at": "2019-01-31T03:18:11Z",
             "git_url": "git://github.com/conda-forge/dsc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dsc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dsc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dsc-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dsc-feedstock/statuses/4635ecf4496e6704a8b289ff1d74b02aeb9cf7a8"
+            "href": "https://api.github.com/repos/conda-forge/dsc-feedstock/statuses/ed879741fdf68c7f324386bc29bec183eed165a1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 4,
+    "deletions": 4,
+    "changed_files": 1,
+    "Last-Modified": "Thu, 31 Jan 2019 03:18:15 GMT",
+    "ETag": "W/\"2e2ccd20b4f5b186f700509c2e09191f\""
 }
