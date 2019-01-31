@@ -1,12 +1,12 @@
 {
   "done": [
-    "jom",
     "libgfortran",
+    "jom",
+    "bison",
+    "vc",
+    "msinttypes",
     "toolchain",
     "libedit",
-    "vc",
-    "bison",
-    "msinttypes",
     "cmake",
     "xz",
     "pkg-config",
@@ -18,10 +18,10 @@
     "autoconf",
     "automake",
     "libtool",
-    "krb5",
     "curl",
     "tk",
-    "python"
+    "python",
+    "krb5"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -92,13 +92,13 @@
     "freetype",
     "qt",
     "pyqt",
-    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {
