@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-01T05:13:58Z",
-    "updated_at": "2019-02-01T05:14:02Z",
+    "updated_at": "2019-02-01T17:40:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b2822ac923d949b273063c75a166a184b762ef9f",
+    "merge_commit_sha": "a03c53dc7a912e9c8f16fb35ec6e2c9727b1f40c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/3b42a396d5180dc2eed6b6760b47dead595046cc",
+    "statuses_url": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/e01c0609f6b0dc1939577f92eaaa2bace7b63cd1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "3b42a396d5180dc2eed6b6760b47dead595046cc",
+        "sha": "e01c0609f6b0dc1939577f92eaaa2bace7b63cd1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/octave-feedstock/deployments",
             "created_at": "2018-03-17T03:55:50Z",
             "updated_at": "2018-03-17T03:55:52Z",
-            "pushed_at": "2019-02-01T05:13:57Z",
+            "pushed_at": "2019-02-01T17:40:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/octave-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/octave-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/octave-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/octave-feedstock",
             "homepage": null,
-            "size": 39,
+            "size": 46,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/octave-feedstock/deployments",
             "created_at": "2017-06-08T17:31:16Z",
             "updated_at": "2018-08-04T18:38:24Z",
-            "pushed_at": "2019-02-01T05:13:59Z",
+            "pushed_at": "2019-02-01T17:40:54Z",
             "git_url": "git://github.com/conda-forge/octave-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/octave-feedstock.git",
             "clone_url": "https://github.com/conda-forge/octave-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/octave-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/3b42a396d5180dc2eed6b6760b47dead595046cc"
+            "href": "https://api.github.com/repos/conda-forge/octave-feedstock/statuses/e01c0609f6b0dc1939577f92eaaa2bace7b63cd1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 313,
-    "deletions": 37,
-    "changed_files": 15
+    "commits": 7,
+    "additions": 498,
+    "deletions": 97,
+    "changed_files": 16,
+    "Last-Modified": "Fri, 01 Feb 2019 17:40:54 GMT",
+    "ETag": "W/\"380956a4a461d57339028c25e139e365\""
 }
