@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T06:55:43Z",
-    "updated_at": "2019-01-29T06:55:46Z",
+    "updated_at": "2019-01-31T15:44:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "39dad600d049aa3bd4c861b096ee0a4c7b1bd673",
+    "merge_commit_sha": "d7809b721910d5cdb93334e16643da426cc9fc2b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/statuses/ba027a4ce89234a097a8d998b57822ece06fc782",
+    "statuses_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/statuses/9f0b08bcd383d239d72e25458a069c01f49479d8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild_arch",
         "ref": "rebuild_arch",
-        "sha": "ba027a4ce89234a097a8d998b57822ece06fc782",
+        "sha": "9f0b08bcd383d239d72e25458a069c01f49479d8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/krb5-feedstock/deployments",
             "created_at": "2018-04-02T20:58:19Z",
             "updated_at": "2018-04-02T20:58:21Z",
-            "pushed_at": "2019-01-29T06:55:42Z",
+            "pushed_at": "2019-01-31T15:43:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/krb5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/krb5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/krb5-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/krb5-feedstock",
             "homepage": null,
-            "size": 67,
+            "size": 68,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/krb5-feedstock/deployments",
             "created_at": "2016-06-13T13:02:51Z",
             "updated_at": "2019-01-07T22:25:08Z",
-            "pushed_at": "2019-01-29T06:55:43Z",
+            "pushed_at": "2019-01-31T15:43:10Z",
             "git_url": "git://github.com/conda-forge/krb5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/krb5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/krb5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/krb5-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/krb5-feedstock/statuses/ba027a4ce89234a097a8d998b57822ece06fc782"
+            "href": "https://api.github.com/repos/conda-forge/krb5-feedstock/statuses/9f0b08bcd383d239d72e25458a069c01f49479d8"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 135,
-    "deletions": 148,
-    "changed_files": 20
+    "commits": 3,
+    "additions": 152,
+    "deletions": 157,
+    "changed_files": 20,
+    "Last-Modified": "Thu, 31 Jan 2019 15:44:24 GMT",
+    "ETag": "W/\"25a793188bee859c241cf72dca6dab10\""
 }
