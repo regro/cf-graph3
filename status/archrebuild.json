@@ -1,12 +1,12 @@
 {
   "done": [
+    "msinttypes",
     "jom",
-    "vc",
-    "libgfortran",
     "toolchain",
     "libedit",
-    "msinttypes",
+    "libgfortran",
     "bison",
+    "vc",
     "cmake",
     "xz",
     "pkg-config",
@@ -18,16 +18,16 @@
     "autoconf",
     "automake",
     "libtool",
+    "krb5",
     "curl",
     "tk",
-    "python",
-    "krb5"
+    "python"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "perl",
     "bzip2",
+    "perl",
     "zlib",
     "ordereddict",
     "ninja",
@@ -92,13 +92,13 @@
     "freetype",
     "qt",
     "pyqt",
+    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "libarchive",
     "git",
     "eigen",
-    "opencv",
-    "matplotlib"
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
