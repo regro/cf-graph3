@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-13T19:11:37Z",
-    "updated_at": "2019-02-01T20:07:50Z",
+    "updated_at": "2019-02-01T20:59:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e8c899560950d8abb485173df1a821f75b088d6e",
+    "merge_commit_sha": "8e1e97c6ee78ceac07432e3b60f324d3efc9db86",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/statuses/58373adcc4274e39ffc2f4374b396e0b0e59e1be",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/statuses/56edcd7533ed6fbaaae430d22c6a62d55b115b2d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "58373adcc4274e39ffc2f4374b396e0b0e59e1be",
+        "sha": "56edcd7533ed6fbaaae430d22c6a62d55b115b2d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fltk-feedstock/deployments",
             "created_at": "2018-09-13T19:11:02Z",
             "updated_at": "2018-09-13T19:11:04Z",
-            "pushed_at": "2019-02-01T20:07:50Z",
+            "pushed_at": "2019-02-01T20:59:58Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fltk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fltk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fltk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/fltk-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fltk-feedstock/deployments",
             "created_at": "2018-09-10T06:10:16Z",
             "updated_at": "2018-09-10T06:13:26Z",
-            "pushed_at": "2019-02-01T20:07:51Z",
+            "pushed_at": "2019-02-01T20:59:59Z",
             "git_url": "git://github.com/conda-forge/fltk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fltk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fltk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fltk-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fltk-feedstock/statuses/58373adcc4274e39ffc2f4374b396e0b0e59e1be"
+            "href": "https://api.github.com/repos/conda-forge/fltk-feedstock/statuses/56edcd7533ed6fbaaae430d22c6a62d55b115b2d"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 382,
+    "commits": 9,
+    "additions": 404,
     "deletions": 42,
-    "changed_files": 18,
-    "Last-Modified": "Fri, 01 Feb 2019 20:07:50 GMT",
-    "ETag": "W/\"17b9f842c8b2a1eed0ab4dd536fe4eae\""
+    "changed_files": 19,
+    "Last-Modified": "Fri, 01 Feb 2019 20:59:58 GMT",
+    "ETag": "W/\"922ea2c38d4ac0bc605edb33454bea2c\""
 }
