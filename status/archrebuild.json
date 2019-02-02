@@ -1,14 +1,14 @@
 {
   "done": [
+    "jom",
+    "msinttypes",
+    "toolchain",
     "libgfortran",
     "vc",
-    "msinttypes",
-    "jom",
     "bison",
     "autoconf",
     "automake",
     "libtool",
-    "toolchain",
     "libedit",
     "krb5",
     "cmake",
@@ -26,8 +26,8 @@
   "awaiting-pr": [],
   "awaiting-parents": [
     "make",
-    "perl",
     "bzip2",
+    "perl",
     "zlib",
     "ordereddict",
     "ninja",
