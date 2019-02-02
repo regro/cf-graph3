@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|pip|19.0.1|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/pip.svg)](https://anaconda.org/conda-forge/pip)|\n",
     "created_at": "2019-01-25T19:24:39Z",
-    "updated_at": "2019-01-25T19:24:42Z",
+    "updated_at": "2019-02-02T18:15:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "82912dd9bcf7b8f735f9957eb87f117440c674c8",
+    "merge_commit_sha": "f82c814602ccc3ea2fa3947707c269d0b5ae72ec",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/statuses/a93ac97777f4ca50abd2329047b48dbcda8aa458",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/statuses/bde92364e9539599a5ff911ec7784651e0e77589",
     "head": {
         "label": "regro-cf-autotick-bot:5.5.1",
         "ref": "5.5.1",
-        "sha": "a93ac97777f4ca50abd2329047b48dbcda8aa458",
+        "sha": "bde92364e9539599a5ff911ec7784651e0e77589",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ftfy-feedstock/deployments",
             "created_at": "2018-03-01T14:28:57Z",
             "updated_at": "2018-03-01T14:28:59Z",
-            "pushed_at": "2019-01-25T19:24:39Z",
+            "pushed_at": "2019-02-02T18:15:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ftfy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ftfy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ftfy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/ftfy-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 44,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ftfy-feedstock/deployments",
             "created_at": "2017-04-25T00:13:21Z",
             "updated_at": "2019-01-10T15:18:12Z",
-            "pushed_at": "2019-01-25T19:24:40Z",
+            "pushed_at": "2019-02-02T18:15:23Z",
             "git_url": "git://github.com/conda-forge/ftfy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ftfy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ftfy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ftfy-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ftfy-feedstock/statuses/a93ac97777f4ca50abd2329047b48dbcda8aa458"
+            "href": "https://api.github.com/repos/conda-forge/ftfy-feedstock/statuses/bde92364e9539599a5ff911ec7784651e0e77589"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 362,
-    "deletions": 40,
-    "changed_files": 16
+    "commits": 6,
+    "additions": 370,
+    "deletions": 194,
+    "changed_files": 18,
+    "Last-Modified": "Sat, 02 Feb 2019 18:15:22 GMT",
+    "ETag": "W/\"164d79d994e9f497fccaf44f61a8d7d7\""
 }
