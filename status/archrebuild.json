@@ -1,18 +1,18 @@
 {
   "done": [
-    "msinttypes",
-    "vc",
-    "libgfortran",
     "jom",
+    "libgfortran",
     "bison",
     "toolchain",
     "libedit",
+    "msinttypes",
     "cmake",
     "xz",
     "pkg-config",
     "openssl",
     "libiconv",
-    "expat"
+    "expat",
+    "vc"
   ],
   "in-pr": [
     "autoconf",
@@ -71,10 +71,6 @@
     "lz4",
     "zstd",
     "pandoc",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook",
     "openblas",
     "blas",
     "numpy",
@@ -98,7 +94,11 @@
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook"
   ],
   "_feedstock_status": {
     "appnope": {
