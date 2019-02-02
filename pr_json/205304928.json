@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/r-sourcetools-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/r-sourcetools-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving posix from host to build\nRemoving {{native}}toolchain in favour of compiler()\nRemoving gcc in favour of compiler()\nAdding C compiler with mingw for windows\nAdding C++ compiler with mingw for windows\nAdding merge_build_host: True  # [win]\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-01T04:21:10Z",
-    "updated_at": "2018-09-05T15:20:23Z",
-    "closed_at": null,
+    "updated_at": "2019-02-02T20:15:59Z",
+    "closed_at": "2019-02-02T20:15:59Z",
     "merged_at": null,
     "merge_commit_sha": "5b4e9fade42d10f41b5d29b4333ec81b3e365d1b",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 215,
     "deletions": 141,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Sat, 02 Feb 2019 20:15:59 GMT",
+    "ETag": "W/\"a3309399d67e100c0170a0e096d46aa6\""
 }
