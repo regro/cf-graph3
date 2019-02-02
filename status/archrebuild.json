@@ -1,25 +1,25 @@
 {
   "done": [
+    "toolchain",
+    "msinttypes",
     "bison",
     "autoconf",
     "automake",
     "libtool",
-    "toolchain",
     "libedit",
+    "jom",
     "vc",
     "libgfortran",
-    "jom",
-    "msinttypes",
-    "krb5",
+    "curl",
     "cmake",
     "xz",
     "pkg-config",
     "openssl",
+    "krb5",
     "libiconv",
     "expat"
   ],
   "in-pr": [
-    "curl",
     "tk",
     "python"
   ],
@@ -92,13 +92,13 @@
     "freetype",
     "qt",
     "pyqt",
-    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {

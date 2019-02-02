@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/tetgen-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving `python # [win]` which was used for vc matrix\nRemoving toolchain in favour of compiler()\nMoving cmake from host to build\nRemoving vc in favour of compiler()\nRemoving vc features\nRemoving features section as it is empty\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T11:10:10Z",
-    "updated_at": "2018-07-26T14:19:54Z",
-    "closed_at": null,
+    "updated_at": "2019-02-02T18:56:21Z",
+    "closed_at": "2019-02-02T18:56:21Z",
     "merged_at": null,
     "merge_commit_sha": "dce6558b1f2f55fbdadc2fafbd3d52c3d54a3a82",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tetgen-feedstock/deployments",
             "created_at": "2018-03-17T22:46:56Z",
             "updated_at": "2018-03-17T22:46:58Z",
-            "pushed_at": "2019-01-01T20:12:53Z",
+            "pushed_at": "2019-02-02T18:55:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tetgen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tetgen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tetgen-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/deployments",
             "created_at": "2017-06-25T12:57:42Z",
             "updated_at": "2018-08-04T18:37:43Z",
-            "pushed_at": "2019-01-01T20:12:54Z",
+            "pushed_at": "2019-02-02T18:56:01Z",
             "git_url": "git://github.com/conda-forge/tetgen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tetgen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tetgen-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 3,
     "additions": 207,
     "deletions": 127,
-    "changed_files": 21
+    "changed_files": 21,
+    "Last-Modified": "Sat, 02 Feb 2019 18:56:21 GMT",
+    "ETag": "W/\"27fedb1a000f6e8113099779d17cecd5\""
 }

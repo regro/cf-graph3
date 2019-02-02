@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-02T17:12:24Z",
-    "updated_at": "2019-02-02T17:44:34Z",
+    "updated_at": "2019-02-02T18:25:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e4730204d405eb9fdefa346e7ed8bfd36b6ca20b",
+    "merge_commit_sha": "d1c307a92b5aa1b40f6615f7c072305cfeb63cc2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/statuses/2636a51df9a870a6c67230c0b63516730859402b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/statuses/fa8b471eaa2cead5c501b321eba125b759b73024",
     "head": {
         "label": "regro-cf-autotick-bot:2.32",
         "ref": "2.32",
-        "sha": "2636a51df9a870a6c67230c0b63516730859402b",
+        "sha": "fa8b471eaa2cead5c501b321eba125b759b73024",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/binutils-feedstock/deployments",
             "created_at": "2018-03-16T17:59:41Z",
             "updated_at": "2018-03-16T17:59:43Z",
-            "pushed_at": "2019-02-02T17:44:34Z",
+            "pushed_at": "2019-02-02T18:25:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/binutils-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/binutils-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/binutils-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/binutils-feedstock",
             "homepage": null,
-            "size": 22,
+            "size": 29,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/binutils-feedstock/deployments",
             "created_at": "2016-04-10T21:01:09Z",
             "updated_at": "2018-08-04T17:07:52Z",
-            "pushed_at": "2019-02-02T17:44:34Z",
+            "pushed_at": "2019-02-02T18:25:51Z",
             "git_url": "git://github.com/conda-forge/binutils-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/binutils-feedstock.git",
             "clone_url": "https://github.com/conda-forge/binutils-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/binutils-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/binutils-feedstock/statuses/2636a51df9a870a6c67230c0b63516730859402b"
+            "href": "https://api.github.com/repos/conda-forge/binutils-feedstock/statuses/fa8b471eaa2cead5c501b321eba125b759b73024"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 203,
+    "commits": 4,
+    "additions": 204,
     "deletions": 29,
     "changed_files": 12,
-    "Last-Modified": "Sat, 02 Feb 2019 17:44:34 GMT",
-    "ETag": "W/\"9454f2e8745fd95805089f6c8590663b\""
+    "Last-Modified": "Sat, 02 Feb 2019 18:25:50 GMT",
+    "ETag": "W/\"3c2df76440d54ccbea31816321fdea58\""
 }

@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/quandl-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/quandl-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "quandl v3.4.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-08-21T16:26:44Z",
-    "updated_at": "2018-08-21T16:26:48Z",
-    "closed_at": null,
+    "updated_at": "2019-02-02T18:40:27Z",
+    "closed_at": "2019-02-02T18:40:27Z",
     "merged_at": null,
     "merge_commit_sha": "2f8e40d3f8fa39436e7dca56c6b7d0452aa8cf41",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/quandl-feedstock/deployments",
             "created_at": "2018-07-05T23:06:44Z",
             "updated_at": "2018-07-05T23:06:47Z",
-            "pushed_at": "2018-10-25T14:19:47Z",
+            "pushed_at": "2019-02-02T18:40:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/quandl-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/quandl-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/quandl-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/quandl-feedstock/deployments",
             "created_at": "2018-02-17T00:14:36Z",
             "updated_at": "2018-10-14T16:37:46Z",
-            "pushed_at": "2018-10-25T14:19:48Z",
+            "pushed_at": "2019-02-02T18:40:54Z",
             "git_url": "git://github.com/conda-forge/quandl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/quandl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/quandl-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 4,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 107,
     "deletions": 33,
-    "changed_files": 17
+    "changed_files": 17,
+    "Last-Modified": "Sat, 02 Feb 2019 18:40:27 GMT",
+    "ETag": "W/\"df2f7d67530b6b097d0fb24f16c32ff1\""
 }
