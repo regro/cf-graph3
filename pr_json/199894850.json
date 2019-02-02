@@ -32,10 +32,10 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving gcc in favour of compiler()\nRemoving pinnings for openblas to use values from conda_build_config.yaml\nRemoving libgcc in favour of compiler()\nAdding C compiler\nAdding C++ compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-07T12:26:37Z",
-    "updated_at": "2018-07-26T14:18:35Z",
+    "updated_at": "2019-02-02T20:48:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7bcc8965282042f40e9af81db9634a7377d4b4a2",
+    "merge_commit_sha": "4479a37738ca200e6949817e90714b33e22110b0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -55,11 +55,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/statuses/fb1292e8e818123ddd09ecf448285cd9e346e68f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/statuses/abca7f244c35be08cf9e8576eb96ab06febe99a1",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "fb1292e8e818123ddd09ecf448285cd9e346e68f",
+        "sha": "abca7f244c35be08cf9e8576eb96ab06febe99a1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -148,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/kaldi-feedstock/deployments",
             "created_at": "2018-07-07T12:26:16Z",
             "updated_at": "2018-07-07T12:26:18Z",
-            "pushed_at": "2018-07-07T12:26:37Z",
+            "pushed_at": "2019-02-02T20:48:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/kaldi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/kaldi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/kaldi-feedstock.git",
@@ -272,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/kaldi-feedstock/deployments",
             "created_at": "2017-04-05T10:26:45Z",
             "updated_at": "2018-08-20T03:59:55Z",
-            "pushed_at": "2018-08-04T18:56:37Z",
+            "pushed_at": "2019-02-02T20:48:57Z",
             "git_url": "git://github.com/conda-forge/kaldi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/kaldi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/kaldi-feedstock.git",
@@ -327,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/kaldi-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/kaldi-feedstock/statuses/fb1292e8e818123ddd09ecf448285cd9e346e68f"
+            "href": "https://api.github.com/repos/conda-forge/kaldi-feedstock/statuses/abca7f244c35be08cf9e8576eb96ab06febe99a1"
         }
     },
     "author_association": "NONE",
@@ -338,13 +338,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 196,
-    "deletions": 91,
-    "changed_files": 17,
-    "Last-Modified": "Thu, 26 Jul 2018 14:18:34 GMT",
-    "ETag": "W/\"97a07e156ac3592b2db6ceaa77c0a7b4\""
+    "commits": 3,
+    "additions": 372,
+    "deletions": 95,
+    "changed_files": 21,
+    "Last-Modified": "Sat, 02 Feb 2019 20:48:56 GMT",
+    "ETag": "W/\"bbfe3d478f50bea14b93413c765c3607\""
 }

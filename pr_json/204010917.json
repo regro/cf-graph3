@@ -32,7 +32,7 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nMoving cmake from host to build\nRemoving toolchain in favour of compiler()\nMoving texlive-core from host to build\nMoving m4 from host to build\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n3. If this recipe has a `cython` dependency please note that only a `C` compiler has been added. If the project also needs a `C++` compiler please add it by adding `- { compiler('cxx') }` to the build section \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-26T02:18:59Z",
-    "updated_at": "2018-07-30T19:41:58Z",
+    "updated_at": "2019-02-02T18:52:53Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "59a10ef293a30224ae80748993d8b2fcf5226cd7",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/statuses/7c5d16b036a5717b911fe9ad2db1ab5dffeafe4b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/statuses/895fe9b635ae8f8dec19a3f455ad9a2f6c8cfa73",
     "head": {
         "label": "regro-cf-autotick-bot:compiler_migration2",
         "ref": "compiler_migration2",
-        "sha": "7c5d16b036a5717b911fe9ad2db1ab5dffeafe4b",
+        "sha": "895fe9b635ae8f8dec19a3f455ad9a2f6c8cfa73",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/doxygen-feedstock/deployments",
             "created_at": "2018-06-23T01:15:09Z",
             "updated_at": "2018-06-23T01:15:11Z",
-            "pushed_at": "2018-07-30T19:41:57Z",
+            "pushed_at": "2019-02-02T18:52:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/doxygen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/doxygen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/doxygen-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/doxygen-feedstock",
             "homepage": null,
-            "size": 47,
+            "size": 51,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/doxygen-feedstock/deployments",
             "created_at": "2017-01-05T10:01:07Z",
             "updated_at": "2018-08-04T18:44:18Z",
-            "pushed_at": "2018-08-04T18:44:16Z",
+            "pushed_at": "2019-02-02T18:52:51Z",
             "git_url": "git://github.com/conda-forge/doxygen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/doxygen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/doxygen-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/doxygen-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/doxygen-feedstock/statuses/7c5d16b036a5717b911fe9ad2db1ab5dffeafe4b"
+            "href": "https://api.github.com/repos/conda-forge/doxygen-feedstock/statuses/895fe9b635ae8f8dec19a3f455ad9a2f6c8cfa73"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 4,
+    "comments": 6,
     "review_comments": 4,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 201,
-    "deletions": 119,
-    "changed_files": 19
+    "commits": 9,
+    "additions": 589,
+    "deletions": 139,
+    "changed_files": 25,
+    "Last-Modified": "Sat, 02 Feb 2019 18:52:53 GMT",
+    "ETag": "W/\"2a7d3474b979c218470f358a52cbb2d8\""
 }

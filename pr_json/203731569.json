@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/libmagic-feedstock/pull/5.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/libmagic-feedstock/issues/5",
     "number": 5,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "libmagic v5.34",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-25T06:13:40Z",
-    "updated_at": "2018-07-25T06:13:43Z",
-    "closed_at": null,
+    "updated_at": "2019-02-02T20:14:08Z",
+    "closed_at": "2019-02-02T20:14:08Z",
     "merged_at": null,
     "merge_commit_sha": "2ffd78e19a0f77fc3767dad3a9f9fd357dd09f81",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libmagic-feedstock/deployments",
             "created_at": "2018-03-16T22:42:12Z",
             "updated_at": "2018-03-16T22:42:14Z",
-            "pushed_at": "2018-10-19T00:30:10Z",
+            "pushed_at": "2019-02-02T20:14:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libmagic-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libmagic-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libmagic-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libmagic-feedstock/deployments",
             "created_at": "2017-04-03T16:28:02Z",
             "updated_at": "2018-10-05T12:36:49Z",
-            "pushed_at": "2018-10-19T00:30:11Z",
+            "pushed_at": "2019-02-02T20:14:06Z",
             "git_url": "git://github.com/conda-forge/libmagic-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libmagic-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libmagic-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "changed_files": 1,
-    "Last-Modified": "Wed, 25 Jul 2018 06:13:43 GMT",
-    "ETag": "W/\"19032cec91abfc53054a6bcf466c426f\""
+    "Last-Modified": "Sat, 02 Feb 2019 20:14:08 GMT",
+    "ETag": "W/\"f2170d4bff843e97a1bef06f00256873\""
 }

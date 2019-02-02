@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/oslo.config-feedstock/pull/18.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/oslo.config-feedstock/issues/18",
     "number": 18,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "oslo.config v6.6.0",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T18:55:58Z",
-    "updated_at": "2018-10-09T18:56:02Z",
-    "closed_at": null,
+    "updated_at": "2019-02-02T19:31:28Z",
+    "closed_at": "2019-02-02T19:31:28Z",
     "merged_at": null,
     "merge_commit_sha": "4fcb6b975cc56e57f6c6ea035dee3f5d3d340f8a",
     "assignee": null,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/oslo.config-feedstock/deployments",
             "created_at": "2018-03-27T22:42:48Z",
             "updated_at": "2018-03-27T22:42:50Z",
-            "pushed_at": "2018-10-23T22:19:36Z",
+            "pushed_at": "2019-02-02T19:32:02Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/oslo.config-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/oslo.config-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/oslo.config-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/oslo.config-feedstock",
             "homepage": null,
-            "size": 55,
+            "size": 61,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/oslo.config-feedstock/deployments",
             "created_at": "2016-09-21T02:03:29Z",
             "updated_at": "2018-10-12T18:57:33Z",
-            "pushed_at": "2018-10-23T22:19:38Z",
+            "pushed_at": "2019-02-02T19:32:03Z",
             "git_url": "git://github.com/conda-forge/oslo.config-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/oslo.config-feedstock.git",
             "clone_url": "https://github.com/conda-forge/oslo.config-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 4,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 87,
     "deletions": 79,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Sat, 02 Feb 2019 19:31:28 GMT",
+    "ETag": "W/\"0979c75853bc5bbc51a22fd40f137ca4\""
 }

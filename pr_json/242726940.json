@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-07T17:23:04Z",
-    "updated_at": "2019-01-07T17:26:18Z",
+    "updated_at": "2019-02-02T19:23:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "147b3d0802ecc325c2c48fcbfd4a7449b733d017",
+    "merge_commit_sha": "1a5c289fc64c65743fe98e248c9edd21d282b17e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/statuses/f015d7d1372e1556a8b791b00973c9da06ede254",
+    "statuses_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/statuses/b6a4b3a2491d42246fedabeb10c0ba1b55c98767",
     "head": {
         "label": "regro-cf-autotick-bot:0.3.6",
         "ref": "0.3.6",
-        "sha": "f015d7d1372e1556a8b791b00973c9da06ede254",
+        "sha": "b6a4b3a2491d42246fedabeb10c0ba1b55c98767",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/alphalens-feedstock/deployments",
             "created_at": "2018-03-18T04:00:40Z",
             "updated_at": "2018-03-18T04:00:42Z",
-            "pushed_at": "2019-01-07T17:23:03Z",
+            "pushed_at": "2019-02-02T19:23:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/alphalens-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/alphalens-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/alphalens-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/alphalens-feedstock",
             "homepage": null,
-            "size": 23,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/alphalens-feedstock/deployments",
             "created_at": "2018-02-16T18:26:57Z",
             "updated_at": "2018-08-04T19:17:51Z",
-            "pushed_at": "2019-01-07T17:23:05Z",
+            "pushed_at": "2019-02-02T19:23:44Z",
             "git_url": "git://github.com/conda-forge/alphalens-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/alphalens-feedstock.git",
             "clone_url": "https://github.com/conda-forge/alphalens-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/alphalens-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/alphalens-feedstock/statuses/f015d7d1372e1556a8b791b00973c9da06ede254"
+            "href": "https://api.github.com/repos/conda-forge/alphalens-feedstock/statuses/b6a4b3a2491d42246fedabeb10c0ba1b55c98767"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 176,
-    "deletions": 26,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 203,
+    "deletions": 29,
+    "changed_files": 12,
+    "Last-Modified": "Sat, 02 Feb 2019 19:23:44 GMT",
+    "ETag": "W/\"1d84cbd504049647ca4706d90b5e1f4a\""
 }
