@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-04T21:18:41Z",
-    "updated_at": "2019-02-02T19:18:19Z",
+    "updated_at": "2019-02-03T00:37:46Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ff9c9113f85d9392b8c4427c9f9f4ceb5a8281d9",
+    "merge_commit_sha": "5bdf3d121c03f81822932b8507eea61e3e6e64b8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/statuses/37e8ba3ec5b442dc5f517b7264afedfedbc38cae",
+    "statuses_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/statuses/e34a6f7bf98dbb4f8be1137547a42acd30000769",
     "head": {
         "label": "regro-cf-autotick-bot:8.0.2",
         "ref": "8.0.2",
-        "sha": "37e8ba3ec5b442dc5f517b7264afedfedbc38cae",
+        "sha": "e34a6f7bf98dbb4f8be1137547a42acd30000769",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/bdw-gc-feedstock/deployments",
             "created_at": "2018-02-24T01:54:52Z",
             "updated_at": "2018-02-24T01:54:53Z",
-            "pushed_at": "2019-02-02T19:18:19Z",
+            "pushed_at": "2019-02-03T00:37:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/bdw-gc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/bdw-gc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/bdw-gc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/deployments",
             "created_at": "2016-03-31T17:30:22Z",
             "updated_at": "2018-11-14T08:55:06Z",
-            "pushed_at": "2019-02-02T19:18:20Z",
+            "pushed_at": "2019-02-03T00:37:47Z",
             "git_url": "git://github.com/conda-forge/bdw-gc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/bdw-gc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/bdw-gc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/statuses/37e8ba3ec5b442dc5f517b7264afedfedbc38cae"
+            "href": "https://api.github.com/repos/conda-forge/bdw-gc-feedstock/statuses/e34a6f7bf98dbb4f8be1137547a42acd30000769"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 280,
-    "deletions": 103,
+    "commits": 4,
+    "additions": 281,
+    "deletions": 104,
     "changed_files": 17,
-    "Last-Modified": "Sat, 02 Feb 2019 19:18:19 GMT",
-    "ETag": "W/\"29500273706b1706aba0390d88711646\""
+    "Last-Modified": "Sun, 03 Feb 2019 00:37:46 GMT",
+    "ETag": "W/\"3e14a841f87e866a41de2552f0249e13\""
 }
