@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T05:55:12Z",
-    "updated_at": "2019-02-03T04:53:02Z",
+    "updated_at": "2019-02-03T06:40:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a02b7c565434e351a90b2f956b4afebecd2de5e1",
+    "merge_commit_sha": "6379a41e51eb1279ccdc44952986d15cbd6e7c7d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/32/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/issues/32/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/a455e17b732fb8b998f369c9a6e53585211ca988",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/3c00aa155f83736c8dbe9058f1c692531e16e267",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a455e17b732fb8b998f369c9a6e53585211ca988",
+        "sha": "3c00aa155f83736c8dbe9058f1c692531e16e267",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tk-feedstock/deployments",
             "created_at": "2018-09-17T22:14:38Z",
             "updated_at": "2018-09-17T22:14:40Z",
-            "pushed_at": "2019-02-03T04:53:02Z",
+            "pushed_at": "2019-02-03T06:40:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tk-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tk-feedstock",
             "homepage": null,
-            "size": 66,
+            "size": 72,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tk-feedstock/deployments",
             "created_at": "2016-05-18T06:43:27Z",
             "updated_at": "2018-11-15T22:26:22Z",
-            "pushed_at": "2019-02-03T04:53:03Z",
+            "pushed_at": "2019-02-03T06:40:48Z",
             "git_url": "git://github.com/conda-forge/tk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tk-feedstock/pulls/32/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/a455e17b732fb8b998f369c9a6e53585211ca988"
+            "href": "https://api.github.com/repos/conda-forge/tk-feedstock/statuses/3c00aa155f83736c8dbe9058f1c692531e16e267"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 444,
-    "deletions": 127,
-    "changed_files": 23
+    "commits": 9,
+    "additions": 458,
+    "deletions": 128,
+    "changed_files": 23,
+    "Last-Modified": "Sun, 03 Feb 2019 06:40:47 GMT",
+    "ETag": "W/\"2acfbd56adbe184c75caba03317f8bde\""
 }
