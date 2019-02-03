@@ -1,14 +1,14 @@
 {
   "done": [
-    "msinttypes",
-    "libgfortran",
-    "vc",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
+    "vc",
     "jom",
+    "msinttypes",
+    "expat",
     "cmake",
     "xz",
     "curl",
@@ -16,7 +16,7 @@
     "openssl",
     "krb5",
     "libiconv",
-    "expat"
+    "libgfortran"
   ],
   "in-pr": [
     "tk",
@@ -77,27 +77,27 @@
     "lzo",
     "libpng",
     "libxml2",
+    "libarchive",
+    "git",
     "jpeg",
     "libtiff",
     "libwebp",
     "jasper",
-    "hdf5",
     "freetype",
     "qt",
+    "pyqt",
     "harfbuzz",
     "ffmpeg",
-    "git",
     "eigen",
-    "libarchive",
-    "pyqt",
     "openblas",
     "blas",
     "numpy",
     "scipy",
     "scikit-learn",
     "pandas",
-    "opencv",
-    "matplotlib"
+    "matplotlib",
+    "hdf5",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
