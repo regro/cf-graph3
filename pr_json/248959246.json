@@ -32,12 +32,52 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-30T17:15:39Z",
-    "updated_at": "2019-01-30T17:16:15Z",
+    "updated_at": "2019-02-03T00:58:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "41aa8557a253f608a0670a93f3b38b59b918bcb3",
-    "assignee": null,
-    "assignees": [],
+    "merge_commit_sha": "261b8039a1716b5dda9d0ab5aa00d6275c522bc4",
+    "assignee": {
+        "login": "notestaff",
+        "id": 1517155,
+        "node_id": "MDQ6VXNlcjE1MTcxNTU=",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/1517155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/notestaff",
+        "html_url": "https://github.com/notestaff",
+        "followers_url": "https://api.github.com/users/notestaff/followers",
+        "following_url": "https://api.github.com/users/notestaff/following{/other_user}",
+        "gists_url": "https://api.github.com/users/notestaff/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/notestaff/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/notestaff/subscriptions",
+        "organizations_url": "https://api.github.com/users/notestaff/orgs",
+        "repos_url": "https://api.github.com/users/notestaff/repos",
+        "events_url": "https://api.github.com/users/notestaff/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/notestaff/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "notestaff",
+            "id": 1517155,
+            "node_id": "MDQ6VXNlcjE1MTcxNTU=",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/1517155?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/notestaff",
+            "html_url": "https://github.com/notestaff",
+            "followers_url": "https://api.github.com/users/notestaff/followers",
+            "following_url": "https://api.github.com/users/notestaff/following{/other_user}",
+            "gists_url": "https://api.github.com/users/notestaff/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/notestaff/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/notestaff/subscriptions",
+            "organizations_url": "https://api.github.com/users/notestaff/orgs",
+            "repos_url": "https://api.github.com/users/notestaff/repos",
+            "events_url": "https://api.github.com/users/notestaff/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/notestaff/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
@@ -46,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fs-feedstock/pulls/25/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fs-feedstock/issues/25/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fs-feedstock/statuses/d4bd83717544ca70733b1fc6055f766046bc6a04",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fs-feedstock/statuses/190a71f88ea1ec23fc984a7f4bdae4732be99709",
     "head": {
         "label": "regro-cf-autotick-bot:2.3.0",
         "ref": "2.3.0",
-        "sha": "d4bd83717544ca70733b1fc6055f766046bc6a04",
+        "sha": "190a71f88ea1ec23fc984a7f4bdae4732be99709",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +179,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fs-feedstock/deployments",
             "created_at": "2018-03-11T21:54:10Z",
             "updated_at": "2018-03-11T21:54:11Z",
-            "pushed_at": "2019-01-30T17:15:38Z",
+            "pushed_at": "2019-02-03T00:57:58Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fs-feedstock.git",
@@ -263,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fs-feedstock/deployments",
             "created_at": "2017-09-27T15:52:38Z",
             "updated_at": "2019-01-26T21:21:00Z",
-            "pushed_at": "2019-01-30T17:15:39Z",
+            "pushed_at": "2019-02-03T00:57:59Z",
             "git_url": "git://github.com/conda-forge/fs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fs-feedstock.git",
@@ -318,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/fs-feedstock/pulls/25/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fs-feedstock/statuses/d4bd83717544ca70733b1fc6055f766046bc6a04"
+            "href": "https://api.github.com/repos/conda-forge/fs-feedstock/statuses/190a71f88ea1ec23fc984a7f4bdae4732be99709"
         }
     },
     "author_association": "NONE",
@@ -332,8 +372,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 389,
+    "commits": 3,
+    "additions": 397,
     "deletions": 63,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Sun, 03 Feb 2019 00:58:30 GMT",
+    "ETag": "W/\"9359e7a1ba0665a75dd3298a11430d98\""
 }
