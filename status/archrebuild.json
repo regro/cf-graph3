@@ -7,7 +7,6 @@
     "automake",
     "libtool",
     "libedit",
-    "vc",
     "msinttypes",
     "expat",
     "cmake",
@@ -16,7 +15,8 @@
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv"
+    "libiconv",
+    "vc"
   ],
   "in-pr": [
     "tk",
@@ -70,10 +70,6 @@
     "distributed",
     "appnope",
     "ipython",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook",
     "openblas",
     "blas",
     "numpy",
@@ -97,7 +93,11 @@
     "harfbuzz",
     "ffmpeg",
     "eigen",
-    "opencv"
+    "opencv",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook"
   ],
   "_feedstock_status": {
     "appnope": {
