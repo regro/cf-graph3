@@ -1,14 +1,14 @@
 {
   "done": [
-    "jom",
-    "libgfortran",
     "msinttypes",
-    "vc",
+    "jom",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
+    "vc",
+    "libgfortran",
     "krb5",
     "curl",
     "cmake",
@@ -23,12 +23,13 @@
     "python"
   ],
   "awaiting-pr": [
-    "make",
-    "zlib"
-  ],
-  "awaiting-parents": [
     "bzip2",
     "perl",
+    "pandoc"
+  ],
+  "awaiting-parents": [
+    "make",
+    "zlib",
     "ordereddict",
     "ninja",
     "lz4-c",
@@ -70,7 +71,6 @@
     "pkgconfig",
     "lz4",
     "zstd",
-    "pandoc",
     "zeromq",
     "pyzmq",
     "ipykernel",
@@ -83,6 +83,7 @@
     "pandas",
     "lzo",
     "libpng",
+    "libxml2",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -94,11 +95,10 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
-    "eigen",
+    "libarchive",
     "git",
-    "opencv",
-    "libxml2",
-    "libarchive"
+    "eigen",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
