@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T13:15:29Z",
-    "updated_at": "2018-11-25T13:15:32Z",
+    "updated_at": "2019-02-04T04:22:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e37b6822278d31b89fe51e3bf9c60b75a77e52f1",
+    "merge_commit_sha": "fb6ca74749e23d9241b720224837e689719e5a29",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/statuses/78ef734621d633027ef6414d95c983fc3c42ef97",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/statuses/2cbf973afd1452635520ae02f07c715b504d83a6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "78ef734621d633027ef6414d95c983fc3c42ef97",
+        "sha": "2cbf973afd1452635520ae02f07c715b504d83a6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libsemigroups-python-bindings-feedstock/deployments",
             "created_at": "2018-06-24T05:16:33Z",
             "updated_at": "2018-06-24T05:16:35Z",
-            "pushed_at": "2018-11-25T13:15:29Z",
+            "pushed_at": "2019-02-04T04:21:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libsemigroups-python-bindings-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libsemigroups-python-bindings-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libsemigroups-python-bindings-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/libsemigroups-python-bindings-feedstock",
             "homepage": null,
-            "size": 23,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/deployments",
             "created_at": "2017-04-22T02:24:04Z",
             "updated_at": "2018-08-04T18:56:52Z",
-            "pushed_at": "2018-11-25T13:15:30Z",
+            "pushed_at": "2019-02-04T04:21:57Z",
             "git_url": "git://github.com/conda-forge/libsemigroups-python-bindings-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libsemigroups-python-bindings-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libsemigroups-python-bindings-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/statuses/78ef734621d633027ef6414d95c983fc3c42ef97"
+            "href": "https://api.github.com/repos/conda-forge/libsemigroups-python-bindings-feedstock/statuses/2cbf973afd1452635520ae02f07c715b504d83a6"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 383,
-    "deletions": 137,
-    "changed_files": 24
+    "commits": 4,
+    "additions": 627,
+    "deletions": 142,
+    "changed_files": 29,
+    "Last-Modified": "Mon, 04 Feb 2019 04:22:01 GMT",
+    "ETag": "W/\"4d187bba201e9240d8fa1a0044188036\""
 }
