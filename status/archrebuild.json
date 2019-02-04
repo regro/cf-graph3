@@ -1,13 +1,12 @@
 {
   "done": [
-    "libgfortran",
     "msinttypes",
-    "vc",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
+    "vc",
     "jom",
     "cmake",
     "xz",
@@ -16,7 +15,8 @@
     "openssl",
     "krb5",
     "libiconv",
-    "expat"
+    "expat",
+    "libgfortran"
   ],
   "in-pr": [
     "tk",
@@ -26,7 +26,6 @@
   "awaiting-parents": [
     "make",
     "perl",
-    "su-exec",
     "bzip2",
     "zlib",
     "pandoc",
@@ -83,7 +82,6 @@
     "libtiff",
     "libwebp",
     "jasper",
-    "hdf5",
     "freetype",
     "qt",
     "harfbuzz",
@@ -92,14 +90,16 @@
     "eigen",
     "libarchive",
     "pyqt",
+    "su-exec",
     "openblas",
     "blas",
     "numpy",
     "scipy",
     "scikit-learn",
     "pandas",
-    "opencv",
-    "matplotlib"
+    "matplotlib",
+    "hdf5",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
