@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-19T21:14:46Z",
-    "updated_at": "2018-12-21T22:33:34Z",
+    "updated_at": "2019-02-04T03:27:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e991f2c589ebd2c8cff5011a5a8ee1f5ef2844c0",
+    "merge_commit_sha": "a447018f5fc8dfb5ff9d8e6f12b60f2862147da7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/statuses/f6d31499e7bbf933a60f1517b635b8e52d90039e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/statuses/62394ecb178ca18736887f0483b6ce954be1f201",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "f6d31499e7bbf933a60f1517b635b8e52d90039e",
+        "sha": "62394ecb178ca18736887f0483b6ce954be1f201",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/swi-prolog-feedstock/deployments",
             "created_at": "2018-12-19T21:14:32Z",
             "updated_at": "2018-12-19T21:14:34Z",
-            "pushed_at": "2018-12-19T21:14:46Z",
+            "pushed_at": "2019-02-04T03:27:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/swi-prolog-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/swi-prolog-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/swi-prolog-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/deployments",
             "created_at": "2018-05-31T15:38:22Z",
             "updated_at": "2018-08-04T19:20:06Z",
-            "pushed_at": "2018-12-19T21:14:47Z",
+            "pushed_at": "2019-02-04T03:27:17Z",
             "git_url": "git://github.com/conda-forge/swi-prolog-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/swi-prolog-feedstock.git",
             "clone_url": "https://github.com/conda-forge/swi-prolog-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/statuses/f6d31499e7bbf933a60f1517b635b8e52d90039e"
+            "href": "https://api.github.com/repos/conda-forge/swi-prolog-feedstock/statuses/62394ecb178ca18736887f0483b6ce954be1f201"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 267,
-    "deletions": 53,
-    "changed_files": 15,
-    "Last-Modified": "Fri, 21 Dec 2018 22:33:34 GMT",
-    "ETag": "W/\"4f16dc6aab29e1da3d45b38853c1271f\""
+    "commits": 3,
+    "additions": 208,
+    "deletions": 35,
+    "changed_files": 13,
+    "Last-Modified": "Mon, 04 Feb 2019 03:27:16 GMT",
+    "ETag": "W/\"99c8c701a57e230b2e4d6bd919cac4a3\""
 }

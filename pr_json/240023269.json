@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-20T01:15:03Z",
-    "updated_at": "2018-12-21T22:23:40Z",
+    "updated_at": "2019-02-04T04:10:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7ae9c8d458284fc192277aa5e783ef6ba7605b97",
+    "merge_commit_sha": "b1878b9f65d1c44208d1a3d19efbc6eb11a4d283",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/statuses/1d80edb2efbb1fd5679b90a3f187995c6ea0e824",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/statuses/4acdb2c25ef26ee01ad67a9bde77fd856be6ae22",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1d80edb2efbb1fd5679b90a3f187995c6ea0e824",
+        "sha": "4acdb2c25ef26ee01ad67a9bde77fd856be6ae22",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fmipp-feedstock/deployments",
             "created_at": "2018-12-20T01:14:47Z",
             "updated_at": "2018-12-20T01:14:49Z",
-            "pushed_at": "2018-12-21T22:23:40Z",
+            "pushed_at": "2019-02-04T03:45:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fmipp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fmipp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fmipp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fmipp-feedstock/deployments",
             "created_at": "2016-11-04T17:13:55Z",
             "updated_at": "2018-08-04T17:38:32Z",
-            "pushed_at": "2018-12-21T22:23:41Z",
+            "pushed_at": "2019-02-04T03:45:10Z",
             "git_url": "git://github.com/conda-forge/fmipp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fmipp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fmipp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/fmipp-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fmipp-feedstock/statuses/1d80edb2efbb1fd5679b90a3f187995c6ea0e824"
+            "href": "https://api.github.com/repos/conda-forge/fmipp-feedstock/statuses/4acdb2c25ef26ee01ad67a9bde77fd856be6ae22"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 1033,
-    "deletions": 156,
-    "changed_files": 38
+    "commits": 5,
+    "additions": 791,
+    "deletions": 165,
+    "changed_files": 32,
+    "Last-Modified": "Mon, 04 Feb 2019 04:10:05 GMT",
+    "ETag": "W/\"55dce2474af68aa3bc6e1e7e91a2a1a4\""
 }
