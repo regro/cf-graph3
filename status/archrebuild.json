@@ -1,14 +1,14 @@
 {
   "done": [
     "vc",
-    "jom",
     "msinttypes",
+    "libgfortran",
+    "jom",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
-    "libgfortran",
     "krb5",
     "curl",
     "cmake",
@@ -27,7 +27,6 @@
     "make",
     "bzip2",
     "perl",
-    "su-exec",
     "zlib",
     "ordereddict",
     "ninja",
@@ -99,7 +98,8 @@
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "su-exec"
   ],
   "_feedstock_status": {
     "appnope": {
