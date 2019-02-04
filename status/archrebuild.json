@@ -1,6 +1,8 @@
 {
   "done": [
+    "libgfortran",
     "jom",
+    "vc",
     "bison",
     "autoconf",
     "automake",
@@ -14,9 +16,7 @@
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv",
-    "libgfortran",
-    "vc"
+    "libiconv"
   ],
   "in-pr": [
     "tk",
@@ -71,7 +71,17 @@
     "distributed",
     "appnope",
     "ipython",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook",
     "tini",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
     "lzo",
     "libpng",
     "libxml2",
@@ -81,25 +91,15 @@
     "libtiff",
     "libwebp",
     "jasper",
+    "hdf5",
     "freetype",
     "qt",
     "pyqt",
+    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "eigen",
-    "openblas",
-    "blas",
-    "numpy",
-    "scipy",
-    "scikit-learn",
-    "pandas",
-    "matplotlib",
-    "hdf5",
-    "opencv",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook"
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
