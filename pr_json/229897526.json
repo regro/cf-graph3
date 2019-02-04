@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-10T16:17:07Z",
-    "updated_at": "2019-02-04T04:51:16Z",
+    "updated_at": "2019-02-04T14:44:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f4028a5f9a3093cd6a47989360b3df9c5d72ff6a",
+    "merge_commit_sha": "58fc29626efa801ed912a2c33e848cf125f04b26",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/statuses/a9fc90bdcf65cfc1e5f25a306ff95a8735c9b204",
+    "statuses_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/statuses/43bb04fe88e264bd64bb0f57a1e7de12851ca221",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a9fc90bdcf65cfc1e5f25a306ff95a8735c9b204",
+        "sha": "43bb04fe88e264bd64bb0f57a1e7de12851ca221",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/aiopeewee-feedstock/deployments",
             "created_at": "2018-11-10T16:16:52Z",
             "updated_at": "2018-11-10T16:16:55Z",
-            "pushed_at": "2019-02-04T04:51:15Z",
+            "pushed_at": "2019-02-04T14:13:40Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/aiopeewee-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/aiopeewee-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/aiopeewee-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/aiopeewee-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/deployments",
             "created_at": "2017-10-24T16:21:05Z",
             "updated_at": "2018-08-04T18:21:51Z",
-            "pushed_at": "2019-02-04T04:51:16Z",
+            "pushed_at": "2019-02-04T14:13:42Z",
             "git_url": "git://github.com/conda-forge/aiopeewee-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/aiopeewee-feedstock.git",
             "clone_url": "https://github.com/conda-forge/aiopeewee-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/statuses/a9fc90bdcf65cfc1e5f25a306ff95a8735c9b204"
+            "href": "https://api.github.com/repos/conda-forge/aiopeewee-feedstock/statuses/43bb04fe88e264bd64bb0f57a1e7de12851ca221"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 666,
-    "deletions": 131,
-    "changed_files": 29
+    "commits": 6,
+    "additions": 540,
+    "deletions": 231,
+    "changed_files": 24,
+    "Last-Modified": "Mon, 04 Feb 2019 14:44:29 GMT",
+    "ETag": "W/\"0768efa3ae757edf91a9a4630bf509b2\""
 }
