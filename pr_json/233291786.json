@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-24T00:14:53Z",
-    "updated_at": "2018-11-24T00:14:57Z",
+    "updated_at": "2019-02-04T04:40:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "07b102bc05324548a4bde38110d31a002b22a5f4",
+    "merge_commit_sha": "b3b43c922b98f82f0e50099df21e518b3b79fe71",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/statuses/a86392a5c4fa277985325b87e4062dab67220059",
+    "statuses_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/statuses/36f2098e521ffad88d913c41194abfd2747167c3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "a86392a5c4fa277985325b87e4062dab67220059",
+        "sha": "36f2098e521ffad88d913c41194abfd2747167c3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/veusz-feedstock/deployments",
             "created_at": "2018-11-24T00:14:38Z",
             "updated_at": "2018-11-24T00:14:41Z",
-            "pushed_at": "2018-11-24T00:14:53Z",
+            "pushed_at": "2019-02-04T04:40:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/veusz-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/veusz-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/veusz-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/veusz-feedstock",
             "homepage": null,
-            "size": 18,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/veusz-feedstock/deployments",
             "created_at": "2018-09-11T12:18:50Z",
             "updated_at": "2018-09-20T16:50:13Z",
-            "pushed_at": "2018-11-24T00:14:54Z",
+            "pushed_at": "2019-02-04T04:40:39Z",
             "git_url": "git://github.com/conda-forge/veusz-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/veusz-feedstock.git",
             "clone_url": "https://github.com/conda-forge/veusz-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/veusz-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/veusz-feedstock/statuses/a86392a5c4fa277985325b87e4062dab67220059"
+            "href": "https://api.github.com/repos/conda-forge/veusz-feedstock/statuses/36f2098e521ffad88d913c41194abfd2747167c3"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 357,
-    "deletions": 23,
-    "changed_files": 18
+    "commits": 3,
+    "additions": 418,
+    "deletions": 62,
+    "changed_files": 22,
+    "Last-Modified": "Mon, 04 Feb 2019 04:40:39 GMT",
+    "ETag": "W/\"e897496d7fae86b5c1c58a674591d88a\""
 }

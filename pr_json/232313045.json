@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nlibradolan\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-20T13:16:12Z",
-    "updated_at": "2018-11-20T13:16:15Z",
+    "updated_at": "2019-02-04T05:02:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2d71c1c123b54787eda11badc4dcaf346f1eabc4",
+    "merge_commit_sha": "8eb29a912ebe9aa28a5506cdb40d38a6c19ef4ab",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/statuses/7bbf99b262b8c428a77b4405f0b2e294a5d0fb7f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/statuses/4e98ce7a0d22b111c0c2e7377ad5d270b6edeaf9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "7bbf99b262b8c428a77b4405f0b2e294a5d0fb7f",
+        "sha": "4e98ce7a0d22b111c0c2e7377ad5d270b6edeaf9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/netcdf-cxx4-feedstock/deployments",
             "created_at": "2018-06-25T04:07:46Z",
             "updated_at": "2018-06-25T04:07:48Z",
-            "pushed_at": "2018-11-20T13:16:11Z",
+            "pushed_at": "2019-02-04T05:02:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/netcdf-cxx4-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/netcdf-cxx4-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/netcdf-cxx4-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/netcdf-cxx4-feedstock",
             "homepage": null,
-            "size": 43,
+            "size": 50,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/deployments",
             "created_at": "2016-03-31T11:02:42Z",
             "updated_at": "2018-09-03T22:50:33Z",
-            "pushed_at": "2018-11-20T13:16:13Z",
+            "pushed_at": "2019-02-04T05:02:34Z",
             "git_url": "git://github.com/conda-forge/netcdf-cxx4-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/netcdf-cxx4-feedstock.git",
             "clone_url": "https://github.com/conda-forge/netcdf-cxx4-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/statuses/7bbf99b262b8c428a77b4405f0b2e294a5d0fb7f"
+            "href": "https://api.github.com/repos/conda-forge/netcdf-cxx4-feedstock/statuses/4e98ce7a0d22b111c0c2e7377ad5d270b6edeaf9"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 108,
-    "deletions": 17,
-    "changed_files": 9
+    "commits": 4,
+    "additions": 279,
+    "deletions": 43,
+    "changed_files": 16,
+    "Last-Modified": "Mon, 04 Feb 2019 05:02:33 GMT",
+    "ETag": "W/\"f60445dec0f669e97dc362bde569e10e\""
 }
