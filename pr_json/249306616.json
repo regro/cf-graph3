@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|autovizwidget|0.12.7|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/autovizwidget.svg)](https://anaconda.org/conda-forge/autovizwidget)|\n|hdijupyterutils|0.12.7|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/hdijupyterutils.svg)](https://anaconda.org/conda-forge/hdijupyterutils)|\n",
     "created_at": "2019-01-31T16:14:58Z",
-    "updated_at": "2019-01-31T16:15:06Z",
+    "updated_at": "2019-02-04T17:11:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c7465dcbe025ee518f6e93f7fc31f2ce0d5427cd",
+    "merge_commit_sha": "35937551ee4bbf1c550f487193b74fe499f5932b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/statuses/da3f0521547199438af926527693722552a5e217",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/statuses/465457bf30183381ff1692539da0e33f0694b8cc",
     "head": {
         "label": "regro-cf-autotick-bot:0.12.7",
         "ref": "0.12.7",
-        "sha": "da3f0521547199438af926527693722552a5e217",
+        "sha": "465457bf30183381ff1692539da0e33f0694b8cc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sparkmagic-feedstock/deployments",
             "created_at": "2018-03-05T21:46:51Z",
             "updated_at": "2018-03-05T21:46:53Z",
-            "pushed_at": "2019-01-31T16:14:58Z",
+            "pushed_at": "2019-02-04T17:11:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sparkmagic-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sparkmagic-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sparkmagic-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/sparkmagic-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/deployments",
             "created_at": "2017-08-01T16:04:08Z",
             "updated_at": "2018-12-12T09:58:11Z",
-            "pushed_at": "2019-01-31T16:14:59Z",
+            "pushed_at": "2019-02-04T17:11:37Z",
             "git_url": "git://github.com/conda-forge/sparkmagic-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sparkmagic-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sparkmagic-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/statuses/da3f0521547199438af926527693722552a5e217"
+            "href": "https://api.github.com/repos/conda-forge/sparkmagic-feedstock/statuses/465457bf30183381ff1692539da0e33f0694b8cc"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 283,
-    "deletions": 53,
-    "changed_files": 18
+    "commits": 4,
+    "additions": 285,
+    "deletions": 54,
+    "changed_files": 18,
+    "Last-Modified": "Mon, 04 Feb 2019 17:11:36 GMT",
+    "ETag": "W/\"b1f30d390c1313ce506e301ed5293dfb\""
 }
