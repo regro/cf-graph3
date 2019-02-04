@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-25T13:15:19Z",
-    "updated_at": "2018-11-25T13:15:22Z",
+    "updated_at": "2019-02-04T04:23:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "88f7922aa367ad4a9fc0766f6110316c427cf008",
+    "merge_commit_sha": "982ad01e09e7008e3c16e44e74e7b8a0df6bb741",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/statuses/083afe575014767749415566cd0a7c5cb1990fc6",
+    "statuses_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/statuses/6d705a81901297f730c9ddd93ed98feeb0b601cd",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "083afe575014767749415566cd0a7c5cb1990fc6",
+        "sha": "6d705a81901297f730c9ddd93ed98feeb0b601cd",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/louvain-feedstock/deployments",
             "created_at": "2018-06-24T05:23:14Z",
             "updated_at": "2018-06-24T05:23:16Z",
-            "pushed_at": "2018-11-25T13:15:19Z",
+            "pushed_at": "2019-02-04T04:23:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/louvain-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/louvain-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/louvain-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/louvain-feedstock/deployments",
             "created_at": "2017-09-02T04:28:20Z",
             "updated_at": "2018-08-04T19:33:15Z",
-            "pushed_at": "2018-11-25T13:15:20Z",
+            "pushed_at": "2019-02-04T04:23:15Z",
             "git_url": "git://github.com/conda-forge/louvain-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/louvain-feedstock.git",
             "clone_url": "https://github.com/conda-forge/louvain-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/louvain-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/louvain-feedstock/statuses/083afe575014767749415566cd0a7c5cb1990fc6"
+            "href": "https://api.github.com/repos/conda-forge/louvain-feedstock/statuses/6d705a81901297f730c9ddd93ed98feeb0b601cd"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 389,
-    "deletions": 77,
-    "changed_files": 24
+    "commits": 4,
+    "additions": 376,
+    "deletions": 74,
+    "changed_files": 21,
+    "Last-Modified": "Mon, 04 Feb 2019 04:23:14 GMT",
+    "ETag": "W/\"03d6156978b3770c3098fd0dda8f6aa4\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-27T21:17:10Z",
-    "updated_at": "2018-11-27T21:37:11Z",
+    "updated_at": "2019-02-04T04:17:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9f7323170147615bf09f365e1063dc7b9a5e4e20",
+    "merge_commit_sha": "7f14e97c82154e9fd13d444814395a94b2270a5b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/statuses/da5d4051da0d34a60f3bd1860dd9c34cac7bc792",
+    "statuses_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/statuses/179606d9a4e554d488a3e91841640fa02a7ca048",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "da5d4051da0d34a60f3bd1860dd9c34cac7bc792",
+        "sha": "179606d9a4e554d488a3e91841640fa02a7ca048",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/vaex-astro-feedstock/deployments",
             "created_at": "2018-11-27T21:16:38Z",
             "updated_at": "2018-11-27T21:16:40Z",
-            "pushed_at": "2018-12-11T22:14:32Z",
+            "pushed_at": "2019-02-04T04:17:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/vaex-astro-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/vaex-astro-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/vaex-astro-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/deployments",
             "created_at": "2018-01-02T21:50:30Z",
             "updated_at": "2018-08-04T18:54:38Z",
-            "pushed_at": "2018-12-12T07:22:11Z",
+            "pushed_at": "2019-02-04T04:17:07Z",
             "git_url": "git://github.com/conda-forge/vaex-astro-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vaex-astro-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vaex-astro-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/statuses/da5d4051da0d34a60f3bd1860dd9c34cac7bc792"
+            "href": "https://api.github.com/repos/conda-forge/vaex-astro-feedstock/statuses/179606d9a4e554d488a3e91841640fa02a7ca048"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 376,
-    "deletions": 159,
-    "changed_files": 26,
-    "Last-Modified": "Tue, 27 Nov 2018 21:37:11 GMT",
-    "ETag": "W/\"155b6df1a91f8e7d52fe0e1048c91685\""
+    "commits": 3,
+    "additions": 719,
+    "deletions": 170,
+    "changed_files": 32,
+    "Last-Modified": "Mon, 04 Feb 2019 04:17:06 GMT",
+    "ETag": "W/\"7a2f558c9d90f9e26888c6951a50b181\""
 }
