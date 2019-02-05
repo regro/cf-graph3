@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-12T23:19:19Z",
-    "updated_at": "2019-02-03T15:34:20Z",
+    "updated_at": "2019-02-05T03:47:03Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "25327a95004160436d02c94663629074a3551019",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 2,
     "maintainer_can_modify": true,
     "commits": 10,
     "additions": 71,
     "deletions": 195,
     "changed_files": 17,
-    "Last-Modified": "Sun, 03 Feb 2019 15:34:20 GMT",
-    "ETag": "W/\"01b857b1d51c6ea438b405157df80140\""
+    "Last-Modified": "Tue, 05 Feb 2019 03:47:03 GMT",
+    "ETag": "W/\"d2b896ec57e73b353d5b392456d5948e\""
 }

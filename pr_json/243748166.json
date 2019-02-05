@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-10T16:23:36Z",
-    "updated_at": "2019-02-04T05:09:11Z",
+    "updated_at": "2019-02-05T03:43:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "07622278a64f9d7c13abd2de27a30dada55eacf9",
+    "merge_commit_sha": "787c9b66940896d7833440dc983e52e4d87bdde4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/statuses/62eeb7f3ca39288bd8ffe6b8f60c1a144c5d4358",
+    "statuses_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/statuses/1dda2df79c6a37f02c10bd5b25d4bd48def58c57",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "62eeb7f3ca39288bd8ffe6b8f60c1a144c5d4358",
+        "sha": "1dda2df79c6a37f02c10bd5b25d4bd48def58c57",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/onnx-caffe2-feedstock/deployments",
             "created_at": "2019-01-10T16:23:20Z",
             "updated_at": "2019-01-10T16:23:23Z",
-            "pushed_at": "2019-01-10T16:23:36Z",
+            "pushed_at": "2019-02-05T03:43:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/onnx-caffe2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/onnx-caffe2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/onnx-caffe2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/deployments",
             "created_at": "2017-12-01T13:14:14Z",
             "updated_at": "2018-08-04T18:23:32Z",
-            "pushed_at": "2019-01-10T16:23:39Z",
+            "pushed_at": "2019-02-05T03:43:23Z",
             "git_url": "git://github.com/conda-forge/onnx-caffe2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/onnx-caffe2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/onnx-caffe2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/statuses/62eeb7f3ca39288bd8ffe6b8f60c1a144c5d4358"
+            "href": "https://api.github.com/repos/conda-forge/onnx-caffe2-feedstock/statuses/1dda2df79c6a37f02c10bd5b25d4bd48def58c57"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 692,
-    "deletions": 168,
+    "commits": 3,
+    "additions": 720,
+    "deletions": 171,
     "changed_files": 32,
-    "Last-Modified": "Mon, 04 Feb 2019 05:09:11 GMT",
-    "ETag": "W/\"97f049c98f61370665083bc7084ca422\""
+    "Last-Modified": "Tue, 05 Feb 2019 03:43:22 GMT",
+    "ETag": "W/\"c8740f07907d7e30eabf459103bcc1d7\""
 }
