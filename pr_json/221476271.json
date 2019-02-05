@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-09T15:04:31Z",
-    "updated_at": "2019-02-04T20:11:42Z",
+    "updated_at": "2019-02-05T01:45:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2d4d4854c80f52842c858b5d1e779a00f375319b",
+    "merge_commit_sha": "ffe1c61e39a3feecbfc6c6292976d93e0a734844",
     "assignee": {
         "login": "pkgw",
         "id": 59598,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/statuses/8d683a0e3f1a9ff227890be62e800fdfd8879387",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/statuses/6b3e0c885ffb440de0e4a698db5095422a6c9901",
     "head": {
         "label": "regro-cf-autotick-bot:1.6.7",
         "ref": "1.6.7",
-        "sha": "8d683a0e3f1a9ff227890be62e800fdfd8879387",
+        "sha": "6b3e0c885ffb440de0e4a698db5095422a6c9901",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xorg-libx11-feedstock/deployments",
             "created_at": "2018-03-18T03:51:46Z",
             "updated_at": "2018-03-18T03:51:48Z",
-            "pushed_at": "2019-02-04T01:15:33Z",
+            "pushed_at": "2019-02-05T01:45:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xorg-libx11-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xorg-libx11-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-libx11-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/xorg-libx11-feedstock",
             "homepage": null,
-            "size": 49,
+            "size": 50,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/deployments",
             "created_at": "2017-01-22T19:24:57Z",
             "updated_at": "2018-09-29T01:30:06Z",
-            "pushed_at": "2019-02-04T01:15:34Z",
+            "pushed_at": "2019-02-05T01:45:36Z",
             "git_url": "git://github.com/conda-forge/xorg-libx11-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xorg-libx11-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xorg-libx11-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/statuses/8d683a0e3f1a9ff227890be62e800fdfd8879387"
+            "href": "https://api.github.com/repos/conda-forge/xorg-libx11-feedstock/statuses/6b3e0c885ffb440de0e4a698db5095422a6c9901"
         }
     },
     "author_association": "NONE",
@@ -372,8 +372,10 @@
     "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 383,
-    "deletions": 113,
-    "changed_files": 19
+    "commits": 3,
+    "additions": 397,
+    "deletions": 112,
+    "changed_files": 20,
+    "Last-Modified": "Tue, 05 Feb 2019 01:45:35 GMT",
+    "ETag": "W/\"d5f472a65021fd3e27a4576a848ccd4a\""
 }
