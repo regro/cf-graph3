@@ -1,13 +1,13 @@
 {
   "done": [
-    "libgfortran",
     "vc",
+    "libgfortran",
+    "jom",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
-    "jom",
     "msinttypes",
     "expat",
     "cmake",
@@ -26,8 +26,8 @@
   "awaiting-parents": [
     "su-exec",
     "make",
-    "perl",
     "bzip2",
+    "perl",
     "zlib",
     "pandoc",
     "ordereddict",
