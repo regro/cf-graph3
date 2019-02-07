@@ -1,13 +1,13 @@
 {
   "done": [
+    "libgfortran",
+    "msinttypes",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
-    "msinttypes",
     "vc",
-    "libgfortran",
     "jom",
     "cmake",
     "xz",
@@ -26,6 +26,7 @@
   "awaiting-parents": [
     "make",
     "perl",
+    "su-exec",
     "bzip2",
     "zlib",
     "pandoc",
@@ -98,8 +99,7 @@
     "scikit-learn",
     "pandas",
     "opencv",
-    "matplotlib",
-    "su-exec"
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {
