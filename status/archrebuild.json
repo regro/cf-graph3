@@ -1,14 +1,14 @@
 {
   "done": [
-    "msinttypes",
     "libgfortran",
     "jom",
-    "vc",
     "bison",
     "autoconf",
     "automake",
     "libtool",
     "libedit",
+    "vc",
+    "msinttypes",
     "krb5",
     "curl",
     "cmake",
@@ -84,6 +84,7 @@
     "pandas",
     "lzo",
     "libpng",
+    "libxml2",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -95,11 +96,10 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
-    "eigen",
+    "libarchive",
     "git",
-    "opencv",
-    "libxml2",
-    "libarchive"
+    "eigen",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
