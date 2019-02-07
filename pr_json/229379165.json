@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-08T14:16:51Z",
-    "updated_at": "2019-02-06T09:04:17Z",
+    "updated_at": "2019-02-07T13:54:25Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "65f9f0abb706364bfac7646aff5cd05ad9b512d7",
@@ -330,10 +330,12 @@
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 3,
-    "review_comments": 1,
+    "review_comments": 2,
     "maintainer_can_modify": true,
     "commits": 5,
     "additions": 397,
     "deletions": 190,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Thu, 07 Feb 2019 13:54:25 GMT",
+    "ETag": "W/\"bccd7115565dc3d8b2685174636a6d12\""
 }

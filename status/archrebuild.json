@@ -1,8 +1,8 @@
 {
   "done": [
     "msinttypes",
-    "jom",
     "libgfortran",
+    "jom",
     "vc",
     "bison",
     "autoconf",
@@ -24,6 +24,7 @@
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "su-exec",
     "make",
     "bzip2",
     "perl",
@@ -98,8 +99,7 @@
     "git",
     "opencv",
     "libxml2",
-    "libarchive",
-    "su-exec"
+    "libarchive"
   ],
   "_feedstock_status": {
     "appnope": {
