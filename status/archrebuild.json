@@ -1,22 +1,22 @@
 {
   "done": [
-    "jom",
-    "vc",
-    "libgfortran",
-    "bison",
-    "autoconf",
+    "libedit",
     "automake",
     "libtool",
-    "libedit",
+    "autoconf",
+    "vc",
+    "bison",
     "msinttypes",
-    "expat",
+    "libgfortran",
+    "jom",
     "cmake",
     "xz",
     "curl",
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv"
+    "libiconv",
+    "expat"
   ],
   "in-pr": [
     "tk",
@@ -24,10 +24,7 @@
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "su-exec",
-    "make",
     "bzip2",
-    "perl",
     "zlib",
     "pandoc",
     "ordereddict",
@@ -76,17 +73,9 @@
     "ipykernel",
     "notebook",
     "tini",
-    "openblas",
-    "blas",
-    "numpy",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "lzo",
     "libpng",
     "libxml2",
-    "libarchive",
-    "git",
     "jpeg",
     "libtiff",
     "libwebp",
@@ -94,12 +83,21 @@
     "hdf5",
     "freetype",
     "qt",
-    "pyqt",
-    "matplotlib",
     "harfbuzz",
     "ffmpeg",
+    "git",
     "eigen",
-    "opencv"
+    "libarchive",
+    "pyqt",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "opencv",
+    "matplotlib",
+    "su-exec"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -430,33 +428,6 @@
         "libarchive"
       ]
     },
-    "make": {
-      "num_descendants": 89,
-      "immediate_children": [
-        "autoconf",
-        "automake",
-        "bison",
-        "bzip2",
-        "cmake",
-        "curl",
-        "freetype",
-        "git",
-        "krb5",
-        "libarchive",
-        "libiconv",
-        "libtiff",
-        "libxml2",
-        "opencv",
-        "openssl",
-        "perl",
-        "pkg-config",
-        "python",
-        "tk",
-        "xz",
-        "zlib",
-        "zstd"
-      ]
-    },
     "markupsafe": {
       "num_descendants": 1,
       "immediate_children": [
@@ -566,21 +537,6 @@
       "num_descendants": 1,
       "immediate_children": [
         "notebook"
-      ]
-    },
-    "perl": {
-      "num_descendants": 87,
-      "immediate_children": [
-        "autoconf",
-        "automake",
-        "bison",
-        "curl",
-        "git",
-        "krb5",
-        "libedit",
-        "openblas",
-        "openssl",
-        "qt"
       ]
     },
     "pexpect": {
