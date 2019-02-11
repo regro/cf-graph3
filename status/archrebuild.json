@@ -1,13 +1,13 @@
 {
   "done": [
     "automake",
-    "libtool",
-    "autoconf",
     "libedit",
+    "autoconf",
+    "libtool",
+    "libgfortran",
+    "vc",
     "jom",
     "msinttypes",
-    "vc",
-    "libgfortran",
     "bison",
     "krb5",
     "curl",
@@ -24,8 +24,8 @@
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "bzip2",
     "su-exec",
+    "bzip2",
     "zlib",
     "ordereddict",
     "ninja",
