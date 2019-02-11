@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|setuptools|40.7.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/setuptools.svg)](https://anaconda.org/conda-forge/setuptools)|\n",
     "created_at": "2019-01-28T20:48:02Z",
-    "updated_at": "2019-01-28T20:48:07Z",
+    "updated_at": "2019-02-11T17:56:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8e46ce50ef54ca69101a9f170843935ccabed78f",
+    "merge_commit_sha": "d97367780a3f986689adb8c44c799c43e8c73fde",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/statuses/1c08295c5f340e10f5aa44afea5ada47763e97b0",
+    "statuses_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/statuses/0ed60986237f81f30338c0f612800a94fbd8a0fc",
     "head": {
         "label": "regro-cf-autotick-bot:0.2.2",
         "ref": "0.2.2",
-        "sha": "1c08295c5f340e10f5aa44afea5ada47763e97b0",
+        "sha": "0ed60986237f81f30338c0f612800a94fbd8a0fc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/axopy-feedstock/deployments",
             "created_at": "2019-01-12T04:18:17Z",
             "updated_at": "2019-01-12T04:18:19Z",
-            "pushed_at": "2019-01-28T20:48:02Z",
+            "pushed_at": "2019-02-11T17:56:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/axopy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/axopy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/axopy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/axopy-feedstock/deployments",
             "created_at": "2018-06-13T20:34:29Z",
             "updated_at": "2019-01-12T05:17:50Z",
-            "pushed_at": "2019-01-28T20:48:03Z",
+            "pushed_at": "2019-02-11T17:56:45Z",
             "git_url": "git://github.com/conda-forge/axopy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/axopy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/axopy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/axopy-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/axopy-feedstock/statuses/1c08295c5f340e10f5aa44afea5ada47763e97b0"
+            "href": "https://api.github.com/repos/conda-forge/axopy-feedstock/statuses/0ed60986237f81f30338c0f612800a94fbd8a0fc"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 201,
-    "deletions": 29,
-    "changed_files": 12
+    "commits": 3,
+    "additions": 200,
+    "deletions": 28,
+    "changed_files": 12,
+    "Last-Modified": "Mon, 11 Feb 2019 17:56:48 GMT",
+    "ETag": "W/\"01c83a5ba8fef535b59dcd6d18d597c7\""
 }
