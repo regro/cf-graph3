@@ -1,13 +1,13 @@
 {
   "done": [
-    "autoconf",
-    "automake",
     "libedit",
+    "autoconf",
     "libtool",
-    "bison",
-    "vc",
-    "libgfortran",
+    "automake",
     "jom",
+    "bison",
+    "libgfortran",
+    "vc",
     "msinttypes",
     "expat",
     "cmake",
@@ -24,8 +24,8 @@
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "bzip2",
     "su-exec",
+    "bzip2",
     "zlib",
     "pandoc",
     "ordereddict",
