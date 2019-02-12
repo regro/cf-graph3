@@ -1,22 +1,22 @@
 {
   "done": [
-    "autoconf",
     "automake",
-    "libedit",
     "libtool",
+    "autoconf",
+    "libedit",
+    "vc",
     "jom",
     "libgfortran",
-    "msinttypes",
-    "vc",
     "bison",
+    "msinttypes",
     "krb5",
     "curl",
     "cmake",
     "xz",
     "pkg-config",
     "openssl",
-    "expat",
-    "libiconv"
+    "libiconv",
+    "expat"
   ],
   "in-pr": [
     "tk",
@@ -25,6 +25,7 @@
   "awaiting-pr": [],
   "awaiting-parents": [
     "bzip2",
+    "su-exec",
     "zlib",
     "ordereddict",
     "ninja",
@@ -80,24 +81,23 @@
     "scikit-learn",
     "pandas",
     "lzo",
+    "libpng",
+    "libxml2",
     "jpeg",
     "libtiff",
+    "libwebp",
     "jasper",
     "hdf5",
-    "eigen",
-    "libpng",
-    "libwebp",
-    "libxml2",
-    "libarchive",
-    "git",
     "freetype",
     "qt",
     "pyqt",
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
-    "opencv",
-    "su-exec"
+    "libarchive",
+    "git",
+    "eigen",
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
