@@ -32,7 +32,7 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nrsgislib\nspdlib\npgrouting\ngudhi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T22:07:26Z",
-    "updated_at": "2019-02-05T12:09:04Z",
+    "updated_at": "2019-02-13T20:54:49Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "9059b90545790f49dc3cee97122d1baa41c80bcc",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 11,
+            "forks_count": 12,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 2,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 11,
+            "forks": 12,
             "open_issues": 2,
             "watchers": 3,
             "default_branch": "master"
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
     "additions": 814,
     "deletions": 129,
-    "changed_files": 34
+    "changed_files": 34,
+    "Last-Modified": "Wed, 13 Feb 2019 20:54:49 GMT",
+    "ETag": "W/\"5d177d72449b4862e92340dde69cbf93\""
 }
