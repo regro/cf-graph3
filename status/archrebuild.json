@@ -1,12 +1,11 @@
 {
   "done": [
-    "autoconf",
-    "libedit",
     "automake",
+    "autoconf",
     "libtool",
+    "libedit",
     "jom",
     "bison",
-    "vc",
     "libgfortran",
     "msinttypes",
     "expat",
@@ -16,7 +15,8 @@
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv"
+    "libiconv",
+    "vc"
   ],
   "in-pr": [
     "tk",
@@ -69,10 +69,6 @@
     "distributed",
     "appnope",
     "ipython",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook",
     "tini",
     "openblas",
     "blas",
@@ -97,7 +93,11 @@
     "harfbuzz",
     "ffmpeg",
     "eigen",
-    "opencv"
+    "opencv",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook"
   ],
   "_feedstock_status": {
     "appnope": {

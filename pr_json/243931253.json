@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-11T07:21:39Z",
-    "updated_at": "2019-01-18T14:16:17Z",
+    "updated_at": "2019-02-15T10:11:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6912dffae92b0b3d1e4c64a050fa55e29404e1d8",
+    "merge_commit_sha": "ec709c6f8d891c4bb5071ec10276617abca66ad8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/statuses/5a1a89eb30756506db58fae3869288b7ced1d4e4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/statuses/d902f711c7369d8505e12d3c7a933916020e8df3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "5a1a89eb30756506db58fae3869288b7ced1d4e4",
+        "sha": "d902f711c7369d8505e12d3c7a933916020e8df3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ldas-tools-ldasgen-swig-feedstock/deployments",
             "created_at": "2019-01-11T07:21:22Z",
             "updated_at": "2019-01-11T07:21:24Z",
-            "pushed_at": "2019-01-11T07:21:38Z",
+            "pushed_at": "2019-02-15T10:11:24Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ldas-tools-ldasgen-swig-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ldas-tools-ldasgen-swig-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ldas-tools-ldasgen-swig-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/ldas-tools-ldasgen-swig-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/deployments",
             "created_at": "2019-01-10T23:22:17Z",
             "updated_at": "2019-01-10T23:57:04Z",
-            "pushed_at": "2019-01-11T07:21:40Z",
+            "pushed_at": "2019-02-15T10:11:25Z",
             "git_url": "git://github.com/conda-forge/ldas-tools-ldasgen-swig-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ldas-tools-ldasgen-swig-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ldas-tools-ldasgen-swig-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/statuses/5a1a89eb30756506db58fae3869288b7ced1d4e4"
+            "href": "https://api.github.com/repos/conda-forge/ldas-tools-ldasgen-swig-feedstock/statuses/d902f711c7369d8505e12d3c7a933916020e8df3"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 106,
-    "deletions": 14,
-    "changed_files": 10
+    "commits": 4,
+    "additions": 81,
+    "deletions": 43,
+    "changed_files": 15,
+    "Last-Modified": "Fri, 15 Feb 2019 10:11:24 GMT",
+    "ETag": "W/\"6ce574e83aad3dd98f2b9f3aea5f6762\""
 }
