@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\n        cc: @conda-forge/arm-arch\n\n        **Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-01-29T05:55:31Z",
-    "updated_at": "2019-02-13T20:36:34Z",
+    "updated_at": "2019-02-15T01:17:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7a56ed581e39f947709a0f939b8d5279a52a6b78",
+    "merge_commit_sha": "1c466cc10b8f5b850b3d21f0aa848dda0865574a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-feedstock/pulls/234/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-feedstock/issues/234/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-feedstock/statuses/b2dd3472e9cf767bbf3bd4911ea27334e6877b0f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-feedstock/statuses/565f383877579de3a97bfef8a85fa2125a3d9769",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "b2dd3472e9cf767bbf3bd4911ea27334e6877b0f",
+        "sha": "565f383877579de3a97bfef8a85fa2125a3d9769",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-feedstock/deployments",
             "created_at": "2018-03-28T22:50:57Z",
             "updated_at": "2018-03-28T22:50:59Z",
-            "pushed_at": "2019-02-05T13:07:00Z",
+            "pushed_at": "2019-02-15T01:17:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-feedstock/deployments",
             "created_at": "2016-05-20T05:18:44Z",
             "updated_at": "2019-02-01T07:52:43Z",
-            "pushed_at": "2019-02-05T13:07:01Z",
+            "pushed_at": "2019-02-15T01:17:33Z",
             "git_url": "git://github.com/conda-forge/python-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-feedstock/pulls/234/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-feedstock/statuses/b2dd3472e9cf767bbf3bd4911ea27334e6877b0f"
+            "href": "https://api.github.com/repos/conda-forge/python-feedstock/statuses/565f383877579de3a97bfef8a85fa2125a3d9769"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 12,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 415,
-    "deletions": 125,
-    "changed_files": 19
+    "commits": 7,
+    "additions": 422,
+    "deletions": 127,
+    "changed_files": 20,
+    "Last-Modified": "Fri, 15 Feb 2019 01:17:32 GMT",
+    "ETag": "W/\"244f2993a26ab0a60448aae0d9771083\""
 }
