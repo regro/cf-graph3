@@ -1,13 +1,12 @@
 {
   "done": [
     "libedit",
-    "autoconf",
     "automake",
     "libtool",
-    "msinttypes",
+    "autoconf",
     "bison",
     "libgfortran",
-    "vc",
+    "msinttypes",
     "jom",
     "cmake",
     "xz",
@@ -16,7 +15,8 @@
     "openssl",
     "krb5",
     "libiconv",
-    "expat"
+    "expat",
+    "vc"
   ],
   "in-pr": [
     "tk",
@@ -69,10 +69,6 @@
     "distributed",
     "appnope",
     "ipython",
-    "zeromq",
-    "pyzmq",
-    "ipykernel",
-    "notebook",
     "tini",
     "lzo",
     "libpng",
@@ -97,7 +93,11 @@
     "scikit-learn",
     "pandas",
     "opencv",
-    "matplotlib"
+    "matplotlib",
+    "zeromq",
+    "pyzmq",
+    "ipykernel",
+    "notebook"
   ],
   "_feedstock_status": {
     "appnope": {
