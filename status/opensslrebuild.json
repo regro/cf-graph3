@@ -1,7 +1,376 @@
 {
   "done": [],
   "in-pr": [],
-  "awaiting-pr": [],
-  "awaiting-parents": [],
-  "_feedstock_status": {}
+  "awaiting-pr": [
+    "librdkafka",
+    "erlang",
+    "ffmpeg",
+    "socat",
+    "libssh2",
+    "r-git2r",
+    "mosh",
+    "davix",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "w3m",
+    "ruby",
+    "krb5",
+    "postgres-xl",
+    "cyrus-sasl",
+    "openldap",
+    "curl",
+    "libgit2",
+    "git",
+    "poco",
+    "clickhouse-odbc",
+    "mysql-connector-c",
+    "freetds",
+    "r-pki",
+    "qt",
+    "nginx",
+    "grpc-cpp",
+    "pari",
+    "libarchive",
+    "singularity",
+    "tectonic",
+    "r-openssl",
+    "libevent",
+    "thrift-cpp",
+    "octave",
+    "xrootd",
+    "root",
+    "pyctest",
+    "pypy3.5",
+    "cryptography",
+    "uwsgi",
+    "scrypt",
+    "salt",
+    "pylibscrypt",
+    "postgresql",
+    "psycopg2",
+    "m2crypto",
+    "lftp",
+    "gdal",
+    "entwine",
+    "cdat_info"
+  ],
+  "awaiting-parents": [
+    "lighttpd",
+    "aws-sdk-cpp",
+    "lynx",
+    "sstp-client",
+    "python"
+  ],
+  "_feedstock_status": {
+    "cdat_info": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "curl": {
+      "num_descendants": 9,
+      "immediate_children": [
+        "aws-sdk-cpp",
+        "entwine",
+        "gdal",
+        "git",
+        "libgit2",
+        "octave",
+        "pyctest",
+        "xrootd"
+      ]
+    },
+    "cyrus-sasl": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "openldap"
+      ]
+    },
+    "erlang": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "ffmpeg": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "freetds": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "gdal": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "entwine"
+      ]
+    },
+    "git": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "krb5": {
+      "num_descendants": 17,
+      "immediate_children": [
+        "curl",
+        "cyrus-sasl",
+        "libpq",
+        "lighttpd",
+        "openldap",
+        "postgres-xl",
+        "postgresql",
+        "root",
+        "xrootd"
+      ]
+    },
+    "lftp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "libarchive": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "singularity"
+      ]
+    },
+    "libevent": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "sstp-client",
+        "thrift-cpp"
+      ]
+    },
+    "librdkafka": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "libssh2": {
+      "num_descendants": 11,
+      "immediate_children": [
+        "curl",
+        "gdal",
+        "libgit2",
+        "r-git2r"
+      ]
+    },
+    "lighttpd": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "lynx": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "m2crypto": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mosh": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mysql-connector-c": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "nginx": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "octave": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pari": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "postgresql": {
+      "num_descendants": 4,
+      "immediate_children": [
+        "gdal",
+        "libpq",
+        "psycopg2"
+      ]
+    },
+    "psycopg2": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pylibscrypt": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "python": {
+      "num_descendants": 19,
+      "immediate_children": [
+        "cdat_info",
+        "cryptography",
+        "gdal",
+        "grpcio",
+        "lftp",
+        "libpq",
+        "m2crypto",
+        "octave",
+        "postgresql",
+        "psycopg2",
+        "pyctest",
+        "pylibscrypt",
+        "pypy3.5",
+        "root",
+        "salt",
+        "scrypt",
+        "uwsgi",
+        "xrootd"
+      ]
+    },
+    "qt": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "octave",
+        "root"
+      ]
+    },
+    "r-git2r": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-openssl": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-pki": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "ruby": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "salt": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scrypt": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "pylibscrypt"
+      ]
+    },
+    "singularity": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "socat": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "tectonic": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "uwsgi": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "w3m": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "postgres-xl": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "thrift-cpp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "libgit2": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "cryptography": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "cdat_info"
+      ]
+    },
+    "aws-sdk-cpp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pypy3.5": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "sstp-client": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "ldas-tools-al": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ldas-tools-framecpp",
+        "ldas-tools-ldasgen"
+      ]
+    },
+    "ldas-tools-framecpp": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "ldas-tools-frameapi"
+      ]
+    },
+    "pyctest": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "openldap": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "entwine": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "ldas-tools-ldasgen": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "ldas-tools-frameapi"
+      ]
+    },
+    "poco": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "clickhouse-odbc"
+      ]
+    },
+    "clickhouse-odbc": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "ldas-tools-frameapi": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "xrootd": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "root"
+      ]
+    },
+    "davix": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "root"
+      ]
+    },
+    "root": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "grpc-cpp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    }
+  }
 }
