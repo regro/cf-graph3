@@ -1,14 +1,14 @@
 {
   "done": [
-    "libedit",
-    "autoconf",
-    "automake",
     "libtool",
-    "msinttypes",
+    "autoconf",
+    "libedit",
+    "automake",
     "libgfortran",
     "jom",
-    "vc",
     "bison",
+    "vc",
+    "msinttypes",
     "krb5",
     "curl",
     "cmake",
@@ -25,7 +25,6 @@
   "awaiting-pr": [],
   "awaiting-parents": [
     "bzip2",
-    "su-exec",
     "zlib",
     "ordereddict",
     "ninja",
@@ -97,7 +96,8 @@
     "libarchive",
     "git",
     "eigen",
-    "opencv"
+    "opencv",
+    "su-exec"
   ],
   "_feedstock_status": {
     "appnope": {
