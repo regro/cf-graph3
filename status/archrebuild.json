@@ -1,14 +1,14 @@
 {
   "done": [
-    "libtool",
     "autoconf",
+    "libtool",
     "libedit",
     "automake",
-    "libgfortran",
-    "vc",
     "jom",
-    "msinttypes",
+    "bzip2",
     "bison",
+    "vc",
+    "msinttypes",
     "krb5",
     "curl",
     "cmake",
@@ -16,7 +16,8 @@
     "pkg-config",
     "openssl",
     "libiconv",
-    "expat"
+    "expat",
+    "libgfortran"
   ],
   "in-pr": [
     "tk",
@@ -25,7 +26,6 @@
   "awaiting-pr": [],
   "awaiting-parents": [
     "su-exec",
-    "bzip2",
     "zlib",
     "ordereddict",
     "ninja",
@@ -74,12 +74,6 @@
     "ipykernel",
     "notebook",
     "tini",
-    "openblas",
-    "blas",
-    "numpy",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "lzo",
     "libpng",
     "libxml2",
@@ -87,16 +81,22 @@
     "libtiff",
     "libwebp",
     "jasper",
-    "hdf5",
     "freetype",
     "qt",
     "pyqt",
-    "matplotlib",
     "harfbuzz",
     "ffmpeg",
     "libarchive",
     "git",
     "eigen",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "matplotlib",
+    "hdf5",
     "opencv"
   ],
   "_feedstock_status": {
@@ -919,7 +919,8 @@
         "ffmpeg",
         "libarchive",
         "python"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/bzip2-feedstock/pull/9"
     },
     "lz4": {
       "num_descendants": 5,
