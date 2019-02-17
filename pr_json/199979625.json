@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/fs.webdavfs-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/fs.webdavfs-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Suggestion: add noarch",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee [here](https://conda-forge.org/docs/meta.html#building-noarch-packages) for more information about building noarch packages.\nBefore merging this PR make sure:\n- [ ] No compiled extensions\n- [ ] No post-link or pre-link or pre-unlink scripts\n- [ ] No OS specific build scripts\n- [ ] No python version specific requirements\n- [ ] No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n- [ ] 2to3 is not used\n- [ ] Scripts argument in setup.py is not used\n- [ ] If entrypoints are in setup.py, they are listed in meta.yaml\n- [ ] No activate scripts\n- [ ] Not a dependency of `conda`\nNotes and instructions for merging this PR:\n1. If any items in the above checklist are not satisfied, please close this PR. Do not merge. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-09T02:48:22Z",
-    "updated_at": "2018-07-09T02:48:25Z",
-    "closed_at": null,
+    "updated_at": "2019-02-17T11:13:22Z",
+    "closed_at": "2019-02-17T11:13:22Z",
     "merged_at": null,
     "merge_commit_sha": "660e98eaf5302a79f09f5c3a51333f3474cea3a2",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/fs.webdavfs-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/fs.webdavfs-feedstock/deployments",
             "created_at": "2017-10-23T15:59:13Z",
-            "updated_at": "2018-10-12T03:42:37Z",
-            "pushed_at": "2019-02-17T10:05:28Z",
+            "updated_at": "2019-02-17T11:13:11Z",
+            "pushed_at": "2019-02-17T11:13:09Z",
             "git_url": "git://github.com/conda-forge/fs.webdavfs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fs.webdavfs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fs.webdavfs-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 165,
     "deletions": 271,
-    "changed_files": 17
+    "changed_files": 17,
+    "Last-Modified": "Sun, 17 Feb 2019 11:13:22 GMT",
+    "ETag": "W/\"6400f3e312b71393c7773841e8c25059\""
 }
