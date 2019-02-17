@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/fs-feedstock/pull/21.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/fs-feedstock/issues/21",
     "number": 21,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "fs v2.1.2",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-10T12:12:37Z",
-    "updated_at": "2018-11-10T12:12:40Z",
-    "closed_at": null,
+    "updated_at": "2019-02-17T09:15:38Z",
+    "closed_at": "2019-02-17T09:15:38Z",
     "merged_at": null,
     "merge_commit_sha": "ba6a5680248caebd6f613c1655dab924cf07279d",
     "assignee": null,
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/fs-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/fs-feedstock",
             "homepage": null,
-            "size": 60,
+            "size": 59,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/fs-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/fs-feedstock/deployments",
             "created_at": "2017-09-27T15:52:38Z",
-            "updated_at": "2019-02-16T17:49:15Z",
-            "pushed_at": "2019-02-17T08:17:55Z",
+            "updated_at": "2019-02-17T09:15:16Z",
+            "pushed_at": "2019-02-17T09:15:13Z",
             "git_url": "git://github.com/conda-forge/fs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fs-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 4,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 5,
     "deletions": 5,
     "changed_files": 4,
-    "Last-Modified": "Sat, 10 Nov 2018 12:12:40 GMT",
-    "ETag": "W/\"7f4e91c8d7caabaedf4c6855f4079888\""
+    "Last-Modified": "Sun, 17 Feb 2019 09:15:38 GMT",
+    "ETag": "W/\"22443012f3619ce615e1e30e67408f9d\""
 }
