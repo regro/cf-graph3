@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T19:15:16Z",
-    "updated_at": "2019-02-18T19:15:22Z",
+    "updated_at": "2019-02-18T21:44:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a4052fb6bb10d90fc9f91854509be87897b227de",
+    "merge_commit_sha": "05a84e5e35f67b620ad99695cd9ff9ac833b3985",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/statuses/8b9291a191505e2a261ff0bf8f75b8836345d766",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/statuses/4909a34e310851f691132475ffa886e2b91f227b",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "8b9291a191505e2a261ff0bf8f75b8836345d766",
+        "sha": "4909a34e310851f691132475ffa886e2b91f227b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dbus-feedstock/deployments",
             "created_at": "2018-03-16T18:04:35Z",
             "updated_at": "2018-03-16T18:04:37Z",
-            "pushed_at": "2019-02-18T19:15:16Z",
+            "pushed_at": "2019-02-18T21:44:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dbus-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dbus-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dbus-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/dbus-feedstock",
             "homepage": null,
-            "size": 32,
+            "size": 48,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dbus-feedstock/deployments",
             "created_at": "2016-08-29T17:20:01Z",
             "updated_at": "2018-10-06T16:31:30Z",
-            "pushed_at": "2019-02-18T19:15:17Z",
+            "pushed_at": "2019-02-18T21:44:13Z",
             "git_url": "git://github.com/conda-forge/dbus-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dbus-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dbus-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dbus-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dbus-feedstock/statuses/8b9291a191505e2a261ff0bf8f75b8836345d766"
+            "href": "https://api.github.com/repos/conda-forge/dbus-feedstock/statuses/4909a34e310851f691132475ffa886e2b91f227b"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 322,
+    "commits": 3,
+    "additions": 323,
     "deletions": 115,
-    "changed_files": 19
+    "changed_files": 20,
+    "Last-Modified": "Mon, 18 Feb 2019 21:44:12 GMT",
+    "ETag": "W/\"3891e5f4463e6dbf78ec33db95b6cc00\""
 }
