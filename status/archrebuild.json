@@ -1,14 +1,16 @@
 {
   "done": [
-    "automake",
     "libtool",
+    "automake",
     "libedit",
     "autoconf",
-    "vc",
-    "msinttypes",
-    "bison",
     "jom",
     "bzip2",
+    "bison",
+    "libgfortran",
+    "vc",
+    "msinttypes",
+    "expat",
     "cmake",
     "xz",
     "zlib",
@@ -18,25 +20,21 @@
     "pkg-config",
     "openssl",
     "krb5",
-    "libiconv",
-    "expat",
-    "libgfortran"
+    "libiconv"
   ],
   "in-pr": [
     "ninja",
     "lz4-c",
+    "libsodium",
     "icu",
     "certifi",
-    "jpeg"
-  ],
-  "awaiting-pr": [
-    "ordereddict",
-    "libsodium",
     "tini",
     "lzo",
     "git",
+    "jpeg",
     "eigen"
   ],
+  "awaiting-pr": [],
   "awaiting-parents": [
     "su-exec",
     "pandoc",
@@ -79,25 +77,25 @@
     "pyzmq",
     "ipykernel",
     "notebook",
-    "libpng",
-    "libxml2",
-    "libtiff",
-    "libwebp",
-    "jasper",
-    "freetype",
-    "qt",
-    "harfbuzz",
-    "ffmpeg",
-    "libarchive",
-    "pyqt",
     "openblas",
     "blas",
     "numpy",
     "scipy",
     "scikit-learn",
     "pandas",
-    "matplotlib",
+    "libpng",
+    "libxml2",
+    "libarchive",
+    "libtiff",
+    "libwebp",
+    "jasper",
     "hdf5",
+    "freetype",
+    "qt",
+    "pyqt",
+    "matplotlib",
+    "harfbuzz",
+    "ffmpeg",
     "opencv"
   ],
   "_feedstock_status": {
@@ -217,7 +215,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "opencv"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/eigen-feedstock/pull/23"
     },
     "entrypoints": {
       "num_descendants": 1,
@@ -259,7 +258,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "opencv"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/git-feedstock/pull/55"
     },
     "harfbuzz": {
       "num_descendants": 1,
@@ -389,7 +389,8 @@
       "immediate_children": [
         "pyzmq",
         "zeromq"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libsodium-feedstock/pull/14"
     },
     "libtiff": {
       "num_descendants": 2,
@@ -431,7 +432,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "libarchive"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/lzo-feedstock/pull/5"
     },
     "markupsafe": {
       "num_descendants": 1,
@@ -528,12 +530,6 @@
         "qt"
       ],
       "pr_url": "https://github.com/conda-forge/openssl-feedstock/pull/35"
-    },
-    "ordereddict": {
-      "num_descendants": 6,
-      "immediate_children": [
-        "tornado"
-      ]
     },
     "pandas": {
       "num_descendants": 0,
@@ -837,7 +833,8 @@
     },
     "tini": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/tini-feedstock/pull/10"
     },
     "tornado": {
       "num_descendants": 5,
