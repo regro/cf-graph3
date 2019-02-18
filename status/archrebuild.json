@@ -2,13 +2,13 @@
   "done": [
     "automake",
     "libtool",
-    "autoconf",
     "libedit",
-    "vc",
+    "autoconf",
+    "bison",
     "libgfortran",
+    "vc",
     "jom",
     "bzip2",
-    "bison",
     "msinttypes",
     "expat",
     "cmake",
@@ -19,24 +19,24 @@
     "python",
     "pkg-config",
     "openssl",
+    "lz4-c",
     "krb5",
-    "libiconv"
+    "icu",
+    "libiconv",
+    "jpeg",
+    "eigen"
   ],
   "in-pr": [
     "ninja",
-    "lz4-c",
     "libsodium",
-    "icu",
     "certifi",
     "tini",
     "lzo",
     "git",
-    "jpeg",
-    "eigen"
+    "jasper"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "su-exec",
     "pandoc",
     "setuptools",
     "pip",
@@ -88,7 +88,6 @@
     "libarchive",
     "libtiff",
     "libwebp",
-    "jasper",
     "hdf5",
     "freetype",
     "qt",
@@ -96,7 +95,8 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
-    "opencv"
+    "opencv",
+    "su-exec"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -305,7 +305,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "opencv"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/jasper-feedstock/pull/20"
     },
     "jedi": {
       "num_descendants": 3,
