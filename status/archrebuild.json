@@ -1,26 +1,24 @@
 {
   "done": [
-    "vc",
-    "nasm",
+    "libgfortran",
+    "vs2015_runtime",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
+    "nasm",
+    "patch",
+    "vc",
+    "ca-certificates",
+    "msinttypes",
     "jom",
     "bzip2",
-    "ca-certificates",
-    "libgfortran",
-    "patch",
-    "msinttypes",
-    "vs2015_runtime",
-    "python",
-    "openssl",
-    "lz4-c",
-    "libsodium",
-    "icu",
-    "curl",
     "cmake",
     "xz",
+    "libiconv",
+    "bison",
+    "binutils",
+    "python",
     "zlib",
     "tk",
     "pkg-config",
@@ -28,53 +26,55 @@
     "readline",
     "sqlite",
     "libedit",
-    "zeromq",
+    "openssl",
     "lzo",
-    "libiconv",
-    "bison",
+    "lz4-c",
+    "libsodium",
+    "zeromq",
     "krb5",
+    "icu",
+    "curl",
     "jpeg",
     "jasper",
     "expat",
     "eigen"
   ],
   "in-pr": [
-    "vs2008_runtime",
+    "toolchain3",
     "m4",
     "libuuid",
+    "vs2008_runtime",
+    "flex",
     "gettext",
     "gawk",
     "texinfo",
     "libffi",
+    "yasm",
     "wincertstore",
+    "tini",
     "sip",
     "rhash",
+    "ptyprocess",
+    "yaml",
+    "openh264",
+    "pcre",
     "ninja",
     "libuv",
-    "yasm",
     "libssh2",
-    "tini",
-    "pcre",
-    "flex",
-    "binutils",
-    "git",
-    "dbus",
-    "certifi"
-  ],
-  "awaiting-pr": [
-    "toolchain3",
-    "ptyprocess",
     "giflib",
-    "yaml",
-    "openh264"
+    "certifi",
+    "git",
+    "dbus"
   ],
+  "awaiting-pr": [],
   "awaiting-parents": [
-    "gmp",
-    "nettle",
     "su-exec",
     "winpty",
+    "gmp",
+    "nettle",
     "c99-to-c89",
     "x264",
+    "pandoc",
     "xorg-util-macros",
     "xorg-xtrans",
     "xorg-xproto",
@@ -94,15 +94,9 @@
     "xorg-libice",
     "xorg-libsm",
     "xorg-libxt",
-    "pandoc",
-    "openblas",
-    "blas",
     "libpng",
-    "libxml2",
     "libidn11",
-    "hdf5",
-    "graphite2",
-    "freetype",
+    "libxml2",
     "setuptools",
     "wheel",
     "pip",
@@ -132,9 +126,6 @@
     "pkgconfig",
     "lz4",
     "zstd",
-    "libtiff",
-    "libwebp",
-    "libarchive",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -149,10 +140,6 @@
     "mistune",
     "pywinpty",
     "terminado",
-    "numpy",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "msgpack-python",
     "distributed",
     "configparser",
@@ -174,9 +161,21 @@
     "sed",
     "gperf",
     "gnutls",
-    "ffmpeg",
     "glib",
+    "libtiff",
+    "libwebp",
+    "hdf5",
+    "graphite2",
+    "freetype",
     "fontconfig",
+    "ffmpeg",
+    "libarchive",
+    "openblas",
+    "blas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -524,7 +523,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "libwebp"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/giflib-feedstock/pull/17"
     },
     "git": {
       "num_descendants": 1,
@@ -1007,7 +1007,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "ffmpeg"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/openh264-feedstock/pull/6"
     },
     "openssl": {
       "num_descendants": 162,
@@ -1237,7 +1238,8 @@
       "immediate_children": [
         "pexpect",
         "terminado"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ptyprocess-feedstock/pull/13"
     },
     "pyopenssl": {
       "num_descendants": 7,
@@ -1903,7 +1905,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "pyyaml"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/yaml-feedstock/pull/10"
     },
     "libwebp": {
       "num_descendants": 1,
@@ -1993,7 +1996,8 @@
       "immediate_children": [
         "gnutls",
         "nettle"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/toolchain3-feedstock/pull/5"
     },
     "twisted": {
       "num_descendants": 1,
