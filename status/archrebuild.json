@@ -1,14 +1,14 @@
 {
   "done": [
+    "autoconf",
     "automake",
     "libtool",
     "libedit",
-    "autoconf",
-    "bison",
     "libgfortran",
     "vc",
     "jom",
     "bzip2",
+    "bison",
     "msinttypes",
     "expat",
     "cmake",
@@ -22,6 +22,7 @@
     "lz4-c",
     "krb5",
     "icu",
+    "lzo",
     "libiconv",
     "jpeg",
     "eigen"
@@ -31,12 +32,12 @@
     "libsodium",
     "certifi",
     "tini",
-    "lzo",
     "git",
     "jasper"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "su-exec",
     "pandoc",
     "setuptools",
     "pip",
@@ -95,8 +96,7 @@
     "matplotlib",
     "harfbuzz",
     "ffmpeg",
-    "opencv",
-    "su-exec"
+    "opencv"
   ],
   "_feedstock_status": {
     "appnope": {
