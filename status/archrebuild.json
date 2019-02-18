@@ -1,17 +1,17 @@
 {
   "done": [
-    "patch",
-    "libgfortran",
-    "nasm",
     "vc",
+    "nasm",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
-    "msinttypes",
     "jom",
     "bzip2",
     "ca-certificates",
+    "libgfortran",
+    "patch",
+    "msinttypes",
     "vs2015_runtime",
     "python",
     "openssl",
@@ -24,7 +24,9 @@
     "zlib",
     "tk",
     "pkg-config",
+    "ncurses",
     "readline",
+    "sqlite",
     "libedit",
     "zeromq",
     "lzo",
@@ -39,47 +41,65 @@
   "in-pr": [
     "vs2008_runtime",
     "m4",
+    "libuuid",
     "gettext",
     "gawk",
     "texinfo",
     "libffi",
     "wincertstore",
+    "sip",
     "rhash",
     "ninja",
     "libuv",
-    "ncurses",
-    "sqlite",
+    "yasm",
     "libssh2",
     "tini",
+    "pcre",
     "flex",
     "binutils",
     "git",
+    "dbus",
     "certifi"
   ],
   "awaiting-pr": [
-    "libuuid",
     "toolchain3",
-    "sip",
     "ptyprocess",
     "giflib",
-    "yasm",
     "yaml",
-    "openh264",
-    "pcre",
-    "dbus"
+    "openh264"
   ],
   "awaiting-parents": [
     "gmp",
     "nettle",
-    "c99-to-c89",
     "su-exec",
+    "winpty",
+    "c99-to-c89",
     "x264",
+    "xorg-util-macros",
+    "xorg-xtrans",
+    "xorg-xproto",
+    "xorg-xextproto",
+    "xorg-renderproto",
+    "xorg-libxdmcp",
+    "xorg-libxau",
+    "xorg-kbproto",
+    "xorg-inputproto",
+    "xcb-proto",
+    "pthread-stubs",
     "pixman",
+    "libxcb",
+    "xorg-libx11",
+    "xorg-libxrender",
+    "xorg-libxext",
+    "xorg-libice",
+    "xorg-libsm",
+    "xorg-libxt",
     "pandoc",
     "openblas",
     "blas",
     "libpng",
     "libxml2",
+    "libidn11",
     "hdf5",
     "graphite2",
     "freetype",
@@ -127,6 +147,8 @@
     "cytoolz",
     "pyyaml",
     "mistune",
+    "pywinpty",
+    "terminado",
     "numpy",
     "scipy",
     "scikit-learn",
@@ -148,31 +170,13 @@
     "flit",
     "entrypoints",
     "testpath",
+    "notebook",
     "sed",
     "gperf",
-    "fontconfig",
+    "gnutls",
+    "ffmpeg",
     "glib",
-    "winpty",
-    "pywinpty",
-    "terminado",
-    "notebook",
-    "xorg-util-macros",
-    "xorg-xtrans",
-    "xorg-xproto",
-    "xorg-xextproto",
-    "xorg-renderproto",
-    "xorg-libxdmcp",
-    "xorg-libxau",
-    "xorg-kbproto",
-    "xorg-inputproto",
-    "xcb-proto",
-    "pthread-stubs",
-    "libxcb",
-    "xorg-libx11",
-    "xorg-libxrender",
-    "xorg-libxext",
-    "xorg-libice",
-    "xorg-libsm",
+    "fontconfig",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -182,13 +186,9 @@
     "gdk-pixbuf",
     "atk",
     "gtk2",
-    "xorg-libxt",
     "qt",
     "pyqt",
     "matplotlib",
-    "libidn11",
-    "gnutls",
-    "ffmpeg",
     "opencv"
   ],
   "_feedstock_status": {
@@ -395,7 +395,8 @@
       "num_descendants": 4,
       "immediate_children": [
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/dbus-feedstock/pull/13"
     },
     "distributed": {
       "num_descendants": 0,
@@ -832,7 +833,8 @@
       "immediate_children": [
         "fontconfig",
         "xorg-libsm"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libuuid-feedstock/pull/20"
     },
     "libuv": {
       "num_descendants": 162,
@@ -1064,7 +1066,8 @@
         "glib",
         "gstreamer",
         "gtk2"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/pcre-feedstock/pull/14"
     },
     "pexpect": {
       "num_descendants": 3,
@@ -1533,7 +1536,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "pyqt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/sip-feedstock/pull/13"
     },
     "six": {
       "num_descendants": 36,
@@ -1892,7 +1896,8 @@
       "immediate_children": [
         "ffmpeg",
         "x264"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/yasm-feedstock/pull/13"
     },
     "yaml": {
       "num_descendants": 2,
