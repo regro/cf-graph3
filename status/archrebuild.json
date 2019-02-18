@@ -1,38 +1,45 @@
 {
   "done": [
+    "automake",
+    "libtool",
     "libedit",
     "autoconf",
-    "libtool",
-    "automake",
-    "jom",
-    "bzip2",
-    "libgfortran",
     "vc",
     "msinttypes",
     "bison",
-    "krb5",
-    "curl",
+    "jom",
+    "bzip2",
     "cmake",
     "xz",
     "zlib",
     "tk",
+    "curl",
+    "python",
     "pkg-config",
     "openssl",
+    "krb5",
     "libiconv",
-    "expat"
+    "expat",
+    "libgfortran"
   ],
   "in-pr": [
-    "python"
-  ],
-  "awaiting-pr": [],
-  "awaiting-parents": [
-    "su-exec",
-    "ordereddict",
     "ninja",
     "lz4-c",
-    "libsodium",
     "icu",
     "certifi",
+    "jpeg"
+  ],
+  "awaiting-pr": [
+    "ordereddict",
+    "libsodium",
+    "tini",
+    "lzo",
+    "git",
+    "eigen"
+  ],
+  "awaiting-parents": [
+    "su-exec",
+    "pandoc",
     "setuptools",
     "pip",
     "psutil",
@@ -51,6 +58,9 @@
     "entrypoints",
     "pickleshare",
     "nose",
+    "pkgconfig",
+    "lz4",
+    "zstd",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -65,38 +75,29 @@
     "distributed",
     "appnope",
     "ipython",
-    "pkgconfig",
-    "lz4",
-    "zstd",
-    "pandoc",
     "zeromq",
     "pyzmq",
     "ipykernel",
     "notebook",
-    "tini",
+    "libpng",
+    "libxml2",
+    "libtiff",
+    "libwebp",
+    "jasper",
+    "freetype",
+    "qt",
+    "harfbuzz",
+    "ffmpeg",
+    "libarchive",
+    "pyqt",
     "openblas",
     "blas",
     "numpy",
     "scipy",
     "scikit-learn",
     "pandas",
-    "lzo",
-    "libpng",
-    "libxml2",
-    "jpeg",
-    "libtiff",
-    "libwebp",
-    "jasper",
-    "hdf5",
-    "freetype",
-    "qt",
-    "pyqt",
     "matplotlib",
-    "harfbuzz",
-    "ffmpeg",
-    "libarchive",
-    "git",
-    "eigen",
+    "hdf5",
     "opencv"
   ],
   "_feedstock_status": {
@@ -148,7 +149,8 @@
       "immediate_children": [
         "setuptools",
         "tornado"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/certifi-feedstock/pull/41"
     },
     "cmake": {
       "num_descendants": 81,
@@ -284,7 +286,8 @@
         "libxml2",
         "matplotlib",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/icu-feedstock/pull/23"
     },
     "ipykernel": {
       "num_descendants": 1,
@@ -328,7 +331,8 @@
         "libwebp",
         "opencv",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/jpeg-feedstock/pull/18"
     },
     "jsonschema": {
       "num_descendants": 1,
@@ -420,7 +424,8 @@
         "libarchive",
         "lz4",
         "zstd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/lz4-c-feedstock/pull/18"
     },
     "lzo": {
       "num_descendants": 1,
@@ -471,7 +476,8 @@
         "harfbuzz",
         "hdf5",
         "opencv"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ninja-feedstock/pull/11"
     },
     "nose": {
       "num_descendants": 9,
