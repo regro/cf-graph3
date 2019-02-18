@@ -1,13 +1,14 @@
 {
   "done": [
     "msinttypes",
-    "libgfortran",
-    "autoconf",
-    "automake",
-    "libtool",
     "vc",
     "jom",
     "bzip2",
+    "libgfortran",
+    "autoconf",
+    "automake",
+    "help2man",
+    "libtool",
     "xz",
     "cmake",
     "libiconv",
@@ -31,36 +32,35 @@
     "eigen"
   ],
   "in-pr": [
-    "m4",
-    "help2man",
-    "nasm",
     "vs2015_runtime",
     "patch",
+    "ca-certificates",
+    "m4",
+    "nasm",
+    "texinfo",
     "tini",
+    "rhash",
+    "readline",
+    "sqlite",
     "ninja",
     "certifi",
     "git"
   ],
   "awaiting-pr": [
-    "ca-certificates",
     "libuuid",
-    "toolchain3",
     "vs2008_runtime",
+    "toolchain3",
     "flex",
     "binutils",
     "gettext",
     "gawk",
-    "texinfo",
     "libffi",
     "yasm",
     "wincertstore",
     "sip",
-    "rhash",
     "ptyprocess",
     "yaml",
     "ncurses",
-    "readline",
-    "sqlite",
     "pcre",
     "libuv",
     "libssh2",
@@ -70,8 +70,8 @@
   "awaiting-parents": [
     "su-exec",
     "gmp",
-    "winpty",
     "nettle",
+    "winpty",
     "c99-to-c89",
     "x264",
     "pandoc",
@@ -288,7 +288,8 @@
       "num_descendants": 163,
       "immediate_children": [
         "openssl"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ca-certificates-feedstock/pull/31"
     },
     "cairo": {
       "num_descendants": 12,
@@ -1421,7 +1422,8 @@
       "immediate_children": [
         "python",
         "sqlite"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/readline-feedstock/pull/15"
     },
     "requests": {
       "num_descendants": 4,
@@ -1433,7 +1435,8 @@
       "num_descendants": 162,
       "immediate_children": [
         "cmake"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/rhash-feedstock/pull/9"
     },
     "scandir": {
       "num_descendants": 6,
@@ -1550,7 +1553,8 @@
       "immediate_children": [
         "python",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/sqlite-feedstock/pull/42"
     },
     "ssl_match_hostname": {
       "num_descendants": 6,
@@ -1584,7 +1588,8 @@
       "num_descendants": 162,
       "immediate_children": [
         "libffi"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/texinfo-feedstock/pull/13"
     },
     "tini": {
       "num_descendants": 0,
