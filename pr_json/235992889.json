@@ -35,7 +35,7 @@
     "updated_at": "2018-12-05T03:49:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "62607491c857c408e0bfbe6a178ff0369fd7dd99",
+    "merge_commit_sha": "c9b798f6cee0ad4ec6f7229ba067e38649b21d87",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -302,8 +302,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/deployments",
             "created_at": "2018-02-08T18:10:38Z",
-            "updated_at": "2018-10-21T07:27:23Z",
-            "pushed_at": "2019-02-19T06:19:14Z",
+            "updated_at": "2019-02-19T15:08:56Z",
+            "pushed_at": "2019-02-19T15:08:54Z",
             "git_url": "git://github.com/conda-forge/fswatch-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fswatch-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fswatch-feedstock.git",
@@ -321,7 +321,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +330,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 5,
+            "open_issues": 3,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -375,5 +375,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 05 Dec 2018 03:49:35 GMT",
+    "ETag": "W/\"73668fefff69d044e24bb67bf308218c\""
 }
