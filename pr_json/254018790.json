@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T19:15:36Z",
-    "updated_at": "2019-02-18T19:15:40Z",
+    "updated_at": "2019-02-18T21:46:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4ba5b42fa99dd10fa0766467c12fd2f302d0e9c1",
+    "merge_commit_sha": "88aaae8d44d80200866dfcbbcb3c2dc4d3691538",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sip-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sip-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sip-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sip-feedstock/statuses/f22fafdb9f449830aa4edf73da1fa2475fb5c0d8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sip-feedstock/statuses/9d1a8a987d3961661ff1df35e0cf8f2a121914e4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "f22fafdb9f449830aa4edf73da1fa2475fb5c0d8",
+        "sha": "9d1a8a987d3961661ff1df35e0cf8f2a121914e4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sip-feedstock/deployments",
             "created_at": "2018-07-07T23:46:27Z",
             "updated_at": "2018-07-07T23:46:29Z",
-            "pushed_at": "2019-02-18T19:15:35Z",
+            "pushed_at": "2019-02-18T21:46:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sip-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sip-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sip-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/sip-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 54,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sip-feedstock/deployments",
             "created_at": "2016-06-07T01:58:39Z",
             "updated_at": "2018-09-27T20:15:31Z",
-            "pushed_at": "2019-02-18T19:15:36Z",
+            "pushed_at": "2019-02-18T21:46:37Z",
             "git_url": "git://github.com/conda-forge/sip-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sip-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sip-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sip-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sip-feedstock/statuses/f22fafdb9f449830aa4edf73da1fa2475fb5c0d8"
+            "href": "https://api.github.com/repos/conda-forge/sip-feedstock/statuses/9d1a8a987d3961661ff1df35e0cf8f2a121914e4"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 586,
+    "commits": 3,
+    "additions": 587,
     "deletions": 518,
-    "changed_files": 39
+    "changed_files": 40,
+    "Last-Modified": "Mon, 18 Feb 2019 21:46:36 GMT",
+    "ETag": "W/\"10df9060f4a57924f8b312477840128a\""
 }
