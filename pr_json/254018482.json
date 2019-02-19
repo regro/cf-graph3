@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T19:14:12Z",
-    "updated_at": "2019-02-18T21:43:11Z",
+    "updated_at": "2019-02-19T00:42:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "dd63b0d60f62e9bf7fe32ebbaa41a69abf00c5c5",
+    "merge_commit_sha": "9ddb75bf889696a9c7a6dbc6bcce8b75fc73dbc3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/statuses/07e89f6451bff5a5a9cc684c2047fb8c00e651a8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/statuses/6dc0d1c1a53ae44d6661405c0eda6d52a4ec8b3c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "07e89f6451bff5a5a9cc684c2047fb8c00e651a8",
+        "sha": "6dc0d1c1a53ae44d6661405c0eda6d52a4ec8b3c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pcre-feedstock/deployments",
             "created_at": "2018-10-02T19:13:57Z",
             "updated_at": "2018-10-02T19:13:59Z",
-            "pushed_at": "2019-02-18T21:43:10Z",
+            "pushed_at": "2019-02-19T00:42:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pcre-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pcre-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pcre-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pcre-feedstock",
             "homepage": null,
-            "size": 48,
+            "size": 50,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pcre-feedstock/deployments",
             "created_at": "2016-04-18T23:58:37Z",
             "updated_at": "2018-10-03T03:10:57Z",
-            "pushed_at": "2019-02-18T21:43:11Z",
+            "pushed_at": "2019-02-19T00:42:30Z",
             "git_url": "git://github.com/conda-forge/pcre-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pcre-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pcre-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pcre-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pcre-feedstock/statuses/07e89f6451bff5a5a9cc684c2047fb8c00e651a8"
+            "href": "https://api.github.com/repos/conda-forge/pcre-feedstock/statuses/6dc0d1c1a53ae44d6661405c0eda6d52a4ec8b3c"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 431,
-    "deletions": 122,
-    "changed_files": 22
+    "commits": 4,
+    "additions": 432,
+    "deletions": 123,
+    "changed_files": 23,
+    "Last-Modified": "Tue, 19 Feb 2019 00:42:30 GMT",
+    "ETag": "W/\"9a6dc827af839e1f3c8f30c6de9cd249\""
 }
