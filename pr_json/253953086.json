@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-18T15:18:06Z",
-    "updated_at": "2019-02-18T15:18:11Z",
+    "updated_at": "2019-02-19T02:45:18Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "15d0528472389f00e2f995099c2c27315a005bbf",
+    "merge_commit_sha": "60aa2583a3fa8467d55f1e71260f28db4aa4c872",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/statuses/744dea181040490a5691526f30f75eacf8e76e20",
+    "statuses_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/statuses/e2a42086c1be9ad23114a82a37358bf55ea39fcc",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.2",
         "ref": "1.0.2",
-        "sha": "744dea181040490a5691526f30f75eacf8e76e20",
+        "sha": "e2a42086c1be9ad23114a82a37358bf55ea39fcc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/murmurhash-feedstock/deployments",
             "created_at": "2018-06-25T04:05:47Z",
             "updated_at": "2018-06-25T04:05:49Z",
-            "pushed_at": "2019-02-18T15:18:05Z",
+            "pushed_at": "2019-02-19T02:44:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/murmurhash-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/murmurhash-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/murmurhash-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/deployments",
             "created_at": "2017-02-18T15:35:46Z",
             "updated_at": "2018-10-16T02:29:44Z",
-            "pushed_at": "2019-02-18T15:18:07Z",
+            "pushed_at": "2019-02-19T02:44:17Z",
             "git_url": "git://github.com/conda-forge/murmurhash-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/murmurhash-feedstock.git",
             "clone_url": "https://github.com/conda-forge/murmurhash-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/statuses/744dea181040490a5691526f30f75eacf8e76e20"
+            "href": "https://api.github.com/repos/conda-forge/murmurhash-feedstock/statuses/e2a42086c1be9ad23114a82a37358bf55ea39fcc"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 463,
-    "deletions": 366,
+    "commits": 3,
+    "additions": 466,
+    "deletions": 369,
     "changed_files": 29,
-    "Last-Modified": "Mon, 18 Feb 2019 15:18:11 GMT",
-    "ETag": "W/\"4d1bb2f66d26f1eb6d487d0d21da48c8\""
+    "Last-Modified": "Tue, 19 Feb 2019 02:45:18 GMT",
+    "ETag": "W/\"ae797bd9e657dd54e4a2921668e8e974\""
 }
