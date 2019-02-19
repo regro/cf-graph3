@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/neomodel-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/neomodel-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "neomodel v3.2.9",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-06T13:15:19Z",
-    "updated_at": "2018-07-06T13:15:26Z",
-    "closed_at": null,
+    "updated_at": "2019-02-19T03:27:18Z",
+    "closed_at": "2019-02-19T03:27:18Z",
     "merged_at": null,
     "merge_commit_sha": "03cac7691d69b68db9f77cb6152b2ed8a2972b87",
     "assignee": null,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/neomodel-feedstock/deployments",
             "created_at": "2018-04-04T17:17:46Z",
             "updated_at": "2018-04-04T17:17:48Z",
-            "pushed_at": "2019-02-08T17:16:13Z",
+            "pushed_at": "2019-02-19T03:29:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/neomodel-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/neomodel-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/neomodel-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/neomodel-feedstock",
             "homepage": null,
-            "size": 34,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/neomodel-feedstock/deployments",
             "created_at": "2017-07-08T03:22:52Z",
             "updated_at": "2018-10-06T21:43:04Z",
-            "pushed_at": "2019-02-08T17:16:15Z",
+            "pushed_at": "2019-02-19T03:29:21Z",
             "git_url": "git://github.com/conda-forge/neomodel-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/neomodel-feedstock.git",
             "clone_url": "https://github.com/conda-forge/neomodel-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 312,
     "deletions": 153,
-    "changed_files": 27
+    "changed_files": 27,
+    "Last-Modified": "Tue, 19 Feb 2019 03:27:18 GMT",
+    "ETag": "W/\"8acb6d018f90b9bfe61b315f9b900ae0\""
 }

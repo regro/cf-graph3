@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/cmor-feedstock/pull/2.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/cmor-feedstock/issues/2",
     "number": 2,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Migrate to Jinja2 compiler syntax",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "List of changes done to the recipe:\nRenamed build with host\nRemoving pinnings for python to use values from conda_build_config.yaml\nPinning numpy using pin_compatible\nRemoving pinnings for hdf5 to use values from conda_build_config.yaml\nRemoving pinnings for libnetcdf to use values from conda_build_config.yaml\nRemoving gcc in favour of compiler()\nRemoving libgcc in favour of compiler()\nMoving {{pin_compatible('numpy')}} from host to build\nAdding Fortran compiler\nAdding C compiler\n\n*If you have recived a `Migrate to Jinja2 compiler syntax` PR from me recently please close that one and use this one*.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\n\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-07-01T22:06:46Z",
-    "updated_at": "2018-07-26T15:46:41Z",
-    "closed_at": null,
+    "updated_at": "2019-02-19T02:00:57Z",
+    "closed_at": "2019-02-19T02:00:57Z",
     "merged_at": null,
     "merge_commit_sha": "883429e858d4a89168bfe27182e652e2fef329a6",
     "assignee": null,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/cmor-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/cmor-feedstock/deployments",
             "created_at": "2018-06-22T08:22:48Z",
-            "updated_at": "2019-01-04T23:24:21Z",
-            "pushed_at": "2019-02-10T10:13:46Z",
+            "updated_at": "2019-02-19T02:28:45Z",
+            "pushed_at": "2019-02-19T02:28:43Z",
             "git_url": "git://github.com/conda-forge/cmor-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cmor-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cmor-feedstock.git",
             "svn_url": "https://github.com/conda-forge/cmor-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 3,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,9 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 3,
     "additions": 25,
     "deletions": 6,
-    "changed_files": 3
+    "changed_files": 3,
+    "Last-Modified": "Tue, 19 Feb 2019 02:00:57 GMT",
+    "ETag": "W/\"a0069734dd6d3e0e3feb8ee8039b6b14\""
 }
