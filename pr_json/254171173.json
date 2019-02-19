@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T09:15:15Z",
-    "updated_at": "2019-02-19T15:08:25Z",
+    "updated_at": "2019-02-19T16:05:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "90552eaee1d96dc90f5b5f8a295e082ce208aa60",
+    "merge_commit_sha": "c33f5eecbd3fdd7c29c7a2a282be0860a7b63a1c",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -78,7 +78,28 @@
             "site_admin": false
         }
     ],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "sodre",
+            "id": 1043285,
+            "node_id": "MDQ6VXNlcjEwNDMyODU=",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/1043285?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sodre",
+            "html_url": "https://github.com/sodre",
+            "followers_url": "https://api.github.com/users/sodre/followers",
+            "following_url": "https://api.github.com/users/sodre/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sodre/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sodre/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sodre/subscriptions",
+            "organizations_url": "https://api.github.com/users/sodre/orgs",
+            "repos_url": "https://api.github.com/users/sodre/repos",
+            "events_url": "https://api.github.com/users/sodre/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sodre/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -86,11 +107,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/statuses/fe2f435de173f3bb200cd61f9ec95176f700421f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/statuses/443553c0f655b17de3e31fa03fe301a34bdd8771",
     "head": {
         "label": "regro-cf-autotick-bot:0.14.0",
         "ref": "0.14.0",
-        "sha": "fe2f435de173f3bb200cd61f9ec95176f700421f",
+        "sha": "443553c0f655b17de3e31fa03fe301a34bdd8771",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +200,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/container-diff-feedstock/deployments",
             "created_at": "2018-06-22T13:55:13Z",
             "updated_at": "2018-06-22T13:55:15Z",
-            "pushed_at": "2019-02-19T09:15:14Z",
+            "pushed_at": "2019-02-19T15:57:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/container-diff-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/container-diff-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/container-diff-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/container-diff-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 31,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -214,7 +235,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "9a58283a90973cedf14780bd4c90eb29b076a411",
+        "sha": "df5e14877f04177ec30479ebd1688caf9538f7b9",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -303,13 +324,13 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/container-diff-feedstock/deployments",
             "created_at": "2018-04-25T19:02:56Z",
             "updated_at": "2019-02-19T15:08:06Z",
-            "pushed_at": "2019-02-19T15:08:04Z",
+            "pushed_at": "2019-02-19T15:57:29Z",
             "git_url": "git://github.com/conda-forge/container-diff-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/container-diff-feedstock.git",
             "clone_url": "https://github.com/conda-forge/container-diff-feedstock.git",
             "svn_url": "https://github.com/conda-forge/container-diff-feedstock",
             "homepage": null,
-            "size": 11,
+            "size": 19,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -321,7 +342,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -330,7 +351,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -358,7 +379,7 @@
             "href": "https://api.github.com/repos/conda-forge/container-diff-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/container-diff-feedstock/statuses/fe2f435de173f3bb200cd61f9ec95176f700421f"
+            "href": "https://api.github.com/repos/conda-forge/container-diff-feedstock/statuses/443553c0f655b17de3e31fa03fe301a34bdd8771"
         }
     },
     "author_association": "NONE",
@@ -369,13 +390,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 470,
-    "deletions": 86,
-    "changed_files": 18,
-    "Last-Modified": "Tue, 19 Feb 2019 15:08:25 GMT",
-    "ETag": "W/\"e56dea07bef355f4db45f7d59b6000e6\""
+    "commits": 11,
+    "additions": 13,
+    "deletions": 10,
+    "changed_files": 4,
+    "Last-Modified": "Tue, 19 Feb 2019 16:05:58 GMT",
+    "ETag": "W/\"fc70b6d009b7646976ee2c4d0ec63e70\""
 }

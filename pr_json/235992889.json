@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-04T23:14:37Z",
-    "updated_at": "2018-12-05T03:49:35Z",
+    "updated_at": "2019-02-19T15:52:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c9b798f6cee0ad4ec6f7229ba067e38649b21d87",
+    "merge_commit_sha": "9233c31cc17c40bc1f2b8d5f2bff421d47fdd3fe",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/statuses/c662e66b37eb423f3f78713e33847d15232fc431",
+    "statuses_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/statuses/3fd3c47fafa654d8e84d82c849599fbaf79fb357",
     "head": {
         "label": "regro-cf-autotick-bot:1.14.0",
         "ref": "1.14.0",
-        "sha": "c662e66b37eb423f3f78713e33847d15232fc431",
+        "sha": "3fd3c47fafa654d8e84d82c849599fbaf79fb357",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/fswatch-feedstock/deployments",
             "created_at": "2018-05-02T17:24:53Z",
             "updated_at": "2018-05-02T17:24:55Z",
-            "pushed_at": "2018-12-04T23:14:37Z",
+            "pushed_at": "2019-02-19T15:24:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/fswatch-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/fswatch-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/fswatch-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/fswatch-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 34,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -214,7 +214,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "494d3436af5e6bc0149b37b29a940e3dbdb8b3db",
+        "sha": "dc5fc204be61d0116def196e15715fae501c9b45",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -303,13 +303,13 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/fswatch-feedstock/deployments",
             "created_at": "2018-02-08T18:10:38Z",
             "updated_at": "2019-02-19T15:08:56Z",
-            "pushed_at": "2019-02-19T15:08:54Z",
+            "pushed_at": "2019-02-19T15:24:55Z",
             "git_url": "git://github.com/conda-forge/fswatch-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/fswatch-feedstock.git",
             "clone_url": "https://github.com/conda-forge/fswatch-feedstock.git",
             "svn_url": "https://github.com/conda-forge/fswatch-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/fswatch-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/fswatch-feedstock/statuses/c662e66b37eb423f3f78713e33847d15232fc431"
+            "href": "https://api.github.com/repos/conda-forge/fswatch-feedstock/statuses/3fd3c47fafa654d8e84d82c849599fbaf79fb357"
         }
     },
     "author_association": "NONE",
@@ -372,10 +372,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
+    "commits": 3,
+    "additions": 3,
+    "deletions": 3,
     "changed_files": 1,
-    "Last-Modified": "Wed, 05 Dec 2018 03:49:35 GMT",
-    "ETag": "W/\"73668fefff69d044e24bb67bf308218c\""
+    "Last-Modified": "Tue, 19 Feb 2019 15:52:51 GMT",
+    "ETag": "W/\"ea3f89188f92877148dca3f5c7501c4f\""
 }
