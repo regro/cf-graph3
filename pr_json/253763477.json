@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T02:15:45Z",
-    "updated_at": "2019-02-18T02:15:48Z",
+    "updated_at": "2019-02-19T06:06:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c8fb8f69998158ef6f545c9dd9b2196885286719",
+    "merge_commit_sha": "a20fc6dc271e28d9ccf938f6e462d124113e348c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tini-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tini-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tini-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tini-feedstock/statuses/f9d7f74d4cbaffa36de39e934f471921181d0538",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tini-feedstock/statuses/388d6b67c1312414762b7a2341b4e8cc48497910",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "f9d7f74d4cbaffa36de39e934f471921181d0538",
+        "sha": "388d6b67c1312414762b7a2341b4e8cc48497910",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tini-feedstock/deployments",
             "created_at": "2018-03-06T03:46:45Z",
             "updated_at": "2018-03-06T03:46:46Z",
-            "pushed_at": "2019-02-18T02:15:44Z",
+            "pushed_at": "2019-02-19T04:37:01Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tini-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tini-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tini-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tini-feedstock/deployments",
             "created_at": "2017-06-27T21:06:26Z",
             "updated_at": "2019-02-04T00:02:44Z",
-            "pushed_at": "2019-02-18T02:15:45Z",
+            "pushed_at": "2019-02-19T04:37:02Z",
             "git_url": "git://github.com/conda-forge/tini-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tini-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tini-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tini-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tini-feedstock/statuses/f9d7f74d4cbaffa36de39e934f471921181d0538"
+            "href": "https://api.github.com/repos/conda-forge/tini-feedstock/statuses/388d6b67c1312414762b7a2341b4e8cc48497910"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 187,
-    "deletions": 11,
-    "changed_files": 13
+    "commits": 3,
+    "additions": 9,
+    "deletions": 1,
+    "changed_files": 2,
+    "Last-Modified": "Tue, 19 Feb 2019 06:06:27 GMT",
+    "ETag": "W/\"fd54bc96eaa46606eac43b77cc0c835c\""
 }
