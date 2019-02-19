@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|r-stringr|1.4.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/r-stringr.svg)](https://anaconda.org/conda-forge/r-stringr)|\n",
     "created_at": "2019-02-19T07:18:08Z",
-    "updated_at": "2019-02-19T07:18:13Z",
+    "updated_at": "2019-02-19T20:04:47Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "5e3f6a310903b13865cc2aa70240bad6178979e9",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 179,
     "deletions": 17,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Tue, 19 Feb 2019 20:04:47 GMT",
+    "ETag": "W/\"be19c51b6103d9a3cbdadfac5943759b\""
 }
