@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-26T20:16:28Z",
-    "updated_at": "2019-02-15T01:33:40Z",
+    "updated_at": "2019-02-19T02:09:43Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "909c3dd7fde5a57fec046aca8912205442b504f8",
+    "merge_commit_sha": "a8da08022a37402f2e4ff5cc0ce3cc4bf423642c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/statuses/66f54138cf94176209d35cf98ed67b23ded5f061",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/statuses/8b2ba67dc5bbe9c004a1a38944a8c988b102c3b8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "66f54138cf94176209d35cf98ed67b23ded5f061",
+        "sha": "8b2ba67dc5bbe9c004a1a38944a8c988b102c3b8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lighttpd-feedstock/deployments",
             "created_at": "2018-03-16T22:47:09Z",
             "updated_at": "2018-03-16T22:47:11Z",
-            "pushed_at": "2019-02-15T01:33:35Z",
+            "pushed_at": "2019-02-19T02:09:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lighttpd-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lighttpd-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lighttpd-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/deployments",
             "created_at": "2017-12-10T22:41:57Z",
             "updated_at": "2018-08-04T18:23:43Z",
-            "pushed_at": "2019-02-15T01:33:36Z",
+            "pushed_at": "2019-02-19T02:09:44Z",
             "git_url": "git://github.com/conda-forge/lighttpd-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lighttpd-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lighttpd-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/statuses/66f54138cf94176209d35cf98ed67b23ded5f061"
+            "href": "https://api.github.com/repos/conda-forge/lighttpd-feedstock/statuses/8b2ba67dc5bbe9c004a1a38944a8c988b102c3b8"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 206,
+    "commits": 6,
+    "additions": 210,
     "deletions": 33,
     "changed_files": 12,
-    "Last-Modified": "Fri, 15 Feb 2019 01:33:40 GMT",
-    "ETag": "W/\"a6704044e097e72a7ac698a908925017\""
+    "Last-Modified": "Tue, 19 Feb 2019 02:09:43 GMT",
+    "ETag": "W/\"3b70d460522dca86b5efd2fbf29a6410\""
 }
