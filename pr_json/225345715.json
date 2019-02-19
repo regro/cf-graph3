@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-24T10:20:44Z",
-    "updated_at": "2019-02-19T06:51:28Z",
+    "updated_at": "2019-02-19T15:30:05Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "84f87a00339c243b1ca04af3f5293c0841b23f68",
+    "merge_commit_sha": "37f8bca8ad91b1ff63b5e80283affaaf65305042",
     "assignee": {
         "login": "jakirkham",
         "id": 3019665,
@@ -86,11 +86,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/pulls/22/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/issues/22/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/statuses/5014913efdbb1d7b16e557123e7a282c86501b57",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/statuses/214d4b4dd4188f3644223a7c21d30294652d0609",
     "head": {
         "label": "regro-cf-autotick-bot:0.10.1",
         "ref": "0.10.1",
-        "sha": "5014913efdbb1d7b16e557123e7a282c86501b57",
+        "sha": "214d4b4dd4188f3644223a7c21d30294652d0609",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -179,13 +179,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-graphviz-feedstock/deployments",
             "created_at": "2018-03-05T02:06:51Z",
             "updated_at": "2018-03-05T02:06:53Z",
-            "pushed_at": "2019-02-19T06:51:28Z",
+            "pushed_at": "2019-02-19T15:18:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-graphviz-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-graphviz-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-graphviz-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/python-graphviz-feedstock",
             "homepage": null,
-            "size": 55,
+            "size": 57,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -303,7 +303,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/deployments",
             "created_at": "2016-12-05T01:16:07Z",
             "updated_at": "2018-10-13T03:02:42Z",
-            "pushed_at": "2019-02-19T06:51:29Z",
+            "pushed_at": "2019-02-19T15:18:19Z",
             "git_url": "git://github.com/conda-forge/python-graphviz-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-graphviz-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-graphviz-feedstock.git",
@@ -358,7 +358,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/pulls/22/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/statuses/5014913efdbb1d7b16e557123e7a282c86501b57"
+            "href": "https://api.github.com/repos/conda-forge/python-graphviz-feedstock/statuses/214d4b4dd4188f3644223a7c21d30294652d0609"
         }
     },
     "author_association": "NONE",
@@ -369,11 +369,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 404,
-    "deletions": 66,
-    "changed_files": 21
+    "commits": 6,
+    "additions": 414,
+    "deletions": 76,
+    "changed_files": 21,
+    "Last-Modified": "Tue, 19 Feb 2019 15:30:05 GMT",
+    "ETag": "W/\"77e7a0b0d4160cacf954342f71c0266e\""
 }

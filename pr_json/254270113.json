@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T14:18:14Z",
-    "updated_at": "2019-02-19T14:18:14Z",
+    "updated_at": "2019-02-19T17:51:42Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "31ddb1b526966b9c408aa1bb55171825b299aaad",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/robotframework-sshlibrary-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/robotframework-sshlibrary-feedstock",
             "homepage": null,
-            "size": 13,
+            "size": 21,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 172,
     "deletions": 16,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Tue, 19 Feb 2019 17:51:42 GMT",
+    "ETag": "W/\"8a0f87a9dc121d064916a41c9806c0ca\""
 }
