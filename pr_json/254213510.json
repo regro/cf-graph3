@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T11:19:26Z",
-    "updated_at": "2019-02-19T11:19:30Z",
+    "updated_at": "2019-02-19T23:37:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a65f2c0282238446b14e519a63d2ee38c4ac5d40",
+    "merge_commit_sha": "a289fff06c8fc493fcbadf4e14c90dc19a6c2cb4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/statuses/8e629ef9069d91741e0680b8352b8138e29b06eb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/statuses/90506cbb8604a7997e080a250c0953d235562c94",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.0",
         "ref": "0.5.0",
-        "sha": "8e629ef9069d91741e0680b8352b8138e29b06eb",
+        "sha": "90506cbb8604a7997e080a250c0953d235562c94",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-flextable-feedstock/deployments",
             "created_at": "2018-11-20T06:15:52Z",
             "updated_at": "2018-11-20T06:15:54Z",
-            "pushed_at": "2019-02-19T11:19:25Z",
+            "pushed_at": "2019-02-19T23:37:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-flextable-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-flextable-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-flextable-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-flextable-feedstock",
             "homepage": null,
-            "size": 18,
+            "size": 22,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/deployments",
             "created_at": "2018-09-30T13:52:59Z",
             "updated_at": "2018-11-20T08:37:43Z",
-            "pushed_at": "2019-02-19T11:19:26Z",
+            "pushed_at": "2019-02-19T23:37:21Z",
             "git_url": "git://github.com/conda-forge/r-flextable-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-flextable-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-flextable-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/statuses/8e629ef9069d91741e0680b8352b8138e29b06eb"
+            "href": "https://api.github.com/repos/conda-forge/r-flextable-feedstock/statuses/90506cbb8604a7997e080a250c0953d235562c94"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 177,
-    "deletions": 21,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 231,
+    "deletions": 40,
+    "changed_files": 12,
+    "Last-Modified": "Tue, 19 Feb 2019 23:37:20 GMT",
+    "ETag": "W/\"72a3ca14d623fc7ddd67d1857637940c\""
 }
