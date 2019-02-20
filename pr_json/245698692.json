@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-18T01:14:47Z",
-    "updated_at": "2019-01-18T01:14:50Z",
+    "updated_at": "2019-02-20T03:49:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "cadffa05b4c63a48301a7e69d94d57bfaad12505",
+    "merge_commit_sha": "59a4e675e9c8fb9be7fa7a5914582b077446060c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/statuses/742fa5997efc8aabf15c523a05ccbcdbaa9cae93",
+    "statuses_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/statuses/30c3b6b33971687af961d1d8c3033823fac9dd7c",
     "head": {
         "label": "regro-cf-autotick-bot:0.50.0",
         "ref": "0.50.0",
-        "sha": "742fa5997efc8aabf15c523a05ccbcdbaa9cae93",
+        "sha": "30c3b6b33971687af961d1d8c3033823fac9dd7c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/azure-servicebus-feedstock/deployments",
             "created_at": "2018-02-24T01:40:49Z",
             "updated_at": "2018-02-24T01:40:51Z",
-            "pushed_at": "2019-01-18T01:14:47Z",
+            "pushed_at": "2019-02-20T03:49:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/azure-servicebus-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/azure-servicebus-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/azure-servicebus-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/azure-servicebus-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 31,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/deployments",
             "created_at": "2016-06-15T14:09:59Z",
-            "updated_at": "2018-08-04T17:15:41Z",
-            "pushed_at": "2019-01-18T01:14:48Z",
+            "updated_at": "2019-02-20T03:49:15Z",
+            "pushed_at": "2019-02-20T03:49:55Z",
             "git_url": "git://github.com/conda-forge/azure-servicebus-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/azure-servicebus-feedstock.git",
             "clone_url": "https://github.com/conda-forge/azure-servicebus-feedstock.git",
             "svn_url": "https://github.com/conda-forge/azure-servicebus-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/statuses/742fa5997efc8aabf15c523a05ccbcdbaa9cae93"
+            "href": "https://api.github.com/repos/conda-forge/azure-servicebus-feedstock/statuses/30c3b6b33971687af961d1d8c3033823fac9dd7c"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 203,
+    "commits": 3,
+    "additions": 205,
     "deletions": 29,
-    "changed_files": 12
+    "changed_files": 12,
+    "Last-Modified": "Wed, 20 Feb 2019 03:49:54 GMT",
+    "ETag": "W/\"e1e2f98c0fea19f739538c2ce1b37118\""
 }

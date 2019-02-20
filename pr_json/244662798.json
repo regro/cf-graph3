@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-15T03:19:46Z",
-    "updated_at": "2019-01-15T03:19:50Z",
+    "updated_at": "2019-02-20T03:57:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "87955cd81f85b3b45718ed86dbe04cb69a301866",
+    "merge_commit_sha": "fadb05c99e8aa7873b194af299abdbab2d695a24",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/statuses/e7ae6ee1648fcba6212ee84cbf2a0b55db0c4ab9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/statuses/451ca69940dc5b66deb9192da022d03f350d5298",
     "head": {
         "label": "regro-cf-autotick-bot:0.6",
         "ref": "0.6",
-        "sha": "e7ae6ee1648fcba6212ee84cbf2a0b55db0c4ab9",
+        "sha": "451ca69940dc5b66deb9192da022d03f350d5298",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymeasure-feedstock/deployments",
             "created_at": "2018-04-14T17:14:48Z",
             "updated_at": "2018-04-14T17:14:50Z",
-            "pushed_at": "2019-01-15T03:19:46Z",
+            "pushed_at": "2019-02-20T03:57:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymeasure-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymeasure-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymeasure-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pymeasure-feedstock",
             "homepage": null,
-            "size": 44,
+            "size": 48,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/deployments",
             "created_at": "2016-08-03T18:25:59Z",
             "updated_at": "2019-01-15T03:44:02Z",
-            "pushed_at": "2019-01-15T03:44:00Z",
+            "pushed_at": "2019-02-20T03:57:37Z",
             "git_url": "git://github.com/conda-forge/pymeasure-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymeasure-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymeasure-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/statuses/e7ae6ee1648fcba6212ee84cbf2a0b55db0c4ab9"
+            "href": "https://api.github.com/repos/conda-forge/pymeasure-feedstock/statuses/451ca69940dc5b66deb9192da022d03f350d5298"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 321,
-    "deletions": 19,
-    "changed_files": 12
+    "commits": 3,
+    "additions": 388,
+    "deletions": 50,
+    "changed_files": 18,
+    "Last-Modified": "Wed, 20 Feb 2019 03:57:36 GMT",
+    "ETag": "W/\"baa0cc4f5cd70c6ac77c086b01fbe349\""
 }
