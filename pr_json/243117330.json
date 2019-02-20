@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-08T21:18:40Z",
-    "updated_at": "2019-01-08T21:18:44Z",
+    "updated_at": "2019-02-20T04:06:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3acbccf7bac93104d21d11bce76a611a0c691160",
+    "merge_commit_sha": "96e105ff44d016897dadebc93d12587b211e975b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/statuses/96951a797fc945330f771b6ccbe2408d45e16e9a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/statuses/5e7a39ff78a2abae61578a7df048716552c9e477",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.43",
         "ref": "1.0.43",
-        "sha": "96951a797fc945330f771b6ccbe2408d45e16e9a",
+        "sha": "5e7a39ff78a2abae61578a7df048716552c9e477",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dbxfs-feedstock/deployments",
             "created_at": "2018-11-06T22:16:54Z",
             "updated_at": "2018-11-06T22:16:56Z",
-            "pushed_at": "2019-01-08T21:18:40Z",
+            "pushed_at": "2019-02-20T04:06:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dbxfs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dbxfs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dbxfs-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/dbxfs-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/deployments",
             "created_at": "2018-11-06T21:20:10Z",
             "updated_at": "2018-12-29T03:37:00Z",
-            "pushed_at": "2019-01-08T21:18:41Z",
+            "pushed_at": "2019-02-20T04:06:37Z",
             "git_url": "git://github.com/conda-forge/dbxfs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dbxfs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dbxfs-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/statuses/96951a797fc945330f771b6ccbe2408d45e16e9a"
+            "href": "https://api.github.com/repos/conda-forge/dbxfs-feedstock/statuses/5e7a39ff78a2abae61578a7df048716552c9e477"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 51,
+    "deletions": 27,
+    "changed_files": 11,
+    "Last-Modified": "Wed, 20 Feb 2019 04:06:36 GMT",
+    "ETag": "W/\"fbbc1a42654404ab8dfdb6c5d366ea5f\""
 }
