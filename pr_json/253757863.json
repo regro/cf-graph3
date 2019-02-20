@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T01:20:42Z",
-    "updated_at": "2019-02-20T08:45:24Z",
+    "updated_at": "2019-02-20T13:18:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b7e4d2eb8ac2983cec6080cb551436ac60fb497d",
+    "merge_commit_sha": "0ca91823329d20663cac2e48f3a996c7bb3aa2ff",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/1288233fa422e9d498f7c0cb9cae5b29db7f932b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/dce13deb6ae793886622a307ceaa7cd92d4273ed",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "1288233fa422e9d498f7c0cb9cae5b29db7f932b",
+        "sha": "dce13deb6ae793886622a307ceaa7cd92d4273ed",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ninja-feedstock/deployments",
             "created_at": "2018-09-23T08:10:43Z",
             "updated_at": "2018-09-23T08:10:45Z",
-            "pushed_at": "2019-02-18T01:20:41Z",
+            "pushed_at": "2019-02-20T13:18:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ninja-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ninja-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ninja-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ninja-feedstock/deployments",
             "created_at": "2016-04-09T15:08:15Z",
             "updated_at": "2019-01-31T13:10:00Z",
-            "pushed_at": "2019-02-18T01:20:42Z",
+            "pushed_at": "2019-02-20T13:18:16Z",
             "git_url": "git://github.com/conda-forge/ninja-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ninja-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ninja-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/1288233fa422e9d498f7c0cb9cae5b29db7f932b"
+            "href": "https://api.github.com/repos/conda-forge/ninja-feedstock/statuses/dce13deb6ae793886622a307ceaa7cd92d4273ed"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 144,
     "deletions": 10,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Wed, 20 Feb 2019 13:18:16 GMT",
+    "ETag": "W/\"5fc0bdc5f2d594d0337e26ea55ddde17\""
 }
