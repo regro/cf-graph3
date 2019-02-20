@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-29T17:59:53Z",
-    "updated_at": "2019-01-29T17:59:57Z",
+    "updated_at": "2019-02-20T03:29:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8f72c6870fbbb8cd8c574dc47b31f9dbbcd00064",
+    "merge_commit_sha": "e2ce8b444c18d7d9c98ba61e3dd1b7f075157eed",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/statuses/be9f54cf159c22a531b4b075ff01d0f70ed4b704",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/statuses/0fbfbdf8b2a5d08bbe89da23125e348edeb0e0c7",
     "head": {
         "label": "regro-cf-autotick-bot:1.4.0",
         "ref": "1.4.0",
-        "sha": "be9f54cf159c22a531b4b075ff01d0f70ed4b704",
+        "sha": "0fbfbdf8b2a5d08bbe89da23125e348edeb0e0c7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tomopy-feedstock/deployments",
             "created_at": "2018-10-08T18:07:20Z",
             "updated_at": "2018-10-08T18:07:22Z",
-            "pushed_at": "2019-01-29T17:59:53Z",
+            "pushed_at": "2019-02-20T03:29:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tomopy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tomopy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tomopy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tomopy-feedstock",
             "homepage": null,
-            "size": 41,
+            "size": 43,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tomopy-feedstock/deployments",
             "created_at": "2016-06-24T20:44:29Z",
             "updated_at": "2018-11-30T20:16:08Z",
-            "pushed_at": "2019-01-29T17:59:54Z",
+            "pushed_at": "2019-02-20T03:29:45Z",
             "git_url": "git://github.com/conda-forge/tomopy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tomopy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tomopy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tomopy-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tomopy-feedstock/statuses/be9f54cf159c22a531b4b075ff01d0f70ed4b704"
+            "href": "https://api.github.com/repos/conda-forge/tomopy-feedstock/statuses/0fbfbdf8b2a5d08bbe89da23125e348edeb0e0c7"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 454,
     "deletions": 38,
-    "changed_files": 21
+    "changed_files": 21,
+    "Last-Modified": "Wed, 20 Feb 2019 03:29:44 GMT",
+    "ETag": "W/\"2e1f16fbb8e47d7b985ef7d30f1d3e21\""
 }

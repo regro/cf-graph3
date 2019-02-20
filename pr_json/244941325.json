@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-15T21:19:45Z",
-    "updated_at": "2019-01-16T05:10:48Z",
+    "updated_at": "2019-02-20T03:53:26Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5c96d01adaf446d7d51e16ead31d2a256622f221",
+    "merge_commit_sha": "1de2dd538e67099349ee304f30f00074821a83f6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/statuses/07e654a2b5a673d39e471f138ad9d5d47cf40701",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/statuses/8c41310b0ba5cfa64bdbc41ad5df929113fec4c1",
     "head": {
         "label": "regro-cf-autotick-bot:0.0.6",
         "ref": "0.0.6",
-        "sha": "07e654a2b5a673d39e471f138ad9d5d47cf40701",
+        "sha": "8c41310b0ba5cfa64bdbc41ad5df929113fec4c1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pickle5-feedstock/deployments",
             "created_at": "2018-10-02T16:24:19Z",
             "updated_at": "2018-10-02T16:24:21Z",
-            "pushed_at": "2019-01-16T05:10:48Z",
+            "pushed_at": "2019-02-20T03:55:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pickle5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pickle5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pickle5-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pickle5-feedstock",
             "homepage": null,
-            "size": 32,
+            "size": 35,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pickle5-feedstock/deployments",
             "created_at": "2018-07-28T02:42:00Z",
             "updated_at": "2018-10-05T15:52:27Z",
-            "pushed_at": "2019-01-16T05:10:49Z",
+            "pushed_at": "2019-02-20T03:56:00Z",
             "git_url": "git://github.com/conda-forge/pickle5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pickle5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pickle5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pickle5-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pickle5-feedstock/statuses/07e654a2b5a673d39e471f138ad9d5d47cf40701"
+            "href": "https://api.github.com/repos/conda-forge/pickle5-feedstock/statuses/8c41310b0ba5cfa64bdbc41ad5df929113fec4c1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 413,
-    "deletions": 233,
-    "changed_files": 24
+    "commits": 5,
+    "additions": 425,
+    "deletions": 232,
+    "changed_files": 24,
+    "Last-Modified": "Wed, 20 Feb 2019 03:53:26 GMT",
+    "ETag": "W/\"dccdd8900a80165dc5fea1eb30737fb5\""
 }

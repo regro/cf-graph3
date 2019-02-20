@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-18T22:18:45Z",
-    "updated_at": "2019-01-18T22:18:49Z",
+    "updated_at": "2019-02-20T03:48:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a18f432fbe588ac3a01a8166beb9227f6041c985",
+    "merge_commit_sha": "a85f14886b7e0c30cc3b8d698baa7fd7a687f806",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/pulls/1/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/issues/1/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/statuses/cfc56fe6eb1d267c99797aeed4af8f1f57e1146f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/statuses/8a5464f05841fb5ace24fb809624cf692476d366",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "cfc56fe6eb1d267c99797aeed4af8f1f57e1146f",
+        "sha": "8a5464f05841fb5ace24fb809624cf692476d366",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/eliot-feedstock/deployments",
             "created_at": "2019-01-18T22:18:26Z",
             "updated_at": "2019-01-18T22:18:29Z",
-            "pushed_at": "2019-01-18T22:18:45Z",
+            "pushed_at": "2019-02-20T03:48:27Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/eliot-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/eliot-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/eliot-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/eliot-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 17,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/eliot-feedstock/deployments",
             "created_at": "2019-01-18T16:02:43Z",
             "updated_at": "2019-01-18T16:11:55Z",
-            "pushed_at": "2019-01-18T22:18:46Z",
+            "pushed_at": "2019-02-20T03:48:29Z",
             "git_url": "git://github.com/conda-forge/eliot-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/eliot-feedstock.git",
             "clone_url": "https://github.com/conda-forge/eliot-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/eliot-feedstock/pulls/1/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/eliot-feedstock/statuses/cfc56fe6eb1d267c99797aeed4af8f1f57e1146f"
+            "href": "https://api.github.com/repos/conda-forge/eliot-feedstock/statuses/8a5464f05841fb5ace24fb809624cf692476d366"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 1,
-    "deletions": 1,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 24,
+    "deletions": 11,
+    "changed_files": 5,
+    "Last-Modified": "Wed, 20 Feb 2019 03:48:28 GMT",
+    "ETag": "W/\"fb8e85f4b736b5ba101be40ea5786523\""
 }
