@@ -1,13 +1,7 @@
 {
   "done": [
-    "libuuid",
-    "vs2008_runtime",
-    "vc",
-    "libgfortran",
     "nasm",
-    "vs2015_runtime",
-    "msinttypes",
-    "patch",
+    "libgfortran",
     "autoconf",
     "automake",
     "help2man",
@@ -15,11 +9,15 @@
     "jom",
     "bzip2",
     "toolchain3",
+    "vs2008_runtime",
+    "vc",
     "ca-certificates",
-    "openssl",
-    "curl",
-    "cmake",
+    "libuuid",
+    "patch",
+    "vs2015_runtime",
+    "msinttypes",
     "xz",
+    "cmake",
     "libiconv",
     "flex",
     "bison",
@@ -40,6 +38,7 @@
     "readline",
     "sqlite",
     "libedit",
+    "openssl",
     "ninja",
     "lzo",
     "lz4-c",
@@ -49,10 +48,13 @@
     "krb5",
     "icu",
     "giflib",
+    "curl",
     "certifi",
     "setuptools",
     "wheel",
     "pip",
+    "six",
+    "nose",
     "jpeg",
     "jasper",
     "expat",
@@ -68,9 +70,12 @@
     "tini",
     "pcre",
     "libuv",
-    "six",
-    "nose",
+    "win_inet_pton",
+    "singledispatch",
+    "more-itertools",
+    "markupsafe",
     "idna",
+    "enum34",
     "cython",
     "asn1crypto",
     "sed",
@@ -79,7 +84,6 @@
   "awaiting-pr": [
     "pywin32",
     "psutil",
-    "win_inet_pton",
     "docutils",
     "win_unicode_console",
     "zope.interface",
@@ -88,23 +92,19 @@
     "zipfile36",
     "pyzmq",
     "pexpect",
-    "markupsafe",
     "kiwisolver",
     "jedi",
     "heapdict",
     "futures",
-    "enum34",
     "configparser",
     "appnope"
   ],
   "awaiting-parents": [
-    "winpty",
     "gmp",
+    "nettle",
+    "winpty",
     "su-exec",
     "c99-to-c89",
-    "nettle",
-    "openblas",
-    "blas",
     "pandoc",
     "xorg-util-macros",
     "xorg-xtrans",
@@ -128,10 +128,10 @@
     "libpng",
     "libidn11",
     "libxml2",
+    "openblas",
+    "blas",
     "pysocks",
-    "singledispatch",
     "tornado",
-    "more-itertools",
     "pytest",
     "pyrsistent",
     "jsonschema",
@@ -175,6 +175,7 @@
     "freetype",
     "fontconfig",
     "ffmpeg",
+    "libarchive",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -184,7 +185,6 @@
     "gdk-pixbuf",
     "atk",
     "gtk2",
-    "libarchive",
     "qt",
     "pyqt",
     "matplotlib",
@@ -427,7 +427,8 @@
       "num_descendants": 4,
       "immediate_children": [
         "traitlets"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/enum34-feedstock/pull/9"
     },
     "expat": {
       "num_descendants": 161,
@@ -901,7 +902,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "notebook"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/markupsafe-feedstock/pull/12"
     },
     "matplotlib": {
       "num_descendants": 0,
@@ -918,7 +920,8 @@
       "num_descendants": 21,
       "immediate_children": [
         "pytest"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/more-itertools-feedstock/pull/11"
     },
     "msgpack-python": {
       "num_descendants": 1,
@@ -1537,7 +1540,8 @@
       "num_descendants": 6,
       "immediate_children": [
         "tornado"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/singledispatch-feedstock/pull/7"
     },
     "sip": {
       "num_descendants": 2,
@@ -1656,7 +1660,8 @@
       "num_descendants": 7,
       "immediate_children": [
         "pysocks"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/win_inet_pton-feedstock/pull/5"
     },
     "win_unicode_console": {
       "num_descendants": 3,
