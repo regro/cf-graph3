@@ -1,23 +1,24 @@
 {
   "done": [
+    "patch",
     "nasm",
-    "libgfortran",
+    "libuuid",
+    "jom",
+    "bzip2",
+    "vs2015_runtime",
+    "vs2008_runtime",
+    "vc",
+    "ca-certificates",
+    "toolchain3",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
-    "jom",
-    "bzip2",
-    "toolchain3",
-    "vs2008_runtime",
-    "vc",
-    "ca-certificates",
-    "libuuid",
-    "patch",
-    "vs2015_runtime",
+    "libgfortran",
     "msinttypes",
-    "xz",
+    "expat",
     "cmake",
+    "xz",
     "libiconv",
     "flex",
     "bison",
@@ -48,6 +49,7 @@
     "krb5",
     "icu",
     "giflib",
+    "dbus",
     "curl",
     "certifi",
     "setuptools",
@@ -55,10 +57,10 @@
     "pip",
     "six",
     "nose",
+    "idna",
+    "asn1crypto",
     "jpeg",
     "jasper",
-    "expat",
-    "dbus",
     "eigen"
   ],
   "in-pr": [
@@ -70,41 +72,39 @@
     "tini",
     "pcre",
     "libuv",
+    "git",
+    "psutil",
     "win_inet_pton",
+    "docutils",
     "singledispatch",
+    "subprocess32",
     "more-itertools",
     "markupsafe",
-    "idna",
+    "kiwisolver",
+    "futures",
     "enum34",
     "cython",
-    "asn1crypto",
-    "sed",
-    "git"
+    "sed"
   ],
   "awaiting-pr": [
     "pywin32",
-    "psutil",
-    "docutils",
     "win_unicode_console",
     "zope.interface",
-    "subprocess32",
     "scandir",
     "zipfile36",
     "pyzmq",
     "pexpect",
-    "kiwisolver",
     "jedi",
     "heapdict",
-    "futures",
     "configparser",
     "appnope"
   ],
   "awaiting-parents": [
+    "su-exec",
+    "winpty",
+    "c99-to-c89",
     "gmp",
     "nettle",
-    "winpty",
-    "su-exec",
-    "c99-to-c89",
     "pandoc",
     "xorg-util-macros",
     "xorg-xtrans",
@@ -140,6 +140,7 @@
     "pkgconfig",
     "lz4",
     "zstd",
+    "libarchive",
     "traitlets",
     "cytoolz",
     "pyyaml",
@@ -175,7 +176,6 @@
     "freetype",
     "fontconfig",
     "ffmpeg",
-    "libarchive",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -408,7 +408,8 @@
       "immediate_children": [
         "flit",
         "twisted"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/docutils-feedstock/pull/12"
     },
     "eigen": {
       "num_descendants": 1,
@@ -490,7 +491,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "distributed"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/futures-feedstock/pull/8"
     },
     "gawk": {
       "num_descendants": 161,
@@ -711,7 +713,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "matplotlib"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/kiwisolver-feedstock/pull/9"
     },
     "krb5": {
       "num_descendants": 161,
@@ -1226,7 +1229,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "distributed"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/psutil-feedstock/pull/35"
     },
     "pthread-stubs": {
       "num_descendants": 20,
@@ -1588,7 +1592,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "matplotlib"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/subprocess32-feedstock/pull/11"
     },
     "terminado": {
       "num_descendants": 1,
