@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-20T23:17:46Z",
-    "updated_at": "2019-02-20T23:17:50Z",
+    "updated_at": "2019-02-21T12:45:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "376a9a862f6a4f495a5984b2a43db8c7ccd897d2",
+    "merge_commit_sha": "fd06a230143ebd27b5cd9451e86e0f3264d23d16",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/statuses/723bdfe44004c2f2d8e2e8e9849ca44a872e507a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/statuses/937f9b9bd11769afa9bca92d8379a1b9188ee6b9",
     "head": {
         "label": "regro-cf-autotick-bot:0.16.3",
         "ref": "0.16.3",
-        "sha": "723bdfe44004c2f2d8e2e8e9849ca44a872e507a",
+        "sha": "937f9b9bd11769afa9bca92d8379a1b9188ee6b9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/nds2-client-feedstock/deployments",
             "created_at": "2018-10-04T00:15:25Z",
             "updated_at": "2018-10-04T00:15:27Z",
-            "pushed_at": "2019-02-20T23:17:46Z",
+            "pushed_at": "2019-02-21T12:45:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/nds2-client-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/nds2-client-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/nds2-client-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/nds2-client-feedstock",
             "homepage": null,
-            "size": 31,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/deployments",
             "created_at": "2018-08-17T11:29:23Z",
             "updated_at": "2018-11-13T19:42:48Z",
-            "pushed_at": "2019-02-20T23:17:47Z",
+            "pushed_at": "2019-02-21T12:45:07Z",
             "git_url": "git://github.com/conda-forge/nds2-client-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/nds2-client-feedstock.git",
             "clone_url": "https://github.com/conda-forge/nds2-client-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/statuses/723bdfe44004c2f2d8e2e8e9849ca44a872e507a"
+            "href": "https://api.github.com/repos/conda-forge/nds2-client-feedstock/statuses/937f9b9bd11769afa9bca92d8379a1b9188ee6b9"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 282,
-    "deletions": 135,
-    "changed_files": 18
+    "commits": 4,
+    "additions": 286,
+    "deletions": 168,
+    "changed_files": 20,
+    "Last-Modified": "Thu, 21 Feb 2019 12:45:06 GMT",
+    "ETag": "W/\"18ae01f856d11431995bc050ab39254c\""
 }
