@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-21T08:21:24Z",
-    "updated_at": "2019-02-21T08:21:48Z",
+    "updated_at": "2019-02-21T15:08:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "73310cc6b8afbc9a09b072bb011d24c82a8e03e2",
+    "merge_commit_sha": "d0b9d8cfb16e6a90644ca3a2a258cf23c3bd003e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/pulls/42/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/issues/42/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/statuses/b9c7bc046fcbfe057a80383034b2d5c024c04f78",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/statuses/3cda59c9fc0bf11b1437d0dbbbfb930eec093118",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "b9c7bc046fcbfe057a80383034b2d5c024c04f78",
+        "sha": "3cda59c9fc0bf11b1437d0dbbbfb930eec093118",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyzmq-feedstock/deployments",
             "created_at": "2018-06-29T23:39:28Z",
             "updated_at": "2018-06-29T23:39:30Z",
-            "pushed_at": "2019-02-21T08:21:23Z",
+            "pushed_at": "2019-02-21T15:08:48Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyzmq-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyzmq-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyzmq-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/deployments",
             "created_at": "2016-04-11T10:27:37Z",
             "updated_at": "2019-02-19T21:35:56Z",
-            "pushed_at": "2019-02-21T08:21:25Z",
+            "pushed_at": "2019-02-21T15:08:56Z",
             "git_url": "git://github.com/conda-forge/pyzmq-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyzmq-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyzmq-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/pulls/42/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/statuses/b9c7bc046fcbfe057a80383034b2d5c024c04f78"
+            "href": "https://api.github.com/repos/conda-forge/pyzmq-feedstock/statuses/3cda59c9fc0bf11b1437d0dbbbfb930eec093118"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 157,
-    "deletions": 0,
-    "changed_files": 8
+    "commits": 4,
+    "additions": 166,
+    "deletions": 13,
+    "changed_files": 18,
+    "Last-Modified": "Thu, 21 Feb 2019 15:08:49 GMT",
+    "ETag": "W/\"c3d1f4e5720555c85694164204062e2f\""
 }
