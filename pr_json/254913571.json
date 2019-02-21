@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/pywin32-feedstock/pull/16.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/pywin32-feedstock/issues/16",
     "number": 16,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Arch Migrator",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-21T07:27:26Z",
-    "updated_at": "2019-02-21T07:27:30Z",
-    "closed_at": null,
+    "updated_at": "2019-02-21T12:26:28Z",
+    "closed_at": "2019-02-21T12:26:28Z",
     "merged_at": null,
     "merge_commit_sha": "17b39d6df9d8c5b01a2a76a4ea030c1ad249387f",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 8,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -326,14 +326,16 @@
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\ncc: @conda-forge/arm-arch\nPlease don't close this PR without reaching out the the ARM migrators first",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 17,
     "deletions": 7,
-    "changed_files": 3
+    "changed_files": 3,
+    "Last-Modified": "Thu, 21 Feb 2019 12:26:28 GMT",
+    "ETag": "W/\"6eee9ab1dbc72a9528efe69a3966e23c\""
 }
