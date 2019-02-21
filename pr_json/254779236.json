@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-20T20:16:48Z",
-    "updated_at": "2019-02-20T20:16:53Z",
+    "updated_at": "2019-02-21T10:58:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f7483c3aba41b27871b806fe46ac7484e5fac812",
+    "merge_commit_sha": "545a76bd003a434a842cdf818d28ba5f3f60d96f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/statuses/cab0ed048d6ce192eb4c561b76f79266453741d2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/statuses/ff4edfb4ede59c30713cec5bc1c7acd49e573435",
     "head": {
         "label": "regro-cf-autotick-bot:2.0.0",
         "ref": "2.0.0",
-        "sha": "cab0ed048d6ce192eb4c561b76f79266453741d2",
+        "sha": "ff4edfb4ede59c30713cec5bc1c7acd49e573435",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/django-redis-cache-feedstock/deployments",
             "created_at": "2018-07-05T09:07:26Z",
             "updated_at": "2018-07-05T09:07:27Z",
-            "pushed_at": "2019-02-20T20:16:48Z",
+            "pushed_at": "2019-02-21T10:58:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/django-redis-cache-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/django-redis-cache-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/django-redis-cache-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "88666be2b6bf6371b3ce12ff3dbc8bb692de85f7",
+        "sha": "67caa81ff045fb8011606461b350e72b8b9b2f32",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/deployments",
             "created_at": "2016-03-24T17:51:58Z",
-            "updated_at": "2018-11-06T10:44:23Z",
-            "pushed_at": "2019-02-20T20:16:49Z",
+            "updated_at": "2019-02-21T10:57:37Z",
+            "pushed_at": "2019-02-21T10:58:06Z",
             "git_url": "git://github.com/conda-forge/django-redis-cache-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/django-redis-cache-feedstock.git",
             "clone_url": "https://github.com/conda-forge/django-redis-cache-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/statuses/cab0ed048d6ce192eb4c561b76f79266453741d2"
+            "href": "https://api.github.com/repos/conda-forge/django-redis-cache-feedstock/statuses/ff4edfb4ede59c30713cec5bc1c7acd49e573435"
         }
     },
     "author_association": "NONE",
@@ -326,14 +326,16 @@
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 172,
-    "deletions": 16,
-    "changed_files": 11
+    "commits": 4,
+    "additions": 173,
+    "deletions": 17,
+    "changed_files": 11,
+    "Last-Modified": "Thu, 21 Feb 2019 10:58:06 GMT",
+    "ETag": "W/\"d4025cb8afbb56ce762cc06c91d8cb96\""
 }
