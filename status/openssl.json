@@ -1,68 +1,68 @@
 {
   "done": [],
   "in-pr": [
-    "ldas-tools-al",
-    "libssh2",
-    "qt",
-    "r-openssl",
-    "r-pki",
     "libarchive",
-    "libevent",
-    "ffmpeg",
-    "krb5",
-    "python"
-  ],
-  "awaiting-pr": [
     "davix",
-    "socat",
-    "tectonic",
-    "nginx",
-    "w3m",
-    "mysql-connector-c",
-    "pari",
-    "poco",
-    "ruby",
-    "lynx",
+    "ffmpeg",
     "librdkafka",
     "freetds",
+    "python",
+    "libevent",
+    "krb5",
+    "pari",
+    "mysql-connector-c",
+    "r-openssl",
+    "ldas-tools-al",
+    "r-pki",
+    "qt",
+    "libssh2"
+  ],
+  "awaiting-pr": [
+    "ruby",
+    "tectonic",
     "fossil",
     "erlang",
+    "socat",
+    "w3m",
+    "poco",
+    "mosh",
     "grpc-cpp",
-    "mosh"
+    "nginx",
+    "lynx"
   ],
   "awaiting-parents": [
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "r-git2r",
     "singularity",
-    "thrift-cpp",
-    "sstp-client",
-    "clickhouse-odbc",
-    "postgres-xl",
-    "lighttpd",
-    "cyrus-sasl",
-    "openldap",
-    "curl",
-    "aws-sdk-cpp",
-    "libgit2",
-    "git",
-    "octave",
-    "xrootd",
-    "root",
-    "pyctest",
     "pypy3.5",
     "cryptography",
     "uwsgi",
     "scrypt",
     "salt",
     "pylibscrypt",
-    "postgresql",
-    "psycopg2",
     "m2crypto",
     "lftp",
+    "thrift-cpp",
+    "sstp-client",
+    "postgres-xl",
+    "postgresql",
+    "psycopg2",
+    "lighttpd",
+    "cyrus-sasl",
+    "openldap",
+    "clickhouse-odbc",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "r-git2r",
+    "curl",
+    "xrootd",
+    "root",
+    "pyctest",
     "gdal",
-    "entwine"
+    "entwine",
+    "aws-sdk-cpp",
+    "libgit2",
+    "octave",
+    "git"
   ],
   "_feedstock_status": {
     "curl": {
@@ -95,7 +95,8 @@
     },
     "freetds": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/freetds-feedstock/pull/12"
     },
     "gdal": {
       "num_descendants": 1,
@@ -143,7 +144,8 @@
     },
     "librdkafka": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/librdkafka-feedstock/pull/27"
     },
     "libssh2": {
       "num_descendants": 11,
@@ -173,7 +175,8 @@
     },
     "mysql-connector-c": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mysql-connector-c-feedstock/pull/6"
     },
     "nginx": {
       "num_descendants": 0,
@@ -185,7 +188,8 @@
     },
     "pari": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pari-feedstock/pull/14"
     },
     "postgresql": {
       "num_descendants": 4,
@@ -366,7 +370,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "root"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/davix-feedstock/pull/7"
     },
     "root": {
       "num_descendants": 0,
