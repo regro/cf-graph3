@@ -1,40 +1,43 @@
 {
   "done": [],
   "in-pr": [
-    "davix",
-    "libevent",
-    "libssh2",
-    "mysql-connector-c",
-    "pari",
-    "librdkafka",
-    "libarchive",
-    "erlang",
-    "krb5",
-    "ffmpeg",
     "freetds",
-    "r-pki",
-    "tectonic",
-    "python",
-    "qt",
-    "poco",
+    "libssh2",
+    "libevent",
+    "libarchive",
+    "librdkafka",
+    "grpc-cpp",
     "ldas-tools-al",
+    "ffmpeg",
+    "erlang",
+    "lynx",
+    "mosh",
+    "qt",
+    "pari",
+    "davix",
+    "r-pki",
     "w3m",
+    "krb5",
+    "r-openssl",
+    "tectonic",
+    "poco",
     "nginx",
-    "r-openssl"
+    "socat",
+    "python",
+    "ruby",
+    "mysql-connector-c"
   ],
   "awaiting-pr": [
-    "socat",
-    "grpc-cpp",
-    "fossil",
-    "mosh",
-    "ruby",
-    "lynx"
+    "fossil"
   ],
   "awaiting-parents": [
+    "r-git2r",
     "thrift-cpp",
     "sstp-client",
-    "r-git2r",
     "singularity",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
@@ -43,7 +46,10 @@
     "aws-sdk-cpp",
     "libgit2",
     "git",
+    "clickhouse-odbc",
+    "octave",
     "xrootd",
+    "root",
     "pyctest",
     "pypy3.5",
     "cryptography",
@@ -56,13 +62,7 @@
     "m2crypto",
     "lftp",
     "gdal",
-    "entwine",
-    "root",
-    "octave",
-    "clickhouse-odbc",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi"
+    "entwine"
   ],
   "_feedstock_status": {
     "curl": {
@@ -164,7 +164,8 @@
     },
     "lynx": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/lynx-feedstock/pull/4"
     },
     "m2crypto": {
       "num_descendants": 0,
@@ -172,7 +173,8 @@
     },
     "mosh": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mosh-feedstock/pull/10"
     },
     "mysql-connector-c": {
       "num_descendants": 0,
@@ -256,7 +258,8 @@
     },
     "ruby": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/ruby-feedstock/pull/16"
     },
     "salt": {
       "num_descendants": 0,
@@ -274,7 +277,8 @@
     },
     "socat": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/socat-feedstock/pull/4"
     },
     "tectonic": {
       "num_descendants": 0,
@@ -384,7 +388,8 @@
     },
     "grpc-cpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/grpc-cpp-feedstock/pull/4"
     },
     "fossil": {
       "num_descendants": 0,
