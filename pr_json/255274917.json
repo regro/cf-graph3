@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/librdkafka-feedstock/pull/27.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/librdkafka-feedstock/issues/27",
     "number": 27,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for OpenSSL",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-22T05:18:59Z",
-    "updated_at": "2019-02-22T05:19:04Z",
-    "closed_at": null,
+    "updated_at": "2019-02-22T15:11:12Z",
+    "closed_at": "2019-02-22T15:11:12Z",
     "merged_at": null,
     "merge_commit_sha": "f860c2ebada38988636c3f4153f0adb5653edbf5",
     "assignee": null,
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -326,14 +326,16 @@
     "body_text": "This PR has been triggered in an effort to update OpenSSL.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\n\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 2
+    "changed_files": 2,
+    "Last-Modified": "Fri, 22 Feb 2019 15:11:12 GMT",
+    "ETag": "W/\"3951948382a49ca7da2e13ed715e7d71\""
 }
