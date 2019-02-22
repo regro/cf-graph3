@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|r-ergm|3.9.4|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/r-ergm.svg)](https://anaconda.org/conda-forge/r-ergm)|\n|r-robustbase|0.93_3|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/r-robustbase.svg)](https://anaconda.org/conda-forge/r-robustbase)|\n|r-coda|0.19_2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/r-coda.svg)](https://anaconda.org/conda-forge/r-coda)|\n",
     "created_at": "2019-02-20T02:20:47Z",
-    "updated_at": "2019-02-20T02:21:43Z",
+    "updated_at": "2019-02-22T21:04:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a22c2ae2926061192da5f906af57bfe07b24b1e7",
+    "merge_commit_sha": "827a5e61f3c67af8be76d11631622848c0529342",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/statuses/659931a7a660b43c5dab8fdebc75aab300d2ed93",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/statuses/91442efbe6e386287d7537f7212da1e865bf14ee",
     "head": {
         "label": "regro-cf-autotick-bot:3.5.2",
         "ref": "3.5.2",
-        "sha": "659931a7a660b43c5dab8fdebc75aab300d2ed93",
+        "sha": "91442efbe6e386287d7537f7212da1e865bf14ee",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-tergm-feedstock/deployments",
             "created_at": "2018-11-19T14:26:21Z",
             "updated_at": "2018-11-19T14:26:23Z",
-            "pushed_at": "2019-02-20T02:20:47Z",
+            "pushed_at": "2019-02-22T21:04:25Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-tergm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-tergm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-tergm-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-tergm-feedstock",
             "homepage": null,
-            "size": 23,
+            "size": 26,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/deployments",
             "created_at": "2018-06-23T18:16:46Z",
             "updated_at": "2018-11-19T18:02:12Z",
-            "pushed_at": "2019-02-20T02:20:48Z",
+            "pushed_at": "2019-02-22T21:04:26Z",
             "git_url": "git://github.com/conda-forge/r-tergm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-tergm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-tergm-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/statuses/659931a7a660b43c5dab8fdebc75aab300d2ed93"
+            "href": "https://api.github.com/repos/conda-forge/r-tergm-feedstock/statuses/91442efbe6e386287d7537f7212da1e865bf14ee"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 388,
-    "deletions": 126,
-    "changed_files": 18
+    "commits": 3,
+    "additions": 446,
+    "deletions": 142,
+    "changed_files": 19,
+    "Last-Modified": "Fri, 22 Feb 2019 21:04:25 GMT",
+    "ETag": "W/\"bb0d59ea8f34a7d1da8a4caa8e8c2634\""
 }

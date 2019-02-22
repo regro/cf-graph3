@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|botocore|1.12.101|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/botocore.svg)](https://anaconda.org/conda-forge/botocore)|\n",
     "created_at": "2019-02-22T20:14:24Z",
-    "updated_at": "2019-02-22T20:14:29Z",
+    "updated_at": "2019-02-22T21:34:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9180909e9cdc33d33dd1d9f316832a779ee2cb17",
+    "merge_commit_sha": "c3547b302a9afd90650a8cc835cbc2cdc7fd0d45",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/awscli-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/awscli-feedstock",
             "homepage": null,
-            "size": 291,
+            "size": 295,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -336,6 +336,6 @@
     "additions": 3,
     "deletions": 3,
     "changed_files": 2,
-    "Last-Modified": "Fri, 22 Feb 2019 20:14:29 GMT",
-    "ETag": "W/\"88f0922c490b18a47bbd68eb20d9dbf4\""
+    "Last-Modified": "Fri, 22 Feb 2019 21:34:37 GMT",
+    "ETag": "W/\"ba66e8793743aa30f26edc804935b41e\""
 }
