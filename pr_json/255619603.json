@@ -9,7 +9,7 @@
     "number": 240,
     "state": "open",
     "locked": false,
-    "title": "hypothesis v4.7.7",
+    "title": "hypothesis aarch",
     "user": {
         "login": "regro-cf-autotick-bot",
         "id": 36490558,
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-23T15:15:15Z",
-    "updated_at": "2019-02-23T15:15:20Z",
+    "updated_at": "2019-02-24T18:05:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1b316bbf944aa97450a7ba96d717082eb4991f91",
+    "merge_commit_sha": "4d9316cf8a8ce5346c4a76cfb3dcd64f815dcbc8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/pulls/240/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/issues/240/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/statuses/bce9d6e27401552da2f7a54bacdc970754e98cd9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/statuses/092b5577696f7be728899481a4c0639164a827a3",
     "head": {
         "label": "regro-cf-autotick-bot:4.7.7",
         "ref": "4.7.7",
-        "sha": "bce9d6e27401552da2f7a54bacdc970754e98cd9",
+        "sha": "092b5577696f7be728899481a4c0639164a827a3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hypothesis-feedstock/deployments",
             "created_at": "2018-03-01T21:52:53Z",
             "updated_at": "2018-03-01T21:52:54Z",
-            "pushed_at": "2019-02-24T10:10:29Z",
+            "pushed_at": "2019-02-24T18:04:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hypothesis-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hypothesis-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hypothesis-feedstock.git",
@@ -154,7 +154,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 0,
@@ -165,7 +165,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "1e3c6b1ee3e435ca0683c6020d9dac0a702d2894",
+        "sha": "0cc7452efd65d3ff84eeaa1547b039fa35d48ce2",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/deployments",
             "created_at": "2016-07-24T21:19:11Z",
             "updated_at": "2019-02-24T09:58:42Z",
-            "pushed_at": "2019-02-24T09:58:40Z",
+            "pushed_at": "2019-02-24T18:05:00Z",
             "git_url": "git://github.com/conda-forge/hypothesis-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hypothesis-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hypothesis-feedstock.git",
@@ -278,7 +278,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 11,
+            "forks_count": 12,
             "mirror_url": null,
             "archived": false,
             "open_issues_count": 1,
@@ -289,7 +289,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 11,
+            "forks": 12,
             "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
@@ -318,24 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/pulls/240/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/statuses/bce9d6e27401552da2f7a54bacdc970754e98cd9"
+            "href": "https://api.github.com/repos/conda-forge/hypothesis-feedstock/statuses/092b5577696f7be728899481a4c0639164a827a3"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
+    "mergeable": true,
     "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1,
-    "Last-Modified": "Sat, 23 Feb 2019 15:15:20 GMT",
-    "ETag": "W/\"cb76b6cd1b094d6ac01647379e58bc9f\""
+    "commits": 4,
+    "additions": 121,
+    "deletions": 1,
+    "changed_files": 8,
+    "Last-Modified": "Sun, 24 Feb 2019 18:05:19 GMT",
+    "ETag": "W/\"09a65f0608066e279d27e76ce062532d\""
 }
