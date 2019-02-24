@@ -32,7 +32,7 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-24T04:19:26Z",
-    "updated_at": "2019-02-24T15:41:17Z",
+    "updated_at": "2019-02-24T20:07:53Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "6b3d6138ec8b4e103a83702c5ad8794809da7372",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numpy-feedstock/deployments",
             "created_at": "2016-05-20T11:52:36Z",
             "updated_at": "2019-02-01T12:14:20Z",
-            "pushed_at": "2019-02-24T18:46:36Z",
+            "pushed_at": "2019-02-24T20:55:14Z",
             "git_url": "git://github.com/conda-forge/numpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numpy-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 28,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 8,
+            "open_issues_count": 7,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 28,
-            "open_issues": 8,
+            "open_issues": 7,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 287,
     "deletions": 2,
-    "changed_files": 13
+    "changed_files": 13,
+    "Last-Modified": "Sun, 24 Feb 2019 20:07:53 GMT",
+    "ETag": "W/\"86baa23b65d426f5c56d933831b6e1e3\""
 }
