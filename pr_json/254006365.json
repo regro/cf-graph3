@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T18:15:13Z",
-    "updated_at": "2019-02-24T17:45:06Z",
+    "updated_at": "2019-02-24T19:59:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b2b1c64239fd07eae0f2ac230fced1aacbda9ae2",
+    "merge_commit_sha": "e51ff831198a78eec83a88a084e5c831fd892583",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/statuses/bf0c19d8c2d747ed71a3980ff362b2d09a2423ae",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/statuses/a20a2c072511bf5b033a03c1a6170c1eab3f27fc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "bf0c19d8c2d747ed71a3980ff362b2d09a2423ae",
+        "sha": "a20a2c072511bf5b033a03c1a6170c1eab3f27fc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gawk-feedstock/deployments",
             "created_at": "2018-03-16T18:14:55Z",
             "updated_at": "2018-03-16T18:14:57Z",
-            "pushed_at": "2019-02-18T22:11:46Z",
+            "pushed_at": "2019-02-24T19:59:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gawk-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gawk-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gawk-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gawk-feedstock/deployments",
             "created_at": "2018-01-06T19:36:19Z",
             "updated_at": "2018-09-14T00:05:35Z",
-            "pushed_at": "2019-02-18T22:11:47Z",
+            "pushed_at": "2019-02-24T19:59:12Z",
             "git_url": "git://github.com/conda-forge/gawk-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gawk-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gawk-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gawk-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gawk-feedstock/statuses/bf0c19d8c2d747ed71a3980ff362b2d09a2423ae"
+            "href": "https://api.github.com/repos/conda-forge/gawk-feedstock/statuses/a20a2c072511bf5b033a03c1a6170c1eab3f27fc"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 13,
+    "comments": 17,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 356,
+    "commits": 7,
+    "additions": 361,
     "deletions": 111,
     "changed_files": 24,
-    "Last-Modified": "Sun, 24 Feb 2019 17:45:06 GMT",
-    "ETag": "W/\"c7c0b7f68f370f0410b9978dacdad8fc\""
+    "Last-Modified": "Sun, 24 Feb 2019 19:59:28 GMT",
+    "ETag": "W/\"a133bff0b3ea521037978267368b8e7e\""
 }
