@@ -1,14 +1,7 @@
 {
   "done": [
-    "vs2015_runtime",
-    "nasm",
-    "ca-certificates",
     "libuuid",
-    "toolchain3",
-    "vs2008_runtime",
-    "vc",
-    "msinttypes",
-    "patch",
+    "vs2015_runtime",
     "jom",
     "bzip2",
     "libgfortran",
@@ -16,6 +9,14 @@
     "automake",
     "help2man",
     "libtool",
+    "msinttypes",
+    "patch",
+    "nasm",
+    "vs2008_runtime",
+    "vc",
+    "ca-certificates",
+    "toolchain3",
+    "libiconv",
     "flex",
     "bison",
     "binutils",
@@ -50,7 +51,6 @@
     "tini",
     "pcre",
     "lzo",
-    "libiconv",
     "jpeg",
     "jasper",
     "expat",
@@ -74,6 +74,7 @@
     "pyzmq",
     "pexpect",
     "more-itertools",
+    "pytest",
     "pathlib2",
     "nose",
     "markupsafe",
@@ -101,18 +102,20 @@
     "libuv",
     "x264",
     "psutil",
-    "pytest",
+    "pyrsistent",
     "pickleshare",
     "numpy",
+    "chardet",
     "sed"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "gmp",
     "su-exec",
     "winpty",
-    "c99-to-c89",
-    "gmp",
     "nettle",
+    "c99-to-c89",
+    "libidn11",
     "xorg-util-macros",
     "xorg-xtrans",
     "xorg-xproto",
@@ -133,16 +136,12 @@
     "xorg-libsm",
     "xorg-libxt",
     "pandoc",
+    "libxml2",
     "openblas",
     "blas",
     "libpng",
-    "libxml2",
-    "libidn11",
     "hdf5",
-    "graphite2",
-    "freetype",
     "tornado",
-    "pyrsistent",
     "jsonschema",
     "pkgconfig",
     "lz4",
@@ -156,7 +155,6 @@
     "scikit-learn",
     "pandas",
     "distributed",
-    "chardet",
     "ipython",
     "ipykernel",
     "cffi",
@@ -171,9 +169,11 @@
     "notebook",
     "gperf",
     "gnutls",
-    "ffmpeg",
     "glib",
+    "graphite2",
+    "freetype",
     "fontconfig",
+    "ffmpeg",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -320,7 +320,8 @@
       "num_descendants": 5,
       "immediate_children": [
         "requests"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/chardet-feedstock/pull/16"
     },
     "cmake": {
       "num_descendants": 161,
@@ -2045,7 +2046,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "jsonschema"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/pyrsistent-feedstock/pull/9"
     }
   }
 }
