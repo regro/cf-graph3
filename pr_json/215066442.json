@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-12T19:13:50Z",
-    "updated_at": "2019-02-02T18:56:00Z",
+    "updated_at": "2019-02-25T06:01:54Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bca461b3e3ff2a1c43c0b77d6aa774b998a39808",
+    "merge_commit_sha": "b9a16696c37546b5eb9b5a980b5108b27346c666",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/statuses/6f9b5311b66aae196ded7fd6e469ed13926489b4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/statuses/3d99b8fd95700f7a35bb37d706f7280c7c37903e",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "6f9b5311b66aae196ded7fd6e469ed13926489b4",
+        "sha": "3d99b8fd95700f7a35bb37d706f7280c7c37903e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tetgen-feedstock/deployments",
             "created_at": "2018-03-17T22:46:56Z",
             "updated_at": "2018-03-17T22:46:58Z",
-            "pushed_at": "2019-02-02T18:55:59Z",
+            "pushed_at": "2019-02-25T06:01:42Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tetgen-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tetgen-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tetgen-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tetgen-feedstock/deployments",
             "created_at": "2017-06-25T12:57:42Z",
             "updated_at": "2018-08-04T18:37:43Z",
-            "pushed_at": "2019-02-02T18:56:01Z",
+            "pushed_at": "2019-02-25T06:01:43Z",
             "git_url": "git://github.com/conda-forge/tetgen-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tetgen-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tetgen-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tetgen-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tetgen-feedstock/statuses/6f9b5311b66aae196ded7fd6e469ed13926489b4"
+            "href": "https://api.github.com/repos/conda-forge/tetgen-feedstock/statuses/3d99b8fd95700f7a35bb37d706f7280c7c37903e"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 606,
-    "deletions": 147,
-    "changed_files": 27,
-    "Last-Modified": "Sat, 02 Feb 2019 18:56:00 GMT",
-    "ETag": "W/\"07e708921cb03a3a6a123e0ac5c8b1d0\""
+    "commits": 7,
+    "additions": 652,
+    "deletions": 188,
+    "changed_files": 28,
+    "Last-Modified": "Mon, 25 Feb 2019 06:01:54 GMT",
+    "ETag": "W/\"956aecd48f1695f2c719a901ba63e66f\""
 }
