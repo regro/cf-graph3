@@ -1,56 +1,40 @@
 {
   "done": [],
   "in-pr": [
-    "libssh2",
     "krb5",
+    "python",
     "r-openssl",
     "qt",
-    "python"
+    "r-pki",
+    "ldas-tools-al",
+    "libarchive",
+    "libevent",
+    "ffmpeg",
+    "libssh2"
   ],
   "awaiting-pr": [
-    "libevent",
-    "poco",
-    "ffmpeg",
-    "erlang",
-    "grpc-cpp",
-    "w3m",
-    "pari",
-    "mosh",
-    "freetds",
-    "lynx",
-    "socat",
-    "ruby",
-    "nginx",
-    "tectonic",
-    "libarchive",
-    "ldas-tools-al",
     "fossil",
-    "mysql-connector-c",
+    "grpc-cpp",
+    "freetds",
+    "w3m",
+    "nginx",
+    "pari",
+    "socat",
+    "erlang",
+    "poco",
     "librdkafka",
     "davix",
-    "r-pki"
+    "tectonic",
+    "ruby",
+    "mysql-connector-c",
+    "lynx",
+    "mosh"
   ],
   "awaiting-parents": [
-    "thrift-cpp",
-    "sstp-client",
-    "clickhouse-odbc",
-    "r-git2r",
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "curl",
-    "aws-sdk-cpp",
-    "libgit2",
-    "git",
-    "singularity",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "octave",
-    "xrootd",
-    "root",
-    "pyctest",
     "pypy3.5",
     "cryptography",
     "uwsgi",
@@ -61,8 +45,24 @@
     "psycopg2",
     "m2crypto",
     "lftp",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "singularity",
+    "thrift-cpp",
+    "sstp-client",
+    "clickhouse-odbc",
+    "r-git2r",
+    "curl",
+    "xrootd",
+    "root",
+    "pyctest",
     "gdal",
-    "entwine"
+    "entwine",
+    "aws-sdk-cpp",
+    "libgit2",
+    "octave",
+    "git"
   ],
   "_feedstock_status": {
     "curl": {
@@ -90,7 +90,8 @@
     },
     "ffmpeg": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/ffmpeg-feedstock/pull/73"
     },
     "freetds": {
       "num_descendants": 0,
@@ -129,14 +130,16 @@
       "num_descendants": 1,
       "immediate_children": [
         "singularity"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libarchive-feedstock/pull/28"
     },
     "libevent": {
       "num_descendants": 2,
       "immediate_children": [
         "sstp-client",
         "thrift-cpp"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/libevent-feedstock/pull/9"
     },
     "librdkafka": {
       "num_descendants": 0,
@@ -242,7 +245,8 @@
     },
     "r-pki": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/r-pki-feedstock/pull/8"
     },
     "ruby": {
       "num_descendants": 0,
@@ -311,7 +315,8 @@
       "immediate_children": [
         "ldas-tools-framecpp",
         "ldas-tools-ldasgen"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ldas-tools-al-feedstock/pull/6"
     },
     "ldas-tools-framecpp": {
       "num_descendants": 1,
