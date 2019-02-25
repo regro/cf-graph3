@@ -1,42 +1,41 @@
 {
   "done": [],
   "in-pr": [
+    "nginx",
+    "ldas-tools-al",
+    "freetds",
+    "qt",
+    "libevent",
+    "r-openssl",
+    "ffmpeg",
+    "python",
+    "w3m",
     "pari",
     "davix",
-    "mysql-connector-c",
-    "ldas-tools-al",
-    "libarchive",
-    "libssh2",
-    "ffmpeg",
-    "r-openssl",
-    "qt",
-    "python",
-    "libevent",
-    "freetds",
-    "librdkafka",
     "krb5",
+    "erlang",
+    "libarchive",
+    "poco",
+    "libssh2",
+    "librdkafka",
+    "mysql-connector-c",
+    "tectonic",
     "r-pki"
   ],
   "awaiting-pr": [
-    "w3m",
     "grpc-cpp",
-    "socat",
-    "ruby",
-    "erlang",
-    "nginx",
-    "poco",
     "mosh",
-    "tectonic",
     "lynx",
-    "fossil"
+    "ruby",
+    "fossil",
+    "socat"
   ],
   "awaiting-parents": [
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
     "ldas-tools-frameapi",
-    "singularity",
-    "r-git2r",
-    "clickhouse-odbc",
+    "thrift-cpp",
+    "sstp-client",
     "pypy3.5",
     "cryptography",
     "uwsgi",
@@ -45,14 +44,15 @@
     "pylibscrypt",
     "m2crypto",
     "lftp",
-    "thrift-cpp",
-    "sstp-client",
     "postgres-xl",
     "postgresql",
     "psycopg2",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
+    "singularity",
+    "clickhouse-odbc",
+    "r-git2r",
     "curl",
     "xrootd",
     "root",
@@ -86,7 +86,8 @@
     },
     "erlang": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/erlang-feedstock/pull/36"
     },
     "ffmpeg": {
       "num_descendants": 0,
@@ -180,7 +181,8 @@
     },
     "nginx": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/nginx-feedstock/pull/23"
     },
     "octave": {
       "num_descendants": 0,
@@ -276,7 +278,8 @@
     },
     "tectonic": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/tectonic-feedstock/pull/17"
     },
     "uwsgi": {
       "num_descendants": 0,
@@ -284,7 +287,8 @@
     },
     "w3m": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/w3m-feedstock/pull/7"
     },
     "postgres-xl": {
       "num_descendants": 0,
@@ -350,7 +354,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "clickhouse-odbc"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/poco-feedstock/pull/4"
     },
     "clickhouse-odbc": {
       "num_descendants": 0,
