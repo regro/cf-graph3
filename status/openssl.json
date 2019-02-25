@@ -1,57 +1,57 @@
 {
-  "done": [],
+  "done": [
+    "libarchive"
+  ],
   "in-pr": [
-    "nginx",
-    "ldas-tools-al",
-    "freetds",
-    "qt",
-    "libevent",
-    "r-openssl",
-    "ffmpeg",
-    "python",
     "w3m",
+    "libevent",
     "pari",
-    "davix",
-    "krb5",
     "erlang",
-    "libarchive",
-    "poco",
-    "libssh2",
+    "mosh",
+    "nginx",
+    "qt",
+    "r-pki",
     "librdkafka",
-    "mysql-connector-c",
+    "singularity",
     "tectonic",
-    "r-pki"
+    "ldas-tools-al",
+    "krb5",
+    "ruby",
+    "python",
+    "davix",
+    "lynx",
+    "freetds",
+    "libssh2",
+    "socat",
+    "mysql-connector-c",
+    "ffmpeg",
+    "poco",
+    "r-openssl"
   ],
   "awaiting-pr": [
-    "grpc-cpp",
-    "mosh",
-    "lynx",
-    "ruby",
     "fossil",
-    "socat"
+    "grpc-cpp"
   ],
   "awaiting-parents": [
+    "thrift-cpp",
+    "sstp-client",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
     "ldas-tools-frameapi",
-    "thrift-cpp",
-    "sstp-client",
+    "postgres-xl",
+    "lighttpd",
+    "cyrus-sasl",
+    "openldap",
     "pypy3.5",
     "cryptography",
     "uwsgi",
     "scrypt",
     "salt",
     "pylibscrypt",
-    "m2crypto",
-    "lftp",
-    "postgres-xl",
     "postgresql",
     "psycopg2",
-    "lighttpd",
-    "cyrus-sasl",
-    "openldap",
-    "singularity",
-    "clickhouse-odbc",
+    "m2crypto",
+    "lftp",
     "r-git2r",
     "curl",
     "xrootd",
@@ -62,7 +62,8 @@
     "aws-sdk-cpp",
     "libgit2",
     "octave",
-    "git"
+    "git",
+    "clickhouse-odbc"
   ],
   "_feedstock_status": {
     "curl": {
@@ -164,7 +165,8 @@
     },
     "lynx": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/lynx-feedstock/pull/5"
     },
     "m2crypto": {
       "num_descendants": 0,
@@ -172,7 +174,8 @@
     },
     "mosh": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mosh-feedstock/pull/11"
     },
     "mysql-connector-c": {
       "num_descendants": 0,
@@ -256,7 +259,8 @@
     },
     "ruby": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/ruby-feedstock/pull/17"
     },
     "salt": {
       "num_descendants": 0,
@@ -270,11 +274,13 @@
     },
     "singularity": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/singularity-feedstock/pull/16"
     },
     "socat": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/socat-feedstock/pull/6"
     },
     "tectonic": {
       "num_descendants": 0,
