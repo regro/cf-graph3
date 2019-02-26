@@ -1,39 +1,39 @@
 {
   "done": [
     "libarchive",
-    "davix"
+    "davix",
+    "ldas-tools-al"
   ],
   "in-pr": [
-    "libevent",
-    "ruby",
-    "singularity",
-    "qt",
-    "nginx",
-    "libssh2",
-    "librdkafka",
-    "r-openssl",
-    "lynx",
-    "tectonic",
-    "grpc-cpp",
-    "fossil",
-    "krb5",
-    "poco",
-    "pari",
-    "erlang",
-    "r-pki",
-    "mosh",
-    "socat",
     "ffmpeg",
-    "mysql-connector-c",
-    "w3m",
-    "ldas-tools-al",
     "freetds",
-    "python"
+    "libssh2",
+    "krb5",
+    "ruby",
+    "socat",
+    "r-openssl",
+    "tectonic",
+    "lynx",
+    "w3m",
+    "pari",
+    "fossil",
+    "libevent",
+    "r-pki",
+    "python",
+    "grpc-cpp",
+    "singularity",
+    "librdkafka",
+    "mysql-connector-c",
+    "mosh",
+    "qt",
+    "erlang",
+    "nginx",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "poco"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "thrift-cpp",
-    "sstp-client",
     "r-git2r",
     "postgres-xl",
     "lighttpd",
@@ -43,13 +43,9 @@
     "aws-sdk-cpp",
     "libgit2",
     "git",
-    "clickhouse-odbc",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "octave",
+    "thrift-cpp",
+    "sstp-client",
     "xrootd",
-    "root",
     "pyctest",
     "pypy3.5",
     "cryptography",
@@ -62,7 +58,11 @@
     "m2crypto",
     "lftp",
     "gdal",
-    "entwine"
+    "entwine",
+    "octave",
+    "root",
+    "ldas-tools-frameapi",
+    "clickhouse-odbc"
   ],
   "_feedstock_status": {
     "curl": {
@@ -335,7 +335,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "ldas-tools-frameapi"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ldas-tools-framecpp-feedstock/pull/9"
     },
     "pyctest": {
       "num_descendants": 0,
@@ -353,7 +354,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "ldas-tools-frameapi"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/ldas-tools-ldasgen-feedstock/pull/3"
     },
     "poco": {
       "num_descendants": 1,
