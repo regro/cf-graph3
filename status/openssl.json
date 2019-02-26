@@ -1,69 +1,68 @@
 {
   "done": [
-    "lynx",
     "ldas-tools-al",
     "ldas-tools-framecpp",
-    "libevent",
-    "nginx",
-    "mosh",
-    "socat",
-    "python",
     "librdkafka",
     "libarchive",
+    "socat",
+    "lynx",
     "davix",
+    "libssh2",
     "erlang",
-    "libssh2"
+    "libevent",
+    "python",
+    "nginx",
+    "mosh"
   ],
   "in-pr": [
-    "poco",
-    "krb5",
-    "grpc-cpp",
     "qt",
-    "r-pki",
+    "tectonic",
+    "krb5",
+    "w3m",
+    "poco",
     "ldas-tools-ldasgen",
+    "singularity",
+    "r-pki",
+    "pari",
+    "fossil",
+    "r-git2r",
+    "mysql-connector-c",
     "thrift-cpp",
     "sstp-client",
-    "mysql-connector-c",
-    "tectonic",
-    "ffmpeg",
-    "r-openssl",
-    "freetds",
+    "pypy3.5",
     "cryptography",
     "uwsgi",
     "scrypt",
     "salt",
     "m2crypto",
-    "fossil",
+    "lftp",
+    "freetds",
+    "ffmpeg",
     "ruby",
-    "singularity",
-    "w3m",
-    "r-git2r",
-    "pari"
+    "grpc-cpp",
+    "r-openssl"
   ],
-  "awaiting-pr": [
-    "pypy3.5",
-    "lftp"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
-    "clickhouse-odbc",
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
+    "clickhouse-odbc",
     "ldas-tools-frameapi",
-    "pylibscrypt",
-    "postgresql",
-    "psycopg2",
     "curl",
+    "aws-sdk-cpp",
+    "libgit2",
+    "git",
+    "octave",
     "xrootd",
     "root",
     "pyctest",
+    "pylibscrypt",
+    "postgresql",
+    "psycopg2",
     "gdal",
-    "entwine",
-    "aws-sdk-cpp",
-    "libgit2",
-    "octave",
-    "git"
+    "entwine"
   ],
   "_feedstock_status": {
     "curl": {
@@ -127,7 +126,8 @@
     },
     "lftp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/lftp-feedstock/pull/11"
     },
     "libarchive": {
       "num_descendants": 1,
@@ -325,7 +325,8 @@
     },
     "pypy3.5": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pypy3.5-feedstock/pull/12"
     },
     "sstp-client": {
       "num_descendants": 0,
