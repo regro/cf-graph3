@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-25T21:30:13Z",
-    "updated_at": "2019-02-25T21:30:19Z",
+    "updated_at": "2019-02-26T22:07:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "34d00844d7012a4e8de3485b426ef20b2df16516",
+    "merge_commit_sha": "22f2558e37ee88b36d5cc3f499cb8dbc23dd1c8a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/statuses/cf616adf0f116b6e5283eaa2b4f49bea194b4471",
+    "statuses_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/statuses/26212b230f0ab1b823eb664bc539b87ebef7bdbc",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl",
         "ref": "rebuildopenssl",
-        "sha": "cf616adf0f116b6e5283eaa2b4f49bea194b4471",
+        "sha": "26212b230f0ab1b823eb664bc539b87ebef7bdbc",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/freetds-feedstock/deployments",
             "created_at": "2018-06-23T01:25:14Z",
             "updated_at": "2018-06-23T01:25:16Z",
-            "pushed_at": "2019-02-25T21:30:13Z",
+            "pushed_at": "2019-02-26T22:07:45Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/freetds-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/freetds-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/freetds-feedstock.git",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "c39646e1bc862056c5e7ae6106b0bf09d438db3a",
+        "sha": "14035d4d547a850ffe59fe14f750b06e42fd09ae",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/freetds-feedstock/deployments",
             "created_at": "2017-06-22T22:41:41Z",
-            "updated_at": "2018-09-16T05:11:19Z",
-            "pushed_at": "2019-02-25T21:30:14Z",
+            "updated_at": "2019-02-26T21:55:21Z",
+            "pushed_at": "2019-02-26T22:07:45Z",
             "git_url": "git://github.com/conda-forge/freetds-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/freetds-feedstock.git",
             "clone_url": "https://github.com/conda-forge/freetds-feedstock.git",
             "svn_url": "https://github.com/conda-forge/freetds-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 28,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 5,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 5,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/freetds-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/freetds-feedstock/statuses/cf616adf0f116b6e5283eaa2b4f49bea194b4471"
+            "href": "https://api.github.com/repos/conda-forge/freetds-feedstock/statuses/26212b230f0ab1b823eb664bc539b87ebef7bdbc"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 290,
-    "deletions": 140,
-    "changed_files": 17
+    "commits": 7,
+    "additions": 293,
+    "deletions": 143,
+    "changed_files": 17,
+    "Last-Modified": "Tue, 26 Feb 2019 22:07:45 GMT",
+    "ETag": "W/\"1a735fb6a168eb0f2ac07f5a4cc043d3\""
 }

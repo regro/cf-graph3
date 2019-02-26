@@ -1,14 +1,18 @@
 {
   "done": [
-    "mysql-connector-c",
+    "erlang",
     "mosh",
-    "poco",
-    "clickhouse-odbc",
+    "davix",
     "lynx",
+    "libarchive",
+    "r-openssl",
+    "grpc-cpp",
+    "libssh2",
     "libevent",
     "thrift-cpp",
     "sstp-client",
-    "davix",
+    "librdkafka",
+    "mysql-connector-c",
     "socat",
     "python",
     "cryptography",
@@ -16,10 +20,6 @@
     "salt",
     "krb5",
     "postgresql",
-    "r-openssl",
-    "nginx",
-    "erlang",
-    "libssh2",
     "curl",
     "xrootd",
     "pyctest",
@@ -28,13 +28,20 @@
     "ldas-tools-al",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
-    "librdkafka",
-    "libarchive",
-    "grpc-cpp"
+    "poco",
+    "clickhouse-odbc",
+    "nginx"
   ],
   "in-pr": [
-    "qt",
+    "tectonic",
+    "fossil",
     "ruby",
+    "w3m",
+    "singularity",
+    "freetds",
+    "r-git2r",
+    "r-pki",
+    "qt",
     "pypy3.5",
     "scrypt",
     "m2crypto",
@@ -42,16 +49,9 @@
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
-    "fossil",
-    "w3m",
-    "r-git2r",
     "aws-sdk-cpp",
-    "freetds",
     "ldas-tools-frameapi",
-    "pari",
-    "tectonic",
-    "r-pki",
-    "singularity"
+    "pari"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -59,9 +59,9 @@
     "psycopg2",
     "openldap",
     "root",
+    "octave",
     "gdal",
-    "entwine",
-    "octave"
+    "entwine"
   ],
   "_feedstock_status": {
     "curl": {
