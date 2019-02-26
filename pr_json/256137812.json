@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/thrift-cpp-feedstock/pull/30.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/thrift-cpp-feedstock/issues/30",
     "number": 30,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Rebuild for OpenSSL",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-26T04:28:44Z",
-    "updated_at": "2019-02-26T05:24:31Z",
-    "closed_at": null,
+    "updated_at": "2019-02-26T19:21:42Z",
+    "closed_at": "2019-02-26T19:21:41Z",
     "merged_at": null,
     "merge_commit_sha": "701a577b991f094944ff499c85f08117118a4bff",
     "assignee": null,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/thrift-cpp-feedstock/deployments",
             "created_at": "2018-07-01T00:01:05Z",
             "updated_at": "2018-07-01T00:01:06Z",
-            "pushed_at": "2019-02-26T04:28:44Z",
+            "pushed_at": "2019-02-26T19:21:41Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/thrift-cpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/thrift-cpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/thrift-cpp-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/thrift-cpp-feedstock",
             "homepage": null,
-            "size": 69,
+            "size": 31,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 11,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 11,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -326,14 +326,16 @@
     "body_text": "This PR has been triggered in an effort to update OpenSSL.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\n\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
     "mergeable": true,
-    "rebaseable": true,
+    "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 3,
     "additions": 11,
     "deletions": 6,
-    "changed_files": 7
+    "changed_files": 7,
+    "Last-Modified": "Tue, 26 Feb 2019 19:21:42 GMT",
+    "ETag": "W/\"e9c792f8073e65d1b70d1e4cc04bfa9c\""
 }
