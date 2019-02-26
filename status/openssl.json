@@ -1,47 +1,56 @@
 {
   "done": [
-    "libarchive"
+    "libarchive",
+    "davix"
   ],
   "in-pr": [
-    "w3m",
     "libevent",
+    "ruby",
+    "singularity",
+    "qt",
+    "nginx",
+    "libssh2",
+    "librdkafka",
+    "r-openssl",
+    "lynx",
+    "tectonic",
+    "grpc-cpp",
+    "fossil",
+    "krb5",
+    "poco",
     "pari",
     "erlang",
-    "mosh",
-    "nginx",
-    "qt",
     "r-pki",
-    "librdkafka",
-    "singularity",
-    "tectonic",
-    "ldas-tools-al",
-    "krb5",
-    "ruby",
-    "python",
-    "davix",
-    "lynx",
-    "freetds",
-    "libssh2",
+    "mosh",
     "socat",
-    "mysql-connector-c",
     "ffmpeg",
-    "poco",
-    "r-openssl"
+    "mysql-connector-c",
+    "w3m",
+    "ldas-tools-al",
+    "freetds",
+    "python"
   ],
-  "awaiting-pr": [
-    "fossil",
-    "grpc-cpp"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
     "thrift-cpp",
     "sstp-client",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
+    "r-git2r",
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
+    "curl",
+    "aws-sdk-cpp",
+    "libgit2",
+    "git",
+    "clickhouse-odbc",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "octave",
+    "xrootd",
+    "root",
+    "pyctest",
     "pypy3.5",
     "cryptography",
     "uwsgi",
@@ -52,18 +61,8 @@
     "psycopg2",
     "m2crypto",
     "lftp",
-    "r-git2r",
-    "curl",
-    "xrootd",
-    "root",
-    "pyctest",
     "gdal",
-    "entwine",
-    "aws-sdk-cpp",
-    "libgit2",
-    "octave",
-    "git",
-    "clickhouse-odbc"
+    "entwine"
   ],
   "_feedstock_status": {
     "curl": {
@@ -390,11 +389,13 @@
     },
     "grpc-cpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/grpc-cpp-feedstock/pull/5"
     },
     "fossil": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/fossil-feedstock/pull/6"
     }
   }
 }
