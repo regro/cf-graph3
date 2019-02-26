@@ -1,58 +1,59 @@
 {
   "done": [
-    "davix",
-    "librdkafka",
-    "socat",
-    "libevent",
-    "libssh2",
-    "libarchive",
-    "ldas-tools-al",
     "lynx",
-    "mosh",
+    "ldas-tools-al",
+    "ldas-tools-framecpp",
+    "libevent",
     "nginx",
-    "erlang"
+    "mosh",
+    "socat",
+    "python",
+    "librdkafka",
+    "libarchive",
+    "davix",
+    "erlang",
+    "libssh2"
   ],
   "in-pr": [
-    "mysql-connector-c",
-    "r-pki",
-    "tectonic",
-    "python",
+    "poco",
+    "krb5",
+    "grpc-cpp",
     "qt",
-    "ruby",
+    "r-pki",
+    "ldas-tools-ldasgen",
     "thrift-cpp",
     "sstp-client",
-    "pari",
-    "grpc-cpp",
-    "r-git2r",
-    "singularity",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "r-openssl",
-    "w3m",
-    "fossil",
-    "poco",
+    "mysql-connector-c",
+    "tectonic",
     "ffmpeg",
+    "r-openssl",
     "freetds",
-    "krb5"
-  ],
-  "awaiting-pr": [],
-  "awaiting-parents": [
-    "pypy3.5",
     "cryptography",
     "uwsgi",
     "scrypt",
     "salt",
-    "pylibscrypt",
     "m2crypto",
-    "lftp",
-    "ldas-tools-frameapi",
+    "fossil",
+    "ruby",
+    "singularity",
+    "w3m",
+    "r-git2r",
+    "pari"
+  ],
+  "awaiting-pr": [
+    "pypy3.5",
+    "lftp"
+  ],
+  "awaiting-parents": [
     "clickhouse-odbc",
     "postgres-xl",
-    "postgresql",
-    "psycopg2",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
+    "ldas-tools-frameapi",
+    "pylibscrypt",
+    "postgresql",
+    "psycopg2",
     "curl",
     "xrootd",
     "root",
@@ -169,7 +170,8 @@
     },
     "m2crypto": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/m2crypto-feedstock/pull/33"
     },
     "mosh": {
       "num_descendants": 0,
@@ -264,13 +266,15 @@
     },
     "salt": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/salt-feedstock/pull/16"
     },
     "scrypt": {
       "num_descendants": 1,
       "immediate_children": [
         "pylibscrypt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/scrypt-feedstock/pull/17"
     },
     "singularity": {
       "num_descendants": 0,
@@ -289,7 +293,8 @@
     },
     "uwsgi": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/uwsgi-feedstock/pull/25"
     },
     "w3m": {
       "num_descendants": 0,
@@ -311,7 +316,8 @@
     },
     "cryptography": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/cryptography-feedstock/pull/25"
     },
     "aws-sdk-cpp": {
       "num_descendants": 0,
