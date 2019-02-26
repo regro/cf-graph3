@@ -1,57 +1,57 @@
 {
   "done": [
-    "erlang",
-    "mosh",
-    "davix",
-    "lynx",
-    "libarchive",
-    "r-openssl",
-    "grpc-cpp",
-    "libssh2",
-    "libevent",
-    "thrift-cpp",
-    "sstp-client",
     "librdkafka",
+    "lynx",
+    "erlang",
     "mysql-connector-c",
+    "davix",
     "socat",
+    "libarchive",
+    "mosh",
     "python",
-    "cryptography",
     "uwsgi",
     "salt",
     "krb5",
-    "postgresql",
+    "r-openssl",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "libevent",
+    "sstp-client",
+    "nginx",
+    "libssh2",
     "curl",
     "xrootd",
     "pyctest",
     "libgit2",
     "git",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
+    "grpc-cpp",
     "poco",
-    "clickhouse-odbc",
-    "nginx"
+    "clickhouse-odbc"
   ],
   "in-pr": [
-    "tectonic",
-    "fossil",
-    "ruby",
-    "w3m",
-    "singularity",
-    "freetds",
-    "r-git2r",
-    "r-pki",
     "qt",
+    "singularity",
+    "r-pki",
+    "pari",
+    "freetds",
+    "tectonic",
     "pypy3.5",
+    "cryptography",
     "scrypt",
     "m2crypto",
     "lftp",
     "postgres-xl",
+    "postgresql",
     "lighttpd",
     "cyrus-sasl",
-    "aws-sdk-cpp",
     "ldas-tools-frameapi",
-    "pari"
+    "w3m",
+    "thrift-cpp",
+    "r-git2r",
+    "aws-sdk-cpp",
+    "ruby",
+    "fossil"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -59,9 +59,9 @@
     "psycopg2",
     "openldap",
     "root",
-    "octave",
     "gdal",
-    "entwine"
+    "entwine",
+    "octave"
   ],
   "_feedstock_status": {
     "curl": {
@@ -202,7 +202,7 @@
         "libpq",
         "psycopg2"
       ],
-      "pr_url": "https://github.com/conda-forge/postgresql-feedstock/pull/43"
+      "pr_url": "https://github.com/conda-forge/postgresql-feedstock/pull/44"
     },
     "psycopg2": {
       "num_descendants": 0,
@@ -309,7 +309,7 @@
     "thrift-cpp": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/thrift-cpp-feedstock/pull/30"
+      "pr_url": "https://github.com/conda-forge/thrift-cpp-feedstock/pull/31"
     },
     "libgit2": {
       "num_descendants": 0,
@@ -319,7 +319,7 @@
     "cryptography": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/cryptography-feedstock/pull/25"
+      "pr_url": "https://github.com/conda-forge/cryptography-feedstock/pull/26"
     },
     "aws-sdk-cpp": {
       "num_descendants": 0,
