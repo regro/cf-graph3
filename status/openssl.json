@@ -1,25 +1,23 @@
 {
   "done": [
-    "socat",
     "python",
-    "erlang",
-    "nginx",
-    "libssh2",
-    "librdkafka",
-    "davix",
-    "lynx",
-    "mosh",
-    "libarchive",
-    "libevent",
-    "grpc-cpp",
+    "krb5",
     "poco",
+    "libarchive",
+    "mosh",
+    "lynx",
+    "davix",
+    "socat",
+    "erlang",
+    "grpc-cpp",
+    "librdkafka",
+    "nginx",
     "ldas-tools-al",
-    "ldas-tools-framecpp"
+    "ldas-tools-framecpp",
+    "libevent",
+    "libssh2"
   ],
   "in-pr": [
-    "fossil",
-    "qt",
-    "mysql-connector-c",
     "pypy3.5",
     "cryptography",
     "uwsgi",
@@ -27,42 +25,43 @@
     "salt",
     "m2crypto",
     "lftp",
-    "r-git2r",
-    "krb5",
-    "freetds",
-    "ruby",
-    "r-pki",
+    "postgres-xl",
+    "postgresql",
+    "lighttpd",
+    "cyrus-sasl",
+    "clickhouse-odbc",
     "singularity",
+    "r-pki",
+    "mysql-connector-c",
+    "freetds",
+    "tectonic",
+    "ruby",
+    "r-openssl",
+    "pari",
+    "ldas-tools-ldasgen",
     "thrift-cpp",
     "sstp-client",
     "w3m",
-    "pari",
-    "ffmpeg",
-    "clickhouse-odbc",
-    "r-openssl",
-    "ldas-tools-ldasgen",
-    "tectonic"
+    "r-git2r",
+    "curl",
+    "fossil",
+    "qt"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "pylibscrypt",
-    "postgres-xl",
-    "postgresql",
     "psycopg2",
-    "lighttpd",
-    "cyrus-sasl",
     "openldap",
-    "curl",
+    "ldas-tools-frameapi",
     "xrootd",
     "pyctest",
     "gdal",
     "entwine",
     "aws-sdk-cpp",
     "libgit2",
-    "octave",
     "git",
     "root",
-    "ldas-tools-frameapi"
+    "octave"
   ],
   "_feedstock_status": {
     "curl": {
@@ -76,23 +75,20 @@
         "octave",
         "pyctest",
         "xrootd"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/curl-feedstock/pull/50"
     },
     "cyrus-sasl": {
       "num_descendants": 1,
       "immediate_children": [
         "openldap"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/cyrus-sasl-feedstock/pull/8"
     },
     "erlang": {
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/erlang-feedstock/pull/36"
-    },
-    "ffmpeg": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/ffmpeg-feedstock/pull/73"
     },
     "freetds": {
       "num_descendants": 0,
@@ -161,7 +157,8 @@
     },
     "lighttpd": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/lighttpd-feedstock/pull/5"
     },
     "lynx": {
       "num_descendants": 0,
@@ -203,7 +200,8 @@
         "gdal",
         "libpq",
         "psycopg2"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/postgresql-feedstock/pull/43"
     },
     "psycopg2": {
       "num_descendants": 0,
@@ -214,11 +212,12 @@
       "immediate_children": []
     },
     "python": {
-      "num_descendants": 18,
+      "num_descendants": 27,
       "immediate_children": [
         "cryptography",
         "gdal",
         "grpcio",
+        "krb5",
         "lftp",
         "libpq",
         "m2crypto",
@@ -303,7 +302,8 @@
     },
     "postgres-xl": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/postgres-xl-feedstock/pull/3"
     },
     "thrift-cpp": {
       "num_descendants": 0,

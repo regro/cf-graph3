@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T02:16:26Z",
-    "updated_at": "2019-02-19T02:16:31Z",
+    "updated_at": "2019-02-26T13:10:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "81b67431faadebda318d437bcb9858db0953e94a",
+    "merge_commit_sha": "d65e370f46a61e9dfefa4e4c07c9fbe51f27d151",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/statuses/954134c7826d421356a2e0f2c2bf10f4cc306307",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/statuses/2726cc84eb574cec30eecadd59ab6dcc55954e29",
     "head": {
         "label": "regro-cf-autotick-bot:1.2.1",
         "ref": "1.2.1",
-        "sha": "954134c7826d421356a2e0f2c2bf10f4cc306307",
+        "sha": "2726cc84eb574cec30eecadd59ab6dcc55954e29",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-nloptr-feedstock/deployments",
             "created_at": "2018-08-01T14:26:39Z",
             "updated_at": "2018-08-01T14:26:40Z",
-            "pushed_at": "2019-02-25T13:35:51Z",
+            "pushed_at": "2019-02-26T13:10:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-nloptr-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-nloptr-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-nloptr-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/deployments",
             "created_at": "2017-04-20T13:26:56Z",
             "updated_at": "2018-11-17T06:05:03Z",
-            "pushed_at": "2019-02-19T02:16:27Z",
+            "pushed_at": "2019-02-26T13:10:17Z",
             "git_url": "git://github.com/conda-forge/r-nloptr-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-nloptr-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-nloptr-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/statuses/954134c7826d421356a2e0f2c2bf10f4cc306307"
+            "href": "https://api.github.com/repos/conda-forge/r-nloptr-feedstock/statuses/2726cc84eb574cec30eecadd59ab6dcc55954e29"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 389,
-    "deletions": 135,
-    "changed_files": 18
+    "deletions": 159,
+    "changed_files": 19,
+    "Last-Modified": "Tue, 26 Feb 2019 13:10:17 GMT",
+    "ETag": "W/\"0db26aa9e5adbbaf7436e6d8f8ff5eb5\""
 }
