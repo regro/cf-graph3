@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-26T08:55:03Z",
-    "updated_at": "2019-02-26T08:55:08Z",
+    "updated_at": "2019-02-26T16:06:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "172731aaf642b0caa58e9863984bd0eef131fb61",
+    "merge_commit_sha": "cd07740fe8b39ec17bb9f3e82388df892bd177a3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/statuses/c99bee53c0f1a2bb51f845cfdfe7337502ac5057",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/statuses/af6704fe19296c8ddb2bb5bf611a69417ebc5b57",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "c99bee53c0f1a2bb51f845cfdfe7337502ac5057",
+        "sha": "af6704fe19296c8ddb2bb5bf611a69417ebc5b57",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gmp-feedstock/deployments",
             "created_at": "2018-06-23T01:31:39Z",
             "updated_at": "2018-06-23T01:31:41Z",
-            "pushed_at": "2019-02-26T08:55:02Z",
+            "pushed_at": "2019-02-26T16:06:04Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gmp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gmp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gmp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gmp-feedstock/deployments",
             "created_at": "2016-03-27T18:22:52Z",
             "updated_at": "2018-09-16T02:42:49Z",
-            "pushed_at": "2019-02-26T08:55:04Z",
+            "pushed_at": "2019-02-26T16:06:05Z",
             "git_url": "git://github.com/conda-forge/gmp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gmp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gmp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gmp-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gmp-feedstock/statuses/c99bee53c0f1a2bb51f845cfdfe7337502ac5057"
+            "href": "https://api.github.com/repos/conda-forge/gmp-feedstock/statuses/af6704fe19296c8ddb2bb5bf611a69417ebc5b57"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 314,
+    "commits": 3,
+    "additions": 315,
     "deletions": 111,
-    "changed_files": 19,
-    "Last-Modified": "Tue, 26 Feb 2019 08:55:08 GMT",
-    "ETag": "W/\"da299085bd66bfec0b97f986d694dfb8\""
+    "changed_files": 20,
+    "Last-Modified": "Tue, 26 Feb 2019 16:06:04 GMT",
+    "ETag": "W/\"0388e36d0b081ade5e64a62ca8d11298\""
 }

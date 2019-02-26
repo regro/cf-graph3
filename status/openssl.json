@@ -1,37 +1,32 @@
 {
   "done": [
-    "libarchive",
     "nginx",
     "libssh2",
     "grpc-cpp",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "poco",
-    "mosh",
-    "lynx",
-    "librdkafka",
-    "davix",
     "erlang",
+    "lynx",
+    "mosh",
     "python",
     "salt",
     "krb5",
+    "curl",
+    "libarchive",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "socat",
+    "davix",
     "libevent",
-    "socat"
+    "mysql-connector-c",
+    "librdkafka",
+    "poco",
+    "clickhouse-odbc"
   ],
   "in-pr": [
-    "singularity",
-    "w3m",
-    "pari",
-    "r-git2r",
-    "ruby",
-    "tectonic",
-    "ldas-tools-frameapi",
-    "clickhouse-odbc",
-    "qt",
-    "freetds",
-    "fossil",
     "r-pki",
+    "freetds",
+    "r-git2r",
+    "tectonic",
     "pypy3.5",
     "cryptography",
     "uwsgi",
@@ -42,26 +37,31 @@
     "postgresql",
     "lighttpd",
     "cyrus-sasl",
-    "curl",
+    "xrootd",
+    "pyctest",
+    "aws-sdk-cpp",
+    "libgit2",
+    "git",
+    "singularity",
+    "ldas-tools-frameapi",
+    "ruby",
+    "pari",
+    "fossil",
+    "r-openssl",
+    "qt",
     "thrift-cpp",
     "sstp-client",
-    "r-openssl",
-    "mysql-connector-c"
+    "w3m"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "pylibscrypt",
     "psycopg2",
     "openldap",
-    "xrootd",
-    "root",
-    "pyctest",
-    "aws-sdk-cpp",
-    "libgit2",
-    "octave",
-    "git",
     "gdal",
-    "entwine"
+    "entwine",
+    "root",
+    "octave"
   ],
   "_feedstock_status": {
     "curl": {
@@ -103,7 +103,8 @@
     },
     "git": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/git-feedstock/pull/58"
     },
     "krb5": {
       "num_descendants": 17,
@@ -312,7 +313,8 @@
     },
     "libgit2": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/libgit2-feedstock/pull/30"
     },
     "cryptography": {
       "num_descendants": 0,
@@ -321,7 +323,8 @@
     },
     "aws-sdk-cpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/aws-sdk-cpp-feedstock/pull/78"
     },
     "pypy3.5": {
       "num_descendants": 0,
@@ -350,7 +353,8 @@
     },
     "pyctest": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pyctest-feedstock/pull/9"
     },
     "openldap": {
       "num_descendants": 0,
@@ -388,7 +392,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "root"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xrootd-feedstock/pull/6"
     },
     "davix": {
       "num_descendants": 1,
