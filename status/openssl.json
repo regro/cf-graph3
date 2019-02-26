@@ -1,48 +1,51 @@
 {
   "done": [
-    "libarchive",
+    "socat",
+    "librdkafka",
+    "mosh",
+    "lynx",
     "erlang",
-    "davix",
     "ldas-tools-al",
-    "librdkafka"
+    "davix",
+    "libevent",
+    "libarchive",
+    "nginx"
   ],
   "in-pr": [
-    "nginx",
     "tectonic",
-    "lynx",
-    "qt",
-    "pari",
-    "freetds",
-    "krb5",
-    "fossil",
-    "mosh",
-    "singularity",
     "ffmpeg",
     "r-pki",
-    "grpc-cpp",
-    "libssh2",
-    "socat",
-    "r-openssl",
-    "poco",
+    "fossil",
+    "pari",
     "mysql-connector-c",
-    "python",
+    "libssh2",
+    "grpc-cpp",
+    "krb5",
+    "freetds",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
-    "ruby",
+    "qt",
+    "r-openssl",
+    "thrift-cpp",
+    "sstp-client",
     "w3m",
-    "libevent"
+    "singularity",
+    "poco",
+    "python",
+    "ruby"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "r-git2r",
     "postgres-xl",
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "r-git2r",
     "curl",
     "aws-sdk-cpp",
     "libgit2",
     "git",
+    "ldas-tools-frameapi",
     "clickhouse-odbc",
     "octave",
     "xrootd",
@@ -59,10 +62,7 @@
     "m2crypto",
     "lftp",
     "gdal",
-    "entwine",
-    "ldas-tools-frameapi",
-    "thrift-cpp",
-    "sstp-client"
+    "entwine"
   ],
   "_feedstock_status": {
     "curl": {
@@ -301,7 +301,8 @@
     },
     "thrift-cpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/thrift-cpp-feedstock/pull/30"
     },
     "libgit2": {
       "num_descendants": 0,
@@ -321,7 +322,8 @@
     },
     "sstp-client": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/sstp-client-feedstock/pull/3"
     },
     "ldas-tools-al": {
       "num_descendants": 3,

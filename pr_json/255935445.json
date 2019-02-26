@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|dash-renderer|0.19.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/dash-renderer.svg)](https://anaconda.org/conda-forge/dash-renderer)|\n|dash-table|3.5.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/dash-table.svg)](https://anaconda.org/conda-forge/dash-table)|\n",
     "created_at": "2019-02-25T15:32:03Z",
-    "updated_at": "2019-02-25T15:34:08Z",
+    "updated_at": "2019-02-26T04:08:26Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "b7c63438a3d01ff1042dbd4cb8aaf7a59f470273",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 3,
     "deletions": 3,
     "changed_files": 2,
-    "Last-Modified": "Mon, 25 Feb 2019 15:34:08 GMT",
-    "ETag": "W/\"46ec108405ecf285aa132803e1efcf40\""
+    "Last-Modified": "Tue, 26 Feb 2019 04:08:26 GMT",
+    "ETag": "W/\"b1b6679851aa0575caf97fe8b40bd188\""
 }
