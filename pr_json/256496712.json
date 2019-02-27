@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-27T00:26:01Z",
-    "updated_at": "2019-02-27T13:09:54Z",
+    "updated_at": "2019-02-27T15:44:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "6ede7e5b35b87cd71a692c81c1a30d5c108b5019",
+    "merge_commit_sha": "401318c41d933c892bbb7a10222ada8738cf7822",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/pulls/51/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/issues/51/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/statuses/f17ea73af827f392e6bdae01cb1456590e90491e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/statuses/3050e4c2915224e8046ac047e962365d54591c52",
     "head": {
         "label": "regro-cf-autotick-bot:3.10.4",
         "ref": "3.10.4",
-        "sha": "f17ea73af827f392e6bdae01cb1456590e90491e",
+        "sha": "3050e4c2915224e8046ac047e962365d54591c52",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/petsc-feedstock/deployments",
             "created_at": "2018-03-25T12:25:43Z",
             "updated_at": "2018-03-25T12:25:44Z",
-            "pushed_at": "2019-02-27T13:09:54Z",
+            "pushed_at": "2019-02-27T13:31:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/petsc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/petsc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/petsc-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/petsc-feedstock",
             "homepage": null,
-            "size": 101,
+            "size": 102,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/petsc-feedstock/deployments",
             "created_at": "2016-10-26T10:10:22Z",
             "updated_at": "2018-12-19T07:57:17Z",
-            "pushed_at": "2019-02-27T13:09:55Z",
+            "pushed_at": "2019-02-27T13:31:09Z",
             "git_url": "git://github.com/conda-forge/petsc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/petsc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/petsc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/petsc-feedstock/pulls/51/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/petsc-feedstock/statuses/f17ea73af827f392e6bdae01cb1456590e90491e"
+            "href": "https://api.github.com/repos/conda-forge/petsc-feedstock/statuses/3050e4c2915224e8046ac047e962365d54591c52"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 110,
-    "deletions": 288,
-    "changed_files": 21
+    "commits": 5,
+    "additions": 116,
+    "deletions": 290,
+    "changed_files": 22,
+    "Last-Modified": "Wed, 27 Feb 2019 15:44:44 GMT",
+    "ETag": "W/\"40c38f589a7d750f0a8f2d6173b4823d\""
 }
