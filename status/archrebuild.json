@@ -1,21 +1,21 @@
 {
   "done": [
-    "vs2015_runtime",
-    "msinttypes",
-    "vs2008_runtime",
-    "vc",
-    "toolchain3",
+    "patch",
     "jom",
     "bzip2",
-    "libgfortran",
-    "ca-certificates",
-    "libuuid",
-    "patch",
     "m4",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
+    "toolchain3",
+    "libuuid",
+    "ca-certificates",
+    "vs2015_runtime",
+    "vs2008_runtime",
+    "vc",
+    "msinttypes",
+    "libgfortran",
     "nasm",
     "xz",
     "cmake",
@@ -111,6 +111,7 @@
   ],
   "in-pr": [
     "gmp",
+    "lame",
     "x264",
     "libuv",
     "numpy",
@@ -2058,6 +2059,13 @@
         "jsonschema"
       ],
       "pr_url": "https://github.com/conda-forge/pyrsistent-feedstock/pull/9"
+    },
+    "lame": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "ffmpeg"
+      ],
+      "pr_url": "https://github.com/conda-forge/lame-feedstock/pull/4"
     }
   }
 }
