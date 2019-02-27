@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-27T08:37:41Z",
-    "updated_at": "2019-02-27T08:38:23Z",
+    "updated_at": "2019-02-27T13:41:55Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "32f02165905b6eae91526c517561aa9294a63aa7",
+    "merge_commit_sha": "6924a2a5ed9d0b495bea82658152735eac7eefe4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lame-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lame-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lame-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lame-feedstock/statuses/d49c0f58d4fc7d1d10c1b5ba91c106f3f67d5c41",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lame-feedstock/statuses/af7dce75b7b9e4b6c4e03ef0c10b189b8005ba79",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "d49c0f58d4fc7d1d10c1b5ba91c106f3f67d5c41",
+        "sha": "af7dce75b7b9e4b6c4e03ef0c10b189b8005ba79",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lame-feedstock/deployments",
             "created_at": "2018-12-27T20:15:28Z",
             "updated_at": "2018-12-27T20:15:30Z",
-            "pushed_at": "2019-02-27T08:37:41Z",
+            "pushed_at": "2019-02-27T13:41:55Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lame-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lame-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lame-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lame-feedstock/deployments",
             "created_at": "2018-12-27T19:34:59Z",
             "updated_at": "2019-02-24T16:04:44Z",
-            "pushed_at": "2019-02-27T08:37:42Z",
+            "pushed_at": "2019-02-27T13:41:56Z",
             "git_url": "git://github.com/conda-forge/lame-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lame-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lame-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lame-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lame-feedstock/statuses/d49c0f58d4fc7d1d10c1b5ba91c106f3f67d5c41"
+            "href": "https://api.github.com/repos/conda-forge/lame-feedstock/statuses/af7dce75b7b9e4b6c4e03ef0c10b189b8005ba79"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 29,
+    "commits": 3,
+    "additions": 30,
     "deletions": 0,
-    "changed_files": 4
+    "changed_files": 5,
+    "Last-Modified": "Wed, 27 Feb 2019 13:41:55 GMT",
+    "ETag": "W/\"5f3a252e46f64c18417f489f03ead8e4\""
 }
