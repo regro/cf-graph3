@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/xonsh-feedstock/pull/112.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/issues/112",
     "number": 112,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "xonsh v0.8.11",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-27T17:26:09Z",
-    "updated_at": "2019-02-27T17:26:09Z",
-    "closed_at": null,
+    "updated_at": "2019-02-27T17:31:37Z",
+    "closed_at": "2019-02-27T17:31:37Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "32592eb3ec91405b20419be2d8b237384a772c58",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/deployments",
             "created_at": "2016-02-10T15:55:28Z",
-            "updated_at": "2019-02-07T21:10:11Z",
-            "pushed_at": "2019-02-27T16:31:08Z",
+            "updated_at": "2019-02-27T17:57:59Z",
+            "pushed_at": "2019-02-27T17:57:57Z",
             "git_url": "git://github.com/conda-forge/xonsh-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xonsh-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xonsh-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 9,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 9,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 9,
     "deletions": 4,
-    "changed_files": 4
+    "changed_files": 4,
+    "Last-Modified": "Wed, 27 Feb 2019 17:31:37 GMT",
+    "ETag": "W/\"b33aca345976dd626f5da5c93c7386a0\""
 }
