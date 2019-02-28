@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/dask-ml-feedstock/pull/17.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/dask-ml-feedstock/issues/17",
     "number": 17,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "dask-ml v0.12.0",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-28T16:33:26Z",
-    "updated_at": "2019-02-28T16:33:26Z",
-    "closed_at": null,
+    "updated_at": "2019-02-28T17:19:11Z",
+    "closed_at": "2019-02-28T17:19:11Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "4fda6b0e6353b1ab5e3b64b3d4bddb655fdadc2d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/dask-ml-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/dask-ml-feedstock/deployments",
             "created_at": "2017-10-31T13:59:41Z",
-            "updated_at": "2018-10-19T20:11:56Z",
-            "pushed_at": "2019-02-28T16:04:29Z",
+            "updated_at": "2019-02-28T17:19:18Z",
+            "pushed_at": "2019-02-28T17:19:17Z",
             "git_url": "git://github.com/conda-forge/dask-ml-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dask-ml-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dask-ml-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 172,
     "deletions": 16,
-    "changed_files": 11
+    "changed_files": 11,
+    "Last-Modified": "Thu, 28 Feb 2019 17:19:11 GMT",
+    "ETag": "W/\"6a3e2c3fda449c876c54237c555a093d\""
 }

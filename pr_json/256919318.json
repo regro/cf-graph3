@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|lal|6.19.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/lal.svg)](https://anaconda.org/conda-forge/lal)|\n|lalmetaio|1.5.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/lalmetaio.svg)](https://anaconda.org/conda-forge/lalmetaio)|\n|lalsimulation|1.8.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/lalsimulation.svg)](https://anaconda.org/conda-forge/lalsimulation)|\n",
     "created_at": "2019-02-28T03:27:16Z",
-    "updated_at": "2019-02-28T13:39:38Z",
+    "updated_at": "2019-02-28T15:33:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f250844b5b0a17c2d5a4ac5ce09406bf7e035ef8",
+    "merge_commit_sha": "b324238cb3d9091567c6f84c4777f1e740bcdaef",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/statuses/77530050905e2bd0b165cb2f2dc55fa42a9b3c3b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/statuses/51dafc173323beeeb3efe46434cf5f02a873e136",
     "head": {
         "label": "regro-cf-autotick-bot:1.8.1",
         "ref": "1.8.1",
-        "sha": "77530050905e2bd0b165cb2f2dc55fa42a9b3c3b",
+        "sha": "51dafc173323beeeb3efe46434cf5f02a873e136",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lalinspiral-feedstock/deployments",
             "created_at": "2018-12-28T18:14:28Z",
             "updated_at": "2018-12-28T18:14:30Z",
-            "pushed_at": "2019-02-28T13:39:38Z",
+            "pushed_at": "2019-02-28T15:33:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lalinspiral-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lalinspiral-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lalinspiral-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lalinspiral-feedstock",
             "homepage": null,
-            "size": 28,
+            "size": 30,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/deployments",
             "created_at": "2018-10-03T03:44:39Z",
             "updated_at": "2019-02-23T18:12:51Z",
-            "pushed_at": "2019-02-28T13:39:39Z",
+            "pushed_at": "2019-02-28T15:33:13Z",
             "git_url": "git://github.com/conda-forge/lalinspiral-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lalinspiral-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lalinspiral-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/statuses/77530050905e2bd0b165cb2f2dc55fa42a9b3c3b"
+            "href": "https://api.github.com/repos/conda-forge/lalinspiral-feedstock/statuses/51dafc173323beeeb3efe46434cf5f02a873e136"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 35,
+    "commits": 3,
+    "additions": 66,
     "deletions": 25,
-    "changed_files": 1
+    "changed_files": 2,
+    "Last-Modified": "Thu, 28 Feb 2019 15:33:12 GMT",
+    "ETag": "W/\"119fe00d8e85d469b032490c8667ab1f\""
 }
