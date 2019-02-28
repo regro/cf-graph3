@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/googletrans-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/googletrans-feedstock/deployments",
             "created_at": "2018-07-17T12:58:31Z",
-            "updated_at": "2018-10-12T03:35:55Z",
-            "pushed_at": "2018-12-19T16:15:52Z",
+            "updated_at": "2019-02-28T18:37:06Z",
+            "pushed_at": "2019-02-28T18:37:04Z",
             "git_url": "git://github.com/conda-forge/googletrans-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/googletrans-feedstock.git",
             "clone_url": "https://github.com/conda-forge/googletrans-feedstock.git",
             "svn_url": "https://github.com/conda-forge/googletrans-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 23,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 5,
     "deletions": 135,
-    "changed_files": 7
+    "changed_files": 7,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"ac3021d848d57a2fe8fe09fc5aa76b49\""
 }
