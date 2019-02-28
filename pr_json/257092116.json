@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-28T14:32:28Z",
-    "updated_at": "2019-02-28T14:32:32Z",
+    "updated_at": "2019-02-28T16:19:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "568f9db9183a3430d5c2d041888df3c8820ac382",
+    "merge_commit_sha": "c816b0353d9d65be8f956c771d0b66a4a1d33666",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/pulls/52/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/issues/52/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/statuses/e7f49e5ab3e5a8d62ee331984bde1ef469e6e74c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/statuses/674df5d582c2fdb7650e07622bc3b1fabe319a18",
     "head": {
         "label": "regro-cf-autotick-bot:0.14.2",
         "ref": "0.14.2",
-        "sha": "e7f49e5ab3e5a8d62ee331984bde1ef469e6e74c",
+        "sha": "674df5d582c2fdb7650e07622bc3b1fabe319a18",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyagrum-feedstock/deployments",
             "created_at": "2018-04-11T22:49:26Z",
             "updated_at": "2018-04-11T22:49:27Z",
-            "pushed_at": "2019-02-28T14:32:27Z",
+            "pushed_at": "2019-02-28T16:19:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyagrum-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyagrum-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyagrum-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pyagrum-feedstock",
             "homepage": null,
-            "size": 83,
+            "size": 86,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/deployments",
             "created_at": "2016-09-05T09:47:27Z",
             "updated_at": "2019-02-11T08:40:42Z",
-            "pushed_at": "2019-02-28T14:32:29Z",
+            "pushed_at": "2019-02-28T16:19:11Z",
             "git_url": "git://github.com/conda-forge/pyagrum-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyagrum-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyagrum-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/pulls/52/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/statuses/e7f49e5ab3e5a8d62ee331984bde1ef469e6e74c"
+            "href": "https://api.github.com/repos/conda-forge/pyagrum-feedstock/statuses/674df5d582c2fdb7650e07622bc3b1fabe319a18"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 2
+    "commits": 3,
+    "additions": 4,
+    "deletions": 4,
+    "changed_files": 2,
+    "Last-Modified": "Thu, 28 Feb 2019 16:19:11 GMT",
+    "ETag": "W/\"63a1bc55ac5646e2855c122ee32ad6c1\""
 }
