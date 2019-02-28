@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|lal|6.19.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/lal.svg)](https://anaconda.org/conda-forge/lal)|\n",
     "created_at": "2019-02-28T03:26:29Z",
-    "updated_at": "2019-02-28T03:26:33Z",
+    "updated_at": "2019-02-28T08:02:41Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "03637efde0ab69e8a90de51e7278f59da299bba6",
+    "merge_commit_sha": "fc3a9d239161ed643c7ebcff2b7978acc52a64e8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/statuses/ae3de47be921e2e8f3704eaf8684f88791be5833",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/statuses/2860a39b6df4207acb1cac57f4ee4a44c5827b56",
     "head": {
         "label": "regro-cf-autotick-bot:1.8.2",
         "ref": "1.8.2",
-        "sha": "ae3de47be921e2e8f3704eaf8684f88791be5833",
+        "sha": "2860a39b6df4207acb1cac57f4ee4a44c5827b56",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lalsimulation-feedstock/deployments",
             "created_at": "2018-09-26T01:15:48Z",
             "updated_at": "2018-09-26T01:15:50Z",
-            "pushed_at": "2019-02-28T03:26:28Z",
+            "pushed_at": "2019-02-28T08:02:40Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lalsimulation-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lalsimulation-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lalsimulation-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lalsimulation-feedstock",
             "homepage": null,
-            "size": 15,
+            "size": 36,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/deployments",
             "created_at": "2018-06-26T02:12:52Z",
             "updated_at": "2019-01-25T19:51:46Z",
-            "pushed_at": "2019-02-28T03:26:30Z",
+            "pushed_at": "2019-02-28T08:02:41Z",
             "git_url": "git://github.com/conda-forge/lalsimulation-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lalsimulation-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lalsimulation-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/statuses/ae3de47be921e2e8f3704eaf8684f88791be5833"
+            "href": "https://api.github.com/repos/conda-forge/lalsimulation-feedstock/statuses/2860a39b6df4207acb1cac57f4ee4a44c5827b56"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 10,
-    "deletions": 6,
-    "changed_files": 3
+    "commits": 3,
+    "additions": 54,
+    "deletions": 69,
+    "changed_files": 5,
+    "Last-Modified": "Thu, 28 Feb 2019 08:02:41 GMT",
+    "ETag": "W/\"993ff2e393258b2c5896391ec7a6a883\""
 }
