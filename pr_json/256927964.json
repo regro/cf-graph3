@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-28T04:26:26Z",
-    "updated_at": "2019-02-28T04:26:29Z",
+    "updated_at": "2019-03-01T15:10:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "df34bf7b740a0f000df40fc25dabcaf94ba17e4c",
+    "merge_commit_sha": "1152c5da3f1ff69c73ee5c579a8ac4b2ecb2c956",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/statuses/a261938fbdeada7b28a7b68e16d602f3cc952692",
+    "statuses_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/statuses/e541f5838cd7fdd30e7a641ce36859ac0cd4e8ef",
     "head": {
         "label": "regro-cf-autotick-bot:6.23.0",
         "ref": "6.23.0",
-        "sha": "a261938fbdeada7b28a7b68e16d602f3cc952692",
+        "sha": "e541f5838cd7fdd30e7a641ce36859ac0cd4e8ef",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/lalapps-feedstock/deployments",
             "created_at": "2019-01-04T22:22:32Z",
             "updated_at": "2019-01-04T22:22:34Z",
-            "pushed_at": "2019-02-28T04:26:26Z",
+            "pushed_at": "2019-03-01T15:10:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/lalapps-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/lalapps-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/lalapps-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/lalapps-feedstock",
             "homepage": null,
-            "size": 87,
+            "size": 91,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/lalapps-feedstock/deployments",
             "created_at": "2019-01-04T18:23:09Z",
             "updated_at": "2019-01-06T10:05:56Z",
-            "pushed_at": "2019-02-28T04:26:27Z",
+            "pushed_at": "2019-03-01T15:10:01Z",
             "git_url": "git://github.com/conda-forge/lalapps-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/lalapps-feedstock.git",
             "clone_url": "https://github.com/conda-forge/lalapps-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/lalapps-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/lalapps-feedstock/statuses/a261938fbdeada7b28a7b68e16d602f3cc952692"
+            "href": "https://api.github.com/repos/conda-forge/lalapps-feedstock/statuses/e541f5838cd7fdd30e7a641ce36859ac0cd4e8ef"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 109,
-    "deletions": 349,
-    "changed_files": 24
+    "commits": 3,
+    "additions": 172,
+    "deletions": 392,
+    "changed_files": 25,
+    "Last-Modified": "Fri, 01 Mar 2019 15:10:01 GMT",
+    "ETag": "W/\"60aaaf80a483679a248ac279f4d3012a\""
 }
