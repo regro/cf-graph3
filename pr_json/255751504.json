@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-25T04:14:51Z",
-    "updated_at": "2019-02-25T13:52:20Z",
+    "updated_at": "2019-03-01T23:18:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "320a2956642b595e11b54362364252b02c8421bf",
+    "merge_commit_sha": "855f0cc1b07e1f1104966dafb60d6ec11c4d5590",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/statuses/c48733f3a61b5a479baab7b7389d54a35e3c6987",
+    "statuses_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/statuses/40b336ceb7941d6ec54169eb6929cc9a5d2cf6ba",
     "head": {
         "label": "regro-cf-autotick-bot:0.4.1",
         "ref": "0.4.1",
-        "sha": "c48733f3a61b5a479baab7b7389d54a35e3c6987",
+        "sha": "40b336ceb7941d6ec54169eb6929cc9a5d2cf6ba",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/ipyevents-feedstock/deployments",
             "created_at": "2018-10-11T02:02:27Z",
             "updated_at": "2018-10-11T02:02:29Z",
-            "pushed_at": "2019-02-25T04:14:50Z",
+            "pushed_at": "2019-03-01T23:18:00Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/ipyevents-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/ipyevents-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/ipyevents-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/deployments",
             "created_at": "2017-11-04T16:06:03Z",
             "updated_at": "2019-01-02T01:43:40Z",
-            "pushed_at": "2019-02-25T04:14:51Z",
+            "pushed_at": "2019-03-01T23:18:01Z",
             "git_url": "git://github.com/conda-forge/ipyevents-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ipyevents-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ipyevents-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/statuses/c48733f3a61b5a479baab7b7389d54a35e3c6987"
+            "href": "https://api.github.com/repos/conda-forge/ipyevents-feedstock/statuses/40b336ceb7941d6ec54169eb6929cc9a5d2cf6ba"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 105,
-    "deletions": 69,
-    "changed_files": 18,
-    "Last-Modified": "Mon, 25 Feb 2019 13:52:20 GMT",
-    "ETag": "W/\"042e709027e4499ee2482421489aa6cf\""
+    "commits": 3,
+    "additions": 107,
+    "deletions": 71,
+    "changed_files": 20,
+    "Last-Modified": "Fri, 01 Mar 2019 23:18:06 GMT",
+    "ETag": "W/\"df4fe9e074f89ce5ae1e828f7d28efa4\""
 }
