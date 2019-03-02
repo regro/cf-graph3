@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-02T01:27:57Z",
-    "updated_at": "2019-03-02T01:28:00Z",
+    "updated_at": "2019-03-02T04:03:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b8580396335f276303da8c92dde3b15a4c47229b",
+    "merge_commit_sha": "e379a1c489fed0831544b4e6e77feb55f34b7783",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/statuses/60611b38dd1b543a61017ce9091c9665cdbe9eb5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/statuses/f02abea95d197a77cd590c0a2141e346a1889817",
     "head": {
         "label": "regro-cf-autotick-bot:0.3.0",
         "ref": "0.3.0",
-        "sha": "60611b38dd1b543a61017ce9091c9665cdbe9eb5",
+        "sha": "f02abea95d197a77cd590c0a2141e346a1889817",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gwcelery-feedstock/deployments",
             "created_at": "2019-02-16T15:13:28Z",
             "updated_at": "2019-02-16T15:13:31Z",
-            "pushed_at": "2019-03-02T01:27:56Z",
+            "pushed_at": "2019-03-02T04:03:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gwcelery-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gwcelery-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gwcelery-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/deployments",
             "created_at": "2019-02-16T14:51:41Z",
             "updated_at": "2019-02-16T14:53:50Z",
-            "pushed_at": "2019-03-02T01:27:58Z",
+            "pushed_at": "2019-03-02T04:03:18Z",
             "git_url": "git://github.com/conda-forge/gwcelery-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gwcelery-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gwcelery-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/statuses/60611b38dd1b543a61017ce9091c9665cdbe9eb5"
+            "href": "https://api.github.com/repos/conda-forge/gwcelery-feedstock/statuses/f02abea95d197a77cd590c0a2141e346a1889817"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 3,
+    "commits": 3,
+    "additions": 5,
+    "deletions": 5,
     "changed_files": 2,
-    "Last-Modified": "Sat, 02 Mar 2019 01:28:00 GMT",
-    "ETag": "W/\"0dee4338222923f8cfccb0676607e0a9\""
+    "Last-Modified": "Sat, 02 Mar 2019 04:03:17 GMT",
+    "ETag": "W/\"a3c6a27ee35ea35ad20560017caca459\""
 }
