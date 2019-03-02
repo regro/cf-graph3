@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-04T17:22:54Z",
-    "updated_at": "2019-02-04T05:39:48Z",
+    "updated_at": "2019-03-02T05:44:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "bd2a92a39314588aa435f595d1f52680a38afba4",
+    "merge_commit_sha": "463e5be52ebf4196d6378ce74f286e2d917e6991",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/pulls/40/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/issues/40/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/statuses/d729898cf56e90eeb3d605a3a6ab7c150571b298",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/statuses/7813301f83d06666ae3822ed519912e9b8005991",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "d729898cf56e90eeb3d605a3a6ab7c150571b298",
+        "sha": "7813301f83d06666ae3822ed519912e9b8005991",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyferret-feedstock/deployments",
             "created_at": "2018-03-03T21:57:25Z",
             "updated_at": "2018-03-03T21:57:28Z",
-            "pushed_at": "2019-02-25T13:41:43Z",
+            "pushed_at": "2019-03-02T05:44:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyferret-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyferret-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyferret-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyferret-feedstock/deployments",
             "created_at": "2016-07-06T20:31:54Z",
             "updated_at": "2018-09-14T23:06:47Z",
-            "pushed_at": "2019-02-04T05:30:46Z",
+            "pushed_at": "2019-03-02T05:44:08Z",
             "git_url": "git://github.com/conda-forge/pyferret-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyferret-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyferret-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyferret-feedstock/pulls/40/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyferret-feedstock/statuses/d729898cf56e90eeb3d605a3a6ab7c150571b298"
+            "href": "https://api.github.com/repos/conda-forge/pyferret-feedstock/statuses/7813301f83d06666ae3822ed519912e9b8005991"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 319,
+    "commits": 8,
+    "additions": 323,
     "deletions": 60,
-    "changed_files": 20
+    "changed_files": 20,
+    "Last-Modified": "Sat, 02 Mar 2019 05:44:07 GMT",
+    "ETag": "W/\"630200b052e866634933dbeb53128bdf\""
 }

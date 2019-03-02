@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-02T06:34:22Z",
-    "updated_at": "2019-03-02T06:34:22Z",
+    "updated_at": "2019-03-02T07:01:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "7bfa6fae0147f528e6dcd15bd5b15b2b8a684e04",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/statuses/76cf00b936df1dc0253069d4252b9d08bd70adfa",
+    "statuses_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/statuses/497a21db0201a9af32788b201ddb5eebf6bc649d",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "76cf00b936df1dc0253069d4252b9d08bd70adfa",
+        "sha": "497a21db0201a9af32788b201ddb5eebf6bc649d",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/oniguruma-feedstock/deployments",
             "created_at": "2018-02-23T20:33:45Z",
             "updated_at": "2018-02-23T20:33:47Z",
-            "pushed_at": "2019-03-02T06:34:22Z",
+            "pushed_at": "2019-03-02T07:01:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/oniguruma-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/oniguruma-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/oniguruma-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/deployments",
             "created_at": "2016-03-17T02:47:19Z",
             "updated_at": "2019-02-19T15:09:36Z",
-            "pushed_at": "2019-02-19T15:09:32Z",
+            "pushed_at": "2019-03-02T07:01:09Z",
             "git_url": "git://github.com/conda-forge/oniguruma-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/oniguruma-feedstock.git",
             "clone_url": "https://github.com/conda-forge/oniguruma-feedstock.git",
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/statuses/76cf00b936df1dc0253069d4252b9d08bd70adfa"
+            "href": "https://api.github.com/repos/conda-forge/oniguruma-feedstock/statuses/497a21db0201a9af32788b201ddb5eebf6bc649d"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>This feedstock is being rebuilt as part of the aarch64/ppc64le migration</p>\n<p>cc: @conda-forge/arm-arch</p>\n<p><strong>Please don't close this PR without reaching out the the ARM migrators first</strong></p>",
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\ncc: @conda-forge/arm-arch\nPlease don't close this PR without reaching out the the ARM migrators first",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": true,
+    "rebaseable": true,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 30,
-    "deletions": 1,
-    "changed_files": 4
+    "commits": 4,
+    "additions": 32,
+    "deletions": 2,
+    "changed_files": 5,
+    "Last-Modified": "Sat, 02 Mar 2019 07:01:08 GMT",
+    "ETag": "W/\"f215a62d64266c45c65960bc62a1b9f1\""
 }
