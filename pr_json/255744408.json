@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-25T03:18:46Z",
-    "updated_at": "2019-02-25T15:59:28Z",
+    "updated_at": "2019-03-02T22:44:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "89fed6fd24c7d9e2a3796b24b1b2d7e3c306f57f",
+    "merge_commit_sha": "9a0bf2459e3e0d38aa69d4951a34f652b96c519e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/glib-feedstock/pulls/42/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/glib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/glib-feedstock/issues/42/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/glib-feedstock/statuses/608d85feecdb29a7eacb6b0972941e199cc1fe5c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/glib-feedstock/statuses/4d8c4f1ad198d9dbdb615ac91992760d193d06e6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "608d85feecdb29a7eacb6b0972941e199cc1fe5c",
+        "sha": "4d8c4f1ad198d9dbdb615ac91992760d193d06e6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/glib-feedstock/deployments",
             "created_at": "2018-10-03T05:16:20Z",
             "updated_at": "2018-10-03T05:16:22Z",
-            "pushed_at": "2019-02-25T03:18:46Z",
+            "pushed_at": "2019-03-02T22:44:36Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/glib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/glib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/glib-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/glib-feedstock/deployments",
             "created_at": "2016-05-09T23:32:37Z",
             "updated_at": "2018-12-29T05:13:28Z",
-            "pushed_at": "2019-02-25T03:18:47Z",
+            "pushed_at": "2019-03-02T22:44:37Z",
             "git_url": "git://github.com/conda-forge/glib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/glib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/glib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/glib-feedstock/pulls/42/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/glib-feedstock/statuses/608d85feecdb29a7eacb6b0972941e199cc1fe5c"
+            "href": "https://api.github.com/repos/conda-forge/glib-feedstock/statuses/4d8c4f1ad198d9dbdb615ac91992760d193d06e6"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 154,
-    "deletions": 151,
-    "changed_files": 19
+    "commits": 4,
+    "additions": 300,
+    "deletions": 153,
+    "changed_files": 21,
+    "Last-Modified": "Sat, 02 Mar 2019 22:44:36 GMT",
+    "ETag": "W/\"336fa2c1a9ca90d21fbeba639b2151ea\""
 }

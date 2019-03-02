@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-18T17:17:21Z",
-    "updated_at": "2019-03-02T21:36:52Z",
+    "updated_at": "2019-03-02T22:48:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9df3950df08a9e5867da1d79d6f4dc151700d0a9",
+    "merge_commit_sha": "d85badd4d039918797d6ab25a7d49fa10670c969",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/statuses/48fe643fdcc497f38a153d4f77f4c9a4e96b2287",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/statuses/c8a4909451bc121be375effb2e02cd15167c7bc2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "48fe643fdcc497f38a153d4f77f4c9a4e96b2287",
+        "sha": "c8a4909451bc121be375effb2e02cd15167c7bc2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libuv-feedstock/deployments",
             "created_at": "2018-03-01T23:05:28Z",
             "updated_at": "2018-03-01T23:05:29Z",
-            "pushed_at": "2019-03-02T21:36:51Z",
+            "pushed_at": "2019-03-02T22:47:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libuv-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libuv-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libuv-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libuv-feedstock/deployments",
             "created_at": "2016-12-04T17:18:19Z",
             "updated_at": "2019-02-12T12:10:46Z",
-            "pushed_at": "2019-03-02T21:36:53Z",
+            "pushed_at": "2019-03-02T22:47:35Z",
             "git_url": "git://github.com/conda-forge/libuv-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libuv-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libuv-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libuv-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libuv-feedstock/statuses/48fe643fdcc497f38a153d4f77f4c9a4e96b2287"
+            "href": "https://api.github.com/repos/conda-forge/libuv-feedstock/statuses/c8a4909451bc121be375effb2e02cd15167c7bc2"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 18,
+    "comments": 19,
     "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 25,
-    "additions": 79,
+    "commits": 29,
+    "additions": 129,
     "deletions": 1,
     "changed_files": 6,
-    "Last-Modified": "Sat, 02 Mar 2019 21:36:52 GMT",
-    "ETag": "W/\"9be490b03b30bf9e6b1b4c6843ae6bc1\""
+    "Last-Modified": "Sat, 02 Mar 2019 22:48:36 GMT",
+    "ETag": "W/\"e24919415e38eff3c70d59941970612a\""
 }
