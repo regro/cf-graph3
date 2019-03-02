@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-02T11:31:26Z",
-    "updated_at": "2019-03-02T11:32:38Z",
+    "updated_at": "2019-03-02T13:30:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "efc5ede36dfefcba980adbf7a13201cb487d735d",
+    "merge_commit_sha": "ab2db9489e7161e7c2028e522d6c3f7e0b7d02f8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/statuses/3fa08c928fb6387878e3478231bf9e90a0f8ca18",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/statuses/3245a6b92381cab893d392ea823d082eba56a15a",
     "head": {
         "label": "regro-cf-autotick-bot:1.3.5",
         "ref": "1.3.5",
-        "sha": "3fa08c928fb6387878e3478231bf9e90a0f8ca18",
+        "sha": "3245a6b92381cab893d392ea823d082eba56a15a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gpxpy-feedstock/deployments",
             "created_at": "2018-03-16T16:55:44Z",
             "updated_at": "2018-03-16T16:55:46Z",
-            "pushed_at": "2019-03-02T11:31:26Z",
+            "pushed_at": "2019-03-02T13:30:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gpxpy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gpxpy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gpxpy-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/deployments",
             "created_at": "2016-04-13T17:17:49Z",
             "updated_at": "2018-09-17T14:44:35Z",
-            "pushed_at": "2019-03-02T11:31:27Z",
+            "pushed_at": "2019-03-02T13:30:52Z",
             "git_url": "git://github.com/conda-forge/gpxpy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gpxpy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gpxpy-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/statuses/3fa08c928fb6387878e3478231bf9e90a0f8ca18"
+            "href": "https://api.github.com/repos/conda-forge/gpxpy-feedstock/statuses/3245a6b92381cab893d392ea823d082eba56a15a"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 172,
-    "deletions": 16,
+    "commits": 4,
+    "additions": 178,
+    "deletions": 21,
     "changed_files": 11,
-    "Last-Modified": "Sat, 02 Mar 2019 11:32:38 GMT",
-    "ETag": "W/\"8acffa1be211409b7902137e926aa95d\""
+    "Last-Modified": "Sat, 02 Mar 2019 13:30:51 GMT",
+    "ETag": "W/\"c05820f5e0ecd5e26216e7820e3f6a5c\""
 }
