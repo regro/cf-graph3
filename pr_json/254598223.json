@@ -32,7 +32,7 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-20T11:23:53Z",
-    "updated_at": "2019-03-03T18:24:04Z",
+    "updated_at": "2019-03-03T20:42:04Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "85a752270fda4327a7338408865e0cf7b4621200",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 7,
     "additions": 344,
     "deletions": 125,
-    "changed_files": 21
+    "changed_files": 21,
+    "Last-Modified": "Sun, 03 Mar 2019 20:42:04 GMT",
+    "ETag": "W/\"a51d4b00228c8938e9e8e79c2a4c6a62\""
 }
