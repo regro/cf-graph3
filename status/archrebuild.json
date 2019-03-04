@@ -1,27 +1,32 @@
 {
   "done": [
     "patch",
-    "vs2008_runtime",
-    "vc",
-    "libgfortran",
-    "ca-certificates",
-    "msinttypes",
-    "lame",
-    "vs2015_runtime",
-    "toolchain3",
-    "nasm",
-    "vs2008_express_vc_python_patch",
-    "lzip",
-    "jom",
-    "bzip2",
-    "libuuid",
     "m4",
     "gmp",
     "autoconf",
-    "nettle",
     "automake",
     "help2man",
     "libtool",
+    "ca-certificates",
+    "toolchain3",
+    "nettle",
+    "lzip",
+    "vs2015_runtime",
+    "vs2008_express_vc_python_patch",
+    "lame",
+    "vs2008_runtime",
+    "vc",
+    "jom",
+    "bzip2",
+    "nasm",
+    "libuuid",
+    "msinttypes",
+    "expat",
+    "cmake",
+    "xz",
+    "oniguruma",
+    "jq",
+    "libiconv",
     "flex",
     "bison",
     "binutils",
@@ -30,46 +35,37 @@
     "texinfo",
     "libffi",
     "python",
+    "yasm",
+    "zlib",
+    "tk",
     "wincertstore",
+    "tini",
     "sip",
     "rhash",
     "pycrypto",
     "pycosat",
     "ptyprocess",
-    "openssl",
-    "ninja",
-    "lz4-c",
-    "libsodium",
-    "icu",
-    "giflib",
-    "curl",
-    "cmake",
-    "yasm",
-    "xz",
-    "oniguruma",
-    "jq",
-    "zlib",
-    "tk",
     "pkg-config",
     "yaml",
+    "openh264",
     "ncurses",
     "readline",
     "sqlite",
     "libedit",
-    "krb5",
-    "openh264",
-    "libssh2",
-    "zeromq",
-    "tini",
     "pcre",
+    "openssl",
+    "ninja",
     "lzo",
-    "libiconv",
-    "jpeg",
-    "jasper",
-    "expat",
-    "git",
+    "lz4-c",
+    "libssh2",
+    "libsodium",
+    "zeromq",
+    "krb5",
+    "icu",
+    "giflib",
     "dbus",
-    "eigen",
+    "curl",
+    "git",
     "certifi",
     "setuptools",
     "wheel",
@@ -122,14 +118,19 @@
     "urllib3",
     "requests",
     "sed",
-    "gperf"
+    "gperf",
+    "jpeg",
+    "jasper",
+    "eigen",
+    "libgfortran"
   ],
   "in-pr": [
-    "libuv",
+    "libglu",
     "x264",
-    "numpy",
+    "libuv",
     "ipython",
-    "glib"
+    "glib",
+    "numpy"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -137,6 +138,7 @@
     "winpty",
     "tzcode",
     "c99-to-c89",
+    "pandoc",
     "xorg-util-macros",
     "xorg-xtrans",
     "xorg-xproto",
@@ -146,55 +148,44 @@
     "xorg-libxau",
     "xorg-kbproto",
     "xorg-inputproto",
+    "xorg-fixesproto",
     "xcb-proto",
     "pthread-stubs",
     "pixman",
     "libxcb",
     "xorg-libx11",
     "xorg-libxrender",
+    "xorg-libxfixes",
     "xorg-libxext",
+    "xorg-libxi",
+    "freeglut",
     "xorg-libice",
     "xorg-libsm",
     "xorg-libxt",
-    "pandoc",
-    "openblas",
-    "blas",
     "libpng",
+    "libidn11",
     "libxml2",
     "libxslt",
-    "postgresql",
-    "libidn11",
-    "hdf5",
-    "graphite2",
-    "freetype",
     "sqlalchemy",
-    "psycopg2",
     "tornado",
     "pkgconfig",
     "lz4",
     "zstd",
-    "libtiff",
-    "libwebp",
     "libarchive",
     "python-libarchive-c",
     "future",
-    "pywinpty",
-    "terminado",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "distributed",
     "ipykernel",
     "flit",
     "entrypoints",
     "testpath",
-    "notebook",
-    "conda",
-    "conda-build",
-    "conda-forge-ci-setup",
     "gnutls",
-    "ffmpeg",
+    "libtiff",
+    "libwebp",
+    "graphite2",
+    "freetype",
     "fontconfig",
+    "ffmpeg",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -206,7 +197,21 @@
     "gtk2",
     "qt",
     "pyqt",
+    "pywinpty",
+    "terminado",
+    "notebook",
+    "postgresql",
+    "psycopg2",
+    "conda",
+    "conda-build",
+    "conda-forge-ci-setup",
+    "openblas",
+    "blas",
+    "scipy",
+    "scikit-learn",
+    "pandas",
     "matplotlib",
+    "hdf5",
     "opencv"
   ],
   "_feedstock_status": {
@@ -231,7 +236,7 @@
       ]
     },
     "autoconf": {
-      "num_descendants": 185,
+      "num_descendants": 189,
       "immediate_children": [
         "automake",
         "fontconfig",
@@ -255,7 +260,7 @@
       "pr_url": "https://github.com/conda-forge/autoconf-feedstock/pull/25"
     },
     "automake": {
-      "num_descendants": 185,
+      "num_descendants": 189,
       "immediate_children": [
         "cairo",
         "flex",
@@ -288,7 +293,7 @@
       "pr_url": "https://github.com/conda-forge/beautifulsoup4-feedstock/pull/14"
     },
     "binutils": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "fontconfig",
         "gettext"
@@ -296,7 +301,7 @@
       "pr_url": "https://github.com/conda-forge/binutils-feedstock/pull/11"
     },
     "bison": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "binutils",
         "gobject-introspection",
@@ -307,13 +312,13 @@
       "pr_url": "https://github.com/conda-forge/bison-feedstock/pull/17"
     },
     "c99-to-c89": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "xz"
       ]
     },
     "ca-certificates": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "openssl"
       ],
@@ -354,14 +359,16 @@
       "pr_url": "https://github.com/conda-forge/chardet-feedstock/pull/16"
     },
     "cmake": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "eigen",
         "expat",
+        "freeglut",
         "freetype",
         "graphite2",
         "harfbuzz",
         "hdf5",
+        "jasper",
         "jpeg",
         "libarchive",
         "libiconv",
@@ -410,7 +417,7 @@
       "pr_url": "https://github.com/conda-forge/configparser-feedstock/pull/23"
     },
     "curl": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cmake",
         "ffmpeg",
@@ -488,7 +495,7 @@
       "pr_url": "https://github.com/conda-forge/enum34-feedstock/pull/9"
     },
     "expat": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cmake",
         "dbus",
@@ -504,7 +511,7 @@
       ]
     },
     "flex": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "binutils",
         "bison",
@@ -558,7 +565,7 @@
       "pr_url": "https://github.com/conda-forge/futures-feedstock/pull/8"
     },
     "gawk": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "texinfo"
       ],
@@ -571,7 +578,7 @@
       ]
     },
     "gettext": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "fontconfig",
         "gawk",
@@ -691,7 +698,7 @@
       "pr_url": "https://github.com/conda-forge/heapdict-feedstock/pull/5"
     },
     "help2man": {
-      "num_descendants": 185,
+      "num_descendants": 189,
       "immediate_children": [
         "flex",
         "libtool",
@@ -751,7 +758,7 @@
       "pr_url": "https://github.com/conda-forge/jedi-feedstock/pull/19"
     },
     "jom": {
-      "num_descendants": 182,
+      "num_descendants": 186,
       "immediate_children": [
         "bzip2",
         "libarchive",
@@ -796,7 +803,7 @@
       "pr_url": "https://github.com/conda-forge/kiwisolver-feedstock/pull/9"
     },
     "krb5": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "curl",
         "libpq",
@@ -811,14 +818,14 @@
       ]
     },
     "libedit": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "krb5"
       ],
       "pr_url": "https://github.com/conda-forge/libedit-feedstock/pull/5"
     },
     "libffi": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cffi",
         "gdk-pixbuf",
@@ -831,8 +838,16 @@
       ],
       "pr_url": "https://github.com/conda-forge/libffi-feedstock/pull/20"
     },
+    "libglu": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "freeglut",
+        "jasper"
+      ],
+      "pr_url": "https://github.com/conda-forge/libglu-feedstock/pull/10"
+    },
     "libiconv": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "ffmpeg",
         "flex",
@@ -878,7 +893,7 @@
       "pr_url": "https://github.com/conda-forge/libsodium-feedstock/pull/14"
     },
     "libssh2": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "curl"
       ],
@@ -894,7 +909,7 @@
       ]
     },
     "libtool": {
-      "num_descendants": 185,
+      "num_descendants": 189,
       "immediate_children": [
         "autoconf",
         "cairo",
@@ -928,16 +943,17 @@
       "pr_url": "https://github.com/conda-forge/libuuid-feedstock/pull/20"
     },
     "libuv": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cmake"
       ],
       "pr_url": "https://github.com/conda-forge/libuv-feedstock/pull/24"
     },
     "libxcb": {
-      "num_descendants": 19,
+      "num_descendants": 23,
       "immediate_children": [
         "cairo",
+        "freeglut",
         "gst-plugins-base",
         "gstreamer",
         "qt",
@@ -977,7 +993,7 @@
       "pr_url": "https://github.com/conda-forge/lzo-feedstock/pull/5"
     },
     "m4": {
-      "num_descendants": 187,
+      "num_descendants": 191,
       "immediate_children": [
         "autoconf",
         "automake",
@@ -1037,7 +1053,7 @@
       "pr_url": "https://github.com/conda-forge/msgpack-python-feedstock/pull/15"
     },
     "msinttypes": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "expat",
         "krb5",
@@ -1053,7 +1069,7 @@
       "pr_url": "https://github.com/conda-forge/msinttypes-feedstock/pull/12"
     },
     "ncurses": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cmake",
         "libedit",
@@ -1136,7 +1152,7 @@
       "pr_url": "https://github.com/conda-forge/openh264-feedstock/pull/6"
     },
     "openssl": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cryptography",
         "curl",
@@ -1171,7 +1187,7 @@
       ]
     },
     "patch": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "fontconfig",
         "gettext",
@@ -1304,7 +1320,7 @@
       ]
     },
     "pkg-config": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "atk",
         "cairo",
@@ -1337,6 +1353,7 @@
         "readline",
         "sqlite",
         "xcb-proto",
+        "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
         "xorg-libice",
@@ -1345,6 +1362,8 @@
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxrender",
         "xorg-libxt",
         "xorg-renderproto",
@@ -1384,7 +1403,7 @@
       "immediate_children": []
     },
     "pthread-stubs": {
-      "num_descendants": 20,
+      "num_descendants": 24,
       "immediate_children": [
         "cairo",
         "gstreamer",
@@ -1392,7 +1411,9 @@
         "libxcb",
         "pango",
         "xorg-libx11",
-        "xorg-libxext"
+        "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi"
       ]
     },
     "ptyprocess": {
@@ -1450,7 +1471,7 @@
       "pr_url": "https://github.com/conda-forge/pytest-feedstock/pull/75"
     },
     "python": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "appnope",
         "asn1crypto",
@@ -1583,6 +1604,8 @@
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxrender",
         "xorg-libxt",
         "yasm",
@@ -1640,7 +1663,7 @@
       ]
     },
     "readline": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "postgresql",
         "python",
@@ -1658,7 +1681,7 @@
       "pr_url": "https://github.com/conda-forge/requests-feedstock/pull/35"
     },
     "rhash": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cmake"
       ],
@@ -1797,7 +1820,7 @@
       "immediate_children": []
     },
     "sqlite": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "python",
         "qt"
@@ -1824,7 +1847,7 @@
       ]
     },
     "texinfo": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "libffi"
       ],
@@ -1915,26 +1938,35 @@
       "pr_url": "https://github.com/conda-forge/x264-feedstock/pull/23"
     },
     "xcb-proto": {
-      "num_descendants": 20,
+      "num_descendants": 24,
       "immediate_children": [
         "cairo",
         "libxcb",
         "xorg-libx11"
       ]
     },
+    "xorg-fixesproto": {
+      "num_descendants": 5,
+      "immediate_children": [
+        "xorg-libxfixes"
+      ]
+    },
     "xorg-inputproto": {
-      "num_descendants": 19,
+      "num_descendants": 23,
       "immediate_children": [
         "qt",
-        "xorg-libx11"
+        "xorg-libx11",
+        "xorg-libxi"
       ]
     },
     "xorg-kbproto": {
-      "num_descendants": 19,
+      "num_descendants": 23,
       "immediate_children": [
         "xorg-libice",
         "xorg-libx11",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxt"
       ]
     },
@@ -1956,33 +1988,52 @@
       ]
     },
     "xorg-libx11": {
-      "num_descendants": 18,
+      "num_descendants": 22,
       "immediate_children": [
         "cairo",
+        "freeglut",
         "qt",
         "xorg-libice",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxrender",
         "xorg-libxt"
       ]
     },
     "xorg-libxau": {
-      "num_descendants": 20,
+      "num_descendants": 24,
       "immediate_children": [
+        "freeglut",
         "libxcb"
       ]
     },
     "xorg-libxdmcp": {
-      "num_descendants": 20,
+      "num_descendants": 24,
       "immediate_children": [
         "libxcb"
       ]
     },
     "xorg-libxext": {
-      "num_descendants": 13,
+      "num_descendants": 16,
       "immediate_children": [
         "cairo",
-        "qt"
+        "freeglut",
+        "qt",
+        "xorg-libxi"
+      ]
+    },
+    "xorg-libxfixes": {
+      "num_descendants": 4,
+      "immediate_children": [
+        "freeglut",
+        "xorg-libxi"
+      ]
+    },
+    "xorg-libxi": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "freeglut"
       ]
     },
     "xorg-libxrender": {
@@ -2006,11 +2057,12 @@
       ]
     },
     "xorg-util-macros": {
-      "num_descendants": 30,
+      "num_descendants": 35,
       "immediate_children": [
         "libxcb",
         "pthread-stubs",
         "xcb-proto",
+        "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
         "xorg-libice",
@@ -2019,6 +2071,8 @@
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxrender",
         "xorg-libxt",
         "xorg-renderproto",
@@ -2028,14 +2082,17 @@
       ]
     },
     "xorg-xextproto": {
-      "num_descendants": 19,
+      "num_descendants": 24,
       "immediate_children": [
+        "xorg-fixesproto",
         "xorg-libx11",
-        "xorg-libxext"
+        "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi"
       ]
     },
     "xorg-xproto": {
-      "num_descendants": 22,
+      "num_descendants": 26,
       "immediate_children": [
         "cairo",
         "libxcb",
@@ -2045,11 +2102,13 @@
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-libxext",
+        "xorg-libxfixes",
+        "xorg-libxi",
         "xorg-libxt"
       ]
     },
     "xorg-xtrans": {
-      "num_descendants": 19,
+      "num_descendants": 23,
       "immediate_children": [
         "xorg-libice",
         "xorg-libsm",
@@ -2057,7 +2116,7 @@
       ]
     },
     "xz": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cairo",
         "cmake",
@@ -2082,7 +2141,7 @@
       "pr_url": "https://github.com/conda-forge/zeromq-feedstock/pull/44"
     },
     "zlib": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "cairo",
         "cmake",
@@ -2128,6 +2187,12 @@
       ],
       "pr_url": "https://github.com/conda-forge/yasm-feedstock/pull/13"
     },
+    "freeglut": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "jasper"
+      ]
+    },
     "yaml": {
       "num_descendants": 7,
       "immediate_children": [
@@ -2143,7 +2208,7 @@
       ]
     },
     "bzip2": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "cmake",
         "ffmpeg",
@@ -2162,7 +2227,7 @@
       "pr_url": "https://github.com/conda-forge/cryptography-feedstock/pull/23"
     },
     "nasm": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "ffmpeg",
         "openh264",
@@ -2188,7 +2253,7 @@
       "pr_url": "https://github.com/conda-forge/vc-feedstock/pull/9"
     },
     "tk": {
-      "num_descendants": 180,
+      "num_descendants": 184,
       "immediate_children": [
         "git",
         "krb5",
@@ -2207,7 +2272,7 @@
       ]
     },
     "vs2015_runtime": {
-      "num_descendants": 181,
+      "num_descendants": 185,
       "immediate_children": [
         "cmake"
       ],
