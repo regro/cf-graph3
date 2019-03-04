@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-26T07:56:03Z",
-    "updated_at": "2019-03-04T07:04:05Z",
+    "updated_at": "2019-03-04T13:20:00Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "08e2165a291cd5e3896a02790927ca864d66ecf2",
+    "merge_commit_sha": "a121486fa46b2b476bcef72d67decd569ceae624",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/pulls/12/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/issues/12/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/statuses/a9b56a3932348f201fe0e4fcaefe8a3b462d3542",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/statuses/a7eaca40dbce1ccc138e82c516cc91bd009ea464",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl",
         "ref": "rebuildopenssl",
-        "sha": "a9b56a3932348f201fe0e4fcaefe8a3b462d3542",
+        "sha": "a7eaca40dbce1ccc138e82c516cc91bd009ea464",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pypy3.5-feedstock/deployments",
             "created_at": "2019-02-15T01:31:22Z",
             "updated_at": "2019-02-15T01:31:25Z",
-            "pushed_at": "2019-03-02T11:02:01Z",
+            "pushed_at": "2019-03-04T13:19:59Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pypy3.5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pypy3.5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pypy3.5-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/deployments",
             "created_at": "2018-05-18T12:35:48Z",
             "updated_at": "2019-02-16T13:52:49Z",
-            "pushed_at": "2019-03-02T11:02:02Z",
+            "pushed_at": "2019-03-04T13:20:00Z",
             "git_url": "git://github.com/conda-forge/pypy3.5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pypy3.5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pypy3.5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/pulls/12/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/statuses/a9b56a3932348f201fe0e4fcaefe8a3b462d3542"
+            "href": "https://api.github.com/repos/conda-forge/pypy3.5-feedstock/statuses/a7eaca40dbce1ccc138e82c516cc91bd009ea464"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 3,
     "maintainer_can_modify": true,
-    "commits": 21,
-    "additions": 355,
-    "deletions": 62,
-    "changed_files": 18
+    "commits": 23,
+    "additions": 277,
+    "deletions": 171,
+    "changed_files": 19,
+    "Last-Modified": "Mon, 04 Mar 2019 13:20:00 GMT",
+    "ETag": "W/\"758a10f64f8faa51eefec387c4204351\""
 }
