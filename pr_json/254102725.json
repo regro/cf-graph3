@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T03:25:47Z",
-    "updated_at": "2019-02-19T03:30:19Z",
+    "updated_at": "2019-03-04T19:57:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "04f5594a652346b23436db4e744feb96f1adff02",
+    "merge_commit_sha": "fdb1bce0cdcd69c537decf5cf958cdd732861b8a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/statuses/b5ca24ef02d9e355304951e3ab483c12a659b2e5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/statuses/c497c1ca2ebef15f63e78530c0bcf0deaba5e4f6",
     "head": {
         "label": "regro-cf-autotick-bot:0.1.6",
         "ref": "0.1.6",
-        "sha": "b5ca24ef02d9e355304951e3ab483c12a659b2e5",
+        "sha": "c497c1ca2ebef15f63e78530c0bcf0deaba5e4f6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-distances-feedstock/deployments",
             "created_at": "2018-11-24T02:14:24Z",
             "updated_at": "2018-11-24T02:14:26Z",
-            "pushed_at": "2019-02-19T03:25:46Z",
+            "pushed_at": "2019-03-04T19:57:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-distances-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-distances-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-distances-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-distances-feedstock/deployments",
             "created_at": "2018-11-02T16:30:30Z",
             "updated_at": "2018-11-24T07:57:27Z",
-            "pushed_at": "2019-02-19T03:25:48Z",
+            "pushed_at": "2019-03-04T19:57:39Z",
             "git_url": "git://github.com/conda-forge/r-distances-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-distances-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-distances-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-distances-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-distances-feedstock/statuses/b5ca24ef02d9e355304951e3ab483c12a659b2e5"
+            "href": "https://api.github.com/repos/conda-forge/r-distances-feedstock/statuses/c497c1ca2ebef15f63e78530c0bcf0deaba5e4f6"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 390,
-    "deletions": 135,
+    "commits": 4,
+    "additions": 409,
+    "deletions": 145,
     "changed_files": 18,
-    "Last-Modified": "Tue, 19 Feb 2019 03:30:19 GMT",
-    "ETag": "W/\"847819b20623b286bf2d68e7cfee760e\""
+    "Last-Modified": "Mon, 04 Mar 2019 19:57:38 GMT",
+    "ETag": "W/\"8dc86cf147e356946f6609df745667b4\""
 }
