@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-04T21:29:23Z",
-    "updated_at": "2019-03-04T21:29:27Z",
+    "updated_at": "2019-03-04T22:41:39Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ac927a60b6153383510304b604b21a742f698b49",
+    "merge_commit_sha": "9c75cdbb7efd880843fb596a5a0f019c2baece19",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/statuses/9c239aa4142ce41c56537e517e9b43457525e429",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/statuses/48398f0fbd6b23868f1fbe7348689f864c91c2f3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "9c239aa4142ce41c56537e517e9b43457525e429",
+        "sha": "48398f0fbd6b23868f1fbe7348689f864c91c2f3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libidn11-feedstock/deployments",
             "created_at": "2018-04-02T13:48:00Z",
             "updated_at": "2018-04-02T13:48:02Z",
-            "pushed_at": "2019-03-04T21:29:23Z",
+            "pushed_at": "2019-03-04T22:41:40Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libidn11-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libidn11-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libidn11-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/libidn11-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 37,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libidn11-feedstock/deployments",
             "created_at": "2017-06-16T00:39:06Z",
             "updated_at": "2018-08-04T18:58:50Z",
-            "pushed_at": "2019-03-04T21:29:24Z",
+            "pushed_at": "2019-03-04T22:41:40Z",
             "git_url": "git://github.com/conda-forge/libidn11-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libidn11-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libidn11-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libidn11-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libidn11-feedstock/statuses/9c239aa4142ce41c56537e517e9b43457525e429"
+            "href": "https://api.github.com/repos/conda-forge/libidn11-feedstock/statuses/48398f0fbd6b23868f1fbe7348689f864c91c2f3"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 465,
-    "deletions": 70,
-    "changed_files": 21,
-    "Last-Modified": "Mon, 04 Mar 2019 21:29:27 GMT",
-    "ETag": "W/\"e097259c6eb5794d2de82fc01c985657\""
+    "commits": 5,
+    "additions": 468,
+    "deletions": 72,
+    "changed_files": 22,
+    "Last-Modified": "Mon, 04 Mar 2019 22:41:39 GMT",
+    "ETag": "W/\"f29acc7e033bd38c36d9af08001782a5\""
 }

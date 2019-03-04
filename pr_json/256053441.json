@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-25T21:29:31Z",
-    "updated_at": "2019-02-25T22:27:58Z",
+    "updated_at": "2019-03-04T22:17:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "63dd5b8684f9cd4e98f01752bbf9ea5ad3b27ad5",
+    "merge_commit_sha": "304253104f6e060e7aad52f41f8329ad9b726481",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pari-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pari-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pari-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pari-feedstock/statuses/7e77e9f2e202ffe54c4522ee1f514059914a3fb5",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pari-feedstock/statuses/b0fca4acd5e8cfc1cee779115fc11e09ec771df5",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl",
         "ref": "rebuildopenssl",
-        "sha": "7e77e9f2e202ffe54c4522ee1f514059914a3fb5",
+        "sha": "b0fca4acd5e8cfc1cee779115fc11e09ec771df5",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pari-feedstock/deployments",
             "created_at": "2018-03-17T03:58:55Z",
             "updated_at": "2018-03-17T03:58:57Z",
-            "pushed_at": "2019-02-25T22:27:58Z",
+            "pushed_at": "2019-03-04T22:17:56Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pari-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pari-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pari-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pari-feedstock",
             "homepage": null,
-            "size": 45,
+            "size": 47,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pari-feedstock/deployments",
             "created_at": "2017-02-09T10:09:08Z",
             "updated_at": "2018-11-13T17:17:04Z",
-            "pushed_at": "2019-02-25T22:27:59Z",
+            "pushed_at": "2019-03-04T22:17:56Z",
             "git_url": "git://github.com/conda-forge/pari-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pari-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pari-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pari-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pari-feedstock/statuses/7e77e9f2e202ffe54c4522ee1f514059914a3fb5"
+            "href": "https://api.github.com/repos/conda-forge/pari-feedstock/statuses/b0fca4acd5e8cfc1cee779115fc11e09ec771df5"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 277,
-    "deletions": 141,
-    "changed_files": 16
+    "commits": 4,
+    "additions": 281,
+    "deletions": 143,
+    "changed_files": 16,
+    "Last-Modified": "Mon, 04 Mar 2019 22:17:56 GMT",
+    "ETag": "W/\"54f6f2dc08ab68317efdc56264554b10\""
 }
