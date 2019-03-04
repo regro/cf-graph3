@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-19T16:31:47Z",
-    "updated_at": "2019-03-04T06:47:49Z",
+    "updated_at": "2019-03-04T08:56:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fa3bea7ee0ae8cae8b09ef7788f0ffca3f94c249",
+    "merge_commit_sha": "783b73ff320547a7c3dd6cda0393fa02e89c1e49",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/statuses/f2b3ff5df3330bc4e785e0f06cc67bcd1d24c55a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/statuses/ec68ef580c7dac62b547cff5dd1c4bfdfcd6ab5b",
     "head": {
         "label": "regro-cf-autotick-bot:4.0.4",
         "ref": "4.0.4",
-        "sha": "f2b3ff5df3330bc4e785e0f06cc67bcd1d24c55a",
+        "sha": "ec68ef580c7dac62b547cff5dd1c4bfdfcd6ab5b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gmsh-feedstock/deployments",
             "created_at": "2018-09-20T16:23:52Z",
             "updated_at": "2018-09-20T16:23:55Z",
-            "pushed_at": "2019-03-04T06:47:48Z",
+            "pushed_at": "2019-03-04T08:56:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gmsh-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gmsh-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gmsh-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gmsh-feedstock/deployments",
             "created_at": "2018-09-13T17:29:21Z",
             "updated_at": "2018-12-01T14:22:36Z",
-            "pushed_at": "2019-03-04T06:47:50Z",
+            "pushed_at": "2019-03-04T08:56:13Z",
             "git_url": "git://github.com/conda-forge/gmsh-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gmsh-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gmsh-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 5,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gmsh-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gmsh-feedstock/statuses/f2b3ff5df3330bc4e785e0f06cc67bcd1d24c55a"
+            "href": "https://api.github.com/repos/conda-forge/gmsh-feedstock/statuses/ec68ef580c7dac62b547cff5dd1c4bfdfcd6ab5b"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 11,
-    "additions": 469,
+    "commits": 13,
+    "additions": 477,
     "deletions": 220,
-    "changed_files": 20
+    "changed_files": 21,
+    "Last-Modified": "Mon, 04 Mar 2019 08:56:12 GMT",
+    "ETag": "W/\"278f3d95ba720adb294752a3ddc80b62\""
 }
