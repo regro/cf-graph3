@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-15T01:13:18Z",
-    "updated_at": "2019-01-23T05:18:51Z",
+    "updated_at": "2019-03-04T10:44:33Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "d960a5e3a3d78a294ea187f0b3c82c7418be2aa2",
@@ -302,7 +302,7 @@
             "forks_count": 8,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 8,
+            "open_issues_count": 9,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -311,7 +311,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 8,
-            "open_issues": 8,
+            "open_issues": 9,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -350,11 +350,13 @@
     "rebaseable": false,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 6,
     "additions": 54,
     "deletions": 26,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Mon, 04 Mar 2019 10:44:33 GMT",
+    "ETag": "W/\"c403027b03ee3d4b80af54c0666fc9f4\""
 }
