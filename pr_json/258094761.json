@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-04T21:24:50Z",
-    "updated_at": "2019-03-04T21:26:18Z",
+    "updated_at": "2019-03-04T22:34:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a77c60e153c60f94402520e62f2e7132aab7085e",
+    "merge_commit_sha": "dbaeea918a2adce3d3049a8799eae3a5445e0796",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/statuses/07e9f71995e50ba4dea7cbc2c183554fe3a167f8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/statuses/03615580de6a954e190637f20e1e534f4206a907",
     "head": {
         "label": "regro-cf-autotick-bot:0.2.1",
         "ref": "0.2.1",
-        "sha": "07e9f71995e50ba4dea7cbc2c183554fe3a167f8",
+        "sha": "03615580de6a954e190637f20e1e534f4206a907",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gwdetchar-feedstock/deployments",
             "created_at": "2019-03-04T18:27:39Z",
             "updated_at": "2019-03-04T18:27:42Z",
-            "pushed_at": "2019-03-04T21:26:20Z",
+            "pushed_at": "2019-03-04T22:34:43Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gwdetchar-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gwdetchar-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gwdetchar-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gwdetchar-feedstock",
             "homepage": null,
-            "size": 18,
+            "size": 25,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/deployments",
             "created_at": "2019-02-22T22:59:36Z",
             "updated_at": "2019-02-23T23:41:25Z",
-            "pushed_at": "2019-03-04T21:26:19Z",
+            "pushed_at": "2019-03-04T22:34:43Z",
             "git_url": "git://github.com/conda-forge/gwdetchar-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gwdetchar-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gwdetchar-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/statuses/07e9f71995e50ba4dea7cbc2c183554fe3a167f8"
+            "href": "https://api.github.com/repos/conda-forge/gwdetchar-feedstock/statuses/03615580de6a954e190637f20e1e534f4206a907"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 5,
-    "deletions": 5,
-    "changed_files": 1
+    "commits": 4,
+    "additions": 6,
+    "deletions": 6,
+    "changed_files": 1,
+    "Last-Modified": "Mon, 04 Mar 2019 22:34:42 GMT",
+    "ETag": "W/\"b8d779f4c9e41da9310fd8c0c9b6dddf\""
 }
