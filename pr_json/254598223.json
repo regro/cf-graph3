@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-02-20T11:23:53Z",
-    "updated_at": "2019-03-03T20:42:04Z",
+    "updated_at": "2019-03-05T03:11:28Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "85a752270fda4327a7338408865e0cf7b4621200",
+    "merge_commit_sha": "41f459e3526a39ae272d74aae520956b26b74aff",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/x264-feedstock/pulls/23/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/x264-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/x264-feedstock/issues/23/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/x264-feedstock/statuses/588a1c1d514f8146ee47bb565b665a354695150d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/x264-feedstock/statuses/710717849b3ee5f9698155a307f3a311130757f8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition_arch",
-        "sha": "588a1c1d514f8146ee47bb565b665a354695150d",
+        "sha": "710717849b3ee5f9698155a307f3a311130757f8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/x264-feedstock/deployments",
             "created_at": "2018-04-27T17:26:24Z",
             "updated_at": "2018-04-27T17:26:26Z",
-            "pushed_at": "2019-02-26T03:59:10Z",
+            "pushed_at": "2019-03-05T03:11:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/x264-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/x264-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/x264-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/x264-feedstock",
             "homepage": null,
-            "size": 63,
+            "size": 72,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/x264-feedstock/deployments",
             "created_at": "2016-03-29T07:39:15Z",
             "updated_at": "2018-09-16T02:23:08Z",
-            "pushed_at": "2019-02-26T03:59:11Z",
+            "pushed_at": "2019-03-05T03:11:29Z",
             "git_url": "git://github.com/conda-forge/x264-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/x264-feedstock.git",
             "clone_url": "https://github.com/conda-forge/x264-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/x264-feedstock/pulls/23/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/x264-feedstock/statuses/588a1c1d514f8146ee47bb565b665a354695150d"
+            "href": "https://api.github.com/repos/conda-forge/x264-feedstock/statuses/710717849b3ee5f9698155a307f3a311130757f8"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 8,
-    "review_comments": 0,
+    "comments": 9,
+    "review_comments": 2,
     "maintainer_can_modify": true,
-    "commits": 7,
-    "additions": 344,
-    "deletions": 125,
-    "changed_files": 21
+    "commits": 13,
+    "additions": 354,
+    "deletions": 128,
+    "changed_files": 21,
+    "Last-Modified": "Tue, 05 Mar 2019 03:11:28 GMT",
+    "ETag": "W/\"702a03ea3a18a532803befc16940fe64\""
 }
