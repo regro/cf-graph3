@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-04T21:28:46Z",
-    "updated_at": "2019-03-04T23:19:27Z",
+    "updated_at": "2019-03-05T00:47:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "acb16d21cb784afd11fb8e1ebe1ddc64aa145152",
+    "merge_commit_sha": "8d9b272d8f57dc1dd3012fd2edc35ccbf10fc4eb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/13/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/issues/13/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/9593032f05a64406452e8e8188a6769778828fcb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/dc7252c76ff729682d6ec7e8bc1bd1e52f4040e8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "9593032f05a64406452e8e8188a6769778828fcb",
+        "sha": "dc7252c76ff729682d6ec7e8bc1bd1e52f4040e8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pixman-feedstock/deployments",
             "created_at": "2018-08-07T20:48:09Z",
             "updated_at": "2018-08-07T20:48:11Z",
-            "pushed_at": "2019-03-04T23:19:27Z",
+            "pushed_at": "2019-03-05T00:47:32Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pixman-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pixman-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pixman-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pixman-feedstock",
             "homepage": null,
-            "size": 51,
+            "size": 52,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pixman-feedstock/deployments",
             "created_at": "2016-03-17T08:34:27Z",
             "updated_at": "2018-09-24T19:57:44Z",
-            "pushed_at": "2019-03-04T23:19:28Z",
+            "pushed_at": "2019-03-05T00:47:34Z",
             "git_url": "git://github.com/conda-forge/pixman-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pixman-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pixman-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/pulls/13/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/9593032f05a64406452e8e8188a6769778828fcb"
+            "href": "https://api.github.com/repos/conda-forge/pixman-feedstock/statuses/dc7252c76ff729682d6ec7e8bc1bd1e52f4040e8"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 422,
+    "commits": 4,
+    "additions": 425,
     "deletions": 111,
-    "changed_files": 22
+    "changed_files": 23,
+    "Last-Modified": "Tue, 05 Mar 2019 00:47:33 GMT",
+    "ETag": "W/\"b089aa22981cb165bf15da195781ec8f\""
 }

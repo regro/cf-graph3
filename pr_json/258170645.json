@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-05T03:29:21Z",
-    "updated_at": "2019-03-05T03:29:21Z",
+    "updated_at": "2019-03-05T03:41:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "dc772d2cc701052ac7c2a71edf0c3874b84a70d3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/statuses/9525e505218e4a6f684397dfe0a20015e2ee45f7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/statuses/4e434da0d4e0c377ba1e2b64d89490b58964e8e2",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "9525e505218e4a6f684397dfe0a20015e2ee45f7",
+        "sha": "4e434da0d4e0c377ba1e2b64d89490b58964e8e2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xorg-xextproto-feedstock/deployments",
             "created_at": "2018-06-29T23:53:44Z",
             "updated_at": "2018-06-29T23:53:45Z",
-            "pushed_at": "2019-03-05T03:29:20Z",
+            "pushed_at": "2019-03-05T03:41:42Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xorg-xextproto-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xorg-xextproto-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-xextproto-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/deployments",
             "created_at": "2017-01-15T16:29:25Z",
             "updated_at": "2018-09-15T14:01:36Z",
-            "pushed_at": "2018-09-15T14:01:34Z",
+            "pushed_at": "2019-03-05T03:41:43Z",
             "git_url": "git://github.com/conda-forge/xorg-xextproto-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xorg-xextproto-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xorg-xextproto-feedstock.git",
@@ -318,22 +318,24 @@
             "href": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/statuses/9525e505218e4a6f684397dfe0a20015e2ee45f7"
+            "href": "https://api.github.com/repos/conda-forge/xorg-xextproto-feedstock/statuses/4e434da0d4e0c377ba1e2b64d89490b58964e8e2"
         }
     },
     "author_association": "NONE",
     "body_html": "<p>This feedstock is being rebuilt as part of the aarch64/ppc64le migration</p>\n<p>cc: @conda-forge/arm-arch</p>\n<p><strong>Please don't close this PR without reaching out the the ARM migrators first</strong></p>",
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\ncc: @conda-forge/arm-arch\nPlease don't close this PR without reaching out the the ARM migrators first",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": true,
+    "rebaseable": true,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 415,
-    "deletions": 111,
-    "changed_files": 21
+    "commits": 3,
+    "additions": 423,
+    "deletions": 118,
+    "changed_files": 22,
+    "Last-Modified": "Tue, 05 Mar 2019 03:41:42 GMT",
+    "ETag": "W/\"1040c10c33b9ecf84891cb13c300fa4e\""
 }
