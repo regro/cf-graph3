@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-05T04:27:39Z",
-    "updated_at": "2019-03-05T04:27:43Z",
+    "updated_at": "2019-03-05T15:19:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c668a251e03bacb192527cd3121753d640dec2a8",
+    "merge_commit_sha": "8be495696e21756186220ea47ce94311c2706aca",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/statuses/44f528efff0d209d3d78a44789ae04a391723ccb",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/statuses/fb09c5f4e185a9fa7e7c23889d489810d0d923b7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "44f528efff0d209d3d78a44789ae04a391723ccb",
+        "sha": "fb09c5f4e185a9fa7e7c23889d489810d0d923b7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xorg-kbproto-feedstock/deployments",
             "created_at": "2018-07-01T02:36:14Z",
             "updated_at": "2018-07-01T02:36:16Z",
-            "pushed_at": "2019-03-05T04:27:38Z",
+            "pushed_at": "2019-03-05T15:19:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xorg-kbproto-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xorg-kbproto-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-kbproto-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/deployments",
             "created_at": "2017-01-15T16:28:20Z",
             "updated_at": "2018-09-15T14:09:52Z",
-            "pushed_at": "2019-03-05T04:27:39Z",
+            "pushed_at": "2019-03-05T15:19:53Z",
             "git_url": "git://github.com/conda-forge/xorg-kbproto-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xorg-kbproto-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xorg-kbproto-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/statuses/44f528efff0d209d3d78a44789ae04a391723ccb"
+            "href": "https://api.github.com/repos/conda-forge/xorg-kbproto-feedstock/statuses/fb09c5f4e185a9fa7e7c23889d489810d0d923b7"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 415,
-    "deletions": 111,
-    "changed_files": 21,
-    "Last-Modified": "Tue, 05 Mar 2019 04:27:43 GMT",
-    "ETag": "W/\"631463afa34b7337dfb06233843b3b03\""
+    "commits": 3,
+    "additions": 444,
+    "deletions": 119,
+    "changed_files": 23,
+    "Last-Modified": "Tue, 05 Mar 2019 15:19:52 GMT",
+    "ETag": "W/\"7053dc5f30db87558e5c38388a4c4c7e\""
 }

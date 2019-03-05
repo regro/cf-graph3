@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-05T04:26:59Z",
-    "updated_at": "2019-03-05T04:27:04Z",
+    "updated_at": "2019-03-05T15:17:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a1b0134af32584a0e008c4dbc2eb7be3bb15d804",
+    "merge_commit_sha": "79f50f3b8cc87e2c6b41ad144ca1a58799bba7e3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/statuses/3c2fbd144e5860894120403968f951fcb9f912a4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/statuses/094dadaa63e9045faf8d7f95fa096f0a2ae2e7e7",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "3c2fbd144e5860894120403968f951fcb9f912a4",
+        "sha": "094dadaa63e9045faf8d7f95fa096f0a2ae2e7e7",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xcb-proto-feedstock/deployments",
             "created_at": "2018-07-06T05:09:09Z",
             "updated_at": "2018-07-06T05:09:10Z",
-            "pushed_at": "2019-03-05T04:26:59Z",
+            "pushed_at": "2019-03-05T15:17:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xcb-proto-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xcb-proto-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xcb-proto-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/deployments",
             "created_at": "2016-08-29T17:49:34Z",
             "updated_at": "2018-09-23T19:16:33Z",
-            "pushed_at": "2019-03-05T04:27:00Z",
+            "pushed_at": "2019-03-05T15:17:10Z",
             "git_url": "git://github.com/conda-forge/xcb-proto-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xcb-proto-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xcb-proto-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/statuses/3c2fbd144e5860894120403968f951fcb9f912a4"
+            "href": "https://api.github.com/repos/conda-forge/xcb-proto-feedstock/statuses/094dadaa63e9045faf8d7f95fa096f0a2ae2e7e7"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 566,
-    "deletions": 469,
-    "changed_files": 39
+    "commits": 3,
+    "additions": 595,
+    "deletions": 477,
+    "changed_files": 41,
+    "Last-Modified": "Tue, 05 Mar 2019 15:17:10 GMT",
+    "ETag": "W/\"cf21244c50d9bb61974dfe8062f9cf92\""
 }
