@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|dash-renderer|0.19.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/dash-renderer.svg)](https://anaconda.org/conda-forge/dash-renderer)|\n|dash-table|3.5.0|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/dash-table.svg)](https://anaconda.org/conda-forge/dash-table)|\n",
     "created_at": "2019-02-25T15:32:03Z",
-    "updated_at": "2019-02-26T04:08:26Z",
+    "updated_at": "2019-03-06T05:17:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b7c63438a3d01ff1042dbd4cb8aaf7a59f470273",
+    "merge_commit_sha": "51c5a8c2b0a46ab1ad397c7d7bc8e97fe32d8364",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dash-feedstock/pulls/45/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dash-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dash-feedstock/issues/45/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dash-feedstock/statuses/efc4f2139f498bd33af061d9e7c9eefce555bdaa",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dash-feedstock/statuses/f2188596b88646824c26bdfbb473813343533e1b",
     "head": {
         "label": "regro-cf-autotick-bot:0.38.0",
         "ref": "0.38.0",
-        "sha": "efc4f2139f498bd33af061d9e7c9eefce555bdaa",
+        "sha": "f2188596b88646824c26bdfbb473813343533e1b",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dash-feedstock/deployments",
             "created_at": "2018-07-25T17:14:03Z",
             "updated_at": "2018-07-25T17:14:05Z",
-            "pushed_at": "2019-03-05T02:03:10Z",
+            "pushed_at": "2019-03-06T05:13:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dash-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dash-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dash-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/dash-feedstock",
             "homepage": null,
-            "size": 59,
+            "size": 60,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dash-feedstock/deployments",
             "created_at": "2018-05-02T03:20:13Z",
             "updated_at": "2019-02-19T06:00:02Z",
-            "pushed_at": "2019-03-05T02:03:11Z",
+            "pushed_at": "2019-03-06T05:13:04Z",
             "git_url": "git://github.com/conda-forge/dash-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dash-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dash-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dash-feedstock/pulls/45/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dash-feedstock/statuses/efc4f2139f498bd33af061d9e7c9eefce555bdaa"
+            "href": "https://api.github.com/repos/conda-forge/dash-feedstock/statuses/f2188596b88646824c26bdfbb473813343533e1b"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 2
+    "commits": 3,
+    "additions": 5,
+    "deletions": 5,
+    "changed_files": 2,
+    "Last-Modified": "Wed, 06 Mar 2019 05:17:53 GMT",
+    "ETag": "W/\"f89061c444ecfe08abee80a537299342\""
 }
