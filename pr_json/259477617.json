@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/ipysheet-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/ipysheet-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "ipysheet v0.3.1",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-08T13:35:52Z",
-    "updated_at": "2019-03-08T13:35:52Z",
-    "closed_at": null,
+    "updated_at": "2019-03-08T13:49:55Z",
+    "closed_at": "2019-03-08T13:49:55Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "844c7f7445d44952cb3bdf0b14377389109b729c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/ipysheet-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/ipysheet-feedstock/deployments",
             "created_at": "2019-01-11T18:40:04Z",
-            "updated_at": "2019-03-01T15:01:00Z",
-            "pushed_at": "2019-03-08T13:30:32Z",
+            "updated_at": "2019-03-08T14:00:31Z",
+            "pushed_at": "2019-03-08T14:00:30Z",
             "git_url": "git://github.com/conda-forge/ipysheet-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ipysheet-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ipysheet-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 08 Mar 2019 13:49:55 GMT",
+    "ETag": "W/\"443ab79ca132410cdf3ecd5b610b57e1\""
 }
