@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-09-12T20:12:40Z",
-    "updated_at": "2019-01-01T20:19:48Z",
+    "updated_at": "2019-03-08T06:43:58Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "25551a0bc4b61b44e50fb6b26edb7d671c4605df",
+    "merge_commit_sha": "f5e954e39aef1bc5894ba959f1b1c80420b9ef76",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/statuses/c2ab55e124dd23dc65d1fbbb6b18b56c0aa171ab",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/statuses/d4041ed696487d17a0e4f4e2dcd2a95a834971f3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "c2ab55e124dd23dc65d1fbbb6b18b56c0aa171ab",
+        "sha": "d4041ed696487d17a0e4f4e2dcd2a95a834971f3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gperftools-feedstock/deployments",
             "created_at": "2018-06-29T23:30:18Z",
             "updated_at": "2018-06-29T23:30:21Z",
-            "pushed_at": "2019-02-25T14:20:18Z",
+            "pushed_at": "2019-03-08T06:43:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gperftools-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gperftools-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gperftools-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gperftools-feedstock",
             "homepage": null,
-            "size": 25,
+            "size": 28,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gperftools-feedstock/deployments",
             "created_at": "2018-05-08T02:25:00Z",
             "updated_at": "2018-08-24T01:47:43Z",
-            "pushed_at": "2019-01-01T20:19:49Z",
+            "pushed_at": "2019-03-08T06:43:59Z",
             "git_url": "git://github.com/conda-forge/gperftools-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gperftools-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gperftools-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gperftools-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gperftools-feedstock/statuses/c2ab55e124dd23dc65d1fbbb6b18b56c0aa171ab"
+            "href": "https://api.github.com/repos/conda-forge/gperftools-feedstock/statuses/d4041ed696487d17a0e4f4e2dcd2a95a834971f3"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 6,
+    "comments": 7,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 377,
-    "deletions": 61,
-    "changed_files": 19
+    "commits": 4,
+    "additions": 310,
+    "deletions": 45,
+    "changed_files": 15,
+    "Last-Modified": "Fri, 08 Mar 2019 06:43:58 GMT",
+    "ETag": "W/\"6e0cd9efa33b6dae63d1b37cb3a19e78\""
 }
