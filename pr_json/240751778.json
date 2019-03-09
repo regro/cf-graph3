@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/opencv-feedstock/pull/141.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/issues/141",
     "number": 141,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "opencv v4.0.1",
     "user": {
@@ -32,15 +32,24 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|python|3.7.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/python.svg)](https://anaconda.org/conda-forge/python)|\n",
     "created_at": "2018-12-24T10:14:19Z",
-    "updated_at": "2018-12-24T10:14:23Z",
-    "closed_at": null,
+    "updated_at": "2019-03-09T04:16:29Z",
+    "closed_at": "2019-03-09T04:16:29Z",
     "merged_at": null,
     "merge_commit_sha": "475c7981c47fd86f35441749f9e0b021db7f28a8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1164691693,
+            "node_id": "MDU6TGFiZWwxMTY0NjkxNjkz",
+            "url": "https://api.github.com/repos/conda-forge/opencv-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "40078c",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/pulls/141/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/pulls/141/comments",
@@ -262,14 +271,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/opencv-feedstock/deployments",
             "created_at": "2016-04-01T16:53:43Z",
-            "updated_at": "2019-03-07T15:22:42Z",
-            "pushed_at": "2019-02-28T05:06:42Z",
+            "updated_at": "2019-03-09T04:10:42Z",
+            "pushed_at": "2019-03-09T04:16:21Z",
             "git_url": "git://github.com/conda-forge/opencv-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/opencv-feedstock.git",
             "clone_url": "https://github.com/conda-forge/opencv-feedstock.git",
             "svn_url": "https://github.com/conda-forge/opencv-feedstock",
             "homepage": null,
-            "size": 186,
+            "size": 192,
             "stargazers_count": 33,
             "watchers_count": 33,
             "language": "Shell",
@@ -281,7 +290,7 @@
             "forks_count": 45,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 17,
+            "open_issues_count": 16,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 45,
-            "open_issues": 17,
+            "open_issues": 16,
             "watchers": 33,
             "default_branch": "master"
         }
@@ -329,11 +338,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 4,
     "deletions": 4,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Sat, 09 Mar 2019 04:16:29 GMT",
+    "ETag": "W/\"0e48257f0bdc188b322c50eb20dafac0\""
 }
