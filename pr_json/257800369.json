@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>\n\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n|blosc|1.16.2|[![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/blosc.svg)](https://anaconda.org/conda-forge/blosc)|\n",
     "created_at": "2019-03-04T03:25:05Z",
-    "updated_at": "2019-03-04T03:25:09Z",
+    "updated_at": "2019-03-09T19:08:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8e74d663e307cf438426fc6a7294190ddfb1d097",
+    "merge_commit_sha": "5a5663ed5e6a3f584431254a3732487b94d34d0d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/pulls/21/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/statuses/19bd56c01f910c6b042ab4d4054f652efac0d899",
+    "statuses_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/statuses/7893d7690af270ec88b5542af81cf02ef515a61e",
     "head": {
         "label": "regro-cf-autotick-bot:1.8.1",
         "ref": "1.8.1",
-        "sha": "19bd56c01f910c6b042ab4d4054f652efac0d899",
+        "sha": "7893d7690af270ec88b5542af81cf02ef515a61e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/python-blosc-feedstock/deployments",
             "created_at": "2018-03-05T01:57:45Z",
             "updated_at": "2018-03-05T01:57:47Z",
-            "pushed_at": "2019-03-04T03:25:04Z",
+            "pushed_at": "2019-03-09T19:07:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/python-blosc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/python-blosc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/python-blosc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/deployments",
             "created_at": "2016-09-04T19:57:46Z",
             "updated_at": "2019-02-07T21:45:21Z",
-            "pushed_at": "2019-03-04T03:25:05Z",
+            "pushed_at": "2019-03-09T19:07:56Z",
             "git_url": "git://github.com/conda-forge/python-blosc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/python-blosc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/python-blosc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/pulls/21/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/statuses/19bd56c01f910c6b042ab4d4054f652efac0d899"
+            "href": "https://api.github.com/repos/conda-forge/python-blosc-feedstock/statuses/7893d7690af270ec88b5542af81cf02ef515a61e"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 4,
+    "deletions": 4,
+    "changed_files": 2,
+    "Last-Modified": "Sat, 09 Mar 2019 19:08:48 GMT",
+    "ETag": "W/\"0a9426220cd2aced4f27445f1a8ad288\""
 }
