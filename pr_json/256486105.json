@@ -32,7 +32,7 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-26T23:31:42Z",
-    "updated_at": "2019-02-26T23:34:50Z",
+    "updated_at": "2019-03-09T15:57:30Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "1e7c00a91734e7816e9a10563df2cd4e10cb024b",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 3,
     "additions": 4,
     "deletions": 6,
     "changed_files": 2,
-    "Last-Modified": "Tue, 26 Feb 2019 23:34:50 GMT",
-    "ETag": "W/\"2236519269083b735bb3c2802835cd82\""
+    "Last-Modified": "Sat, 09 Mar 2019 15:57:30 GMT",
+    "ETag": "W/\"55c936c159a3de7da97c65091a75c3dc\""
 }
