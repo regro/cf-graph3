@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-08T21:25:39Z",
-    "updated_at": "2019-03-08T21:25:42Z",
+    "updated_at": "2019-03-09T00:49:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "27b081e5d32a5ee21f09ce1381ea9be878294f39",
+    "merge_commit_sha": "51f4c4885485f7443fedc5469566df12f0872502",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/statuses/13a623477d4ecade2c4192e79eaf8b53be252878",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/statuses/e59231381913f058ea02c0b38494640198ee364e",
     "head": {
         "label": "regro-cf-autotick-bot:2017.2.1",
         "ref": "2017.2.1",
-        "sha": "13a623477d4ecade2c4192e79eaf8b53be252878",
+        "sha": "e59231381913f058ea02c0b38494640198ee364e",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libobjcryst-feedstock/deployments",
             "created_at": "2018-06-24T05:13:48Z",
             "updated_at": "2018-06-24T05:13:49Z",
-            "pushed_at": "2019-03-08T21:25:39Z",
+            "pushed_at": "2019-03-09T00:49:17Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libobjcryst-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libobjcryst-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libobjcryst-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/deployments",
             "created_at": "2017-10-12T02:40:58Z",
             "updated_at": "2018-10-22T16:00:12Z",
-            "pushed_at": "2019-03-08T21:25:40Z",
+            "pushed_at": "2019-03-09T00:49:18Z",
             "git_url": "git://github.com/conda-forge/libobjcryst-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libobjcryst-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libobjcryst-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/statuses/13a623477d4ecade2c4192e79eaf8b53be252878"
+            "href": "https://api.github.com/repos/conda-forge/libobjcryst-feedstock/statuses/e59231381913f058ea02c0b38494640198ee364e"
         }
     },
     "author_association": "NONE",
@@ -327,15 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 278,
-    "deletions": 129,
-    "changed_files": 16,
-    "Last-Modified": "Fri, 08 Mar 2019 21:25:42 GMT",
-    "ETag": "W/\"8db0654628e0335697e4f4b2c1fb4c95\""
+    "commits": 5,
+    "additions": 289,
+    "deletions": 146,
+    "changed_files": 18,
+    "Last-Modified": "Sat, 09 Mar 2019 00:49:17 GMT",
+    "ETag": "W/\"9faeb875ed71d81a0fe36d78798c3870\""
 }
