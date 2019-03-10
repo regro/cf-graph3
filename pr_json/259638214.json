@@ -32,15 +32,24 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-08T23:26:45Z",
-    "updated_at": "2019-03-08T23:26:49Z",
+    "updated_at": "2019-03-10T10:45:37Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "d69748ed4029609db2e871b30568506679916e64",
+    "merge_commit_sha": "e941716d88f571ac3bc6ce96fb7fde9091e93df6",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1266358621,
+            "node_id": "MDU6TGFiZWwxMjY2MzU4NjIx",
+            "url": "https://api.github.com/repos/conda-forge/grpc-cpp-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "d1f959",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/grpc-cpp-feedstock/pulls/8/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/grpc-cpp-feedstock/pulls/8/comments",
@@ -262,8 +271,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/grpc-cpp-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/grpc-cpp-feedstock/deployments",
             "created_at": "2019-02-11T19:37:50Z",
-            "updated_at": "2019-03-09T10:58:31Z",
-            "pushed_at": "2019-03-08T23:26:46Z",
+            "updated_at": "2019-03-10T10:45:24Z",
+            "pushed_at": "2019-03-10T10:45:22Z",
             "git_url": "git://github.com/conda-forge/grpc-cpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/grpc-cpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/grpc-cpp-feedstock.git",
@@ -281,7 +290,7 @@
             "forks_count": 2,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 2,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -335,7 +344,5 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1,
-    "Last-Modified": "Fri, 08 Mar 2019 23:26:49 GMT",
-    "ETag": "W/\"5d9020cfe6b5ff013b0ccd1de66f10dc\""
+    "changed_files": 1
 }
