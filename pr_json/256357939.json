@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-26T16:36:28Z",
-    "updated_at": "2019-02-26T20:51:46Z",
+    "updated_at": "2019-03-11T00:05:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "04eb84c7283ce20d22711e064cfef62f96247b6a",
+    "merge_commit_sha": "df016894b6b6c58a22dcf7526500f9711f109590",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/pulls/78/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/issues/78/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/statuses/ef0dab89510fdf94c52acc1449e1528383936e5f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/statuses/caa3071ca2a39e6c2b436f862dec630a6ef767f4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl",
         "ref": "rebuildopenssl",
-        "sha": "ef0dab89510fdf94c52acc1449e1528383936e5f",
+        "sha": "caa3071ca2a39e6c2b436f862dec630a6ef767f4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/aws-sdk-cpp-feedstock/deployments",
             "created_at": "2018-05-04T04:13:31Z",
             "updated_at": "2018-05-04T04:13:33Z",
-            "pushed_at": "2019-03-01T21:27:43Z",
+            "pushed_at": "2019-03-11T00:05:31Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/aws-sdk-cpp-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/aws-sdk-cpp-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/aws-sdk-cpp-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/deployments",
             "created_at": "2018-05-02T23:32:20Z",
             "updated_at": "2019-02-08T12:09:16Z",
-            "pushed_at": "2019-03-01T21:27:45Z",
+            "pushed_at": "2019-03-11T00:05:31Z",
             "git_url": "git://github.com/conda-forge/aws-sdk-cpp-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/aws-sdk-cpp-feedstock.git",
             "clone_url": "https://github.com/conda-forge/aws-sdk-cpp-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/pulls/78/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/statuses/ef0dab89510fdf94c52acc1449e1528383936e5f"
+            "href": "https://api.github.com/repos/conda-forge/aws-sdk-cpp-feedstock/statuses/caa3071ca2a39e6c2b436f862dec630a6ef767f4"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 286,
+    "commits": 9,
+    "additions": 287,
     "deletions": 28,
     "changed_files": 15,
-    "Last-Modified": "Tue, 26 Feb 2019 20:51:46 GMT",
-    "ETag": "W/\"1fc22a90c7760e34c24eeaf323b77326\""
+    "Last-Modified": "Mon, 11 Mar 2019 00:05:30 GMT",
+    "ETag": "W/\"b5f1a03b21d9456ca7027d51dd249b4a\""
 }
