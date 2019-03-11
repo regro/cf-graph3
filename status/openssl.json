@@ -1,19 +1,13 @@
 {
   "done": [
-    "r-openssl",
-    "freetds",
-    "tectonic",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
     "fossil",
-    "erlang",
     "mysql-connector-c",
-    "lynx",
+    "freetds",
+    "davix",
+    "librdkafka",
     "libarchive",
-    "nginx",
-    "pari",
+    "poco",
+    "clickhouse-odbc",
     "mosh",
     "python",
     "pypy3.5",
@@ -32,20 +26,25 @@
     "pyctest",
     "libgit2",
     "git",
-    "socat",
-    "librdkafka",
-    "ruby",
+    "erlang",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "lynx",
+    "tectonic",
+    "nginx",
     "libevent",
     "sstp-client",
-    "poco",
-    "clickhouse-odbc",
     "grpc-cpp",
-    "davix"
+    "pari",
+    "ruby",
+    "socat",
+    "r-openssl"
   ],
   "in-pr": [
     "qt",
     "singularity",
-    "w3m",
     "cryptography",
     "pylibscrypt",
     "m2crypto",
@@ -53,16 +52,17 @@
     "postgres-xl",
     "lighttpd",
     "aws-sdk-cpp",
+    "r-pki",
     "thrift-cpp",
-    "r-pki"
+    "w3m"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "psycopg2",
+    "root",
     "gdal",
     "entwine",
-    "octave",
-    "root"
+    "octave"
   ],
   "_feedstock_status": {
     "curl": {
