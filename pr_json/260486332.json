@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-12T18:29:38Z",
-    "updated_at": "2019-03-12T18:29:51Z",
+    "updated_at": "2019-03-12T19:23:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "49b63a212a10b5613be02ecf8c26c89f9ffa78bf",
+    "merge_commit_sha": "c160b415f3883d1f92fcfc822e54aef6243cdff0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/pulls/3/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/issues/3/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/statuses/4eaf5b202bdb9427ca889c893f75fb447377e51d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/statuses/abcad6a551b201a2d5282be141a3074b0b802338",
     "head": {
         "label": "regro-cf-autotick-bot:0.2.0",
         "ref": "0.2.0",
-        "sha": "4eaf5b202bdb9427ca889c893f75fb447377e51d",
+        "sha": "abcad6a551b201a2d5282be141a3074b0b802338",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hveto-feedstock/deployments",
             "created_at": "2019-03-07T23:29:45Z",
             "updated_at": "2019-03-07T23:29:48Z",
-            "pushed_at": "2019-03-12T18:29:37Z",
+            "pushed_at": "2019-03-12T19:23:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hveto-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hveto-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hveto-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/hveto-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 19,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hveto-feedstock/deployments",
             "created_at": "2019-03-07T23:07:08Z",
             "updated_at": "2019-03-08T16:59:58Z",
-            "pushed_at": "2019-03-12T18:29:38Z",
+            "pushed_at": "2019-03-12T19:23:05Z",
             "git_url": "git://github.com/conda-forge/hveto-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hveto-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hveto-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hveto-feedstock/pulls/3/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hveto-feedstock/statuses/4eaf5b202bdb9427ca889c893f75fb447377e51d"
+            "href": "https://api.github.com/repos/conda-forge/hveto-feedstock/statuses/abcad6a551b201a2d5282be141a3074b0b802338"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
+    "commits": 3,
+    "additions": 7,
+    "deletions": 5,
     "changed_files": 1,
-    "Last-Modified": "Tue, 12 Mar 2019 18:29:51 GMT",
-    "ETag": "W/\"e7d1ebe3ad6dbb6243f92137e9cae66f\""
+    "Last-Modified": "Tue, 12 Mar 2019 19:23:15 GMT",
+    "ETag": "W/\"bea75e3b3e00e71b81371d3ddf77f5d6\""
 }
