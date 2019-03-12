@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/xonsh-feedstock/pull/115.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/issues/115",
     "number": 115,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "xonsh v0.8.12",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-11T20:29:33Z",
-    "updated_at": "2019-03-11T20:29:33Z",
-    "closed_at": null,
+    "updated_at": "2019-03-11T20:33:13Z",
+    "closed_at": "2019-03-11T20:33:13Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "d014b33564cc504c5f073944dba6caa028f9efcd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/xonsh-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/xonsh-feedstock",
             "homepage": null,
-            "size": 220,
+            "size": 222,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/xonsh-feedstock/deployments",
             "created_at": "2016-02-10T15:55:28Z",
-            "updated_at": "2019-03-01T14:23:35Z",
-            "pushed_at": "2019-03-11T18:49:33Z",
+            "updated_at": "2019-03-11T20:59:13Z",
+            "pushed_at": "2019-03-11T20:59:11Z",
             "git_url": "git://github.com/conda-forge/xonsh-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xonsh-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xonsh-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 9,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 9,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 10,
     "deletions": 5,
-    "changed_files": 4
+    "changed_files": 4,
+    "Last-Modified": "Mon, 11 Mar 2019 20:33:13 GMT",
+    "ETag": "W/\"2a3c573961627b26956677fa9cad3ebf\""
 }
