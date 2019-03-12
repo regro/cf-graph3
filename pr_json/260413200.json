@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-12T15:26:10Z",
-    "updated_at": "2019-03-12T15:59:27Z",
+    "updated_at": "2019-03-12T17:06:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "eb4a0f956cea2a673ad4344a0fde46092ba4eaa6",
+    "merge_commit_sha": "935181df7866cd72d5b48b11d8bb6b705119123f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/statuses/8425469edd8f12162fbb56906d72b3d59e3ff75d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/statuses/d3f0b6ecf240f0c130d01b3e77614c1f725aad5f",
     "head": {
         "label": "regro-cf-autotick-bot:0.14.2",
         "ref": "0.14.2",
-        "sha": "8425469edd8f12162fbb56906d72b3d59e3ff75d",
+        "sha": "d3f0b6ecf240f0c130d01b3e77614c1f725aad5f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numcosmo-feedstock/deployments",
             "created_at": "2018-03-29T10:42:46Z",
             "updated_at": "2018-03-29T10:42:48Z",
-            "pushed_at": "2019-03-12T15:26:10Z",
+            "pushed_at": "2019-03-12T17:06:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numcosmo-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numcosmo-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numcosmo-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/numcosmo-feedstock",
             "homepage": null,
-            "size": 8,
+            "size": 27,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,13 +263,13 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/deployments",
             "created_at": "2018-03-25T05:49:48Z",
             "updated_at": "2018-12-06T23:45:51Z",
-            "pushed_at": "2019-03-12T15:26:11Z",
+            "pushed_at": "2019-03-12T17:06:14Z",
             "git_url": "git://github.com/conda-forge/numcosmo-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numcosmo-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numcosmo-feedstock.git",
             "svn_url": "https://github.com/conda-forge/numcosmo-feedstock",
             "homepage": null,
-            "size": 24,
+            "size": 17,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/statuses/8425469edd8f12162fbb56906d72b3d59e3ff75d"
+            "href": "https://api.github.com/repos/conda-forge/numcosmo-feedstock/statuses/d3f0b6ecf240f0c130d01b3e77614c1f725aad5f"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 330,
-    "deletions": 55,
-    "changed_files": 15
+    "commits": 4,
+    "additions": 331,
+    "deletions": 58,
+    "changed_files": 16,
+    "Last-Modified": "Tue, 12 Mar 2019 17:06:13 GMT",
+    "ETag": "W/\"9c4fb5e9ae22700a713d68a29daad884\""
 }
