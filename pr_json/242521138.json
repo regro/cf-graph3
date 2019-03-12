@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-01-06T22:19:45Z",
-    "updated_at": "2019-03-12T17:15:35Z",
+    "updated_at": "2019-03-12T19:35:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e9d0ff491f62abbd68a1e5f2ce34a0d27e875b95",
+    "merge_commit_sha": "9ee69234f0c47a70c65f26919f9d673c21a07530",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/pulls/26/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/issues/26/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/statuses/00287859f659bfec76d4a0d4615f0cb214261203",
+    "statuses_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/statuses/f59aebb63b7fc8ed2ed217a60fe6db184b958684",
     "head": {
         "label": "regro-cf-autotick-bot:4.0.4",
         "ref": "4.0.4",
-        "sha": "00287859f659bfec76d4a0d4615f0cb214261203",
+        "sha": "f59aebb63b7fc8ed2ed217a60fe6db184b958684",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/wxpython-feedstock/deployments",
             "created_at": "2018-06-18T10:53:50Z",
             "updated_at": "2018-06-18T10:53:52Z",
-            "pushed_at": "2019-03-12T17:15:34Z",
+            "pushed_at": "2019-03-12T19:35:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/wxpython-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/wxpython-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/wxpython-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/wxpython-feedstock",
             "homepage": null,
-            "size": 65,
+            "size": 67,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/wxpython-feedstock/deployments",
             "created_at": "2017-06-25T11:59:40Z",
             "updated_at": "2018-11-19T18:01:26Z",
-            "pushed_at": "2019-03-12T17:15:36Z",
+            "pushed_at": "2019-03-12T19:35:58Z",
             "git_url": "git://github.com/conda-forge/wxpython-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/wxpython-feedstock.git",
             "clone_url": "https://github.com/conda-forge/wxpython-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/wxpython-feedstock/pulls/26/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/wxpython-feedstock/statuses/00287859f659bfec76d4a0d4615f0cb214261203"
+            "href": "https://api.github.com/repos/conda-forge/wxpython-feedstock/statuses/f59aebb63b7fc8ed2ed217a60fe6db184b958684"
         }
     },
     "author_association": "NONE",
@@ -333,7 +333,9 @@
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
-    "additions": 450,
-    "deletions": 612,
-    "changed_files": 27
+    "additions": 448,
+    "deletions": 613,
+    "changed_files": 27,
+    "Last-Modified": "Tue, 12 Mar 2019 19:35:57 GMT",
+    "ETag": "W/\"e38528efd66d386f375d28b8bb1173a7\""
 }
