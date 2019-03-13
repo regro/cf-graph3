@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-08T22:27:08Z",
-    "updated_at": "2019-03-08T22:27:12Z",
+    "updated_at": "2019-03-13T02:44:14Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "aec48c1e66f92f5e0faf3fd8cac7d8e5ab6e6200",
+    "merge_commit_sha": "3509d6dbc652e04f2c4bd32140c17361563a5daf",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/statuses/8b6371a16d710698192b0ef0dafb5f566bfb5fa2",
+    "statuses_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/statuses/586b38de9a98af4e8cb5e273e2f9d68a12efa2a6",
     "head": {
         "label": "regro-cf-autotick-bot:4.1.0",
         "ref": "4.1.0",
-        "sha": "8b6371a16d710698192b0ef0dafb5f566bfb5fa2",
+        "sha": "586b38de9a98af4e8cb5e273e2f9d68a12efa2a6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/djangorestframework_simplejwt-feedstock/deployments",
             "created_at": "2018-03-07T00:29:23Z",
             "updated_at": "2018-03-07T00:29:25Z",
-            "pushed_at": "2019-03-08T22:27:07Z",
+            "pushed_at": "2019-03-13T02:44:14Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/djangorestframework_simplejwt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/djangorestframework_simplejwt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/djangorestframework_simplejwt-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/deployments",
             "created_at": "2018-02-21T16:24:13Z",
             "updated_at": "2019-02-05T05:25:28Z",
-            "pushed_at": "2019-03-08T22:27:09Z",
+            "pushed_at": "2019-03-13T02:44:15Z",
             "git_url": "git://github.com/conda-forge/djangorestframework_simplejwt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/djangorestframework_simplejwt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/djangorestframework_simplejwt-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/statuses/8b6371a16d710698192b0ef0dafb5f566bfb5fa2"
+            "href": "https://api.github.com/repos/conda-forge/djangorestframework_simplejwt-feedstock/statuses/586b38de9a98af4e8cb5e273e2f9d68a12efa2a6"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 4,
-    "deletions": 4,
-    "changed_files": 2,
-    "Last-Modified": "Fri, 08 Mar 2019 22:27:12 GMT",
-    "ETag": "W/\"855c0ab2efc2eb9c047d26d1d2c3a752\""
+    "commits": 4,
+    "additions": 6,
+    "deletions": 12,
+    "changed_files": 3,
+    "Last-Modified": "Wed, 13 Mar 2019 02:44:14 GMT",
+    "ETag": "W/\"dc6addae52f02ff8b50f52481bbffdba\""
 }

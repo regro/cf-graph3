@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-11T20:33:22Z",
-    "updated_at": "2019-03-11T20:33:27Z",
+    "updated_at": "2019-03-13T02:28:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3c09c6c863f57a3f08856bae250f401c06be50a0",
+    "merge_commit_sha": "9b3cdd48318c97b9ff31af9b75a5d3e9a6e78e33",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/pulls/23/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/issues/23/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/statuses/fd00bd025af15eed72242bb5f53d3c3a66f9efb7",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/statuses/06801657a828ee663e6c8a2a823fef0b2f13d3db",
     "head": {
         "label": "regro-cf-autotick-bot:1.5.14",
         "ref": "1.5.14",
-        "sha": "fd00bd025af15eed72242bb5f53d3c3a66f9efb7",
+        "sha": "06801657a828ee663e6c8a2a823fef0b2f13d3db",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libmatio-feedstock/deployments",
             "created_at": "2018-03-09T22:52:31Z",
             "updated_at": "2018-03-09T22:52:33Z",
-            "pushed_at": "2019-03-11T20:33:21Z",
+            "pushed_at": "2019-03-13T02:28:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libmatio-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libmatio-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libmatio-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libmatio-feedstock/deployments",
             "created_at": "2016-03-31T07:45:26Z",
             "updated_at": "2019-01-02T09:04:54Z",
-            "pushed_at": "2019-03-11T20:33:23Z",
+            "pushed_at": "2019-03-13T02:28:58Z",
             "git_url": "git://github.com/conda-forge/libmatio-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libmatio-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libmatio-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libmatio-feedstock/pulls/23/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libmatio-feedstock/statuses/fd00bd025af15eed72242bb5f53d3c3a66f9efb7"
+            "href": "https://api.github.com/repos/conda-forge/libmatio-feedstock/statuses/06801657a828ee663e6c8a2a823fef0b2f13d3db"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 125,
-    "deletions": 161,
-    "changed_files": 19
+    "commits": 3,
+    "additions": 126,
+    "deletions": 162,
+    "changed_files": 19,
+    "Last-Modified": "Wed, 13 Mar 2019 02:28:57 GMT",
+    "ETag": "W/\"cd4ec150eb8ba0156cdb2e6a1eb814dd\""
 }

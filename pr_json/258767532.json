@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-06T15:33:59Z",
-    "updated_at": "2019-03-06T15:34:44Z",
+    "updated_at": "2019-03-13T02:16:03Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "88a2d050862b5229157d29bf1d9b21540b82afea",
+    "merge_commit_sha": "377d3318e1ad64d59eba4c88141d65ed2e9ffc23",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/statuses/63292daaad2c5958b4b64fdb34f3896582097b18",
+    "statuses_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/statuses/576b5fe91ff0a5648900ba697cf4c9d176698549",
     "head": {
         "label": "regro-cf-autotick-bot:1.0.1",
         "ref": "1.0.1",
-        "sha": "63292daaad2c5958b4b64fdb34f3896582097b18",
+        "sha": "576b5fe91ff0a5648900ba697cf4c9d176698549",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/tinycss2-feedstock/deployments",
             "created_at": "2019-03-04T14:36:34Z",
             "updated_at": "2019-03-04T14:36:37Z",
-            "pushed_at": "2019-03-06T15:33:59Z",
+            "pushed_at": "2019-03-13T02:16:03Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/tinycss2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/tinycss2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/tinycss2-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/tinycss2-feedstock",
             "homepage": null,
-            "size": 14,
+            "size": 16,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/deployments",
             "created_at": "2018-05-30T08:53:42Z",
             "updated_at": "2018-08-04T18:59:19Z",
-            "pushed_at": "2019-03-06T15:34:00Z",
+            "pushed_at": "2019-03-13T02:16:05Z",
             "git_url": "git://github.com/conda-forge/tinycss2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/tinycss2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/tinycss2-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/statuses/63292daaad2c5958b4b64fdb34f3896582097b18"
+            "href": "https://api.github.com/repos/conda-forge/tinycss2-feedstock/statuses/576b5fe91ff0a5648900ba697cf4c9d176698549"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 203,
-    "deletions": 29,
-    "changed_files": 12
+    "commits": 4,
+    "additions": 204,
+    "deletions": 36,
+    "changed_files": 12,
+    "Last-Modified": "Wed, 13 Mar 2019 02:16:03 GMT",
+    "ETag": "W/\"dea0b80921a2293b66634b02ae0b2736\""
 }

@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-11T18:29:09Z",
-    "updated_at": "2019-03-11T18:29:18Z",
+    "updated_at": "2019-03-13T02:31:53Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "196027315b90c7f3038192a4819335616d6622fb",
+    "merge_commit_sha": "6e9f2a84156fc423204cc036dbf55b9582e0c2cb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/statuses/9c03c15e86519ed24ef482845c61d78662da3d5b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/statuses/9d2121ab071875942cc79bbeb3373b46107eccaf",
     "head": {
         "label": "regro-cf-autotick-bot:3.4.0",
         "ref": "3.4.0",
-        "sha": "9c03c15e86519ed24ef482845c61d78662da3d5b",
+        "sha": "9d2121ab071875942cc79bbeb3373b46107eccaf",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/premailer-feedstock/deployments",
             "created_at": "2018-03-02T02:51:36Z",
             "updated_at": "2018-03-02T02:51:38Z",
-            "pushed_at": "2019-03-11T18:29:09Z",
+            "pushed_at": "2019-03-13T02:31:53Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/premailer-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/premailer-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/premailer-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/premailer-feedstock/deployments",
             "created_at": "2016-08-16T22:35:43Z",
             "updated_at": "2018-08-04T17:26:07Z",
-            "pushed_at": "2019-03-11T18:29:10Z",
+            "pushed_at": "2019-03-13T02:31:54Z",
             "git_url": "git://github.com/conda-forge/premailer-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/premailer-feedstock.git",
             "clone_url": "https://github.com/conda-forge/premailer-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/premailer-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/premailer-feedstock/statuses/9c03c15e86519ed24ef482845c61d78662da3d5b"
+            "href": "https://api.github.com/repos/conda-forge/premailer-feedstock/statuses/9d2121ab071875942cc79bbeb3373b46107eccaf"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 761,
+    "commits": 3,
+    "additions": 762,
     "deletions": 208,
     "changed_files": 32,
-    "Last-Modified": "Mon, 11 Mar 2019 18:29:18 GMT",
-    "ETag": "W/\"01ac3606f79950a8d6d333c2f278a234\""
+    "Last-Modified": "Wed, 13 Mar 2019 02:31:53 GMT",
+    "ETag": "W/\"dfa7de271303f7272bfe62e51651cfd2\""
 }
