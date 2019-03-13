@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-18T00:31:51Z",
-    "updated_at": "2019-03-08T09:05:46Z",
+    "updated_at": "2019-03-13T02:39:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8136d59c8bffea51f0750e0fde61d0fe86b40f6e",
+    "merge_commit_sha": "eb7219c6b76d72506ee653a5602ada67cbcad516",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/26/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/issues/26/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/98ae26db54737bd41ebf2853b8e5ead565e73b01",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/2f4ac98ffa19d2e27fcdfa3be50557c2945aac80",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "98ae26db54737bd41ebf2853b8e5ead565e73b01",
+        "sha": "2f4ac98ffa19d2e27fcdfa3be50557c2945aac80",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dlib-feedstock/deployments",
             "created_at": "2018-03-19T17:02:22Z",
             "updated_at": "2018-03-19T17:02:24Z",
-            "pushed_at": "2019-03-10T16:26:09Z",
+            "pushed_at": "2019-03-13T02:39:28Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dlib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/dlib-feedstock",
             "homepage": null,
-            "size": 549,
+            "size": 548,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/deployments",
             "created_at": "2016-09-14T14:03:36Z",
             "updated_at": "2018-08-04T17:34:08Z",
-            "pushed_at": "2019-03-10T16:26:10Z",
+            "pushed_at": "2019-03-13T02:39:29Z",
             "git_url": "git://github.com/conda-forge/dlib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dlib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dlib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/26/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/98ae26db54737bd41ebf2853b8e5ead565e73b01"
+            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/2f4ac98ffa19d2e27fcdfa3be50557c2945aac80"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 5,
-    "additions": 894,
-    "deletions": 181,
-    "changed_files": 31
+    "commits": 6,
+    "additions": 896,
+    "deletions": 182,
+    "changed_files": 32,
+    "Last-Modified": "Wed, 13 Mar 2019 02:39:29 GMT",
+    "ETag": "W/\"16af43c2e0b68957da4728ec2ce930b0\""
 }
