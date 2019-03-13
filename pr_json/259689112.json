@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-09T13:26:08Z",
-    "updated_at": "2019-03-09T13:26:12Z",
+    "updated_at": "2019-03-13T02:41:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "f7ca1c0b0364ee2a7b3106f33c84eaf494f192d6",
+    "merge_commit_sha": "6ffeb730ba5c75da2ab033e24e6a23b529c687c3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/statuses/5d9d64b930f8379cc3720fe94209447b77e23c24",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/statuses/33f72c3f6ee0e72b8aa460360f3ea841fca7e1ea",
     "head": {
         "label": "regro-cf-autotick-bot:1.8.0",
         "ref": "1.8.0",
-        "sha": "5d9d64b930f8379cc3720fe94209447b77e23c24",
+        "sha": "33f72c3f6ee0e72b8aa460360f3ea841fca7e1ea",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pylibscrypt-feedstock/deployments",
             "created_at": "2018-03-04T22:07:40Z",
             "updated_at": "2018-03-04T22:07:42Z",
-            "pushed_at": "2019-03-09T13:26:08Z",
+            "pushed_at": "2019-03-13T02:41:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pylibscrypt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pylibscrypt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pylibscrypt-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pylibscrypt-feedstock",
             "homepage": null,
-            "size": 32,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/deployments",
             "created_at": "2018-02-13T17:12:23Z",
             "updated_at": "2018-10-06T21:39:49Z",
-            "pushed_at": "2019-03-09T13:26:09Z",
+            "pushed_at": "2019-03-13T02:41:11Z",
             "git_url": "git://github.com/conda-forge/pylibscrypt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pylibscrypt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pylibscrypt-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/statuses/5d9d64b930f8379cc3720fe94209447b77e23c24"
+            "href": "https://api.github.com/repos/conda-forge/pylibscrypt-feedstock/statuses/33f72c3f6ee0e72b8aa460360f3ea841fca7e1ea"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 425,
+    "deletions": 328,
+    "changed_files": 26,
+    "Last-Modified": "Wed, 13 Mar 2019 02:41:10 GMT",
+    "ETag": "W/\"262e3a56ab86702a0689718548fb8c63\""
 }
