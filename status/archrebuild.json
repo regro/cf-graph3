@@ -1,27 +1,28 @@
 {
   "done": [
-    "winpty",
     "ca-certificates",
-    "vs2008_runtime",
-    "vc",
-    "libunistring",
+    "winpty",
     "c99-to-c89",
+    "lame",
+    "libunistring",
+    "libgfortran",
+    "vs2008_express_vc_python_patch",
+    "patch",
+    "nasm",
+    "toolchain3",
+    "libuuid",
     "m4",
     "gmp",
     "autoconf",
+    "nettle",
     "automake",
     "help2man",
     "libtool",
-    "libuuid",
-    "nasm",
-    "lzip",
     "msinttypes",
-    "patch",
-    "toolchain3",
-    "nettle",
-    "lame",
+    "vs2008_runtime",
+    "vc",
+    "lzip",
     "vs2015_runtime",
-    "vs2008_express_vc_python_patch",
     "jom",
     "bzip2",
     "cmake",
@@ -154,28 +155,26 @@
     "dbus",
     "eigen",
     "libarchive",
-    "python-libarchive-c",
-    "libgfortran"
+    "python-libarchive-c"
   ],
   "in-pr": [
     "libglu",
     "x264",
     "pixman",
+    "tzcode",
     "xorg-libx11",
     "tornado",
+    "pywinpty",
     "ipython",
     "flit",
     "gnutls",
+    "hdf5",
     "graphite2",
     "fontconfig",
-    "numpy",
-    "hdf5"
+    "conda-build",
+    "numpy"
   ],
-  "awaiting-pr": [
-    "tzcode",
-    "pywinpty",
-    "conda-build"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
     "pandoc",
     "xorg-libxrender",
@@ -215,8 +214,8 @@
     "scipy",
     "scikit-learn",
     "pandas",
-    "matplotlib",
-    "opencv"
+    "opencv",
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -429,7 +428,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "conda-forge-ci-setup"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/conda-build-feedstock/pull/91"
     },
     "conda-verify": {
       "num_descendants": 2,
@@ -1719,7 +1719,8 @@
       "num_descendants": 2,
       "immediate_children": [
         "terminado"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/pywinpty-feedstock/pull/24"
     },
     "pyyaml": {
       "num_descendants": 4,
@@ -2455,7 +2456,8 @@
       "num_descendants": 3,
       "immediate_children": [
         "postgresql"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/tzcode-feedstock/pull/3"
     },
     "libidn2": {
       "num_descendants": 5,
