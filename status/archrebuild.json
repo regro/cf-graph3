@@ -1,33 +1,31 @@
 {
   "done": [
-    "vs2008_express_vc_python_patch",
-    "libunistring",
-    "lzip",
-    "jom",
-    "bzip2",
+    "vs2008_runtime",
+    "vc",
+    "winpty",
     "m4",
     "gmp",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
+    "jom",
+    "bzip2",
+    "libuuid",
+    "lame",
     "nasm",
-    "winpty",
-    "ca-certificates",
-    "c99-to-c89",
+    "lzip",
     "toolchain3",
     "nettle",
+    "libgfortran",
     "vs2015_runtime",
     "patch",
-    "vs2008_runtime",
-    "vc",
-    "libgfortran",
-    "lame",
-    "libuuid",
     "msinttypes",
-    "expat",
-    "cmake",
+    "libunistring",
+    "ca-certificates",
+    "c99-to-c89",
     "xz",
+    "cmake",
     "oniguruma",
     "jq",
     "libiconv",
@@ -85,9 +83,7 @@
     "libxml2",
     "libxslt",
     "giflib",
-    "dbus",
     "curl",
-    "git",
     "certifi",
     "setuptools",
     "wheel",
@@ -117,8 +113,6 @@
     "nose",
     "lz4",
     "zstd",
-    "libarchive",
-    "python-libarchive-c",
     "markupsafe",
     "kiwisolver",
     "jedi",
@@ -153,7 +147,13 @@
     "libwebp",
     "jasper",
     "freetype",
-    "eigen"
+    "expat",
+    "libarchive",
+    "python-libarchive-c",
+    "git",
+    "dbus",
+    "eigen",
+    "vs2008_express_vc_python_patch"
   ],
   "in-pr": [
     "libglu",
@@ -164,7 +164,9 @@
     "ipython",
     "gnutls"
   ],
-  "awaiting-pr": [],
+  "awaiting-pr": [
+    "ruamel_yaml"
+  ],
   "awaiting-parents": [
     "pandoc",
     "tzcode",
@@ -196,12 +198,11 @@
     "testpath",
     "notebook",
     "conda",
-    "conda-build",
-    "conda-forge-ci-setup",
     "hdf5",
     "graphite2",
     "fontconfig",
     "ffmpeg",
+    "conda-build",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -214,7 +215,8 @@
     "qt",
     "pyqt",
     "matplotlib",
-    "opencv"
+    "opencv",
+    "conda-forge-ci-setup"
   ],
   "_feedstock_status": {
     "appnope": {
@@ -1763,6 +1765,12 @@
         "cmake"
       ],
       "pr_url": "https://github.com/conda-forge/rhash-feedstock/pull/9"
+    },
+    "ruamel_yaml": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "conda"
+      ]
     },
     "scandir": {
       "num_descendants": 6,
