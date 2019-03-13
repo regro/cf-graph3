@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/numba-feedstock/pull/22.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/numba-feedstock/issues/22",
     "number": 22,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "numba v0.42.1",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-01T21:12:59Z",
-    "updated_at": "2019-02-01T21:13:05Z",
-    "closed_at": null,
+    "updated_at": "2019-03-13T09:36:23Z",
+    "closed_at": "2019-03-13T09:36:23Z",
     "merged_at": null,
     "merge_commit_sha": "ab7d13d97b70a9ca36bf7fb0d20a68a29d98e3d9",
     "assignee": null,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/numba-feedstock/deployments",
             "created_at": "2018-04-24T04:08:24Z",
             "updated_at": "2018-04-24T04:08:26Z",
-            "pushed_at": "2019-02-25T14:17:02Z",
+            "pushed_at": "2019-03-13T09:47:57Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/numba-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/numba-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/numba-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/numba-feedstock/deployments",
             "created_at": "2018-04-21T18:33:05Z",
             "updated_at": "2019-03-05T13:56:28Z",
-            "pushed_at": "2019-03-05T13:56:27Z",
+            "pushed_at": "2019-03-13T09:47:57Z",
             "git_url": "git://github.com/conda-forge/numba-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/numba-feedstock.git",
             "clone_url": "https://github.com/conda-forge/numba-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 5,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -331,11 +331,11 @@
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 2,
     "additions": 305,
     "deletions": 376,
     "changed_files": 24,
-    "Last-Modified": "Fri, 01 Feb 2019 21:13:05 GMT",
-    "ETag": "W/\"1d82e944391a1b21fef0a45fc8f8d37c\""
+    "Last-Modified": "Wed, 13 Mar 2019 09:36:23 GMT",
+    "ETag": "W/\"a761964e3b9a4108438a3ba7ab399ef4\""
 }
