@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/ruamel_yaml-feedstock/pull/53.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/ruamel_yaml-feedstock/issues/53",
     "number": 53,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "Arch Migrator",
     "user": {
@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-13T14:55:55Z",
-    "updated_at": "2019-03-13T14:55:55Z",
-    "closed_at": null,
+    "updated_at": "2019-03-13T15:11:39Z",
+    "closed_at": "2019-03-13T15:11:39Z",
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "85f31a162836bce122cbe98c352fbd78d095622b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/ruamel_yaml-feedstock/deployments",
             "created_at": "2016-07-26T04:41:36Z",
             "updated_at": "2019-03-13T05:51:05Z",
-            "pushed_at": "2019-03-13T05:51:03Z",
+            "pushed_at": "2019-03-13T14:55:56Z",
             "git_url": "git://github.com/conda-forge/ruamel_yaml-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ruamel_yaml-feedstock.git",
             "clone_url": "https://github.com/conda-forge/ruamel_yaml-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 14,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 14,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -325,15 +325,17 @@
     "body_html": "<p>This feedstock is being rebuilt as part of the aarch64/ppc64le migration</p>\n<p>cc: @conda-forge/arm-arch</p>\n<p><strong>Please don't close this PR without reaching out the the ARM migrators first</strong></p>",
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\ncc: @conda-forge/arm-arch\nPlease don't close this PR without reaching out the the ARM migrators first",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": true,
+    "rebaseable": false,
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 1,
     "deletions": 4,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 13 Mar 2019 15:11:39 GMT",
+    "ETag": "W/\"40f110cc98fabe7d57df422cff2d17e4\""
 }
