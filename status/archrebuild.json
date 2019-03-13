@@ -1,30 +1,29 @@
 {
   "done": [
+    "winpty",
+    "ca-certificates",
     "vs2008_runtime",
     "vc",
-    "nasm",
-    "libgfortran",
-    "vs2008_express_vc_python_patch",
-    "patch",
+    "libunistring",
+    "c99-to-c89",
     "m4",
     "gmp",
     "autoconf",
     "automake",
     "help2man",
     "libtool",
-    "msinttypes",
+    "libuuid",
+    "nasm",
     "lzip",
-    "c99-to-c89",
-    "libunistring",
-    "lame",
-    "winpty",
-    "jom",
-    "bzip2",
+    "msinttypes",
+    "patch",
     "toolchain3",
     "nettle",
-    "libuuid",
-    "ca-certificates",
+    "lame",
     "vs2015_runtime",
+    "vs2008_express_vc_python_patch",
+    "jom",
+    "bzip2",
     "cmake",
     "xz",
     "oniguruma",
@@ -151,25 +150,34 @@
     "jasper",
     "freetype",
     "expat",
-    "libarchive",
-    "python-libarchive-c",
     "git",
     "dbus",
-    "eigen"
+    "eigen",
+    "libarchive",
+    "python-libarchive-c",
+    "libgfortran"
   ],
   "in-pr": [
     "libglu",
     "x264",
     "pixman",
     "xorg-libx11",
-    "numpy",
+    "tornado",
     "ipython",
-    "gnutls"
+    "flit",
+    "gnutls",
+    "graphite2",
+    "fontconfig",
+    "numpy",
+    "hdf5"
   ],
-  "awaiting-pr": [],
+  "awaiting-pr": [
+    "tzcode",
+    "pywinpty",
+    "conda-build"
+  ],
   "awaiting-parents": [
     "pandoc",
-    "tzcode",
     "xorg-libxrender",
     "xorg-libxfixes",
     "xorg-libxext",
@@ -179,27 +187,16 @@
     "xorg-libsm",
     "xorg-libxt",
     "postgresql",
-    "openblas",
-    "blas",
     "sqlalchemy",
     "psycopg2",
-    "tornado",
     "pkgconfig",
     "future",
-    "pywinpty",
     "terminado",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "distributed",
     "ipykernel",
-    "flit",
     "entrypoints",
     "testpath",
     "notebook",
-    "hdf5",
-    "graphite2",
-    "fontconfig",
     "ffmpeg",
     "cairo",
     "gobject-introspection",
@@ -210,10 +207,14 @@
     "gdk-pixbuf",
     "atk",
     "gtk2",
-    "conda-build",
-    "conda-forge-ci-setup",
     "qt",
+    "conda-forge-ci-setup",
     "pyqt",
+    "openblas",
+    "blas",
+    "scipy",
+    "scikit-learn",
+    "pandas",
     "matplotlib",
     "opencv"
   ],
@@ -554,7 +555,8 @@
       "immediate_children": [
         "entrypoints",
         "testpath"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/flit-feedstock/pull/13"
     },
     "fontconfig": {
       "num_descendants": 13,
@@ -563,7 +565,8 @@
         "gtk2",
         "pango",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/fontconfig-feedstock/pull/40"
     },
     "freetype": {
       "num_descendants": 15,
@@ -704,7 +707,8 @@
       "immediate_children": [
         "gtk2",
         "harfbuzz"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/graphite2-feedstock/pull/10"
     },
     "gst-plugins-base": {
       "num_descendants": 4,
@@ -731,7 +735,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "opencv"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/hdf5-feedstock/pull/107"
     },
     "heapdict": {
       "num_descendants": 1,
@@ -1954,7 +1959,8 @@
         "matplotlib",
         "notebook",
         "terminado"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/tornado-feedstock/pull/28"
     },
     "traitlets": {
       "num_descendants": 4,

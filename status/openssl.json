@@ -1,7 +1,26 @@
 {
   "done": [
+    "davix",
+    "poco",
+    "clickhouse-odbc",
+    "socat",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "tectonic",
+    "libarchive",
+    "librdkafka",
+    "fossil",
+    "grpc-cpp",
+    "libssh2",
+    "r-git2r",
     "r-openssl",
+    "nginx",
+    "mosh",
+    "pari",
     "mysql-connector-c",
+    "erlang",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -12,56 +31,37 @@
     "postgresql",
     "cyrus-sasl",
     "openldap",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "libarchive",
-    "nginx",
-    "fossil",
-    "socat",
-    "poco",
-    "clickhouse-odbc",
-    "ruby",
-    "pari",
-    "librdkafka",
-    "mosh",
-    "tectonic",
-    "grpc-cpp",
-    "davix",
-    "erlang",
-    "lynx",
-    "libevent",
-    "sstp-client",
-    "libssh2",
-    "r-git2r",
     "curl",
     "xrootd",
     "pyctest",
     "libgit2",
     "git",
-    "freetds"
+    "libevent",
+    "sstp-client",
+    "lynx",
+    "freetds",
+    "ruby"
   ],
   "in-pr": [
+    "w3m",
+    "r-pki",
+    "singularity",
     "cryptography",
     "pylibscrypt",
     "m2crypto",
     "lftp",
     "postgres-xl",
+    "psycopg2",
     "lighttpd",
-    "qt",
-    "singularity",
-    "w3m",
-    "r-pki",
+    "aws-sdk-cpp",
+    "gdal",
     "thrift-cpp",
-    "aws-sdk-cpp"
+    "qt"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "psycopg2",
-    "root",
-    "gdal",
     "entwine",
+    "root",
     "octave"
   ],
   "_feedstock_status": {
@@ -100,7 +100,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "entwine"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/gdal-feedstock/pull/268"
     },
     "git": {
       "num_descendants": 0,
@@ -208,7 +209,8 @@
     },
     "psycopg2": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/psycopg2-feedstock/pull/24"
     },
     "pylibscrypt": {
       "num_descendants": 0,
