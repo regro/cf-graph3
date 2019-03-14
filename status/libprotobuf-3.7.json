@@ -1,0 +1,76 @@
+{
+  "done": [],
+  "in-pr": [
+    "libhdfs3",
+    "arrow-cpp",
+    "shogun-cpp",
+    "protobuf",
+    "r-protolite"
+  ],
+  "awaiting-pr": [
+    "paraview",
+    "grpc-cpp",
+    "mosh"
+  ],
+  "awaiting-parents": [
+    "shogun",
+    "onnx",
+    "mysql-connector-python"
+  ],
+  "_feedstock_status": {
+    "arrow-cpp": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/arrow-cpp-feedstock/pull/74"
+    },
+    "mosh": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mysql-connector-python": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "onnx": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "paraview": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "protobuf": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "mysql-connector-python",
+        "onnx"
+      ],
+      "pr_url": "https://github.com/conda-forge/protobuf-feedstock/pull/62"
+    },
+    "shogun": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "shogun-cpp": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "shogun"
+      ],
+      "pr_url": "https://github.com/conda-forge/shogun-cpp-feedstock/pull/25"
+    },
+    "libhdfs3": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/libhdfs3-feedstock/pull/25"
+    },
+    "r-protolite": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/r-protolite-feedstock/pull/2"
+    },
+    "grpc-cpp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    }
+  }
+}
