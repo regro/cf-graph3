@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-14T14:28:28Z",
-    "updated_at": "2019-03-14T14:28:34Z",
+    "updated_at": "2019-03-14T20:07:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2c098b1cc0199f03de9c509bfb86ddc21657f5e9",
+    "merge_commit_sha": "bd93a2d308230e94ed529dd20cacd5da3fae9eac",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/pulls/8/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/issues/8/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/statuses/f1f4f6b4e67e1daab2b117c2f3370444cacf6680",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/statuses/faf671d17f2bf18fc60f8036e92c8aa016477cc3",
     "head": {
         "label": "regro-cf-autotick-bot:5.4.3",
         "ref": "5.4.3",
-        "sha": "f1f4f6b4e67e1daab2b117c2f3370444cacf6680",
+        "sha": "faf671d17f2bf18fc60f8036e92c8aa016477cc3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-mclust-feedstock/deployments",
             "created_at": "2018-03-09T01:22:37Z",
             "updated_at": "2018-03-09T01:22:40Z",
-            "pushed_at": "2019-03-14T14:28:27Z",
+            "pushed_at": "2019-03-14T20:07:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-mclust-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-mclust-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-mclust-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/deployments",
             "created_at": "2017-08-31T13:06:25Z",
             "updated_at": "2019-02-19T12:20:56Z",
-            "pushed_at": "2019-03-14T14:28:29Z",
+            "pushed_at": "2019-03-14T20:07:13Z",
             "git_url": "git://github.com/conda-forge/r-mclust-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-mclust-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-mclust-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/pulls/8/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/statuses/f1f4f6b4e67e1daab2b117c2f3370444cacf6680"
+            "href": "https://api.github.com/repos/conda-forge/r-mclust-feedstock/statuses/faf671d17f2bf18fc60f8036e92c8aa016477cc3"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 9,
-    "deletions": 3,
-    "changed_files": 4,
-    "Last-Modified": "Thu, 14 Mar 2019 14:28:34 GMT",
-    "ETag": "W/\"3103a5dbab17691f33571fc6e85bc5c8\""
+    "commits": 3,
+    "additions": 60,
+    "deletions": 18,
+    "changed_files": 6,
+    "Last-Modified": "Thu, 14 Mar 2019 20:07:12 GMT",
+    "ETag": "W/\"1cea5ec390fa9e6e8dab9042fb4d6777\""
 }
