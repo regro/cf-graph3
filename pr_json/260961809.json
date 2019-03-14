@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-13T22:29:52Z",
-    "updated_at": "2019-03-13T22:29:56Z",
+    "updated_at": "2019-03-14T12:38:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "0523cfba686c17e11a6cdfdcb219950b50d8c4f4",
+    "merge_commit_sha": "1bad58dc90983be9ab70d6c01904be9e3c59be24",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/statuses/882dce72c5853d41dd53020bccc7487c0400c76b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/statuses/b70c633dac03a27f3295a387e262b0f9abef7643",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "882dce72c5853d41dd53020bccc7487c0400c76b",
+        "sha": "b70c633dac03a27f3295a387e262b0f9abef7643",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/graphite2-feedstock/deployments",
             "created_at": "2018-03-05T21:29:16Z",
             "updated_at": "2018-03-05T21:29:18Z",
-            "pushed_at": "2019-03-13T22:29:52Z",
+            "pushed_at": "2019-03-14T12:38:46Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/graphite2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/graphite2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/graphite2-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/graphite2-feedstock",
             "homepage": null,
-            "size": 50,
+            "size": 52,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/graphite2-feedstock/deployments",
             "created_at": "2017-03-03T06:12:07Z",
             "updated_at": "2018-12-22T22:39:09Z",
-            "pushed_at": "2019-03-13T22:29:53Z",
+            "pushed_at": "2019-03-14T12:38:47Z",
             "git_url": "git://github.com/conda-forge/graphite2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/graphite2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/graphite2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/graphite2-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/graphite2-feedstock/statuses/882dce72c5853d41dd53020bccc7487c0400c76b"
+            "href": "https://api.github.com/repos/conda-forge/graphite2-feedstock/statuses/b70c633dac03a27f3295a387e262b0f9abef7643"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 151,
+    "commits": 3,
+    "additions": 152,
     "deletions": 148,
-    "changed_files": 21
+    "changed_files": 22,
+    "Last-Modified": "Thu, 14 Mar 2019 12:38:47 GMT",
+    "ETag": "W/\"cbdb52c51efb9a74c90c8869169b9090\""
 }

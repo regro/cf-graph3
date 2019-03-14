@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-13T22:30:40Z",
-    "updated_at": "2019-03-13T22:30:55Z",
+    "updated_at": "2019-03-14T12:54:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b8f51d8c603d7b808794714b0a6b5311bff00528",
+    "merge_commit_sha": "a531aaedab0873f116b52d1fd8e16831de427805",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/107/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/issues/107/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/d9c0c2633611124e8de4c03ab3d1f5ed130a36d1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/321a65feb0bfe3b814c867e68d96a0b1a0d74a55",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "d9c0c2633611124e8de4c03ab3d1f5ed130a36d1",
+        "sha": "321a65feb0bfe3b814c867e68d96a0b1a0d74a55",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/hdf5-feedstock/deployments",
             "created_at": "2018-04-02T10:30:02Z",
             "updated_at": "2018-04-02T10:30:04Z",
-            "pushed_at": "2019-03-13T22:30:40Z",
+            "pushed_at": "2019-03-14T12:54:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/hdf5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/hdf5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/hdf5-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/hdf5-feedstock",
             "homepage": null,
-            "size": 176,
+            "size": 179,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Fortran",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/hdf5-feedstock/deployments",
             "created_at": "2016-03-25T06:09:22Z",
             "updated_at": "2019-03-12T22:13:50Z",
-            "pushed_at": "2019-03-13T22:30:41Z",
+            "pushed_at": "2019-03-14T12:54:13Z",
             "git_url": "git://github.com/conda-forge/hdf5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/hdf5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/hdf5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/pulls/107/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/d9c0c2633611124e8de4c03ab3d1f5ed130a36d1"
+            "href": "https://api.github.com/repos/conda-forge/hdf5-feedstock/statuses/321a65feb0bfe3b814c867e68d96a0b1a0d74a55"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 352,
+    "commits": 3,
+    "additions": 353,
     "deletions": 448,
-    "changed_files": 35
+    "changed_files": 36,
+    "Last-Modified": "Thu, 14 Mar 2019 12:54:12 GMT",
+    "ETag": "W/\"c95ce505c99e4d4d793106b3977a2582\""
 }
