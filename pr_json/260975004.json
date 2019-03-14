@@ -32,7 +32,7 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-13T23:28:36Z",
-    "updated_at": "2019-03-13T23:28:41Z",
+    "updated_at": "2019-03-14T00:58:57Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "ebf86a6d994dae84d949146d438fb476f1cb4e5c",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/pywinpty-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pywinpty-feedstock",
             "homepage": null,
-            "size": 30,
+            "size": 42,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Batchfile",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 145,
     "deletions": 14,
-    "changed_files": 6
+    "changed_files": 6,
+    "Last-Modified": "Thu, 14 Mar 2019 00:58:57 GMT",
+    "ETag": "W/\"6ec7ae2ba9b5774a9beae9e804f1c927\""
 }
