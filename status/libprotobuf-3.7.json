@@ -1,17 +1,16 @@
 {
   "done": [],
   "in-pr": [
-    "libhdfs3",
-    "arrow-cpp",
+    "grpc-cpp",
     "shogun-cpp",
+    "libhdfs3",
     "protobuf",
+    "paraview",
+    "mosh",
+    "arrow-cpp",
     "r-protolite"
   ],
-  "awaiting-pr": [
-    "paraview",
-    "grpc-cpp",
-    "mosh"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
     "shogun",
     "onnx",
@@ -25,7 +24,8 @@
     },
     "mosh": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mosh-feedstock/pull/12"
     },
     "mysql-connector-python": {
       "num_descendants": 0,
@@ -37,7 +37,8 @@
     },
     "paraview": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/paraview-feedstock/pull/25"
     },
     "protobuf": {
       "num_descendants": 2,
@@ -70,7 +71,8 @@
     },
     "grpc-cpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/grpc-cpp-feedstock/pull/10"
     }
   }
 }
