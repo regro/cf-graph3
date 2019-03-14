@@ -32,25 +32,39 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-13T23:29:14Z",
-    "updated_at": "2019-03-13T23:38:25Z",
+    "updated_at": "2019-03-14T04:37:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "42463b9172eaac97882f25a7cf8ae13aeb116e8b",
+    "merge_commit_sha": "f9e3d460a58ef27e40aff5d3db7a01432adedff2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
-    "requested_teams": [],
+    "requested_teams": [
+        {
+            "name": "conda-build",
+            "id": 2086190,
+            "node_id": "MDQ6VGVhbTIwODYxOTA=",
+            "slug": "conda-build",
+            "description": "The smashing conda-build contributors!",
+            "privacy": "closed",
+            "url": "https://api.github.com/teams/2086190",
+            "html_url": "https://github.com/orgs/conda-forge/teams/conda-build",
+            "members_url": "https://api.github.com/teams/2086190/members{/member}",
+            "repositories_url": "https://api.github.com/teams/2086190/repos",
+            "permission": "push"
+        }
+    ],
     "labels": [],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/pulls/91/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/pulls/91/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/issues/91/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/statuses/c8db9baf219f1d101066fbe23a63b301d9350533",
+    "statuses_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/statuses/415dbf55d923d628e73503e7bbeb58df4004ffd9",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "c8db9baf219f1d101066fbe23a63b301d9350533",
+        "sha": "415dbf55d923d628e73503e7bbeb58df4004ffd9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +153,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/conda-build-feedstock/deployments",
             "created_at": "2018-03-01T04:18:57Z",
             "updated_at": "2018-03-01T04:19:00Z",
-            "pushed_at": "2019-03-13T23:29:14Z",
+            "pushed_at": "2019-03-14T04:24:58Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/conda-build-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/conda-build-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/conda-build-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/conda-build-feedstock",
             "homepage": null,
-            "size": 83,
+            "size": 161,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +277,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/conda-build-feedstock/deployments",
             "created_at": "2016-08-01T03:22:11Z",
             "updated_at": "2019-03-13T14:40:09Z",
-            "pushed_at": "2019-03-13T23:29:15Z",
+            "pushed_at": "2019-03-14T04:25:00Z",
             "git_url": "git://github.com/conda-forge/conda-build-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/conda-build-feedstock.git",
             "clone_url": "https://github.com/conda-forge/conda-build-feedstock.git",
@@ -318,7 +332,7 @@
             "href": "https://api.github.com/repos/conda-forge/conda-build-feedstock/pulls/91/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/conda-build-feedstock/statuses/c8db9baf219f1d101066fbe23a63b301d9350533"
+            "href": "https://api.github.com/repos/conda-forge/conda-build-feedstock/statuses/415dbf55d923d628e73503e7bbeb58df4004ffd9"
         }
     },
     "author_association": "NONE",
@@ -332,8 +346,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 1,
-    "deletions": 4,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 29,
+    "deletions": 5,
+    "changed_files": 3,
+    "Last-Modified": "Thu, 14 Mar 2019 04:37:48 GMT",
+    "ETag": "W/\"ddcbb151f368d3ddca913d676cc7326d\""
 }
