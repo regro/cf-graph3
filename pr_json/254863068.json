@@ -262,7 +262,7 @@
             "releases_url": "https://api.github.com/repos/conda-forge/ligo.skymap-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/ligo.skymap-feedstock/deployments",
             "created_at": "2019-01-17T13:01:56Z",
-            "updated_at": "2019-03-06T03:34:48Z",
+            "updated_at": "2019-03-15T15:29:56Z",
             "pushed_at": "2019-03-14T02:25:37Z",
             "git_url": "git://github.com/conda-forge/ligo.skymap-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/ligo.skymap-feedstock.git",
@@ -270,8 +270,8 @@
             "svn_url": "https://github.com/conda-forge/ligo.skymap-feedstock",
             "homepage": null,
             "size": 29,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
             "language": "Shell",
             "has_issues": true,
             "has_projects": true,
@@ -291,7 +291,7 @@
             },
             "forks": 2,
             "open_issues": 2,
-            "watchers": 0,
+            "watchers": 1,
             "default_branch": "master"
         }
     },
@@ -335,5 +335,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Thu, 21 Feb 2019 02:17:11 GMT",
+    "ETag": "W/\"b355982747e93cd1775cb877c71de829\""
 }
