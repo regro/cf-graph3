@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/git-annex-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/git-annex-feedstock/deployments",
             "created_at": "2018-03-19T18:53:15Z",
-            "updated_at": "2019-03-14T18:41:57Z",
-            "pushed_at": "2019-03-14T20:23:56Z",
+            "updated_at": "2019-03-14T23:45:10Z",
+            "pushed_at": "2019-03-14T23:45:08Z",
             "git_url": "git://github.com/conda-forge/git-annex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/git-annex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/git-annex-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 3,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 11,
+            "open_issues_count": 10,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 3,
-            "open_issues": 11,
+            "open_issues": 10,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -325,9 +325,9 @@
     "body_html": "<p>List of changes done to the recipe:<br>\nRenamed build with host<br>\nRemoving toolchain in favour of compiler()<br>\nMoving pkg-config from host to build<br>\nRemoving pinnings for ncurses to use values from conda_build_config.yaml<br>\nRemoving pinnings for gmp to use values from conda_build_config.yaml<br>\nRemoving pinnings for libxml2 to use values from conda_build_config.yaml<br>\nRemoving pinnings for sqlite to use values from conda_build_config.yaml<br>\nAdding C compiler</p>\n<p><em>If you have recived a <code>Migrate to Jinja2 compiler syntax</code> PR from me recently please close that one and use this one</em>.<br>\nIt is very likely that this feedstock is in need of migration.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "List of changes done to the recipe:\nRenamed build with host\nRemoving toolchain in favour of compiler()\nMoving pkg-config from host to build\nRemoving pinnings for ncurses to use values from conda_build_config.yaml\nRemoving pinnings for gmp to use values from conda_build_config.yaml\nRemoving pinnings for libxml2 to use values from conda_build_config.yaml\nRemoving pinnings for sqlite to use values from conda_build_config.yaml\nAdding C compiler\nIf you have recived a Migrate to Jinja2 compiler syntax PR from me recently please close that one and use this one.\nIt is very likely that this feedstock is in need of migration.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
-    "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable": null,
+    "rebaseable": null,
+    "mergeable_state": "unknown",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 166,
     "changed_files": 15,
     "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
-    "ETag": "W/\"d457097f768119ea367c44559760ac6a\""
+    "ETag": "W/\"564c849ef19c660ea5bc9d669121e52c\""
 }
