@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-14T21:28:30Z",
-    "updated_at": "2019-03-14T21:28:36Z",
+    "updated_at": "2019-03-15T01:51:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "966ab8274764d22a70914bf2c994c2c2d44b0593",
+    "merge_commit_sha": "9d355e4d072dbc1719f85e017adc491dcdd9803d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/statuses/af17686f09973e10cf0e327c77f25ad936921bf4",
+    "statuses_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/statuses/da39114da9bcf43022559e8dded567dc0e62db74",
     "head": {
         "label": "regro-cf-autotick-bot:0.7.0",
         "ref": "0.7.0",
-        "sha": "af17686f09973e10cf0e327c77f25ad936921bf4",
+        "sha": "da39114da9bcf43022559e8dded567dc0e62db74",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/signac-flow-feedstock/deployments",
             "created_at": "2018-08-11T15:14:18Z",
             "updated_at": "2018-08-11T15:14:20Z",
-            "pushed_at": "2019-03-14T21:28:29Z",
+            "pushed_at": "2019-03-15T01:51:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/signac-flow-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/signac-flow-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/signac-flow-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/deployments",
             "created_at": "2017-05-26T14:04:01Z",
             "updated_at": "2019-01-31T19:28:45Z",
-            "pushed_at": "2019-03-14T21:28:31Z",
+            "pushed_at": "2019-03-15T01:51:22Z",
             "git_url": "git://github.com/conda-forge/signac-flow-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/signac-flow-feedstock.git",
             "clone_url": "https://github.com/conda-forge/signac-flow-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/statuses/af17686f09973e10cf0e327c77f25ad936921bf4"
+            "href": "https://api.github.com/repos/conda-forge/signac-flow-feedstock/statuses/da39114da9bcf43022559e8dded567dc0e62db74"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 10,
-    "deletions": 5,
-    "changed_files": 4
+    "commits": 3,
+    "additions": 12,
+    "deletions": 6,
+    "changed_files": 4,
+    "Last-Modified": "Fri, 15 Mar 2019 01:51:21 GMT",
+    "ETag": "W/\"42856f099f621d779241a73b18d07a20\""
 }
