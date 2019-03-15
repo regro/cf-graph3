@@ -4,18 +4,18 @@
     "grpc-cpp"
   ],
   "in-pr": [
-    "shogun-cpp",
-    "libhdfs3",
     "mosh",
     "protobuf",
     "arrow-cpp",
-    "paraview"
+    "shogun-cpp",
+    "paraview",
+    "libhdfs3"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "shogun",
     "onnx",
-    "mysql-connector-python"
+    "mysql-connector-python",
+    "shogun"
   ],
   "_feedstock_status": {
     "arrow-cpp": {
