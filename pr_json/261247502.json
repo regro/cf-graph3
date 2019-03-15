@@ -32,7 +32,7 @@
     },
     "body": "This PR has been triggered in an effort to update **libprotobuf-3.7**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-14T16:33:54Z",
-    "updated_at": "2019-03-15T09:44:33Z",
+    "updated_at": "2019-03-15T10:22:41Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "ea4773ae943ba803fe41bccfc83a0b405fa399e4",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/arrow-cpp-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/arrow-cpp-feedstock",
             "homepage": null,
-            "size": 97,
+            "size": 98,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 3,
     "additions": 33,
     "deletions": 9,
-    "changed_files": 9
+    "changed_files": 9,
+    "Last-Modified": "Fri, 15 Mar 2019 10:22:41 GMT",
+    "ETag": "W/\"0ad172e6c06a659a41d2e7cfcb8c6f19\""
 }

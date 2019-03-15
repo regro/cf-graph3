@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/r-rgl-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/r-rgl-feedstock/deployments",
             "created_at": "2017-05-02T11:50:01Z",
-            "updated_at": "2018-10-30T22:26:09Z",
-            "pushed_at": "2019-03-15T10:19:01Z",
+            "updated_at": "2019-03-15T11:24:32Z",
+            "pushed_at": "2019-03-15T11:24:29Z",
             "git_url": "git://github.com/conda-forge/r-rgl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-rgl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-rgl-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 6,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 6,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -325,9 +325,9 @@
     "body_html": "<p>It is likely this feedstock needs to be rebuilt.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></p>\n<p>This package has the following downstream children:<br>\nr-lidr<br>\nr-feature<br>\nr-mixomics<br>\nr-pca3d<br>\nr-plot3drgl<br>\nAnd potentially more.</p>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nr-lidr\nr-feature\nr-mixomics\nr-pca3d\nr-plot3drgl\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": true,
-    "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable": false,
+    "rebaseable": false,
+    "mergeable_state": "dirty",
     "merged_by": null,
     "comments": 10,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 201,
     "changed_files": 21,
     "Last-Modified": "Mon, 04 Feb 2019 04:47:37 GMT",
-    "ETag": "W/\"29c69283b71db8ff6bdcdd192f578ee6\""
+    "ETag": "W/\"70faa02b95e7dee54afc2e1a79920c30\""
 }

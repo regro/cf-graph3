@@ -1,20 +1,20 @@
 {
   "done": [
     "r-protolite",
-    "grpc-cpp"
+    "grpc-cpp",
+    "protobuf"
   ],
   "in-pr": [
-    "mosh",
-    "protobuf",
-    "arrow-cpp",
-    "shogun-cpp",
     "paraview",
-    "libhdfs3"
+    "libhdfs3",
+    "mosh",
+    "shogun-cpp",
+    "arrow-cpp",
+    "onnx",
+    "mysql-connector-python"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "onnx",
-    "mysql-connector-python",
     "shogun"
   ],
   "_feedstock_status": {
@@ -30,11 +30,13 @@
     },
     "mysql-connector-python": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mysql-connector-python-feedstock/pull/13"
     },
     "onnx": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/onnx-feedstock/pull/23"
     },
     "paraview": {
       "num_descendants": 0,
