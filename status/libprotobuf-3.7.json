@@ -5,13 +5,13 @@
     "r-protolite"
   ],
   "in-pr": [
-    "libhdfs3",
-    "paraview",
-    "mosh",
     "onnx",
     "mysql-connector-python",
+    "mosh",
     "arrow-cpp",
-    "shogun-cpp"
+    "paraview",
+    "shogun-cpp",
+    "libhdfs3"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
