@@ -3,12 +3,12 @@
     "r-protolite"
   ],
   "in-pr": [
-    "paraview",
-    "grpc-cpp",
-    "shogun-cpp",
-    "arrow-cpp",
     "mosh",
     "libhdfs3",
+    "grpc-cpp",
+    "paraview",
+    "arrow-cpp",
+    "shogun-cpp",
     "protobuf"
   ],
   "awaiting-pr": [],
