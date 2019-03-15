@@ -1,15 +1,15 @@
 {
   "done": [
-    "r-protolite"
+    "r-protolite",
+    "grpc-cpp"
   ],
   "in-pr": [
-    "shogun-cpp",
-    "grpc-cpp",
-    "paraview",
-    "protobuf",
     "mosh",
     "libhdfs3",
-    "arrow-cpp"
+    "arrow-cpp",
+    "shogun-cpp",
+    "protobuf",
+    "paraview"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
