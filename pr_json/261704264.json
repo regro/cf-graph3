@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-15T21:28:20Z",
-    "updated_at": "2019-03-15T21:28:24Z",
+    "updated_at": "2019-03-15T22:43:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "29407d4192ef1821c8a27615b9ed5d58e53e0127",
+    "merge_commit_sha": "edc88fcb900ba47d6b9117ff04d39f6082d3b6cb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/pulls/6/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/issues/6/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/statuses/15612ea688d67ba8eb269d1f67b927424365d833",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/statuses/a48f467a18d723f89df5ce91f5aaf229b8866055",
     "head": {
         "label": "regro-cf-autotick-bot:1.10.0",
         "ref": "1.10.0",
-        "sha": "15612ea688d67ba8eb269d1f67b927424365d833",
+        "sha": "a48f467a18d723f89df5ce91f5aaf229b8866055",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-dendextend-feedstock/deployments",
             "created_at": "2018-03-09T01:05:57Z",
             "updated_at": "2018-03-09T01:05:58Z",
-            "pushed_at": "2019-03-15T21:28:19Z",
+            "pushed_at": "2019-03-15T22:43:21Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-dendextend-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-dendextend-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-dendextend-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/r-dendextend-feedstock",
             "homepage": null,
-            "size": 16,
+            "size": 32,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/deployments",
             "created_at": "2017-09-17T15:41:56Z",
             "updated_at": "2019-02-19T23:13:56Z",
-            "pushed_at": "2019-03-15T21:28:21Z",
+            "pushed_at": "2019-03-15T22:43:23Z",
             "git_url": "git://github.com/conda-forge/r-dendextend-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-dendextend-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-dendextend-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/pulls/6/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/statuses/15612ea688d67ba8eb269d1f67b927424365d833"
+            "href": "https://api.github.com/repos/conda-forge/r-dendextend-feedstock/statuses/a48f467a18d723f89df5ce91f5aaf229b8866055"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 3,
-    "deletions": 3,
-    "changed_files": 2,
-    "Last-Modified": "Fri, 15 Mar 2019 21:28:24 GMT",
-    "ETag": "W/\"ef5d3af63bcafe39b3b807032ed06920\""
+    "commits": 3,
+    "additions": 56,
+    "deletions": 20,
+    "changed_files": 4,
+    "Last-Modified": "Fri, 15 Mar 2019 22:43:22 GMT",
+    "ETag": "W/\"bdca30d56b14a26c2698a16cd3b1bf1c\""
 }
