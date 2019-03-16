@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/wasabi-feedstock/pull/1.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/wasabi-feedstock/issues/1",
     "number": 1,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "wasabi v0.1.3",
     "user": {
@@ -32,8 +32,8 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-13T14:52:56Z",
-    "updated_at": "2019-03-13T14:53:08Z",
-    "closed_at": null,
+    "updated_at": "2019-03-16T13:57:24Z",
+    "closed_at": "2019-03-16T13:57:24Z",
     "merged_at": null,
     "merge_commit_sha": "13ce36555cb2996ea7010d4bf4c2065614b5ec75",
     "assignee": null,
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/wasabi-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/wasabi-feedstock/deployments",
             "created_at": "2019-02-24T17:34:33Z",
-            "updated_at": "2019-02-24T17:36:53Z",
-            "pushed_at": "2019-03-13T14:52:57Z",
+            "updated_at": "2019-03-16T13:57:49Z",
+            "pushed_at": "2019-03-16T13:57:47Z",
             "git_url": "git://github.com/conda-forge/wasabi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/wasabi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/wasabi-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -325,17 +325,17 @@
     "body_html": "<p>It is very likely that the current package version for this feedstock is out of date.<br>\nNotes and instructions for merging this PR:</p>\n<ol>\n<li>Please check that the dependencies have not changed.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n<li>The bot will almost always only open one PR per version.</li>\n</ol>\n<p>If this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": true,
-    "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable": null,
+    "rebaseable": null,
+    "mergeable_state": "unknown",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "changed_files": 1,
-    "Last-Modified": "Wed, 13 Mar 2019 14:53:08 GMT",
-    "ETag": "W/\"b08f9bfdb031c2002009560596c312a5\""
+    "Last-Modified": "Sat, 16 Mar 2019 13:57:24 GMT",
+    "ETag": "W/\"8ff886db2f15b157828a7edd9f17954f\""
 }
