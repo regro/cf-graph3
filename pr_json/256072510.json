@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update *OpenSSL*.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-25T22:33:48Z",
-    "updated_at": "2019-02-25T22:34:04Z",
+    "updated_at": "2019-03-16T15:21:47Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4c185a35387bac4e43e88c18959cff14ae44a40f",
+    "merge_commit_sha": "d8f92bb34ba6e62fa4a3ed4d76092c67312df495",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/statuses/722a248cfc8ed25a4431deb49e90ed6fa6662b12",
+    "statuses_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/statuses/923de9c4703861e77bbfe48e8567844b935ff173",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl",
         "ref": "rebuildopenssl",
-        "sha": "722a248cfc8ed25a4431deb49e90ed6fa6662b12",
+        "sha": "923de9c4703861e77bbfe48e8567844b935ff173",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/w3m-feedstock/deployments",
             "created_at": "2018-06-29T23:25:17Z",
             "updated_at": "2018-06-29T23:25:19Z",
-            "pushed_at": "2019-02-25T22:33:48Z",
+            "pushed_at": "2019-03-16T15:21:47Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/w3m-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/w3m-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/w3m-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/w3m-feedstock",
             "homepage": null,
-            "size": 27,
+            "size": 39,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/w3m-feedstock/deployments",
             "created_at": "2017-08-31T01:00:28Z",
             "updated_at": "2018-11-17T23:02:35Z",
-            "pushed_at": "2019-02-25T22:33:49Z",
+            "pushed_at": "2019-03-16T15:21:48Z",
             "git_url": "git://github.com/conda-forge/w3m-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/w3m-feedstock.git",
             "clone_url": "https://github.com/conda-forge/w3m-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/w3m-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/w3m-feedstock/statuses/722a248cfc8ed25a4431deb49e90ed6fa6662b12"
+            "href": "https://api.github.com/repos/conda-forge/w3m-feedstock/statuses/923de9c4703861e77bbfe48e8567844b935ff173"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 274,
-    "deletions": 140,
-    "changed_files": 16
+    "commits": 8,
+    "additions": 283,
+    "deletions": 145,
+    "changed_files": 16,
+    "Last-Modified": "Sat, 16 Mar 2019 15:21:47 GMT",
+    "ETag": "W/\"09c3ecb71743970cdc7dcf601ad2351c\""
 }
