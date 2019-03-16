@@ -2,147 +2,158 @@
   "done": [],
   "in-pr": [],
   "awaiting-pr": [
-    "nn",
-    "libunwind",
-    "cunit",
-    "liblbfgs",
-    "cryptopp",
+    "libframe",
     "geckodriver",
-    "go-gox",
-    "compilers",
-    "libsigsegv",
-    "ragel",
-    "gtest",
-    "binaryen",
-    "openlibm",
-    "cspice",
-    "lp_solve",
-    "qd",
-    "vault",
-    "fswatch",
-    "libutf8proc",
-    "zookeeper-c",
-    "mpir",
-    "c-ares",
-    "rubiks",
-    "container-diff",
+    "spdlog",
+    "sed",
+    "datefudge",
+    "go-bindata",
     "jemalloc",
-    "inotify-tools",
-    "miktex",
-    "x264",
-    "bisonpp",
-    "iperf",
-    "judy",
-    "laszip",
-    "datamash",
-    "rpfits",
-    "cliquer",
-    "eigen",
+    "consul-template",
     "geoip",
-    "metis",
-    "expat",
-    "libsodium",
-    "libglu",
-    "jbig",
-    "pulsewaves",
-    "lbzip2",
-    "libtasn1",
-    "mpich",
-    "pkg-config",
-    "f2c",
-    "wabt",
-    "openfst",
-    "cquadpack",
-    "pcre2",
-    "ocaml",
-    "clhep",
-    "icu",
-    "gawk",
-    "lastools",
-    "palp",
-    "libgfortran",
-    "libgpuarray",
-    "gperf",
-    "cppcheck",
-    "vmtouch",
+    "cryptopp",
+    "nlohmann_json",
+    "pthreads-win32",
     "blosc",
-    "libsemigroups",
-    "c99-to-c89",
-    "openmpi",
-    "make",
-    "alsa-lib",
-    "jansson",
-    "hub",
-    "fann2",
-    "sparsehash",
-    "double-conversion",
-    "ctags",
-    "xz",
-    "go-dep",
-    "xxhash",
-    "mpg123",
-    "libctl",
-    "csa",
-    "argtable2",
-    "vlfeat",
-    "json-c",
-    "primesieve",
-    "openblas",
-    "tzcode",
+    "time",
+    "rapidjson",
+    "planarity",
+    "gawk",
     "libffi",
-    "tini",
+    "liblbfgs",
+    "packmol",
+    "zookeeper-c",
+    "cspice",
+    "libdb",
+    "vdt",
+    "datamash",
     "consul",
+    "gflags",
+    "libntlm",
+    "nn",
+    "gengetopt",
+    "expat",
+    "fftw",
+    "parmetis",
+    "ragel",
+    "mpir",
+    "tzcode",
+    "eigen",
+    "qhull",
+    "fann2",
+    "luajit",
+    "cpulimit",
+    "primesieve",
+    "gosu",
+    "chrpath",
+    "x264",
+    "khronos-opencl-icd-loader",
+    "qd",
+    "sixs",
+    "gst-orc",
+    "nasm",
+    "pulsewaves",
+    "libsemigroups",
+    "palp",
     "lz4-c",
     "snappy",
-    "reaper",
-    "qhull",
-    "blis",
-    "time",
-    "glog",
-    "gst-orc",
-    "gflags",
-    "xtl",
-    "spdlog",
-    "su-exec",
-    "gmp",
-    "terraform",
-    "yaml",
+    "sparsehash",
     "libev",
-    "packmol",
-    "planarity",
-    "m2w64-muparser",
-    "vdt",
-    "lrcalc",
-    "datefudge",
-    "libframe",
-    "nlohmann_json",
-    "libntlm",
-    "libosxunwind",
-    "go-glide",
-    "lzip",
-    "khronos-opencl-icd-loader",
-    "go-bindata",
-    "nasm",
-    "cpulimit",
-    "fdupes",
-    "laz-perf",
-    "xorg-util-macros",
-    "nitro",
-    "luajit",
-    "dsfmt",
-    "fasttext",
-    "chrpath",
-    "oniguruma",
-    "jsoncpp",
-    "freexl",
-    "srm",
-    "ocl-icd",
     "tar",
-    "clapack",
+    "lp_solve",
+    "tini",
+    "iperf",
+    "argtable2",
+    "terraform",
+    "go-gox",
+    "gtest",
+    "symmetrica",
+    "cliquer",
+    "glog",
+    "nauty",
+    "mpg123",
+    "libsodium",
+    "fasttext",
+    "go-dep",
+    "cppcheck",
+    "srm",
+    "judy",
+    "double-conversion",
     "re2",
-    "gengetopt",
-    "gosu",
-    "sed",
+    "clhep",
+    "f2c",
+    "miktex",
+    "make",
+    "libgpg-error",
+    "c-ares",
+    "binaryen",
+    "vlfeat",
+    "libosxunwind",
+    "xxhash",
+    "pcre2",
+    "yaml",
+    "openblas",
+    "mpich",
+    "cunit",
+    "icu",
+    "m2w64-muparser",
+    "fswatch",
+    "libsigsegv",
+    "csa",
+    "lbzip2",
+    "clapack",
+    "xz",
+    "libtasn1",
+    "jansson",
+    "libatomic_ops",
+    "openlibm",
+    "libsharp",
+    "xorg-util-macros",
+    "libgpuarray",
+    "reaper",
+    "su-exec",
+    "dsfmt",
+    "lastools",
+    "bisonpp",
+    "fdupes",
+    "ocl-icd",
+    "libunwind",
+    "compilers",
+    "libgfortran",
+    "gperf",
+    "inotify-tools",
+    "jsoncpp",
+    "json-c",
+    "lzip",
+    "metis",
+    "laz-perf",
+    "cquadpack",
+    "container-diff",
+    "oniguruma",
+    "c99-to-c89",
+    "xtl",
+    "go-glide",
+    "libutf8proc",
+    "ctags",
+    "nitro",
+    "ocaml",
+    "graphite2",
+    "nodejs",
+    "vault",
+    "blis",
+    "vmtouch",
+    "rubiks",
+    "freexl",
+    "ghostscript",
+    "libtar",
+    "pugixml",
+    "rpfits",
+    "brotli",
+    "lrcalc",
+    "openmpi",
+    "openfst",
+    "laszip",
+    "pkg-config",
     "cmake",
     "zlib",
     "tk",
@@ -153,132 +164,28 @@
     "clangdev",
     "libcxx",
     "llvmdev",
-    "sixs",
-    "libdb",
-    "graphite2",
-    "intel-ipp",
-    "brotli",
-    "pthreads-win32",
-    "racket",
-    "fftw",
-    "symmetrica",
-    "pugixml",
-    "nauty",
-    "nodejs",
-    "libatomic_ops",
-    "parmetis",
-    "rapidjson",
-    "libtar",
-    "libsharp",
+    "jbig",
     "libunistring",
-    "libgpg-error",
-    "ghostscript",
-    "consul-template"
+    "hub",
+    "intel-ipp",
+    "libglu",
+    "wabt",
+    "racket",
+    "gmp",
+    "alsa-lib",
+    "libctl"
   ],
   "awaiting-parents": [
-    "openspecfun",
-    "ad3-cpp",
+    "go-bindata-assetfs",
+    "jack",
     "apr",
     "udunits2",
     "dbus",
-    "zeromq",
-    "cppzmq",
-    "snap-cpp",
-    "pixman",
-    "ncurses",
-    "sl",
-    "tcsh",
-    "c-progressbar",
-    "readline",
-    "bash",
-    "sqlite",
-    "lua",
-    "luarocks",
-    "htop",
-    "fish",
-    "ocaml-findlib",
-    "ocamlbuild",
-    "xerces-c",
-    "xerces-c28",
-    "libnl",
-    "makedepf90",
-    "patchelf",
-    "lame",
-    "libuuid",
-    "giflib",
-    "rhash",
-    "coreutils",
-    "patch",
-    "m4",
-    "libsigcpp",
-    "libedit",
-    "bzip2",
-    "pbzip2",
-    "pv",
-    "lmdb",
-    "ossuuid",
-    "flock",
-    "perl",
-    "lcov",
-    "go1.4-bootstrap",
-    "perl-unix-processors",
-    "perl-sys-cpu",
-    "gperftools",
-    "perl-xml-parser",
-    "openssl",
-    "mysql-connector-c",
-    "socat",
-    "libevent",
-    "sstp-client",
-    "tmux",
-    "help2man",
-    "go",
-    "autoconf",
-    "nettle",
-    "automake",
-    "libtool",
-    "cppunit",
-    "libmagic",
-    "nspr",
-    "coredns",
-    "perl-text-soundex",
-    "portaudio",
-    "gridutils",
-    "gridgen",
-    "atomsk",
-    "jags",
-    "harminv",
-    "scalapack",
-    "hypre",
-    "adept",
-    "p11-kit",
+    "libsakura",
+    "ad3-cpp",
+    "ocl_icd_wrapper_apple",
     "snzip",
     "leveldb",
-    "xtensor",
-    "xframe",
-    "xproperty",
-    "ndiff",
-    "ghc-bootstrap",
-    "ghc",
-    "zn_poly",
-    "ratpoints",
-    "pari",
-    "sympow",
-    "mpfr",
-    "mppp",
-    "mpfi",
-    "mpc",
-    "symengine",
-    "lcalc",
-    "isl",
-    "givaro",
-    "gap",
-    "libgap",
-    "fplll",
-    "flintqs",
-    "ecm",
-    "cddlib",
-    "gfan",
     "terraform-provider-ultradns",
     "terraform-provider-tls",
     "terraform-provider-template",
@@ -351,14 +258,65 @@
     "terraform-provider-azurerm",
     "terraform-provider-aws",
     "terraform-provider-alicloud",
-    "xeus",
-    "xwidgets",
-    "xwebrtc",
-    "xleaflet",
-    "xplot",
-    "kubernetes-helm",
-    "ocl_icd_wrapper_apple",
-    "go-bindata-assetfs",
+    "zeromq",
+    "cppzmq",
+    "libnl",
+    "makedepf90",
+    "patchelf",
+    "lame",
+    "libuuid",
+    "giflib",
+    "rhash",
+    "coreutils",
+    "patch",
+    "m4",
+    "libsigcpp",
+    "bzip2",
+    "pbzip2",
+    "pv",
+    "lmdb",
+    "ossuuid",
+    "flock",
+    "perl",
+    "lcov",
+    "go1.4-bootstrap",
+    "perl-unix-processors",
+    "perl-sys-cpu",
+    "perl-xml-parser",
+    "openssl",
+    "mysql-connector-c",
+    "libevent",
+    "sstp-client",
+    "help2man",
+    "go",
+    "autoconf",
+    "nettle",
+    "automake",
+    "libtool",
+    "cppunit",
+    "libuv",
+    "libmagic",
+    "nspr",
+    "coredns",
+    "perl-text-soundex",
+    "npth",
+    "libksba",
+    "libassuan",
+    "libgcrypt",
+    "atomsk",
+    "jags",
+    "harminv",
+    "scalapack",
+    "hypre",
+    "adept",
+    "xerces-c",
+    "xerces-c28",
+    "gridutils",
+    "gridgen",
+    "p11-kit",
+    "bdw-gc",
+    "omcompiler",
+    "openspecfun",
     "libpciaccess",
     "libdrm",
     "xorg-xtrans",
@@ -404,10 +362,39 @@
     "xorg-bigreqsproto",
     "xorg-applewmproto",
     "pthread-stubs",
+    "gperftools",
     "jq",
     "cni",
     "cni-plugins",
-    "libuv",
+    "xeus",
+    "xtensor",
+    "xframe",
+    "xtensor-fftw",
+    "xproperty",
+    "xwidgets",
+    "xwebrtc",
+    "xleaflet",
+    "xplot",
+    "kubernetes-helm",
+    "ocaml-findlib",
+    "ocamlbuild",
+    "snap-cpp",
+    "pixman",
+    "ncurses",
+    "sl",
+    "tcsh",
+    "c-progressbar",
+    "tmux",
+    "readline",
+    "bash",
+    "sqlite",
+    "socat",
+    "nfft",
+    "lua",
+    "luarocks",
+    "libedit",
+    "htop",
+    "fish",
     "blas",
     "yaehmop",
     "optpp",
@@ -415,10 +402,8 @@
     "xtensor-blas",
     "superlu",
     "suitesparse",
-    "iml",
     "hmat-oss",
     "gsl",
-    "fflas-ffpack",
     "coincbc",
     "arpack",
     "armadillo",
@@ -441,9 +426,6 @@
     "ldas-tools-cmake",
     "fmilib",
     "proj.4",
-    "cabal",
-    "alex",
-    "happy",
     "cling",
     "zstd",
     "ilmbase",
@@ -454,6 +436,7 @@
     "metaio",
     "adios",
     "lua-luafilesystem",
+    "ntbtls",
     "nss",
     "libzip",
     "libprotobuf",
@@ -492,7 +475,6 @@
     "xorg-libxp",
     "xorg-libxi",
     "vmd",
-    "freeglut",
     "xorg-libxtst",
     "xorg-libxcursor",
     "glfw",
@@ -500,7 +482,6 @@
     "xorg-libsm",
     "xorg-libxt",
     "xorg-libxmu",
-    "simbody",
     "xorg-libxaw3d",
     "wincertstore",
     "waf",
@@ -529,6 +510,7 @@
     "namedlist",
     "mox",
     "openssh",
+    "libgsasl",
     "cyrus-sasl",
     "openldap",
     "nds2-client",
@@ -536,9 +518,6 @@
     "iolabs",
     "importlib",
     "hachoir-subfile",
-    "gmpy2",
-    "glpk",
-    "ppl",
     "dpath",
     "crcmod",
     "clcache",
@@ -572,6 +551,7 @@
     "randomcolor",
     "pyxid",
     "pyuv",
+    "python-rapidjson",
     "python-levenshtein",
     "python-leveldb",
     "python-drmaa",
@@ -622,6 +602,7 @@
     "jsonnet",
     "aionotify",
     "typing_extensions",
+    "bsddb3",
     "tlslite",
     "urwid",
     "demoshell",
@@ -667,7 +648,6 @@
     "trash-cli",
     "pyephem",
     "jieba3k",
-    "pycryptodomex",
     "mypy_extensions",
     "pyrepl",
     "uvloop",
@@ -681,7 +661,6 @@
     "pyelftools",
     "mailer",
     "httplib2",
-    "pycryptodome",
     "docutils",
     "statistics",
     "pysocks",
@@ -730,7 +709,6 @@
     "effect",
     "debtcollector",
     "fastcache",
-    "sympy",
     "ruamel.yaml",
     "future_fstrings",
     "hypothesis",
@@ -825,7 +803,6 @@
     "sasl",
     "thrift_sasl",
     "pywinpty",
-    "python-symengine",
     "purepng",
     "peewee",
     "neo4j-python-driver",
@@ -896,7 +873,6 @@
     "indexed_gzip",
     "kastore",
     "adios-python",
-    "pythran",
     "pygslodeiv2",
     "py_stringmatching",
     "hoomd",
@@ -920,18 +896,15 @@
     "sep",
     "scipy",
     "point_cloud_utils",
-    "symfit",
     "freud",
     "scs",
     "ecos",
     "osqp",
-    "brian2",
     "finitediff",
     "tvb-gdist",
     "pytmatrix",
     "scikit-surprise",
     "scikit-sparse",
-    "rt1",
     "qutip",
     "piqs",
     "pyxdameraulevenshtein",
@@ -943,6 +916,7 @@
     "pyspharm",
     "windspharm",
     "pypolyagamma",
+    "pynfft",
     "pymagej",
     "pykdtree",
     "pyresample",
@@ -950,6 +924,7 @@
     "theano",
     "pygeobase",
     "pyfmmlib",
+    "pyfftw",
     "pyepics",
     "pyemd",
     "pyembree",
@@ -990,6 +965,7 @@
     "trio",
     "trio_asyncio",
     "traitlets",
+    "pythreejs",
     "tornado",
     "topika",
     "kiwipy",
@@ -1002,6 +978,7 @@
     "retype",
     "regex",
     "pyzmq",
+    "rpcq",
     "radical.pilot",
     "circus",
     "python-xxhash",
@@ -1012,18 +989,20 @@
     "newrelic",
     "mpi4py",
     "dask-mpi",
+    "mpi4py-fft",
     "cykdtree",
+    "mpifft4py",
     "more-itertools",
     "jaraco.functools",
     "pytest",
-    "prompt",
+    "pyrsistent",
+    "eliot",
     "chardet",
+    "faker",
+    "prompt",
     "onnx",
     "onnx-tf",
     "onnx-caffe2",
-    "pyrsistent",
-    "eliot",
-    "faker",
     "segyio",
     "pyrserve",
     "meshpy",
@@ -1044,6 +1023,7 @@
     "pytest-faulthandler",
     "pytest-benchmark",
     "pytest-asyncio",
+    "galario",
     "mistune",
     "jsonschema",
     "qcodes",
@@ -1109,6 +1089,7 @@
     "cvxpy",
     "msmtools",
     "thermotools",
+    "mrjob",
     "mr.bob",
     "mkl_random",
     "mingwpy",
@@ -1135,7 +1116,6 @@
     "orekit",
     "iteration_utilities",
     "isort",
-    "islpy",
     "invoke",
     "hy",
     "hdbscan",
@@ -1192,10 +1172,6 @@
     "deap",
     "dawg",
     "datreant.core",
-    "cysignals",
-    "libsemigroups-python-bindings",
-    "fpylll",
-    "cypari2",
     "cyminmax",
     "cymem",
     "preshed",
@@ -1250,6 +1226,7 @@
     "asyncpgsa",
     "astropy",
     "cygrid",
+    "galsim",
     "spherical-geometry",
     "speclite",
     "sncosmo",
@@ -1342,6 +1319,8 @@
     "nbgrader",
     "lightfm",
     "knit",
+    "jupyterhub",
+    "jupyterhub-yarnspawner",
     "jsonapi-requests",
     "hug",
     "halotools",
@@ -1356,12 +1335,12 @@
     "catimg",
     "betfairlightweight",
     "azure-storage",
-    "snowflake-connector-python",
     "python-kubernetes",
     "py2neo",
     "coursera-dl",
     "myproxyclient",
     "eventlet",
+    "bowtie-py",
     "conda",
     "backports.ssl",
     "paramiko",
@@ -1405,12 +1384,15 @@
     "quantlab_launcher",
     "quantlab",
     "qgrid",
+    "nbtutor",
     "nbrsessionproxy",
+    "nbpresent",
     "nbdime",
     "nb_conda_kernels",
     "jupyter_conda",
     "nb_conda",
     "nb_anacondacloud",
+    "jupyterlab",
     "jupyter_nbextensions_configurator",
     "jupyter_latex_envs",
     "jupyter_highlight_selected_word",
@@ -1437,12 +1419,16 @@
     "aioeasywebdav",
     "addict",
     "pyinstaller",
+    "pigz",
     "openh264",
     "mosh",
     "lynx",
     "lua-luaposix",
     "lmod",
     "ssh2-python",
+    "librdkafka",
+    "python-confluent-kafka",
+    "pykafka",
     "libpng",
     "sox",
     "pgplot",
@@ -1462,7 +1448,6 @@
     "dcmstack",
     "tskit",
     "gpflow",
-    "pymca",
     "msprime",
     "westpa",
     "theanolm",
@@ -1482,10 +1467,10 @@
     "environment-modules",
     "elfutils",
     "pyctest",
-    "swi-prolog",
     "aws-sdk-cpp",
     "cfitsio",
     "chealpix",
+    "namaster",
     "ccfits",
     "wcslib",
     "healpix_cxx",
@@ -1493,31 +1478,23 @@
     "sagemath-db-conway-polynomials",
     "coinmp",
     "boost-cpp",
-    "libint",
     "helics",
     "libkml",
     "valgrind",
     "pcl",
     "trilinos",
-    "coin3d",
     "clsparse",
     "clfft",
     "clblas",
     "thrift-cpp",
     "cryptominisat",
     "rank_filter",
-    "piranha",
-    "audi",
     "msgpack-c",
-    "cgal",
-    "gudhi",
-    "brial",
     "boost",
     "highfive",
     "reaktoro",
     "mlpack",
     "pyodeint",
-    "pyaudi",
     "zwatershed",
     "pykep",
     "libobjcryst",
@@ -1528,6 +1505,7 @@
     "avro",
     "cyavro",
     "yajl",
+    "kafkacat",
     "xsimd",
     "z5py",
     "tetgen",
@@ -1536,7 +1514,6 @@
     "shapelib",
     "scikit-build",
     "rxcpp",
-    "pyranha",
     "pyopcode",
     "pcre",
     "zsh",
@@ -1553,7 +1530,6 @@
     "fmipp",
     "libmed",
     "xraylib",
-    "swiglpk",
     "simupop",
     "scikit-umfpack",
     "py-fann2",
@@ -1575,7 +1551,6 @@
     "libjpeg-turbo",
     "zbar",
     "libiconv",
-    "gfortran_impl_osx-64",
     "texinfo",
     "source-highlight",
     "gdb",
@@ -1593,6 +1568,7 @@
     "pymssql",
     "ctds",
     "nano",
+    "gnupg",
     "popt",
     "rsync",
     "spooles",
@@ -1600,20 +1576,18 @@
     "kubernetes-federation",
     "kubernetes",
     "libxml2",
+    "scilab",
     "davix",
     "xrootd",
     "uproot",
+    "ticcutils",
+    "ticcltools",
     "mdsplus",
+    "libhdfs3",
+    "hdfs3",
     "ldc",
     "lld",
     "gf2x",
-    "ntl",
-    "libflint",
-    "linbox",
-    "arb",
-    "e-antic",
-    "python-flint",
-    "eclib",
     "openmp",
     "openmeeg",
     "flang",
@@ -1628,6 +1602,7 @@
     "lldb",
     "llvmlite",
     "numba",
+    "ngmix",
     "opentsne",
     "fasttsne",
     "xarray-extras",
@@ -1639,8 +1614,6 @@
     "compiler-rt",
     "halide",
     "uwsgi",
-    "shogun-cpp",
-    "shogun",
     "lighttpd",
     "libxslt",
     "asciidoc",
@@ -1649,6 +1622,13 @@
     "lscsoft-glue",
     "dqsegdb",
     "python-ligo-lw",
+    "lal",
+    "lalpulsar",
+    "lalxml",
+    "lalsimulation",
+    "lalmetaio",
+    "lalframe",
+    "lalinspiral",
     "databases",
     "fludashboard",
     "lxml",
@@ -1663,8 +1643,8 @@
     "premailer",
     "jupyter_contrib_nbextensions",
     "airflow",
-    "igraph",
-    "rw",
+    "libhwloc",
+    "pocl",
     "doconce",
     "libidn11",
     "libarchive",
@@ -1673,8 +1653,6 @@
     "conda-build",
     "hcephes",
     "ncephes",
-    "almosthere",
-    "bgen",
     "conda-forge-ci-setup",
     "conda-testenv",
     "obvious-ci",
@@ -1685,7 +1663,7 @@
     "centrally-managed-conda",
     "gettext",
     "newt",
-    "giac",
+    "byobu",
     "findutils",
     "git",
     "lief",
@@ -1700,19 +1678,19 @@
     "pysoundfile",
     "xorg-libxpm",
     "xorg-libxaw",
+    "w3m",
     "supervisor",
     "superlance",
-    "ruby",
     "mono",
     "lftp",
     "hunspell",
-    "gnutls",
     "glib",
     "fluidsynth",
     "cem",
     "pymt_cem",
     "sedflux",
     "pymt_sedflux",
+    "libsecret",
     "squash",
     "libmemcached",
     "pylibmc",
@@ -1728,16 +1706,16 @@
     "vispy",
     "cairo",
     "openbabel",
-    "texlive-core",
     "pycairo",
-    "python-igraph",
-    "leidenalg",
-    "louvain",
     "gobject-introspection",
     "gstreamer",
     "gst-plugins-base",
     "pygobject",
     "gst-python",
+    "harfbuzz",
+    "libass",
+    "tectonic",
+    "pango",
     "atk",
     "giza",
     "cairomm",
@@ -1755,35 +1733,37 @@
     "sphinxbase",
     "pocketsphinx",
     "scotch",
+    "petsc",
+    "slepc",
+    "petsc4py",
+    "slepc4py",
+    "libadjoint",
+    "mumps",
+    "pymumps",
     "libpcap",
     "mongo-tools",
     "iverilog",
     "binutils",
     "bc",
-    "ffmpeg",
-    "ffpyplayer",
-    "audioread",
-    "aubio",
     "lapack",
     "cyclus-build-deps",
     "multinest",
+    "yaafe",
     "jpeg",
     "tachyon",
-    "fltk",
-    "gmsh",
     "qpdf",
     "u3d",
+    "xfig",
+    "root5",
     "openmotif",
     "libtiff",
     "libwebp",
-    "openimageio",
-    "xtensor-io",
     "sdl2_image",
+    "vigra",
     "pillow",
     "pyautogui",
     "bokeh",
     "bcolz",
-    "bgen-reader",
     "blaze",
     "pandas-plink",
     "pyfizi",
@@ -1791,6 +1771,7 @@
     "fresnel",
     "aggdraw",
     "asciimatics",
+    "ipywe",
     "halide-python",
     "wordcloud",
     "torchvision",
@@ -1805,13 +1786,13 @@
     "scikit-image",
     "scikit-beam",
     "openpiv",
+    "ipyvolume",
     "hips",
     "girder",
     "constructor",
     "cmt",
     "cairosvg",
     "svg42pdf",
-    "av",
     "openjpeg",
     "gdcm",
     "leptonica",
@@ -1822,16 +1803,14 @@
     "py_gd",
     "nginx",
     "nginx-module-njs",
-    "jasper",
-    "g2clib",
     "imread",
     "hdf4",
     "pyhdf",
     "libnetcdf",
     "vtk",
+    "smesh",
     "vmd-python",
     "vic",
-    "wgrib2",
     "netcdf4",
     "pycovjson",
     "dummydata",
@@ -1855,87 +1834,23 @@
     "netcdf-cxx4",
     "libradolan",
     "nco",
-    "libdrs",
     "libcf",
-    "libcdms",
-    "libdrs_f",
-    "ezget",
-    "cdtime",
-    "cdms2",
-    "cmor",
-    "genutil",
-    "ecmwf_grib",
-    "python-ecmwf_grib",
     "cdat-lite",
     "nappy",
     "hdfeos2",
+    "graphviz",
+    "pydot",
+    "pygraphviz",
+    "jonga",
     "geotiff",
     "gdk-pixbuf",
-    "emacs",
-    "glew",
-    "kivy",
-    "geos",
-    "shapely",
-    "cw-eval",
-    "odm2api",
-    "wofpy",
-    "odm2rest",
-    "libspatialite",
-    "gdal",
-    "plio",
-    "rsgislib",
-    "rapidpy",
-    "python-fmask",
-    "postgis",
-    "pgrouting",
-    "gsshapy",
-    "fiona",
-    "paegan-transport",
-    "rasterio",
-    "pysheds",
-    "pdal",
-    "entwine",
-    "python-pdal",
-    "spdlib",
-    "hexer",
-    "pynio",
-    "ncl",
-    "pyngl",
-    "flatbuffers",
-    "eccodes",
-    "pygrib",
-    "python-eccodes",
-    "doxygen",
-    "pytrilinos",
-    "dlib",
-    "dionysus",
-    "cxxopts",
-    "cotire",
-    "chemfiles-lib",
-    "chemfiles-python",
-    "capnproto",
-    "pycapnp",
-    "backward-cpp",
-    "ampl-mp",
-    "byobu",
-    "singular",
-    "pynac",
-    "bsddb3",
-    "jack",
-    "pyaudio",
-    "harfbuzz",
-    "libass",
-    "tectonic",
-    "pango",
     "gtk2",
     "ggobi",
     "qt",
     "qtserialport",
-    "soqt",
     "pyside2",
     "qtwebkit",
     "qtlocation",
-    "pivy",
     "simage",
     "qwt",
     "qwtpolar",
@@ -1945,8 +1860,8 @@
     "pyside",
     "pyqt",
     "ipypivot",
-    "egal",
     "ipyleaflet",
+    "egal",
     "pymeasure",
     "apptools",
     "qt5reactor",
@@ -1954,17 +1869,15 @@
     "veusz",
     "iris-ued",
     "vitables",
-    "tuiview",
     "spyder",
     "spyder-terminal",
     "spyder-memory-profiler",
     "qt_binder",
     "qscintilla2",
-    "qgis",
+    "pyferret",
     "mayavi",
     "matplotlib",
     "papillon",
-    "arcsi",
     "newspaper3k",
     "asap",
     "sasview",
@@ -1976,36 +1889,33 @@
     "otmorris",
     "otmixmod",
     "otlm",
+    "otfftw",
     "parabem",
-    "pywr",
+    "yggdrasil",
     "pymor",
     "allensdk",
     "pycbc",
-    "pydy",
     "radical.analytics",
     "allennlp",
     "suspect",
     "pyimagej",
     "pycraf",
-    "camb",
+    "lalburst",
+    "gstlal",
     "wntr",
+    "sporco",
     "timml",
     "pycocotools",
     "sherlockml-dataclean",
-    "lintel",
     "glmnet_py",
-    "pycoalescence",
     "orange3",
     "orange3-educational",
     "orange3-timeseries",
     "orange3-text",
     "orange3-network",
     "orange3-imageanalytics",
-    "orange3-geo",
+    "cis_interface",
     "landlab",
-    "pymt",
-    "compas",
-    "compas_fab",
     "gwpy",
     "bruco",
     "gwdetchar",
@@ -2016,9 +1926,6 @@
     "starry",
     "salvus_mesher_lite",
     "fmpy",
-    "pyomo.extras",
-    "sfepy",
-    "pymks",
     "rnatools",
     "coolprop",
     "refnx",
@@ -2029,8 +1936,6 @@
     "pycroscopy",
     "alps",
     "adaptive",
-    "yt",
-    "yt_astro_analysis",
     "tvb-library",
     "tvb-framework",
     "thinkx",
@@ -2052,7 +1957,6 @@
     "emperor",
     "scikit-allel",
     "resonance",
-    "quantecon",
     "pywim",
     "pystan",
     "pyretis",
@@ -2063,12 +1967,13 @@
     "pykrige",
     "pygypsy",
     "pygridgen",
-    "pygridtools",
     "pyfai",
     "dioptas",
     "pyemma",
     "pydl",
     "pybinding",
+    "pyagrum",
+    "otagrum",
     "psyplot",
     "psyplot-gui",
     "psy-simple",
@@ -2077,14 +1982,12 @@
     "psy-reg",
     "pot",
     "parcels",
-    "oq-engine",
     "openmc",
     "xsgen",
     "omnifit",
     "nxviz",
     "nitime",
-    "nipy",
-    "pyhrf",
+    "nipype",
     "naima",
     "mpl-probscale",
     "mosfit",
@@ -2096,15 +1999,10 @@
     "mdsynthesis",
     "mdanalysistests",
     "limix-legacy",
-    "limix",
-    "landsat_util",
-    "kwant",
-    "discretizer",
     "ipympl",
     "itkwidgets",
     "imexam",
     "image-meta-tag",
-    "hyperion",
     "holopy",
     "healpy",
     "dustmaps",
@@ -2119,78 +2017,186 @@
     "fermipy",
     "fbprophet",
     "fatiando",
+    "elektronn2",
     "elektronn",
     "courtana",
     "control",
-    "cartopy",
-    "metpy",
-    "psy-maps",
-    "lagranto",
-    "iris",
-    "iris-grib",
-    "cube_browser",
-    "cis",
-    "agg-regrid",
     "bluesky",
     "xpdsim",
-    "batman",
-    "basemap",
-    "ilamb",
-    "obspy",
-    "gmprocess",
-    "obspyck",
-    "seapy",
-    "pyweed",
-    "pyhum",
-    "ocw",
-    "nansat",
     "axelrod",
     "astroplan",
     "assimulo",
     "pyfmi",
     "arm_pyart",
-    "instaseis",
     "glue-core",
     "fs_filepicker",
     "enaml",
+    "gnuplot",
+    "graphicsmagick",
+    "librsvg",
+    "afterimage",
+    "fig2dev",
+    "geos",
+    "shapely",
+    "cw-eval",
+    "lalinference",
+    "lalapps",
+    "lalsuite",
+    "ligo.skymap",
+    "bayeswave",
+    "pymt",
+    "odm2api",
+    "wofpy",
+    "odm2rest",
+    "orange3-geo",
+    "oq-engine",
+    "libspatialite",
+    "gdal",
+    "plio",
+    "pycoalescence",
+    "tuiview",
+    "rapidpy",
+    "python-fmask",
+    "postgis",
+    "gsshapy",
+    "gmt",
+    "fiona",
+    "pygridtools",
+    "paegan-transport",
+    "qgis",
+    "rasterio",
+    "pysheds",
+    "landsat_util",
+    "pdal",
+    "entwine",
+    "python-pdal",
+    "hexer",
+    "cartopy",
+    "metpy",
+    "psy-maps",
+    "lagranto",
+    "iris",
+    "cube_browser",
+    "cis",
+    "agg-regrid",
+    "basemap",
+    "obspy",
+    "gmprocess",
+    "obspyck",
+    "instaseis",
+    "eqcorrscan",
+    "seapy",
+    "pyweed",
+    "pyhum",
+    "ocw",
+    "nansat",
     "mss",
+    "flatbuffers",
+    "arrow-cpp",
+    "pyarrow",
+    "jupyter-hdfscm",
+    "apache-beam",
+    "ibis-framework",
+    "xlntpyarrow",
+    "turbodbc",
+    "eccodes",
+    "magics",
+    "codes-ui",
+    "dlib",
+    "dionysus",
+    "cxxopts",
+    "xeus-cling",
+    "cotire",
+    "chemfiles-lib",
+    "chemfiles-python",
+    "capnproto",
+    "pycapnp",
+    "backward-cpp",
+    "ampl-mp",
+    "pynumero_libraries",
+    "ipopt",
+    "pagmo",
+    "pygmo",
+    "pygmo_plugins_nonfree",
+    "cyipopt",
+    "casadi",
+    "casacore",
+    "python-casacore",
+    "almosthere",
+    "bgen",
+    "bgen-reader",
+    "limix",
+    "imagemagick",
+    "libidn2",
+    "accimage",
+    "fltk",
+    "root",
+    "rapidsim",
+    "root_numpy",
+    "glew",
+    "kivy",
+    "freeglut",
+    "jasper",
+    "python-eccodes",
+    "iris-grib",
+    "pygrib",
+    "ncl",
+    "pyngl",
+    "g2clib",
+    "wgrib2",
+    "pynio",
+    "libdrs",
+    "libcdms",
+    "libdrs_f",
+    "ezget",
+    "cdtime",
+    "cdms2",
+    "cmor",
+    "genutil",
+    "ecmwf_grib",
+    "python-ecmwf_grib",
+    "cdo",
+    "simbody",
+    "coin3d",
+    "soqt",
+    "pivy",
+    "pymca",
+    "ovito",
     "wxpython",
     "eelbrain",
     "fsleyes",
     "yodatools",
     "hachoir-wx",
     "dose",
-    "pyferret",
-    "librsvg",
-    "afterimage",
-    "graphviz",
-    "pyagrum",
-    "otagrum",
-    "elektronn2",
-    "pydot",
-    "nipype",
-    "py2cytoscape",
-    "pygraphviz",
-    "jonga",
-    "gnuplot",
-    "opencv",
-    "tierpsy",
-    "cvloop",
-    "caffe",
-    "accimage",
-    "magics",
-    "codes-ui",
-    "smesh",
+    "paraview",
+    "ndiff",
+    "ghc-bootstrap",
+    "cabal",
+    "alex",
+    "happy",
+    "ghc",
+    "gmsh",
+    "pycryptodome",
+    "swi-prolog",
+    "pythran",
+    "zn_poly",
+    "ruby",
+    "ratpoints",
+    "pycryptodomex",
+    "snowflake-connector-python",
+    "pari",
+    "sympow",
+    "cysignals",
+    "libsemigroups-python-bindings",
+    "cypari2",
+    "ntl",
+    "mpfr",
+    "libint",
+    "tyssue",
+    "texlive-core",
+    "doxygen",
     "freecad",
-    "libhwloc",
-    "pocl",
-    "pigz",
-    "scilab",
-    "root",
-    "rapidsim",
-    "root_numpy",
-    "mpi4py-fft",
-    "shenfun",
+    "pytrilinos",
     "r-base",
     "r-rapidjsonr",
     "r-prettygraphs",
@@ -3011,6 +3017,7 @@
     "r-fingerprint",
     "r-rcdk",
     "r-findpython",
+    "r-fftwtools",
     "r-fdrtool",
     "r-fda",
     "r-fastmatch",
@@ -3121,6 +3128,7 @@
     "r-tseries",
     "r-nardl",
     "r-gdtools",
+    "r-magick",
     "r-aws.ec2metadata",
     "r-rversions",
     "r-httr",
@@ -3450,6 +3458,7 @@
     "r-intamap",
     "r-assertthat",
     "r-googleauthr",
+    "r-keyring",
     "r-tensr",
     "r-prettyunits",
     "r-blob",
@@ -3530,6 +3539,7 @@
     "r-lemon",
     "r-ggstance",
     "r-breakdown",
+    "r-multipanelfigure",
     "r-solarius",
     "r-precrec",
     "r-patpro",
@@ -3739,6 +3749,8 @@
     "r-dbplyr",
     "r-pool",
     "r-sparklyr",
+    "r-sparkxgb",
+    "r-sparktf",
     "rpy2",
     "r-cellranger",
     "r-readxl",
@@ -3817,132 +3829,122 @@
     "r-contrast",
     "r-aqp",
     "r-soildb",
-    "galsim",
-    "ngmix",
-    "lal",
-    "lalpulsar",
-    "lalxml",
-    "lalsimulation",
-    "lalmetaio",
-    "lalburst",
-    "lalframe",
-    "lalinspiral",
-    "lalinference",
-    "lalapps",
-    "lalsuite",
-    "ligo.skymap",
-    "bayeswave",
-    "ovito",
-    "mpb",
-    "pymeep",
-    "numcosmo",
-    "yaafe",
-    "xtensor-fftw",
-    "vigra",
-    "root5",
-    "r-fftwtools",
-    "pyfftw",
-    "gstlal",
-    "sporco",
-    "mpifft4py",
-    "otfftw",
-    "nfft",
-    "pynfft",
-    "libsakura",
+    "pyranha",
+    "piranha",
+    "mppp",
+    "audi",
+    "pyaudi",
+    "cgal",
+    "gudhi",
+    "pgrouting",
+    "spdlib",
+    "rsgislib",
+    "arcsi",
+    "mpfi",
+    "mpc",
+    "symengine",
+    "python-symengine",
+    "libflint",
+    "lcalc",
     "julia",
     "libcxxwrap-julia",
     "xtensor-julia",
-    "galario",
-    "eqcorrscan",
-    "cvxopt",
-    "dipy",
-    "cdo",
-    "casacore",
-    "python-casacore",
-    "xeus-cling",
-    "paraview",
-    "jupyterhub",
-    "jupyterhub-yarnspawner",
-    "bowtie-py",
-    "jupyterlab",
-    "hyperspy",
-    "pythreejs",
-    "ipyvolume",
-    "tyssue",
-    "ipywe",
-    "nbtutor",
-    "nbpresent",
-    "bdw-gc",
-    "omcompiler",
-    "w3m",
-    "ecl",
-    "sagelib",
-    "maxima",
-    "sage",
-    "mumps",
-    "pymumps",
-    "pynumero_libraries",
-    "ipopt",
-    "pyomo.solvers",
-    "pagmo",
-    "pygmo",
-    "pygmo_plugins_nonfree",
-    "cyipopt",
+    "isl",
+    "gfortran_impl_osx-64",
+    "islpy",
+    "iml",
+    "igraph",
+    "rw",
+    "python-igraph",
+    "leidenalg",
+    "py2cytoscape",
+    "louvain",
+    "gnutls",
+    "emacs",
+    "git-annex",
+    "datalad",
+    "ffmpeg",
+    "openimageio",
+    "xtensor-io",
+    "lintel",
+    "ffpyplayer",
+    "r-animation",
+    "opencv",
+    "camelot-py",
+    "tierpsy",
+    "cvloop",
+    "caffe",
+    "batman",
+    "av",
+    "audioread",
+    "aubio",
+    "gmpy2",
+    "sympy",
+    "ilamb",
+    "shenfun",
+    "symfit",
+    "camb",
+    "compas",
+    "compas_fab",
+    "brian2",
+    "pyomo.extras",
+    "sfepy",
+    "pymks",
+    "yt",
+    "yt_astro_analysis",
+    "hyperion",
+    "rt1",
+    "quantecon",
+    "pydy",
     "pycalphad",
     "espei",
     "opty",
-    "casadi",
-    "petsc",
-    "slepc",
-    "petsc4py",
-    "slepc4py",
-    "libadjoint",
+    "nipy",
+    "pyhrf",
+    "kwant",
+    "hyperspy",
     "fenics",
     "mshr",
-    "python-rapidjson",
-    "cis_interface",
-    "yggdrasil",
-    "rpcq",
-    "mrjob",
-    "arrow-cpp",
-    "pyarrow",
-    "jupyter-hdfscm",
-    "apache-beam",
-    "ibis-framework",
-    "xlntpyarrow",
-    "turbodbc",
-    "ticcutils",
-    "ticcltools",
-    "namaster",
-    "libidn2",
-    "npth",
-    "libksba",
-    "libassuan",
-    "libgcrypt",
-    "libsecret",
-    "r-keyring",
-    "ntbtls",
-    "gnupg",
-    "libgsasl",
-    "libhdfs3",
-    "hdfs3",
-    "git-annex",
-    "datalad",
-    "librdkafka",
-    "python-confluent-kafka",
-    "pykafka",
-    "kafkacat",
-    "camelot-py",
-    "graphicsmagick",
-    "octave",
-    "xfig",
+    "discretizer",
+    "glpk",
+    "pywr",
+    "pyomo.solvers",
+    "swiglpk",
+    "shogun-cpp",
+    "shogun",
+    "ppl",
     "lemon",
-    "imagemagick",
-    "r-magick",
-    "r-multipanelfigure",
-    "r-animation",
-    "gmt",
-    "fig2dev"
+    "cvxopt",
+    "dipy",
+    "givaro",
+    "giac",
+    "gap",
+    "libgap",
+    "fplll",
+    "fpylll",
+    "flintqs",
+    "fflas-ffpack",
+    "linbox",
+    "ecm",
+    "eclib",
+    "ecl",
+    "maxima",
+    "cddlib",
+    "singular",
+    "pynac",
+    "gfan",
+    "brial",
+    "arb",
+    "e-antic",
+    "python-flint",
+    "numcosmo",
+    "sagelib",
+    "sage",
+    "portaudio",
+    "pyaudio",
+    "octave",
+    "mpb",
+    "pymeep"
   ],
   "_feedstock_status": {
     "ad3-cpp": {
@@ -4291,7 +4293,7 @@
       "immediate_children": []
     },
     "autoconf": {
-      "num_descendants": 3603,
+      "num_descendants": 3605,
       "immediate_children": [
         "asciidoc",
         "automake",
@@ -4306,7 +4308,7 @@
       ]
     },
     "automake": {
-      "num_descendants": 3600,
+      "num_descendants": 3602,
       "immediate_children": [
         "cppunit",
         "findutils",
@@ -4704,7 +4706,7 @@
       "immediate_children": []
     },
     "cairo": {
-      "num_descendants": 1977,
+      "num_descendants": 1979,
       "immediate_children": [
         "cairocffi",
         "cairomm",
@@ -4855,7 +4857,7 @@
       "immediate_children": []
     },
     "certifi": {
-      "num_descendants": 3192,
+      "num_descendants": 3194,
       "immediate_children": [
         "docker-compose",
         "dulwich",
@@ -5061,7 +5063,7 @@
       "immediate_children": []
     },
     "cmake": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "alps",
         "ampl-mp",
@@ -5402,7 +5404,7 @@
       "immediate_children": []
     },
     "curl": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "aws-sdk-cpp",
         "cfitsio",
@@ -6214,7 +6216,7 @@
       ]
     },
     "expat": {
-      "num_descendants": 3593,
+      "num_descendants": 3595,
       "immediate_children": [
         "apr",
         "cmake",
@@ -6532,7 +6534,7 @@
       "immediate_children": []
     },
     "fontconfig": {
-      "num_descendants": 1988,
+      "num_descendants": 1990,
       "immediate_children": [
         "cairo",
         "gtk2",
@@ -6578,7 +6580,7 @@
       ]
     },
     "freetype": {
-      "num_descendants": 2040,
+      "num_descendants": 2042,
       "immediate_children": [
         "afterimage",
         "aggdraw",
@@ -6888,7 +6890,7 @@
       ]
     },
     "gettext": {
-      "num_descendants": 2037,
+      "num_descendants": 2039,
       "immediate_children": [
         "byobu",
         "cyclus",
@@ -7023,7 +7025,7 @@
       ]
     },
     "glib": {
-      "num_descendants": 1994,
+      "num_descendants": 1996,
       "immediate_children": [
         "atk",
         "cairo",
@@ -7099,7 +7101,7 @@
       "immediate_children": []
     },
     "gmp": {
-      "num_descendants": 1773,
+      "num_descendants": 1775,
       "immediate_children": [
         "alex",
         "arb",
@@ -7205,7 +7207,7 @@
       "immediate_children": []
     },
     "gobject-introspection": {
-      "num_descendants": 1962,
+      "num_descendants": 1964,
       "immediate_children": [
         "atk",
         "gdk-pixbuf",
@@ -7257,7 +7259,7 @@
       "immediate_children": []
     },
     "graphite2": {
-      "num_descendants": 1932,
+      "num_descendants": 1934,
       "immediate_children": [
         "gtk2",
         "harfbuzz",
@@ -7309,7 +7311,7 @@
       ]
     },
     "gsl": {
-      "num_descendants": 1673,
+      "num_descendants": 1675,
       "immediate_children": [
         "bayeswave",
         "brian2",
@@ -7501,7 +7503,7 @@
       "immediate_children": []
     },
     "harfbuzz": {
-      "num_descendants": 1931,
+      "num_descendants": 1933,
       "immediate_children": [
         "gtk2",
         "libass",
@@ -7642,7 +7644,7 @@
       ]
     },
     "help2man": {
-      "num_descendants": 3600,
+      "num_descendants": 3602,
       "immediate_children": [
         "flex",
         "libtool"
@@ -7755,7 +7757,7 @@
       "immediate_children": []
     },
     "icu": {
-      "num_descendants": 2212,
+      "num_descendants": 2214,
       "immediate_children": [
         "alps",
         "boost-cpp",
@@ -8150,7 +8152,7 @@
       "immediate_children": []
     },
     "jpeg": {
-      "num_descendants": 2071,
+      "num_descendants": 2073,
       "immediate_children": [
         "bob.io.image",
         "dlib",
@@ -8404,7 +8406,7 @@
       "immediate_children": []
     },
     "krb5": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "curl",
         "cyrus-sasl",
@@ -8571,7 +8573,7 @@
       ]
     },
     "libedit": {
-      "num_descendants": 3588,
+      "num_descendants": 3590,
       "immediate_children": [
         "krb5",
         "ldc",
@@ -8596,7 +8598,7 @@
       ]
     },
     "libffi": {
-      "num_descendants": 3589,
+      "num_descendants": 3591,
       "immediate_children": [
         "cffi",
         "gdk-pixbuf",
@@ -8697,7 +8699,7 @@
       ]
     },
     "libiconv": {
-      "num_descendants": 2235,
+      "num_descendants": 2237,
       "immediate_children": [
         "doxygen",
         "ffmpeg",
@@ -8743,7 +8745,7 @@
       "immediate_children": []
     },
     "libjpeg-turbo": {
-      "num_descendants": 1635,
+      "num_descendants": 1637,
       "immediate_children": [
         "accimage",
         "gdcm",
@@ -8846,7 +8848,7 @@
       ]
     },
     "libpng": {
-      "num_descendants": 2090,
+      "num_descendants": 2092,
       "immediate_children": [
         "bob.io.image",
         "brial",
@@ -8977,7 +8979,7 @@
       ]
     },
     "libsndfile": {
-      "num_descendants": 1637,
+      "num_descendants": 1639,
       "immediate_children": [
         "fluidsynth",
         "octave",
@@ -9012,7 +9014,7 @@
       ]
     },
     "libssh2": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "curl",
         "libgit2",
@@ -9029,7 +9031,7 @@
       ]
     },
     "libtiff": {
-      "num_descendants": 2020,
+      "num_descendants": 2022,
       "immediate_children": [
         "afterimage",
         "bob.io.image",
@@ -9063,7 +9065,7 @@
       ]
     },
     "libtool": {
-      "num_descendants": 3599,
+      "num_descendants": 3601,
       "immediate_children": [
         "brial",
         "clickhouse-odbc",
@@ -9099,7 +9101,7 @@
       ]
     },
     "libuuid": {
-      "num_descendants": 2039,
+      "num_descendants": 2041,
       "immediate_children": [
         "czmq",
         "davix",
@@ -9118,13 +9120,13 @@
       ]
     },
     "libuv": {
-      "num_descendants": 3588,
+      "num_descendants": 3590,
       "immediate_children": [
         "cmake"
       ]
     },
     "libxcb": {
-      "num_descendants": 2046,
+      "num_descendants": 2048,
       "immediate_children": [
         "cairo",
         "fltk",
@@ -9138,7 +9140,7 @@
       ]
     },
     "libxml2": {
-      "num_descendants": 2121,
+      "num_descendants": 2123,
       "immediate_children": [
         "asciidoc",
         "cdo",
@@ -9376,7 +9378,7 @@
       "immediate_children": []
     },
     "lz4-c": {
-      "num_descendants": 2052,
+      "num_descendants": 2054,
       "immediate_children": [
         "arrow-cpp",
         "libarchive",
@@ -9422,7 +9424,7 @@
       "immediate_children": []
     },
     "m4": {
-      "num_descendants": 3606,
+      "num_descendants": 3608,
       "immediate_children": [
         "autoconf",
         "automake",
@@ -9478,7 +9480,7 @@
       "immediate_children": []
     },
     "make": {
-      "num_descendants": 3646,
+      "num_descendants": 3648,
       "immediate_children": [
         "automake",
         "blas",
@@ -9961,7 +9963,7 @@
       ]
     },
     "mpfr": {
-      "num_descendants": 1701,
+      "num_descendants": 1703,
       "immediate_children": [
         "arb",
         "cgal",
@@ -10038,7 +10040,7 @@
       "immediate_children": []
     },
     "mpir": {
-      "num_descendants": 1702,
+      "num_descendants": 1704,
       "immediate_children": [
         "gmpy2",
         "mpc",
@@ -10255,7 +10257,7 @@
       "immediate_children": []
     },
     "ncurses": {
-      "num_descendants": 3611,
+      "num_descendants": 3613,
       "immediate_children": [
         "almosthere",
         "bash",
@@ -10402,7 +10404,7 @@
       ]
     },
     "ninja": {
-      "num_descendants": 2021,
+      "num_descendants": 2023,
       "immediate_children": [
         "autodiff",
         "benchmark",
@@ -10475,7 +10477,7 @@
       ]
     },
     "nose": {
-      "num_descendants": 1930,
+      "num_descendants": 1932,
       "immediate_children": [
         "annexremote",
         "caffe",
@@ -11261,7 +11263,7 @@
       "immediate_children": []
     },
     "openblas": {
-      "num_descendants": 2391,
+      "num_descendants": 2393,
       "immediate_children": [
         "adept",
         "armadillo",
@@ -11423,7 +11425,7 @@
       ]
     },
     "openssl": {
-      "num_descendants": 3596,
+      "num_descendants": 3598,
       "immediate_children": [
         "aws-sdk-cpp",
         "clickhouse-odbc",
@@ -11805,7 +11807,7 @@
       ]
     },
     "pango": {
-      "num_descendants": 1928,
+      "num_descendants": 1930,
       "immediate_children": [
         "gnuplot",
         "graphviz",
@@ -11915,7 +11917,7 @@
       "immediate_children": []
     },
     "pcre": {
-      "num_descendants": 2050,
+      "num_descendants": 2052,
       "immediate_children": [
         "cyclus",
         "cyclus-build-deps",
@@ -11981,7 +11983,7 @@
       "immediate_children": []
     },
     "perl": {
-      "num_descendants": 3621,
+      "num_descendants": 3623,
       "immediate_children": [
         "autoconf",
         "automake",
@@ -12145,7 +12147,7 @@
       ]
     },
     "pip": {
-      "num_descendants": 3080,
+      "num_descendants": 3082,
       "immediate_children": [
         "accimage",
         "adaptive",
@@ -13136,7 +13138,7 @@
       ]
     },
     "pixman": {
-      "num_descendants": 1978,
+      "num_descendants": 1980,
       "immediate_children": [
         "cairo",
         "gtk2",
@@ -13146,7 +13148,7 @@
       ]
     },
     "pkg-config": {
-      "num_descendants": 3615,
+      "num_descendants": 3617,
       "immediate_children": [
         "bob.ap",
         "bob.blitz",
@@ -13202,7 +13204,7 @@
       ]
     },
     "pkgconfig": {
-      "num_descendants": 1734,
+      "num_descendants": 1736,
       "immediate_children": [
         "coinmp",
         "dlib",
@@ -13471,7 +13473,7 @@
       ]
     },
     "pthread-stubs": {
-      "num_descendants": 2053,
+      "num_descendants": 2055,
       "immediate_children": [
         "giza",
         "gstreamer",
@@ -14388,7 +14390,7 @@
       ]
     },
     "python": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "absl-py",
         "accimage",
@@ -16592,7 +16594,7 @@
       "immediate_children": []
     },
     "r-assertthat": {
-      "num_descendants": 344,
+      "num_descendants": 346,
       "immediate_children": [
         "r-ashr",
         "r-bigrquery",
@@ -16624,7 +16626,7 @@
       ]
     },
     "r-backports": {
-      "num_descendants": 92,
+      "num_descendants": 94,
       "immediate_children": [
         "r-base64url",
         "r-batchjobs",
@@ -16642,7 +16644,7 @@
       ]
     },
     "r-base": {
-      "num_descendants": 1631,
+      "num_descendants": 1633,
       "immediate_children": [
         "r",
         "r-abind",
@@ -18027,6 +18029,8 @@
         "r-spacyr",
         "r-spam",
         "r-sparklyr",
+        "r-sparktf",
+        "r-sparkxgb",
         "r-sparql",
         "r-sparsebn",
         "r-sparsebnutils",
@@ -18279,7 +18283,7 @@
       "immediate_children": []
     },
     "r-base64enc": {
-      "num_descendants": 93,
+      "num_descendants": 95,
       "immediate_children": [
         "r-aws.s3",
         "r-aws.signature",
@@ -18353,7 +18357,7 @@
       "immediate_children": []
     },
     "r-bh": {
-      "num_descendants": 268,
+      "num_descendants": 270,
       "immediate_children": [
         "r-anytime",
         "r-biganalytics",
@@ -18719,7 +18723,7 @@
       ]
     },
     "r-cli": {
-      "num_descendants": 320,
+      "num_descendants": 322,
       "immediate_children": [
         "r-devtools",
         "r-landscapemetrics",
@@ -18871,7 +18875,7 @@
       "immediate_children": []
     },
     "r-config": {
-      "num_descendants": 7,
+      "num_descendants": 9,
       "immediate_children": [
         "r-sparklyr",
         "r-tensorflow",
@@ -18914,7 +18918,7 @@
       ]
     },
     "r-crayon": {
-      "num_descendants": 364,
+      "num_descendants": 366,
       "immediate_children": [
         "r-cli",
         "r-collateral",
@@ -18978,7 +18982,7 @@
       "immediate_children": []
     },
     "r-curl": {
-      "num_descendants": 123,
+      "num_descendants": 125,
       "immediate_children": [
         "r-aws.ec2metadata",
         "r-aws.s3",
@@ -19080,7 +19084,7 @@
       ]
     },
     "r-dbi": {
-      "num_descendants": 28,
+      "num_descendants": 30,
       "immediate_children": [
         "r-batchjobs",
         "r-biglm",
@@ -19101,7 +19105,7 @@
       ]
     },
     "r-dbplyr": {
-      "num_descendants": 6,
+      "num_descendants": 8,
       "immediate_children": [
         "r-pool",
         "r-sparklyr",
@@ -19196,7 +19200,7 @@
       "immediate_children": []
     },
     "r-digest": {
-      "num_descendants": 339,
+      "num_descendants": 341,
       "immediate_children": [
         "r-aqp",
         "r-aws.s3",
@@ -19328,7 +19332,7 @@
       ]
     },
     "r-dplyr": {
-      "num_descendants": 155,
+      "num_descendants": 157,
       "immediate_children": [
         "r-alakazam",
         "r-anomalydetection",
@@ -20105,7 +20109,7 @@
       ]
     },
     "r-glue": {
-      "num_descendants": 349,
+      "num_descendants": 351,
       "immediate_children": [
         "r-bench",
         "r-bigrquery",
@@ -20436,7 +20440,7 @@
       ]
     },
     "r-htmltools": {
-      "num_descendants": 143,
+      "num_descendants": 145,
       "immediate_children": [
         "r-argonr",
         "r-bookdown",
@@ -20491,7 +20495,7 @@
       ]
     },
     "r-htmlwidgets": {
-      "num_descendants": 83,
+      "num_descendants": 85,
       "immediate_children": [
         "r-collapsibletree",
         "r-colourpicker",
@@ -20549,7 +20553,7 @@
       ]
     },
     "r-httr": {
-      "num_descendants": 63,
+      "num_descendants": 65,
       "immediate_children": [
         "r-aws.s3",
         "r-bigrquery",
@@ -20741,7 +20745,7 @@
       ]
     },
     "r-jsonlite": {
-      "num_descendants": 213,
+      "num_descendants": 215,
       "immediate_children": [
         "r-argparse",
         "r-aws.ec2metadata",
@@ -21231,7 +21235,7 @@
       ]
     },
     "r-magrittr": {
-      "num_descendants": 456,
+      "num_descendants": 458,
       "immediate_children": [
         "r-anomalydetection",
         "r-bigstep",
@@ -21775,7 +21779,7 @@
       "immediate_children": []
     },
     "r-mime": {
-      "num_descendants": 190,
+      "num_descendants": 192,
       "immediate_children": [
         "r-crul",
         "r-httr",
@@ -22124,7 +22128,7 @@
       ]
     },
     "r-openssl": {
-      "num_descendants": 74,
+      "num_descendants": 76,
       "immediate_children": [
         "r-base64",
         "r-httr",
@@ -22250,7 +22254,7 @@
       "immediate_children": []
     },
     "r-pillar": {
-      "num_descendants": 299,
+      "num_descendants": 301,
       "immediate_children": [
         "r-bench",
         "r-collateral",
@@ -22263,7 +22267,7 @@
       "immediate_children": []
     },
     "r-pkgconfig": {
-      "num_descendants": 339,
+      "num_descendants": 341,
       "immediate_children": [
         "r-dplyr",
         "r-hms",
@@ -22293,7 +22297,7 @@
       "immediate_children": []
     },
     "r-plogr": {
-      "num_descendants": 163,
+      "num_descendants": 165,
       "immediate_children": [
         "r-bindrcpp",
         "r-dplyr",
@@ -22587,7 +22591,7 @@
       "immediate_children": []
     },
     "r-purrr": {
-      "num_descendants": 174,
+      "num_descendants": 176,
       "immediate_children": [
         "r-anomalydetection",
         "r-broom",
@@ -22784,7 +22788,7 @@
       ]
     },
     "r-r6": {
-      "num_descendants": 400,
+      "num_descendants": 402,
       "immediate_children": [
         "r-argparse",
         "r-batchtools",
@@ -22879,7 +22883,7 @@
       ]
     },
     "r-rappdirs": {
-      "num_descendants": 10,
+      "num_descendants": 12,
       "immediate_children": [
         "r-batchtools",
         "r-finch",
@@ -22959,7 +22963,7 @@
       ]
     },
     "r-rcpp": {
-      "num_descendants": 581,
+      "num_descendants": 583,
       "immediate_children": [
         "r-ahocorasicktrie",
         "r-alakazam",
@@ -23470,7 +23474,7 @@
       ]
     },
     "r-rlang": {
-      "num_descendants": 378,
+      "num_descendants": 380,
       "immediate_children": [
         "r-bayesplot",
         "r-bench",
@@ -23737,7 +23741,7 @@
       ]
     },
     "r-rprojroot": {
-      "num_descendants": 31,
+      "num_descendants": 33,
       "immediate_children": [
         "r-desc",
         "r-here",
@@ -23822,7 +23826,7 @@
       ]
     },
     "r-rstudioapi": {
-      "num_descendants": 66,
+      "num_descendants": 68,
       "immediate_children": [
         "r-devtools",
         "r-diagrammer",
@@ -24290,8 +24294,11 @@
       ]
     },
     "r-sparklyr": {
-      "num_descendants": 0,
-      "immediate_children": []
+      "num_descendants": 2,
+      "immediate_children": [
+        "r-sparktf",
+        "r-sparkxgb"
+      ]
     },
     "r-sparql": {
       "num_descendants": 0,
@@ -24412,7 +24419,7 @@
       ]
     },
     "r-stringi": {
-      "num_descendants": 317,
+      "num_descendants": 319,
       "immediate_children": [
         "r-alakazam",
         "r-assertive.strings",
@@ -24666,7 +24673,7 @@
       ]
     },
     "r-tibble": {
-      "num_descendants": 297,
+      "num_descendants": 299,
       "immediate_children": [
         "r-anomalydetection",
         "r-apatables",
@@ -24751,7 +24758,7 @@
       ]
     },
     "r-tidyr": {
-      "num_descendants": 91,
+      "num_descendants": 93,
       "immediate_children": [
         "r-alakazam",
         "r-anomalydetection",
@@ -24934,7 +24941,7 @@
       ]
     },
     "r-utf8": {
-      "num_descendants": 300,
+      "num_descendants": 302,
       "immediate_children": [
         "r-pillar"
       ]
@@ -25080,7 +25087,7 @@
       ]
     },
     "r-withr": {
-      "num_descendants": 234,
+      "num_descendants": 236,
       "immediate_children": [
         "r-batchtools",
         "r-caret",
@@ -25159,7 +25166,7 @@
       ]
     },
     "r-xml2": {
-      "num_descendants": 40,
+      "num_descendants": 42,
       "immediate_children": [
         "r-aws.s3",
         "r-bold",
@@ -25239,7 +25246,7 @@
       ]
     },
     "r-yaml": {
-      "num_descendants": 136,
+      "num_descendants": 138,
       "immediate_children": [
         "r-bookdown",
         "r-config",
@@ -25368,7 +25375,7 @@
       "immediate_children": []
     },
     "readline": {
-      "num_descendants": 3601,
+      "num_descendants": 3603,
       "immediate_children": [
         "bash",
         "casacore",
@@ -25621,7 +25628,7 @@
       "immediate_children": []
     },
     "rhash": {
-      "num_descendants": 3588,
+      "num_descendants": 3590,
       "immediate_children": [
         "cmake"
       ]
@@ -26221,7 +26228,7 @@
       "immediate_children": []
     },
     "sed": {
-      "num_descendants": 3589,
+      "num_descendants": 3591,
       "immediate_children": [
         "byobu",
         "libuv",
@@ -26252,7 +26259,7 @@
       ]
     },
     "setuptools": {
-      "num_descendants": 3191,
+      "num_descendants": 3193,
       "immediate_children": [
         "absl-py",
         "addict",
@@ -27738,7 +27745,7 @@
       ]
     },
     "sqlite": {
-      "num_descendants": 3588,
+      "num_descendants": 3590,
       "immediate_children": [
         "apsw",
         "cyclus",
@@ -28610,7 +28617,7 @@
       "immediate_children": []
     },
     "wheel": {
-      "num_descendants": 3081,
+      "num_descendants": 3083,
       "immediate_children": [
         "biotite",
         "chemfiles-python",
@@ -28664,7 +28671,7 @@
       "immediate_children": []
     },
     "wincertstore": {
-      "num_descendants": 3192,
+      "num_descendants": 3194,
       "immediate_children": [
         "setuptools"
       ]
@@ -28757,7 +28764,7 @@
       "immediate_children": []
     },
     "xcb-proto": {
-      "num_descendants": 2047,
+      "num_descendants": 2049,
       "immediate_children": [
         "libxcb"
       ]
@@ -28887,7 +28894,7 @@
       ]
     },
     "xorg-inputproto": {
-      "num_descendants": 2046,
+      "num_descendants": 2048,
       "immediate_children": [
         "qt",
         "xorg-libx11",
@@ -28896,7 +28903,7 @@
       ]
     },
     "xorg-kbproto": {
-      "num_descendants": 2046,
+      "num_descendants": 2048,
       "immediate_children": [
         "xorg-libice",
         "xorg-libx11",
@@ -28907,7 +28914,7 @@
       ]
     },
     "xorg-libice": {
-      "num_descendants": 1997,
+      "num_descendants": 1999,
       "immediate_children": [
         "cairo",
         "fltk",
@@ -28918,7 +28925,7 @@
       ]
     },
     "xorg-libsm": {
-      "num_descendants": 1996,
+      "num_descendants": 1998,
       "immediate_children": [
         "cairo",
         "fltk",
@@ -28931,7 +28938,7 @@
       ]
     },
     "xorg-libx11": {
-      "num_descendants": 2045,
+      "num_descendants": 2047,
       "immediate_children": [
         "afterimage",
         "cairo",
@@ -28974,7 +28981,7 @@
       ]
     },
     "xorg-libxau": {
-      "num_descendants": 2048,
+      "num_descendants": 2050,
       "immediate_children": [
         "afterimage",
         "fltk",
@@ -29012,7 +29019,7 @@
       ]
     },
     "xorg-libxdmcp": {
-      "num_descendants": 2048,
+      "num_descendants": 2050,
       "immediate_children": [
         "fltk",
         "graphicsmagick",
@@ -29021,7 +29028,7 @@
       ]
     },
     "xorg-libxext": {
-      "num_descendants": 2029,
+      "num_descendants": 2031,
       "immediate_children": [
         "afterimage",
         "cairo",
@@ -29124,7 +29131,7 @@
       ]
     },
     "xorg-libxrender": {
-      "num_descendants": 1987,
+      "num_descendants": 1989,
       "immediate_children": [
         "cairo",
         "fltk",
@@ -29198,7 +29205,7 @@
       ]
     },
     "xorg-renderproto": {
-      "num_descendants": 1988,
+      "num_descendants": 1990,
       "immediate_children": [
         "xorg-libxrandr",
         "xorg-libxrender"
@@ -29217,7 +29224,7 @@
       "immediate_children": []
     },
     "xorg-util-macros": {
-      "num_descendants": 2102,
+      "num_descendants": 2104,
       "immediate_children": [
         "libpciaccess",
         "libxcb",
@@ -29307,7 +29314,7 @@
       "immediate_children": []
     },
     "xorg-xextproto": {
-      "num_descendants": 2047,
+      "num_descendants": 2049,
       "immediate_children": [
         "xorg-fixesproto",
         "xorg-libx11",
@@ -29351,7 +29358,7 @@
       ]
     },
     "xorg-xproto": {
-      "num_descendants": 2052,
+      "num_descendants": 2054,
       "immediate_children": [
         "libxcb",
         "pycairo",
@@ -29376,7 +29383,7 @@
       "immediate_children": []
     },
     "xorg-xtrans": {
-      "num_descendants": 2046,
+      "num_descendants": 2048,
       "immediate_children": [
         "xorg-libice",
         "xorg-libsm",
@@ -29468,7 +29475,7 @@
       ]
     },
     "xz": {
-      "num_descendants": 3589,
+      "num_descendants": 3591,
       "immediate_children": [
         "avro",
         "avrocpp",
@@ -29577,7 +29584,7 @@
       ]
     },
     "zlib": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "adios",
         "afterimage",
@@ -29795,7 +29802,7 @@
       ]
     },
     "zstd": {
-      "num_descendants": 2044,
+      "num_descendants": 2046,
       "immediate_children": [
         "arrow-cpp",
         "bgen",
@@ -29998,7 +30005,7 @@
       ]
     },
     "fftw": {
-      "num_descendants": 1683,
+      "num_descendants": 1685,
       "immediate_children": [
         "bayeswave",
         "casacore",
@@ -30037,7 +30044,7 @@
       ]
     },
     "yasm": {
-      "num_descendants": 1636,
+      "num_descendants": 1638,
       "immediate_children": [
         "libjpeg-turbo"
       ]
@@ -30232,7 +30239,7 @@
       "immediate_children": []
     },
     "libogg": {
-      "num_descendants": 1647,
+      "num_descendants": 1649,
       "immediate_children": [
         "libflac",
         "libsndfile",
@@ -30260,7 +30267,7 @@
       ]
     },
     "libvorbis": {
-      "num_descendants": 1643,
+      "num_descendants": 1645,
       "immediate_children": [
         "ffpyplayer",
         "libsndfile",
@@ -30283,7 +30290,7 @@
       ]
     },
     "libflac": {
-      "num_descendants": 1641,
+      "num_descendants": 1643,
       "immediate_children": [
         "ffpyplayer",
         "libsndfile",
@@ -30350,7 +30357,7 @@
       ]
     },
     "bzip2": {
-      "num_descendants": 3589,
+      "num_descendants": 3591,
       "immediate_children": [
         "adios",
         "boost-cpp",
@@ -30877,7 +30884,7 @@
       ]
     },
     "nasm": {
-      "num_descendants": 3588,
+      "num_descendants": 3590,
       "immediate_children": [
         "libass",
         "python"
@@ -31221,7 +31228,7 @@
       ]
     },
     "r-tidyselect": {
-      "num_descendants": 160,
+      "num_descendants": 162,
       "immediate_children": [
         "r-dbplyr",
         "r-dplyr",
@@ -33618,7 +33625,7 @@
       "immediate_children": []
     },
     "tk": {
-      "num_descendants": 3587,
+      "num_descendants": 3589,
       "immediate_children": [
         "camelot-py",
         "environment-modules",
@@ -33639,7 +33646,7 @@
       ]
     },
     "blas": {
-      "num_descendants": 2381,
+      "num_descendants": 2383,
       "immediate_children": [
         "alps",
         "armadillo",
@@ -35437,7 +35444,7 @@
       ]
     },
     "r-fansi": {
-      "num_descendants": 300,
+      "num_descendants": 302,
       "immediate_children": [
         "r-pillar",
         "r-pkgdown",
@@ -36211,9 +36218,10 @@
       "immediate_children": []
     },
     "r-forge": {
-      "num_descendants": 2,
+      "num_descendants": 4,
       "immediate_children": [
         "r-sparklyr",
+        "r-sparkxgb",
         "r-tfestimators"
       ]
     },
@@ -36244,7 +36252,7 @@
       "immediate_children": []
     },
     "r-r2d3": {
-      "num_descendants": 1,
+      "num_descendants": 3,
       "immediate_children": [
         "r-sparklyr"
       ]
@@ -36799,7 +36807,7 @@
       ]
     },
     "r-generics": {
-      "num_descendants": 43,
+      "num_descendants": 45,
       "immediate_children": [
         "r-broom",
         "r-estimatr",
@@ -37333,7 +37341,7 @@
       ]
     },
     "r-sys": {
-      "num_descendants": 79,
+      "num_descendants": 81,
       "immediate_children": [
         "r-askpass",
         "r-opencpu"
@@ -38861,7 +38869,7 @@
       ]
     },
     "r-ellipsis": {
-      "num_descendants": 45,
+      "num_descendants": 47,
       "immediate_children": [
         "r-forcats",
         "r-sparklyr"
@@ -38904,7 +38912,7 @@
       "immediate_children": []
     },
     "r-askpass": {
-      "num_descendants": 78,
+      "num_descendants": 80,
       "immediate_children": [
         "r-openssl",
         "r-qpdf"
@@ -39118,6 +39126,14 @@
       "immediate_children": []
     },
     "libass": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-sparktf": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-sparkxgb": {
       "num_descendants": 0,
       "immediate_children": []
     }
