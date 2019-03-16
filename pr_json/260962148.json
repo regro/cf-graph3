@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **OpenSSL**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-13T22:31:25Z",
-    "updated_at": "2019-03-14T10:50:55Z",
+    "updated_at": "2019-03-16T02:20:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "50bc4175066d7e0ac9995f3d749f299c824295ad",
+    "merge_commit_sha": "b1ff09e74d321b10a058e764b20fa65006d8e15f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/statuses/ada0b3f0681e7fb544902d7a350f3db7beda3fef",
+    "statuses_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/statuses/caaf7f63eb78245e06818addf16437fe1fec6311",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildopenssl03",
         "ref": "rebuildopenssl03",
-        "sha": "ada0b3f0681e7fb544902d7a350f3db7beda3fef",
+        "sha": "caaf7f63eb78245e06818addf16437fe1fec6311",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/psycopg2-feedstock/deployments",
             "created_at": "2018-03-02T03:07:21Z",
             "updated_at": "2018-03-02T03:07:22Z",
-            "pushed_at": "2019-03-13T22:31:23Z",
+            "pushed_at": "2019-03-16T02:20:10Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/psycopg2-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/psycopg2-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/psycopg2-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/deployments",
             "created_at": "2016-08-01T21:57:59Z",
             "updated_at": "2019-03-06T02:59:36Z",
-            "pushed_at": "2019-03-13T22:31:25Z",
+            "pushed_at": "2019-03-16T02:20:11Z",
             "git_url": "git://github.com/conda-forge/psycopg2-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/psycopg2-feedstock.git",
             "clone_url": "https://github.com/conda-forge/psycopg2-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/statuses/ada0b3f0681e7fb544902d7a350f3db7beda3fef"
+            "href": "https://api.github.com/repos/conda-forge/psycopg2-feedstock/statuses/caaf7f63eb78245e06818addf16437fe1fec6311"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 1,
+    "commits": 2,
+    "additions": 13,
     "deletions": 1,
-    "changed_files": 1
+    "changed_files": 7,
+    "Last-Modified": "Sat, 16 Mar 2019 02:20:10 GMT",
+    "ETag": "W/\"f075fcce1fc38cd53610cd6b3773efdf\""
 }
