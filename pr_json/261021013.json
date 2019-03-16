@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-14T04:29:16Z",
-    "updated_at": "2019-03-14T04:29:22Z",
+    "updated_at": "2019-03-16T02:28:17Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c98b976213edb200fec1d4db5215fb7170d9ead9",
+    "merge_commit_sha": "9bf5f1c7fb445b033dde6300be9e71d292b4ac3c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/45/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/issues/45/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/12033e824abcd2ede0447ffec47b3e501347b859",
+    "statuses_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/dd7ce53f03e4bb8867e9a27ba391ac388b9889e6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "12033e824abcd2ede0447ffec47b3e501347b859",
+        "sha": "dd7ce53f03e4bb8867e9a27ba391ac388b9889e6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/postgresql-feedstock/deployments",
             "created_at": "2018-03-17T04:02:26Z",
             "updated_at": "2018-03-17T04:02:27Z",
-            "pushed_at": "2019-03-14T04:29:16Z",
+            "pushed_at": "2019-03-16T02:28:17Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/postgresql-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/postgresql-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/postgresql-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/postgresql-feedstock/deployments",
             "created_at": "2016-07-07T15:32:37Z",
             "updated_at": "2019-03-01T16:44:39Z",
-            "pushed_at": "2019-03-14T04:29:17Z",
+            "pushed_at": "2019-03-16T02:28:18Z",
             "git_url": "git://github.com/conda-forge/postgresql-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/postgresql-feedstock.git",
             "clone_url": "https://github.com/conda-forge/postgresql-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/pulls/45/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/12033e824abcd2ede0447ffec47b3e501347b859"
+            "href": "https://api.github.com/repos/conda-forge/postgresql-feedstock/statuses/dd7ce53f03e4bb8867e9a27ba391ac388b9889e6"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 106,
-    "deletions": 12,
-    "changed_files": 6
+    "commits": 3,
+    "additions": 108,
+    "deletions": 14,
+    "changed_files": 7,
+    "Last-Modified": "Sat, 16 Mar 2019 02:28:17 GMT",
+    "ETag": "W/\"a43956b34a66b94312c64d8a612d1da6\""
 }
