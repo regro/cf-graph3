@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-05T02:26:41Z",
-    "updated_at": "2019-03-17T11:57:40Z",
+    "updated_at": "2019-03-17T13:10:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "96b54c571376a4ea5c2a5724df1e666fb9355f5b",
+    "merge_commit_sha": "d04dc1d68a9a4f921b94739715f45708292ac464",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/6651ee5beb32270f6fbb196b218974657dfdd692",
+    "statuses_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/9c10dd694f6f69e97f2ae17a89f8b8f143983fea",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "6651ee5beb32270f6fbb196b218974657dfdd692",
+        "sha": "9c10dd694f6f69e97f2ae17a89f8b8f143983fea",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/gnutls-feedstock/deployments",
             "created_at": "2018-09-16T05:08:57Z",
             "updated_at": "2018-09-16T05:08:59Z",
-            "pushed_at": "2019-03-17T11:57:39Z",
+            "pushed_at": "2019-03-17T13:10:23Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/gnutls-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/gnutls-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/gnutls-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/gnutls-feedstock",
             "homepage": null,
-            "size": 63,
+            "size": 64,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/gnutls-feedstock/deployments",
             "created_at": "2017-09-27T08:20:30Z",
             "updated_at": "2019-03-09T19:00:00Z",
-            "pushed_at": "2019-03-17T11:57:41Z",
+            "pushed_at": "2019-03-17T13:10:24Z",
             "git_url": "git://github.com/conda-forge/gnutls-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/gnutls-feedstock.git",
             "clone_url": "https://github.com/conda-forge/gnutls-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/6651ee5beb32270f6fbb196b218974657dfdd692"
+            "href": "https://api.github.com/repos/conda-forge/gnutls-feedstock/statuses/9c10dd694f6f69e97f2ae17a89f8b8f143983fea"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 8,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 78,
+    "commits": 9,
+    "additions": 79,
     "deletions": 1,
     "changed_files": 8,
-    "Last-Modified": "Sun, 17 Mar 2019 11:57:40 GMT",
-    "ETag": "W/\"ccc723e6141c1de7079151eb3d049980\""
+    "Last-Modified": "Sun, 17 Mar 2019 13:10:23 GMT",
+    "ETag": "W/\"be55ace46bce2c2a261c56a08a8a2284\""
 }
