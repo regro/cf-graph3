@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-04T15:30:49Z",
-    "updated_at": "2019-03-04T16:17:38Z",
+    "updated_at": "2019-03-17T12:16:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b4b7e54ff9f9dece69ff55785903dca5cdee3ac4",
+    "merge_commit_sha": "c3e0dd481ea6d177b2509695c4e46ca3dd88a4b5",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/6254cdb6cd85c408459a9fdc7a4b7985f4055d3e",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/50f7802d6d1b2ac8ff9a1afa3fdf0a14bd31f1c0",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "6254cdb6cd85c408459a9fdc7a4b7985f4055d3e",
+        "sha": "50f7802d6d1b2ac8ff9a1afa3fdf0a14bd31f1c0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libglu-feedstock/deployments",
             "created_at": "2018-06-24T05:11:00Z",
             "updated_at": "2018-06-24T05:11:02Z",
-            "pushed_at": "2019-03-04T16:17:38Z",
+            "pushed_at": "2019-03-17T12:16:22Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libglu-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libglu-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libglu-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libglu-feedstock/deployments",
             "created_at": "2016-11-19T22:38:20Z",
             "updated_at": "2018-11-17T07:52:10Z",
-            "pushed_at": "2019-03-04T16:17:39Z",
+            "pushed_at": "2019-03-17T12:16:22Z",
             "git_url": "git://github.com/conda-forge/libglu-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libglu-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libglu-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/6254cdb6cd85c408459a9fdc7a4b7985f4055d3e"
+            "href": "https://api.github.com/repos/conda-forge/libglu-feedstock/statuses/50f7802d6d1b2ac8ff9a1afa3fdf0a14bd31f1c0"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 232,
-    "deletions": 72,
-    "changed_files": 16
+    "commits": 7,
+    "additions": 241,
+    "deletions": 75,
+    "changed_files": 18,
+    "Last-Modified": "Sun, 17 Mar 2019 12:16:21 GMT",
+    "ETag": "W/\"7d76868919404c1fa0e3e4a238d140f4\""
 }
