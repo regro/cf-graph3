@@ -1,13 +1,10 @@
 {
   "done": [
-    "mysql-connector-c",
-    "libssh2",
-    "r-git2r",
-    "erlang",
-    "pari",
-    "ruby",
+    "nginx",
+    "socat",
+    "tectonic",
+    "mosh",
     "r-openssl",
-    "lynx",
     "davix",
     "python",
     "pypy3.5",
@@ -22,30 +19,33 @@
     "lighttpd",
     "cyrus-sasl",
     "openldap",
+    "poco",
+    "clickhouse-odbc",
+    "libssh2",
+    "r-git2r",
     "curl",
     "xrootd",
     "pyctest",
+    "gdal",
     "libgit2",
     "git",
-    "gdal",
-    "mosh",
-    "freetds",
-    "tectonic",
-    "nginx",
-    "libarchive",
-    "fossil",
-    "socat",
+    "librdkafka",
+    "lynx",
     "ldas-tools-al",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
     "ldas-tools-frameapi",
-    "poco",
-    "clickhouse-odbc",
+    "erlang",
+    "pari",
+    "mysql-connector-c",
+    "fossil",
+    "libarchive",
     "libevent",
     "thrift-cpp",
     "sstp-client",
+    "ruby",
     "grpc-cpp",
-    "librdkafka"
+    "freetds"
   ],
   "in-pr": [
     "qt",
@@ -53,11 +53,12 @@
     "m2crypto",
     "lftp",
     "postgres-xl",
-    "aws-sdk-cpp",
+    "virtuoso-opensource",
     "entwine",
+    "aws-sdk-cpp",
     "r-pki",
-    "singularity",
-    "w3m"
+    "w3m",
+    "singularity"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -427,6 +428,11 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/openssh-feedstock/pull/1"
+    },
+    "virtuoso-opensource": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/virtuoso-opensource-feedstock/pull/1"
     }
   }
 }
