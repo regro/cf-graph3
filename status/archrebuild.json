@@ -1,32 +1,30 @@
 {
   "done": [
-    "jom",
-    "bzip2",
-    "nasm",
-    "libgfortran",
+    "msinttypes",
+    "libunistring",
     "lzip",
-    "patch",
-    "ca-certificates",
-    "vs2008_express_vc_python_patch",
-    "winpty",
-    "toolchain3",
-    "libuuid",
     "lame",
+    "vs2015_runtime",
+    "libgfortran",
+    "ca-certificates",
+    "patch",
+    "vs2008_express_vc_python_patch",
+    "vs2008_runtime",
+    "vc",
     "m4",
     "gmp",
     "autoconf",
-    "nettle",
     "automake",
     "help2man",
     "libtool",
-    "vs2015_runtime",
-    "vs2008_runtime",
-    "vc",
-    "libunistring",
-    "msinttypes",
+    "nasm",
     "c99-to-c89",
-    "xz",
+    "libuuid",
+    "winpty",
+    "jom",
+    "bzip2",
     "cmake",
+    "xz",
     "oniguruma",
     "jq",
     "libiconv",
@@ -149,6 +147,7 @@
     "entrypoints",
     "conda",
     "sed",
+    "xorg-libx11",
     "libuv",
     "gperf",
     "glib",
@@ -159,50 +158,45 @@
     "freetype",
     "fontconfig",
     "expat",
+    "git",
+    "dbus",
+    "eigen",
     "libarchive",
     "python-libarchive-c",
     "conda-build",
     "conda-forge-ci-setup",
-    "git",
-    "dbus",
-    "eigen"
+    "toolchain3",
+    "nettle"
   ],
   "in-pr": [
     "libglu",
     "x264",
     "pixman",
-    "xorg-libx11",
     "psycopg2",
-    "numpy",
     "distributed",
     "ipython",
     "testpath",
-    "gnutls",
+    "xorg-libxrender",
+    "xorg-libxfixes",
+    "xorg-libxext",
+    "xorg-libice",
     "hdf5",
-    "graphite2"
+    "graphite2",
+    "numpy",
+    "gnutls"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "pandoc",
-    "xorg-libxrender",
-    "xorg-libxfixes",
-    "xorg-libxext",
-    "xorg-libxi",
-    "freeglut",
-    "xorg-libice",
-    "xorg-libsm",
-    "xorg-libxt",
-    "openblas",
-    "blas",
     "sqlalchemy",
     "pkgconfig",
     "future",
-    "scipy",
-    "scikit-learn",
-    "pandas",
     "ipykernel",
     "notebook",
-    "ffmpeg",
+    "xorg-libxi",
+    "freeglut",
+    "xorg-libsm",
+    "xorg-libxt",
     "cairo",
     "gobject-introspection",
     "gstreamer",
@@ -214,7 +208,13 @@
     "gtk2",
     "qt",
     "pyqt",
+    "openblas",
+    "blas",
+    "scipy",
+    "scikit-learn",
+    "pandas",
     "matplotlib",
+    "ffmpeg",
     "opencv"
   ],
   "_feedstock_status": {
@@ -263,6 +263,7 @@
         "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
+        "xorg-libx11",
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-renderproto",
@@ -300,6 +301,7 @@
         "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
+        "xorg-libx11",
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-renderproto",
@@ -633,6 +635,7 @@
         "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
+        "xorg-libx11",
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-renderproto",
@@ -989,6 +992,7 @@
         "xorg-fixesproto",
         "xorg-inputproto",
         "xorg-kbproto",
+        "xorg-libx11",
         "xorg-libxau",
         "xorg-libxdmcp",
         "xorg-renderproto",
@@ -1805,7 +1809,8 @@
       "num_descendants": 188,
       "immediate_children": [
         "gperf",
-        "libuv"
+        "libuv",
+        "xorg-libx11"
       ],
       "pr_url": "https://github.com/conda-forge/sed-feedstock/pull/10"
     },
@@ -2084,7 +2089,8 @@
         "qt",
         "xorg-libsm",
         "xorg-libxt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xorg-libice-feedstock/pull/8"
     },
     "xorg-libsm": {
       "num_descendants": 14,
@@ -2131,14 +2137,16 @@
         "freeglut",
         "qt",
         "xorg-libxi"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xorg-libxext-feedstock/pull/9"
     },
     "xorg-libxfixes": {
       "num_descendants": 4,
       "immediate_children": [
         "freeglut",
         "xorg-libxi"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xorg-libxfixes-feedstock/pull/6"
     },
     "xorg-libxi": {
       "num_descendants": 3,
@@ -2151,7 +2159,8 @@
       "immediate_children": [
         "cairo",
         "qt"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/xorg-libxrender-feedstock/pull/5"
     },
     "xorg-libxt": {
       "num_descendants": 4,
