@@ -1,0 +1,579 @@
+{
+  "done": [],
+  "in-pr": [
+    "hmat-oss",
+    "scalapack",
+    "scipy",
+    "gsl",
+    "suitesparse"
+  ],
+  "awaiting-pr": [
+    "yaafe",
+    "slycot",
+    "mkl_random",
+    "gmsh",
+    "adept",
+    "pysparse",
+    "arpack",
+    "coincbc",
+    "libcf",
+    "jags",
+    "hypre",
+    "optpp",
+    "harminv",
+    "asap3",
+    "trilinos",
+    "moab",
+    "mpb",
+    "opencv",
+    "openmeeg",
+    "omcompiler",
+    "multinest",
+    "gmt",
+    "dlib",
+    "dsdp",
+    "atomsk",
+    "mkl_fft",
+    "kaldi",
+    "iml",
+    "yaehmop",
+    "simbody",
+    "freecad",
+    "casacore",
+    "superlu",
+    "xtensor-blas"
+  ],
+  "awaiting-parents": [
+    "openturns",
+    "calculix",
+    "shogun-cpp",
+    "shogun",
+    "cyclus-build-deps",
+    "cyclus",
+    "mumps",
+    "ipopt",
+    "casadi",
+    "siesta",
+    "eelbrain",
+    "pymumps",
+    "scs",
+    "alps",
+    "scikit-learn",
+    "python-spams",
+    "pyne",
+    "pymc",
+    "kwant",
+    "caffe",
+    "root",
+    "pymeep",
+    "lal",
+    "pygslodeiv2",
+    "numcosmo",
+    "msprime",
+    "root5",
+    "r-base",
+    "r-evmix",
+    "r-aws",
+    "r-copula",
+    "nco",
+    "ncl",
+    "giac",
+    "fflas-ffpack",
+    "tomopy",
+    "linbox",
+    "sagelib",
+    "scilab",
+    "petsc",
+    "slepc",
+    "fenics",
+    "sundials",
+    "pycvodes",
+    "scikit-umfpack",
+    "octave",
+    "julia",
+    "cvxopt",
+    "sage",
+    "armadillo",
+    "mlpack"
+  ],
+  "_feedstock_status": {
+    "adept": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "armadillo": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "mlpack"
+      ]
+    },
+    "arpack": {
+      "num_descendants": 8,
+      "immediate_children": [
+        "armadillo",
+        "calculix",
+        "julia",
+        "octave",
+        "scilab",
+        "shogun",
+        "shogun-cpp"
+      ]
+    },
+    "caffe": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "casacore": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "casadi": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "coincbc": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "cyclus",
+        "cyclus-build-deps"
+      ]
+    },
+    "cvxopt": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "sage"
+      ]
+    },
+    "cyclus": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "dlib": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "fenics": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "fflas-ffpack": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "linbox",
+        "sage",
+        "sagelib"
+      ]
+    },
+    "giac": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "sage"
+      ]
+    },
+    "gmt": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "gsl": {
+      "num_descendants": 19,
+      "immediate_children": [
+        "cvxopt",
+        "fflas-ffpack",
+        "giac",
+        "lal",
+        "msprime",
+        "ncl",
+        "nco",
+        "numcosmo",
+        "pygslodeiv2",
+        "pymeep",
+        "r-aws",
+        "r-base",
+        "r-copula",
+        "root",
+        "root5",
+        "sage",
+        "sagelib"
+      ],
+      "pr_url": "https://github.com/conda-forge/gsl-feedstock/pull/41"
+    },
+    "hmat-oss": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "openturns"
+      ],
+      "pr_url": "https://github.com/conda-forge/hmat-oss-feedstock/pull/20"
+    },
+    "hypre": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "petsc"
+      ]
+    },
+    "iml": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "linbox",
+        "sage",
+        "sagelib"
+      ]
+    },
+    "ipopt": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "casadi"
+      ]
+    },
+    "jags": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "julia": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "kaldi": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "kwant": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "libcf": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "linbox": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "sage",
+        "sagelib"
+      ]
+    },
+    "mkl_random": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "moab": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "pyne"
+      ]
+    },
+    "mumps": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "ipopt",
+        "pymumps"
+      ]
+    },
+    "ncl": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "nco": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "octave": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "opencv": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "caffe"
+      ]
+    },
+    "openturns": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pymc": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pyne": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "python-spams": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-base": {
+      "num_descendants": 3,
+      "immediate_children": [
+        "r-aws",
+        "r-copula",
+        "r-evmix"
+      ]
+    },
+    "r-copula": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "root5": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "sagelib": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "sage"
+      ]
+    },
+    "scalapack": {
+      "num_descendants": 8,
+      "immediate_children": [
+        "mumps",
+        "petsc",
+        "siesta"
+      ],
+      "pr_url": "https://github.com/conda-forge/scalapack-feedstock/pull/8"
+    },
+    "scikit-learn": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scikit-umfpack": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scipy": {
+      "num_descendants": 15,
+      "immediate_children": [
+        "alps",
+        "caffe",
+        "eelbrain",
+        "kwant",
+        "lal",
+        "pymc",
+        "pymeep",
+        "pymumps",
+        "pyne",
+        "python-spams",
+        "sage",
+        "scikit-learn",
+        "scikit-umfpack",
+        "scs",
+        "tomopy"
+      ],
+      "pr_url": "https://github.com/conda-forge/scipy-feedstock/pull/94"
+    },
+    "shogun": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "shogun-cpp": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "shogun"
+      ]
+    },
+    "simbody": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "slycot": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "suitesparse": {
+      "num_descendants": 11,
+      "immediate_children": [
+        "cvxopt",
+        "julia",
+        "octave",
+        "petsc",
+        "scikit-umfpack",
+        "scilab",
+        "slepc",
+        "sundials"
+      ],
+      "pr_url": "https://github.com/conda-forge/suitesparse-feedstock/pull/47"
+    },
+    "sundials": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "pycvodes"
+      ]
+    },
+    "superlu": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "armadillo"
+      ]
+    },
+    "tomopy": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "xtensor-blas": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "yaafe": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "siesta": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "msprime": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "petsc": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "fenics",
+        "slepc"
+      ]
+    },
+    "slepc": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "fenics"
+      ]
+    },
+    "alps": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "numcosmo": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mkl_fft": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "tomopy"
+      ]
+    },
+    "harminv": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "pymeep"
+      ]
+    },
+    "mpb": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "pymeep"
+      ]
+    },
+    "dsdp": {
+      "num_descendants": 2,
+      "immediate_children": [
+        "cvxopt"
+      ]
+    },
+    "trilinos": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "cyclus-build-deps": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "sage": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "multinest": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pycvodes": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pygslodeiv2": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scs": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "freecad": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "lal": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pymeep": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "openmeeg": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "mlpack": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "asap3": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "atomsk": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "optpp": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pysparse": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "gmsh": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "calculix": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-aws": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "yaehmop": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "r-evmix": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "root": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "pymumps": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "omcompiler": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "eelbrain": {
+      "num_descendants": 0,
+      "immediate_children": []
+    },
+    "scilab": {
+      "num_descendants": 0,
+      "immediate_children": []
+    }
+  }
+}
