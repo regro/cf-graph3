@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-18T16:32:06Z",
-    "updated_at": "2019-03-18T16:32:58Z",
+    "updated_at": "2019-03-18T21:21:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "19d46e4a54b6aff5d8c6cfa5f38a79aa0b2910c8",
+    "merge_commit_sha": "bd56a227b29778ba1a0e5838c035a3c3cc2d9cd0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/statuses/d767a6fee74bb0ae9b7433061d3924b0a00f67f9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/statuses/29dbb56c17742a74294f62ae032f7c9f3cca7b1a",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "d767a6fee74bb0ae9b7433061d3924b0a00f67f9",
+        "sha": "29dbb56c17742a74294f62ae032f7c9f3cca7b1a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xorg-libxi-feedstock/deployments",
             "created_at": "2018-03-18T03:55:15Z",
             "updated_at": "2018-03-18T03:55:17Z",
-            "pushed_at": "2019-03-18T16:32:05Z",
+            "pushed_at": "2019-03-18T21:21:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xorg-libxi-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xorg-libxi-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-libxi-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/deployments",
             "created_at": "2017-01-28T15:37:09Z",
             "updated_at": "2018-09-29T19:07:58Z",
-            "pushed_at": "2019-03-18T16:32:07Z",
+            "pushed_at": "2019-03-18T21:21:12Z",
             "git_url": "git://github.com/conda-forge/xorg-libxi-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xorg-libxi-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xorg-libxi-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/statuses/d767a6fee74bb0ae9b7433061d3924b0a00f67f9"
+            "href": "https://api.github.com/repos/conda-forge/xorg-libxi-feedstock/statuses/29dbb56c17742a74294f62ae032f7c9f3cca7b1a"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 423,
+    "commits": 4,
+    "additions": 443,
     "deletions": 111,
-    "changed_files": 21,
-    "Last-Modified": "Mon, 18 Mar 2019 16:32:58 GMT",
-    "ETag": "W/\"109752bd2ca472d958595ff431a6bb37\""
+    "changed_files": 23,
+    "Last-Modified": "Mon, 18 Mar 2019 21:21:11 GMT",
+    "ETag": "W/\"eead588625f0614c5d17558bd5947502\""
 }

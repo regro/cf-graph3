@@ -32,10 +32,10 @@
     },
     "body": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\n\ncc: @conda-forge/arm-arch\n\n**Please don't close this PR without reaching out the the ARM migrators first**\n",
     "created_at": "2019-03-18T16:31:43Z",
-    "updated_at": "2019-03-18T16:32:41Z",
+    "updated_at": "2019-03-18T21:21:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "71dd469687e8ed0d4443f9a34f0655dbd838c6cd",
+    "merge_commit_sha": "6ee97a03b668cf3b5ac1145bfb4fa395d1a5b8c1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/statuses/e85db76bdf559f09a8822393dbb2d1931b90a782",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/statuses/86471d61ffda7085ed58539aaf2b61cdfa4e66b6",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildaarch64_and_ppc64le_addition1_arch",
         "ref": "rebuildaarch64_and_ppc64le_addition1_arch",
-        "sha": "e85db76bdf559f09a8822393dbb2d1931b90a782",
+        "sha": "86471d61ffda7085ed58539aaf2b61cdfa4e66b6",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xorg-libsm-feedstock/deployments",
             "created_at": "2018-07-06T23:08:21Z",
             "updated_at": "2018-07-06T23:08:23Z",
-            "pushed_at": "2019-03-18T16:31:42Z",
+            "pushed_at": "2019-03-18T21:21:08Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xorg-libsm-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xorg-libsm-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xorg-libsm-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/deployments",
             "created_at": "2017-01-28T15:35:03Z",
             "updated_at": "2018-10-11T13:07:37Z",
-            "pushed_at": "2019-03-18T16:31:44Z",
+            "pushed_at": "2019-03-18T21:21:09Z",
             "git_url": "git://github.com/conda-forge/xorg-libsm-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xorg-libsm-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xorg-libsm-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/statuses/e85db76bdf559f09a8822393dbb2d1931b90a782"
+            "href": "https://api.github.com/repos/conda-forge/xorg-libsm-feedstock/statuses/86471d61ffda7085ed58539aaf2b61cdfa4e66b6"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 438,
+    "commits": 4,
+    "additions": 458,
     "deletions": 121,
-    "changed_files": 21,
-    "Last-Modified": "Mon, 18 Mar 2019 16:32:41 GMT",
-    "ETag": "W/\"318469c1d502c41e28974b501748a6e3\""
+    "changed_files": 23,
+    "Last-Modified": "Mon, 18 Mar 2019 21:21:08 GMT",
+    "ETag": "W/\"fd1370464875cd832085fc1acd12d5f4\""
 }
