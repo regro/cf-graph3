@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T04:30:11Z",
-    "updated_at": "2019-03-19T07:21:49Z",
+    "updated_at": "2019-03-19T21:07:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "75910820d11ab7582da383b196d22df48de2b68d",
+    "merge_commit_sha": "21fc2e15d47fd273d632595e7081a752b16af135",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/pulls/30/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/issues/30/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/statuses/0025b15f124b08e33131e92fb86b77d92ba76737",
+    "statuses_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/statuses/15b663fda1c284e6ca8d73606fba348f5432e365",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "0025b15f124b08e33131e92fb86b77d92ba76737",
+        "sha": "15b663fda1c284e6ca8d73606fba348f5432e365",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/xtensor-blas-feedstock/deployments",
             "created_at": "2018-03-07T00:11:02Z",
             "updated_at": "2018-03-07T00:11:04Z",
-            "pushed_at": "2019-03-19T04:30:10Z",
+            "pushed_at": "2019-03-19T21:07:15Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/xtensor-blas-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/xtensor-blas-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/xtensor-blas-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/deployments",
             "created_at": "2017-05-25T23:34:31Z",
             "updated_at": "2019-01-19T23:48:44Z",
-            "pushed_at": "2019-03-19T04:30:12Z",
+            "pushed_at": "2019-03-19T21:07:16Z",
             "git_url": "git://github.com/conda-forge/xtensor-blas-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/xtensor-blas-feedstock.git",
             "clone_url": "https://github.com/conda-forge/xtensor-blas-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/pulls/30/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/statuses/0025b15f124b08e33131e92fb86b77d92ba76737"
+            "href": "https://api.github.com/repos/conda-forge/xtensor-blas-feedstock/statuses/15b663fda1c284e6ca8d73606fba348f5432e365"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "clean",
+    "mergeable_state": "unstable",
     "merged_by": null,
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 43,
-    "deletions": 28,
-    "changed_files": 8
+    "commits": 3,
+    "additions": 44,
+    "deletions": 31,
+    "changed_files": 8,
+    "Last-Modified": "Tue, 19 Mar 2019 21:07:15 GMT",
+    "ETag": "W/\"79aa5ae30f9116c07da67d534dcf90f9\""
 }
