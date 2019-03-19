@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\ncyclus\ncyclus-build-deps\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T00:31:11Z",
-    "updated_at": "2019-03-19T05:09:02Z",
+    "updated_at": "2019-03-19T21:04:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "fd7bca53fe116172402486a86b337b8bfd8a94cd",
+    "merge_commit_sha": "7a6bf9e91a20a9f0fa33399394b9456114f27476",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/pulls/30/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/issues/30/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/statuses/b4f7c05a9d17d4a344b35a7febd4db57ba3ce1f8",
+    "statuses_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/statuses/4b0f4fec4695de79b5959ee4e4c35de8b4bd78c3",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "b4f7c05a9d17d4a344b35a7febd4db57ba3ce1f8",
+        "sha": "4b0f4fec4695de79b5959ee4e4c35de8b4bd78c3",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/coincbc-feedstock/deployments",
             "created_at": "2018-06-18T23:34:56Z",
             "updated_at": "2018-06-18T23:34:58Z",
-            "pushed_at": "2019-03-19T05:07:45Z",
+            "pushed_at": "2019-03-19T21:04:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/coincbc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/coincbc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/coincbc-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/coincbc-feedstock",
             "homepage": null,
-            "size": 52,
+            "size": 54,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/coincbc-feedstock/deployments",
             "created_at": "2016-05-16T16:40:12Z",
             "updated_at": "2019-03-17T03:55:21Z",
-            "pushed_at": "2019-03-19T05:07:46Z",
+            "pushed_at": "2019-03-19T21:04:09Z",
             "git_url": "git://github.com/conda-forge/coincbc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/coincbc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/coincbc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/coincbc-feedstock/pulls/30/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/coincbc-feedstock/statuses/b4f7c05a9d17d4a344b35a7febd4db57ba3ce1f8"
+            "href": "https://api.github.com/repos/conda-forge/coincbc-feedstock/statuses/4b0f4fec4695de79b5959ee4e4c35de8b4bd78c3"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 13,
+    "commits": 4,
+    "additions": 14,
     "deletions": 19,
-    "changed_files": 4
+    "changed_files": 4,
+    "Last-Modified": "Tue, 19 Mar 2019 21:04:13 GMT",
+    "ETag": "W/\"d963b4ed4f377b1cfccd33eba404e238\""
 }

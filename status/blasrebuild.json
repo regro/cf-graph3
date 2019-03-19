@@ -1,57 +1,62 @@
 {
   "done": [
-    "r-base",
-    "mkl_fft"
+    "mkl_fft",
+    "r-base"
   ],
   "in-pr": [
-    "alps",
-    "simbody",
-    "python-spams",
+    "coincbc",
+    "harminv",
+    "dlib",
+    "kaldi",
+    "tomopy",
+    "libcf",
+    "mkl_random",
+    "ncl",
     "msprime",
+    "pycvodes",
+    "dsdp",
+    "siesta",
+    "scs",
+    "freecad",
+    "pygslodeiv2",
     "yaafe",
-    "slycot",
-    "adept",
-    "trilinos",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "pysparse",
-    "tomopy",
-    "harminv",
-    "fflas-ffpack",
-    "atomsk",
-    "openmeeg",
-    "arpack",
-    "ncl",
-    "opencv",
     "root",
-    "root5",
-    "dsdp",
-    "kaldi",
-    "coincbc",
-    "dlib",
-    "scs",
-    "hypre",
-    "multinest",
+    "openmeeg",
+    "simbody",
     "jags",
-    "lal",
-    "xtensor-blas",
-    "pycvodes",
-    "libcf",
-    "mpb",
-    "asap3",
-    "pygslodeiv2",
-    "scalapack",
     "gmsh",
-    "pyne",
+    "pysparse",
+    "multinest",
     "scikit-learn",
-    "mkl_random",
-    "freecad"
+    "fflas-ffpack",
+    "arpack",
+    "root5",
+    "asap3",
+    "alps",
+    "lal",
+    "pyne",
+    "hypre",
+    "adept",
+    "slycot",
+    "mumps",
+    "opencv",
+    "xtensor-blas",
+    "atomsk",
+    "python-spams",
+    "mpb",
+    "trilinos"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "cyclus-build-deps",
+    "cyclus",
+    "cvxopt",
     "linbox",
     "sagelib",
+    "sage",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -60,20 +65,14 @@
     "julia",
     "armadillo",
     "mlpack",
-    "caffe",
-    "cvxopt",
-    "sage",
-    "cyclus-build-deps",
-    "cyclus",
-    "pymeep",
-    "mumps",
+    "petsc",
+    "slepc",
+    "fenics",
     "pymumps",
     "ipopt",
     "casadi",
-    "siesta",
-    "petsc",
-    "slepc",
-    "fenics"
+    "caffe",
+    "pymeep"
   ],
   "_feedstock_status": {
     "adept": {
@@ -193,7 +192,8 @@
       "immediate_children": [
         "ipopt",
         "pymumps"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/mumps-feedstock/pull/42"
     },
     "ncl": {
       "num_descendants": 0,
@@ -246,15 +246,6 @@
         "sage"
       ]
     },
-    "scalapack": {
-      "num_descendants": 8,
-      "immediate_children": [
-        "mumps",
-        "petsc",
-        "siesta"
-      ],
-      "pr_url": "https://github.com/conda-forge/scalapack-feedstock/pull/8"
-    },
     "scikit-learn": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -297,7 +288,8 @@
     },
     "siesta": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/siesta-feedstock/pull/7"
     },
     "msprime": {
       "num_descendants": 0,
