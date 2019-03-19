@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T11:28:13Z",
-    "updated_at": "2019-03-19T11:28:19Z",
+    "updated_at": "2019-03-19T17:14:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9f04114852169329e32ddaf5ec90e463b6ecdf14",
+    "merge_commit_sha": "8c967ce6060f90c53298f7e5b60d5fbc7f74fa39",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/statuses/695a02368195c1f3efbc08b238c99527b6d3f04b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/statuses/8e858ce1390c416009979d300ca83a9d3d9ce047",
     "head": {
         "label": "regro-cf-autotick-bot:1.1.0",
         "ref": "1.1.0",
-        "sha": "695a02368195c1f3efbc08b238c99527b6d3f04b",
+        "sha": "8e858ce1390c416009979d300ca83a9d3d9ce047",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-cli-feedstock/deployments",
             "created_at": "2018-11-16T22:16:00Z",
             "updated_at": "2018-11-16T22:16:02Z",
-            "pushed_at": "2019-03-19T11:28:13Z",
+            "pushed_at": "2019-03-19T17:14:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-cli-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-cli-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-cli-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-cli-feedstock/deployments",
             "created_at": "2018-01-26T21:22:24Z",
             "updated_at": "2018-12-13T16:19:32Z",
-            "pushed_at": "2019-03-19T11:28:14Z",
+            "pushed_at": "2019-03-19T17:14:08Z",
             "git_url": "git://github.com/conda-forge/r-cli-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-cli-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-cli-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-cli-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-cli-feedstock/statuses/695a02368195c1f3efbc08b238c99527b6d3f04b"
+            "href": "https://api.github.com/repos/conda-forge/r-cli-feedstock/statuses/8e858ce1390c416009979d300ca83a9d3d9ce047"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 178,
-    "deletions": 21,
-    "changed_files": 11
+    "commits": 3,
+    "additions": 228,
+    "deletions": 36,
+    "changed_files": 12,
+    "Last-Modified": "Tue, 19 Mar 2019 17:14:07 GMT",
+    "ETag": "W/\"882d647b96746f59923b15c578e3934a\""
 }

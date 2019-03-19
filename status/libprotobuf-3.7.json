@@ -3,10 +3,10 @@
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "grpc-cpp",
     "libhdfs3",
-    "r-protolite",
-    "mosh"
+    "mosh",
+    "grpc-cpp",
+    "r-protolite"
   ],
   "in-pr": [
     "shogun-cpp",
