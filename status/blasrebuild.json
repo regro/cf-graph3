@@ -1,62 +1,62 @@
 {
   "done": [],
   "in-pr": [
-    "kwant",
-    "opencv",
     "scs",
-    "arpack",
-    "gsl",
     "freecad",
-    "scikit-learn",
     "harminv",
-    "libcf",
-    "dsdp",
-    "mkl_fft",
-    "hypre",
-    "moab",
+    "trilinos",
+    "arpack",
     "multinest",
     "slycot",
-    "hmat-oss",
-    "superlu",
-    "scalapack",
     "jags",
+    "scikit-learn",
+    "kwant",
+    "hmat-oss",
+    "gsl",
+    "opencv",
+    "casacore",
     "coincbc",
+    "libcf",
+    "hypre",
+    "mkl_fft",
+    "moab",
+    "dsdp",
+    "scalapack",
+    "superlu",
     "mpb",
-    "sundials"
+    "yaehmop",
+    "xtensor-blas",
+    "sundials",
+    "yaafe"
   ],
   "awaiting-pr": [
-    "scikit-umfpack",
-    "openmeeg",
-    "trilinos",
-    "mkl_random",
-    "casacore",
-    "yaehmop",
-    "eelbrain",
-    "dlib",
-    "xtensor-blas",
-    "alps",
-    "optpp",
     "omcompiler",
-    "kaldi",
+    "pymc",
+    "openmeeg",
+    "eelbrain",
+    "mkl_random",
+    "python-spams",
     "gmsh",
     "pysparse",
-    "asap3",
-    "pymc",
-    "simbody",
-    "yaafe",
-    "atomsk",
-    "gmt",
     "adept",
-    "python-spams"
+    "simbody",
+    "gmt",
+    "dlib",
+    "scikit-umfpack",
+    "optpp",
+    "atomsk",
+    "kaldi",
+    "asap3",
+    "alps"
   ],
   "awaiting-parents": [
-    "caffe",
     "scilab",
     "calculix",
     "shogun-cpp",
     "shogun",
     "octave",
     "julia",
+    "openturns",
     "root",
     "lal",
     "pygslodeiv2",
@@ -73,13 +73,13 @@
     "fflas-ffpack",
     "linbox",
     "sagelib",
-    "cvxopt",
-    "sage",
+    "caffe",
+    "cyclus-build-deps",
+    "cyclus",
     "tomopy",
     "pyne",
-    "openturns",
-    "armadillo",
-    "mlpack",
+    "cvxopt",
+    "sage",
     "mumps",
     "pymumps",
     "ipopt",
@@ -88,8 +88,8 @@
     "petsc",
     "slepc",
     "fenics",
-    "cyclus-build-deps",
-    "cyclus",
+    "armadillo",
+    "mlpack",
     "pymeep",
     "pycvodes"
   ],
@@ -123,7 +123,8 @@
     },
     "casacore": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/casacore-feedstock/pull/34"
     },
     "casadi": {
       "num_descendants": 0,
@@ -378,11 +379,13 @@
     },
     "xtensor-blas": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/xtensor-blas-feedstock/pull/30"
     },
     "yaafe": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/yaafe-feedstock/pull/6"
     },
     "siesta": {
       "num_descendants": 0,
@@ -443,7 +446,8 @@
     },
     "trilinos": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/trilinos-feedstock/pull/21"
     },
     "cyclus-build-deps": {
       "num_descendants": 0,
@@ -522,7 +526,8 @@
     },
     "yaehmop": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/yaehmop-feedstock/pull/6"
     },
     "r-evmix": {
       "num_descendants": 0,
