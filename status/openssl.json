@@ -1,5 +1,31 @@
 {
   "done": [
+    "freetds",
+    "pari",
+    "poco",
+    "clickhouse-odbc",
+    "nginx",
+    "libevent",
+    "thrift-cpp",
+    "sstp-client",
+    "r-openssl",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "librdkafka",
+    "socat",
+    "tectonic",
+    "fossil",
+    "grpc-cpp",
+    "ruby",
+    "mysql-connector-c",
+    "lynx",
+    "virtuoso-opensource",
+    "libssh2",
+    "r-git2r",
+    "mosh",
+    "erlang",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -13,50 +39,25 @@
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "poco",
-    "clickhouse-odbc",
-    "freetds",
-    "libevent",
-    "thrift-cpp",
-    "sstp-client",
-    "erlang",
-    "socat",
-    "nginx",
-    "mosh",
-    "librdkafka",
-    "tectonic",
-    "lynx",
-    "grpc-cpp",
-    "libssh2",
-    "r-git2r",
     "curl",
     "xrootd",
     "pyctest",
-    "gdal",
     "libgit2",
     "git",
-    "r-openssl",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "ruby",
+    "gdal",
     "libarchive",
-    "davix",
-    "mysql-connector-c",
-    "virtuoso-opensource",
-    "pari",
-    "fossil"
+    "davix"
   ],
   "in-pr": [
+    "qt",
+    "w3m",
     "cryptography",
     "m2crypto",
     "lftp",
     "postgres-xl",
-    "w3m",
-    "entwine",
     "aws-sdk-cpp",
-    "qt",
+    "entwine",
+    "mapd-core-cpu",
     "singularity",
     "r-pki"
   ],
@@ -131,14 +132,15 @@
       "pr_url": "https://github.com/conda-forge/lftp-feedstock/pull/11"
     },
     "libarchive": {
-      "num_descendants": 1,
+      "num_descendants": 2,
       "immediate_children": [
+        "mapd-core-cpu",
         "singularity"
       ],
       "pr_url": "https://github.com/conda-forge/libarchive-feedstock/pull/28"
     },
     "libevent": {
-      "num_descendants": 2,
+      "num_descendants": 3,
       "immediate_children": [
         "sstp-client",
         "thrift-cpp"
@@ -313,8 +315,10 @@
       "pr_url": "https://github.com/conda-forge/postgres-xl-feedstock/pull/3"
     },
     "thrift-cpp": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "mapd-core-cpu"
+      ],
       "pr_url": "https://github.com/conda-forge/thrift-cpp-feedstock/pull/31"
     },
     "libgit2": {
@@ -433,6 +437,11 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/virtuoso-opensource-feedstock/pull/1"
+    },
+    "mapd-core-cpu": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mapd-core-cpu-feedstock/pull/5"
     }
   }
 }
