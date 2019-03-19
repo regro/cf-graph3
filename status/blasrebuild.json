@@ -1,82 +1,70 @@
 {
   "done": [
-    "r-base",
-    "mkl_fft"
+    "mkl_fft",
+    "r-base"
   ],
   "in-pr": [
+    "ncl",
+    "yaafe",
+    "giac",
+    "scikit-umfpack",
+    "libcf",
+    "pygslodeiv2",
+    "slycot",
+    "opencv",
+    "hypre",
+    "multinest",
+    "simbody",
+    "root",
+    "lal",
+    "dsdp",
+    "sundials",
+    "yaehmop",
+    "harminv",
+    "scalapack",
+    "freecad",
+    "pysparse",
+    "tomopy",
+    "pymc",
+    "moab",
+    "openmeeg",
+    "hmat-oss",
+    "xtensor-blas",
+    "scikit-learn",
+    "fflas-ffpack",
+    "trilinos",
+    "nco",
+    "coincbc",
+    "mpb",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "opencv",
-    "simbody",
-    "tomopy",
-    "nco",
-    "hypre",
     "arpack",
-    "casacore",
-    "sundials",
-    "mpb",
     "jags",
-    "multinest",
-    "coincbc",
-    "yaehmop",
     "scs",
-    "scikit-umfpack",
-    "ncl",
-    "yaafe",
-    "xtensor-blas",
-    "harminv",
-    "scalapack",
-    "slycot",
-    "kwant",
-    "scikit-learn",
-    "hmat-oss",
-    "lal",
-    "libcf",
-    "fflas-ffpack",
-    "moab",
-    "root",
-    "python-spams",
-    "giac",
-    "dsdp",
-    "freecad",
-    "trilinos",
-    "root5"
+    "root5",
+    "optpp",
+    "python-spams"
   ],
   "awaiting-pr": [
-    "eelbrain",
-    "kaldi",
-    "asap3",
-    "openmeeg",
-    "msprime",
     "gmt",
-    "alps",
-    "pymc",
-    "gmsh",
     "numcosmo",
-    "pygslodeiv2",
-    "optpp",
+    "adept",
+    "gmsh",
     "omcompiler",
-    "dlib",
-    "pysparse",
+    "msprime",
     "atomsk",
+    "alps",
     "mkl_random",
-    "adept"
+    "kaldi",
+    "eelbrain",
+    "dlib",
+    "asap3"
   ],
   "awaiting-parents": [
     "caffe",
-    "scilab",
-    "calculix",
-    "shogun-cpp",
-    "shogun",
-    "octave",
-    "julia",
-    "armadillo",
-    "mlpack",
+    "cvxopt",
     "pycvodes",
-    "cyclus-build-deps",
-    "cyclus",
-    "pymeep",
     "mumps",
     "pymumps",
     "ipopt",
@@ -85,12 +73,22 @@
     "petsc",
     "slepc",
     "fenics",
+    "pyne",
     "openturns",
     "linbox",
     "sagelib",
-    "pyne",
-    "cvxopt",
-    "sage"
+    "sage",
+    "cyclus-build-deps",
+    "cyclus",
+    "pymeep",
+    "scilab",
+    "calculix",
+    "shogun-cpp",
+    "shogun",
+    "octave",
+    "julia",
+    "armadillo",
+    "mlpack"
   ],
   "_feedstock_status": {
     "adept": {
@@ -119,11 +117,6 @@
     "caffe": {
       "num_descendants": 0,
       "immediate_children": []
-    },
-    "casacore": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/casacore-feedstock/pull/34"
     },
     "casadi": {
       "num_descendants": 0,
@@ -208,11 +201,6 @@
       "num_descendants": 0,
       "immediate_children": []
     },
-    "kwant": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/kwant-feedstock/pull/69"
-    },
     "libcf": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -270,7 +258,8 @@
     },
     "pymc": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pymc-feedstock/pull/9"
     },
     "pyne": {
       "num_descendants": 0,
@@ -448,7 +437,8 @@
     },
     "pygslodeiv2": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pygslodeiv2-feedstock/pull/4"
     },
     "scs": {
       "num_descendants": 0,
@@ -471,7 +461,8 @@
     },
     "openmeeg": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/openmeeg-feedstock/pull/7"
     },
     "mlpack": {
       "num_descendants": 0,
@@ -487,11 +478,13 @@
     },
     "optpp": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/optpp-feedstock/pull/6"
     },
     "pysparse": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pysparse-feedstock/pull/11"
     },
     "gmsh": {
       "num_descendants": 0,
