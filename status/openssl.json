@@ -1,17 +1,15 @@
 {
   "done": [
-    "r-openssl",
+    "mosh",
     "ldas-tools-al",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
     "ldas-tools-frameapi",
-    "libevent",
-    "thrift-cpp",
-    "sstp-client",
-    "poco",
-    "clickhouse-odbc",
-    "nginx",
-    "lynx",
+    "mysql-connector-c",
+    "tectonic",
+    "erlang",
+    "grpc-cpp",
+    "ruby",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -25,13 +23,14 @@
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "erlang",
+    "poco",
+    "clickhouse-odbc",
     "fossil",
-    "librdkafka",
-    "davix",
-    "ruby",
-    "tectonic",
-    "freetds",
+    "libevent",
+    "thrift-cpp",
+    "sstp-client",
+    "virtuoso-opensource",
+    "lynx",
     "libssh2",
     "r-git2r",
     "curl",
@@ -40,13 +39,14 @@
     "gdal",
     "libgit2",
     "git",
+    "socat",
+    "davix",
+    "librdkafka",
     "libarchive",
-    "virtuoso-opensource",
-    "mysql-connector-c",
-    "pari",
-    "grpc-cpp",
-    "mosh",
-    "socat"
+    "r-openssl",
+    "freetds",
+    "nginx",
+    "pari"
   ],
   "in-pr": [
     "r-pki",
@@ -57,13 +57,13 @@
     "qt",
     "entwine",
     "aws-sdk-cpp",
-    "singularity",
-    "w3m"
+    "w3m",
+    "singularity"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "root",
-    "octave"
+    "octave",
+    "root"
   ],
   "_feedstock_status": {
     "curl": {
