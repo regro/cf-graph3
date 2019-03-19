@@ -1,74 +1,70 @@
 {
-  "done": [],
+  "done": [
+    "mkl_fft",
+    "r-base"
+  ],
   "in-pr": [
-    "mpb",
+    "lal",
     "kwant",
-    "yaafe",
+    "dsdp",
+    "harminv",
+    "giac",
+    "ncl",
+    "arpack",
+    "moab",
+    "tomopy",
+    "trilinos",
+    "multinest",
+    "mpb",
+    "nco",
+    "root5",
     "scs",
     "fflas-ffpack",
-    "r-base",
-    "sundials",
-    "hmat-oss",
-    "multinest",
-    "harminv",
-    "xtensor-blas",
-    "yaehmop",
-    "slycot",
-    "moab",
-    "lal",
-    "opencv",
-    "arpack",
-    "root",
-    "hypre",
-    "trilinos",
-    "jags",
-    "freecad",
-    "dsdp",
-    "casacore",
-    "scikit-learn",
-    "libcf",
     "scalapack",
+    "hmat-oss",
+    "jags",
+    "simbody",
+    "libcf",
+    "scikit-learn",
+    "opencv",
+    "casacore",
+    "freecad",
+    "root",
     "coincbc",
-    "nco",
-    "mkl_fft"
+    "xtensor-blas",
+    "hypre",
+    "yaafe",
+    "sundials",
+    "slycot",
+    "yaehmop"
   ],
   "awaiting-pr": [
     "dlib",
-    "asap3",
-    "gmsh",
-    "alps",
-    "pysparse",
     "pygslodeiv2",
-    "root5",
-    "optpp",
     "kaldi",
-    "gmt",
-    "python-spams",
-    "mkl_random",
-    "adept",
-    "pymc",
-    "openmeeg",
-    "simbody",
     "scikit-umfpack",
-    "ncl",
-    "eelbrain",
-    "giac",
-    "atomsk",
-    "omcompiler",
-    "numcosmo",
-    "msprime"
-  ],
-  "awaiting-parents": [
-    "linbox",
-    "sagelib",
+    "mkl_random",
+    "msprime",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "pycvodes",
-    "openturns",
-    "pymeep",
-    "pyne",
-    "caffe",
+    "adept",
+    "python-spams",
+    "openmeeg",
+    "eelbrain",
+    "gmsh",
+    "atomsk",
+    "pymc",
+    "alps",
+    "optpp",
+    "omcompiler",
+    "numcosmo",
+    "asap3",
+    "pysparse",
+    "gmt"
+  ],
+  "awaiting-parents": [
+    "cvxopt",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -77,19 +73,24 @@
     "julia",
     "armadillo",
     "mlpack",
-    "cvxopt",
+    "pyne",
+    "pymeep",
+    "linbox",
+    "sagelib",
     "sage",
     "mumps",
     "pymumps",
     "ipopt",
     "casadi",
     "siesta",
+    "openturns",
+    "caffe",
+    "cyclus-build-deps",
+    "cyclus",
     "petsc",
     "slepc",
     "fenics",
-    "cyclus-build-deps",
-    "cyclus",
-    "tomopy"
+    "pycvodes"
   ],
   "_feedstock_status": {
     "adept": {
@@ -167,7 +168,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "sage"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/giac-feedstock/pull/8"
     },
     "gmt": {
       "num_descendants": 0,
@@ -243,7 +245,8 @@
     },
     "ncl": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/ncl-feedstock/pull/52"
     },
     "nco": {
       "num_descendants": 0,
@@ -292,7 +295,8 @@
     },
     "root5": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/root5-feedstock/pull/15"
     },
     "sagelib": {
       "num_descendants": 1,
@@ -330,7 +334,8 @@
     },
     "simbody": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/simbody-feedstock/pull/27"
     },
     "slycot": {
       "num_descendants": 0,
@@ -346,7 +351,8 @@
     },
     "tomopy": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/tomopy-feedstock/pull/13"
     },
     "xtensor-blas": {
       "num_descendants": 0,
