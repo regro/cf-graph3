@@ -4,67 +4,64 @@
     "r-base"
   ],
   "in-pr": [
-    "ncl",
-    "yaafe",
-    "giac",
-    "scikit-umfpack",
-    "libcf",
-    "pygslodeiv2",
-    "slycot",
-    "opencv",
     "hypre",
-    "multinest",
-    "simbody",
-    "root",
-    "lal",
     "dsdp",
-    "sundials",
-    "yaehmop",
-    "harminv",
-    "scalapack",
-    "freecad",
+    "scs",
+    "msprime",
     "pysparse",
-    "tomopy",
-    "pymc",
-    "moab",
-    "openmeeg",
-    "hmat-oss",
-    "xtensor-blas",
+    "scalapack",
+    "lal",
+    "slycot",
     "scikit-learn",
-    "fflas-ffpack",
+    "arpack",
+    "ncl",
     "trilinos",
+    "xtensor-blas",
+    "python-spams",
+    "mkl_random",
+    "moab",
+    "simbody",
     "nco",
-    "coincbc",
-    "mpb",
+    "tomopy",
+    "pygslodeiv2",
+    "yaafe",
+    "multinest",
+    "root5",
+    "yaehmop",
+    "openmeeg",
+    "fflas-ffpack",
+    "pymc",
+    "freecad",
+    "openturns",
+    "giac",
+    "numcosmo",
+    "libcf",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "arpack",
-    "jags",
-    "scs",
-    "root5",
-    "optpp",
-    "python-spams"
+    "omcompiler",
+    "mpb",
+    "opencv",
+    "sundials",
+    "coincbc",
+    "root",
+    "harminv",
+    "scikit-umfpack",
+    "jags"
   ],
   "awaiting-pr": [
-    "gmt",
-    "numcosmo",
-    "adept",
-    "gmsh",
-    "omcompiler",
-    "msprime",
-    "atomsk",
     "alps",
-    "mkl_random",
-    "kaldi",
+    "asap3",
+    "atomsk",
+    "adept",
     "eelbrain",
-    "dlib",
-    "asap3"
+    "gmsh",
+    "gmt",
+    "kaldi",
+    "dlib"
   ],
   "awaiting-parents": [
-    "caffe",
     "cvxopt",
-    "pycvodes",
     "mumps",
     "pymumps",
     "ipopt",
@@ -73,14 +70,6 @@
     "petsc",
     "slepc",
     "fenics",
-    "pyne",
-    "openturns",
-    "linbox",
-    "sagelib",
-    "sage",
-    "cyclus-build-deps",
-    "cyclus",
-    "pymeep",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -88,7 +77,16 @@
     "octave",
     "julia",
     "armadillo",
-    "mlpack"
+    "mlpack",
+    "pyne",
+    "linbox",
+    "sagelib",
+    "sage",
+    "caffe",
+    "pycvodes",
+    "cyclus-build-deps",
+    "cyclus",
+    "pymeep"
   ],
   "_feedstock_status": {
     "adept": {
@@ -168,13 +166,6 @@
       "num_descendants": 0,
       "immediate_children": []
     },
-    "hmat-oss": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "openturns"
-      ],
-      "pr_url": "https://github.com/conda-forge/hmat-oss-feedstock/pull/20"
-    },
     "hypre": {
       "num_descendants": 3,
       "immediate_children": [
@@ -215,7 +206,8 @@
     },
     "mkl_random": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mkl_random-feedstock/pull/8"
     },
     "moab": {
       "num_descendants": 1,
@@ -254,7 +246,8 @@
     },
     "openturns": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/openturns-feedstock/pull/75"
     },
     "pymc": {
       "num_descendants": 0,
@@ -362,7 +355,8 @@
     },
     "msprime": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/msprime-feedstock/pull/28"
     },
     "petsc": {
       "num_descendants": 2,
@@ -383,7 +377,8 @@
     },
     "numcosmo": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/numcosmo-feedstock/pull/4"
     },
     "mkl_fft": {
       "num_descendants": 1,
@@ -476,11 +471,6 @@
       "num_descendants": 0,
       "immediate_children": []
     },
-    "optpp": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/optpp-feedstock/pull/6"
-    },
     "pysparse": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -520,7 +510,8 @@
     },
     "omcompiler": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/omcompiler-feedstock/pull/6"
     },
     "eelbrain": {
       "num_descendants": 0,

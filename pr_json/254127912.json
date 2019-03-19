@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-02-19T06:14:38Z",
-    "updated_at": "2019-02-19T06:14:42Z",
+    "updated_at": "2019-03-19T08:56:09Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "41bb46fe1b11f01fe0a416f4a8f985726f15888f",
+    "merge_commit_sha": "1c0d08380c73cd329d1ae861cb6a1d1f644a1ad2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/statuses/992d046ca554ce9396310b1c9d1728424762628b",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/statuses/e88888fe2d440fc22060a79df127225e8dde96aa",
     "head": {
         "label": "regro-cf-autotick-bot:2.0",
         "ref": "2.0",
-        "sha": "992d046ca554ce9396310b1c9d1728424762628b",
+        "sha": "e88888fe2d440fc22060a79df127225e8dde96aa",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-magick-feedstock/deployments",
             "created_at": "2019-02-08T11:16:30Z",
             "updated_at": "2019-02-08T11:16:32Z",
-            "pushed_at": "2019-02-19T06:14:38Z",
+            "pushed_at": "2019-03-19T08:56:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-magick-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-magick-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-magick-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-magick-feedstock/deployments",
             "created_at": "2018-08-21T18:40:45Z",
             "updated_at": "2018-09-29T16:47:11Z",
-            "pushed_at": "2019-02-22T20:57:55Z",
+            "pushed_at": "2019-03-19T08:56:10Z",
             "git_url": "git://github.com/conda-forge/r-magick-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-magick-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-magick-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-magick-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-magick-feedstock/statuses/992d046ca554ce9396310b1c9d1728424762628b"
+            "href": "https://api.github.com/repos/conda-forge/r-magick-feedstock/statuses/e88888fe2d440fc22060a79df127225e8dde96aa"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 280,
+    "commits": 3,
+    "additions": 288,
     "deletions": 91,
-    "changed_files": 16
+    "changed_files": 16,
+    "Last-Modified": "Tue, 19 Mar 2019 08:56:09 GMT",
+    "ETag": "W/\"7c116c05b024d84d6f38ba67a1c6e852\""
 }
