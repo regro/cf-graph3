@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-16T23:26:47Z",
-    "updated_at": "2019-03-16T23:26:50Z",
+    "updated_at": "2019-03-19T12:01:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "75919a1f7c751a5e7ae8cab966031f6225d6a770",
+    "merge_commit_sha": "bb64665338fcdf9bb80d904b80b5377292462d9b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/statuses/4301328c2f37d5ee6a86436748d4f26051206c29",
+    "statuses_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/statuses/d29b9fa1b329942cc3cea7ae1c56f82f0895abde",
     "head": {
         "label": "regro-cf-autotick-bot:0.5.0",
         "ref": "0.5.0",
-        "sha": "4301328c2f37d5ee6a86436748d4f26051206c29",
+        "sha": "d29b9fa1b329942cc3cea7ae1c56f82f0895abde",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/r-mapedit-feedstock/deployments",
             "created_at": "2018-03-09T01:21:48Z",
             "updated_at": "2018-03-09T01:21:50Z",
-            "pushed_at": "2019-03-16T23:26:46Z",
+            "pushed_at": "2019-03-19T12:01:52Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/r-mapedit-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/r-mapedit-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/r-mapedit-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/deployments",
             "created_at": "2018-01-28T11:08:46Z",
             "updated_at": "2018-08-16T20:19:35Z",
-            "pushed_at": "2019-03-16T23:26:47Z",
+            "pushed_at": "2019-03-19T12:01:53Z",
             "git_url": "git://github.com/conda-forge/r-mapedit-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/r-mapedit-feedstock.git",
             "clone_url": "https://github.com/conda-forge/r-mapedit-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/statuses/4301328c2f37d5ee6a86436748d4f26051206c29"
+            "href": "https://api.github.com/repos/conda-forge/r-mapedit-feedstock/statuses/d29b9fa1b329942cc3cea7ae1c56f82f0895abde"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 308,
-    "deletions": 33,
-    "changed_files": 14
+    "commits": 3,
+    "additions": 316,
+    "deletions": 37,
+    "changed_files": 14,
+    "Last-Modified": "Tue, 19 Mar 2019 12:01:52 GMT",
+    "ETag": "W/\"1e6814c716573a96249124d7a92e2173\""
 }
