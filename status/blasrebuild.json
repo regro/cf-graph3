@@ -1,82 +1,63 @@
 {
   "done": [],
   "in-pr": [
-    "iml",
-    "hmat-oss",
+    "kwant",
+    "opencv",
+    "scs",
+    "arpack",
+    "gsl",
+    "freecad",
+    "scikit-learn",
     "harminv",
     "libcf",
-    "superlu",
-    "slycot",
-    "opencv",
-    "arpack",
-    "mkl_fft",
-    "coincbc",
-    "scalapack",
-    "hypre",
-    "jags",
-    "suitesparse",
-    "multinest",
-    "scipy",
-    "mpb",
-    "gsl",
     "dsdp",
-    "moab"
+    "mkl_fft",
+    "hypre",
+    "moab",
+    "multinest",
+    "slycot",
+    "hmat-oss",
+    "superlu",
+    "scalapack",
+    "jags",
+    "coincbc",
+    "mpb",
+    "sundials"
   ],
   "awaiting-pr": [
-    "casacore",
-    "kaldi",
+    "scikit-umfpack",
     "openmeeg",
-    "xtensor-blas",
-    "pysparse",
-    "gmt",
-    "gmsh",
-    "asap3",
-    "yaafe",
-    "adept",
     "trilinos",
-    "optpp",
-    "yaehmop",
-    "dlib",
-    "atomsk",
     "mkl_random",
+    "casacore",
+    "yaehmop",
+    "eelbrain",
+    "dlib",
+    "xtensor-blas",
+    "alps",
+    "optpp",
     "omcompiler",
+    "kaldi",
+    "gmsh",
+    "pysparse",
+    "asap3",
+    "pymc",
     "simbody",
-    "freecad"
+    "yaafe",
+    "atomsk",
+    "gmt",
+    "adept",
+    "python-spams"
   ],
   "awaiting-parents": [
-    "openturns",
+    "caffe",
+    "scilab",
     "calculix",
     "shogun-cpp",
     "shogun",
-    "armadillo",
-    "mlpack",
-    "cyclus-build-deps",
-    "cyclus",
-    "mumps",
-    "ipopt",
-    "casadi",
-    "siesta",
-    "scilab",
-    "petsc",
-    "slepc",
-    "fenics",
-    "sundials",
-    "pycvodes",
     "octave",
     "julia",
-    "eelbrain",
-    "pymumps",
-    "scs",
-    "alps",
-    "tomopy",
-    "scikit-umfpack",
-    "scikit-learn",
-    "python-spams",
-    "pymc",
-    "kwant",
-    "caffe",
     "root",
-    "pymeep",
     "lal",
     "pygslodeiv2",
     "numcosmo",
@@ -94,7 +75,23 @@
     "sagelib",
     "cvxopt",
     "sage",
-    "pyne"
+    "tomopy",
+    "pyne",
+    "openturns",
+    "armadillo",
+    "mlpack",
+    "mumps",
+    "pymumps",
+    "ipopt",
+    "casadi",
+    "siesta",
+    "petsc",
+    "slepc",
+    "fenics",
+    "cyclus-build-deps",
+    "cyclus",
+    "pymeep",
+    "pycvodes"
   ],
   "_feedstock_status": {
     "adept": {
@@ -213,15 +210,6 @@
       ],
       "pr_url": "https://github.com/conda-forge/hypre-feedstock/pull/9"
     },
-    "iml": {
-      "num_descendants": 3,
-      "immediate_children": [
-        "linbox",
-        "sage",
-        "sagelib"
-      ],
-      "pr_url": "https://github.com/conda-forge/iml-feedstock/pull/5"
-    },
     "ipopt": {
       "num_descendants": 1,
       "immediate_children": [
@@ -243,7 +231,8 @@
     },
     "kwant": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/kwant-feedstock/pull/69"
     },
     "libcf": {
       "num_descendants": 0,
@@ -343,32 +332,12 @@
     },
     "scikit-learn": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/scikit-learn-feedstock/pull/91"
     },
     "scikit-umfpack": {
       "num_descendants": 0,
       "immediate_children": []
-    },
-    "scipy": {
-      "num_descendants": 15,
-      "immediate_children": [
-        "alps",
-        "caffe",
-        "eelbrain",
-        "kwant",
-        "lal",
-        "pymc",
-        "pymeep",
-        "pymumps",
-        "pyne",
-        "python-spams",
-        "sage",
-        "scikit-learn",
-        "scikit-umfpack",
-        "scs",
-        "tomopy"
-      ],
-      "pr_url": "https://github.com/conda-forge/scipy-feedstock/pull/94"
     },
     "shogun": {
       "num_descendants": 0,
@@ -389,25 +358,12 @@
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/slycot-feedstock/pull/13"
     },
-    "suitesparse": {
-      "num_descendants": 11,
-      "immediate_children": [
-        "cvxopt",
-        "julia",
-        "octave",
-        "petsc",
-        "scikit-umfpack",
-        "scilab",
-        "slepc",
-        "sundials"
-      ],
-      "pr_url": "https://github.com/conda-forge/suitesparse-feedstock/pull/47"
-    },
     "sundials": {
       "num_descendants": 1,
       "immediate_children": [
         "pycvodes"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/sundials-feedstock/pull/45"
     },
     "superlu": {
       "num_descendants": 2,
@@ -512,11 +468,13 @@
     },
     "scs": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/scs-feedstock/pull/4"
     },
     "freecad": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/freecad-feedstock/pull/16"
     },
     "lal": {
       "num_descendants": 0,
