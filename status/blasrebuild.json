@@ -1,66 +1,82 @@
 {
   "done": [],
   "in-pr": [
-    "moab",
-    "hypre",
-    "scipy",
-    "superlu",
-    "hmat-oss",
-    "opencv",
-    "libcf",
-    "coincbc",
-    "suitesparse",
-    "gsl",
     "iml",
-    "dsdp",
+    "hmat-oss",
+    "harminv",
+    "libcf",
+    "superlu",
     "slycot",
+    "opencv",
     "arpack",
-    "scalapack"
+    "mkl_fft",
+    "coincbc",
+    "scalapack",
+    "hypre",
+    "jags",
+    "suitesparse",
+    "multinest",
+    "scipy",
+    "mpb",
+    "gsl",
+    "dsdp",
+    "moab"
   ],
   "awaiting-pr": [
-    "simbody",
-    "pysparse",
-    "jags",
-    "adept",
-    "asap3",
-    "xtensor-blas",
-    "atomsk",
-    "optpp",
-    "openmeeg",
-    "yaehmop",
-    "mkl_fft",
-    "dlib",
-    "gmsh",
-    "mkl_random",
-    "trilinos",
-    "yaafe",
-    "freecad",
-    "omcompiler",
-    "mpb",
-    "multinest",
-    "gmt",
+    "casacore",
     "kaldi",
-    "harminv",
-    "casacore"
+    "openmeeg",
+    "xtensor-blas",
+    "pysparse",
+    "gmt",
+    "gmsh",
+    "asap3",
+    "yaafe",
+    "adept",
+    "trilinos",
+    "optpp",
+    "yaehmop",
+    "dlib",
+    "atomsk",
+    "mkl_random",
+    "omcompiler",
+    "simbody",
+    "freecad"
   ],
   "awaiting-parents": [
-    "eelbrain",
-    "scs",
-    "alps",
-    "scikit-learn",
-    "python-spams",
-    "pyne",
-    "pymc",
-    "kwant",
     "openturns",
-    "caffe",
-    "tomopy",
+    "calculix",
+    "shogun-cpp",
+    "shogun",
+    "armadillo",
+    "mlpack",
     "cyclus-build-deps",
     "cyclus",
+    "mumps",
+    "ipopt",
+    "casadi",
+    "siesta",
+    "scilab",
+    "petsc",
+    "slepc",
+    "fenics",
     "sundials",
     "pycvodes",
+    "octave",
+    "julia",
+    "eelbrain",
+    "pymumps",
+    "scs",
+    "alps",
+    "tomopy",
     "scikit-umfpack",
+    "scikit-learn",
+    "python-spams",
+    "pymc",
+    "kwant",
+    "caffe",
     "root",
+    "pymeep",
     "lal",
     "pygslodeiv2",
     "numcosmo",
@@ -78,23 +94,7 @@
     "sagelib",
     "cvxopt",
     "sage",
-    "scilab",
-    "calculix",
-    "shogun-cpp",
-    "shogun",
-    "octave",
-    "julia",
-    "armadillo",
-    "mlpack",
-    "mumps",
-    "pymumps",
-    "ipopt",
-    "casadi",
-    "siesta",
-    "petsc",
-    "slepc",
-    "fenics",
-    "pymeep"
+    "pyne"
   ],
   "_feedstock_status": {
     "adept": {
@@ -230,7 +230,8 @@
     },
     "jags": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/jags-feedstock/pull/5"
     },
     "julia": {
       "num_descendants": 0,
@@ -460,19 +461,22 @@
       "num_descendants": 1,
       "immediate_children": [
         "tomopy"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/mkl_fft-feedstock/pull/28"
     },
     "harminv": {
       "num_descendants": 1,
       "immediate_children": [
         "pymeep"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/harminv-feedstock/pull/5"
     },
     "mpb": {
       "num_descendants": 1,
       "immediate_children": [
         "pymeep"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/mpb-feedstock/pull/9"
     },
     "dsdp": {
       "num_descendants": 2,
@@ -495,7 +499,8 @@
     },
     "multinest": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/multinest-feedstock/pull/5"
     },
     "pycvodes": {
       "num_descendants": 0,
