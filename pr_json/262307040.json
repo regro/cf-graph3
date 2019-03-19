@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T04:29:12Z",
-    "updated_at": "2019-03-19T04:29:16Z",
+    "updated_at": "2019-03-19T07:10:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ae91487db36b8461435b5caf303a9bf44880fe3b",
+    "merge_commit_sha": "dd7544ef2d38e4e77d2876ff4f1d19775e5ed8d7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/pulls/34/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/issues/34/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/statuses/ce328fc41df2e3a48c7e3c4fc9594222dc68eb78",
+    "statuses_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/statuses/9ed38e6cf042958414dc25a210df250ebefafe9c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "ce328fc41df2e3a48c7e3c4fc9594222dc68eb78",
+        "sha": "9ed38e6cf042958414dc25a210df250ebefafe9c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/casacore-feedstock/deployments",
             "created_at": "2018-06-18T14:14:23Z",
             "updated_at": "2018-06-18T14:14:25Z",
-            "pushed_at": "2019-03-19T04:29:12Z",
+            "pushed_at": "2019-03-19T07:10:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/casacore-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/casacore-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/casacore-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/casacore-feedstock",
             "homepage": null,
-            "size": 38,
+            "size": 83,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/casacore-feedstock/deployments",
             "created_at": "2017-02-25T04:14:53Z",
             "updated_at": "2019-01-30T19:13:44Z",
-            "pushed_at": "2019-03-19T04:29:13Z",
+            "pushed_at": "2019-03-19T07:10:07Z",
             "git_url": "git://github.com/conda-forge/casacore-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/casacore-feedstock.git",
             "clone_url": "https://github.com/conda-forge/casacore-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/casacore-feedstock/pulls/34/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/casacore-feedstock/statuses/ce328fc41df2e3a48c7e3c4fc9594222dc68eb78"
+            "href": "https://api.github.com/repos/conda-forge/casacore-feedstock/statuses/9ed38e6cf042958414dc25a210df250ebefafe9c"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 65,
-    "deletions": 31,
-    "changed_files": 9
+    "commits": 4,
+    "additions": 72,
+    "deletions": 36,
+    "changed_files": 10,
+    "Last-Modified": "Tue, 19 Mar 2019 07:10:06 GMT",
+    "ETag": "W/\"7f57b9c5462febfa0fcc55f5cd46feb3\""
 }

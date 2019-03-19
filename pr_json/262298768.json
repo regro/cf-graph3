@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T03:32:46Z",
-    "updated_at": "2019-03-19T03:32:51Z",
+    "updated_at": "2019-03-19T06:56:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "82806b2df6045ec5903d11ce4adff7efdafc9a46",
+    "merge_commit_sha": "aa98ba969b5ed34726b5eb859af68c72f9c09448",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scs-feedstock/pulls/4/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scs-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scs-feedstock/issues/4/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scs-feedstock/statuses/84feada65468618f7ab90a2259f976186a18141a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scs-feedstock/statuses/c8b7b0f0a6a497dc9094d79ee8aada684a022fe4",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "84feada65468618f7ab90a2259f976186a18141a",
+        "sha": "c8b7b0f0a6a497dc9094d79ee8aada684a022fe4",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scs-feedstock/deployments",
             "created_at": "2018-10-13T09:57:20Z",
             "updated_at": "2018-10-13T09:57:22Z",
-            "pushed_at": "2019-03-19T03:32:45Z",
+            "pushed_at": "2019-03-19T06:56:50Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scs-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scs-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scs-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scs-feedstock/deployments",
             "created_at": "2018-06-20T00:36:59Z",
             "updated_at": "2018-10-14T16:44:15Z",
-            "pushed_at": "2019-03-19T03:32:47Z",
+            "pushed_at": "2019-03-19T06:56:51Z",
             "git_url": "git://github.com/conda-forge/scs-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scs-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scs-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scs-feedstock/pulls/4/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scs-feedstock/statuses/84feada65468618f7ab90a2259f976186a18141a"
+            "href": "https://api.github.com/repos/conda-forge/scs-feedstock/statuses/c8b7b0f0a6a497dc9094d79ee8aada684a022fe4"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 4,
     "additions": 379,
     "deletions": 389,
     "changed_files": 27,
-    "Last-Modified": "Tue, 19 Mar 2019 03:32:51 GMT",
-    "ETag": "W/\"cadaac7a3ac020d548769ab2a99b12ac\""
+    "Last-Modified": "Tue, 19 Mar 2019 06:56:50 GMT",
+    "ETag": "W/\"505b3fc1b96f3aed4cdb8ce859ce047b\""
 }
