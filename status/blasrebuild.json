@@ -1,56 +1,57 @@
 {
   "done": [
-    "mkl_fft",
-    "r-base"
+    "r-base",
+    "mkl_fft"
   ],
   "in-pr": [
-    "pysparse",
-    "msprime",
-    "adept",
-    "asap3",
-    "pygslodeiv2",
-    "yaafe",
-    "hypre",
-    "arpack",
-    "root",
-    "python-spams",
-    "jags",
-    "freecad",
-    "alps",
-    "mkl_random",
-    "libcf",
-    "scikit-learn",
-    "trilinos",
     "lal",
-    "scalapack",
-    "harminv",
-    "pyne",
-    "atomsk",
-    "opencv",
-    "tomopy",
-    "scs",
-    "multinest",
-    "root5",
-    "coincbc",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "slycot",
-    "dsdp",
-    "simbody",
-    "dlib",
-    "ncl",
-    "xtensor-blas",
-    "fflas-ffpack",
-    "giac",
-    "mpb",
+    "coincbc",
+    "root",
     "gmsh",
-    "kaldi",
+    "asap3",
+    "atomsk",
+    "trilinos",
+    "adept",
+    "yaafe",
+    "xtensor-blas",
+    "scikit-learn",
+    "simbody",
+    "python-spams",
+    "mpb",
+    "mkl_random",
+    "hypre",
+    "slycot",
+    "libcf",
+    "jags",
+    "multinest",
+    "msprime",
+    "arpack",
+    "dlib",
+    "tomopy",
+    "pysparse",
+    "harminv",
+    "freecad",
+    "pyne",
+    "fflas-ffpack",
+    "opencv",
+    "scs",
+    "pygslodeiv2",
+    "pycvodes",
+    "root5",
     "openmeeg",
-    "sundials"
+    "dsdp",
+    "alps",
+    "scalapack",
+    "ncl",
+    "kaldi"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "cyclus-build-deps",
+    "cyclus",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -59,6 +60,12 @@
     "julia",
     "armadillo",
     "mlpack",
+    "pymeep",
+    "linbox",
+    "sagelib",
+    "caffe",
+    "cvxopt",
+    "sage",
     "mumps",
     "pymumps",
     "ipopt",
@@ -66,16 +73,7 @@
     "siesta",
     "petsc",
     "slepc",
-    "fenics",
-    "caffe",
-    "cyclus-build-deps",
-    "cyclus",
-    "cvxopt",
-    "linbox",
-    "sagelib",
-    "sage",
-    "pymeep",
-    "pycvodes"
+    "fenics"
   ],
   "_feedstock_status": {
     "adept": {
@@ -145,13 +143,6 @@
         "sagelib"
       ],
       "pr_url": "https://github.com/conda-forge/fflas-ffpack-feedstock/pull/8"
-    },
-    "giac": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "sage"
-      ],
-      "pr_url": "https://github.com/conda-forge/giac-feedstock/pull/8"
     },
     "hypre": {
       "num_descendants": 3,
@@ -289,13 +280,6 @@
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/slycot-feedstock/pull/13"
     },
-    "sundials": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "pycvodes"
-      ],
-      "pr_url": "https://github.com/conda-forge/sundials-feedstock/pull/45"
-    },
     "tomopy": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -386,7 +370,8 @@
     },
     "pycvodes": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pycvodes-feedstock/pull/18"
     },
     "pygslodeiv2": {
       "num_descendants": 0,
