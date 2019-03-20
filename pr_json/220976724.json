@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\nrsgislib\nspdlib\npgrouting\ngudhi\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-07T22:07:26Z",
-    "updated_at": "2019-02-14T17:38:48Z",
+    "updated_at": "2019-03-20T17:29:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9059b90545790f49dc3cee97122d1baa41c80bcc",
+    "merge_commit_sha": "aad3d155beb8a097035f36d2de1efafc1d7bb1f1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/pulls/41/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/issues/41/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/statuses/9857a5be3b5a0908684c7b8eff0a42dbf38b235a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/statuses/eda5142011f923093afa06b4557daf5e95f491a1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "9857a5be3b5a0908684c7b8eff0a42dbf38b235a",
+        "sha": "eda5142011f923093afa06b4557daf5e95f491a1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/cgal-feedstock/deployments",
             "created_at": "2018-06-18T14:16:41Z",
             "updated_at": "2018-06-18T14:16:43Z",
-            "pushed_at": "2019-01-08T23:17:25Z",
+            "pushed_at": "2019-03-20T17:29:51Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/cgal-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/cgal-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/cgal-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/cgal-feedstock/deployments",
             "created_at": "2016-08-05T20:38:55Z",
             "updated_at": "2019-03-19T17:02:32Z",
-            "pushed_at": "2019-02-22T12:07:47Z",
+            "pushed_at": "2019-03-20T18:07:44Z",
             "git_url": "git://github.com/conda-forge/cgal-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/cgal-feedstock.git",
             "clone_url": "https://github.com/conda-forge/cgal-feedstock.git",
@@ -281,7 +281,7 @@
             "forks_count": 13,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 13,
-            "open_issues": 3,
+            "open_issues": 4,
             "watchers": 4,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/cgal-feedstock/pulls/41/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/cgal-feedstock/statuses/9857a5be3b5a0908684c7b8eff0a42dbf38b235a"
+            "href": "https://api.github.com/repos/conda-forge/cgal-feedstock/statuses/eda5142011f923093afa06b4557daf5e95f491a1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 5,
+    "comments": 6,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 814,
-    "deletions": 129,
-    "changed_files": 34
+    "commits": 5,
+    "additions": 524,
+    "deletions": 256,
+    "changed_files": 27,
+    "Last-Modified": "Wed, 20 Mar 2019 17:29:51 GMT",
+    "ETag": "W/\"e289823cce04c94b5cb0139cff7f8fe2\""
 }
