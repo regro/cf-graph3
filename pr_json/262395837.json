@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T10:32:11Z",
-    "updated_at": "2019-03-19T10:32:16Z",
+    "updated_at": "2019-03-20T02:28:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "46ec16e823e92b91bccf2a94b6615a4d08bcdaf8",
+    "merge_commit_sha": "b54e01e116071e13e4f79a3ac84b4cccc2d8bbca",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/29/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/issues/29/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/940f45d97dbcbfa59e2ffd7e36c798f2242dff7d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/21896071842778ef11e3ef94e3f736c1c47cc518",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "940f45d97dbcbfa59e2ffd7e36c798f2242dff7d",
+        "sha": "21896071842778ef11e3ef94e3f736c1c47cc518",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dlib-feedstock/deployments",
             "created_at": "2018-03-19T17:02:22Z",
             "updated_at": "2018-03-19T17:02:24Z",
-            "pushed_at": "2019-03-19T10:32:11Z",
+            "pushed_at": "2019-03-20T02:28:12Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dlib-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dlib-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dlib-feedstock/deployments",
             "created_at": "2016-09-14T14:03:36Z",
             "updated_at": "2018-08-04T17:34:08Z",
-            "pushed_at": "2019-03-19T10:32:12Z",
+            "pushed_at": "2019-03-20T02:28:13Z",
             "git_url": "git://github.com/conda-forge/dlib-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dlib-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dlib-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/pulls/29/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/940f45d97dbcbfa59e2ffd7e36c798f2242dff7d"
+            "href": "https://api.github.com/repos/conda-forge/dlib-feedstock/statuses/21896071842778ef11e3ef94e3f736c1c47cc518"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 739,
-    "deletions": 166,
-    "changed_files": 30,
-    "Last-Modified": "Tue, 19 Mar 2019 10:32:16 GMT",
-    "ETag": "W/\"3cacb73376a711c12cd89a03899acac6\""
+    "commits": 5,
+    "additions": 797,
+    "deletions": 287,
+    "changed_files": 28,
+    "Last-Modified": "Wed, 20 Mar 2019 02:28:12 GMT",
+    "ETag": "W/\"d9f8fbca3e2443dc8c3a6a7967823078\""
 }
