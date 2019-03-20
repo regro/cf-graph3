@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-10-02T17:14:38Z",
-    "updated_at": "2018-10-02T17:14:41Z",
+    "updated_at": "2019-03-20T14:44:18Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "680b7dc88a198ff5c113285bc2667dab459bd765",
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/pulls/5/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/issues/5/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/statuses/f5b300e6d26515ddd93028e6425e9e0aee7bfd9a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/statuses/568a9b3622561bb139ad8337fc6f143d691e2b83",
     "head": {
         "label": "regro-cf-autotick-bot:0.15.1",
         "ref": "0.15.1",
-        "sha": "f5b300e6d26515ddd93028e6425e9e0aee7bfd9a",
+        "sha": "568a9b3622561bb139ad8337fc6f143d691e2b83",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/papermill-feedstock/deployments",
             "created_at": "2018-08-03T22:11:08Z",
             "updated_at": "2018-08-03T22:11:11Z",
-            "pushed_at": "2019-02-25T14:06:31Z",
+            "pushed_at": "2019-03-20T14:44:09Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/papermill-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/papermill-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/papermill-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/papermill-feedstock/deployments",
             "created_at": "2018-07-26T20:31:28Z",
             "updated_at": "2018-10-16T13:47:58Z",
-            "pushed_at": "2019-03-19T18:15:49Z",
+            "pushed_at": "2019-03-20T14:44:10Z",
             "git_url": "git://github.com/conda-forge/papermill-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/papermill-feedstock.git",
             "clone_url": "https://github.com/conda-forge/papermill-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/papermill-feedstock/pulls/5/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/papermill-feedstock/statuses/f5b300e6d26515ddd93028e6425e9e0aee7bfd9a"
+            "href": "https://api.github.com/repos/conda-forge/papermill-feedstock/statuses/568a9b3622561bb139ad8337fc6f143d691e2b83"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 93,
-    "deletions": 85,
-    "changed_files": 18,
-    "Last-Modified": "Tue, 02 Oct 2018 17:14:41 GMT",
-    "ETag": "W/\"d9f5e645ca7a5f292dce346f9d640f4b\""
+    "commits": 3,
+    "additions": 503,
+    "deletions": 228,
+    "changed_files": 27,
+    "Last-Modified": "Wed, 20 Mar 2019 14:44:18 GMT",
+    "ETag": "W/\"45809923918914c86b895987806ca7b6\""
 }
