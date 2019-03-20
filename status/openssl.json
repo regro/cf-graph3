@@ -1,25 +1,14 @@
 {
   "done": [
-    "grpc-cpp",
-    "r-openssl",
-    "erlang",
-    "virtuoso-opensource",
-    "tectonic",
-    "davix",
-    "libevent",
-    "thrift-cpp",
-    "sstp-client",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "nginx",
+    "fossil",
+    "mysql-connector-c",
     "libssh2",
     "r-git2r",
-    "mosh",
-    "fossil",
-    "freetds",
+    "ruby",
     "libarchive",
+    "erlang",
+    "freetds",
+    "lynx",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -39,19 +28,27 @@
     "libgit2",
     "git",
     "gdal",
-    "lynx",
-    "ruby",
-    "mysql-connector-c",
-    "pari",
+    "libevent",
+    "thrift-cpp",
+    "sstp-client",
+    "mosh",
+    "r-openssl",
+    "virtuoso-opensource",
+    "nginx",
+    "davix",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "poco",
+    "clickhouse-odbc",
+    "tectonic",
     "socat",
     "librdkafka",
-    "poco",
-    "clickhouse-odbc"
+    "grpc-cpp",
+    "pari"
   ],
   "in-pr": [
-    "r-pki",
-    "w3m",
-    "mapd-core-cpu",
     "singularity",
     "cryptography",
     "m2crypto",
@@ -59,12 +56,16 @@
     "postgres-xl",
     "aws-sdk-cpp",
     "entwine",
-    "qt"
+    "mapd-core-cpu",
+    "r-pki",
+    "qt",
+    "w3m",
+    "xeus"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "root",
-    "octave"
+    "octave",
+    "root"
   ],
   "_feedstock_status": {
     "curl": {
@@ -308,6 +309,11 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/w3m-feedstock/pull/7"
+    },
+    "xeus": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/xeus-feedstock/pull/27"
     },
     "postgres-xl": {
       "num_descendants": 0,
