@@ -1,69 +1,65 @@
 {
   "done": [
-    "r-base",
+    "mkl_fft",
+    "tomopy",
     "mkl_random",
-    "mkl_fft"
+    "r-base"
   ],
   "in-pr": [
-    "lal",
+    "simbody",
+    "multinest",
+    "cyclus",
+    "jags",
+    "gmsh",
+    "asap3",
+    "trilinos",
+    "siesta",
+    "yaafe",
+    "adept",
+    "pygslodeiv2",
+    "libcf",
+    "pyne",
+    "scs",
+    "slepc",
+    "slycot",
+    "scikit-learn",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "scikit-learn",
-    "jags",
-    "fflas-ffpack",
-    "trilinos",
-    "pygslodeiv2",
-    "ipopt",
-    "msprime",
-    "pymumps",
-    "kaldi",
-    "slycot",
-    "opencv",
-    "adept",
-    "siesta",
-    "pycvodes",
-    "pysparse",
-    "openmeeg",
-    "scs",
-    "arpack",
-    "pymeep",
-    "gmsh",
-    "root5",
-    "pyne",
-    "root",
-    "libcf",
-    "alps",
-    "cvxopt",
-    "python-spams",
-    "petsc",
-    "yaafe",
-    "cyclus",
-    "freecad",
-    "simbody",
-    "multinest",
-    "dlib",
-    "asap3",
-    "atomsk",
-    "tomopy"
-  ],
-  "awaiting-pr": [],
-  "awaiting-parents": [
-    "linbox",
-    "sagelib",
-    "casadi",
-    "caffe",
     "scilab",
-    "calculix",
-    "shogun-cpp",
-    "shogun",
-    "octave",
     "julia",
     "armadillo",
+    "kaldi",
+    "msprime",
+    "alps",
+    "lal",
+    "atomsk",
+    "pycvodes",
+    "fflas-ffpack",
+    "pysparse",
+    "opencv",
+    "root5",
+    "shogun-cpp",
+    "python-spams",
+    "dlib",
+    "openmeeg",
+    "root",
+    "pymumps",
+    "freecad"
+  ],
+  "awaiting-pr": [
+    "casadi",
+    "calculix",
+    "octave"
+  ],
+  "awaiting-parents": [
+    "fenics",
     "mlpack",
+    "linbox",
+    "sagelib",
     "sage",
-    "slepc",
-    "fenics"
+    "caffe",
+    "shogun"
   ],
   "_feedstock_status": {
     "adept": {
@@ -75,20 +71,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "mlpack"
-      ]
-    },
-    "arpack": {
-      "num_descendants": 8,
-      "immediate_children": [
-        "armadillo",
-        "calculix",
-        "julia",
-        "octave",
-        "scilab",
-        "shogun",
-        "shogun-cpp"
       ],
-      "pr_url": "https://github.com/conda-forge/arpack-feedstock/pull/31"
+      "pr_url": "https://github.com/conda-forge/armadillo-feedstock/pull/14"
     },
     "caffe": {
       "num_descendants": 0,
@@ -97,13 +81,6 @@
     "casadi": {
       "num_descendants": 0,
       "immediate_children": []
-    },
-    "cvxopt": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "sage"
-      ],
-      "pr_url": "https://github.com/conda-forge/cvxopt-feedstock/pull/30"
     },
     "cyclus": {
       "num_descendants": 0,
@@ -128,13 +105,6 @@
       ],
       "pr_url": "https://github.com/conda-forge/fflas-ffpack-feedstock/pull/8"
     },
-    "ipopt": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "casadi"
-      ],
-      "pr_url": "https://github.com/conda-forge/ipopt-feedstock/pull/27"
-    },
     "jags": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -142,7 +112,8 @@
     },
     "julia": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/julia-feedstock/pull/71"
     },
     "kaldi": {
       "num_descendants": 0,
@@ -225,7 +196,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "shogun"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/shogun-cpp-feedstock/pull/26"
     },
     "simbody": {
       "num_descendants": 0,
@@ -257,19 +229,12 @@
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/msprime-feedstock/pull/28"
     },
-    "petsc": {
-      "num_descendants": 2,
-      "immediate_children": [
-        "fenics",
-        "slepc"
-      ],
-      "pr_url": "https://github.com/conda-forge/petsc-feedstock/pull/52"
-    },
     "slepc": {
       "num_descendants": 1,
       "immediate_children": [
         "fenics"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/slepc-feedstock/pull/23"
     },
     "alps": {
       "num_descendants": 0,
@@ -321,11 +286,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/lal-feedstock/pull/21"
-    },
-    "pymeep": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/pymeep-feedstock/pull/8"
     },
     "openmeeg": {
       "num_descendants": 0,
@@ -382,7 +342,8 @@
     },
     "scilab": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/scilab-feedstock/pull/2"
     }
   }
 }
