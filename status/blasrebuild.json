@@ -1,65 +1,62 @@
 {
   "done": [
+    "mkl_random",
     "mkl_fft",
     "tomopy",
-    "mkl_random",
     "r-base"
   ],
   "in-pr": [
-    "simbody",
-    "multinest",
-    "cyclus",
-    "jags",
-    "gmsh",
-    "asap3",
-    "trilinos",
-    "siesta",
-    "yaafe",
-    "adept",
-    "pygslodeiv2",
-    "libcf",
-    "pyne",
+    "calculix",
     "scs",
-    "slepc",
-    "slycot",
+    "pymumps",
     "scikit-learn",
+    "pygslodeiv2",
+    "freecad",
+    "kaldi",
+    "armadillo",
+    "gmsh",
+    "julia",
+    "octave",
+    "pysparse",
+    "alps",
+    "siesta",
+    "shogun-cpp",
+    "trilinos",
+    "asap3",
+    "lal",
+    "pycvodes",
+    "pyne",
+    "msprime",
+    "cyclus",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "scilab",
-    "julia",
-    "armadillo",
-    "kaldi",
-    "msprime",
-    "alps",
-    "lal",
-    "atomsk",
-    "pycvodes",
-    "fflas-ffpack",
-    "pysparse",
-    "opencv",
-    "root5",
-    "shogun-cpp",
+    "simbody",
+    "yaafe",
     "python-spams",
-    "dlib",
+    "libcf",
+    "slepc",
+    "root5",
+    "jags",
+    "scilab",
     "openmeeg",
+    "opencv",
+    "slycot",
+    "fflas-ffpack",
+    "dlib",
+    "adept",
     "root",
-    "pymumps",
-    "freecad"
+    "casadi"
   ],
-  "awaiting-pr": [
-    "casadi",
-    "calculix",
-    "octave"
-  ],
+  "awaiting-pr": [],
   "awaiting-parents": [
-    "fenics",
     "mlpack",
+    "shogun",
+    "fenics",
+    "caffe",
     "linbox",
     "sagelib",
-    "sage",
-    "caffe",
-    "shogun"
+    "sage"
   ],
   "_feedstock_status": {
     "adept": {
@@ -80,7 +77,8 @@
     },
     "casadi": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/casadi-feedstock/pull/20"
     },
     "cyclus": {
       "num_descendants": 0,
@@ -139,7 +137,8 @@
     },
     "octave": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/octave-feedstock/pull/21"
     },
     "opencv": {
       "num_descendants": 1,
@@ -257,11 +256,6 @@
       "num_descendants": 0,
       "immediate_children": []
     },
-    "multinest": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/multinest-feedstock/pull/5"
-    },
     "pycvodes": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -301,11 +295,6 @@
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/asap3-feedstock/pull/8"
     },
-    "atomsk": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/atomsk-feedstock/pull/9"
-    },
     "pysparse": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -318,7 +307,8 @@
     },
     "calculix": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/calculix-feedstock/pull/6"
     },
     "r-aws": {
       "num_descendants": 0,

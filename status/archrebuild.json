@@ -1,20 +1,17 @@
 {
   "done": [
-    "lame",
-    "lzip",
-    "nasm",
-    "libunistring",
-    "vs2008_runtime",
-    "vc",
-    "ca-certificates",
-    "vs2015_runtime",
-    "vs2008_express_vc_python_patch",
     "msinttypes",
-    "winpty",
-    "jom",
-    "bzip2",
+    "lzip",
     "libuuid",
     "toolchain3",
+    "jom",
+    "bzip2",
+    "libunistring",
+    "vs2008_express_vc_python_patch",
+    "ca-certificates",
+    "lame",
+    "patch",
+    "winpty",
     "m4",
     "gmp",
     "autoconf",
@@ -22,10 +19,13 @@
     "automake",
     "help2man",
     "libtool",
-    "patch",
+    "nasm",
+    "vs2008_runtime",
+    "vc",
     "c99-to-c89",
-    "xz",
+    "vs2015_runtime",
     "cmake",
+    "xz",
     "oniguruma",
     "jq",
     "libiconv",
@@ -179,15 +179,15 @@
     "libgfortran"
   ],
   "in-pr": [
-    "mpi",
     "libglu",
+    "mpi",
     "pixman",
     "distributed",
     "ipython",
     "xorg-libxt",
     "ffmpeg",
-    "numpy",
-    "hdf5"
+    "hdf5",
+    "numpy"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -216,8 +216,8 @@
     "scipy",
     "scikit-learn",
     "pandas",
-    "matplotlib",
-    "opencv"
+    "opencv",
+    "matplotlib"
   ],
   "_feedstock_status": {
     "appnope": {

@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T20:34:08Z",
-    "updated_at": "2019-03-19T21:21:53Z",
+    "updated_at": "2019-03-20T04:39:44Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ffff6e6398218dbcd50b1ef7f7613cc507a5b520",
+    "merge_commit_sha": "af7daae64de075be77c30603f72996fd9469aef9",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/pulls/18/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/issues/18/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/statuses/2c04651fcaf8be3a413a1eecc3ba9769da70fb84",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/statuses/7c7e19536d43f859a2e0247532cfa918f2fe2d00",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "2c04651fcaf8be3a413a1eecc3ba9769da70fb84",
+        "sha": "7c7e19536d43f859a2e0247532cfa918f2fe2d00",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pycvodes-feedstock/deployments",
             "created_at": "2018-06-22T13:56:17Z",
             "updated_at": "2018-06-22T13:56:20Z",
-            "pushed_at": "2019-03-19T21:21:52Z",
+            "pushed_at": "2019-03-20T04:39:44Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pycvodes-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pycvodes-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pycvodes-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pycvodes-feedstock",
             "homepage": null,
-            "size": 49,
+            "size": 50,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/deployments",
             "created_at": "2018-05-28T16:37:56Z",
             "updated_at": "2019-02-10T20:41:46Z",
-            "pushed_at": "2019-03-19T21:21:53Z",
+            "pushed_at": "2019-03-20T04:39:45Z",
             "git_url": "git://github.com/conda-forge/pycvodes-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pycvodes-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pycvodes-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/pulls/18/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/statuses/2c04651fcaf8be3a413a1eecc3ba9769da70fb84"
+            "href": "https://api.github.com/repos/conda-forge/pycvodes-feedstock/statuses/7c7e19536d43f859a2e0247532cfa918f2fe2d00"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 210,
-    "deletions": 319,
-    "changed_files": 22
+    "commits": 4,
+    "additions": 211,
+    "deletions": 320,
+    "changed_files": 22,
+    "Last-Modified": "Wed, 20 Mar 2019 04:39:44 GMT",
+    "ETag": "W/\"60f863c177d0601e7e619d95290ebd6f\""
 }
