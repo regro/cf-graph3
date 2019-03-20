@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/spacy-feedstock/deployments",
             "created_at": "2018-03-05T21:44:18Z",
             "updated_at": "2018-03-05T21:44:20Z",
-            "pushed_at": "2019-03-18T20:26:42Z",
+            "pushed_at": "2019-03-20T12:26:30Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/spacy-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/spacy-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/spacy-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/spacy-feedstock",
             "homepage": null,
-            "size": 98,
+            "size": 105,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/spacy-feedstock/deployments",
             "created_at": "2017-02-18T15:41:39Z",
             "updated_at": "2019-03-12T15:26:32Z",
-            "pushed_at": "2019-03-18T20:26:44Z",
+            "pushed_at": "2019-03-20T13:33:35Z",
             "git_url": "git://github.com/conda-forge/spacy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/spacy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/spacy-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 12,
+            "forks_count": 13,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 12,
-            "open_issues": 1,
+            "forks": 13,
+            "open_issues": 3,
             "watchers": 6,
             "default_branch": "master"
         }
@@ -335,5 +335,7 @@
     "commits": 2,
     "additions": 491,
     "deletions": 367,
-    "changed_files": 29
+    "changed_files": 29,
+    "Last-Modified": "Mon, 18 Mar 2019 20:26:47 GMT",
+    "ETag": "W/\"aa9206253f8c1d02075d9d22e450af6b\""
 }
