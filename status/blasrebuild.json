@@ -1,56 +1,59 @@
 {
   "done": [
+    "r-base",
     "mkl_fft",
-    "r-base"
+    "mkl_random"
   ],
   "in-pr": [
-    "trilinos",
-    "opencv",
-    "adept",
-    "cyclus",
-    "mkl_random",
-    "kaldi",
-    "arpack",
-    "mumps",
-    "alps",
-    "yaafe",
-    "cyclus-build-deps",
-    "slycot",
-    "root",
-    "scs",
-    "siesta",
-    "python-spams",
-    "dlib",
-    "lal",
-    "msprime",
-    "root5",
-    "gmsh",
-    "dsdp",
-    "multinest",
-    "asap3",
-    "pycvodes",
-    "freecad",
-    "jags",
-    "pysparse",
-    "tomopy",
+    "atomsk",
+    "fflas-ffpack",
+    "cvxopt",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "atomsk",
-    "petsc",
-    "fflas-ffpack",
-    "pygslodeiv2",
-    "libcf",
-    "pyne",
     "pymeep",
-    "simbody",
+    "mumps",
+    "slycot",
     "openmeeg",
+    "root",
+    "multinest",
+    "arpack",
+    "pyne",
+    "root5",
+    "dlib",
+    "pycvodes",
+    "jags",
+    "python-spams",
+    "asap3",
+    "freecad",
     "scikit-learn",
-    "xtensor-blas"
+    "msprime",
+    "tomopy",
+    "petsc",
+    "scs",
+    "pygslodeiv2",
+    "cyclus",
+    "yaafe",
+    "alps",
+    "simbody",
+    "opencv",
+    "libcf",
+    "kaldi",
+    "lal",
+    "gmsh",
+    "siesta",
+    "adept",
+    "trilinos",
+    "pysparse"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "caffe",
+    "linbox",
+    "sagelib",
+    "sage",
+    "pymumps",
+    "ipopt",
+    "casadi",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -59,15 +62,9 @@
     "julia",
     "armadillo",
     "mlpack",
-    "pymumps",
-    "ipopt",
-    "casadi",
-    "cvxopt",
     "slepc",
     "fenics",
-    "linbox",
-    "sagelib",
-    "sage"
+    "caffe"
   ],
   "_feedstock_status": {
     "adept": {
@@ -106,7 +103,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "sage"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/cvxopt-feedstock/pull/30"
     },
     "cyclus": {
       "num_descendants": 0,
@@ -252,11 +250,6 @@
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/tomopy-feedstock/pull/13"
     },
-    "xtensor-blas": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/xtensor-blas-feedstock/pull/30"
-    },
     "yaafe": {
       "num_descendants": 0,
       "immediate_children": [],
@@ -298,22 +291,10 @@
       ],
       "pr_url": "https://github.com/conda-forge/mkl_fft-feedstock/pull/28"
     },
-    "dsdp": {
-      "num_descendants": 2,
-      "immediate_children": [
-        "cvxopt"
-      ],
-      "pr_url": "https://github.com/conda-forge/dsdp-feedstock/pull/5"
-    },
     "trilinos": {
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/trilinos-feedstock/pull/21"
-    },
-    "cyclus-build-deps": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/cyclus-build-deps-feedstock/pull/24"
     },
     "sage": {
       "num_descendants": 0,
