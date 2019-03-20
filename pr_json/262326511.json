@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T06:29:44Z",
-    "updated_at": "2019-03-19T06:29:48Z",
+    "updated_at": "2019-03-20T01:20:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5ab488bf4892ff5f3fd71479be8c73640fa2f04c",
+    "merge_commit_sha": "74fa7ca5e75e222f6973aa7f2787029f510fe17f",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/pulls/27/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/issues/27/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/statuses/9c407df7fc6c96d41553849dc0afb28d18bbc160",
+    "statuses_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/statuses/e9ced5bc660a62d6e89c50943bcd52dbec729dd1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "9c407df7fc6c96d41553849dc0afb28d18bbc160",
+        "sha": "e9ced5bc660a62d6e89c50943bcd52dbec729dd1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/simbody-feedstock/deployments",
             "created_at": "2018-07-01T00:04:34Z",
             "updated_at": "2018-07-01T00:04:36Z",
-            "pushed_at": "2019-03-19T06:29:43Z",
+            "pushed_at": "2019-03-20T01:20:23Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/simbody-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/simbody-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/simbody-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/simbody-feedstock/deployments",
             "created_at": "2016-07-22T06:31:05Z",
             "updated_at": "2018-11-16T23:22:35Z",
-            "pushed_at": "2019-03-19T06:29:45Z",
+            "pushed_at": "2019-03-20T01:20:24Z",
             "git_url": "git://github.com/conda-forge/simbody-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/simbody-feedstock.git",
             "clone_url": "https://github.com/conda-forge/simbody-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/simbody-feedstock/pulls/27/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/simbody-feedstock/statuses/9c407df7fc6c96d41553849dc0afb28d18bbc160"
+            "href": "https://api.github.com/repos/conda-forge/simbody-feedstock/statuses/e9ced5bc660a62d6e89c50943bcd52dbec729dd1"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 7,
-    "changed_files": 1
+    "commits": 2,
+    "additions": 4,
+    "deletions": 8,
+    "changed_files": 1,
+    "Last-Modified": "Wed, 20 Mar 2019 01:20:27 GMT",
+    "ETag": "W/\"a53afdfb127c23de483e13ec135c531f\""
 }

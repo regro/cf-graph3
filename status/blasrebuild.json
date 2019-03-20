@@ -1,65 +1,56 @@
 {
   "done": [
-    "r-base",
-    "mkl_fft"
+    "mkl_fft",
+    "r-base"
   ],
   "in-pr": [
-    "pycvodes",
-    "multinest",
-    "slycot",
-    "kaldi",
-    "pyne",
-    "yaafe",
-    "pygslodeiv2",
-    "gmsh",
-    "msprime",
-    "coincbc",
-    "harminv",
-    "asap3",
+    "trilinos",
+    "opencv",
+    "adept",
+    "cyclus",
     "mkl_random",
-    "mpb",
+    "kaldi",
+    "arpack",
+    "mumps",
+    "alps",
+    "yaafe",
+    "cyclus-build-deps",
+    "slycot",
+    "root",
+    "scs",
+    "siesta",
+    "python-spams",
+    "dlib",
+    "lal",
+    "msprime",
+    "root5",
+    "gmsh",
+    "dsdp",
+    "multinest",
+    "asap3",
+    "pycvodes",
+    "freecad",
+    "jags",
+    "pysparse",
+    "tomopy",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "dsdp",
-    "hypre",
-    "libcf",
-    "openmeeg",
-    "scs",
-    "trilinos",
+    "atomsk",
+    "petsc",
     "fflas-ffpack",
-    "alps",
-    "xtensor-blas",
-    "pysparse",
-    "scikit-learn",
-    "adept",
-    "freecad",
-    "root5",
-    "siesta",
-    "root",
+    "pygslodeiv2",
+    "libcf",
+    "pyne",
+    "pymeep",
     "simbody",
-    "python-spams",
-    "arpack",
-    "lal",
-    "tomopy",
-    "mumps",
-    "dlib",
-    "jags",
-    "opencv",
-    "atomsk"
+    "openmeeg",
+    "scikit-learn",
+    "xtensor-blas"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "cyclus-build-deps",
-    "cyclus",
-    "pymeep",
-    "cvxopt",
-    "petsc",
-    "slepc",
-    "fenics",
-    "linbox",
-    "sagelib",
-    "sage",
+    "caffe",
     "scilab",
     "calculix",
     "shogun-cpp",
@@ -71,7 +62,12 @@
     "pymumps",
     "ipopt",
     "casadi",
-    "caffe"
+    "cvxopt",
+    "slepc",
+    "fenics",
+    "linbox",
+    "sagelib",
+    "sage"
   ],
   "_feedstock_status": {
     "adept": {
@@ -106,14 +102,6 @@
       "num_descendants": 0,
       "immediate_children": []
     },
-    "coincbc": {
-      "num_descendants": 2,
-      "immediate_children": [
-        "cyclus",
-        "cyclus-build-deps"
-      ],
-      "pr_url": "https://github.com/conda-forge/coincbc-feedstock/pull/30"
-    },
     "cvxopt": {
       "num_descendants": 1,
       "immediate_children": [
@@ -122,7 +110,8 @@
     },
     "cyclus": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/cyclus-feedstock/pull/38"
     },
     "dlib": {
       "num_descendants": 0,
@@ -141,13 +130,6 @@
         "sagelib"
       ],
       "pr_url": "https://github.com/conda-forge/fflas-ffpack-feedstock/pull/8"
-    },
-    "hypre": {
-      "num_descendants": 3,
-      "immediate_children": [
-        "petsc"
-      ],
-      "pr_url": "https://github.com/conda-forge/hypre-feedstock/pull/9"
     },
     "ipopt": {
       "num_descendants": 1,
@@ -295,7 +277,8 @@
       "immediate_children": [
         "fenics",
         "slepc"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/petsc-feedstock/pull/52"
     },
     "slepc": {
       "num_descendants": 1,
@@ -315,20 +298,6 @@
       ],
       "pr_url": "https://github.com/conda-forge/mkl_fft-feedstock/pull/28"
     },
-    "harminv": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "pymeep"
-      ],
-      "pr_url": "https://github.com/conda-forge/harminv-feedstock/pull/5"
-    },
-    "mpb": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "pymeep"
-      ],
-      "pr_url": "https://github.com/conda-forge/mpb-feedstock/pull/9"
-    },
     "dsdp": {
       "num_descendants": 2,
       "immediate_children": [
@@ -343,7 +312,8 @@
     },
     "cyclus-build-deps": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/cyclus-build-deps-feedstock/pull/24"
     },
     "sage": {
       "num_descendants": 0,
@@ -381,7 +351,8 @@
     },
     "pymeep": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/pymeep-feedstock/pull/8"
     },
     "openmeeg": {
       "num_descendants": 0,
