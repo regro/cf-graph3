@@ -1,12 +1,12 @@
 {
   "done": [
-    "grpc-cpp",
-    "mosh",
     "libhdfs3",
+    "grpc-cpp",
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "r-protolite"
+    "r-protolite",
+    "mosh"
   ],
   "in-pr": [
     "shogun-cpp",
