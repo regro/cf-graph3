@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-20T23:30:02Z",
-    "updated_at": "2019-03-21T11:37:30Z",
+    "updated_at": "2019-03-21T14:31:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b1099a7f6ddf7bfa70c5182ef2f988e174bd9f83",
+    "merge_commit_sha": "2e4f661f40a549b580e01208d0caef24e2407a13",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/pulls/9/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/issues/9/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/statuses/42d2a2200fb6256768e0be6a6596dfcbe9a7fa18",
+    "statuses_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/statuses/7fce63de462ed10f65e42ab6ffc01e3e4f7161e9",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.1",
         "ref": "0.9.1",
-        "sha": "42d2a2200fb6256768e0be6a6596dfcbe9a7fa18",
+        "sha": "7fce63de462ed10f65e42ab6ffc01e3e4f7161e9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/chemfiles-python-feedstock/deployments",
             "created_at": "2018-08-08T00:31:37Z",
             "updated_at": "2018-08-08T00:31:39Z",
-            "pushed_at": "2019-03-21T11:37:30Z",
+            "pushed_at": "2019-03-21T14:31:20Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/chemfiles-python-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/chemfiles-python-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/chemfiles-python-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/deployments",
             "created_at": "2016-10-15T05:59:55Z",
             "updated_at": "2018-08-04T17:35:34Z",
-            "pushed_at": "2019-03-21T11:37:31Z",
+            "pushed_at": "2019-03-21T14:31:21Z",
             "git_url": "git://github.com/conda-forge/chemfiles-python-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/chemfiles-python-feedstock.git",
             "clone_url": "https://github.com/conda-forge/chemfiles-python-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/pulls/9/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/statuses/42d2a2200fb6256768e0be6a6596dfcbe9a7fa18"
+            "href": "https://api.github.com/repos/conda-forge/chemfiles-python-feedstock/statuses/7fce63de462ed10f65e42ab6ffc01e3e4f7161e9"
         }
     },
     "author_association": "NONE",
@@ -333,7 +333,9 @@
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 4,
-    "additions": 683,
-    "deletions": 240,
-    "changed_files": 29
+    "additions": 687,
+    "deletions": 241,
+    "changed_files": 29,
+    "Last-Modified": "Thu, 21 Mar 2019 14:31:20 GMT",
+    "ETag": "W/\"291dc20d3bc5041912ff0fc11780525e\""
 }
