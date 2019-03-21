@@ -3,15 +3,15 @@
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "libhdfs3",
     "orc",
+    "libhdfs3",
     "r-protolite",
-    "mosh",
-    "grpc-cpp"
+    "grpc-cpp",
+    "mosh"
   ],
   "in-pr": [
-    "arrow-cpp",
     "shogun-cpp",
+    "arrow-cpp",
     "paraview"
   ],
   "awaiting-pr": [],
