@@ -1,15 +1,15 @@
 {
   "done": [
-    "librdkafka",
     "libarchive",
-    "mosh",
-    "poco",
-    "clickhouse-odbc",
-    "erlang",
-    "lynx",
-    "xeus",
-    "nginx",
     "davix",
+    "grpc-cpp",
+    "pari",
+    "nginx",
+    "ruby",
+    "libssh2",
+    "r-git2r",
+    "virtuoso-opensource",
+    "fossil",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -23,47 +23,50 @@
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "libssh2",
-    "r-git2r",
     "curl",
     "xrootd",
     "pyctest",
-    "gdal",
     "libgit2",
     "git",
-    "socat",
-    "freetds",
-    "tectonic",
-    "fossil",
-    "ruby",
-    "libevent",
-    "thrift-cpp",
-    "sstp-client",
-    "virtuoso-opensource",
-    "grpc-cpp",
+    "gdal",
     "mysql-connector-c",
-    "r-openssl",
     "ldas-tools-al",
     "ldas-tools-ldasgen",
     "ldas-tools-framecpp",
     "ldas-tools-frameapi",
-    "pari"
+    "socat",
+    "r-openssl",
+    "tectonic",
+    "libevent",
+    "thrift-cpp",
+    "sstp-client",
+    "xeus",
+    "lynx",
+    "poco",
+    "clickhouse-odbc",
+    "freetds",
+    "mosh",
+    "librdkafka",
+    "erlang"
   ],
   "in-pr": [
-    "r-pki",
-    "w3m",
     "singularity",
-    "qt",
+    "gsoap",
+    "r-pki",
+    "voms-clients",
     "cryptography",
     "m2crypto",
     "lftp",
     "postgres-xl",
-    "entwine",
     "aws-sdk-cpp",
+    "entwine",
+    "w3m",
+    "qt",
     "mapd-core-cpu"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "voms",
     "root",
     "octave"
   ],
@@ -448,6 +451,22 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/mapd-core-cpu-feedstock/pull/5"
+    },
+    "gsoap": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "voms"
+      ],
+      "pr_url": "https://github.com/conda-forge/gsoap-feedstock/pull/2"
+    },
+    "voms-clients": {
+      "num_descendants": 0,
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/voms-clients-feedstock/pull/2"
+    },
+    "voms": {
+      "num_descendants": 0,
+      "immediate_children": []
     }
   }
 }
