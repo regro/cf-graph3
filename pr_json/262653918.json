@@ -7,7 +7,7 @@
     "patch_url": "https://github.com/conda-forge/graypy-feedstock/pull/3.patch",
     "issue_url": "https://api.github.com/repos/conda-forge/graypy-feedstock/issues/3",
     "number": 3,
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "title": "graypy v1.1.2",
     "user": {
@@ -32,15 +32,24 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T22:24:27Z",
-    "updated_at": "2019-03-19T22:24:30Z",
-    "closed_at": null,
+    "updated_at": "2019-03-22T11:32:55Z",
+    "closed_at": "2019-03-22T11:32:55Z",
     "merged_at": null,
     "merge_commit_sha": "9f70803f7c3d2cf16f11f66a63afde871c914ede",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1285018660,
+            "node_id": "MDU6TGFiZWwxMjg1MDE4NjYw",
+            "url": "https://api.github.com/repos/conda-forge/graypy-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "c6f98b",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/graypy-feedstock/pulls/3/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/graypy-feedstock/pulls/3/comments",
@@ -262,8 +271,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/graypy-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/graypy-feedstock/deployments",
             "created_at": "2018-12-06T16:35:11Z",
-            "updated_at": "2019-03-19T23:33:44Z",
-            "pushed_at": "2019-03-19T23:33:42Z",
+            "updated_at": "2019-03-22T11:35:24Z",
+            "pushed_at": "2019-03-22T11:35:23Z",
             "git_url": "git://github.com/conda-forge/graypy-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/graypy-feedstock.git",
             "clone_url": "https://github.com/conda-forge/graypy-feedstock.git",
@@ -281,7 +290,7 @@
             "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +299,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 1,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -329,11 +338,13 @@
     "rebaseable": false,
     "mergeable_state": "dirty",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
-    "maintainer_can_modify": true,
+    "maintainer_can_modify": false,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Fri, 22 Mar 2019 11:32:55 GMT",
+    "ETag": "W/\"035331652502ef65445d4f842ec7d116\""
 }
