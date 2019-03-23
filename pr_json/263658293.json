@@ -32,25 +32,34 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-22T15:29:10Z",
-    "updated_at": "2019-03-22T15:30:02Z",
+    "updated_at": "2019-03-23T19:59:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c22ee36b724b065b87c36710b0e923eb260c1e74",
+    "merge_commit_sha": "c92cbe2bc8345d9cc8dff7540d40b034157d0a85",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+        {
+            "id": 1286665414,
+            "node_id": "MDU6TGFiZWwxMjg2NjY1NDE0",
+            "url": "https://api.github.com/repos/conda-forge/dbt-feedstock/labels/bot-rerun",
+            "name": "bot-rerun",
+            "color": "adea8c",
+            "default": false
+        }
+    ],
     "milestone": null,
     "commits_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/pulls/20/commits",
     "review_comments_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/pulls/20/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/issues/20/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/statuses/ab8260c54471dc9ebb2cde9fca458504d1622425",
+    "statuses_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/statuses/77395e232dd1c4507789189b4c17f062543781de",
     "head": {
         "label": "regro-cf-autotick-bot:0.13.0",
         "ref": "0.13.0",
-        "sha": "ab8260c54471dc9ebb2cde9fca458504d1622425",
+        "sha": "77395e232dd1c4507789189b4c17f062543781de",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +148,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/dbt-feedstock/deployments",
             "created_at": "2018-03-09T22:43:14Z",
             "updated_at": "2018-03-09T22:43:16Z",
-            "pushed_at": "2019-03-22T15:29:09Z",
+            "pushed_at": "2019-03-23T19:59:05Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/dbt-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/dbt-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/dbt-feedstock.git",
@@ -263,7 +272,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/dbt-feedstock/deployments",
             "created_at": "2016-11-10T23:57:04Z",
             "updated_at": "2019-01-08T16:41:33Z",
-            "pushed_at": "2019-03-22T15:29:10Z",
+            "pushed_at": "2019-03-23T19:59:05Z",
             "git_url": "git://github.com/conda-forge/dbt-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/dbt-feedstock.git",
             "clone_url": "https://github.com/conda-forge/dbt-feedstock.git",
@@ -318,7 +327,7 @@
             "href": "https://api.github.com/repos/conda-forge/dbt-feedstock/pulls/20/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/dbt-feedstock/statuses/ab8260c54471dc9ebb2cde9fca458504d1622425"
+            "href": "https://api.github.com/repos/conda-forge/dbt-feedstock/statuses/77395e232dd1c4507789189b4c17f062543781de"
         }
     },
     "author_association": "NONE",
@@ -332,8 +341,8 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 58,
-    "deletions": 165,
+    "commits": 3,
+    "additions": 59,
+    "deletions": 166,
     "changed_files": 14
 }
