@@ -1,58 +1,57 @@
 {
   "done": [
-    "mkl_random",
-    "r-base",
     "mkl_fft",
-    "tomopy"
+    "tomopy",
+    "mkl_random",
+    "r-base"
   ],
   "in-pr": [
-    "pyne",
-    "slycot",
-    "msprime",
-    "siesta",
-    "cyclus",
-    "shogun-cpp",
-    "root",
-    "pycvodes",
-    "libcf",
-    "yaafe",
-    "python-spams",
-    "slepc",
-    "root5",
-    "freecad",
+    "sagelib",
     "pygslodeiv2",
     "openmeeg",
-    "gmsh",
+    "opencv",
+    "shogun-cpp",
+    "python-spams",
+    "lal",
     "scilab",
+    "simbody",
+    "freecad",
+    "scikit-learn",
+    "octave",
+    "pysparse",
+    "yaafe",
+    "cyclus",
+    "siesta",
+    "adept",
+    "root5",
+    "scs",
+    "pycvodes",
+    "slepc",
+    "pyne",
+    "alps",
+    "dlib",
+    "pymumps",
     "calculix",
     "asap3",
+    "kaldi",
+    "slycot",
     "armadillo",
-    "octave",
     "julia",
-    "adept",
+    "libcf",
+    "root",
     "r-evmix",
     "r-aws",
     "r-copula",
-    "lal",
-    "scikit-learn",
-    "linbox",
-    "scs",
-    "kaldi",
-    "simbody",
-    "dlib",
-    "alps",
-    "pymumps",
-    "pysparse",
-    "opencv"
+    "gmsh",
+    "msprime"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "sage",
+    "caffe",
     "shogun",
     "fenics",
-    "mlpack",
-    "sagelib",
-    "sage",
-    "caffe"
+    "mlpack"
   ],
   "_feedstock_status": {
     "adept": {
@@ -99,14 +98,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/libcf-feedstock/pull/19"
-    },
-    "linbox": {
-      "num_descendants": 2,
-      "immediate_children": [
-        "sage",
-        "sagelib"
-      ],
-      "pr_url": "https://github.com/conda-forge/linbox-feedstock/pull/11"
     },
     "mkl_random": {
       "num_descendants": 0,
@@ -158,7 +149,8 @@
       "num_descendants": 1,
       "immediate_children": [
         "sage"
-      ]
+      ],
+      "pr_url": "https://github.com/conda-forge/sagelib-feedstock/pull/64"
     },
     "scikit-learn": {
       "num_descendants": 0,
