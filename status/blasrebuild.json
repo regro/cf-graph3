@@ -1,57 +1,55 @@
 {
   "done": [
-    "mkl_fft",
-    "tomopy",
     "mkl_random",
-    "r-base"
+    "r-base",
+    "mkl_fft",
+    "tomopy"
   ],
   "in-pr": [
+    "kaldi",
     "sagelib",
-    "pygslodeiv2",
-    "openmeeg",
-    "opencv",
-    "shogun-cpp",
-    "python-spams",
-    "lal",
-    "scilab",
-    "simbody",
-    "freecad",
+    "adept",
+    "pymumps",
+    "alps",
+    "siesta",
     "scikit-learn",
     "octave",
-    "pysparse",
-    "yaafe",
-    "cyclus",
-    "siesta",
-    "adept",
-    "root5",
-    "scs",
-    "pycvodes",
-    "slepc",
-    "pyne",
-    "alps",
-    "dlib",
-    "pymumps",
-    "calculix",
-    "asap3",
-    "kaldi",
     "slycot",
-    "armadillo",
-    "julia",
-    "libcf",
-    "root",
-    "r-evmix",
-    "r-aws",
-    "r-copula",
+    "python-spams",
+    "asap3",
     "gmsh",
-    "msprime"
+    "dlib",
+    "r-aws",
+    "openmeeg",
+    "scilab",
+    "freecad",
+    "calculix",
+    "pycvodes",
+    "armadillo",
+    "shogun-cpp",
+    "msprime",
+    "opencv",
+    "pygslodeiv2",
+    "scs",
+    "julia",
+    "slepc",
+    "yaafe",
+    "pyne",
+    "root",
+    "simbody",
+    "lal",
+    "pysparse",
+    "cyclus",
+    "libcf",
+    "root5"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "sage",
-    "caffe",
+    "mlpack",
     "shogun",
-    "fenics",
-    "mlpack"
+    "caffe",
+    "fenics"
   ],
   "_feedstock_status": {
     "adept": {
@@ -127,18 +125,11 @@
       "pr_url": "https://github.com/conda-forge/python-spams-feedstock/pull/39"
     },
     "r-base": {
-      "num_descendants": 3,
+      "num_descendants": 1,
       "immediate_children": [
-        "r-aws",
-        "r-copula",
-        "r-evmix"
+        "r-aws"
       ],
       "pr_url": "https://github.com/conda-forge/r-base-feedstock/pull/76"
-    },
-    "r-copula": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/r-copula-feedstock/pull/6"
     },
     "root5": {
       "num_descendants": 0,
@@ -279,11 +270,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/r-aws-feedstock/pull/1"
-    },
-    "r-evmix": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/r-evmix-feedstock/pull/1"
     },
     "root": {
       "num_descendants": 0,
