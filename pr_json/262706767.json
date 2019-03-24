@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-20T03:28:44Z",
-    "updated_at": "2019-03-20T05:17:16Z",
+    "updated_at": "2019-03-24T01:12:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "966c014f5cff92292636b491156794b6efb819c8",
+    "merge_commit_sha": "012f336747d8fa81b8c83438fda8ef28cd2c60f4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/339f5c250079cc867a2389219d1d1cc5831ab65c",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/965e4a4189739bda4620b1535d858bf3d6aa74f1",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "339f5c250079cc867a2389219d1d1cc5831ab65c",
+        "sha": "965e4a4189739bda4620b1535d858bf3d6aa74f1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymumps-feedstock/deployments",
             "created_at": "2019-01-18T21:17:27Z",
             "updated_at": "2019-01-18T21:17:30Z",
-            "pushed_at": "2019-03-20T05:17:15Z",
+            "pushed_at": "2019-03-24T01:12:19Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymumps-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymumps-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymumps-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/deployments",
             "created_at": "2019-01-17T07:36:34Z",
             "updated_at": "2019-02-02T17:57:46Z",
-            "pushed_at": "2019-03-20T05:17:17Z",
+            "pushed_at": "2019-03-24T01:12:20Z",
             "git_url": "git://github.com/conda-forge/pymumps-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymumps-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymumps-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/339f5c250079cc867a2389219d1d1cc5831ab65c"
+            "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/965e4a4189739bda4620b1535d858bf3d6aa74f1"
         }
     },
     "author_association": "NONE",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 6,
-    "additions": 181,
-    "deletions": 295,
+    "commits": 8,
+    "additions": 188,
+    "deletions": 300,
     "changed_files": 18,
-    "Last-Modified": "Wed, 20 Mar 2019 05:17:16 GMT",
-    "ETag": "W/\"14184679edd2cd062c725caa1bcb4ca3\""
+    "Last-Modified": "Sun, 24 Mar 2019 01:12:19 GMT",
+    "ETag": "W/\"e50cb0544c7f3f648692d5af41d0a81e\""
 }
