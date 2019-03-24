@@ -1,18 +1,18 @@
 {
   "done": [
-    "r-protolite",
-    "grpc-cpp",
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "orc",
+    "r-protolite",
+    "libhdfs3",
+    "grpc-cpp",
     "mosh",
-    "libhdfs3"
+    "orc"
   ],
   "in-pr": [
-    "paraview",
     "arrow-cpp",
-    "shogun-cpp"
+    "shogun-cpp",
+    "paraview"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
