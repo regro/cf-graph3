@@ -32,13 +32,34 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T08:28:59Z",
-    "updated_at": "2019-03-19T08:29:04Z",
+    "updated_at": "2019-03-24T02:59:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c70cb139b0678f1087f0d3d81ebdabde6ee398d5",
+    "merge_commit_sha": "316d46abf049d156049a8cbd825ac106baef27d8",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "guyer",
+            "id": 1830725,
+            "node_id": "MDQ6VXNlcjE4MzA3MjU=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/1830725?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/guyer",
+            "html_url": "https://github.com/guyer",
+            "followers_url": "https://api.github.com/users/guyer/followers",
+            "following_url": "https://api.github.com/users/guyer/following{/other_user}",
+            "gists_url": "https://api.github.com/users/guyer/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/guyer/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/guyer/subscriptions",
+            "organizations_url": "https://api.github.com/users/guyer/orgs",
+            "repos_url": "https://api.github.com/users/guyer/repos",
+            "events_url": "https://api.github.com/users/guyer/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/guyer/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -46,11 +67,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/pulls/11/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/issues/11/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/statuses/73c25a917622ac9d8365e58dd474894f79fd2822",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/statuses/33ac24f0f897ee82edb1b5353835a018b2ebfecb",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "73c25a917622ac9d8365e58dd474894f79fd2822",
+        "sha": "33ac24f0f897ee82edb1b5353835a018b2ebfecb",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +160,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pysparse-feedstock/deployments",
             "created_at": "2018-10-14T00:37:09Z",
             "updated_at": "2018-10-14T00:37:11Z",
-            "pushed_at": "2019-03-19T08:28:58Z",
+            "pushed_at": "2019-03-24T02:58:13Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pysparse-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pysparse-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pysparse-feedstock.git",
@@ -263,7 +284,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pysparse-feedstock/deployments",
             "created_at": "2018-09-10T18:27:39Z",
             "updated_at": "2019-03-15T18:17:03Z",
-            "pushed_at": "2019-03-19T08:28:59Z",
+            "pushed_at": "2019-03-24T02:58:13Z",
             "git_url": "git://github.com/conda-forge/pysparse-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pysparse-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pysparse-feedstock.git",
@@ -318,7 +339,7 @@
             "href": "https://api.github.com/repos/conda-forge/pysparse-feedstock/pulls/11/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pysparse-feedstock/statuses/73c25a917622ac9d8365e58dd474894f79fd2822"
+            "href": "https://api.github.com/repos/conda-forge/pysparse-feedstock/statuses/33ac24f0f897ee82edb1b5353835a018b2ebfecb"
         }
     },
     "author_association": "NONE",
@@ -332,8 +353,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 15,
-    "deletions": 15,
-    "changed_files": 4
+    "deletions": 16,
+    "changed_files": 4,
+    "Last-Modified": "Sun, 24 Mar 2019 02:59:31 GMT",
+    "ETag": "W/\"2d6be3cedec19dc7467a16d8b750a7dc\""
 }
