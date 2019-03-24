@@ -1,33 +1,16 @@
 {
   "done": [
+    "fossil",
+    "lynx",
+    "libssh2",
+    "r-git2r",
     "libevent",
     "thrift-cpp",
     "sstp-client",
-    "freetds",
-    "gsoap",
-    "voms",
-    "voms-clients",
-    "virtuoso-opensource",
     "libarchive",
+    "davix",
     "poco",
     "clickhouse-odbc",
-    "ruby",
-    "xeus",
-    "lynx",
-    "grpc-cpp",
-    "pari",
-    "librdkafka",
-    "mosh",
-    "ldas-tools-al",
-    "ldas-tools-ldasgen",
-    "ldas-tools-framecpp",
-    "ldas-tools-frameapi",
-    "socat",
-    "erlang",
-    "mysql-connector-c",
-    "davix",
-    "tectonic",
-    "nginx",
     "python",
     "pypy3.5",
     "uwsgi",
@@ -41,32 +24,51 @@
     "lighttpd",
     "cyrus-sasl",
     "openldap",
-    "fossil",
-    "libssh2",
-    "r-git2r",
     "curl",
     "xrootd",
     "pyctest",
-    "gdal",
     "libgit2",
     "git",
-    "r-openssl"
+    "gdal",
+    "virtuoso-opensource",
+    "erlang",
+    "nginx",
+    "r-openssl",
+    "freetds",
+    "xeus",
+    "grpc-cpp",
+    "tectonic",
+    "mosh",
+    "voms-clients",
+    "pari",
+    "mysql-connector-c",
+    "ldas-tools-al",
+    "ldas-tools-ldasgen",
+    "ldas-tools-framecpp",
+    "ldas-tools-frameapi",
+    "socat",
+    "ruby",
+    "librdkafka",
+    "gsoap",
+    "voms"
   ],
   "in-pr": [
     "mapd-core-cpu",
     "singularity",
-    "r-pki",
-    "w3m",
-    "qt",
+    "omniorb",
     "cryptography",
     "m2crypto",
     "lftp",
     "postgres-xl",
+    "aws-sdk-cpp",
     "entwine",
-    "aws-sdk-cpp"
+    "qt",
+    "w3m",
+    "r-pki"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
+    "omniorbpy",
     "root",
     "octave"
   ],
@@ -225,7 +227,7 @@
       "pr_url": "https://github.com/conda-forge/pylibscrypt-feedstock/pull/5"
     },
     "python": {
-      "num_descendants": 28,
+      "num_descendants": 30,
       "immediate_children": [
         "cryptography",
         "gdal",
@@ -235,6 +237,8 @@
         "libpq",
         "m2crypto",
         "octave",
+        "omniorb",
+        "omniorbpy",
         "postgresql",
         "psycopg2",
         "pyctest",
@@ -468,6 +472,17 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/voms-feedstock/pull/1"
+    },
+    "omniorb": {
+      "num_descendants": 1,
+      "immediate_children": [
+        "omniorbpy"
+      ],
+      "pr_url": "https://github.com/conda-forge/omniorb-feedstock/pull/1"
+    },
+    "omniorbpy": {
+      "num_descendants": 0,
+      "immediate_children": []
     }
   }
 }

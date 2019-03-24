@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-23T21:25:56Z",
-    "updated_at": "2019-03-23T21:26:51Z",
+    "updated_at": "2019-03-24T04:52:08Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "63012f60c08fe8eb7b3167b55be303e41816dc3f",
+    "merge_commit_sha": "acab1edf69507ec3c4eca3b7da752f84fb0981a1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/statuses/55deb2bc87ca98ff29a5b7bc9e1131a0dee9c6db",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/statuses/b8c8a150a7bbf75e35cd138e62fb185bb556d58a",
     "head": {
         "label": "regro-cf-autotick-bot:3.8.0",
         "ref": "3.8.0",
-        "sha": "55deb2bc87ca98ff29a5b7bc9e1131a0dee9c6db",
+        "sha": "b8c8a150a7bbf75e35cd138e62fb185bb556d58a",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pycryptodomex-feedstock/deployments",
             "created_at": "2018-03-02T03:13:36Z",
             "updated_at": "2018-03-02T03:13:37Z",
-            "pushed_at": "2019-03-23T21:25:55Z",
+            "pushed_at": "2019-03-24T04:52:07Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pycryptodomex-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pycryptodomex-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pycryptodomex-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/deployments",
             "created_at": "2017-12-06T18:23:17Z",
             "updated_at": "2019-02-03T07:56:47Z",
-            "pushed_at": "2019-03-23T21:25:56Z",
+            "pushed_at": "2019-03-24T04:52:08Z",
             "git_url": "git://github.com/conda-forge/pycryptodomex-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pycryptodomex-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pycryptodomex-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/statuses/55deb2bc87ca98ff29a5b7bc9e1131a0dee9c6db"
+            "href": "https://api.github.com/repos/conda-forge/pycryptodomex-feedstock/statuses/b8c8a150a7bbf75e35cd138e62fb185bb556d58a"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 161,
-    "deletions": 299,
-    "changed_files": 20
+    "commits": 3,
+    "additions": 162,
+    "deletions": 300,
+    "changed_files": 20,
+    "Last-Modified": "Sun, 24 Mar 2019 04:52:08 GMT",
+    "ETag": "W/\"a649d739b46316fb367deac8d1afce01\""
 }
