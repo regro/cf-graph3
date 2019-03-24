@@ -9,7 +9,7 @@
     "number": 2,
     "state": "open",
     "locked": false,
-    "title": "Rebuild for new BLAS scheme",
+    "title": "Use upstream sources and link to mumps-mpi",
     "user": {
         "login": "regro-cf-autotick-bot",
         "id": 36490558,
@@ -30,15 +30,36 @@
         "type": "User",
         "site_admin": false
     },
-    "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
+    "body": "",
     "created_at": "2019-03-20T03:28:44Z",
-    "updated_at": "2019-03-24T01:12:19Z",
+    "updated_at": "2019-03-24T02:21:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "012f336747d8fa81b8c83438fda8ef28cd2c60f4",
+    "merge_commit_sha": "ee116b1cc04456469309fd814c58ef0b5ab15383",
     "assignee": null,
     "assignees": [],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+        {
+            "login": "santiagoropb",
+            "id": 10942110,
+            "node_id": "MDQ6VXNlcjEwOTQyMTEw",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/10942110?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/santiagoropb",
+            "html_url": "https://github.com/santiagoropb",
+            "followers_url": "https://api.github.com/users/santiagoropb/followers",
+            "following_url": "https://api.github.com/users/santiagoropb/following{/other_user}",
+            "gists_url": "https://api.github.com/users/santiagoropb/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/santiagoropb/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/santiagoropb/subscriptions",
+            "organizations_url": "https://api.github.com/users/santiagoropb/orgs",
+            "repos_url": "https://api.github.com/users/santiagoropb/repos",
+            "events_url": "https://api.github.com/users/santiagoropb/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/santiagoropb/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -46,11 +67,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/2/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/issues/2/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/965e4a4189739bda4620b1535d858bf3d6aa74f1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/d3eb49648bfb47728059e788a5042a80b9906618",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "965e4a4189739bda4620b1535d858bf3d6aa74f1",
+        "sha": "d3eb49648bfb47728059e788a5042a80b9906618",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +160,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pymumps-feedstock/deployments",
             "created_at": "2019-01-18T21:17:27Z",
             "updated_at": "2019-01-18T21:17:30Z",
-            "pushed_at": "2019-03-24T01:12:19Z",
+            "pushed_at": "2019-03-24T02:13:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pymumps-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pymumps-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pymumps-feedstock.git",
@@ -263,7 +284,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pymumps-feedstock/deployments",
             "created_at": "2019-01-17T07:36:34Z",
             "updated_at": "2019-02-02T17:57:46Z",
-            "pushed_at": "2019-03-24T01:12:20Z",
+            "pushed_at": "2019-03-24T02:13:55Z",
             "git_url": "git://github.com/conda-forge/pymumps-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pymumps-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pymumps-feedstock.git",
@@ -318,22 +339,24 @@
             "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/pulls/2/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/965e4a4189739bda4620b1535d858bf3d6aa74f1"
+            "href": "https://api.github.com/repos/conda-forge/pymumps-feedstock/statuses/d3eb49648bfb47728059e788a5042a80b9906618"
         }
     },
     "author_association": "NONE",
-    "body_html": "<p>This PR has been triggered in an effort to update <strong>blas2</strong>.</p>\n<p>Notes and instructions for merging this PR:</p>\n<ol>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.<br>\n<strong>Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.</strong></li>\n</ol>\n<p>This package has the following downstream children:</p>\n<p>And potentially more.<br>\nIf this PR was opened in error or needs to be updated please add the <code>bot-rerun</code> label to this PR. The bot will close this PR and schedule another one.</p>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
-    "body_text": "This PR has been triggered in an effort to update blas2.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\n\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
+    "body_html": "",
+    "body_text": "",
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
     "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 188,
+    "commits": 9,
+    "additions": 184,
     "deletions": 300,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Sun, 24 Mar 2019 02:21:27 GMT",
+    "ETag": "W/\"b2c30dc4af0991868ea638562f19f7c7\""
 }
