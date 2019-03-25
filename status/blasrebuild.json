@@ -1,47 +1,46 @@
 {
   "done": [
-    "mkl_fft",
-    "tomopy",
+    "mkl_random",
     "r-base",
-    "mkl_random"
+    "mkl_fft",
+    "tomopy"
   ],
   "in-pr": [
-    "yaafe",
-    "root",
-    "openmeeg",
-    "shogun-cpp",
-    "slepc",
-    "asap3",
-    "alps",
-    "octave",
-    "libcf",
-    "kaldi",
+    "root5",
     "armadillo",
+    "pyne",
+    "siesta",
+    "slepc",
+    "shogun-cpp",
+    "pysparse",
+    "freecad",
+    "libcf",
+    "scilab",
+    "yaafe",
+    "julia",
+    "alps",
+    "gmsh",
+    "cyclus",
+    "openmeeg",
+    "sagelib",
+    "root",
+    "asap3",
+    "python-spams",
+    "pymumps",
     "scikit-learn",
     "opencv",
-    "pyne",
-    "python-spams",
-    "scilab",
-    "cyclus",
-    "pysparse",
-    "calculix",
-    "siesta",
-    "msprime",
+    "kaldi",
     "dlib",
-    "julia",
-    "sagelib",
-    "root5",
-    "gmsh",
-    "pymumps",
-    "freecad"
+    "octave",
+    "calculix"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "shogun",
-    "fenics",
     "mlpack",
-    "caffe",
-    "sage"
+    "fenics",
+    "shogun",
+    "sage",
+    "caffe"
   ],
   "_feedstock_status": {
     "armadillo": {
@@ -158,11 +157,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/siesta-feedstock/pull/7"
-    },
-    "msprime": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/msprime-feedstock/pull/28"
     },
     "slepc": {
       "num_descendants": 1,
