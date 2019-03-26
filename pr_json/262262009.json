@@ -269,7 +269,7 @@
             "clone_url": "https://github.com/conda-forge/ffmpeg-feedstock.git",
             "svn_url": "https://github.com/conda-forge/ffmpeg-feedstock",
             "homepage": null,
-            "size": 111,
+            "size": 117,
             "stargazers_count": 7,
             "watchers_count": 7,
             "language": "Shell",
@@ -325,9 +325,9 @@
     "body_html": "<p>This feedstock is being rebuilt as part of the aarch64/ppc64le migration</p>\n<p>cc: @conda-forge/arm-arch</p>\n<p><strong>Please don't close this PR without reaching out the the ARM migrators first</strong></p>",
     "body_text": "This feedstock is being rebuilt as part of the aarch64/ppc64le migration\ncc: @conda-forge/arm-arch\nPlease don't close this PR without reaching out the the ARM migrators first",
     "merged": false,
-    "mergeable": null,
-    "rebaseable": null,
-    "mergeable_state": "unknown",
+    "mergeable": false,
+    "rebaseable": false,
+    "mergeable_state": "dirty",
     "merged_by": null,
     "comments": 1,
     "review_comments": 0,
@@ -337,5 +337,5 @@
     "deletions": 0,
     "changed_files": 6,
     "Last-Modified": "Mon, 18 Mar 2019 23:30:38 GMT",
-    "ETag": "W/\"11438c70d29c612f24541e90671aa8b3\""
+    "ETag": "W/\"36957171c99ce7a79501a59851cad616\""
 }
