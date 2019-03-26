@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-22T18:29:27Z",
-    "updated_at": "2019-03-26T01:42:31Z",
+    "updated_at": "2019-03-26T03:11:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8c9166a8eafcf0fda64d7a9c92dbc308d6aa16b5",
+    "merge_commit_sha": "807438421f1e20c31c691d9c3266e230b061dd96",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/pulls/14/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/issues/14/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/statuses/f17398572b4d02b4dd6df7d74ee4a2a567695a82",
+    "statuses_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/statuses/1609e5e459988111fc69deacd4a33749cd655df1",
     "head": {
         "label": "regro-cf-autotick-bot:1.5.0",
         "ref": "1.5.0",
-        "sha": "f17398572b4d02b4dd6df7d74ee4a2a567695a82",
+        "sha": "1609e5e459988111fc69deacd4a33749cd655df1",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/geotiff-feedstock/deployments",
             "created_at": "2018-06-23T01:29:42Z",
             "updated_at": "2018-06-23T01:29:43Z",
-            "pushed_at": "2019-03-26T01:42:30Z",
+            "pushed_at": "2019-03-26T03:03:29Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/geotiff-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/geotiff-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/geotiff-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/geotiff-feedstock",
             "homepage": null,
-            "size": 62,
+            "size": 63,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/geotiff-feedstock/deployments",
             "created_at": "2017-11-20T10:26:40Z",
             "updated_at": "2018-12-18T10:54:07Z",
-            "pushed_at": "2019-03-26T01:42:32Z",
+            "pushed_at": "2019-03-26T03:03:30Z",
             "git_url": "git://github.com/conda-forge/geotiff-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/geotiff-feedstock.git",
             "clone_url": "https://github.com/conda-forge/geotiff-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/geotiff-feedstock/pulls/14/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/geotiff-feedstock/statuses/f17398572b4d02b4dd6df7d74ee4a2a567695a82"
+            "href": "https://api.github.com/repos/conda-forge/geotiff-feedstock/statuses/1609e5e459988111fc69deacd4a33749cd655df1"
         }
     },
     "author_association": "NONE",
@@ -327,13 +327,15 @@
     "merged": false,
     "mergeable": true,
     "rebaseable": true,
-    "mergeable_state": "unstable",
+    "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 3,
+    "comments": 4,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 8,
-    "additions": 188,
+    "commits": 9,
+    "additions": 187,
     "deletions": 451,
-    "changed_files": 24
+    "changed_files": 24,
+    "Last-Modified": "Tue, 26 Mar 2019 03:11:10 GMT",
+    "ETag": "W/\"699925e1c69e2164fd2eb36cafce1b21\""
 }
