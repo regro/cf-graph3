@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-05T17:28:09Z",
-    "updated_at": "2019-03-26T22:30:16Z",
+    "updated_at": "2019-03-27T00:29:43Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e06797c266b426820ec9c50bb2c46e9d41beb7c6",
+    "merge_commit_sha": "6cff1027bb5827382975d5428c7427bd0997fee8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/pulls/21/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/issues/21/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/statuses/4eb0eafaeabab415d25b2f596e2dcca8859954e1",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/statuses/63651a2aeb885b30bbdde5c6a20be2d1054cbfa2",
     "head": {
         "label": "regro-cf-autotick-bot:0.9.0",
         "ref": "0.9.0",
-        "sha": "4eb0eafaeabab415d25b2f596e2dcca8859954e1",
+        "sha": "63651a2aeb885b30bbdde5c6a20be2d1054cbfa2",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scikit-build-feedstock/deployments",
             "created_at": "2018-03-05T05:21:07Z",
             "updated_at": "2018-03-05T05:21:09Z",
-            "pushed_at": "2019-03-26T22:30:15Z",
+            "pushed_at": "2019-03-27T00:29:38Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scikit-build-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scikit-build-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scikit-build-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/scikit-build-feedstock",
             "homepage": null,
-            "size": 64,
+            "size": 69,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/deployments",
             "created_at": "2016-11-28T18:48:35Z",
             "updated_at": "2018-12-08T01:20:32Z",
-            "pushed_at": "2019-03-26T22:30:17Z",
+            "pushed_at": "2019-03-27T00:29:39Z",
             "git_url": "git://github.com/conda-forge/scikit-build-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scikit-build-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scikit-build-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/pulls/21/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/statuses/4eb0eafaeabab415d25b2f596e2dcca8859954e1"
+            "href": "https://api.github.com/repos/conda-forge/scikit-build-feedstock/statuses/63651a2aeb885b30bbdde5c6a20be2d1054cbfa2"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 495,
+    "commits": 6,
+    "additions": 496,
     "deletions": 128,
-    "changed_files": 26
+    "changed_files": 26,
+    "Last-Modified": "Wed, 27 Mar 2019 00:29:43 GMT",
+    "ETag": "W/\"6c58229ef6503f806bf08c005c327725\""
 }
