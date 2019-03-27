@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-12-13T14:13:53Z",
-    "updated_at": "2018-12-13T14:14:00Z",
+    "updated_at": "2019-03-27T04:15:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "812172d74a278c627a6c58e4146a8f1d1c44d448",
+    "merge_commit_sha": "205c4a344e6ec85712b0ca0045ed5be6c8507af0",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/pulls/17/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/issues/17/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/statuses/07d2f345529523ed027b73419dbeb873af5a34c6",
+    "statuses_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/statuses/7a46c0d5472eb8739dbc6637709f1039da429c01",
     "head": {
         "label": "regro-cf-autotick-bot:2.0.3",
         "ref": "2.0.3",
-        "sha": "07d2f345529523ed027b73419dbeb873af5a34c6",
+        "sha": "7a46c0d5472eb8739dbc6637709f1039da429c01",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/libhwloc-feedstock/deployments",
             "created_at": "2018-03-16T22:41:32Z",
             "updated_at": "2018-03-16T22:41:33Z",
-            "pushed_at": "2019-02-25T13:22:52Z",
+            "pushed_at": "2019-03-27T04:15:06Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/libhwloc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/libhwloc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/libhwloc-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/deployments",
             "created_at": "2016-09-05T14:41:38Z",
             "updated_at": "2018-09-27T19:13:57Z",
-            "pushed_at": "2019-02-15T14:00:00Z",
+            "pushed_at": "2019-03-27T04:15:07Z",
             "git_url": "git://github.com/conda-forge/libhwloc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/libhwloc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/libhwloc-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/pulls/17/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/statuses/07d2f345529523ed027b73419dbeb873af5a34c6"
+            "href": "https://api.github.com/repos/conda-forge/libhwloc-feedstock/statuses/7a46c0d5472eb8739dbc6637709f1039da429c01"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 2,
-    "deletions": 2,
-    "changed_files": 1
+    "commits": 3,
+    "additions": 335,
+    "deletions": 238,
+    "changed_files": 20,
+    "Last-Modified": "Wed, 27 Mar 2019 04:15:07 GMT",
+    "ETag": "W/\"522b76ea33b90e06ef672dd8e9c20529\""
 }
