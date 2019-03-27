@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-27T01:03:49Z",
-    "updated_at": "2019-03-27T01:03:53Z",
+    "updated_at": "2019-03-27T03:07:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "efebcb3fa498f92fec9450ad99a2ebd25dd90383",
+    "merge_commit_sha": "d93bdfa3e7ff5edcc5d027a57f137e90578cc0c4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/pulls/19/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/issues/19/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/statuses/541972dc46c5ad12e68b8827af5632564a545fa3",
+    "statuses_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/statuses/b86d0a524f4c68abfffee95c2f8905e9ce6b15e0",
     "head": {
         "label": "regro-cf-autotick-bot:1.15.2",
         "ref": "1.15.2",
-        "sha": "541972dc46c5ad12e68b8827af5632564a545fa3",
+        "sha": "b86d0a524f4c68abfffee95c2f8905e9ce6b15e0",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/yarn-feedstock/deployments",
             "created_at": "2018-03-07T00:15:25Z",
             "updated_at": "2018-03-07T00:15:26Z",
-            "pushed_at": "2019-03-27T01:03:48Z",
+            "pushed_at": "2019-03-27T03:06:18Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/yarn-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/yarn-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/yarn-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/yarn-feedstock",
             "homepage": null,
-            "size": 22,
+            "size": 47,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/yarn-feedstock/deployments",
             "created_at": "2017-05-29T13:54:55Z",
             "updated_at": "2019-01-10T00:01:23Z",
-            "pushed_at": "2019-03-27T01:03:50Z",
+            "pushed_at": "2019-03-27T03:06:19Z",
             "git_url": "git://github.com/conda-forge/yarn-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/yarn-feedstock.git",
             "clone_url": "https://github.com/conda-forge/yarn-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/yarn-feedstock/pulls/19/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/yarn-feedstock/statuses/541972dc46c5ad12e68b8827af5632564a545fa3"
+            "href": "https://api.github.com/repos/conda-forge/yarn-feedstock/statuses/b86d0a524f4c68abfffee95c2f8905e9ce6b15e0"
         }
     },
     "author_association": "NONE",
@@ -330,10 +330,12 @@
     "mergeable_state": "clean",
     "merged_by": null,
     "comments": 1,
-    "review_comments": 0,
+    "review_comments": 1,
     "maintainer_can_modify": true,
-    "commits": 2,
+    "commits": 3,
     "additions": 156,
-    "deletions": 272,
-    "changed_files": 18
+    "deletions": 275,
+    "changed_files": 18,
+    "Last-Modified": "Wed, 27 Mar 2019 03:07:06 GMT",
+    "ETag": "W/\"ff3c9932f1e70eec8ea5ea9a9a6bb33b\""
 }
