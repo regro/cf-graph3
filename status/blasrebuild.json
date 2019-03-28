@@ -2,54 +2,46 @@
   "done": [
     "mkl_fft",
     "tomopy",
-    "r-base",
-    "mkl_random"
+    "mkl_random",
+    "r-base"
   ],
   "in-pr": [
-    "pysparse",
-    "asap3",
+    "sagelib",
     "python-spams",
-    "scilab",
-    "yaafe",
-    "armadillo",
-    "siesta",
-    "root",
-    "libcf",
-    "freecad",
-    "alps",
-    "scikit-learn",
     "dlib",
-    "pymumps",
+    "scilab",
+    "opencv",
+    "alps",
+    "root",
     "cyclus",
+    "openmeeg",
+    "julia",
+    "mlpack",
+    "scikit-learn",
+    "libcf",
+    "pysparse",
+    "siesta",
+    "pyne",
     "octave",
     "calculix",
-    "opencv",
-    "slepc",
-    "julia",
-    "kaldi",
-    "openmeeg",
-    "root5",
+    "freecad",
+    "asap3",
+    "yaafe",
     "shogun-cpp",
+    "pymumps",
     "gmsh",
-    "pyne",
-    "sagelib"
+    "slepc",
+    "kaldi",
+    "root5"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "mlpack",
+    "sage",
     "caffe",
-    "fenics",
     "shogun",
-    "sage"
+    "fenics"
   ],
   "_feedstock_status": {
-    "armadillo": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "mlpack"
-      ],
-      "pr_url": "https://github.com/conda-forge/armadillo-feedstock/pull/14"
-    },
     "caffe": {
       "num_descendants": 0,
       "immediate_children": []
@@ -193,7 +185,8 @@
     },
     "mlpack": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/mlpack-feedstock/pull/10"
     },
     "asap3": {
       "num_descendants": 0,
