@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-30T14:17:15Z",
-    "updated_at": "2019-02-04T15:16:22Z",
+    "updated_at": "2019-03-28T19:03:41Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2e344d8079ae15caefcad904c789a89016501570",
+    "merge_commit_sha": "a6c09459b36d9c00e38bae7cf666995f9991016e",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/opty-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/opty-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/opty-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/opty-feedstock/statuses/1d9f84cdc4576522ab28481451b5cc66e8d38a68",
+    "statuses_url": "https://api.github.com/repos/conda-forge/opty-feedstock/statuses/fb87528b36028b154f58f53001e165965465b9a8",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1d9f84cdc4576522ab28481451b5cc66e8d38a68",
+        "sha": "fb87528b36028b154f58f53001e165965465b9a8",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/opty-feedstock/deployments",
             "created_at": "2018-07-25T22:14:50Z",
             "updated_at": "2018-07-25T22:14:52Z",
-            "pushed_at": "2019-02-25T13:42:09Z",
+            "pushed_at": "2019-03-28T19:03:26Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/opty-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/opty-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/opty-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/opty-feedstock",
             "homepage": null,
-            "size": 32,
+            "size": 34,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/opty-feedstock/deployments",
             "created_at": "2017-01-29T21:04:12Z",
             "updated_at": "2018-08-04T17:47:16Z",
-            "pushed_at": "2019-02-04T04:15:41Z",
+            "pushed_at": "2019-03-28T19:03:27Z",
             "git_url": "git://github.com/conda-forge/opty-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/opty-feedstock.git",
             "clone_url": "https://github.com/conda-forge/opty-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/opty-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/opty-feedstock/statuses/1d9f84cdc4576522ab28481451b5cc66e8d38a68"
+            "href": "https://api.github.com/repos/conda-forge/opty-feedstock/statuses/fb87528b36028b154f58f53001e165965465b9a8"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 3,
-    "additions": 382,
-    "deletions": 74,
-    "changed_files": 21
+    "commits": 4,
+    "additions": 345,
+    "deletions": 222,
+    "changed_files": 22,
+    "Last-Modified": "Thu, 28 Mar 2019 19:03:41 GMT",
+    "ETag": "W/\"8370291f8126e60a1e1195a8d2d17003\""
 }
