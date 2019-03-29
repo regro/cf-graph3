@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-29T12:29:10Z",
-    "updated_at": "2019-03-29T12:29:10Z",
+    "updated_at": "2019-03-29T14:46:25Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "3a3ac6011a1fb3742f2846b116e7f3684ef26816",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/pulls/24/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/issues/24/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/statuses/e84a21a8cea3d537f1ce72eee4c0b16404e401d9",
+    "statuses_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/statuses/1651d20de23a48865981d98b9fb4559e1f7ab4c9",
     "head": {
         "label": "regro-cf-autotick-bot:3.11.0",
         "ref": "3.11.0",
-        "sha": "e84a21a8cea3d537f1ce72eee4c0b16404e401d9",
+        "sha": "1651d20de23a48865981d98b9fb4559e1f7ab4c9",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/slepc-feedstock/deployments",
             "created_at": "2018-04-03T22:58:22Z",
             "updated_at": "2018-04-03T22:58:24Z",
-            "pushed_at": "2019-03-29T12:29:09Z",
+            "pushed_at": "2019-03-29T16:07:54Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/slepc-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/slepc-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/slepc-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/slepc-feedstock",
             "homepage": null,
-            "size": 68,
+            "size": 66,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -174,7 +174,7 @@
     "base": {
         "label": "conda-forge:master",
         "ref": "master",
-        "sha": "0f06fe8c2d71b78e72323315561609e747b938ac",
+        "sha": "a69766761f6749da50616a2e270bb6b202010098",
         "user": {
             "login": "conda-forge",
             "id": 11897326,
@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/slepc-feedstock/deployments",
             "created_at": "2016-11-05T23:38:10Z",
-            "updated_at": "2018-11-22T19:20:13Z",
-            "pushed_at": "2019-03-25T17:20:57Z",
+            "updated_at": "2019-03-29T17:17:36Z",
+            "pushed_at": "2019-03-29T17:17:34Z",
             "git_url": "git://github.com/conda-forge/slepc-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/slepc-feedstock.git",
             "clone_url": "https://github.com/conda-forge/slepc-feedstock.git",
             "svn_url": "https://github.com/conda-forge/slepc-feedstock",
             "homepage": null,
-            "size": 52,
+            "size": 67,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Fortran",
@@ -281,7 +281,7 @@
             "forks_count": 7,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 3,
+            "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 7,
-            "open_issues": 3,
+            "open_issues": 1,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/slepc-feedstock/pulls/24/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/slepc-feedstock/statuses/e84a21a8cea3d537f1ce72eee4c0b16404e401d9"
+            "href": "https://api.github.com/repos/conda-forge/slepc-feedstock/statuses/1651d20de23a48865981d98b9fb4559e1f7ab4c9"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 289,
-    "deletions": 390,
-    "changed_files": 23
+    "commits": 1,
+    "additions": 3,
+    "deletions": 3,
+    "changed_files": 1,
+    "Last-Modified": "Fri, 29 Mar 2019 14:46:25 GMT",
+    "ETag": "W/\"88c99b0646c2fa2e2e6cbafd8f92a1b4\""
 }
