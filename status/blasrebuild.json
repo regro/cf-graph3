@@ -1,42 +1,41 @@
 {
   "done": [
-    "r-base",
     "mkl_random",
+    "r-base",
     "mkl_fft",
     "tomopy"
   ],
   "in-pr": [
-    "pysparse",
-    "caffe",
+    "gmsh",
     "openmeeg",
+    "yaafe",
+    "kaldi",
     "python-spams",
     "freecad",
-    "julia",
-    "pymumps",
-    "mlpack",
-    "cyclus",
-    "pyne",
-    "gmsh",
-    "dlib",
-    "alps",
-    "shogun-cpp",
-    "root",
-    "root5",
-    "siesta",
     "sagelib",
-    "slepc",
-    "libcf",
-    "yaafe",
-    "octave",
+    "mlpack",
+    "julia",
     "scilab",
-    "kaldi",
-    "calculix",
-    "asap3"
+    "root",
+    "pyne",
+    "caffe",
+    "root5",
+    "pymumps",
+    "asap3",
+    "alps",
+    "siesta",
+    "libcf",
+    "cyclus",
+    "shogun-cpp",
+    "octave",
+    "slepc",
+    "dlib",
+    "pysparse"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "shogun",
     "sage",
+    "shogun",
     "fenics"
   ],
   "_feedstock_status": {
@@ -189,11 +188,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/gmsh-feedstock/pull/15"
-    },
-    "calculix": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/calculix-feedstock/pull/6"
     },
     "root": {
       "num_descendants": 0,
