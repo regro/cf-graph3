@@ -1,44 +1,43 @@
 {
   "done": [
-    "mkl_random",
     "mkl_fft",
     "tomopy",
-    "r-base"
+    "r-base",
+    "mkl_random"
   ],
   "in-pr": [
-    "dlib",
-    "alps",
-    "root5",
-    "root",
-    "caffe",
-    "asap3",
-    "siesta",
     "cyclus",
-    "gmsh",
-    "python-spams",
-    "pymumps",
     "freecad",
-    "libcf",
-    "mlpack",
-    "calculix",
-    "scikit-learn",
+    "alps",
+    "python-spams",
     "pyne",
-    "yaafe",
-    "pysparse",
+    "gmsh",
     "scilab",
+    "calculix",
+    "mlpack",
+    "siesta",
     "octave",
-    "slepc",
-    "julia",
+    "libcf",
     "openmeeg",
-    "sagelib",
+    "yaafe",
+    "root",
+    "asap3",
+    "slepc",
+    "root5",
     "shogun-cpp",
-    "kaldi"
+    "dlib",
+    "sagelib",
+    "julia",
+    "pysparse",
+    "kaldi",
+    "pymumps",
+    "caffe"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "fenics",
-    "sage",
-    "shogun"
+    "shogun",
+    "sage"
   ],
   "_feedstock_status": {
     "caffe": {
@@ -111,11 +110,6 @@
         "sage"
       ],
       "pr_url": "https://github.com/conda-forge/sagelib-feedstock/pull/64"
-    },
-    "scikit-learn": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/scikit-learn-feedstock/pull/91"
     },
     "shogun": {
       "num_descendants": 0,
