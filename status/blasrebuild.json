@@ -1,42 +1,41 @@
 {
   "done": [
     "r-base",
+    "mkl_random",
     "mkl_fft",
-    "tomopy",
-    "mkl_random"
+    "tomopy"
   ],
   "in-pr": [
-    "libcf",
     "scilab",
-    "root5",
+    "openmeeg",
+    "pysparse",
+    "alps",
+    "octave",
     "yaafe",
     "julia",
+    "cyclus",
+    "siesta",
     "python-spams",
     "sagelib",
-    "pyne",
-    "openmeeg",
-    "siesta",
-    "dlib",
-    "asap3",
-    "freecad",
-    "octave",
-    "cyclus",
-    "root",
-    "alps",
-    "mlpack",
-    "gmsh",
     "shogun-cpp",
-    "slepc",
-    "pymumps",
-    "caffe",
+    "libcf",
+    "gmsh",
+    "asap3",
+    "mlpack",
+    "dlib",
+    "fenics",
+    "root5",
+    "freecad",
+    "root",
     "kaldi",
-    "pysparse"
+    "pyne",
+    "caffe",
+    "pymumps"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
     "sage",
-    "shogun",
-    "fenics"
+    "shogun"
   ],
   "_feedstock_status": {
     "caffe": {
@@ -56,7 +55,8 @@
     },
     "fenics": {
       "num_descendants": 0,
-      "immediate_children": []
+      "immediate_children": [],
+      "pr_url": "https://github.com/conda-forge/fenics-feedstock/pull/78"
     },
     "julia": {
       "num_descendants": 0,
@@ -135,13 +135,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/siesta-feedstock/pull/7"
-    },
-    "slepc": {
-      "num_descendants": 1,
-      "immediate_children": [
-        "fenics"
-      ],
-      "pr_url": "https://github.com/conda-forge/slepc-feedstock/pull/23"
     },
     "alps": {
       "num_descendants": 0,
