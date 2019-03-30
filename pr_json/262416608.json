@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T11:31:45Z",
-    "updated_at": "2019-03-19T11:31:50Z",
+    "updated_at": "2019-03-30T16:08:36Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ced06954b94fb470e849594c364787e6eb71627e",
+    "merge_commit_sha": "39710cbdcf22d4c98a451aa3368e440ce9d718c3",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/pulls/28/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/issues/28/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/statuses/612b5108b686369267f223843474767e79ca8a58",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/statuses/4ec5206a13bebc2395b40daf49044b29e3c82031",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "612b5108b686369267f223843474767e79ca8a58",
+        "sha": "4ec5206a13bebc2395b40daf49044b29e3c82031",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pyne-feedstock/deployments",
             "created_at": "2018-07-07T08:08:54Z",
             "updated_at": "2018-07-07T08:08:56Z",
-            "pushed_at": "2019-03-19T11:31:45Z",
+            "pushed_at": "2019-03-30T16:08:35Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pyne-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pyne-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyne-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pyne-feedstock",
             "homepage": null,
-            "size": 53,
+            "size": 54,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pyne-feedstock/deployments",
             "created_at": "2016-10-05T14:33:07Z",
             "updated_at": "2018-08-04T18:19:54Z",
-            "pushed_at": "2019-03-19T11:31:46Z",
+            "pushed_at": "2019-03-30T16:08:36Z",
             "git_url": "git://github.com/conda-forge/pyne-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyne-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyne-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pyne-feedstock/pulls/28/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pyne-feedstock/statuses/612b5108b686369267f223843474767e79ca8a58"
+            "href": "https://api.github.com/repos/conda-forge/pyne-feedstock/statuses/4ec5206a13bebc2395b40daf49044b29e3c82031"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 590,
-    "deletions": 139,
-    "changed_files": 26
+    "commits": 3,
+    "additions": 511,
+    "deletions": 245,
+    "changed_files": 24,
+    "Last-Modified": "Sat, 30 Mar 2019 16:08:36 GMT",
+    "ETag": "W/\"29eb4989ce6e2d33b8736eea575ab9a6\""
 }
