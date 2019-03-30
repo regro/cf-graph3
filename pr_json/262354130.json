@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T08:30:14Z",
-    "updated_at": "2019-03-19T08:30:58Z",
+    "updated_at": "2019-03-30T16:19:40Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ed60380be5ec5f8c8c0a7768e25c7196d3e76e41",
+    "merge_commit_sha": "63d64956dc51ee97ed641725bd52382f0fa55a1b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/pulls/7/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/issues/7/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/statuses/df0797ef47186cc3f60d39a7ce6089ea6ce61b4f",
+    "statuses_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/statuses/1d17aa7a98a43515e50ba80fc1b7a2e750449f64",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "df0797ef47186cc3f60d39a7ce6089ea6ce61b4f",
+        "sha": "1d17aa7a98a43515e50ba80fc1b7a2e750449f64",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/openmeeg-feedstock/deployments",
             "created_at": "2018-08-29T09:16:53Z",
             "updated_at": "2018-08-29T09:16:55Z",
-            "pushed_at": "2019-03-19T08:30:14Z",
+            "pushed_at": "2019-03-30T16:19:40Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/openmeeg-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/openmeeg-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/openmeeg-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/deployments",
             "created_at": "2018-07-10T19:16:26Z",
             "updated_at": "2018-08-30T07:17:28Z",
-            "pushed_at": "2019-03-19T08:30:15Z",
+            "pushed_at": "2019-03-30T16:19:41Z",
             "git_url": "git://github.com/conda-forge/openmeeg-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/openmeeg-feedstock.git",
             "clone_url": "https://github.com/conda-forge/openmeeg-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/pulls/7/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/statuses/df0797ef47186cc3f60d39a7ce6089ea6ce61b4f"
+            "href": "https://api.github.com/repos/conda-forge/openmeeg-feedstock/statuses/1d17aa7a98a43515e50ba80fc1b7a2e750449f64"
         }
     },
     "author_association": "CONTRIBUTOR",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 456,
-    "deletions": 91,
-    "changed_files": 22,
-    "Last-Modified": "Tue, 19 Mar 2019 08:30:58 GMT",
-    "ETag": "W/\"69916a6257def2443f0183c0d9964314\""
+    "commits": 3,
+    "additions": 424,
+    "deletions": 229,
+    "changed_files": 23,
+    "Last-Modified": "Sat, 30 Mar 2019 16:19:40 GMT",
+    "ETag": "W/\"00ef653d61e6c55659cb9722e1fa9e28\""
 }
