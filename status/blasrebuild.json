@@ -1,36 +1,35 @@
 {
   "done": [
+    "mkl_random",
     "mkl_fft",
     "tomopy",
-    "mkl_random",
     "r-base"
   ],
   "in-pr": [
-    "cyclus",
+    "mlpack",
+    "pymumps",
+    "siesta",
+    "libcf",
+    "fenics",
+    "yaafe",
+    "freecad",
+    "root5",
     "openmeeg",
+    "octave",
+    "pyne",
+    "asap3",
+    "kaldi",
+    "shogun-cpp",
     "pysparse",
     "julia",
-    "python-spams",
-    "shogun-cpp",
-    "dlib",
-    "root5",
     "sagelib",
-    "octave",
-    "root",
-    "asap3",
+    "cyclus",
+    "python-spams",
     "caffe",
-    "libcf",
-    "pymumps",
+    "alps",
     "scilab",
     "gmsh",
-    "mlpack",
-    "pyne",
-    "siesta",
-    "kaldi",
-    "alps",
-    "yaafe",
-    "fenics",
-    "freecad"
+    "dlib"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -181,11 +180,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/gmsh-feedstock/pull/15"
-    },
-    "root": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/root-feedstock/pull/23"
     },
     "pymumps": {
       "num_descendants": 0,
