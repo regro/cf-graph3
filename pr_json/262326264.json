@@ -32,10 +32,10 @@
     },
     "body": "This PR has been triggered in an effort to update **blas2**.\n\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-19T06:28:29Z",
-    "updated_at": "2019-03-19T06:28:32Z",
+    "updated_at": "2019-03-30T21:12:33Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "19ad9e5f13dc3c615a9838d38242707fa1f1eb3d",
+    "merge_commit_sha": "b7daca6bcc9bbce7c422d0fe5145bc2c0c4fc69b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/root5-feedstock/pulls/15/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/root5-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/root5-feedstock/issues/15/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/root5-feedstock/statuses/1f9d0b4ab1b9df988dbf9b03bf7402e600ba0790",
+    "statuses_url": "https://api.github.com/repos/conda-forge/root5-feedstock/statuses/6beaa33c3a7e298d0a255b2bfa45cdbed46aa07c",
     "head": {
         "label": "regro-cf-autotick-bot:rebuildblas20",
         "ref": "rebuildblas20",
-        "sha": "1f9d0b4ab1b9df988dbf9b03bf7402e600ba0790",
+        "sha": "6beaa33c3a7e298d0a255b2bfa45cdbed46aa07c",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/root5-feedstock/deployments",
             "created_at": "2018-07-07T14:16:28Z",
             "updated_at": "2018-07-07T14:16:30Z",
-            "pushed_at": "2019-03-19T06:28:28Z",
+            "pushed_at": "2019-03-30T21:12:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/root5-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/root5-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/root5-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/root5-feedstock",
             "homepage": null,
-            "size": 51,
+            "size": 58,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/root5-feedstock/deployments",
             "created_at": "2017-12-17T00:43:59Z",
             "updated_at": "2018-08-10T17:25:08Z",
-            "pushed_at": "2019-03-19T06:28:30Z",
+            "pushed_at": "2019-03-30T21:12:34Z",
             "git_url": "git://github.com/conda-forge/root5-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/root5-feedstock.git",
             "clone_url": "https://github.com/conda-forge/root5-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/root5-feedstock/pulls/15/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/root5-feedstock/statuses/1f9d0b4ab1b9df988dbf9b03bf7402e600ba0790"
+            "href": "https://api.github.com/repos/conda-forge/root5-feedstock/statuses/6beaa33c3a7e298d0a255b2bfa45cdbed46aa07c"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 1,
-    "additions": 3,
-    "deletions": 5,
-    "changed_files": 1
+    "commits": 3,
+    "additions": 279,
+    "deletions": 181,
+    "changed_files": 16,
+    "Last-Modified": "Sat, 30 Mar 2019 21:12:33 GMT",
+    "ETag": "W/\"aa098293ae01e12ec59f8f004523b3a3\""
 }
