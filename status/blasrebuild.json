@@ -6,33 +6,33 @@
     "tomopy"
   ],
   "in-pr": [
-    "gmsh",
-    "siesta",
-    "cyclus",
-    "libcf",
-    "fenics",
-    "julia",
-    "yaafe",
-    "scilab",
-    "asap3",
-    "sagelib",
-    "root5",
-    "caffe",
-    "python-spams",
-    "mlpack",
-    "dlib",
-    "alps",
-    "kaldi",
     "pysparse",
     "openmeeg",
     "shogun-cpp",
+    "kaldi",
+    "mlpack",
+    "pyne",
+    "julia",
+    "asap3",
+    "yaafe",
+    "caffe",
+    "siesta",
+    "gmsh",
+    "alps",
+    "sagelib",
+    "libcf",
+    "fenics",
+    "root5",
+    "scilab",
+    "python-spams",
     "octave",
-    "pyne"
+    "dlib",
+    "cyclus"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "sage",
-    "shogun"
+    "shogun",
+    "sage"
   ],
   "_feedstock_status": {
     "caffe": {
