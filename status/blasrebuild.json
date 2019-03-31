@@ -6,31 +6,31 @@
     "r-base"
   ],
   "in-pr": [
-    "pyne",
-    "yaafe",
-    "alps",
-    "caffe",
-    "pysparse",
+    "asap3",
     "gmsh",
-    "octave",
     "openmeeg",
     "cyclus",
-    "asap3",
-    "sagelib",
-    "root5",
+    "octave",
     "fenics",
-    "mlpack",
-    "dlib",
-    "siesta",
-    "kaldi",
-    "libcf",
+    "pyne",
+    "scilab",
     "shogun-cpp",
-    "scilab"
+    "kaldi",
+    "alps",
+    "sagelib",
+    "libcf",
+    "dlib",
+    "root5",
+    "caffe",
+    "mlpack",
+    "pysparse",
+    "yaafe",
+    "siesta"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "sage",
-    "shogun"
+    "shogun",
+    "sage"
   ],
   "_feedstock_status": {
     "caffe": {
