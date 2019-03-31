@@ -1,33 +1,32 @@
 {
   "done": [
+    "mkl_random",
     "mkl_fft",
     "tomopy",
-    "r-base",
-    "mkl_random"
+    "r-base"
   ],
   "in-pr": [
-    "caffe",
-    "root5",
+    "yaafe",
+    "sagelib",
+    "openmeeg",
     "pyne",
     "octave",
-    "fenics",
-    "siesta",
-    "mlpack",
-    "scilab",
-    "cyclus",
-    "julia",
-    "gmsh",
-    "yaafe",
-    "libcf",
-    "dlib",
-    "kaldi",
-    "pysparse",
-    "sagelib",
-    "python-spams",
     "shogun-cpp",
+    "julia",
+    "libcf",
+    "mlpack",
+    "siesta",
+    "scilab",
+    "pysparse",
+    "gmsh",
+    "dlib",
+    "caffe",
+    "asap3",
     "alps",
-    "openmeeg",
-    "asap3"
+    "kaldi",
+    "root5",
+    "fenics",
+    "cyclus"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -84,11 +83,6 @@
       "num_descendants": 0,
       "immediate_children": [],
       "pr_url": "https://github.com/conda-forge/pyne-feedstock/pull/28"
-    },
-    "python-spams": {
-      "num_descendants": 0,
-      "immediate_children": [],
-      "pr_url": "https://github.com/conda-forge/python-spams-feedstock/pull/39"
     },
     "r-base": {
       "num_descendants": 0,
