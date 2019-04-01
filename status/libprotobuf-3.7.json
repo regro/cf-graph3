@@ -1,13 +1,13 @@
 {
   "done": [
     "grpc-cpp",
-    "libhdfs3",
-    "mosh",
     "orc",
+    "mosh",
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "r-protolite"
+    "r-protolite",
+    "libhdfs3"
   ],
   "in-pr": [
     "paraview",
