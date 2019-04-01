@@ -1,18 +1,18 @@
 {
   "done": [
+    "grpc-cpp",
+    "orc",
+    "r-protolite",
+    "libhdfs3",
     "protobuf",
     "onnx",
     "mysql-connector-python",
-    "orc",
-    "grpc-cpp",
-    "r-protolite",
-    "libhdfs3",
     "mosh"
   ],
   "in-pr": [
     "shogun-cpp",
-    "paraview",
-    "arrow-cpp"
+    "arrow-cpp",
+    "paraview"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -79,8 +79,10 @@
       "pr_url": "https://github.com/conda-forge/grpc-cpp-feedstock/pull/10"
     },
     "orc": {
-      "num_descendants": 0,
-      "immediate_children": [],
+      "num_descendants": 1,
+      "immediate_children": [
+        "arrow-cpp"
+      ],
       "pr_url": "https://github.com/conda-forge/orc-feedstock/pull/2"
     }
   }
