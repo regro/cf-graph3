@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-03-30T02:26:38Z",
-    "updated_at": "2019-03-30T22:12:55Z",
+    "updated_at": "2019-04-01T00:29:30Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "9f11b18a0b95481243b12e4e8593fb1991fbf9fc",
@@ -329,13 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 3,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 167,
     "deletions": 288,
     "changed_files": 13,
-    "Last-Modified": "Sat, 30 Mar 2019 22:12:55 GMT",
-    "ETag": "W/\"bbe3e59f40abb79b11827c68ad3271e9\""
+    "Last-Modified": "Mon, 01 Apr 2019 00:29:30 GMT",
+    "ETag": "W/\"3c6bd62a5248efc1e518ca80f2be7f70\""
 }
