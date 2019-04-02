@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-04-02T15:29:03Z",
-    "updated_at": "2019-04-02T15:29:03Z",
+    "updated_at": "2019-04-02T15:29:10Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "a54917e29192234afe4d273acbc7ec56f7e2e224",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -262,8 +262,8 @@
             "releases_url": "https://api.github.com/repos/conda-forge/bamnostic-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/bamnostic-feedstock/deployments",
             "created_at": "2018-05-17T01:05:31Z",
-            "updated_at": "2018-12-29T03:37:18Z",
-            "pushed_at": "2019-04-02T15:23:56Z",
+            "updated_at": "2019-04-02T16:16:30Z",
+            "pushed_at": "2019-04-02T16:16:28Z",
             "git_url": "git://github.com/conda-forge/bamnostic-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/bamnostic-feedstock.git",
             "clone_url": "https://github.com/conda-forge/bamnostic-feedstock.git",
@@ -278,10 +278,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 2,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 5,
+            "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -289,8 +289,8 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 2,
-            "open_issues": 5,
+            "forks": 1,
+            "open_issues": 4,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -329,11 +329,13 @@
     "rebaseable": null,
     "mergeable_state": "unknown",
     "merged_by": null,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Tue, 02 Apr 2019 15:29:10 GMT",
+    "ETag": "W/\"04009ad97bb7f9b5ef99b0f18e70298e\""
 }
