@@ -1,33 +1,33 @@
 {
   "done": [
+    "mkl_random",
     "r-base",
     "mkl_fft",
-    "tomopy",
-    "mkl_random"
+    "tomopy"
   ],
   "in-pr": [
-    "fenics",
-    "kaldi",
-    "asap3",
-    "cyclus",
-    "siesta",
-    "yaafe",
-    "octave",
-    "openmeeg",
-    "dlib",
-    "sagelib",
-    "caffe",
-    "shogun-cpp",
-    "mlpack",
     "alps",
-    "root5",
+    "mlpack",
+    "asap3",
+    "libcf",
+    "cyclus",
     "pyne",
-    "libcf"
+    "root5",
+    "dlib",
+    "shogun-cpp",
+    "siesta",
+    "openmeeg",
+    "kaldi",
+    "fenics",
+    "sagelib",
+    "octave",
+    "yaafe",
+    "caffe"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "sage",
-    "shogun"
+    "shogun",
+    "sage"
   ],
   "_feedstock_status": {
     "caffe": {
