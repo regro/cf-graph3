@@ -32,10 +32,10 @@
     },
     "body": "It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n1. Please merge the PR only after the tests have passed. \n2. Feel free to push to the bot's branch to update this PR if needed. \n\n**Please note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.**\n\nThis package has the following downstream children:\n\nAnd potentially more.\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2018-11-20T14:17:30Z",
-    "updated_at": "2019-02-04T13:37:29Z",
+    "updated_at": "2019-04-03T13:16:16Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "15d74e50e893f6c6d069fc424953eb8525a0453f",
+    "merge_commit_sha": "3088cb959d2f3bdb14dc0d1fcf6a5023ccf53096",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/pulls/10/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/issues/10/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/statuses/1714d282061184217aec5b9967364216bd0fd78a",
+    "statuses_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/statuses/c2914348e4ca123489720090148e3bb6044c4613",
     "head": {
         "label": "regro-cf-autotick-bot:rebuild",
         "ref": "rebuild",
-        "sha": "1714d282061184217aec5b9967364216bd0fd78a",
+        "sha": "c2914348e4ca123489720090148e3bb6044c4613",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,7 +139,7 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/sisl-feedstock/deployments",
             "created_at": "2018-07-07T10:07:45Z",
             "updated_at": "2018-07-07T10:07:46Z",
-            "pushed_at": "2019-02-25T14:05:57Z",
+            "pushed_at": "2019-04-03T13:16:16Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/sisl-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/sisl-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/sisl-feedstock.git",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/sisl-feedstock/deployments",
             "created_at": "2018-02-07T12:50:56Z",
             "updated_at": "2018-11-13T13:55:05Z",
-            "pushed_at": "2018-12-01T06:33:47Z",
+            "pushed_at": "2019-04-03T13:16:17Z",
             "git_url": "git://github.com/conda-forge/sisl-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/sisl-feedstock.git",
             "clone_url": "https://github.com/conda-forge/sisl-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/sisl-feedstock/pulls/10/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/sisl-feedstock/statuses/1714d282061184217aec5b9967364216bd0fd78a"
+            "href": "https://api.github.com/repos/conda-forge/sisl-feedstock/statuses/c2914348e4ca123489720090148e3bb6044c4613"
         }
     },
     "author_association": "NONE",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "unstable",
     "merged_by": null,
-    "comments": 4,
+    "comments": 5,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 4,
-    "additions": 353,
-    "deletions": 16,
-    "changed_files": 17
+    "commits": 7,
+    "additions": 606,
+    "deletions": 192,
+    "changed_files": 26,
+    "Last-Modified": "Wed, 03 Apr 2019 13:16:16 GMT",
+    "ETag": "W/\"9dd2f3547286f6ca9d34bcec98edc85d\""
 }
