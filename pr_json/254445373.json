@@ -157,6 +157,7 @@
             "forks_count": 0,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
@@ -278,9 +279,10 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 2,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 2,
             "license": {
                 "key": "bsd-3-clause",
@@ -289,7 +291,7 @@
                 "url": "https://api.github.com/licenses/bsd-3-clause",
                 "node_id": "MDc6TGljZW5zZTU="
             },
-            "forks": 2,
+            "forks": 1,
             "open_issues": 2,
             "watchers": 0,
             "default_branch": "master"
@@ -335,5 +337,7 @@
     "commits": 2,
     "additions": 266,
     "deletions": 21,
-    "changed_files": 13
+    "changed_files": 13,
+    "Last-Modified": "Tue, 19 Feb 2019 23:21:17 GMT",
+    "ETag": "W/\"11cd2c0d1067308362b210e2abaf0848\""
 }

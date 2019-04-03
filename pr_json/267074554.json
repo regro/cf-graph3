@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/vaex-core-feedstock/deployments",
             "created_at": "2018-05-18T11:03:07Z",
             "updated_at": "2018-05-18T11:03:10Z",
-            "pushed_at": "2019-04-03T14:31:10Z",
+            "pushed_at": "2019-04-03T15:28:33Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/vaex-core-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/vaex-core-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/vaex-core-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/vaex-core-feedstock",
             "homepage": null,
-            "size": 20,
+            "size": 53,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -157,6 +157,7 @@
             "forks_count": 0,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
@@ -263,7 +264,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vaex-core-feedstock/deployments",
             "created_at": "2017-10-17T12:58:22Z",
             "updated_at": "2018-12-17T08:28:54Z",
-            "pushed_at": "2019-04-03T14:31:11Z",
+            "pushed_at": "2019-04-03T15:28:35Z",
             "git_url": "git://github.com/conda-forge/vaex-core-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vaex-core-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vaex-core-feedstock.git",
@@ -281,7 +282,8 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "disabled": false,
+            "open_issues_count": 5,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +292,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 4,
-            "open_issues": 4,
+            "open_issues": 5,
             "watchers": 0,
             "default_branch": "master"
         }
@@ -335,5 +337,7 @@
     "commits": 2,
     "additions": 251,
     "deletions": 624,
-    "changed_files": 29
+    "changed_files": 29,
+    "Last-Modified": "Wed, 03 Apr 2019 14:31:14 GMT",
+    "ETag": "W/\"6150c7650cc640f15eab826ab4635a3a\""
 }
