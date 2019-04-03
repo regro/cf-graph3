@@ -4,15 +4,15 @@
     "onnx",
     "mysql-connector-python",
     "r-protolite",
+    "mosh",
     "libhdfs3",
-    "grpc-cpp",
     "orc",
-    "mosh"
+    "grpc-cpp"
   ],
   "in-pr": [
-    "shogun-cpp",
+    "paraview",
     "arrow-cpp",
-    "paraview"
+    "shogun-cpp"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
