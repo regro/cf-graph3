@@ -197,6 +197,7 @@
             "forks_count": 0,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
@@ -321,6 +322,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": true,
+            "disabled": false,
             "open_issues_count": 1,
             "license": {
                 "key": "bsd-3-clause",
@@ -375,5 +377,7 @@
     "commits": 2,
     "additions": 189,
     "deletions": 251,
-    "changed_files": 19
+    "changed_files": 19,
+    "Last-Modified": "Thu, 09 Aug 2018 23:29:15 GMT",
+    "ETag": "W/\"2ae830b52da6b777589a3461f85ec7a6\""
 }

@@ -157,6 +157,7 @@
             "forks_count": 0,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
@@ -263,7 +264,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/llvmdev-feedstock/deployments",
             "created_at": "2016-10-08T01:13:55Z",
             "updated_at": "2019-02-13T16:37:24Z",
-            "pushed_at": "2019-04-03T03:39:56Z",
+            "pushed_at": "2019-04-03T13:34:08Z",
             "git_url": "git://github.com/conda-forge/llvmdev-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/llvmdev-feedstock.git",
             "clone_url": "https://github.com/conda-forge/llvmdev-feedstock.git",
@@ -281,6 +282,7 @@
             "forks_count": 18,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 5,
             "license": {
                 "key": "bsd-3-clause",
@@ -335,5 +337,7 @@
     "commits": 2,
     "additions": 81,
     "deletions": 40,
-    "changed_files": 10
+    "changed_files": 10,
+    "Last-Modified": "Wed, 20 Mar 2019 22:27:47 GMT",
+    "ETag": "W/\"1d92eb5694b8f8fd00e60859f3b45277\""
 }
