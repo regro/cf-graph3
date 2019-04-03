@@ -6,28 +6,28 @@
     "tomopy"
   ],
   "in-pr": [
-    "siesta",
-    "alps",
-    "root5",
-    "shogun-cpp",
-    "octave",
-    "cyclus",
-    "dlib",
-    "sagelib",
     "libcf",
-    "mlpack",
-    "fenics",
-    "pyne",
-    "caffe",
+    "yaafe",
+    "alps",
     "openmeeg",
+    "pyne",
+    "cyclus",
+    "root5",
+    "fenics",
+    "sagelib",
+    "dlib",
+    "caffe",
+    "shogun-cpp",
+    "mlpack",
     "asap3",
+    "octave",
     "kaldi",
-    "yaafe"
+    "siesta"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
-    "shogun",
-    "sage"
+    "sage",
+    "shogun"
   ],
   "_feedstock_status": {
     "caffe": {
