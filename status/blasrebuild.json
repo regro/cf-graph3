@@ -1,28 +1,28 @@
 {
   "done": [
+    "r-base",
     "mkl_fft",
     "tomopy",
-    "mkl_random",
-    "r-base"
+    "mkl_random"
   ],
   "in-pr": [
-    "asap3",
-    "kaldi",
-    "alps",
-    "dlib",
     "libcf",
-    "octave",
-    "openmeeg",
-    "yaafe",
-    "caffe",
-    "mlpack",
-    "root5",
-    "cyclus",
     "fenics",
     "siesta",
-    "pyne",
+    "alps",
+    "mlpack",
+    "kaldi",
     "sagelib",
-    "shogun-cpp"
+    "cyclus",
+    "root5",
+    "dlib",
+    "yaafe",
+    "octave",
+    "pyne",
+    "asap3",
+    "openmeeg",
+    "shogun-cpp",
+    "caffe"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [

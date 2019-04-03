@@ -262,14 +262,14 @@
             "releases_url": "https://api.github.com/repos/conda-forge/pyspark-feedstock/releases{/id}",
             "deployments_url": "https://api.github.com/repos/conda-forge/pyspark-feedstock/deployments",
             "created_at": "2017-03-20T23:55:30Z",
-            "updated_at": "2019-01-05T12:28:43Z",
-            "pushed_at": "2019-04-01T17:42:04Z",
+            "updated_at": "2019-04-02T23:59:07Z",
+            "pushed_at": "2019-04-02T23:59:04Z",
             "git_url": "git://github.com/conda-forge/pyspark-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pyspark-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pyspark-feedstock.git",
             "svn_url": "https://github.com/conda-forge/pyspark-feedstock",
             "homepage": null,
-            "size": 42,
+            "size": 70,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Shell",
@@ -281,7 +281,7 @@
             "forks_count": 11,
             "mirror_url": null,
             "archived": false,
-            "open_issues_count": 4,
+            "open_issues_count": 3,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -290,7 +290,7 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "forks": 11,
-            "open_issues": 4,
+            "open_issues": 3,
             "watchers": 1,
             "default_branch": "master"
         }
@@ -325,9 +325,9 @@
     "body_html": "<p>I think this feedstock could be built with noarch.<br>\nThis means that the package only needs to be built once, drastically reducing CI usage.<br>\nSee <a href=\"https://conda-forge.org/docs/meta.html#building-noarch-packages\" rel=\"nofollow\">here</a> for more information about building noarch packages.<br>\nBefore merging this PR make sure:</p>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No compiled extensions</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No post-link or pre-link or pre-unlink scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No OS specific build scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No python version specific requirements</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> 2to3 is not used</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> Scripts argument in setup.py is not used</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> If entrypoints are in setup.py, they are listed in meta.yaml</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> No activate scripts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> Not a dependency of <code>conda</code><br>\nNotes and instructions for merging this PR:</li>\n</ul>\n<ol>\n<li>If any items in the above checklist are not satisfied, please close this PR. Do not merge.</li>\n<li>Please merge the PR only after the tests have passed.</li>\n<li>Feel free to push to the bot's branch to update this PR if needed.</li>\n</ol>\n<p><sub>This PR was created by the <a href=\"https://github.com/regro/cf-scripts\">cf-regro-autotick-bot</a>.<br>\nThe <strong>cf-regro-autotick-bot</strong> is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using <a href=\"https://regro.github.io/rever-docs/\" rel=\"nofollow\">rever</a>. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (<code>conda install -c conda-forge rever</code>) and pip (<code>pip install re-ver</code>) installable.<br>\nFinally, feel free to drop us a line if there are any <a href=\"https://github.com/regro/cf-scripts/issues\">issues</a>!</sub></p>",
     "body_text": "I think this feedstock could be built with noarch.\nThis means that the package only needs to be built once, drastically reducing CI usage.\nSee here for more information about building noarch packages.\nBefore merging this PR make sure:\n\n No compiled extensions\n No post-link or pre-link or pre-unlink scripts\n No OS specific build scripts\n No python version specific requirements\n No skips except for python version. (If the recipe is py3 only, remove skip statement and add version constraint on python)\n 2to3 is not used\n Scripts argument in setup.py is not used\n If entrypoints are in setup.py, they are listed in meta.yaml\n No activate scripts\n Not a dependency of conda\nNotes and instructions for merging this PR:\n\n\nIf any items in the above checklist are not satisfied, please close this PR. Do not merge.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
     "merged": false,
-    "mergeable": false,
-    "rebaseable": false,
-    "mergeable_state": "dirty",
+    "mergeable": null,
+    "rebaseable": null,
+    "mergeable_state": "unknown",
     "merged_by": null,
     "comments": 2,
     "review_comments": 0,
@@ -335,5 +335,7 @@
     "commits": 3,
     "additions": 9,
     "deletions": 233,
-    "changed_files": 14
+    "changed_files": 14,
+    "Last-Modified": "Wed, 25 Jul 2018 00:34:01 GMT",
+    "ETag": "W/\"76e6941e234edce06d3683bf144ac1c6\""
 }

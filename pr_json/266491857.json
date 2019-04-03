@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-04-02T05:23:52Z",
-    "updated_at": "2019-04-02T05:23:55Z",
+    "updated_at": "2019-04-02T21:53:11Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b03b31d78b9e63668490f8e07430e21936887f29",
+    "merge_commit_sha": "7f76b76c4114d1612b1113b94fe67d6dadda1022",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/pulls/56/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/issues/56/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/statuses/9b9d65f98a91d6cf45f318944824f7035cee6c23",
+    "statuses_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/statuses/e43f10308d565f8f4888b9d4e18eed4bf75ded93",
     "head": {
         "label": "regro-cf-autotick-bot:6.0.0",
         "ref": "6.0.0",
-        "sha": "9b9d65f98a91d6cf45f318944824f7035cee6c23",
+        "sha": "e43f10308d565f8f4888b9d4e18eed4bf75ded93",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/pillow-feedstock/deployments",
             "created_at": "2018-04-02T21:03:19Z",
             "updated_at": "2018-04-02T21:03:21Z",
-            "pushed_at": "2019-04-02T05:23:52Z",
+            "pushed_at": "2019-04-02T21:53:11Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/pillow-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/pillow-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/pillow-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pillow-feedstock",
             "homepage": null,
-            "size": 94,
+            "size": 96,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/pillow-feedstock/deployments",
             "created_at": "2016-04-20T07:37:35Z",
             "updated_at": "2019-01-07T15:55:34Z",
-            "pushed_at": "2019-04-02T05:23:53Z",
+            "pushed_at": "2019-04-02T21:53:12Z",
             "git_url": "git://github.com/conda-forge/pillow-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/pillow-feedstock.git",
             "clone_url": "https://github.com/conda-forge/pillow-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/pillow-feedstock/pulls/56/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/pillow-feedstock/statuses/9b9d65f98a91d6cf45f318944824f7035cee6c23"
+            "href": "https://api.github.com/repos/conda-forge/pillow-feedstock/statuses/e43f10308d565f8f4888b9d4e18eed4bf75ded93"
         }
     },
     "author_association": "NONE",
@@ -332,8 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 247,
-    "deletions": 671,
-    "changed_files": 28
+    "commits": 4,
+    "additions": 237,
+    "deletions": 774,
+    "changed_files": 30,
+    "Last-Modified": "Tue, 02 Apr 2019 21:53:11 GMT",
+    "ETag": "W/\"9e51edf58393d5c204aa121376936a1e\""
 }
