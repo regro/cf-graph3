@@ -32,7 +32,7 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-04-02T22:52:38Z",
-    "updated_at": "2019-04-02T22:53:37Z",
+    "updated_at": "2019-04-03T00:25:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "8e77376f14c70e46de3c200e22fd252833d2afaf",
@@ -145,7 +145,7 @@
             "clone_url": "https://github.com/regro-cf-autotick-bot/pyuvdata-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/pyuvdata-feedstock",
             "homepage": null,
-            "size": 4,
+            "size": 43,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -329,11 +329,13 @@
     "rebaseable": true,
     "mergeable_state": "clean",
     "merged_by": null,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 0,
     "maintainer_can_modify": true,
     "commits": 2,
     "additions": 126,
     "deletions": 287,
-    "changed_files": 18
+    "changed_files": 18,
+    "Last-Modified": "Wed, 03 Apr 2019 00:25:06 GMT",
+    "ETag": "W/\"bbd817530c9c8b8a7cabd573e00df03a\""
 }
