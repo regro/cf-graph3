@@ -157,6 +157,7 @@
             "forks_count": 0,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 0,
             "license": {
                 "key": "bsd-3-clause",
@@ -263,7 +264,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/vaex-jupyter-feedstock/deployments",
             "created_at": "2018-01-02T21:59:25Z",
             "updated_at": "2018-08-04T18:52:18Z",
-            "pushed_at": "2018-12-12T22:54:53Z",
+            "pushed_at": "2019-04-03T17:50:21Z",
             "git_url": "git://github.com/conda-forge/vaex-jupyter-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/vaex-jupyter-feedstock.git",
             "clone_url": "https://github.com/conda-forge/vaex-jupyter-feedstock.git",
@@ -281,6 +282,7 @@
             "forks_count": 4,
             "mirror_url": null,
             "archived": false,
+            "disabled": false,
             "open_issues_count": 4,
             "license": {
                 "key": "bsd-3-clause",
@@ -335,5 +337,7 @@
     "commits": 1,
     "additions": 2,
     "deletions": 2,
-    "changed_files": 1
+    "changed_files": 1,
+    "Last-Modified": "Wed, 12 Dec 2018 21:14:12 GMT",
+    "ETag": "W/\"975a00a95d900b1af4891a20d5d04442\""
 }
