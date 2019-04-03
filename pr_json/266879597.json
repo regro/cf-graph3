@@ -32,10 +32,10 @@
     },
     "body": "It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n1. Please check that the dependencies have not changed. \n2. Please merge the PR only after the tests have passed. \n3. Feel free to push to the bot's branch to update this PR if needed. \n4. The bot will almost always only open one PR per version. \n\n\nIf this PR was opened in error or needs to be updated please add the `bot-rerun` label to this PR. The bot will close this PR and schedule another one.\n\n<sub>This PR was created by the [cf-regro-autotick-bot](https://github.com/regro/cf-scripts).\nThe **cf-regro-autotick-bot** is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using [rever](https://regro.github.io/rever-docs/). Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (`conda install -c conda-forge rever`) and pip (`pip install re-ver`) installable.\nFinally, feel free to drop us a line if there are any [issues](https://github.com/regro/cf-scripts/issues)!</sub>",
     "created_at": "2019-04-03T03:26:42Z",
-    "updated_at": "2019-04-03T03:26:45Z",
+    "updated_at": "2019-04-03T05:05:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "7f54c87a30f6f2e9e50d67e16b627b9d809a43ef",
+    "merge_commit_sha": "27caff0fd09449f1893d0661c3b1b028b45d9ddb",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -46,11 +46,11 @@
     "review_comments_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/pulls/45/comments",
     "review_comment_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/issues/45/comments",
-    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/statuses/c944f4679f6f651e51cbe531c06007c1779a536d",
+    "statuses_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/statuses/ce70af030e51b934949b084dd3a525cde8a6b88f",
     "head": {
         "label": "regro-cf-autotick-bot:0.15.0",
         "ref": "0.15.0",
-        "sha": "c944f4679f6f651e51cbe531c06007c1779a536d",
+        "sha": "ce70af030e51b934949b084dd3a525cde8a6b88f",
         "user": {
             "login": "regro-cf-autotick-bot",
             "id": 36490558,
@@ -139,13 +139,13 @@
             "deployments_url": "https://api.github.com/repos/regro-cf-autotick-bot/scikit-image-feedstock/deployments",
             "created_at": "2018-05-29T11:07:58Z",
             "updated_at": "2018-05-29T11:08:00Z",
-            "pushed_at": "2019-04-03T03:26:42Z",
+            "pushed_at": "2019-04-03T05:05:49Z",
             "git_url": "git://github.com/regro-cf-autotick-bot/scikit-image-feedstock.git",
             "ssh_url": "git@github.com:regro-cf-autotick-bot/scikit-image-feedstock.git",
             "clone_url": "https://github.com/regro-cf-autotick-bot/scikit-image-feedstock.git",
             "svn_url": "https://github.com/regro-cf-autotick-bot/scikit-image-feedstock",
             "homepage": null,
-            "size": 47,
+            "size": 141,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Shell",
@@ -263,7 +263,7 @@
             "deployments_url": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/deployments",
             "created_at": "2016-05-21T22:11:44Z",
             "updated_at": "2019-02-01T08:43:58Z",
-            "pushed_at": "2019-04-03T03:26:43Z",
+            "pushed_at": "2019-04-03T05:05:50Z",
             "git_url": "git://github.com/conda-forge/scikit-image-feedstock.git",
             "ssh_url": "git@github.com:conda-forge/scikit-image-feedstock.git",
             "clone_url": "https://github.com/conda-forge/scikit-image-feedstock.git",
@@ -318,7 +318,7 @@
             "href": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/pulls/45/commits"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/statuses/c944f4679f6f651e51cbe531c06007c1779a536d"
+            "href": "https://api.github.com/repos/conda-forge/scikit-image-feedstock/statuses/ce70af030e51b934949b084dd3a525cde8a6b88f"
         }
     },
     "author_association": "NONE",
@@ -332,10 +332,10 @@
     "comments": 1,
     "review_comments": 0,
     "maintainer_can_modify": true,
-    "commits": 2,
-    "additions": 157,
-    "deletions": 291,
+    "commits": 5,
+    "additions": 159,
+    "deletions": 305,
     "changed_files": 20,
-    "Last-Modified": "Wed, 03 Apr 2019 03:26:45 GMT",
-    "ETag": "W/\"95f295f66953811c735b8ed2b9853979\""
+    "Last-Modified": "Wed, 03 Apr 2019 05:05:50 GMT",
+    "ETag": "W/\"7f0b026e3ab6f66d9604cabe1c23d02d\""
 }
