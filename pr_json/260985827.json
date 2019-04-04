@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"c2137737e611dc9db2b2353ac9895200\"",
+ "Last-Modified":"Thu, 04 Apr 2019 20:36:53 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/beakerx-feedstock/issues/54/comments"
@@ -159,7 +161,7 @@
  "body_text":"It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
  "changed_files":18,
  "closed_at":null,
- "comments":1,
+ "comments":2,
  "comments_url":"https://api.github.com/repos/conda-forge/beakerx-feedstock/issues/54/comments",
  "commits":2,
  "commits_url":"https://api.github.com/repos/conda-forge/beakerx-feedstock/pulls/54/commits",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/beakerx-feedstock/statuses/c0d7bb3e1a798779c630479e44e016a8e2f9a788",
  "title":"beakerx v1.4.0",
- "updated_at":"2019-03-14T00:29:33Z",
+ "updated_at":"2019-04-04T20:36:53Z",
  "url":"https://api.github.com/repos/conda-forge/beakerx-feedstock/pulls/54",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",
