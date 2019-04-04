@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"d9bcb122d299879dcd88469a16e98c6f\"",
+ "Last-Modified":"Thu, 04 Apr 2019 22:53:49 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/issues/3/comments"
@@ -114,7 +116,7 @@
    },
    "private":false,
    "pulls_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/pulls{/number}",
-   "pushed_at":"2019-04-04T17:36:17Z",
+   "pushed_at":"2019-04-04T22:53:47Z",
    "releases_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/releases{/id}",
    "size":10,
    "ssh_url":"git@github.com:conda-forge/pytest-subtests-feedstock.git",
@@ -159,7 +161,7 @@
  "body_text":"It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\nsetuptools\n40.9.0",
  "changed_files":1,
  "closed_at":null,
- "comments":0,
+ "comments":1,
  "comments_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/issues/3/comments",
  "commits":1,
  "commits_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/pulls/3/commits",
@@ -297,9 +299,9 @@
  "labels":[],
  "locked":false,
  "maintainer_can_modify":true,
- "merge_commit_sha":null,
- "mergeable":null,
- "mergeable_state":"unknown",
+ "merge_commit_sha":"f3db8abaf923e95497e2f3ea90025180a9316698",
+ "mergeable":true,
+ "mergeable_state":"unstable",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -307,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MjY3NjM4OTA3",
  "number":3,
  "patch_url":"https://github.com/conda-forge/pytest-subtests-feedstock/pull/3.patch",
- "rebaseable":null,
+ "rebaseable":true,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/pulls/comments{/number}",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/statuses/78015ddf1328685e5551e056a3070856484514a6",
  "title":"pytest-subtests v0.2.1",
- "updated_at":"2019-04-04T22:53:46Z",
+ "updated_at":"2019-04-04T22:53:49Z",
  "url":"https://api.github.com/repos/conda-forge/pytest-subtests-feedstock/pulls/3",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",

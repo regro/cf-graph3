@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"49739ec55bc6bfe38dd20fcfddaaf2b9\"",
+ "Last-Modified":"Thu, 04 Apr 2019 22:54:00 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/conda-feedstock/issues/87/comments"
@@ -114,7 +116,7 @@
    },
    "private":false,
    "pulls_url":"https://api.github.com/repos/conda-forge/conda-feedstock/pulls{/number}",
-   "pushed_at":"2019-04-02T21:13:03Z",
+   "pushed_at":"2019-04-04T22:53:57Z",
    "releases_url":"https://api.github.com/repos/conda-forge/conda-feedstock/releases{/id}",
    "size":131,
    "ssh_url":"git@github.com:conda-forge/conda-feedstock.git",
@@ -159,7 +161,7 @@
  "body_text":"It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\nsetuptools\n40.9.0",
  "changed_files":1,
  "closed_at":null,
- "comments":0,
+ "comments":1,
  "comments_url":"https://api.github.com/repos/conda-forge/conda-feedstock/issues/87/comments",
  "commits":1,
  "commits_url":"https://api.github.com/repos/conda-forge/conda-feedstock/pulls/87/commits",
@@ -297,9 +299,9 @@
  "labels":[],
  "locked":false,
  "maintainer_can_modify":true,
- "merge_commit_sha":null,
- "mergeable":null,
- "mergeable_state":"unknown",
+ "merge_commit_sha":"352091477a24f33b7bf023e6d56cda7d329ca43d",
+ "mergeable":true,
+ "mergeable_state":"unstable",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -307,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MjY3NjM4OTQx",
  "number":87,
  "patch_url":"https://github.com/conda-forge/conda-feedstock/pull/87.patch",
- "rebaseable":null,
+ "rebaseable":true,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/conda-feedstock/pulls/comments{/number}",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/conda-feedstock/statuses/1ab2d3c8997a6ff7ad3dfbc74cee40bf0e5987de",
  "title":"conda v4.6.11",
- "updated_at":"2019-04-04T22:53:56Z",
+ "updated_at":"2019-04-04T22:54:00Z",
  "url":"https://api.github.com/repos/conda-forge/conda-feedstock/pulls/87",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",
