@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"48ef5de18eb73aedc5be1425a747d224\"",
+ "Last-Modified":"Thu, 04 Apr 2019 19:18:07 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/issues/19/comments"
@@ -114,7 +116,7 @@
    },
    "private":false,
    "pulls_url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/pulls{/number}",
-   "pushed_at":"2019-04-04T18:02:56Z",
+   "pushed_at":"2019-04-04T19:15:45Z",
    "releases_url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/releases{/id}",
    "size":42,
    "ssh_url":"git@github.com:conda-forge/arm_pyart-feedstock.git",
@@ -159,7 +161,7 @@
  "body_text":"It is likely this feedstock needs to be rebuilt.\nNotes and instructions for merging this PR:\n\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\n\nPlease note that if you close this PR we presume that the feedstock has been rebuilt, so if you are going to perform the rebuild yourself don't close this PR until the your rebuild has been merged.\nThis package has the following downstream children:\nAnd potentially more.\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
  "changed_files":25,
  "closed_at":null,
- "comments":6,
+ "comments":4,
  "comments_url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/issues/19/comments",
  "commits":6,
  "commits_url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/pulls/19/commits",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/statuses/932bae25bface446332c4a54229b7e43207957bf",
  "title":"Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2",
- "updated_at":"2019-04-04T18:18:23Z",
+ "updated_at":"2019-04-04T19:18:07Z",
  "url":"https://api.github.com/repos/conda-forge/arm_pyart-feedstock/pulls/19",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",
