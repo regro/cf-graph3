@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"16cf2e9954a56ffc6e9c29811c91fd69\"",
+ "Last-Modified":"Sun, 07 Oct 2018 23:00:31 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/umap-learn-feedstock/issues/6/comments"
@@ -116,7 +118,7 @@
    "pulls_url":"https://api.github.com/repos/conda-forge/umap-learn-feedstock/pulls{/number}",
    "pushed_at":"2019-04-05T03:56:23Z",
    "releases_url":"https://api.github.com/repos/conda-forge/umap-learn-feedstock/releases{/id}",
-   "size":39,
+   "size":50,
    "ssh_url":"git@github.com:conda-forge/umap-learn-feedstock.git",
    "stargazers_count":0,
    "stargazers_url":"https://api.github.com/repos/conda-forge/umap-learn-feedstock/stargazers",
@@ -298,8 +300,8 @@
  "locked":false,
  "maintainer_can_modify":true,
  "merge_commit_sha":"da13ae07986f9a01c1bd2679c85c45d61720a96e",
- "mergeable":null,
- "mergeable_state":"unknown",
+ "mergeable":false,
+ "mergeable_state":"dirty",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -307,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MjIwOTc5MzU5",
  "number":6,
  "patch_url":"https://github.com/conda-forge/umap-learn-feedstock/pull/6.patch",
- "rebaseable":null,
+ "rebaseable":false,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/umap-learn-feedstock/pulls/comments{/number}",
