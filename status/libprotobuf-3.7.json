@@ -1,18 +1,18 @@
 {
   "done": [
-    "r-protolite",
-    "mosh",
     "orc",
+    "mosh",
+    "grpc-cpp",
+    "libhdfs3",
+    "r-protolite",
     "protobuf",
     "onnx",
-    "mysql-connector-python",
-    "libhdfs3",
-    "grpc-cpp"
+    "mysql-connector-python"
   ],
   "in-pr": [
-    "shogun-cpp",
     "arrow-cpp",
-    "paraview"
+    "paraview",
+    "shogun-cpp"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -22,27 +22,27 @@
     "arrow-cpp": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/arrow-cpp-feedstock/pull/74"
     },
     "mosh": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/mosh-feedstock/pull/12"
     },
     "mysql-connector-python": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/mysql-connector-python-feedstock/pull/13"
     },
     "onnx": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/onnx-feedstock/pull/23"
     },
     "paraview": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/paraview-feedstock/pull/25"
     },
     "protobuf": {
       "num_descendants": 2,
@@ -50,7 +50,7 @@
         "mysql-connector-python",
         "onnx"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/protobuf-feedstock/pull/62"
     },
     "shogun": {
       "num_descendants": 0,
@@ -61,29 +61,29 @@
       "immediate_children": [
         "shogun"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/shogun-cpp-feedstock/pull/25"
     },
     "libhdfs3": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/libhdfs3-feedstock/pull/25"
     },
     "r-protolite": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/r-protolite-feedstock/pull/2"
     },
     "grpc-cpp": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/grpc-cpp-feedstock/pull/10"
     },
     "orc": {
       "num_descendants": 1,
       "immediate_children": [
         "arrow-cpp"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/orc-feedstock/pull/2"
     }
   }
 }

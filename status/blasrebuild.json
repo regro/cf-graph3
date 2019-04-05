@@ -1,27 +1,27 @@
 {
   "done": [
-    "r-base",
+    "mkl_random",
     "mkl_fft",
     "tomopy",
-    "mkl_random"
+    "r-base"
   ],
   "in-pr": [
+    "pyne",
+    "mlpack",
+    "alps",
+    "sagelib",
+    "fenics",
+    "root5",
+    "dlib",
     "octave",
+    "openmeeg",
     "yaafe",
     "cyclus",
-    "asap3",
-    "alps",
-    "caffe",
     "kaldi",
-    "libcf",
-    "root5",
-    "fenics",
-    "openmeeg",
-    "sagelib",
     "shogun-cpp",
-    "dlib",
-    "mlpack",
-    "pyne"
+    "caffe",
+    "libcf",
+    "asap3"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
@@ -32,64 +32,64 @@
     "caffe": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/caffe-feedstock/pull/43"
     },
     "cyclus": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/cyclus-feedstock/pull/38"
     },
     "dlib": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/dlib-feedstock/pull/29"
     },
     "fenics": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/fenics-feedstock/pull/78"
     },
     "kaldi": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/kaldi-feedstock/pull/9"
     },
     "libcf": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/libcf-feedstock/pull/19"
     },
     "mkl_random": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/mkl_random-feedstock/pull/8"
     },
     "octave": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/octave-feedstock/pull/21"
     },
     "pyne": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/pyne-feedstock/pull/28"
     },
     "r-base": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/r-base-feedstock/pull/76"
     },
     "root5": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/root5-feedstock/pull/15"
     },
     "sagelib": {
       "num_descendants": 1,
       "immediate_children": [
         "sage"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/sagelib-feedstock/pull/64"
     },
     "shogun": {
       "num_descendants": 0,
@@ -100,29 +100,29 @@
       "immediate_children": [
         "shogun"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/shogun-cpp-feedstock/pull/26"
     },
     "tomopy": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/tomopy-feedstock/pull/13"
     },
     "yaafe": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/yaafe-feedstock/pull/6"
     },
     "alps": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/alps-feedstock/pull/23"
     },
     "mkl_fft": {
       "num_descendants": 1,
       "immediate_children": [
         "tomopy"
       ],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/mkl_fft-feedstock/pull/28"
     },
     "sage": {
       "num_descendants": 0,
@@ -131,17 +131,17 @@
     "openmeeg": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/openmeeg-feedstock/pull/7"
     },
     "mlpack": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/mlpack-feedstock/pull/10"
     },
     "asap3": {
       "num_descendants": 0,
       "immediate_children": [],
-      "pr_url": ""
+      "pr_url": "https://github.com/conda-forge/asap3-feedstock/pull/8"
     }
   }
 }
