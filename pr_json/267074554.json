@@ -1,5 +1,5 @@
 {
- "ETag":"W/\"ab90bdc82258c112ed0fce8705625a78\"",
+ "ETag":"W/\"6c6bedde8597a914a21f4e9da1afdee2\"",
  "Last-Modified":"Wed, 03 Apr 2019 14:31:14 GMT",
  "_links":{
   "comments":{
@@ -253,9 +253,9 @@
    },
    "private":false,
    "pulls_url":"https://api.github.com/repos/regro-cf-autotick-bot/vaex-core-feedstock/pulls{/number}",
-   "pushed_at":"2019-04-03T18:36:19Z",
+   "pushed_at":"2019-04-05T08:21:16Z",
    "releases_url":"https://api.github.com/repos/regro-cf-autotick-bot/vaex-core-feedstock/releases{/id}",
-   "size":58,
+   "size":52,
    "ssh_url":"git@github.com:regro-cf-autotick-bot/vaex-core-feedstock.git",
    "stargazers_count":0,
    "stargazers_url":"https://api.github.com/repos/regro-cf-autotick-bot/vaex-core-feedstock/stargazers",
@@ -300,8 +300,8 @@
  "locked":false,
  "maintainer_can_modify":true,
  "merge_commit_sha":"79f1e6b1d6bdf05aea5bb8d542805ffcfabbef5f",
- "mergeable":null,
- "mergeable_state":"unknown",
+ "mergeable":false,
+ "mergeable_state":"dirty",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -309,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MjY3MDc0NTU0",
  "number":30,
  "patch_url":"https://github.com/conda-forge/vaex-core-feedstock/pull/30.patch",
- "rebaseable":null,
+ "rebaseable":false,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/vaex-core-feedstock/pulls/comments{/number}",
