@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"ffa8ce83d83adb6e33b3130e53d8b70b\"",
+ "Last-Modified":"Fri, 05 Apr 2019 16:05:05 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/protobuf-feedstock/issues/63/comments"
@@ -159,7 +161,7 @@
  "body_text":"It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!\nHere is a list of all the pending dependencies (and their versions) for this repo. Please double check all dependencies before merging.\n\n\n\nName\nUpstream Version\nCurrent Version\n\n\n\n\nlibprotobuf\n3.7.1",
  "changed_files":13,
  "closed_at":null,
- "comments":1,
+ "comments":2,
  "comments_url":"https://api.github.com/repos/conda-forge/protobuf-feedstock/issues/63/comments",
  "commits":2,
  "commits_url":"https://api.github.com/repos/conda-forge/protobuf-feedstock/pulls/63/commits",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/protobuf-feedstock/statuses/64637498b37639c3ab8c8ff68d4b1b46a9f818d8",
  "title":"protobuf v3.7.1",
- "updated_at":"2019-03-26T17:27:18Z",
+ "updated_at":"2019-04-05T16:05:05Z",
  "url":"https://api.github.com/repos/conda-forge/protobuf-feedstock/pulls/63",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",
