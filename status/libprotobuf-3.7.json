@@ -5,14 +5,14 @@
     "protobuf",
     "onnx",
     "mysql-connector-python",
+    "orc",
     "grpc-cpp",
-    "libhdfs3",
-    "orc"
+    "libhdfs3"
   ],
   "in-pr": [
     "shogun-cpp",
-    "paraview",
-    "arrow-cpp"
+    "arrow-cpp",
+    "paraview"
   ],
   "awaiting-pr": [],
   "awaiting-parents": [
