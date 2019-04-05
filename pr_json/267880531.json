@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"4c8ef2564fde9898315117a2d9fbc3d2\"",
+ "Last-Modified":"Fri, 05 Apr 2019 16:02:35 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/issues/5/comments"
@@ -253,7 +255,7 @@
    "pulls_url":"https://api.github.com/repos/regro-cf-autotick-bot/r-rspectra-feedstock/pulls{/number}",
    "pushed_at":"2019-04-05T16:02:27Z",
    "releases_url":"https://api.github.com/repos/regro-cf-autotick-bot/r-rspectra-feedstock/releases{/id}",
-   "size":11,
+   "size":35,
    "ssh_url":"git@github.com:regro-cf-autotick-bot/r-rspectra-feedstock.git",
    "stargazers_count":0,
    "stargazers_url":"https://api.github.com/repos/regro-cf-autotick-bot/r-rspectra-feedstock/stargazers",
@@ -299,7 +301,7 @@
  "maintainer_can_modify":true,
  "merge_commit_sha":"5b85025adcf337135f5b17acb4ddd5f93d8fd820",
  "mergeable":true,
- "mergeable_state":"unstable",
+ "mergeable_state":"clean",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
