@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"4863c54c4ead82c6de34a7631948656c\"",
+ "Last-Modified":"Wed, 25 Jul 2018 00:34:01 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/args-feedstock/issues/6/comments"
@@ -298,8 +300,8 @@
  "locked":false,
  "maintainer_can_modify":true,
  "merge_commit_sha":"d21a46125ed038f34309ed9948412df1a678b74f",
- "mergeable":null,
- "mergeable_state":"unknown",
+ "mergeable":false,
+ "mergeable_state":"dirty",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -307,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MTk5OTY0OTE2",
  "number":6,
  "patch_url":"https://github.com/conda-forge/args-feedstock/pull/6.patch",
- "rebaseable":null,
+ "rebaseable":false,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/args-feedstock/pulls/comments{/number}",
