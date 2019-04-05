@@ -1,4 +1,6 @@
 {
+ "ETag":"W/\"26b734936d34e8798d39944002f7ea27\"",
+ "Last-Modified":"Fri, 05 Apr 2019 16:02:35 GMT",
  "_links":{
   "comments":{
    "href":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/issues/5/comments"
@@ -114,7 +116,7 @@
    },
    "private":false,
    "pulls_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/pulls{/number}",
-   "pushed_at":"2018-11-18T08:10:36Z",
+   "pushed_at":"2019-04-05T16:02:29Z",
    "releases_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/releases{/id}",
    "size":26,
    "ssh_url":"git@github.com:conda-forge/r-rspectra-feedstock.git",
@@ -159,7 +161,7 @@
  "body_text":"It is very likely that the current package version for this feedstock is out of date.\nNotes and instructions for merging this PR:\n\nPlease check that the dependencies have not changed.\nPlease merge the PR only after the tests have passed.\nFeel free to push to the bot's branch to update this PR if needed.\nThe bot will almost always only open one PR per version.\n\nIf this PR was opened in error or needs to be updated please add the bot-rerun label to this PR. The bot will close this PR and schedule another one.\nThis PR was created by the cf-regro-autotick-bot.\nThe cf-regro-autotick-bot is a service to automatically track the dependency graph, migrate packages, and propose package version updates for conda-forge. If you would like a local version of this bot, you might consider using rever. Rever is a tool for automating software releases and forms the backbone of the bot's conda-forge PRing capability. Rever is both conda (conda install -c conda-forge rever) and pip (pip install re-ver) installable.\nFinally, feel free to drop us a line if there are any issues!",
  "changed_files":20,
  "closed_at":null,
- "comments":0,
+ "comments":1,
  "comments_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/issues/5/comments",
  "commits":2,
  "commits_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/pulls/5/commits",
@@ -297,9 +299,9 @@
  "labels":[],
  "locked":false,
  "maintainer_can_modify":true,
- "merge_commit_sha":null,
- "mergeable":null,
- "mergeable_state":"unknown",
+ "merge_commit_sha":"5b85025adcf337135f5b17acb4ddd5f93d8fd820",
+ "mergeable":true,
+ "mergeable_state":"unstable",
  "merged":false,
  "merged_at":null,
  "merged_by":null,
@@ -307,7 +309,7 @@
  "node_id":"MDExOlB1bGxSZXF1ZXN0MjY3ODgwNTMx",
  "number":5,
  "patch_url":"https://github.com/conda-forge/r-rspectra-feedstock/pull/5.patch",
- "rebaseable":null,
+ "rebaseable":true,
  "requested_reviewers":[],
  "requested_teams":[],
  "review_comment_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/pulls/comments{/number}",
@@ -316,7 +318,7 @@
  "state":"open",
  "statuses_url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/statuses/49ae7ddb4ababcda385c0a4e790ab4023b0e993f",
  "title":"r-rspectra v0.14_0",
- "updated_at":"2019-04-05T16:02:28Z",
+ "updated_at":"2019-04-05T16:02:35Z",
  "url":"https://api.github.com/repos/conda-forge/r-rspectra-feedstock/pulls/5",
  "user":{
   "avatar_url":"https://avatars3.githubusercontent.com/u/36490558?v=4",
